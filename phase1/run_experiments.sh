@@ -8,9 +8,16 @@ export HF_HOME="/scratch/$USER/huggingface_cache"
 export XDG_CACHE_HOME="/scratch/$USER/xdg_cache"
 export TMPDIR="/scratch/$USER/tmp"
 
-# Activate environment
+# Activate environment dynamically depending on the hardware cluster
 eval "$(conda shell.bash hook)"
-conda activate vllm_gaudi
+if command -v hl-smi &> /dev/null; then
+    conda activate vllm_gaudi
+    echo "Intel Gaudi HPU Detected natively! Activating vllm_gaudi environment..."
+elif command -v nvidia-smi &> /dev/null; then
+    # Nvidia A100 environments require a standard CUDA pytorch installation rather than Intel Habana drivers
+    # conda activate your_cuda_env 
+    echo "Nvidia CUDA Node Detected natively! Assuming your standard GPU Conda environment is actively loaded!"
+fi
 
 MODELS=(
     "Qwen/Qwen3-VL-2B-Instruct"
