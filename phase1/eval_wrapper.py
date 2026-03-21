@@ -1,15 +1,25 @@
 import os
 import sys
+import glob
 
-# --- [HACK] Fix HPC sys.path priorities ---
-# The HPC sitecustomize.py forces ~/.local to the front, destroying Conda isolation.
-# We must move ~/.local to the absolute end of sys.path so Conda packages load first, 
-# but habana_frameworks can still be found as a fallback!
-user_site = os.path.expanduser("~/.local/lib/python3.10/site-packages")
-if user_site in sys.path:
-    sys.path.remove(user_site)
-    sys.path.append(user_site)
-# ------------------------------------------
+# --- [HACK] Scavenge Gaudi Drivers from Legacy Environment ---
+# Since habana_frameworks is completely missing from bare-metal Python and Pip,
+# we dynamically locate the user's pre-existing 'vllm_gaudi' Conda environment
+# and gracefully attach it to the absolute bottom of the sys.path. 
+# This lets us seamlessly borrow exactly the missing Intel C++ drivers without 
+# allowing its older packages to override our meticulously constructed environment!
+try:
+    vllm_env_base = os.path.expanduser("~/miniconda3/envs/vllm_gaudi/lib")
+    if os.path.exists(vllm_env_base):
+        py_dirs = glob.glob(os.path.join(vllm_env_base, "python3.*", "site-packages"))
+        if py_dirs:
+            legacy_site = py_dirs[0]
+            if legacy_site not in sys.path:
+                sys.path.append(legacy_site)
+                print(f"[Driver Bypass] Successfully attached legacy environment to borrow Habana drivers: {legacy_site}")
+except Exception:
+    pass
+# -----------------------------------------------------------
 
 import argparse
 import subprocess
