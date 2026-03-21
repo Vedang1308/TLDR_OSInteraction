@@ -39,10 +39,14 @@ def load_vlm_model(model_name, device):
         if "qwen3_vl" not in CONFIG_MAPPING:
             try:
                 from transformers.models.qwen2_vl.configuration_qwen2_vl import Qwen2VLConfig
-                AutoConfig.register("qwen3_vl", Qwen2VLConfig)
+                class SpoofQwen3Config(Qwen2VLConfig):
+                    model_type = "qwen3_vl"
+                AutoConfig.register("qwen3_vl", SpoofQwen3Config)
             except Exception:
                 from transformers import PretrainedConfig
-                AutoConfig.register("qwen3_vl", PretrainedConfig)
+                class SpoofQwen3Config(PretrainedConfig):
+                    model_type = "qwen3_vl"
+                AutoConfig.register("qwen3_vl", SpoofQwen3Config)
         # -----------------------------------------------------------------
 
         config = AutoConfig.from_pretrained(model_name, trust_remote_code=True)
