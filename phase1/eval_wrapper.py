@@ -169,6 +169,10 @@ def eval_omniact(model_name, device, model, processor):
             lines = tf.readlines()
             instruction_text = lines[0].replace("Task: ", "").strip() if len(lines) > 0 else "Instruction Load Failure"
             
+        if not os.path.exists(image_path):
+            print(f"  -> WARNING: Missing physical image for {task_id} -> {image_path}. Skipping isolated task.")
+            continue
+            
         from PIL import Image
         image = Image.open(image_path)
         
