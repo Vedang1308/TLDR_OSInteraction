@@ -121,7 +121,10 @@ def eval_omniact(model_name, device, model, processor):
     # Establish strict Model/Benchmark directory segregation for massive-scale analytics
     results_dir = os.path.join("results", safe_model_name, "omniact")
     os.makedirs(results_dir, exist_ok=True)
-    checkpoint_file = os.path.join(results_dir, "omniact_results.json")
+    
+    # Strip the generic monolithic vendor prefix to build a hyper-clean output filename string natively
+    clean_name = safe_model_name.replace("Qwen_", "").lower()
+    checkpoint_file = os.path.join(results_dir, f"omniact_{clean_name}_results.json")
     
     results = {}
     if os.path.exists(checkpoint_file):
