@@ -214,9 +214,10 @@ def eval_omniact(model_name, device, model, processor):
         with open(checkpoint_file, "w") as f:
             json.dump(results, f, indent=4)
             
-        if idx % 10 == 0:
-            print(f"  -> Saved checkpoint for {idx}/{total_tasks} examples.")
-            
+        # Stream the VLM thought process live to the terminal!
+        print(f"\n[{idx}/{total_tasks}] Task: {task_id}")
+        print(f"   Instruction: {instruction_text}")
+        print(f"   Qwen3 Token: {generated_action.strip()}\n")
     print(f"\n[OmniACT] Evaluation completely finished! Results securely saved to {checkpoint_file}")
 
 def main():
