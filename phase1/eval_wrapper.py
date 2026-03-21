@@ -2,6 +2,20 @@ import os
 import sys
 import argparse
 import subprocess
+from types import ModuleType
+
+# --- [HACK] Bypass Qwen3's strict VideoProcessor requirement on HPU without compiling C++ Extensions ---
+class MockModule(ModuleType):
+    def __getattr__(self, name):
+        # Return none or another mock safely without throwing AttributeError
+        return MockModule(f"{self.__name__}.{name}")
+        
+tv = MockModule("torchvision")
+sys.modules["torchvision"] = tv
+sys.modules["torchvision.transforms"] = tv
+sys.modules["torchvision.transforms.functional"] = tv
+sys.modules["torchvision.io"] = tv
+# -------------------------------------------------------------------------------------------------------
 
 def detect_device():
     """Detects available hardware accelerator (Gaudi HPU, Nvidia GPU, or CPU)."""
