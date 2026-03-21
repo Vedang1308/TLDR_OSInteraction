@@ -20,7 +20,6 @@ MODELS=(
 
 BENCHMARKS=(
     "osworld"
-    "blind-act"
     "omniact"
 )
 

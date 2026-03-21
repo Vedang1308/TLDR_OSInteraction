@@ -34,7 +34,8 @@ conda activate "/scratch/$USER/benchmarks_env"
 
 # Install general dependencies
 echo "Installing general dependencies..."
-pip install transformers accelerate datasets "datasets[vision]" pillow optimum requests
+pip install --upgrade pip
+pip install --upgrade transformers accelerate datasets "datasets[vision]" pillow optimum requests tqdm
 
 # Hardware-specific torch initialization
 if command -v hl-smi &> /dev/null; then
@@ -72,18 +73,20 @@ else
     echo "OSWorld already cloned."
 fi
 
-# 2. BLIND-ACT
-if [ ! -d "cua-blind-goal-directedness" ]; then
-    echo "Cloning BLIND-ACT..."
-    git clone https://github.com/microsoft/cua-blind-goal-directedness.git
-    cd cua-blind-goal-directedness
-    if [ -f "requirements.txt" ]; then
-        pip install -r requirements.txt
-    fi
-    cd ..
-else
-    echo "BLIND-ACT already cloned."
-fi
+# 2. BLIND-ACT (Currently commented out over GitHub Authentication/Private Repo status)
+# if [ ! -d "cua-blind-goal-directedness" ]; then
+#     echo "Cloning BLIND-ACT..."
+#     git clone https://github.com/microsoft/cua-blind-goal-directedness.git || echo "BLIND-ACT clone failed (Private Repo?)"
+#     if [ -d "cua-blind-goal-directedness" ]; then
+#         cd cua-blind-goal-directedness
+#         if [ -f "requirements.txt" ]; then
+#             pip install -r requirements.txt
+#         fi
+#         cd ..
+#     fi
+# else
+#     echo "BLIND-ACT already cloned."
+# fi
 
 # 3. OmniACT (Available via HuggingFace Datasets)
 echo "OmniACT does not require a repository clone; it will be loaded from HuggingFace Datasets (Writer/omniact)."
