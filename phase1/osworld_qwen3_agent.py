@@ -51,22 +51,37 @@ class Qwen3OSWorldAgent:
         screenshot = state.get("screenshot", None)
         
         # 1. --- FORMAT THE PROMPT FOR QWEN3-VL ---
-        # Note: You must write the conversational prompt layout for Qwen3 here!
-        # messages = [{"role": "user", "content": [{"type": "image", "image": screenshot}, {"type": "text", "text": instruction}]}]
+        messages = [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "image"},
+                    {"type": "text", "text": "Based on the screenshot, execute the following instruction and output the OS interaction command: " + instruction}
+                ]
+            }
+        ]
+        
+        text_prompt = self.processor.apply_chat_template(messages, add_generation_prompt=True)
         
         # 2. --- GENERATE TOKENS USING THE HPU ---
-        # inputs = self.processor(text=..., images=screenshot, return_tensors="pt").to(self.device)
-        # outputs = self.model.generate(**inputs, max_new_tokens=100)
-        # generated_text = self.processor.decode(outputs[0], skip_special_tokens=True)
+        # Convert the virtual Desktop screenshot into tensor embeddings
+        inputs = self.processor(text=[text_prompt], images=[screenshot], padding=True, return_tensors="pt").to(self.device)
         
-        generated_text = "MOCK PARSE STRING"
+        # Dispatch to the Hardware Compute Layer
+        generated_ids = self.model.generate(**inputs, max_new_tokens=150)
+        
+        # Clean output
+        generated_ids_trimmed = [
+            out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+        ]
+        generated_text = self.processor.batch_decode(
+            generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+        )[0]
         
         # 3. --- REVERSE-MAP TEXT INTO OSWORLD ACTION ---
-        # Parse the output string (e.g. "{action_type: click, x: 0.5, y: 0.5}") into a hard python dictionary.
-        # OSWorld natively reads this returned dictionary and physically executes it on the VMware container!
-        
         action_dict = {
-            "action_type": "WAIT"  # Placeholder action
+            "action_type": "MOCK_CLICK_PLACEHOLDER",
+            "raw_hpu_output": generated_text
         }
         
         return action_dict

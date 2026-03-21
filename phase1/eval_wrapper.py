@@ -142,15 +142,35 @@ def eval_omniact(model_name, device, model, processor):
             lines = tf.readlines()
             instruction_text = lines[0].replace("Task: ", "").strip() if len(lines) > 0 else "Instruction Load Failure"
             
-        if not os.path.exists(image_path):
-            continue
-            
-        # --- [PLACEHOLDER] Insert your actual Agent Prompting & Generation Logic here ---
-        # image = Image.open(image_path)
-        # generated_action = agent_loop(instruction_text, image, model, processor)
-        generated_action = "MOCK_CLICK_ACTION" 
+        from PIL import Image
+        image = Image.open(image_path)
         
-        # Save progress incrementally to disk
+        # 1. Structure the conversational payload for Qwen-VL
+        messages = [
+            {
+                "role": "user",
+                "content": [
+                    {"type": "image"},
+                    {"type": "text", "text": "Based on the screenshot, execute the following instruction and output the exact click coordinates or keyboard actions: " + instruction_text}
+                ]
+            }
+        ]
+        
+        # 2. Tokenize the structured chat template
+        text_prompt = processor.apply_chat_template(messages, add_generation_prompt=True)
+        inputs = processor(text=[text_prompt], images=[image], padding=True, return_tensors="pt")
+        inputs = inputs.to(device)
+        
+        # 3. Stream the tensors across the physical hardware for inference!
+        generated_ids = model.generate(**inputs, max_new_tokens=150)
+        
+        # 4. Decode the model's raw hardware output back into an english String
+        generated_ids_trimmed = [
+            out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)
+        ]
+        generated_action = processor.batch_decode(
+            generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False
+        )[0]
         results[task_id] = {"instruction": instruction_text[:100], "action": generated_action}
         with open(checkpoint_file, "w") as f:
             json.dump(results, f, indent=4)
