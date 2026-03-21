@@ -38,41 +38,59 @@ def load_vlm_model(model_name, device):
 
         if device == "hpu":
             # Modern Gaudi drivers typically handle operations natively without the old adapter
-            from transformers import AutoModelForImageTextToText, AutoModelForVision2Seq, AutoModelForCausalLM, AutoModel
             try:
+                from transformers import AutoModelForImageTextToText
                 model = AutoModelForImageTextToText.from_pretrained(model_name, config=config, trust_remote_code=True)
             except Exception:
                 try:
+                    from transformers import AutoModelForVision2Seq
                     model = AutoModelForVision2Seq.from_pretrained(model_name, config=config, trust_remote_code=True)
                 except Exception:
-                    model = AutoModelForCausalLM.from_pretrained(model_name, config=config, trust_remote_code=True)
+                    try:
+                        from transformers import AutoModelForCausalLM
+                        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, trust_remote_code=True)
+                    except Exception:
+                        from transformers import AutoModel
+                        model = AutoModel.from_pretrained(model_name, config=config, trust_remote_code=True)
             model.to("hpu")
             print("Successfully loaded model on Intel Gaudi HPU.")
             return model, processor
             
         elif device == "cuda":
             # Standard CUDA loading
-            from transformers import AutoModelForImageTextToText, AutoModelForVision2Seq, AutoModelForCausalLM, AutoModel
             try:
+                from transformers import AutoModelForImageTextToText
                 model = AutoModelForImageTextToText.from_pretrained(model_name, config=config, device_map="auto", trust_remote_code=True)
             except Exception:
                 try:
+                    from transformers import AutoModelForVision2Seq
                     model = AutoModelForVision2Seq.from_pretrained(model_name, config=config, device_map="auto", trust_remote_code=True)
                 except Exception:
-                    model = AutoModelForCausalLM.from_pretrained(model_name, config=config, device_map="auto", trust_remote_code=True)
+                    try:
+                        from transformers import AutoModelForCausalLM
+                        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, device_map="auto", trust_remote_code=True)
+                    except Exception:
+                        from transformers import AutoModel
+                        model = AutoModel.from_pretrained(model_name, config=config, device_map="auto", trust_remote_code=True)
             print("Successfully loaded model on Nvidia GPU.")
             return model, processor
             
         else:
             # Fallback to general/CPU
-            from transformers import AutoModelForImageTextToText, AutoModelForVision2Seq, AutoModelForCausalLM, AutoModel
             try:
+                from transformers import AutoModelForImageTextToText
                 model = AutoModelForImageTextToText.from_pretrained(model_name, config=config, trust_remote_code=True)
             except Exception:
                 try:
+                    from transformers import AutoModelForVision2Seq
                     model = AutoModelForVision2Seq.from_pretrained(model_name, config=config, trust_remote_code=True)
                 except Exception:
-                    model = AutoModelForCausalLM.from_pretrained(model_name, config=config, trust_remote_code=True)
+                    try:
+                        from transformers import AutoModelForCausalLM
+                        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, trust_remote_code=True)
+                    except Exception:
+                        from transformers import AutoModel
+                        model = AutoModel.from_pretrained(model_name, config=config, trust_remote_code=True)
             print("Successfully loaded model on CPU.")
             return model, processor
             
