@@ -180,7 +180,9 @@ def eval_omniact(model_name, device, model, processor):
             continue
             
         from PIL import Image
-        image = Image.open(image_path)
+        image = Image.open(image_path).convert("RGB")
+        # Aggressively cap raw pixel arrays to prevent exploding attention matrix memory on huge dataset images
+        image.thumbnail((1280, 1280), Image.Resampling.LANCZOS)
         
         # 1. Structure the conversational payload for Qwen-VL
         messages = [
