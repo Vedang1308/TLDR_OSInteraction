@@ -30,7 +30,7 @@ def load_vlm_model(model_name, device):
     # Qwen-VL architecture commonly uses AutoProcessor and AutoModelForImageTextToText
     try:
         from transformers import AutoProcessor
-        processor = AutoProcessor.from_pretrained(model_name)
+        processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
 
         if device == "hpu":
             # Opt for Optimum Habana implementation optimized for Gaudi
@@ -38,7 +38,10 @@ def load_vlm_model(model_name, device):
             adapt_transformers_to_features()
             from transformers import AutoModelForImageTextToText
             
-            model = AutoModelForImageTextToText.from_pretrained(model_name)
+            model = AutoModelForImageTextToText.from_pretrained(
+                model_name,
+                trust_remote_code=True
+            )
             model.to("hpu")
             print("Successfully loaded model on Intel Gaudi HPU.")
             return model, processor
@@ -48,7 +51,8 @@ def load_vlm_model(model_name, device):
             from transformers import AutoModelForImageTextToText
             model = AutoModelForImageTextToText.from_pretrained(
                 model_name,
-                device_map="auto"
+                device_map="auto",
+                trust_remote_code=True
             )
             print("Successfully loaded model on Nvidia GPU.")
             return model, processor
@@ -56,7 +60,10 @@ def load_vlm_model(model_name, device):
         else:
             # Fallback to general/CPU
             from transformers import AutoModelForImageTextToText
-            model = AutoModelForImageTextToText.from_pretrained(model_name)
+            model = AutoModelForImageTextToText.from_pretrained(
+                model_name, 
+                trust_remote_code=True
+            )
             print("Successfully loaded model on CPU.")
             return model, processor
             
