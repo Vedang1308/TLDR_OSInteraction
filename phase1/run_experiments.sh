@@ -7,7 +7,6 @@ set -e
 export HF_HOME="/scratch/$USER/huggingface_cache"
 export XDG_CACHE_HOME="/scratch/$USER/xdg_cache"
 export TMPDIR="/scratch/$USER/tmp"
-export PYTHONNOUSERSITE=1
 
 # Activate environment
 eval "$(conda shell.bash hook)"
