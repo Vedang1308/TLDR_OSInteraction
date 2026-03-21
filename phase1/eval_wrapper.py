@@ -34,11 +34,8 @@ def load_vlm_model(model_name, device):
         processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
 
         if device == "hpu":
-            # Opt for Optimum Habana implementation optimized for Gaudi
-            from optimum.habana.transformers.modeling_utils import adapt_transformers_to_features
-            adapt_transformers_to_features()
+            # Modern Gaudi drivers typically handle operations natively without the old adapter
             from transformers import AutoModelForImageTextToText
-            
             model = AutoModelForImageTextToText.from_pretrained(
                 model_name,
                 trust_remote_code=True
