@@ -2,20 +2,27 @@ import os
 import sys
 import argparse
 import subprocess
-from types import ModuleType
 
-# --- [HACK] Bypass Qwen3's strict VideoProcessor requirement on HPU without compiling C++ Extensions ---
-class MockModule(ModuleType):
-    def __getattr__(self, name):
-        # Return none or another mock safely without throwing AttributeError
-        return MockModule(f"{self.__name__}.{name}")
+# --- [HACK] Bypass Qwen3's VideoProcessor torchvision requirement elegantly ---
+# We uninstall torchvision so ImageProcessor safely falls back to Pillow. 
+# But VideoProcessor calls `requires_backends(self, ["torchvision"])` and dies.
+# We monkeypatch the check so it never raises an exception.
+def apply_huggingface_patch():
+    try:
+        import transformers.utils.import_utils
+        original_requires = transformers.utils.import_utils.requires_backends
         
-tv = MockModule("torchvision")
-sys.modules["torchvision"] = tv
-sys.modules["torchvision.transforms"] = tv
-sys.modules["torchvision.transforms.functional"] = tv
-sys.modules["torchvision.io"] = tv
-# -------------------------------------------------------------------------------------------------------
+        def bypass_requires_backends(obj, backends):
+            if isinstance(backends, (list, tuple)) and "torchvision" in backends:
+                backends = [b for b in backends if b != "torchvision"]
+            if backends:
+                original_requires(obj, backends)
+                
+        transformers.utils.import_utils.requires_backends = bypass_requires_backends
+        print("Successfully patched HuggingFace requires_backends constraint.")
+    except Exception as e:
+        print(f"Failed to patch transformers: {e}")
+# --------------------------------------------------------------------------------
 
 def detect_device():
     """Detects available hardware accelerator (Gaudi HPU, Nvidia GPU, or CPU)."""
@@ -108,6 +115,8 @@ def eval_omniact(model_name, device, model, processor):
         print("Please ensure 'datasets' is installed (`pip install datasets`).")
 
 def main():
+    apply_huggingface_patch()
+    
     parser = argparse.ArgumentParser(description="Unified Runner for VLMs on OSWorld, BLIND-ACT, and OmniACT")
     parser.add_argument("--benchmark", type=str, required=True, choices=["osworld", "blind-act", "omniact"])
     parser.add_argument("--model", type=str, required=True, help="HuggingFace model string (e.g. Qwen/Qwen3-VL-2B-Instruct)")
