@@ -115,23 +115,33 @@ def eval_omniact(model_name, device, model, processor):
              zip_ref.extractall(data_dir)
          print("[OmniACT] Extraction complete!")
          
-    # Locate all task.txt files to find valid task directories
-    task_files = glob.glob(os.path.join(data_dir, "**", "task.txt"), recursive=True)
+    # Locate all task script files in the tasks/ directory
+    task_files = glob.glob(os.path.join(data_dir, "data", "tasks", "**", "task_*.txt"), recursive=True)
     total_tasks = len(task_files)
     print(f"[OmniACT] Processing exactly {total_tasks} raw physical examples on {device}...")
     
     for idx, task_txt_path in enumerate(task_files):
+        task_filename = os.path.basename(task_txt_path)
+        # e.g. task_1.14.txt -> "1.14" -> screen "1"
+        stripped_metrics = task_filename.replace("task_", "").replace(".txt", "")
+        screen_id = stripped_metrics.split(".")[0]
+        
         task_dir = os.path.dirname(task_txt_path)
-        task_id = os.path.basename(task_dir)
+        domain_name = os.path.basename(task_dir)
+        task_id = f"{domain_name}_{stripped_metrics}"
         
         if task_id in results:
             continue # Skip efficiently
             
-        # Read Task Instruction natively from disk
+        # Reconstruct the image path by swapping /tasks/ for /data/ in the directory string
+        img_dir = task_dir.replace(os.sep + "tasks" + os.sep, os.sep + "data" + os.sep)
+        image_path = os.path.join(img_dir, f"screen{screen_id}.png")
+        
+        # Read Task Instruction natively from disk (First line of the text file contains the prompt)
         with open(task_txt_path, "r", encoding="utf-8") as tf:
-            instruction_text = tf.read().strip()
+            lines = tf.readlines()
+            instruction_text = lines[0].replace("Task: ", "").strip() if len(lines) > 0 else "Instruction Load Failure"
             
-        image_path = os.path.join(task_dir, "image.png")
         if not os.path.exists(image_path):
             continue
             
