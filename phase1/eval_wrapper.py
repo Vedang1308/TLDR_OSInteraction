@@ -75,10 +75,9 @@ def load_vlm_model(model_name, device):
 
 def eval_osworld(model_name, device, model, processor):
     print(f"[OSWorld] Evaluating {model_name} acting via OSWorld tasks...")
-    # NOTE: Actual integration involves OSWorld's `run.py` agent loop interfacing with inference.
-    # Since run.py manages its own process, one would typically use vLLM server endpoints or pass model configs to OSWorld.
-    # We display a placeholder for this structure.
-    print(f"[OSWorld] Passing logic to OSWorld's pipeline for {model_name}.")
+    print(f"[OSWorld] FATAL: OSWorld cannot be evaluated through a simple python wrapper because it requires a live interactive operating system!")
+    print(f"[OSWorld] I have generated 'osworld_qwen3_agent.py' for you. You must boot the xlangai/osworld Docker container on an isolated host, and feed that python script into OSWorld's run.py to begin physical GUI interaction.")
+    sys.exit(0)
 
 def eval_blind_act(model_name, device, model, processor):
     print(f"[BLIND-ACT] Evaluating {model_name} acting via BLIND-ACT tasks...")
@@ -100,32 +99,56 @@ def eval_omniact(model_name, device, model, processor):
             results = json.load(f)
         print(f"[OmniACT] Resuming from checkpoint. {len(results)} tasks already completed.")
 
-    try:
-        from datasets import load_dataset
-        dataset = load_dataset("Writer/omniact", split="test")
-        print(f"[OmniACT] Processing exactly {len(dataset)} examples on {device}...")
+        import urllib.request
+        import zipfile
+        import glob
         
-        for idx, item in enumerate(dataset):
-            task_id = str(idx) # Or item['id'] depending on dataset structure
+        data_dir = "omniact_data"
+        zip_path = "omniact_data.zip"
+        
+        if not os.path.exists(data_dir):
+             print(f"[OmniACT] Full 9.8k evaluation dataset not found locally. Downloading ~260MB raw data.zip from HuggingFace...")
+             # Download directly from HuggingFace's resolved dataset URL
+             urllib.request.urlretrieve("https://huggingface.co/datasets/Writer/omniact/resolve/main/data.zip", zip_path)
+             print("[OmniACT] Extracting archive...")
+             with zipfile.ZipFile(zip_path, 'r') as zip_ref:
+                 zip_ref.extractall(data_dir)
+             print("[OmniACT] Extraction complete!")
+             
+        # Locate all task.txt files to find valid task directories
+        task_files = glob.glob(os.path.join(data_dir, "**", "task.txt"), recursive=True)
+        total_tasks = len(task_files)
+        print(f"[OmniACT] Processing exactly {total_tasks} raw physical examples on {device}...")
+        
+        for idx, task_txt_path in enumerate(task_files):
+            task_dir = os.path.dirname(task_txt_path)
+            task_id = os.path.basename(task_dir)
+            
             if task_id in results:
                 continue # Skip efficiently
                 
+            # Read Task Instruction natively from disk
+            with open(task_txt_path, "r", encoding="utf-8") as tf:
+                instruction_text = tf.read().strip()
+                
+            image_path = os.path.join(task_dir, "image.png")
+            if not os.path.exists(image_path):
+                continue
+                
             # --- [PLACEHOLDER] Insert your actual Agent Prompting & Generation Logic here ---
-            # generated_action = agent_loop(item["instruction"], item["image"], model, processor)
+            # image = Image.open(image_path)
+            # generated_action = agent_loop(instruction_text, image, model, processor)
             generated_action = "MOCK_CLICK_ACTION" 
             
             # Save progress incrementally to disk
-            results[task_id] = {"instruction": item.get("instruction", ""), "action": generated_action}
+            results[task_id] = {"instruction": instruction_text[:100], "action": generated_action}
             with open(checkpoint_file, "w") as f:
                 json.dump(results, f, indent=4)
                 
             if idx % 10 == 0:
-                print(f"  -> Saved checkpoint for {idx}/{len(dataset)} examples.")
+                print(f"  -> Saved checkpoint for {idx}/{total_tasks} examples.")
                 
         print(f"\n[OmniACT] Evaluation completely finished! Results securely saved to {checkpoint_file}")
-        
-    except ImportError:
-        print("Please ensure 'datasets' is installed (`pip install datasets`).")
 
 def main():
     parser = argparse.ArgumentParser(description="Unified Runner for VLMs on OSWorld, BLIND-ACT, and OmniACT")
