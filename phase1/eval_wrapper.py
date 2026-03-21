@@ -237,15 +237,22 @@ def main():
     device = detect_device()
     print(f"Hardware Detection Initialized: {device.upper()}")
     
-    # Verify Cache Paths 
+    # Verify and Set Cache Paths for SOL
+    user = os.environ.get("USER")
+    if user:
+        if "HF_HOME" not in os.environ:
+            os.environ["HF_HOME"] = f"/scratch/{user}/huggingface_cache"
+        if "XDG_CACHE_HOME" not in os.environ:
+            os.environ["XDG_CACHE_HOME"] = f"/scratch/{user}/xdg_cache"
+            
     hf_cache = os.environ.get("HF_HOME", "NOT SET")
     xdg_cache = os.environ.get("XDG_CACHE_HOME", "NOT SET")
     print(f"Using HF_HOME={hf_cache}")
     print(f"Using XDG_CACHE_HOME={xdg_cache}")
 
-    # For safety, explicitly set huggingface caching properties:
-    os.environ["DEFAULT_HF_HOME"] = os.environ.get("HF_HOME", "")
-    os.environ["DEFAULT_XDG_CACHE_HOME"] = os.environ.get("XDG_CACHE_HOME", "")
+    # Ensure directories exist
+    os.makedirs(hf_cache, exist_ok=True) if hf_cache != "NOT SET" else None
+    os.makedirs(xdg_cache, exist_ok=True) if xdg_cache != "NOT SET" else None
 
     # Load Model (In real evaluation you may skip model instancing if using an OpenAI-compatible API endpoint like pure vLLM, 
     # but since the prompt explicitly asks to load it with python directly handling habana optimum optimizations vs cuda wrapper, we perform loading here.)
