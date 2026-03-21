@@ -164,6 +164,12 @@ def eval_omniact(model_name, device, model, processor):
         img_dir = task_dir.replace(os.sep + "tasks" + os.sep, os.sep + "data" + os.sep)
         image_path = os.path.join(img_dir, f"screen{screen_id}.png")
         
+        # Datasets are highly inconsistent natively (Web uses screen1.png, Desktop uses screen_1.png)
+        if not os.path.exists(image_path):
+            fallback_image_path = os.path.join(img_dir, f"screen_{screen_id}.png")
+            if os.path.exists(fallback_image_path):
+                image_path = fallback_image_path
+        
         # Read Task Instruction natively from disk (First line of the text file contains the prompt)
         with open(task_txt_path, "r", encoding="utf-8") as tf:
             lines = tf.readlines()
