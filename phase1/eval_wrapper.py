@@ -1,5 +1,16 @@
 import os
 import sys
+
+# --- [HACK] Fix HPC sys.path priorities ---
+# The HPC sitecustomize.py forces ~/.local to the front, destroying Conda isolation.
+# We must move ~/.local to the absolute end of sys.path so Conda packages load first, 
+# but habana_frameworks can still be found as a fallback!
+user_site = os.path.expanduser("~/.local/lib/python3.10/site-packages")
+if user_site in sys.path:
+    sys.path.remove(user_site)
+    sys.path.append(user_site)
+# ------------------------------------------
+
 import argparse
 import subprocess
 
