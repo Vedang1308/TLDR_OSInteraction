@@ -117,8 +117,11 @@ def eval_omniact(model_name, device, model, processor):
     # Configure resilient checkpointing
     import json
     safe_model_name = model_name.replace("/", "_")
-    os.makedirs("results", exist_ok=True)
-    checkpoint_file = f"results/omniact_checkpoint_{safe_model_name}.json"
+    
+    # Establish strict Model/Benchmark directory segregation for massive-scale analytics
+    results_dir = os.path.join("results", safe_model_name, "omniact")
+    os.makedirs(results_dir, exist_ok=True)
+    checkpoint_file = os.path.join(results_dir, "omniact_results.json")
     
     results = {}
     if os.path.exists(checkpoint_file):
