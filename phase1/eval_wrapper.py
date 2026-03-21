@@ -201,7 +201,8 @@ def eval_omniact(model_name, device, model, processor):
         inputs = inputs.to(device)
         
         # 3. Stream the tensors across the physical hardware for inference!
-        generated_ids = model.generate(**inputs, max_new_tokens=150)
+        # Enhanced to 350 because Qwen3's chain-of-thought dynamically exceeds 150-tokens causing truncation
+        generated_ids = model.generate(**inputs, max_new_tokens=350)
         
         # 4. Decode the model's raw hardware output back into an english String
         generated_ids_trimmed = [
