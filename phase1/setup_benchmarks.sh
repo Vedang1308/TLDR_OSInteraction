@@ -13,22 +13,24 @@ echo "================================================="
 export HF_HOME="/scratch/$USER/huggingface_cache"
 export XDG_CACHE_HOME="/scratch/$USER/xdg_cache"
 export PIP_CACHE_DIR="/scratch/$USER/pip_cache"
+export TMPDIR="/scratch/$USER/tmp"
 
 mkdir -p "$HF_HOME"
 mkdir -p "$XDG_CACHE_HOME"
 mkdir -p "$PIP_CACHE_DIR"
+mkdir -p "$TMPDIR"
 
-echo "Cache directories set to /scratch/$USER"
+echo "Cache and Temp directories set to /scratch/$USER"
 
-# Create a common conda environment
-if ! conda info --envs | grep -q "benchmarks_env"; then
-    echo "Creating Conda environment 'benchmarks_env' with Python 3.10..."
-    conda create -n benchmarks_env python=3.10 -y
+# Create a common conda environment in scratch
+if [ ! -d "/scratch/$USER/benchmarks_env" ]; then
+    echo "Creating Conda environment in /scratch/$USER/benchmarks_env with Python 3.10..."
+    conda create -p "/scratch/$USER/benchmarks_env" python=3.10 -y
 fi
 
 # We must use 'source activate' or standard activation for bash script
 eval "$(conda shell.bash hook)"
-conda activate benchmarks_env
+conda activate "/scratch/$USER/benchmarks_env"
 
 # Install general dependencies
 echo "Installing general dependencies..."
@@ -88,5 +90,5 @@ echo "OmniACT does not require a repository clone; it will be loaded from Huggin
 
 echo "================================================="
 echo "Setup complete! To begin, activate the environment:"
-echo "conda activate benchmarks_env"
+echo "conda activate /scratch/$USER/benchmarks_env"
 echo "================================================="

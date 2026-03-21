@@ -6,10 +6,11 @@ set -e
 
 export HF_HOME="/scratch/$USER/huggingface_cache"
 export XDG_CACHE_HOME="/scratch/$USER/xdg_cache"
+export TMPDIR="/scratch/$USER/tmp"
 
 # Activate environment
 eval "$(conda shell.bash hook)"
-conda activate benchmarks_env
+conda activate "/scratch/$USER/benchmarks_env"
 
 MODELS=(
     "Qwen/Qwen3-VL-2B-Instruct"
