@@ -14,6 +14,7 @@ export HF_HOME="/scratch/$USER/huggingface_cache"
 export XDG_CACHE_HOME="/scratch/$USER/xdg_cache"
 export PIP_CACHE_DIR="/scratch/$USER/pip_cache"
 export TMPDIR="/scratch/$USER/tmp"
+export PYTHONNOUSERSITE=1
 
 mkdir -p "$HF_HOME"
 mkdir -p "$XDG_CACHE_HOME"
