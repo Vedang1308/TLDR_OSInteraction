@@ -34,17 +34,17 @@ def load_vlm_model(model_name, device):
         processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
 
         # --- [HACK] Bypass Qwen3 Config Omission in older Transformers ---
+        from transformers import AutoConfig
         from transformers.models.auto.configuration_auto import CONFIG_MAPPING
         if "qwen3_vl" not in CONFIG_MAPPING:
             try:
                 from transformers.models.qwen2_vl.configuration_qwen2_vl import Qwen2VLConfig
-                CONFIG_MAPPING.update({"qwen3_vl": Qwen2VLConfig})
+                AutoConfig.register("qwen3_vl", Qwen2VLConfig)
             except Exception:
                 from transformers import PretrainedConfig
-                CONFIG_MAPPING.update({"qwen3_vl": PretrainedConfig})
+                AutoConfig.register("qwen3_vl", PretrainedConfig)
         # -----------------------------------------------------------------
 
-        from transformers import AutoConfig
         config = AutoConfig.from_pretrained(model_name, trust_remote_code=True)
 
         if device == "hpu":
