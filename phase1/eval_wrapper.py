@@ -98,11 +98,43 @@ def eval_blind_act(model_name, device, model, processor):
 
 def eval_omniact(model_name, device, model, processor):
     print(f"[OmniACT] Evaluating {model_name} against OmniACT dataset...")
-    # OmniACT uses HuggingFace Datasets for static tasks
+    
+    # Configure resilient checkpointing
+    import json
+    safe_model_name = model_name.replace("/", "_")
+    os.makedirs("results", exist_ok=True)
+    checkpoint_file = f"results/omniact_checkpoint_{safe_model_name}.json"
+    
+    results = {}
+    if os.path.exists(checkpoint_file):
+        with open(checkpoint_file, "r") as f:
+            results = json.load(f)
+        print(f"[OmniACT] Resuming from checkpoint. {len(results)} tasks already completed.")
+
     try:
         from datasets import load_dataset
-        # dataset = load_dataset("Writer/omniact", split="test")
-        print(f"[OmniACT] Datasets connected. Passing generation to model on {device}... (placeholder)")
+        dataset = load_dataset("Writer/omniact", split="test")
+        print(f"[OmniACT] Processing exactly {len(dataset)} examples on {device}...")
+        
+        for idx, item in enumerate(dataset):
+            task_id = str(idx) # Or item['id'] depending on dataset structure
+            if task_id in results:
+                continue # Skip efficiently
+                
+            # --- [PLACEHOLDER] Insert your actual Agent Prompting & Generation Logic here ---
+            # generated_action = agent_loop(item["instruction"], item["image"], model, processor)
+            generated_action = "MOCK_CLICK_ACTION" 
+            
+            # Save progress incrementally to disk
+            results[task_id] = {"instruction": item.get("instruction", ""), "action": generated_action}
+            with open(checkpoint_file, "w") as f:
+                json.dump(results, f, indent=4)
+                
+            if idx % 10 == 0:
+                print(f"  -> Saved checkpoint for {idx}/{len(dataset)} examples.")
+                
+        print(f"\n[OmniACT] Evaluation completely finished! Results securely saved to {checkpoint_file}")
+        
     except ImportError:
         print("Please ensure 'datasets' is installed (`pip install datasets`).")
 
