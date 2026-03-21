@@ -10,7 +10,7 @@ export TMPDIR="/scratch/$USER/tmp"
 
 # Activate environment
 eval "$(conda shell.bash hook)"
-conda activate "/scratch/$USER/benchmarks_env"
+conda activate vllm_gaudi
 
 MODELS=(
     "Qwen/Qwen3-VL-2B-Instruct"
