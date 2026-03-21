@@ -89,7 +89,9 @@ def load_vlm_model(model_name, device):
             return model, processor
             
     except Exception as e:
-        print(f"Failed to load VLM model {model_name} on {device}. Error: {e}")
+        import traceback
+        print(f"Failed to load VLM model {model_name} on {device}. Error Traceback:")
+        traceback.print_exc()
         sys.exit(1)
 
 def eval_osworld(model_name, device, model, processor):
