@@ -35,8 +35,8 @@ def load_vlm_model(model_name, device):
 
         if device == "hpu":
             # Modern Gaudi drivers typically handle operations natively without the old adapter
-            from transformers import AutoModelForImageTextToText
-            model = AutoModelForImageTextToText.from_pretrained(
+            from transformers import AutoModelForCausalLM
+            model = AutoModelForCausalLM.from_pretrained(
                 model_name,
                 trust_remote_code=True
             )
@@ -46,8 +46,8 @@ def load_vlm_model(model_name, device):
             
         elif device == "cuda":
             # Standard CUDA loading
-            from transformers import AutoModelForImageTextToText
-            model = AutoModelForImageTextToText.from_pretrained(
+            from transformers import AutoModelForCausalLM
+            model = AutoModelForCausalLM.from_pretrained(
                 model_name,
                 device_map="auto",
                 trust_remote_code=True
@@ -57,8 +57,8 @@ def load_vlm_model(model_name, device):
             
         else:
             # Fallback to general/CPU
-            from transformers import AutoModelForImageTextToText
-            model = AutoModelForImageTextToText.from_pretrained(
+            from transformers import AutoModelForCausalLM
+            model = AutoModelForCausalLM.from_pretrained(
                 model_name, 
                 trust_remote_code=True
             )
