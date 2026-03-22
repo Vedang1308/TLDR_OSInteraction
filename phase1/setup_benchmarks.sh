@@ -32,10 +32,10 @@ fi
 eval "$(conda shell.bash hook)"
 conda activate "/scratch/$USER/benchmarks_env"
 
-# Install general dependencies
+# Install general dependencies (pining transformers for Qwen3-VL compatibility)
 echo "Installing general dependencies..."
 pip install --upgrade pip
-pip install --upgrade transformers accelerate datasets "datasets[vision]" pillow optimum requests tqdm
+pip install --upgrade "transformers>=4.57.0" accelerate datasets "datasets[vision]" pillow optimum requests tqdm qwen-vl-utils
 
 # Hardware-specific torch initialization
 if command -v hl-smi &> /dev/null; then

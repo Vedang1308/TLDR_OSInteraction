@@ -37,6 +37,14 @@ def load_vlm_model(model_name, device):
         config = AutoConfig.from_pretrained(model_name, trust_remote_code=True)
 
         if device == "hpu":
+            # Must explicitly import Habana bindings before moving weights to HPU
+            try:
+                import habana_frameworks.torch.core as htcore
+            except ImportError:
+                print("\n[FATAL ERROR] 'habana_frameworks' not found! Your PyTorch is not linked with Gaudi APIs.")
+                print("Please re-run your required habana PyTorch pip install commands inside this Conda environment.\n")
+                sys.exit(1)
+
             # Modern Gaudi drivers typically handle operations natively without the old adapter
             try:
                 from transformers import AutoModelForImageTextToText
