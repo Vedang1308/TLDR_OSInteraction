@@ -10,7 +10,7 @@ export TMPDIR="/scratch/$USER/tmp"
 
 # Activate environment
 eval "$(conda shell.bash hook)"
-conda activate vllm_gaudi
+conda activate "/scratch/$USER/benchmarks_env"
 
 MODELS=(
     "Qwen/Qwen3-VL-2B-Instruct"
@@ -33,9 +33,20 @@ for MODEL in "${MODELS[@]}"; do
     for BENCHMARK in "${BENCHMARKS[@]}"; do
         echo ">>> LAUNCHING $BENCHMARK <<<"
         
-        # We pass execution to the unified evaluate wrapper, which detects hardware
-        # and runs the evaluation logic for the model.
-        python eval_wrapper.py --benchmark "$BENCHMARK" --model "$MODEL"
+        if [ "$BENCHMARK" == "osworld" ]; then
+            echo "Running OSWorld using direct evaluate script in OSWorld directory..."
+            # Change to OSWorld directory to run their strict evaluating framework natively
+            pushd OSWorld > /dev/null
+            python run.py --path_to_vm ubuntu_desktop \
+                          --eval_config evaluation_examples/test.json \
+                          --agent-cls-path ../osworld_qwen3_agent.py:Qwen3OSWorldAgent \
+                          --model_name "$MODEL" --max_steps 15
+            popd > /dev/null
+        else
+            # We pass execution to the unified evaluate wrapper, which detects hardware
+            # and runs the evaluation logic for the model.
+            python eval_wrapper.py --benchmark "$BENCHMARK" --model "$MODEL"
+        fi
         
         echo ">>> FINISHED $BENCHMARK <<<"
         echo "-----------------------------------------------------------------"
