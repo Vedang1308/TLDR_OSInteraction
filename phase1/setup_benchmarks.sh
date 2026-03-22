@@ -45,6 +45,9 @@ if command -v hl-smi &> /dev/null; then
     echo "-------------------------------------------------"
     # Use intel habana PyTorch versions (assumes working from Habana deep learning containers, or install via pip)
     pip install optimum[habana]
+    
+    echo "Force-Upgrading Transformers from source to overwrite optimum-habana downgrade..."
+    pip install git+https://github.com/huggingface/transformers.git qwen-vl-utils accelerate
 elif command -v nvidia-smi &> /dev/null; then
     echo "-------------------------------------------------"
     echo "Nvidia GPU Detected via nvidia-smi."
