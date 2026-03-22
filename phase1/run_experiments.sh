@@ -34,14 +34,11 @@ for MODEL in "${MODELS[@]}"; do
         echo ">>> LAUNCHING $BENCHMARK <<<"
         
         if [ "$BENCHMARK" == "osworld" ]; then
-            echo "Running OSWorld using direct evaluate script in OSWorld directory..."
-            # Change to OSWorld directory to run their strict evaluating framework natively
-            pushd OSWorld > /dev/null
-            python run.py --path_to_vm ubuntu_desktop \
-                          --eval_config evaluation_examples/test.json \
-                          --agent-cls-path ../osworld_qwen3_agent.py:Qwen3OSWorldAgent \
-                          --model_name "$MODEL" --max_steps 15
-            popd > /dev/null
+            echo "Running OSWorld using Gaudi-optimized runner..."
+            # Execute the new runner which imports OSWorld logic natively from phase1/
+            python gaudi_osworld_runner.py \
+                          --config_path OSWorld/evaluation_examples/test.json \
+                          --model "$MODEL" --max_steps 15 --provider "local"
         else
             # We pass execution to the unified evaluate wrapper, which detects hardware
             # and runs the evaluation logic for the model.

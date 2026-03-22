@@ -56,7 +56,11 @@ class Qwen3OSWorldAgent:
                 "role": "user",
                 "content": [
                     {"type": "image"},
-                    {"type": "text", "text": "Based on the screenshot, execute the following instruction and output the OS interaction command: " + instruction}
+                    {"type": "text", "text": f"Based on the screenshot, execute the following instruction. "
+                                             f"Output ONLY a single command in one of these formats: "
+                                             f"click(x, y), type('text'), drag(x1, y1, x2, y2), or scroll(up/down). "
+                                             f"The Desktop screen resolution is 1920x1080. "
+                                             f"\nTask Instruction: {instruction}"}
                 ]
             }
         ]
@@ -80,7 +84,7 @@ class Qwen3OSWorldAgent:
         
         # 3. --- REVERSE-MAP TEXT INTO OSWORLD ACTION ---
         action_dict = {
-            "action_type": "MOCK_CLICK_PLACEHOLDER",
+            "action_type": "QWEN_GAUDI_ACTION",
             "raw_hpu_output": generated_text
         }
         
