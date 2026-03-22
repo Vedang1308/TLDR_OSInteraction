@@ -13,6 +13,22 @@ sys.path.append(OSWORLD_DIR)
 sys.path.append(CURRENT_DIR)
 
 from desktop_env.desktop_env import DesktopEnv
+from desktop_env.providers.docker.provider import DockerProvider
+
+# --- MONKEY-PATCH DOCKER PROVIDER FOR APPTAINER ---
+# Bypass the actual 'docker run' command
+def mock_start_emulator(*args, **kwargs):
+    print("  [Apptainer Bridge] Bypassing Docker start_emulator (Assuming Apptainer instance 'osworld_worker' is running)")
+
+# Return the localhost ports that the Apptainer instance exposes
+def mock_get_ip_address(*args, **kwargs):
+    print("  [Apptainer Bridge] Routing connection to localhost ports...")
+    return "127.0.0.1:5000:9222:8006:8080"
+
+DockerProvider.start_emulator = mock_start_emulator
+DockerProvider.get_ip_address = mock_get_ip_address
+# --------------------------------------------------
+
 from osworld_qwen3_agent import Qwen3OSWorldAgent
 
 def main():
@@ -20,7 +36,7 @@ def main():
     parser.add_argument("--model", type=str, required=True, help="HuggingFace model string")
     parser.add_argument("--config_path", type=str, required=True, help="Path to evaluation JSON")
     parser.add_argument("--max_steps", type=int, default=15)
-    parser.add_argument("--provider", type=str, default="local", help="Use 'local' inside Apptainer")
+    parser.add_argument("--provider", type=str, default="docker", help="Use 'docker' to trigger the Apptainer Monkey Patch")
     args = parser.parse_args()
 
     # 1. Force DISPLAY to :1 if not set (standard for osworld-docker Xvfb)

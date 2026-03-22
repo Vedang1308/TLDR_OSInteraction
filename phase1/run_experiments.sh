@@ -38,7 +38,7 @@ for MODEL in "${MODELS[@]}"; do
             # Execute the new runner which imports OSWorld logic natively from phase1/
             python gaudi_osworld_runner.py \
                           --config_path OSWorld/evaluation_examples/test.json \
-                          --model "$MODEL" --max_steps 15 --provider "local"
+                          --model "$MODEL" --max_steps 15 --provider "docker"
         else
             # We pass execution to the unified evaluate wrapper, which detects hardware
             # and runs the evaluation logic for the model.
