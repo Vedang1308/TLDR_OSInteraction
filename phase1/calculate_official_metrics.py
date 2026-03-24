@@ -56,16 +56,21 @@ def parse_pyautogui_actions(text: str) -> List[Dict[str, Any]]:
             deduped.append(a)
         else:
             prev = deduped[-1]
-            # Check if same type and same params
+            # Drifting Repetition Mitigation
             is_same = (a['type'] == prev['type'])
             if is_same:
-                if a['type'] == 'click' and a['x'] == prev['x'] and a['y'] == prev['y']: pass
+                if a['type'] == 'click':
+                    dist = math.sqrt((a['x'] - prev['x'])**2 + (a['y'] - prev['y'])**2)
+                    if dist < 30: pass # Treat as same if < 30px drift
+                    else: is_same = False
                 elif a['type'] == 'write' and a['text'] == prev['text']: pass
                 elif a['type'] == 'press' and a.get('key') == prev.get('key'): pass
                 else: is_same = False
             
             if not is_same:
                 deduped.append(a)
+            # Hard cap for extreme looping
+            if len(deduped) > 20: break
     
     return deduped
 
@@ -98,6 +103,15 @@ def main():
     with open(args.results, 'r') as f:
         results = json.load(f)
 
+    # Find the tasks directory within data_dir
+    tasks_root = os.path.join(args.data_dir, "tasks")
+    if not os.path.exists(tasks_root):
+        tasks_root = os.path.join(args.data_dir, "data", "tasks")
+    
+    if not os.path.exists(tasks_root):
+        print(f"Error: Could not find 'tasks' directory in {args.data_dir}")
+        return
+
     total_as = 0.0
     total_ss = 0.0
     count = 0
@@ -106,7 +120,11 @@ def main():
 
     for task_id, data in results.items():
         try:
-            domain_name, metrics = task_id.rsplit('_', 1)
+            # Handle both samsung_1.17 and other forms
+            if '_' in task_id:
+                domain_name, metrics = task_id.rsplit('_', 1)
+            else:
+                continue
         except ValueError:
             continue
 
@@ -114,13 +132,13 @@ def main():
         gold_script = ""
         found = False
         domain_subpath = ""
-        for root, dirs, files in os.walk(os.path.join(args.data_dir, "tasks")):
+        for root, dirs, files in os.walk(tasks_root):
             if os.path.basename(root) == domain_name:
                 target_file = f"task_{metrics}.txt"
                 if target_file in files:
                     with open(os.path.join(root, target_file), 'r') as tf:
                         gold_script = tf.read()
-                        domain_subpath = root.split('tasks/')[1]
+                        domain_subpath = root.split('tasks' + os.sep)[-1]
                         found = True
                         break
             if found: break
