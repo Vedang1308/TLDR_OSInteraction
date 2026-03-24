@@ -6,20 +6,41 @@ import subprocess
 import torch
 from transformers import StoppingCriteria, StoppingCriteriaList
 
+import math
+import re
+
 class RepetitionStoppingCriteria(StoppingCriteria):
-    def __init__(self, processor, threshold=3):
+    def __init__(self, processor, threshold=2):
         self.processor = processor
         self.threshold = threshold
+        self.pattern = re.compile(r"click\((\d+),\s*(\d+)\)")
 
     def __call__(self, input_ids, scores, **kwargs):
-        # Decode the last 60 tokens to check for repetition (approx 3 lines)
-        generated_text = self.processor.batch_decode(input_ids[:, -60:], skip_special_tokens=True)[0]
-        # Clean lines
+        # Decode enough context to check recent lines
+        generated_text = self.processor.batch_decode(input_ids[:, -100:], skip_special_tokens=True)[0]
         lines = [l.strip() for l in generated_text.split('\n') if l.strip()]
+        
         if len(lines) >= self.threshold:
-            # Check if last N lines are identical
-            last_n = lines[-self.threshold:]
-            if len(set(last_n)) == 1:
+            last_lines = lines[-self.threshold:]
+            # 1. Exact match check
+            if len(set(last_lines)) == 1:
+                return True
+            
+            # 2. Drifting Click detection
+            clicks = []
+            for line in last_lines:
+                match = self.pattern.search(line)
+                if match:
+                    clicks.append((int(match.group(1)), int(match.group(2))))
+            
+            if len(clicks) == self.threshold:
+                # Check if they are all very close or moving in a tight band
+                for i in range(1, len(clicks)):
+                    dist = math.sqrt((clicks[i][0]-clicks[i-1][0])**2 + (clicks[i][1]-clicks[i-1][1])**2)
+                    if dist < 40: # Drifting or exact click
+                        continue
+                    else:
+                        return False
                 return True
         return False
 
