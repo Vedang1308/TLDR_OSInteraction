@@ -111,7 +111,7 @@ def eval_blind_act(model_name, device, model, processor):
     # BLIND-ACT similarly builds upon OSWorld's execution loop.
     print(f"[BLIND-ACT] Passing logic to BLIND-ACT's pipeline for {model_name}.")
 
-def eval_omniact(model_name, device, model, processor):
+def eval_omniact(model_name, device, model, processor, limit=-1):
     print(f"[OmniACT] Evaluating {model_name} against OmniACT dataset...")
     
     # Configure resilient checkpointing
@@ -150,6 +150,8 @@ def eval_omniact(model_name, device, model, processor):
          
     # Locate all task script files in the tasks/ directory
     task_files = glob.glob(os.path.join(data_dir, "data", "tasks", "**", "task_*.txt"), recursive=True)
+    if limit > 0:
+        task_files = task_files[:limit]
     total_tasks = len(task_files)
     print(f"[OmniACT] Processing exactly {total_tasks} raw physical examples on {device}...")
     
@@ -190,19 +192,85 @@ def eval_omniact(model_name, device, model, processor):
         # Aggressively cap raw pixel arrays to prevent exploding attention matrix memory on huge dataset images
         image.thumbnail((1280, 1280), Image.Resampling.LANCZOS)
         
-        # 1. Structure the conversational payload for Qwen-VL
+        # 0. Load Grounding Elements (Doing the "DetACT" part exactly as in paper using provided metadata)
+        grounding_text = ""
+        
+        # Determine likely metadata paths based on domain structure
+        box_search_paths = [
+            os.path.join(data_dir, "metadata", "desktop", "boxes", domain_name, f"screen_{screen_id}.json"),
+            os.path.join(data_dir, "metadata", "web", "boxes", domain_name, f"screen{screen_id}_boxes.json"),
+            os.path.join(data_dir, "metadata", domain_name, "boxes", f"screen_{screen_id}.json"),
+        ]
+        
+        box_file = None
+        for path in box_search_paths:
+            if os.path.exists(path):
+                box_file = path
+                break
+
+        if box_file and os.path.exists(box_file):
+            with open(box_file, "r") as bf:
+                boxes_data = json.load(bf)
+            grounding_text = "Here are UI elements relevant for the task:\n"
+            # In paper, they filter these. We'll provide all as a conservative baseline or up to 20.
+            for k, v in list(boxes_data.items())[:25]:
+                label = v.get('label', 'unknown')
+                tl = v.get('top_left', [0,0])
+                br = v.get('bottom_right', [0,0])
+                center_x = (tl[0] + br[0]) / 2.0
+                center_y = (tl[1] + br[1]) / 2.0
+                grounding_text += f"\"{label}\": <x: {center_x:.1f}, y: {center_y:.1f}>\n"
+        
+        # 1. Structure the Paper-Aligned conversational payload (Fig 4)
+        role_desc = "Role: You are an excellent robotic process automation agent. Your goal is to generate PyAutoGUI code to achieve the given task based on the screenshot and UI elements provided."
+        api_ref = """Below is the API Reference to use for the process:
+def click(x: float, y: float):
+    \"\"\"takes the mouse to location (X, Y) and does a left click\"\"\"
+    pass
+def write(text: str):
+    \"\"\"Types the text, which is a string\"\"\"
+    pass
+def press(key: str):
+    \"\"\"Presses a specific keyboard key\"\"\"
+    pass
+def scroll(amount: int):
+    \"\"\"Scrolls the screen by amount\"\"\"
+    pass"""
+
+        examples = """Here are a few examples for reference:
+Example 1:
+Task: Open the email from Google
+Output Script:
+pyautogui.click(410, 578)
+
+Example 2:
+Task: Search for "OmniACT"
+Output Script:
+pyautogui.click(200, 50)
+pyautogui.write("OmniACT")
+pyautogui.press("enter")"""
+
+        full_prompt = f"{role_desc}\n\n{api_ref}\n\n{examples}\n\n{grounding_text}\n\nGiven the task below, complete the output script:\nTask: {instruction_text}\nOutput Script:"
+
         messages = [
             {
                 "role": "user",
                 "content": [
                     {"type": "image"},
-                    {"type": "text", "text": "Based on the screenshot, execute the following instruction and output the exact click coordinates or keyboard actions: " + instruction_text}
+                    {"type": "text", "text": full_prompt}
                 ]
             }
         ]
         
         # 2. Tokenize the structured chat template
         text_prompt = processor.apply_chat_template(messages, add_generation_prompt=True)
+        
+        if os.environ.get("DRY_RUN") == "1":
+            print(f"\n--- DRY RUN PROMPT FOR TASK {task_id} ---")
+            print(full_prompt)
+            print("--- END DRY RUN ---")
+            sys.exit(0)
+            
         inputs = processor(text=[text_prompt], images=[image], padding=True, return_tensors="pt")
         inputs = inputs.to(device)
         
@@ -231,6 +299,7 @@ def main():
     parser = argparse.ArgumentParser(description="Unified Runner for VLMs on OSWorld, BLIND-ACT, and OmniACT")
     parser.add_argument("--benchmark", type=str, required=True, choices=["osworld", "blind-act", "omniact"])
     parser.add_argument("--model", type=str, required=True, help="HuggingFace model string (e.g. Qwen/Qwen3-VL-2B-Instruct)")
+    parser.add_argument("--limit", type=int, default=-1, help="Limit the number of tasks to evaluate")
     args = parser.parse_args()
 
     # Hardware Detection
@@ -257,7 +326,7 @@ def main():
     elif args.benchmark == "blind-act":
         eval_blind_act(args.model, device, model, processor)
     elif args.benchmark == "omniact":
-        eval_omniact(args.model, device, model, processor)
+        eval_omniact(args.model, device, model, processor, limit=args.limit)
 
 if __name__ == "__main__":
     main()
