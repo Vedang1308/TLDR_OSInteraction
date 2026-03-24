@@ -206,10 +206,8 @@ def main():
                     k_penalty = 0 if m.get('key') == g.get('key') else alpha
                     penalties += k_penalty
             
-            task_as = max(ss - penalties, 0)
-            total_as += task_as / ss # Normalized as per eq 6 denominator? 
-            # Actually eq 6 is sum(max(SS - sum(penalties), 0)) / sum(SS)
-            # We'll compute it correctly at the end.
+            task_as_achieved = max(ss - penalties, 0)
+            total_as += task_as_achieved
         
         count += 1
 
@@ -217,14 +215,18 @@ def main():
         print("No tasks evaluated.")
         return
 
-    # Final scores
-    final_as = (total_as / count) * 100 # Percentage
-    final_ss = (total_ss / count) 
+    # Final scores (Matching Eq 6 Exactly: Sum of Achieved / Sum of Max)
+    if total_ss > 0:
+        final_as = (total_as / total_ss) * 100
+    else:
+        final_as = 0.0
+    
+    final_ss_avg = (total_ss / count) 
     
     print(f"\nOfficial OmniACT Metrics Summary:")
     print(f"Tasks Evaluated: {count}")
-    print(f"Sequence Score (SS): {final_ss:.4f}")
-    print(f"Action Score (AS): {final_as:.4f}%")
+    print(f"Average Sequence Score (SS): {final_ss_avg:.4f}")
+    print(f"Action Score (AS - Eq 6): {final_as:.4f}%")
 
 if __name__ == "__main__":
     main()
