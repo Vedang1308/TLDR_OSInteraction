@@ -41,7 +41,7 @@ def parse_pyautogui_actions(text: str) -> List[Dict[str, Any]]:
         elif p_match:
             actions.append({'type': 'press', 'key': p_match.group(1)})
             
-    # Also catch the semi-structured formats
+    # Catch the semi-structured formats
     if not actions:
         coord_pattern = r"(?:coordinates?|at|is|are|[:\s\[({])\s*\(?(\d{1,4}),\s*(\d{1,4})\)?[\s\])}]*"
         for match in re.finditer(coord_pattern, text):
@@ -49,7 +49,25 @@ def parse_pyautogui_actions(text: str) -> List[Dict[str, Any]]:
             if x < 4000 and y < 4000:
                 actions.append({'type': 'click', 'x': float(x), 'y': float(y)})
     
-    return actions
+    # Repetition/Looping Mitigation (Deduplicate consecutive identical actions)
+    deduped = []
+    for a in actions:
+        if not deduped:
+            deduped.append(a)
+        else:
+            prev = deduped[-1]
+            # Check if same type and same params
+            is_same = (a['type'] == prev['type'])
+            if is_same:
+                if a['type'] == 'click' and a['x'] == prev['x'] and a['y'] == prev['y']: pass
+                elif a['type'] == 'write' and a['text'] == prev['text']: pass
+                elif a['type'] == 'press' and a.get('key') == prev.get('key'): pass
+                else: is_same = False
+            
+            if not is_same:
+                deduped.append(a)
+    
+    return deduped
 
 def get_euclidean_to_box(px, py, box):
     # box: [x1, y1, x2, y2]
