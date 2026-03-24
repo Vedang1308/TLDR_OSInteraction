@@ -3,6 +3,25 @@ import sys
 
 import argparse
 import subprocess
+import torch
+from transformers import StoppingCriteria, StoppingCriteriaList
+
+class RepetitionStoppingCriteria(StoppingCriteria):
+    def __init__(self, processor, threshold=3):
+        self.processor = processor
+        self.threshold = threshold
+
+    def __call__(self, input_ids, scores, **kwargs):
+        # Decode the last 60 tokens to check for repetition (approx 3 lines)
+        generated_text = self.processor.batch_decode(input_ids[:, -60:], skip_special_tokens=True)[0]
+        # Clean lines
+        lines = [l.strip() for l in generated_text.split('\n') if l.strip()]
+        if len(lines) >= self.threshold:
+            # Check if last N lines are identical
+            last_n = lines[-self.threshold:]
+            if len(set(last_n)) == 1:
+                return True
+        return False
 
 def detect_device():
     """Detects available hardware accelerator (Gaudi HPU, Nvidia GPU, or CPU)."""
@@ -276,7 +295,9 @@ pyautogui.press("enter")"""
         
         # 3. Stream the tensors across the physical hardware for inference!
         # Physically un-bounded Qwen3's maximum structural token volume to 1024 to mathematically guarantee zero data truncation
-        generated_ids = model.generate(**inputs, max_new_tokens=1024)
+        # Added RepetitionStoppingCriteria to mitigate infinite looping in 2B models
+        stopping_criteria = StoppingCriteriaList([RepetitionStoppingCriteria(processor)])
+        generated_ids = model.generate(**inputs, max_new_tokens=1024, stopping_criteria=stopping_criteria)
         
         # 4. Decode the model's raw hardware output back into an english String
         generated_ids_trimmed = [
