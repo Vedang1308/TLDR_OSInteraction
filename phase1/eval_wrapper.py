@@ -232,34 +232,8 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
         # Aggressively cap raw pixel arrays to prevent exploding attention matrix memory on huge dataset images
         image.thumbnail((1280, 1280), Image.Resampling.LANCZOS)
         
-        # 0. Load Grounding Elements (Doing the "DetACT" part exactly as in paper using provided metadata)
+        # 0. UI Metadata Grounding REMOVED for Phase 1 Baseline (Pure Vision-to-Action)
         grounding_text = ""
-        
-        # Determine likely metadata paths based on domain structure
-        box_search_paths = [
-            os.path.join(data_dir, "metadata", "desktop", "boxes", domain_name, f"screen_{screen_id}.json"),
-            os.path.join(data_dir, "metadata", "web", "boxes", domain_name, f"screen{screen_id}_boxes.json"),
-            os.path.join(data_dir, "metadata", domain_name, "boxes", f"screen_{screen_id}.json"),
-        ]
-        
-        box_file = None
-        for path in box_search_paths:
-            if os.path.exists(path):
-                box_file = path
-                break
-
-        if box_file and os.path.exists(box_file):
-            with open(box_file, "r") as bf:
-                boxes_data = json.load(bf)
-            grounding_text = "Here are UI elements relevant for the task:\n"
-            # In paper, they filter these. We'll provide all as a conservative baseline or up to 20.
-            for k, v in list(boxes_data.items())[:25]:
-                label = v.get('label', 'unknown')
-                tl = v.get('top_left', [0,0])
-                br = v.get('bottom_right', [0,0])
-                center_x = (tl[0] + br[0]) / 2.0
-                center_y = (tl[1] + br[1]) / 2.0
-                grounding_text += f"\"{label}\": <x: {center_x:.1f}, y: {center_y:.1f}>\n"
         
         # 1. Structure the Paper-Aligned conversational payload (Fig 4)
         role_desc = "Role: You are an excellent robotic process automation agent. Your goal is to generate PyAutoGUI code to achieve the given task based on the screenshot and UI elements provided."
@@ -290,7 +264,7 @@ pyautogui.click(200, 50)
 pyautogui.write("OmniACT")
 pyautogui.press("enter")"""
 
-        full_prompt = f"{role_desc}\n\n{api_ref}\n\n{examples}\n\n{grounding_text}\n\nGiven the task below, complete the output script:\nTask: {instruction_text}\nOutput Script:"
+        full_prompt = f"{role_desc}\n\n{api_ref}\n\n{examples}\n\nGiven the task and screenshot below, complete the output script:\nTask: {instruction_text}\nOutput Script:"
 
         messages = [
             {
