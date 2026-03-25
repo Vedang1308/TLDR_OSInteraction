@@ -143,7 +143,9 @@ def main():
                         break
             if found: break
         
-        if not found: continue
+        if not found:
+            print(f"  -> WARNING: Skipping task {task_id}: Could not find task file task_{metrics}.txt in domain {domain_name}")
+            continue
 
         # Parse Actions
         model_actions = parse_pyautogui_actions(data.get('action', ''))
@@ -169,6 +171,10 @@ def main():
         # 1. Sequence Score
         ss = calculate_sequence_score(model_actions, gold_actions)
         total_ss += ss
+        if ss > 0:
+            data['is_match'] = True
+        else:
+            data['is_match'] = False
         
         # 2. Action Score (Eq 6)
         if ss > 0:
@@ -221,12 +227,14 @@ def main():
     else:
         final_as = 0.0
     
-    final_ss_avg = (total_ss / count) 
+    total_ss_avg = (total_ss / count) if count > 0 else 0
+    match_rate = (sum(1 for task_id, data in results.items() if data.get('is_match', False)) / count) * 100 if count > 0 else 0
     
     print(f"\nOfficial OmniACT Metrics Summary:")
     print(f"Tasks Evaluated: {count}")
-    print(f"Average Sequence Score (SS): {final_ss_avg:.4f}")
+    print(f"Average Sequence Score (SS Mean): {total_ss_avg:.4f}")
     print(f"Action Score (AS - Eq 6): {final_as:.4f}%")
+    print(f"Perfect Sequence Match Rate: {match_rate:.2f}%")
 
 if __name__ == "__main__":
     main()
