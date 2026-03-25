@@ -201,9 +201,9 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
         stripped_metrics = task_filename.replace("task_", "").replace(".txt", "")
         screen_id = stripped_metrics.split(".")[0]
         
-        task_dir = os.path.dirname(task_txt_path)
-        domain_name = os.path.basename(task_dir)
-        task_id = f"{domain_name}_{stripped_metrics}"
+        # Use relative path as the unique task_id to avoid domain collisions
+        task_rel_path = os.path.relpath(task_txt_path, os.path.join(data_dir, "data", "tasks"))
+        task_id = task_rel_path.replace(os.sep, "__") # unique key
         
         if task_id in results:
             continue # Skip efficiently

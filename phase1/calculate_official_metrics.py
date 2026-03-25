@@ -120,31 +120,20 @@ def main():
 
     for task_id, data in results.items():
         try:
-            # Handle both samsung_1.17 and other forms
-            if '_' in task_id:
-                domain_name, metrics = task_id.rsplit('_', 1)
-            else:
+            # Load Gold Script directly using the relative path in task_id
+            task_rel_path = task_id.replace("__", os.sep)
+            gold_path = os.path.join(tasks_root, task_rel_path)
+            
+            if not os.path.exists(gold_path):
+                print(f"  -> WARNING: Skipping task {task_id}: Could not find task file at {gold_path}")
                 continue
-        except ValueError:
-            continue
 
-        # Load Gold Script
-        gold_script = ""
-        found = False
-        domain_subpath = ""
-        for root, dirs, files in os.walk(tasks_root):
-            if os.path.basename(root) == domain_name:
-                target_file = f"task_{metrics}.txt"
-                if target_file in files:
-                    with open(os.path.join(root, target_file), 'r') as tf:
-                        gold_script = tf.read()
-                        domain_subpath = root.split('tasks' + os.sep)[-1]
-                        found = True
-                        break
-            if found: break
-        
-        if not found:
-            print(f"  -> WARNING: Skipping task {task_id}: Could not find task file task_{metrics}.txt in domain {domain_name}")
+            with open(gold_path, 'r') as tf:
+                gold_script = tf.read()
+                domain_subpath = os.path.dirname(task_rel_path)
+                found = True
+        except Exception as e:
+            print(f"  -> ERROR: Failed to process task {task_id}: {e}")
             continue
 
         # Parse Actions
