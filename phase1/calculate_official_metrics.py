@@ -220,6 +220,7 @@ def main():
         final_as = 0.0
     
     total_ss_avg = (total_ss / count) if count > 0 else 0
+    match_rate = (sum(1 for task_id, data in results.items() if data.get('is_match', False)) / count) * 100 if count > 0 else 0
     
     print(f"\nOfficial OmniACT Metrics Summary:")
     print(f"Total Results Provided: {len(results)}")
@@ -228,6 +229,7 @@ def main():
     print(f"Tasks Skipped (No Gold Actions): {skip_empty_gold}")
     print(f"Average Sequence Score (SS Mean): {total_ss_avg:.4f}")
     print(f"Action Score (AS - Eq 6): {final_as:.4f}%")
+    print(f"Perfect Sequence Match Rate: {match_rate:.2f}%")
 
 if __name__ == "__main__":
     main()
