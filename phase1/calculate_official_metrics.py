@@ -118,6 +118,9 @@ def main():
 
     print(f"Propagating paper-standard Action Scores for {len(results)} tasks...")
 
+    skip_missing = 0
+    skip_empty_gold = 0
+
     for task_id, data in results.items():
         try:
             # Load Gold Script directly using the relative path in task_id
@@ -125,27 +128,27 @@ def main():
             gold_path = os.path.join(tasks_root, task_rel_path)
             
             if not os.path.exists(gold_path):
-                print(f"  -> WARNING: Skipping task {task_id}: Could not find task file at {gold_path}")
+                skip_missing += 1
                 continue
 
             with open(gold_path, 'r') as tf:
                 gold_script = tf.read()
                 domain_subpath = os.path.dirname(task_rel_path)
-                found = True
         except Exception as e:
-            print(f"  -> ERROR: Failed to process task {task_id}: {e}")
+            skip_missing += 1
             continue
 
         # Parse Actions
         model_actions = parse_pyautogui_actions(data.get('action', ''))
         gold_actions = parse_pyautogui_actions(gold_script)
         
-        if not gold_actions: continue
+        if not gold_actions:
+            skip_empty_gold += 1
+            continue
         
         # Scaling Hypothesis: Model predicts in 1000x1000, screen is WxH
         # We need to find the screen size for this domain
         # Heuristic: Find first image in domain dir
-        domain_name_full = domain_name
         if "web" in domain_subpath: screen_w, screen_h = 1440, 900
         else: screen_w, screen_h = 1920, 1080 # Most desktop apps are 1080p
         
@@ -220,7 +223,10 @@ def main():
     match_rate = (sum(1 for task_id, data in results.items() if data.get('is_match', False)) / count) * 100 if count > 0 else 0
     
     print(f"\nOfficial OmniACT Metrics Summary:")
+    print(f"Total Results Provided: {len(results)}")
     print(f"Tasks Evaluated: {count}")
+    print(f"Tasks Skipped (Missing Ground Truth): {skip_missing}")
+    print(f"Tasks Skipped (No Gold Actions): {skip_empty_gold}")
     print(f"Average Sequence Score (SS Mean): {total_ss_avg:.4f}")
     print(f"Action Score (AS - Eq 6): {final_as:.4f}%")
     print(f"Perfect Sequence Match Rate: {match_rate:.2f}%")
