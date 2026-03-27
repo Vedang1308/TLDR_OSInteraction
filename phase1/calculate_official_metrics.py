@@ -94,30 +94,21 @@ def calculate_sequence_score(pred_seq, gold_seq):
     s = len(gold_seq)
     return beta1 + beta2 * (s - 1)
 
-def main():
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--results", required=True)
-    parser.add_argument("--data_dir", required=True)
-    args = parser.parse_args()
-
-    with open(args.results, 'r') as f:
+def process_result_file(results_path, data_dir):
+    with open(results_path, 'r') as f:
         results = json.load(f)
 
     # Find the tasks directory within data_dir
-    tasks_root = os.path.join(args.data_dir, "tasks")
+    tasks_root = os.path.join(data_dir, "tasks")
     if not os.path.exists(tasks_root):
-        tasks_root = os.path.join(args.data_dir, "data", "tasks")
+        tasks_root = os.path.join(data_dir, "data", "tasks")
     
     if not os.path.exists(tasks_root):
-        print(f"Error: Could not find 'tasks' directory in {args.data_dir}")
-        return
+        return None
 
     total_as = 0.0
     total_ss = 0.0
     count = 0
-
-    print(f"Propagating paper-standard Action Scores for {len(results)} tasks...")
-
     skip_missing = 0
     skip_empty_gold = 0
 
@@ -146,55 +137,28 @@ def main():
             skip_empty_gold += 1
             continue
         
-        # Scaling Hypothesis: Model predicts in 1000x1000, screen is WxH
-        # We need to find the screen size for this domain
-        # Heuristic: Find first image in domain dir
+        # Scaling Hypothesis: 1000x1000 -> Screen Pixels
         if "web" in domain_subpath: screen_w, screen_h = 1440, 900
-        else: screen_w, screen_h = 1920, 1080 # Most desktop apps are 1080p
+        else: screen_w, screen_h = 1920, 1080
         
-        # Apply scaling to model actions
         for m in model_actions:
             if m['type'] in ['click', 'rightClick', 'doubleClick']:
-                # If these numbers look like they are normalized (0-1000)
                 if m['x'] <= 1000 and m['y'] <= 1000:
                     m['x'] = (m['x'] / 1000.0) * screen_w
                     m['y'] = (m['y'] / 1000.0) * screen_h
 
-        # 1. Sequence Score
         ss = calculate_sequence_score(model_actions, gold_actions)
         total_ss += ss
-        if ss > 0:
-            data['is_match'] = True
-        else:
-            data['is_match'] = False
+        data['is_match'] = (ss > 0)
         
-        # 2. Action Score (Eq 6)
         if ss > 0:
-            # All actions match types. Calculate penalties.
             penalties = 0.0
             alpha = ss / len(gold_actions)
-            
-            # Load bounding boxes for the screen if applicable
-            # OmniACT scripts don't directly link to boxes, we'd need to map gold pixels to boxes.
-            # For simplicity and "doing the same", we'll use a dynamic mu based on diagonal as per paper.
-            # Since we don't have the specific box for each action easily, we'll use 50px as element size.
-            
+            mu = 0.05
             for j, (m, g) in enumerate(zip(model_actions, gold_actions)):
                 if m['type'] in ['click', 'rightClick', 'doubleClick']:
-                    # M_i^j: Click penalty
-                    # We'll use 50px as the "proxy" box if we can't find it.
-                    # But wait, we have boxes in metadata!
-                    # We can try to find the box that g['x'], g['y'] is in.
-                    
-                    found_box = None
-                    # Find which screen this task belongs to. task_1.19 -> screen1 or screen_1
-                    # This is tricky because tasks use different screens.
-                    # We'll stick to a standard penalty if box is not found.
-                    mu = 0.05 # Inverse of diagonal proxy
                     L2 = math.sqrt((m['x'] - g['x'])**2 + (m['y'] - g['y'])**2)
-                    # Paper says L2 is 0 if inside box.
-                    if L2 < 20: L2 = 0 # Assume inside box if < 20px
-                    
+                    if L2 < 20: L2 = 0
                     m_penalty = alpha * (1 - mu / (mu + L2))
                     penalties += m_penalty
                 elif m['type'] == 'write':
@@ -204,32 +168,55 @@ def main():
                     k_penalty = 0 if m.get('key') == g.get('key') else alpha
                     penalties += k_penalty
             
-            task_as_achieved = max(ss - penalties, 0)
-            total_as += task_as_achieved
-        
+            total_as += max(ss - penalties, 0)
         count += 1
 
-    if count == 0:
-        print("No tasks evaluated.")
+    if count == 0: return None
+    return {
+        'count': count,
+        'ss_mean': (total_ss / count),
+        'as_eq6': (total_as / total_ss * 100) if total_ss > 0 else 0,
+        'match_rate': (sum(1 for task_id, data in results.items() if data.get('is_match', False)) / count * 100) if count > 0 else 0,
+        'skip_missing': skip_missing,
+        'skip_empty_gold': skip_empty_gold
+    }
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--results", required=True, help="Path to results.json or results directory")
+    parser.add_argument("--data_dir", required=True)
+    args = parser.parse_args()
+
+    # Find all result files
+    files_to_process = []
+    if os.path.isdir(args.results):
+        for root, _, files in os.walk(args.results):
+            for f in files:
+                if f.endswith("results.json"):
+                    files_to_process.append(os.path.join(root, f))
+    else:
+        files_to_process.append(args.results)
+
+    if not files_to_process:
+        print(f"No results.json files found in {args.results}")
         return
 
-    # Final scores (Matching Eq 6 Exactly: Sum of Achieved / Sum of Max)
-    if total_ss > 0:
-        final_as = (total_as / total_ss) * 100
-    else:
-        final_as = 0.0
-    
-    total_ss_avg = (total_ss / count) if count > 0 else 0
-    match_rate = (sum(1 for task_id, data in results.items() if data.get('is_match', False)) / count) * 100 if count > 0 else 0
-    
-    print(f"\nOfficial OmniACT Metrics Summary:")
-    print(f"Total Results Provided: {len(results)}")
-    print(f"Tasks Evaluated: {count}")
-    print(f"Tasks Skipped (Missing Ground Truth): {skip_missing}")
-    print(f"Tasks Skipped (No Gold Actions): {skip_empty_gold}")
-    print(f"Average Sequence Score (SS Mean): {total_ss_avg:.4f}")
-    print(f"Action Score (AS - Eq 6): {final_as:.4f}%")
-    print(f"Perfect Sequence Match Rate: {match_rate:.2f}%")
+    print(f"\nOmniACT Phase 1 Baseline Report")
+    print(f"{'Model/File':<40} | {'SS (Avg)':<10} | {'AS (%)':<10} | {'Match (%)':<10} | {'Evaluated':<10}")
+    print("-" * 95)
+
+    for f_path in sorted(files_to_process):
+        metrics = process_result_file(f_path, args.data_dir)
+        if metrics:
+            model_name = os.path.basename(os.path.dirname(os.path.dirname(f_path)))
+            if model_name == "phase1": # fallback
+                model_name = os.path.basename(f_path)
+            print(f"{model_name:<40} | {metrics['ss_mean']:<10.4f} | {metrics['as_eq6']:<10.2f} | {metrics['match_rate']:<10.2f} | {metrics['count']:<10}")
+        else:
+            print(f"Error processing {f_path}")
+
+    print("-" * 110)
+    print(f"Total Models Evaluated: {len(files_to_process)}")
 
 if __name__ == "__main__":
     main()
