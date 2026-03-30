@@ -75,17 +75,18 @@ class GaudiQwenModelAPI(ModelAPI):
         output_text = self.processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
         
         # Intercept and stream the raw output transparently to the User Terminal
-        # Check if this generation is for the Judge or the Agent by scanning the system prompt
-        is_judge = any("judge" in msg.text.lower() for msg in input if hasattr(msg, 'text') and msg.text)
+        # Check if this generation is for the Judge or the Agent by safely checking tool usage.
+        # AgentHARM sandbox executes 80+ tools natively. The offline Evaluator Judges use ZERO tools.
+        is_judge = (len(tools) == 0)
         
         if is_judge:
             GaudiQwenModelAPI._completed_tasks += 0.5
-            prefix = f"[JUDGE | Task Eval {int(GaudiQwenModelAPI._completed_tasks)}/176]"
+            prefix = f"\n[JUDGE | Task Eval {int(GaudiQwenModelAPI._completed_tasks)}/176]"
         else:
             prefix = "[AGENT]"
             
-        clean_out = output_text.strip().replace('\n', ' | ')
-        print(f"{prefix} Qwen3-VL: {clean_out[:300]}{'...' if len(clean_out) > 300 else ''}")
+        clean_out = output_text.strip().replace('\n', ' ')
+        print(f"{prefix} Qwen3-VL: {clean_out}")
         
         # Because we bypassed vLLM, the raw PyTorch text engine returns pure strings.
         # We must manually extract Qwen's <tool_call> XML structures and map them 
