@@ -11,6 +11,7 @@ from transformers import AutoProcessor, AutoModelForImageTextToText, AutoConfig
 @modelapi(name="gaudi_qwen")
 class GaudiQwenModelAPI(ModelAPI):
     def __init__(self, model_name: str, base_url: str = None, api_key: str = None, api_key_vars: list[str] = None, **model_args):
+        api_key_vars = api_key_vars or []
         super().__init__(model_name=model_name, base_url=base_url, api_key=api_key, api_key_vars=api_key_vars, **model_args)
         
         # Singleton loading to prevent OOM
