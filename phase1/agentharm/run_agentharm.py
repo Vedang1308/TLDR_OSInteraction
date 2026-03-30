@@ -50,7 +50,8 @@ eval(
         semantic_judge=provider_model_str
     ),
     model=provider_model_str,
-    log_dir=log_dir
+    log_dir=log_dir,
+    log_format="json"
 )
 
 print(f"\nAgentHARM metrics and execution logs have been securely saved to: {log_dir}")
