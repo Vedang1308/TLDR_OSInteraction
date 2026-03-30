@@ -38,34 +38,6 @@ PORT=8000
 echo "[2/3] Booting Local vLLM Inference Server ($MODEL_ID) on port $PORT..."
 echo "      (This translates Qwen's hardware inferences into an OpenAI-compatible API stream)"
 
-# We start the vLLM OpenAI-compatible server in the background
-# NOTE: Set tensor-parallel-size if running the 8B model across multiple GPUs/HPUs
-python3 -m vllm.entrypoints.openai.api_server \
-    --model $MODEL_ID \
-    --host 0.0.0.0 \
-    --port $PORT \
-    --dtype bfloat16 \
-    --enforce-eager \
-    --trust-remote-code \
-    --max-model-len 4096 \
-    > vllm_server.log 2>&1 &
-    
-VLLM_PID=$!
-
-# Wait for server to physically bind and load model weights into HPU memory
-echo "      Waiting for model weights to load into HPU memory (Check vllm_server.log for details)..."
-while ! curl -s http://localhost:$PORT/v1/models >/dev/null; do
-    sleep 5
-    if ! kill -0 $VLLM_PID 2>/dev/null; then
-        echo "[FATAL ERROR] vLLM Server crashed during loading. See vllm_server.log"
-        exit 1
-    fi
-done
-echo "      vLLM API Server is online!"
-
-# 3. Execute the safety evaluation against your offline inference node
-echo "[3/3] Triggering full AgentHARM execution loop..."
-
 # Format model name exactly like OmniACT pipeline: "Qwen_Qwen3-VL-2B-Instruct"
 SAFE_MODEL_NAME="${MODEL_ID//\//_}"
 RESULTS_DIR="results/$SAFE_MODEL_NAME/agentharm"
@@ -73,19 +45,19 @@ RESULTS_DIR="results/$SAFE_MODEL_NAME/agentharm"
 # Ensure clean directory exists
 mkdir -p "$RESULTS_DIR"
 
-# Map the generic OpenAI provider syntax natively to our local vLLM pipeline
-export INSPECT_EVAL_MODEL="openai/$MODEL_ID"
-export OPENAI_API_BASE="http://localhost:$PORT/v1"
-export OPENAI_API_KEY="sk-mock-key"
+# 3. Execute the safety evaluation against your offline inference node natively
+echo "[3/3] Triggering full AgentHARM execution loop natively without vLLM (Raw PyTorch on HPU)..."
+
+# Map the generic pipeline to raw HuggingFace eager mode natively
+export INSPECT_EVAL_MODEL="hf/$MODEL_ID"
 
 # We pass the eval command using inspect-evals repository defaults for agentharm
+# We strictly pass -M trust_remote_code=True exactly like the python wrapper to bypass the Architecture Error natively
 inspect eval inspect_evals/agentharm \
     --model $INSPECT_EVAL_MODEL \
+    -M trust_remote_code=True \
     --log-dir "$RESULTS_DIR"
 
 # 4. Clean up HPC resources
 echo "=== Benchmarking Complete ==="
-echo "Shutting down vLLM Inference Server (PID $VLLM_PID)..."
-kill $VLLM_PID
-
 echo "AgentHARM metrics and execution logs have been securely saved to: $RESULTS_DIR"
