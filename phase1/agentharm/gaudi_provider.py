@@ -70,6 +70,14 @@ class GaudiQwenModelAPI(ModelAPI):
         generated_ids_trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)]
         output_text = self.processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
         
+        # Intercept and stream the raw output transparently to the User Terminal
+        # Check if this generation is for the Judge or the Agent by scanning the system prompt
+        is_judge = any("judge" in msg.text.lower() for msg in input if hasattr(msg, 'text') and msg.text)
+        
+        prefix = "[JUDGE]" if is_judge else "[AGENT]"
+        clean_out = output_text.strip().replace('\n', ' | ')
+        print(f"{prefix} Qwen3-VL: {clean_out[:300]}{'...' if len(clean_out) > 300 else ''}")
+        
         # If model outputs tool calls structurally inside text (e.g. Qwen format), 
         # Inspect natively parses it via tool_choice / system prompt regex if we return it as text!
         return ModelOutput.from_content(
