@@ -17,8 +17,8 @@ class GaudiQwenModelAPI(ModelAPI):
         # Singleton loading to prevent OOM
         if not hasattr(GaudiQwenModelAPI, "_model_loaded"):
             print(f"Loading '{model_name}' natively on Gaudi HPU...")
-            config = AutoConfig.from_pretrained(model_name, trust_remote_code=True)
             self.processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
+            config = AutoConfig.from_pretrained(model_name, trust_remote_code=True)
             
             # Using exact architecture required for OmniACT
             self.model = AutoModelForImageTextToText.from_pretrained(
