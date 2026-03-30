@@ -24,8 +24,7 @@ class GaudiQwenModelAPI(ModelAPI):
             raise RuntimeError("GaudiProvider failed to locate warmed-up PyTorch model! Run run_agentharm.py directly.")
             
         # Tracking variables to manually stream the task progress cleanly to stdout
-        if getattr(GaudiQwenModelAPI, "_completed_tasks", None) is None:
-            GaudiQwenModelAPI._completed_tasks = 0
+        pass
 
     async def generate(self, input: list[ChatMessage], tools: list[ToolInfo], tool_choice: ToolChoice, config: GenerateConfig) -> ModelOutput:
         # 1. Convert Inspect ChatMessages to standard HuggingFace dicts
@@ -80,8 +79,7 @@ class GaudiQwenModelAPI(ModelAPI):
         is_judge = (len(tools) == 0)
         
         if is_judge:
-            GaudiQwenModelAPI._completed_tasks += 0.5
-            prefix = f"\n[JUDGE | Task Eval {int(GaudiQwenModelAPI._completed_tasks)}/176]"
+            prefix = "\n[JUDGE]"
         else:
             prefix = "[AGENT]"
             
