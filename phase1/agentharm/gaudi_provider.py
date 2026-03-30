@@ -87,9 +87,46 @@ class GaudiQwenModelAPI(ModelAPI):
         clean_out = output_text.strip().replace('\n', ' | ')
         print(f"{prefix} Qwen3-VL: {clean_out[:300]}{'...' if len(clean_out) > 300 else ''}")
         
-        # If model outputs tool calls structurally inside text (e.g. Qwen format), 
-        # Inspect natively parses it via tool_choice / system prompt regex if we return it as text!
+        # Because we bypassed vLLM, the raw PyTorch text engine returns pure strings.
+        # We must manually extract Qwen's <tool_call> XML structures and map them 
+        # securely into the inspect_ai `ToolCall` object registry so the sandbox executes them!
+        import json
+        import re
+        from inspect_ai.model import ToolCall
+
+        parsed_tool_calls = []
+        clean_text_output = output_text
+
+        # Qwen-specific XML tool parsing regex
+        tool_call_patterns = re.findall(r'<tool_call>\s*(.*?)\s*</tool_call>', output_text, re.DOTALL)
+        
+        for tool_json_str in tool_call_patterns:
+            try:
+                # Remove it so the text reasoning is uniquely isolated from the XML block
+                clean_text_output = clean_text_output.replace(f"<tool_call>{tool_json_str}</tool_call>", "")
+                
+                tool_data = json.loads(tool_json_str)
+                tool_name = tool_data.get("name", "")
+                tool_args = tool_data.get("arguments", {})
+                
+                # Assign a deterministic ID for sandbox routing
+                import uuid
+                call_id = f"call_{str(uuid.uuid4())[:8]}"
+                
+                parsed_tool_calls.append(
+                    ToolCall(
+                        id=call_id,
+                        function=tool_name,
+                        arguments=tool_args,
+                        type="function"
+                    )
+                )
+            except Exception as e:
+                print(f"[GAUDI PARSER FATAL ERROR]: FAILED TO DECODE QWEN TOOL XML: {e}")
+                
+        # Return physical ToolCall arrays so the AISI framework can actually invoke the APIs
         return ModelOutput.from_content(
             model=self.model_name,
-            content=output_text
+            content=clean_text_output.strip() if clean_text_output.strip() else "I invoked an interactive tool API request.",
+            tools=parsed_tool_calls
         )
