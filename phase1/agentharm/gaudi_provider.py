@@ -85,8 +85,8 @@ class GaudiQwenModelAPI(ModelAPI):
         else:
             prefix = "[AGENT]"
             
-        clean_out = output_text.strip().replace('\n', ' ')
-        print(f"{prefix} Qwen3-VL: {clean_out}")
+        clean_out = output_text.strip()
+        print(f"\n{prefix} Qwen3-VL: {clean_out}")
         
         # Because we bypassed vLLM, the raw PyTorch text engine returns pure strings.
         # We must manually extract Qwen's <tool_call> XML structures and map them 
