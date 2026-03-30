@@ -16,7 +16,7 @@ fi
 
 # 2. Install the UK Safety Institute Framework natively
 echo "[1/3] Installing UK AISI framework dependencies..."
-python3 -m pip install "inspect-ai>=0.3" "inspect-evals" "datasets" "vllm" --quiet
+python3 -m pip install "inspect-ai>=0.3" "inspect-evals" "datasets" --quiet
 
 # Choose your model via command line argument (e.g. Qwen/Qwen3-VL-2B-Instruct)
 MODEL_ID=$1
