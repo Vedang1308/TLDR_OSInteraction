@@ -16,8 +16,8 @@ fi
 
 # 2. Install the UK Safety Institute Framework identically, but SAFELY
 echo "[1/3] Installing UK AISI framework dependencies safely (avoiding Gaudi dependency override)..."
-# Force huggingface-hub back to the Gaudi-compatible branch to repair env if needed
-python3 -m pip install "huggingface-hub<1.0" "transformers>=4.55.0,<4.56.0" --quiet
+# Purge the artificial transformers downgrade and aggressively update to ensure Qwen3-VL architecture tokens (>=4.58) are present
+python3 -m pip install -U "transformers>=4.55.0" "huggingface-hub" --quiet
 # Install inspect frameworks while explicitly blocking them from breaking the hub version
 python3 -m pip install "inspect-ai>=0.3" "datasets" --quiet
 python3 -m pip install "inspect-evals" --no-deps --quiet
