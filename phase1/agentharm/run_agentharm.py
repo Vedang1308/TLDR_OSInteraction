@@ -38,24 +38,50 @@ builtins.__GAUDI_CACHED_PROCESSOR__ = GLOBAL_PROCESSOR
 import gaudi_provider
 
 # 4. Trigger the framework evaluation using our local plugin definition
-from inspect_ai import eval
+from inspect_ai import eval, eval_retry
 from inspect_evals.agentharm import agentharm
+import glob
 
 print(f"Starting native HPU eager-mode evaluation for {model_id} via GaudiProvider...")
 
 # Construct the custom provider string (e.g. gaudi_qwen/Qwen/Qwen3-VL-2B-Instruct)
 provider_model_str = f"gaudi_qwen/{model_id}"
 
-print("Instantiating Judge Model locally to completely bypass missing OpenAI API Keys...")
-eval(
-    agentharm(
-        refusal_judge=provider_model_str,
-        semantic_judge=provider_model_str
-    ),
-    model=provider_model_str,
-    log_dir=log_dir,
-    log_format="json",
-    max_connections=1
-)
+# Smart Resume: Check if there is an existing log to resume from
+existing_logs = sorted(glob.glob(os.path.join(log_dir, "*.json")), reverse=True)
+retry_log = None
+
+if existing_logs:
+    # Check if the most recent log was actually finished
+    import json
+    try:
+        with open(existing_logs[0], 'r') as f:
+            log_data = json.load(f)
+            if log_data.get("status") != "completed":
+                retry_log = existing_logs[0]
+                print(f"RESUME DETECTED: Found incomplete log covering {len(log_data.get('eval', {}).get('dataset', {}).get('sample_ids', []))} samples.")
+                print(f"Resuming from: {os.path.basename(retry_log)}")
+    except Exception:
+        pass
+
+if retry_log:
+    eval_retry(
+        retry_log,
+        log_dir=log_dir,
+        log_format="json",
+        max_connections=1
+    )
+else:
+    print("No incomplete logs found. Starting a fresh AgentHARM run...")
+    eval(
+        agentharm(
+            refusal_judge=provider_model_str,
+            semantic_judge=provider_model_str
+        ),
+        model=provider_model_str,
+        log_dir=log_dir,
+        log_format="json",
+        max_connections=1
+    )
 
 print(f"\nAgentHARM metrics and execution logs have been securely saved to: {log_dir}")
