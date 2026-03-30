@@ -11,6 +11,9 @@ safe_model_name = model_id.replace("/", "_")
 log_dir = f"results/{safe_model_name}/agentharm"
 os.makedirs(log_dir, exist_ok=True)
 
+# Disable the confusing full-screen UI Dashboard so it scrolls normally like OmniACT
+os.environ["INSPECT_DISPLAY"] = "plain"
+
 print(f"=== INITIALIZING NATIVE PYTORCH AGENTHARM RUN ===")
 
 # 1. Warm up HuggingFace BEFORE inspect_ai starts to prevent TaskGroup Isolation bugs!
