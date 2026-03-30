@@ -20,12 +20,17 @@ hf_provider.AutoModelForCausalLM = AutoModelForImageTextToText
 
 # 2. Trigger the framework evaluation
 from inspect_ai import eval
+from inspect_ai.model import get_model
 from inspect_evals.agentharm import agentharm
 
 print(f"Starting native HPU eager-mode evaluation for {model_id}...")
+print("Instantiating Judge Model locally to completely bypass missing OpenAI API Keys...")
+
+# Manually pre-load the model as the automated judge so it skips pinging GPT-4o
+local_judge = get_model(f"hf/{model_id}", model_args={"trust_remote_code": True})
 
 eval(
-    agentharm(),
+    agentharm(judge_model=local_judge),
     model=f"hf/{model_id}",
     model_args={"trust_remote_code": True},
     log_dir=log_dir
