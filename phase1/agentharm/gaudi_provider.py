@@ -15,24 +15,13 @@ class GaudiQwenModelAPI(ModelAPI):
         super().__init__(model_name=model_name, base_url=base_url, api_key=api_key, api_key_vars=api_key_vars, **model_args)
         
         # Singleton loading to prevent OOM
-        if not hasattr(GaudiQwenModelAPI, "_model_loaded"):
-            print(f"Loading '{model_name}' natively on Gaudi HPU...")
-            self.processor = AutoProcessor.from_pretrained(model_name, trust_remote_code=True)
-            config = AutoConfig.from_pretrained(model_name, trust_remote_code=True)
-            
-            # Using exact architecture required for OmniACT
-            self.model = AutoModelForImageTextToText.from_pretrained(
-                model_name, config=config, trust_remote_code=True
-            ).eval()
-            self.model.to("hpu")
-            
-            GaudiQwenModelAPI._model_loaded = True
-            GaudiQwenModelAPI._shared_model = self.model
-            GaudiQwenModelAPI._shared_processor = self.processor
-            print("Successfully loaded model!")
+        import builtins
+        if hasattr(builtins, "__GAUDI_CACHED_MODEL__"):
+            print("GaudiProvider retrieved globally warmed up HPU active model.")
+            self.model = builtins.__GAUDI_CACHED_MODEL__
+            self.processor = builtins.__GAUDI_CACHED_PROCESSOR__
         else:
-            self.model = GaudiQwenModelAPI._shared_model
-            self.processor = GaudiQwenModelAPI._shared_processor
+            raise RuntimeError("GaudiProvider failed to locate warmed-up PyTorch model! Run run_agentharm.py directly.")
 
     async def generate(self, input: list[ChatMessage], tools: list[ToolInfo], tool_choice: ToolChoice, config: GenerateConfig) -> ModelOutput:
         # 1. Convert Inspect ChatMessages to standard HuggingFace dicts
