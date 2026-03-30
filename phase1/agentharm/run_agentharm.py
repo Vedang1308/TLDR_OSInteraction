@@ -13,10 +13,31 @@ os.makedirs(log_dir, exist_ok=True)
 print(f"=== INITIALIZING NATIVE PYTORCH AGENTHARM RUN ===")
 print("Injecting Model Architecture Monkeypatch to bypass Inspect AI CausalLM restrictions...")
 
-# 1. Monkeypatch inspect_ai's internal huggingface module to use Vision-Language Models natively
+# 1. Bruteforce Monkeypatch inspect_ai's internal huggingface module to use Vision-Language Models natively
+#    AND forcefully inject trust_remote_code=True into the very last layer before Transformers crashes.
 import inspect_ai.model._providers.hf as hf_provider
-from transformers import AutoModelForImageTextToText
+from transformers import AutoModelForImageTextToText, AutoConfig
+
+_orig_config_from_pretrained = AutoConfig.from_pretrained
+_orig_model_from_pretrained = AutoModelForImageTextToText.from_pretrained
+
+@classmethod
+def _patched_config_from_pretrained(cls, *args, **kwargs):
+    kwargs["trust_remote_code"] = True
+    return _orig_config_from_pretrained(*args, **kwargs)
+
+@classmethod
+def _patched_model_from_pretrained(cls, *args, **kwargs):
+    kwargs["trust_remote_code"] = True
+    if "device_map" not in kwargs:
+        kwargs["device"] = "hpu"
+    return _orig_model_from_pretrained(*args, **kwargs)
+
+# Inject deep into Transformers logic
+AutoConfig.from_pretrained = _patched_config_from_pretrained
+
 hf_provider.AutoModelForCausalLM = AutoModelForImageTextToText
+hf_provider.AutoModelForCausalLM.from_pretrained = _patched_model_from_pretrained
 
 # 2. Trigger the framework evaluation
 from inspect_ai import eval
