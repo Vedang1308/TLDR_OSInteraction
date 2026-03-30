@@ -125,8 +125,11 @@ class GaudiQwenModelAPI(ModelAPI):
                 print(f"[GAUDI PARSER FATAL ERROR]: FAILED TO DECODE QWEN TOOL XML: {e}")
                 
         # Return physical ToolCall arrays so the AISI framework can actually invoke the APIs
-        return ModelOutput.from_content(
+        final_output = ModelOutput.from_content(
             model=self.model_name,
-            content=clean_text_output.strip() if clean_text_output.strip() else "I invoked an interactive tool API request.",
-            tools=parsed_tool_calls
+            content=clean_text_output.strip() if clean_text_output.strip() else "I invoked an interactive tool API request."
         )
+        if parsed_tool_calls:
+            final_output.choices[0].message.tool_calls = parsed_tool_calls
+            
+        return final_output
