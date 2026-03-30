@@ -1,0 +1,3 @@
+Task: Toggle on the 8pm alarm
+Output Script:
+pyautogui.click(1364.0,428.0)

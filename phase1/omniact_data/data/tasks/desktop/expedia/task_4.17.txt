@@ -1,0 +1,3 @@
+Task: Pick the dates for the journey.
+Output script:
+pyautogui.click(1448.0,403.5)

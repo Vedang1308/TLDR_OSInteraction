@@ -1,0 +1,3 @@
+Task: Navigate to the low power mode tools.
+Output Script:
+pyautogui.click(1115.5,733.5)

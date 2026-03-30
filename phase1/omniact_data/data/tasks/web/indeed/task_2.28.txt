@@ -1,0 +1,3 @@
+Task: Locate and peruse company feedback sessions.
+Output Script:
+pyautogui.click(363.5,34.0)

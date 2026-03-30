@@ -1,0 +1,3 @@
+Task: Alter camera control options
+Output Script:
+pyautogui.click(147.0,12.5)

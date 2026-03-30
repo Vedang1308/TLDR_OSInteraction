@@ -1,0 +1,3 @@
+Task: Read the sample of "Greenwich Park"
+Output Script:
+pyautogui.doubleClick(1881.5,1982.0)

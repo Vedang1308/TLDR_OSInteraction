@@ -1,0 +1,3 @@
+Task: Inspect further alternatives for the folder named "photos"
+Output Script:
+pyautogui.rightClick(1449.0,262.5)

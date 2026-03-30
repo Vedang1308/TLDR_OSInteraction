@@ -1,0 +1,3 @@
+Task: Navigate down the webpage
+Output script:
+pyautogui.press("space")

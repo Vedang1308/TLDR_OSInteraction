@@ -1,0 +1,2 @@
+Task: Select the Operations category from the Business courses section.
+pyautogui.click(768.5,97.0)

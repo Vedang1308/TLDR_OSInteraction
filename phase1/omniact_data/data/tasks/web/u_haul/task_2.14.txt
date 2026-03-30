@@ -1,0 +1,3 @@
+Task: "What are the steps for I need to follow to affix a trailer to my car?"
+Output Script:
+pyautogui.click(1161.5,82.0)

@@ -1,0 +1,6 @@
+Task: Copy "template.txt" file and paste it in the "downloads" directory using only keyboard hotkeys.
+Output Script:
+pyautogui.click(700.0,521.0)
+pyautogui.hotkey("ctrl","c")
+pyautogui.click(700.0,360.0)
+pyautogui.hotkey("ctrl","v")

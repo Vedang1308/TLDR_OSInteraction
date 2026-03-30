@@ -1,0 +1,79 @@
+{
+    "example_0": {
+        "top_left": [
+            1373,
+            481
+        ],
+        "bottom_right": [
+            1781,
+            534
+        ],
+        "label": "name event"
+    },
+    "example_1": {
+        "top_left": [
+            1373,
+            548
+        ],
+        "bottom_right": [
+            1784,
+            604
+        ],
+        "label": "add location"
+    },
+    "example_2": {
+        "top_left": [
+            1373,
+            620
+        ],
+        "bottom_right": [
+            1828,
+            704
+        ],
+        "label": "add alert, repeat, travel time"
+    },
+    "example_3": {
+        "top_left": [
+            1376,
+            726
+        ],
+        "bottom_right": [
+            1842,
+            770
+        ],
+        "label": "add invitees"
+    },
+    "example_4": {
+        "top_left": [
+            1373,
+            790
+        ],
+        "bottom_right": [
+            1845,
+            837
+        ],
+        "label": "add notes, URL, attachments"
+    },
+    "example_5": {
+        "top_left": [
+            1817,
+            495
+        ],
+        "bottom_right": [
+            1862,
+            537
+        ],
+        "label": "event type"
+    },
+    "example_6": {
+        "top_left": [
+            1812,
+            548
+        ],
+        "bottom_right": [
+            1881,
+            590
+        ],
+        "label": "add video call"
+    }
+}

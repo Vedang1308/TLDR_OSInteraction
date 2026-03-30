@@ -1,0 +1,6 @@
+Task: Navigate and engage the "View Options" selection with the mouse and keyboard
+Output Script:
+pyautogui.click(1727.0,50.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

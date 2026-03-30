@@ -1,0 +1,3 @@
+Task: Access the attributes of the video that is currently playing
+Output Script:
+pyautogui.click(1771.0,485.0)

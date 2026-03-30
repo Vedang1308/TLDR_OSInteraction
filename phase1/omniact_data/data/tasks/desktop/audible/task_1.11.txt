@@ -1,0 +1,3 @@
+Task: Open Ubuntu store
+Output Script:
+pyautogui.click(37.0,401.5)

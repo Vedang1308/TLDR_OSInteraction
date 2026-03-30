@@ -1,0 +1,3 @@
+Task: Give positive feedback to recommendation
+Output Script:
+pyautogui.click(1070.0,771.0)

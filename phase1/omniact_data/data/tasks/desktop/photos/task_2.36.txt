@@ -1,0 +1,5 @@
+Task: Select the first option from the drop-down in the filter box.
+Output Script:
+pyautogui.click(341.0,2015.5)
+pyautogui.press("down")
+pyautogui.press("enter")

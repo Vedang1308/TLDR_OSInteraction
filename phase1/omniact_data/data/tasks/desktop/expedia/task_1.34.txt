@@ -1,0 +1,3 @@
+Task: Navigate to the ChatGPT module.
+Output script:
+pyautogui.click(1443.0,563.0)

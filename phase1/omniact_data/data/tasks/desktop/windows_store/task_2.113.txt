@@ -1,0 +1,3 @@
+Task: Select the Account settings option
+Output Script:
+pyautogui.click(1661.0,30.0)

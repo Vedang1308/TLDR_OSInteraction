@@ -1,0 +1,5 @@
+Task: Generate navigation to a "market".
+Output script:
+pyautogui.click(2644.0,38.0)
+pyautogui.write("market")
+pyautogui.press("enter")

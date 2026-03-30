@@ -1,0 +1,4 @@
+Task: Add the "Silent Patient" audiobook to your personal e-library
+Output script:
+pyautogui.click(617.0,715.5)
+pyautogui.click(359.0,231.5)

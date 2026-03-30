@@ -1,0 +1,3 @@
+Task: Review the fluctuation in stocks over the last five years.
+Output script:
+pyautogui.click(2350.5,392.5)

@@ -1,0 +1,3 @@
+Task: Enlarge the window to full screen
+Output Script:
+pyautogui.click(1855.5,50.5)

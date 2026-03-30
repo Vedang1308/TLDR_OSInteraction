@@ -1,0 +1,3 @@
+Task: Display the calendar in the format of a whole year.
+Output script:
+pyautogui.click(1633.0,38.0)

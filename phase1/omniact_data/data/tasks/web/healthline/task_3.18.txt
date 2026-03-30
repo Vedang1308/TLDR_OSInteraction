@@ -1,0 +1,3 @@
+Task: Provide updates on at-home testing
+Output Script:
+pyautogui.click(752.5,99.0)

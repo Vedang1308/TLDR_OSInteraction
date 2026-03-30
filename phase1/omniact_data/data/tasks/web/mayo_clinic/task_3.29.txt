@@ -1,0 +1,3 @@
+Task: Investigate further on the patient spotlight
+Output Script:
+pyautogui.click(263.5,746.0)

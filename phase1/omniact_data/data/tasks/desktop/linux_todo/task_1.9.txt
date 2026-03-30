@@ -1,0 +1,7 @@
+Task: Set "gardening" date to next week
+Output Script:
+pyautogui.click(1259.5,156.5)
+pyautogui.press("right")
+pyautogui.press("right")
+pyautogui.press("right")
+pyautogui.press("enter")

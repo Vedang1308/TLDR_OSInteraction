@@ -1,0 +1,3 @@
+Task: Launch the "Public" folder
+Output Script:
+pyautogui.click(843.0,116.0)

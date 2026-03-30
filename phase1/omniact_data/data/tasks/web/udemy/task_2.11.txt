@@ -1,0 +1,3 @@
+Task: Navigate to the "new" courses, then select and click on the third course displayed.
+pyautogui.click(217.0,326.0)
+pyautogui.click(710.5,533.0)

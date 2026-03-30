@@ -1,0 +1,3 @@
+Task: Click on arc de triomphe picture
+Output Script:
+pyautogui.click(727.0,1137.0)

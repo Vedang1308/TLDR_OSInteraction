@@ -1,0 +1,4 @@
+Task: Execute a scrolling action in the news feed for 50 steps.
+Output script:
+pyautogui.moveTo(1685.0,1073.5)
+pyautogui.scroll(50)

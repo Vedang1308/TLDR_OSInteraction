@@ -1,0 +1,3 @@
+Task: Select the "Privacy" button
+Output Script:
+pyautogui.click(623.0,679.5)

@@ -1,0 +1,4 @@
+Task: Select new document option and input the text "Hi"
+Output script:
+pyautogui.click(188.5,233.5)
+pyautogui.write("Hi")

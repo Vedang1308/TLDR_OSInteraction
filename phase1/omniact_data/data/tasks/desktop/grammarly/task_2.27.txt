@@ -1,0 +1,3 @@
+Task: Load the document into the system
+Output script:
+pyautogui.click(188.5,275.5)

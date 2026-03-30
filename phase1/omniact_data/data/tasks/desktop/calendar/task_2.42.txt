@@ -1,0 +1,4 @@
+Task: Arrange a meeting for this Thursday at 4 pm.
+Output script:
+pyautogui.click(1914.5,1284.5)
+pyautogui.click(1914.5,1284.5)

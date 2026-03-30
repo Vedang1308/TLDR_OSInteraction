@@ -1,0 +1,3 @@
+Task: Open the appliances page from the appliances icon
+Output Script:
+pyautogui.click(556.5,217.0)

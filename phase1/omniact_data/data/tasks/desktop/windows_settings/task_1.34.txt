@@ -1,0 +1,3 @@
+Task: Click on the "sign in" option to authenticate your windows using your Microsoft credentials.
+Output Script:
+pyautogui.click(382.0,178.0)

@@ -1,0 +1,4 @@
+Task: Perform two consecutive zoom-outs on the image
+Output Script:
+pyautogui.click(95.5,50.0)
+pyautogui.click(95.5,50.0)

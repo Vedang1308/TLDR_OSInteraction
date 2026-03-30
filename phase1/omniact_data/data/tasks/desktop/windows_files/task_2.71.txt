@@ -1,0 +1,6 @@
+Task: Access the "photos" file and construct a new folder labelled "vacation".
+Output Script:
+pyautogui.click(1449.0,262.5)
+pyautogui.hotkey("ctrl","shift","n")
+pyautogui.write("vacation")
+pyautogui.press("enter")

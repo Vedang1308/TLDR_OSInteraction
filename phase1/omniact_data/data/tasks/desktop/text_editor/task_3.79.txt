@@ -1,0 +1,3 @@
+Task: "Terminate the tab of unlabelled document via the tab bar"
+Output Script:
+pyautogui.click(1890.5,91.5)

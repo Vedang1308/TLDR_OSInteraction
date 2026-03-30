@@ -1,0 +1,3 @@
+Task: Open the Mobile dropdown in the top panel by hovering over the button
+Output Script:
+pyautogui.moveTo(277.5,40.0)

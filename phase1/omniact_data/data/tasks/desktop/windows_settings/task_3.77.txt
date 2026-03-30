@@ -1,0 +1,3 @@
+Task: Select the Home button from the left menu
+Output Script:
+pyautogui.click(98.0,91.0)

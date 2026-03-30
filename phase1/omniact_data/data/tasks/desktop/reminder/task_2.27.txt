@@ -1,0 +1,6 @@
+Task: Assign the location of the conference as "Mellon Institute"
+Output script:
+pyautogui.click(962.5,1110.5)
+pyautogui.write("Mellon Institute")
+pyautogui.press("down")
+pyautogui.press("Enter")

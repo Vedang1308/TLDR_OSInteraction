@@ -1,0 +1,3 @@
+Task: Identify locations in the vicinity of "Times Square".
+Output script:
+pyautogui.click(1442.0,1285.0)

@@ -1,0 +1,3 @@
+Task: Access iCloud
+Output Script:
+pyautogui.click(1590.5,344.5)

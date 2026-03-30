@@ -1,0 +1,4 @@
+Task: Complete "The Sweet Spot" and verify its presence under completed. 
+Output Script:
+pyautogui.click(960.5,542.5)
+pyautogui.click(739.0,244.5)

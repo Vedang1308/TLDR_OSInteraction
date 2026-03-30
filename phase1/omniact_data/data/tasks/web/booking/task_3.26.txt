@@ -1,0 +1,3 @@
+Task: Transition to airplane ticket portal
+Output Script:
+pyautogui.click(319.5,90.0)

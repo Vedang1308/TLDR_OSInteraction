@@ -1,0 +1,3 @@
+Task: Select the "Today" category.
+Output script:
+pyautogui.click(217.5,288.5)

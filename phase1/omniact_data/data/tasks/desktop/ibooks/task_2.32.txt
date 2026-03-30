@@ -1,0 +1,4 @@
+Task: Peruse the brief of the book presently opened
+Output Script:
+pyautogui.moveTo(1880.0,1104.0)
+pyautogui.scroll(50)

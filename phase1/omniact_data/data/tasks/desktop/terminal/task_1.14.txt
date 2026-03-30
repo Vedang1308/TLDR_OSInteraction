@@ -1,0 +1,3 @@
+Task: Switch to the previous tab using keyboard shortcut
+Output Script:
+pyautogui.hotkey("ctrl", "shift", "tab")

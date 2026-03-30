@@ -1,0 +1,3 @@
+Task: Mark the task "meet with professor" as finished
+Output Script:
+pyautogui.click(695.5,107.0)

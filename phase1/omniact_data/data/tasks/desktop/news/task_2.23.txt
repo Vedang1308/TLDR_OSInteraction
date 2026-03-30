@@ -1,0 +1,3 @@
+Task: Choose the follow button on Tasting Table"s page.
+Output script:
+pyautogui.click(2621.5,994.0)

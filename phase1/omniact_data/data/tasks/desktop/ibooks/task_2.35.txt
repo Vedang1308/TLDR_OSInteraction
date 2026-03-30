@@ -1,0 +1,4 @@
+Task: Navigate to the author"s biography section by scrolling down.
+Output Script:
+pyautogui.moveTo(1880.0,1104.0)
+pyautogui.scroll(70)

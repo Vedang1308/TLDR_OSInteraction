@@ -1,0 +1,3 @@
+Task: Access the "Discover" page.
+Output script:
+pyautogui.click(222.5,234.5)

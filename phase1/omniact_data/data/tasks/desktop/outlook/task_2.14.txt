@@ -1,0 +1,6 @@
+Task: Bold and italicize selected text in the mail body
+Output Script:
+pyautogui.click(1310.5,415.5)
+pyautogui.hotkey("ctrl", "a")
+pyautogui.click(770.0,124.5)
+pyautogui.click(821.0,124.0)

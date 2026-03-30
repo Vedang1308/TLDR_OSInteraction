@@ -1,0 +1,3 @@
+Task: Open the activities set for the date 1st October.
+Output script:
+pyautogui.click(1010.5,1458.0)

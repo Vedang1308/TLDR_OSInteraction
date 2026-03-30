@@ -1,0 +1,4 @@
+Task: Change the seconds parameter to 45 in the interface.
+Output Script:
+pyautogui.click(1960.0,980.5)
+pyautogui.write("45")

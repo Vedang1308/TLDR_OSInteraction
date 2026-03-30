@@ -1,0 +1,5 @@
+Task: Duplicate the manual.txt file located in the current directory using computer mouse and keyboard shortcuts.
+Output Script:
+pyautogui.click(1069.0,571.5)
+pyautogui.hotkey("ctrl", "c")
+pyautogui.hotkey("ctrl", "v")

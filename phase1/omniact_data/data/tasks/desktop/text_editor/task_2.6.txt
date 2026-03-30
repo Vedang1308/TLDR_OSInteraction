@@ -1,0 +1,6 @@
+Task: "Search for anywords that begin with "an" in this file"
+Output Script:
+pyautogui.click(1027.0,490.0)
+pyautogui.write("an*")
+pyautogui.click(956.0,627.0)
+pyautogui.click(1164.0,663.0)

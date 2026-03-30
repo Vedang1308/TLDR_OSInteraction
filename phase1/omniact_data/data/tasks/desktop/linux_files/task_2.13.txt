@@ -1,0 +1,6 @@
+Task: Open the second menu using keyboard and mouse
+Output Script:
+pyautogui.click(1769.5,50.0)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

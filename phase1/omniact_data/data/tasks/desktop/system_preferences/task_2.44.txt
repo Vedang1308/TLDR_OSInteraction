@@ -1,0 +1,3 @@
+Task: Generate a new file container.
+Output Script:
+pyautogui.click(728.0,1161.0)

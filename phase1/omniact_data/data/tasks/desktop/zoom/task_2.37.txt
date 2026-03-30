@@ -1,0 +1,3 @@
+Task: Initiate the video by selecting the icon located at the lower left.
+Output Script:
+pyautogui.click(268.5,1747.5)

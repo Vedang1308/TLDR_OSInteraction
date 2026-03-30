@@ -1,0 +1,3 @@
+Task: Activate Dolby Access program
+Output Script:
+pyautogui.click(1728.5,666.0)

@@ -1,0 +1,3 @@
+Task: Verify the list of recently listened songs
+Output Script:
+pyautogui.click(195.5,453.0)

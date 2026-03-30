@@ -1,0 +1,5 @@
+Task: Search for educational programs related to Cloud Computing
+Output Script:
+pyautogui.click(681.0,597.5)
+pyautogui.write("Cloud Computing")
+pyautogui.press("enter")

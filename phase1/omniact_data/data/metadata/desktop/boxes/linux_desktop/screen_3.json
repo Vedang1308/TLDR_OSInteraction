@@ -1,0 +1,200 @@
+{
+    "example_0": {
+        "top_left": [
+            790,
+            50
+        ],
+        "bottom_right": [
+            1128,
+            84
+        ],
+        "label": "search_application"
+    },
+    "example_1": {
+        "top_left": [
+            1884,
+            570
+        ],
+        "bottom_right": [
+            1907,
+            594
+        ],
+        "label": "next_page"
+    },
+    "example_2": {
+        "top_left": [
+            360,
+            167
+        ],
+        "bottom_right": [
+            523,
+            328
+        ],
+        "label": "additional_drive"
+    },
+    "example_3": {
+        "top_left": [
+            561,
+            166
+        ],
+        "bottom_right": [
+            724,
+            327
+        ],
+        "label": "solitaire"
+    },
+    "example_4": {
+        "top_left": [
+            768,
+            167
+        ],
+        "bottom_right": [
+            931,
+            328
+        ],
+        "label": "audible"
+    },
+    "example_5": {
+        "top_left": [
+            1187,
+            165
+        ],
+        "bottom_right": [
+            1350,
+            326
+        ],
+        "label": "calculator"
+    },
+    "example_6": {
+        "top_left": [
+            1395,
+            164
+        ],
+        "bottom_right": [
+            1558,
+            325
+        ],
+        "label": "calendar"
+    },
+    "example_7": {
+        "top_left": [
+            1188,
+            363
+        ],
+        "bottom_right": [
+            1351,
+            524
+        ],
+        "label": "files"
+    },
+    "example_8": {
+        "top_left": [
+            771,
+            379
+        ],
+        "bottom_right": [
+            934,
+            540
+        ],
+        "label": "document_scan"
+    },
+    "example_9": {
+        "top_left": [
+            981,
+            580
+        ],
+        "bottom_right": [
+            1144,
+            741
+        ],
+        "label": "libre_office_calc"
+    },
+    "example_10": {
+        "top_left": [
+            770,
+            581
+        ],
+        "bottom_right": [
+            933,
+            742
+        ],
+        "label": "translate"
+    },
+    "example_11": {
+        "top_left": [
+            770,
+            786
+        ],
+        "bottom_right": [
+            933,
+            947
+        ],
+        "label": "mahjong"
+    },
+    "example_12": {
+        "top_left": [
+            982,
+            787
+        ],
+        "bottom_right": [
+            1145,
+            948
+        ],
+        "label": "mines"
+    },
+    "example_13": {
+        "top_left": [
+            357,
+            788
+        ],
+        "bottom_right": [
+            520,
+            949
+        ],
+        "label": "word"
+    },
+    "example_14": {
+        "top_left": [
+            357,
+            584
+        ],
+        "bottom_right": [
+            520,
+            745
+        ],
+        "label": "notes"
+    },
+    "example_15": {
+        "top_left": [
+            836,
+            1017
+        ],
+        "bottom_right": [
+            961,
+            1047
+        ],
+        "label": "frequent_apps"
+    },
+    "example_16": {
+        "top_left": [
+            70,
+            29
+        ],
+        "bottom_right": [
+            1920,
+            1080
+        ],
+        "label": "scroll_apps"
+    },
+    "example_17": {
+        "top_left": [
+            2,
+            505
+        ],
+        "bottom_right": [
+            70,
+            572
+        ],
+        "label": "settings_icon"
+    }
+}

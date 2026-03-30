@@ -1,0 +1,5 @@
+Task: Execute "show inspector" option through right click menu.
+Output Script:
+pyautogui.rightClick(1684.5,1168.5)
+pyautogui.write("show inspector")
+pyautogui.press("enter")

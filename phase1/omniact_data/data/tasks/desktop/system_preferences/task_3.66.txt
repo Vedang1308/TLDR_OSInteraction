@@ -1,0 +1,3 @@
+Task: Activate battery status visibility in menu bar.
+Output Script:
+pyautogui.click(1207.5,682.0)

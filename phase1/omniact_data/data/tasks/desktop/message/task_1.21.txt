@@ -1,0 +1,3 @@
+Task: Access Father"s conversation from the left side panel
+Output Script:
+pyautogui.click(320.0,1416.5)

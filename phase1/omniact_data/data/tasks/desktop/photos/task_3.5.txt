@@ -1,0 +1,5 @@
+Task: Select the "Nature" class from the dropdown menu
+Output Script:
+pyautogui.click(1898.0,653.0)
+pyautogui.press("down")
+pyautogui.press("enter")

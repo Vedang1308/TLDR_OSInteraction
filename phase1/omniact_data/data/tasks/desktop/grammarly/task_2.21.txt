@@ -1,0 +1,5 @@
+Task: Find all occurances of the word "client"
+Output script:
+pyautogui.hotkey("ctrl", "f")
+pyautogui.write("client")
+pyautogui.press("enter")

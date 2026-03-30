@@ -1,0 +1,5 @@
+Task: Look up for a model branded as "upcourt 5"
+Output Script: 
+pyautogui.click(1132.0,115.0)
+pyautogui.write("upcourt 5")
+pyautogui.press("enter")

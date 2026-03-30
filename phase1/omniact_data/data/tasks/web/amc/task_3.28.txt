@@ -1,0 +1,3 @@
+Task: Begin the process of registering for a new account
+Output Script:
+pyautogui.click(476.0,589.5)

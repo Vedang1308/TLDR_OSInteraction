@@ -1,0 +1,3 @@
+Task: Retrieve all university course offerings
+Output Script:
+pyautogui.click(347.5,20.0)

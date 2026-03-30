@@ -1,0 +1,4 @@
+Task: Copy all text from the file "template.txt" on to clipboard
+Output Script:
+pyautogui.doubleClick(811.5,340.5)
+pyautogui.hotkey("ctrl","a")

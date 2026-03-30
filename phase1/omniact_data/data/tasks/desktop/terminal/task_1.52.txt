@@ -1,0 +1,3 @@
+Task: Use a keyboard shortcut to save the current progress on your file
+Output Script:
+pyautogui.hotkey("ctrl", "s")

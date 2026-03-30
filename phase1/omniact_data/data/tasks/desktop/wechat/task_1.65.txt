@@ -1,0 +1,3 @@
+Task: Forward a snapshot of the screen to Jack
+Output Script:
+pyautogui.click(510.0,874.5)

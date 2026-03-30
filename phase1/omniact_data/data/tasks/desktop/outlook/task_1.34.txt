@@ -1,0 +1,4 @@
+Task: Open Expedia.com email received yesterday and hide the navigation panel
+Output Script:
+pyautogui.click(301.5,579.5)
+pyautogui.click(31.5,70.5)

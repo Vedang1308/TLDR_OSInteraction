@@ -1,0 +1,8 @@
+Task: Change the website language to Italian using keyboard commands.
+Output Script:
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")
+pyautogui.write("Italiano")
+pyautogui.press("enter")

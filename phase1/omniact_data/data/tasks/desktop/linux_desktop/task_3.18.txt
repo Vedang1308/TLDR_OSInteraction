@@ -1,0 +1,6 @@
+Task: Trigger Windows search bar, type in and select the desired software.
+Output Script:
+pyautogui.hotkey("winleft", "a")
+pyautogui.click(959.0,67.0)
+pyautogui.write("aud")
+pyautogui.click(849.5,247.5)

@@ -1,0 +1,5 @@
+Task: Finish the purchase process using your friend"s email address
+Output Script:
+pyautogui.click(451.0,797.5)
+pyautogui.hotKey("ctrl", "c")
+pyautogui.click(1292.0,863.5)

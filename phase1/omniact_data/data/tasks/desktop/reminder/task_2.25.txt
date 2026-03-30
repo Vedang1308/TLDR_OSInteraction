@@ -1,0 +1,5 @@
+Task: Specify today"s date as the date for the newly created task.
+Output script:
+pyautogui.click(746.0,1110.5)
+pyautogui.write("today")
+pyautogui.press("Enter")

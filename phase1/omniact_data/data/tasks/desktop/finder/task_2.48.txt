@@ -1,0 +1,4 @@
+Task: Arrange the files in reverse alphabetical order.
+Output Script:
+pyautogui.click(1446.5,132.0)
+pyautogui.click(1446.5,132.0)

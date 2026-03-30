@@ -1,0 +1,4 @@
+Task: Utilize shortcut keys to insert the copied text into the selected text input field.
+Output Script:
+pyautogui.click(1996.0,212.0)
+pyautogui.hotkey("ctrl", "v")

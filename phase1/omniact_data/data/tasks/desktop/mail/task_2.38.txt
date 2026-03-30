@@ -1,0 +1,3 @@
+Task: Commence response to the current highlighted email.
+Output script:
+pyautogui.click(1304.5,56.5)

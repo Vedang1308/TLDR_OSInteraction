@@ -1,0 +1,5 @@
+Task: Utilize right-click to eliminate the ultimate folder from the list.
+Output Script:
+pyautogui.rightClick(1881.0,469.0)
+pyautogui.write("Move to Bin")
+pyautogui.press("enter")

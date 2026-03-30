@@ -1,0 +1,4 @@
+Task: Scroll down to view information on the best value hotels.
+Output Script:
+pyautogui.moveto("scroll_to_fine_dining_description")
+pyautogui.scroll(+150)

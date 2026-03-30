@@ -1,0 +1,3 @@
+Task: Launch the Trash folder
+Output Script:
+pyautogui.click(134.5,165.0)

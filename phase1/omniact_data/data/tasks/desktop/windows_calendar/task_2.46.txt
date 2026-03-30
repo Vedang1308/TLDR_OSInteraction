@@ -1,0 +1,5 @@
+Task: Set the event to remind 30 minutes in advance
+Output Script:
+Pyautogui.click(1477.0,419.0)
+Pyautogui.press("Down")
+Pyautogui.press("Enter")

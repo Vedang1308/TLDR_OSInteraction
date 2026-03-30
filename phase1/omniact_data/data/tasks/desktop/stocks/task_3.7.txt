@@ -1,0 +1,5 @@
+Task: Search for news related to Boeing stock.
+Output script:
+pyautogui.click(333.0,151.0)
+pyautogui.write("Boeing stock")
+pyautogui.press("enter")

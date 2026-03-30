@@ -1,0 +1,3 @@
+Task: Check out the ratings of Samsung Crystal UHD TV
+Output Script:
+pyautogui.click(1236.0,868.0)

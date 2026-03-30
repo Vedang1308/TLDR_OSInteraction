@@ -1,0 +1,3 @@
+Task: Implement right-click function for the text "Yeah, what"s the cost?"
+Output Script:
+pyautogui.rightClick(3171.5,1340.0)

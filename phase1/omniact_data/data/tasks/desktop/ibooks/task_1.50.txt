@@ -1,0 +1,3 @@
+Task: From "More to Explore" section, select and view Non-fiction books
+Output Script:
+pyautogui.click(1881.5,1379.0)

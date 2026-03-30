@@ -1,0 +1,3 @@
+Task: Modify region and language preferences.
+Output Script:
+pyautogui.click(192.5,885.0)

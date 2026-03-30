@@ -1,0 +1,5 @@
+Task: Plan an event with customers for next week.
+Output script:
+pyautogui.click(611.5,587.5)
+pyautogui.write("Meeting with clients")
+pyautogui.press("Enter")

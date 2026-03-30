@@ -1,0 +1,3 @@
+Task: Trigger the use of One Key Cash feature.
+Output script:
+pyautogui.click(2703.0,695.0)

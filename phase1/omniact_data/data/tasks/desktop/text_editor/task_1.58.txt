@@ -1,0 +1,5 @@
+Task: "Modify language settings to French"
+Output Script:
+pyautogui.click(1768.0,167.5)
+pyautogui.write("French")
+pyautogui.press("enter")

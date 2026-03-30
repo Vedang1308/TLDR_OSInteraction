@@ -1,0 +1,3 @@
+Task: Pick a unique store locale from the options
+Output Script:
+pyautogui.click(100.0,27.5)

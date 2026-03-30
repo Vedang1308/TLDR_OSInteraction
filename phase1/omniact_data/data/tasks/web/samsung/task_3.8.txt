@@ -1,0 +1,3 @@
+Task: Open the shop menu from the top menu
+Output Script:
+pyautogui.click(223.5,40.0)

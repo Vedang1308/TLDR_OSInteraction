@@ -1,0 +1,3 @@
+Task: Navigate to the "Travel" category.
+Output script:
+pyautogui.click(225.5,1362.0)

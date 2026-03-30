@@ -1,0 +1,3 @@
+Task: Try enabling airplay for the music application
+Output Script:
+pyautogui.click(3163.0,50.5)

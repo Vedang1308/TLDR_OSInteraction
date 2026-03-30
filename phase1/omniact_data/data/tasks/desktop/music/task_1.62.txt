@@ -1,0 +1,3 @@
+Task: Generate a prompt for the song called "Music 1"
+Output script:
+pyautogui.click(1356.0,394.0)

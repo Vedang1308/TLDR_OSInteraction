@@ -1,0 +1,5 @@
+Task: In the search bar, insert "Starbucks Corporation" to find its stock.
+Output script:
+pyautogui.click(329.5,149.5)
+pyautogui.write("Starbucks Corporation")
+pyautogui.press("enter")

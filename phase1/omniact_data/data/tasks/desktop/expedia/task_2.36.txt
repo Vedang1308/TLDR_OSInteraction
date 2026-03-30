@@ -1,0 +1,4 @@
+Task: Add two more passengers to the booking.
+Output script:
+pyautogui.click(1449.0,499.5)
+pyautogui.click(1449.0,499.5)

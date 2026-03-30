@@ -1,0 +1,3 @@
+Task: Click the option to view the important mail.
+Output script:
+pyautogui.click(196.5,480.0)

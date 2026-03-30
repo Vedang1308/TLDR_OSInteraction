@@ -1,0 +1,123 @@
+{
+    "example_0": {
+        "top_left": [
+            23,
+            12
+        ],
+        "bottom_right": [
+            71,
+            60
+        ],
+        "label": "back"
+    },
+    "example_1": {
+        "top_left": [
+            1385,
+            7
+        ],
+        "bottom_right": [
+            1502,
+            78
+        ],
+        "label": "change date or location"
+    },
+    "example_2": {
+        "top_left": [
+            2800,
+            12
+        ],
+        "bottom_right": [
+            2852,
+            60
+        ],
+        "label": "search"
+    },
+    "example_3": {
+        "top_left": [
+            1453,
+            1717
+        ],
+        "bottom_right": [
+            1585,
+            1762
+        ],
+        "label": "filters"
+    },
+    "example_4": {
+        "top_left": [
+            1288,
+            1712
+        ],
+        "bottom_right": [
+            1455,
+            1767
+        ],
+        "label": "map"
+    },
+    "example_5": {
+        "top_left": [
+            23,
+            227
+        ],
+        "bottom_right": [
+            2873,
+            420
+        ],
+        "label": "citypass newyork"
+    },
+    "example_6": {
+        "top_left": [
+            23,
+            443
+        ],
+        "bottom_right": [
+            2863,
+            657
+        ],
+        "label": "statue of liberty tour"
+    },
+    "example_7": {
+        "top_left": [
+            23,
+            697
+        ],
+        "bottom_right": [
+            2876,
+            913
+        ],
+        "label": "bus tour"
+    },
+    "example_8": {
+        "top_left": [
+            10,
+            947
+        ],
+        "bottom_right": [
+            2873,
+            1160
+        ],
+        "label": "memorial tour"
+    },
+    "example_9": {
+        "top_left": [
+            16,
+            1183
+        ],
+        "bottom_right": [
+            2880,
+            1410
+        ],
+        "label": "circle line tour"
+    },
+    "example_10": {
+        "top_left": [
+            16,
+            1447
+        ],
+        "bottom_right": [
+            2880,
+            1653
+        ],
+        "label": "empire state building"
+    }
+}

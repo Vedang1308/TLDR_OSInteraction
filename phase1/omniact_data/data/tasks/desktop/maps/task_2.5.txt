@@ -1,0 +1,5 @@
+Task: Call the place by clicking on options at the top right.
+Output script:
+pyautogui.click(1970.5,342.5)
+pyautogui.write("call")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Check the cost range in the children"s footwear department.
+Output Script:
+pyautogui.click(245.0,620.0)

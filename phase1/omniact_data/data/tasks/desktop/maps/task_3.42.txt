@@ -1,0 +1,3 @@
+Task: Choose walking as the method of transportation.
+Output script:
+pyautogui.click(2603.0,164.0)

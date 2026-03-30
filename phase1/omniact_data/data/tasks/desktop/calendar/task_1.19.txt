@@ -1,0 +1,4 @@
+Task: Select timeframe from 9 am to 1 pm for event creation.
+Output script:
+pyautogui.click(1096.0,385.0)
+pyautogui.dragTo(1083.0,892.5"left")

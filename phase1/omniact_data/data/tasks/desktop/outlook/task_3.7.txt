@@ -1,0 +1,5 @@
+Task: Search for emails from Google
+Output Script:
+pyautogui.click(460.0,70.5)
+pyautogui.write("Google")
+pyautogui.press("enter")

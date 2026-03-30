@@ -1,0 +1,3 @@
+Task: Describe extensively about the Ultraviolet Index
+Output Script:
+pyautogui.click(1840.5,973.0)

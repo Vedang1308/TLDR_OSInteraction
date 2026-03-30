@@ -1,0 +1,3 @@
+Task: Click on the import button
+Output script:
+pyautogui.click(188.5,275.5)

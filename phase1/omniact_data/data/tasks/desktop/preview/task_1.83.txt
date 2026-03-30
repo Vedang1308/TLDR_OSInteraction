@@ -1,0 +1,4 @@
+Task: Scroll backwards to view previous page. 
+Output script:
+pyautogui.moveTo(1446.5,973.5)
+pyautogui.scroll(-30)

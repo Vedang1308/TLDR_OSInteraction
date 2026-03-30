@@ -1,0 +1,3 @@
+Task: Navigate to your account configuration.
+Output script:
+pyautogui.click(2841.0,37.0)

@@ -1,0 +1,7 @@
+Task: Rename the "folder_projects" to "my_projects"
+Output Script:
+pyautogui.rightClick(1138.5,341.5)
+pyautogui.write("rename")
+pyautogui.press("enter")
+pyautogui.write("my_projects")
+pyautogui.press("enter")

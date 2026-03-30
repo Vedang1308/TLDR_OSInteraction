@@ -1,0 +1,5 @@
+Task: Find the value of 2 exponent 8
+Output Script:
+pyautogui.click(1936.5,1159.5)
+pyautogui.click(1479.5,968.5)
+pyautogui.click(1936.5,971.0)

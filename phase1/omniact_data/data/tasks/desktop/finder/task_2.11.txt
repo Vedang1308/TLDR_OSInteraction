@@ -1,0 +1,4 @@
+Task: Sort the files by name in descending order
+Output Script:
+pyautogui.click(1446.5,132.0)
+pyautogui.click(1446.5,132.0)

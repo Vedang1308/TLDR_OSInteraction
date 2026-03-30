@@ -1,0 +1,3 @@
+Task: Return to the Warehouse Associate Page
+Output Script:
+pyautogui.click(466.5,386.0)

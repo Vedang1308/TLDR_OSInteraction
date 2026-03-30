@@ -1,0 +1,3 @@
+Task: Determine the available check in dates by utilizing the check in Data button
+Output Script:
+pyautogui.click(648.5,500.0)

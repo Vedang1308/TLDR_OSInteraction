@@ -1,0 +1,3 @@
+Task: Click on the "expand_tags" button
+Output Script:
+pyautogui.click(225.5,277.5)

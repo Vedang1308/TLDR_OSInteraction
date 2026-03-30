@@ -1,0 +1,4 @@
+Task: Move to the remote desktop area on the left panel and scroll down to reveal more configurations.
+Output Script:
+pyautogui.moveTo(203.0,1002.5)
+pyautogui.scroll(20)

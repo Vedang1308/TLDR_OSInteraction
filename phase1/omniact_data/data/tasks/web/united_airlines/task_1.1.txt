@@ -1,0 +1,5 @@
+Task: Search for Tickets to Taiwan
+Output script:
+pyautogui.click(1265.0,799.0)
+pyautogui.write("Tickets to Taiwan")
+pyautogui.click(1001, 774)

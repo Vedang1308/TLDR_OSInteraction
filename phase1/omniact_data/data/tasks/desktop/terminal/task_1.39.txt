@@ -1,0 +1,3 @@
+Task: Shut the active window using keyboard shortcut
+Output Script:
+pyautogui.hotkey("ctrl", "w")

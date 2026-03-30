@@ -1,0 +1,5 @@
+Task: add new events on Columbus Day
+Output Script:
+Pyautogui.click(397.5,730.5)
+Pyautogui.press("Tab")
+Pyautogui.press("Enter")

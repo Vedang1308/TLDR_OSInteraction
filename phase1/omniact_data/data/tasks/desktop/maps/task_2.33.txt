@@ -1,0 +1,3 @@
+Task: Express your negative feedback for the location by clicking the thumbs down icon.
+Output script:
+pyautogui.click(1612.5,671.0)

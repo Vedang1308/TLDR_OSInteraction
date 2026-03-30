@@ -1,0 +1,3 @@
+Task: Pick the option combining flight, hotel and car hire.
+Output script:
+pyautogui.click(622.0,107.5)

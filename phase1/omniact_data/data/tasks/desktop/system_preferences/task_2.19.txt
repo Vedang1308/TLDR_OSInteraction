@@ -1,0 +1,5 @@
+Task: Opt for "dynamic" theme in the dropdown menu.
+Output Script:
+pyautogui.click(1213.0,441.5)
+pyautogui.write("dynamic")
+pyautogui.press("enter")

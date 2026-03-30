@@ -1,0 +1,3 @@
+Task: Commence the melody "Mere Yaara".
+Output Script:
+pyautogui.click(3061.5,399.0)

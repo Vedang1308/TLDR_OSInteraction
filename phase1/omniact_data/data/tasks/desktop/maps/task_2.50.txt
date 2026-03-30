@@ -1,0 +1,3 @@
+Task: Express your admiration for the place by selecting the thumbs up sign.
+Output script:
+pyautogui.click(1578.5,670.0)

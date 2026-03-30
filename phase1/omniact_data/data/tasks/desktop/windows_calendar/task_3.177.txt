@@ -1,0 +1,4 @@
+Task: Modify the start date to "31 December 2021"
+Output Script:
+pyautogui.click(419.0,432.0)
+pyautogui.write("31 December 2021")

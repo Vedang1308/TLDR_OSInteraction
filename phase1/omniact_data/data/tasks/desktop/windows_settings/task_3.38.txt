@@ -1,0 +1,5 @@
+Task: Use the left panel to find and select "windows updates settings"
+Output Script:
+pyautogui.click(200.0,148.5)
+pyautogui.write("windows updates settings")
+pyautogui.press("enter")

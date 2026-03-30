@@ -1,0 +1,3 @@
+Task: Initiate a slideshow for the pictures stored in a directory
+Output Script:
+pyautogui.click(1762.0,284.0)

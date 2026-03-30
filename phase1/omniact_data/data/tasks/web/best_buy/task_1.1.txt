@@ -1,0 +1,3 @@
+Task: Check the products added to the cart by clicking on the cart icon
+Output Script:
+pyautogui.click(1361.5,72.0)

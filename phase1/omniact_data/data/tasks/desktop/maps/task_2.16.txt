@@ -1,0 +1,4 @@
+Task: Scroll through the photos of the place.
+Output script:
+pyautogui.moveTo(1702.5,933.5)
+pyautogui.scroll(-50)

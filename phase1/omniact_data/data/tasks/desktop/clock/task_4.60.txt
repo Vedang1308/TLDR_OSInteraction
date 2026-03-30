@@ -1,0 +1,3 @@
+Task: Deactivate the 4pm duty
+Output Script:
+pyautogui.click(949.5,423.0)

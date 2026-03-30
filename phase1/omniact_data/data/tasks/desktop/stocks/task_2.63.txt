@@ -1,0 +1,3 @@
+Task: Review the stock fluctuation from the starting of the year till today.
+Output script:
+pyautogui.click(1771.5,385.5)

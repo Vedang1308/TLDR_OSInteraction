@@ -1,0 +1,3 @@
+Task: Click on the mode menu.
+Output script:
+pyautogui.click(2416.0,40.0)

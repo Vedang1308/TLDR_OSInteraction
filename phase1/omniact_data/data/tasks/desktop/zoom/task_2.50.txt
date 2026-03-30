@@ -1,0 +1,3 @@
+Task: Choose settings in chat box. 
+Output Script:
+pyautogui.click(978.5,1744.0)

@@ -1,0 +1,3 @@
+Task: Initiate a click on the "Phone" option
+Output Script:
+pyautogui.click(962.5,429.5)

@@ -1,0 +1,3 @@
+Task: Move to the succeeding book by pressing the right arrow button
+Output Script:
+pyautogui.click(2822.0,1103.0)

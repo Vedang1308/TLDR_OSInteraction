@@ -1,0 +1,3 @@
+Task: Inspect the price bracket for kid"s footwear category.
+Output Script:
+pyautogui.click(245.0,620.0)

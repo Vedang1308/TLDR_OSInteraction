@@ -1,0 +1,5 @@
+Task: Find the to-do named "conference"
+Output Script:
+pyautogui.click(994.5,97.5)
+pyautogui.write("conference")
+pyautogui.press("enter")

@@ -1,0 +1,5 @@
+Task: Through keyboard strokes, select the top option from the menu 
+Output Script:
+pyautogui.click(1769.5,50.0)
+pyautogui.press("down")
+pyautogui.press("enter")

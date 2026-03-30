@@ -1,0 +1,5 @@
+Task: Access "downloads" directory and scroll to the end of it. 
+Output Script:
+pyautogui.click(165.0,448.0)
+pyautogui.click(165.0,448.0)
+pyautogui.scroll(-100)

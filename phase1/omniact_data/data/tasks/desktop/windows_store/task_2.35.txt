@@ -1,0 +1,3 @@
+Task: Review updates on sliding window special offers
+Output Script:
+pyautogui.click(983.0,704.5)

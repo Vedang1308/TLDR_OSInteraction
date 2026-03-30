@@ -1,0 +1,3 @@
+Task: Navigate to Mandapa hotel information by clicking on its listing
+Output Script:
+pyautogui.click(249.0,881.0)

@@ -1,0 +1,5 @@
+Task: Designate "Mumbai" as your location from which you are departing.
+Output script:
+pyautogui.click(1438.0,208.5)
+pyautogui.write("Mumbai")
+pyautogui.press("enter")

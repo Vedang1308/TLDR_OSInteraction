@@ -1,0 +1,5 @@
+Task: Post the ongoing narrative on Twitter.
+Output script:
+pyautogui.click(2834.0,51.0)
+pyautogui.write("Twitter")
+pyautogui.press("Enter")

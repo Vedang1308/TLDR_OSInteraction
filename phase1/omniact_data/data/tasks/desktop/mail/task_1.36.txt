@@ -1,0 +1,4 @@
+Task: Respond to all recipients of the second email from Google team
+Output script:
+pyautogui.click(807.5,370.5)
+pyautogui.click(2053.5,56.5)

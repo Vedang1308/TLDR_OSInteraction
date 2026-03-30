@@ -1,0 +1,3 @@
+Task: Use the sign in button to avoid time-consuming procedures
+Output Script:
+pyautogui.click(608.0,822.0)

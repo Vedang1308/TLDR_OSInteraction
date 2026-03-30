@@ -1,0 +1,3 @@
+Task: Locate and select the "explore stays" feature.
+Output script:
+pyautogui.click(1440.0,1277.5)

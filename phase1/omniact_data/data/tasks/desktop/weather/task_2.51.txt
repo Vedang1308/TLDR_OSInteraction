@@ -1,0 +1,4 @@
+Task: Determine the percentage of water vapor in the atmosphere in Chicago
+Output Script:
+pyautogui.click(2167.5,1609.0)
+pyautogui.click(323.0,173.0)

@@ -1,0 +1,326 @@
+{
+    "example_0": {
+        "top_left": [
+            880,
+            233
+        ],
+        "bottom_right": [
+            939,
+            249
+        ],
+        "valid": 1,
+        "label": "redirects to see details"
+    },
+    "example_1": {
+        "top_left": [
+            300,
+            108
+        ],
+        "bottom_right": [
+            420,
+            161
+        ],
+        "valid": 1,
+        "label": "redirect_to_prepaid_page"
+    },
+    "example_2": {
+        "top_left": [
+            1202,
+            42
+        ],
+        "bottom_right": [
+            1255,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_to_customer_support"
+    },
+    "example_3": {
+        "top_left": [
+            218,
+            42
+        ],
+        "bottom_right": [
+            270,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_wireless"
+    },
+    "example_4": {
+        "top_left": [
+            241,
+            213
+        ],
+        "bottom_right": [
+            273,
+            245
+        ],
+        "valid": 1,
+        "label": "scroll_left_page"
+    },
+    "example_5": {
+        "top_left": [
+            1147,
+            42
+        ],
+        "bottom_right": [
+            1171,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_shopping_cart"
+    },
+    "example_6": {
+        "top_left": [
+            900,
+            108
+        ],
+        "bottom_right": [
+            1020,
+            161
+        ],
+        "valid": 1,
+        "label": "select_quick_pay_option"
+    },
+    "example_7": {
+        "top_left": [
+            525,
+            42
+        ],
+        "bottom_right": [
+            581,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_to_Business"
+    },
+    "example_8": {
+        "top_left": [
+            660,
+            108
+        ],
+        "bottom_right": [
+            780,
+            161
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            540,
+            108
+        ],
+        "bottom_right": [
+            660,
+            161
+        ],
+        "valid": 1,
+        "label": "Redirects to a product page."
+    },
+    "example_10": {
+        "top_left": [
+            163,
+            42
+        ],
+        "bottom_right": [
+            198,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_to_deals"
+    },
+    "example_11": {
+        "top_left": [
+            1020,
+            108
+        ],
+        "bottom_right": [
+            1140,
+            161
+        ],
+        "valid": 1,
+        "label": "prepaid_deals_redirect"
+    },
+    "example_12": {
+        "top_left": [
+            290,
+            42
+        ],
+        "bottom_right": [
+            342,
+            92
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_13": {
+        "top_left": [
+            123,
+            687
+        ],
+        "bottom_right": [
+            212,
+            703
+        ],
+        "valid": 1,
+        "label": "add_to_cart_button"
+    },
+    "example_14": {
+        "top_left": [
+            780,
+            108
+        ],
+        "bottom_right": [
+            900,
+            161
+        ],
+        "valid": 1,
+        "label": "redirect_to_prepaid_account_page"
+    },
+    "example_15": {
+        "top_left": [
+            362,
+            42
+        ],
+        "bottom_right": [
+            437,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_to_accessories"
+    },
+    "example_16": {
+        "top_left": [
+            935,
+            201
+        ],
+        "bottom_right": [
+            1035,
+            225
+        ],
+        "valid": 1,
+        "label": "Get started"
+    },
+    "example_17": {
+        "top_left": [
+            123,
+            726
+        ],
+        "bottom_right": [
+            267,
+            774
+        ],
+        "valid": 1,
+        "label": "add_to_cart_button"
+    },
+    "example_18": {
+        "top_left": [
+            1178,
+            6
+        ],
+        "bottom_right": [
+            1266,
+            24
+        ],
+        "valid": 1,
+        "label": "search_store_locations"
+    },
+    "example_19": {
+        "top_left": [
+            1083,
+            639
+        ],
+        "bottom_right": [
+            1172,
+            655
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_20": {
+        "top_left": [
+            1066,
+            52
+        ],
+        "bottom_right": [
+            1110,
+            82
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_21": {
+        "top_left": [
+            1167,
+            213
+        ],
+        "bottom_right": [
+            1199,
+            245
+        ],
+        "valid": 1,
+        "label": "next_page"
+    },
+    "example_22": {
+        "top_left": [
+            984,
+            678
+        ],
+        "bottom_right": [
+            1128,
+            726
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_23": {
+        "top_left": [
+            1288,
+            42
+        ],
+        "bottom_right": [
+            1360,
+            92
+        ],
+        "valid": 1,
+        "label": "filter_by_MyAT&T"
+    },
+    "example_24": {
+        "top_left": [
+            457,
+            42
+        ],
+        "bottom_right": [
+            505,
+            92
+        ],
+        "valid": 1,
+        "label": "show_prepaid_plans"
+    },
+    "example_25": {
+        "top_left": [
+            1278,
+            7
+        ],
+        "bottom_right": [
+            1358,
+            23
+        ],
+        "valid": 1,
+        "label": "select_option_ver_en_espanol"
+    },
+    "example_26": {
+        "top_left": [
+            420,
+            108
+        ],
+        "bottom_right": [
+            540,
+            161
+        ],
+        "valid": 1,
+        "label": "show_prepaid_plans"
+    }
+}

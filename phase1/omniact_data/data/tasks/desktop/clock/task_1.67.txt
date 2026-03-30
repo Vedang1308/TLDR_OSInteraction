@@ -1,0 +1,4 @@
+Task: Register a lap timing and later reset the stopwatch to zero.
+Output Script:
+pyautogui.click(1504.5,1971.5)
+pyautogui.click(1504.5,1971.5)

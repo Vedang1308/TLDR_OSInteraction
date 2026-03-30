@@ -1,0 +1,3 @@
+Task: Go for the drafts selection to check its items.
+Output script:
+pyautogui.click(196.5,595.5)

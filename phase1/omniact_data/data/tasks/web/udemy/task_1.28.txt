@@ -1,0 +1,2 @@
+Task: Select additional subtitle options.
+pyautogui.click(673.0,356.0)

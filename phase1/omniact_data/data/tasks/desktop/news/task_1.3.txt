@@ -1,0 +1,5 @@
+Task: Save the first story
+Output script:
+pyautogui.click(1605.0,1532.0)
+pyautogui.write("Save story")
+pyautogui.press("Enter")

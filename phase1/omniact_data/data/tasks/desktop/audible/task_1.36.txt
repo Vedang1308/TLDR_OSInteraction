@@ -1,0 +1,5 @@
+Task: Rearrange the catalogue based on when they were added
+Output Script:
+pyautogui.click(1442.0,242.0)
+pyautogui.press("down")
+pyautogui.press("enter")

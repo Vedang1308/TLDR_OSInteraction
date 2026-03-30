@@ -1,0 +1,3 @@
+Task: Access the calendar for the month of February to observe all planned events.
+Output script:
+pyautogui.click(1085.5,449.5)

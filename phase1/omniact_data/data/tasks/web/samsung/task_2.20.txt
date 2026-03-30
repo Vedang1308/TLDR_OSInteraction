@@ -1,0 +1,5 @@
+Task: Write "Galaxy" in the search bar and press enter to proceed.
+Output Script:
+pyautogui.click(1308.0,40.0)
+pyautogui.write("Galaxy")
+pyautogui.press("enter")

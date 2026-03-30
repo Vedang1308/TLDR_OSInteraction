@@ -1,0 +1,6 @@
+Task: Adjust the video"s aspect ratio to 16:9
+Output Script:
+pyautogui.click(1769.5,227.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

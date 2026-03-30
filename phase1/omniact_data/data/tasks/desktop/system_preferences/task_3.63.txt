@@ -1,0 +1,3 @@
+Task: Boost video streaming quality when running on battery power.
+Output Script:
+pyautogui.click(1266.0,510.0)

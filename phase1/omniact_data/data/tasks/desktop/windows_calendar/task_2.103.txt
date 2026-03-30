@@ -1,0 +1,3 @@
+Task: Move ahead to the next month in the calendar setup.
+Output Script:
+Pyautogui.click(287.0,192.5)

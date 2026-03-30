@@ -1,0 +1,3 @@
+Task: Include an additional calendar to your current profile.
+Output Script:
+pyautogui.click(1857.5,1085.5)

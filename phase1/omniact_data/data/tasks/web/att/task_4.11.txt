@@ -1,0 +1,3 @@
+Task: Access the store locations tab through double click
+Output Script:
+pyautogui.doubleClick(1222.0,15.0)

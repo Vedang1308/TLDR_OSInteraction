@@ -1,0 +1,3 @@
+Task: Activate the language toolbar option
+Output script:
+pyautogui.click(933.5,29.5)

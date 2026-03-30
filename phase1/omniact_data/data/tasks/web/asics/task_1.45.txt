@@ -1,0 +1,3 @@
+Task: Identify the singular offers they propose
+Output Script:
+pyautogui.click(720.0,28.5)

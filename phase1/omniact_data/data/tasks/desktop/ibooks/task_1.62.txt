@@ -1,0 +1,3 @@
+Task: Access "The Schoolhouse" from the Top Charts screen
+Output Script:
+pyautogui.click(1492.0,643.5)

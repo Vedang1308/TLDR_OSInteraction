@@ -1,0 +1,3 @@
+Task: Slide to the details section of the page for the laundry machine.
+Output Script:
+pyautogui.scroll(30)

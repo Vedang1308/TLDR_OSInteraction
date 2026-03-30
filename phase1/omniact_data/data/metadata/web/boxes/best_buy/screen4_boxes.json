@@ -1,0 +1,302 @@
+{
+    "example_0": {
+        "top_left": [
+            81,
+            768
+        ],
+        "bottom_right": [
+            99,
+            786
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_1": {
+        "top_left": [
+            735,
+            696
+        ],
+        "bottom_right": [
+            1095,
+            712
+        ],
+        "valid": 1,
+        "label": " the which is for rating button."
+    },
+    "example_2": {
+        "top_left": [
+            0,
+            0
+        ],
+        "bottom_right": [
+            1440,
+            33
+        ],
+        "valid": 1,
+        "label": "redirect_to_members_club_registration"
+    },
+    "example_3": {
+        "top_left": [
+            81,
+            479
+        ],
+        "bottom_right": [
+            191,
+            497
+        ],
+        "valid": 1,
+        "label": "filter_by_SonySmartTVs"
+    },
+    "example_4": {
+        "top_left": [
+            246,
+            119
+        ],
+        "bottom_right": [
+            405,
+            135
+        ],
+        "valid": 1,
+        "label": " redirecting to My Best Buy Memberships page."
+    },
+    "example_5": {
+        "top_left": [
+            81,
+            716
+        ],
+        "bottom_right": [
+            99,
+            734
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_6": {
+        "top_left": [
+            433,
+            119
+        ],
+        "bottom_right": [
+            509,
+            135
+        ],
+        "valid": 1,
+        "label": "redirect_creditcards  "
+    },
+    "example_7": {
+        "top_left": [
+            420,
+            376
+        ],
+        "bottom_right": [
+            507,
+            406
+        ],
+        "valid": 1,
+        "label": "Learn_more_redirect"
+    },
+    "example_8": {
+        "top_left": [
+            396,
+            585
+        ],
+        "bottom_right": [
+            703,
+            770
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            111,
+            793
+        ],
+        "bottom_right": [
+            138,
+            812
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_10": {
+        "top_left": [
+            156,
+            53
+        ],
+        "bottom_right": [
+            242,
+            85
+        ],
+        "valid": 1,
+        "label": "Menu_drop-down"
+    },
+    "example_11": {
+        "top_left": [
+            111,
+            715
+        ],
+        "bottom_right": [
+            176,
+            734
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_12": {
+        "top_left": [
+            863,
+            635
+        ],
+        "bottom_right": [
+            949,
+            659
+        ],
+        "valid": 1,
+        "label": " selecting the TV with the Voice Assist feature."
+    },
+    "example_13": {
+        "top_left": [
+            434,
+            135
+        ],
+        "bottom_right": [
+            542,
+            151
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_14": {
+        "top_left": [
+            295,
+            135
+        ],
+        "bottom_right": [
+            406,
+            151
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_15": {
+        "top_left": [
+            735,
+            585
+        ],
+        "bottom_right": [
+            1063,
+            618
+        ],
+        "valid": 1,
+        "label": "Product_redirect"
+    },
+    "example_16": {
+        "top_left": [
+            126,
+            119
+        ],
+        "bottom_right": [
+            218,
+            135
+        ],
+        "valid": 1,
+        "label": "It's a link to information on the \"Deal of the Day\"."
+    },
+    "example_17": {
+        "top_left": [
+            1024,
+            119
+        ],
+        "bottom_right": [
+            1148,
+            137
+        ],
+        "valid": 1,
+        "label": "Recently_viewed_drop-down"
+    },
+    "example_18": {
+        "top_left": [
+            761,
+            800
+        ],
+        "bottom_right": [
+            956,
+            814
+        ],
+        "valid": 1,
+        "label": "zip_code_bar"
+    },
+    "example_19": {
+        "top_left": [
+            81,
+            820
+        ],
+        "bottom_right": [
+            99,
+            838
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_20": {
+        "top_left": [
+            111,
+            845
+        ],
+        "bottom_right": [
+            165,
+            864
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_21": {
+        "top_left": [
+            63,
+            191
+        ],
+        "bottom_right": [
+            64,
+            192
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_22": {
+        "top_left": [
+            281,
+            191
+        ],
+        "bottom_right": [
+            445,
+            207
+        ],
+        "valid": 1,
+        "label": "redirecting to Sony Tvs & Home Theatre page."
+    },
+    "example_23": {
+        "top_left": [
+            806,
+            49
+        ],
+        "bottom_right": [
+            842,
+            89
+        ],
+        "valid": 1,
+        "label": "mangifying glass icon that corresponds to search bar."
+    },
+    "example_24": {
+        "top_left": [
+            909,
+            118
+        ],
+        "bottom_right": [
+            996,
+            138
+        ],
+        "valid": 1,
+        "label": " redirecting to account"
+    }
+}

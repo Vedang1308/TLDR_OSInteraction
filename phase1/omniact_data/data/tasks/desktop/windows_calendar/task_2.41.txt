@@ -1,0 +1,4 @@
+Task: Navigate to the date two days prior using the arrow button
+Output Script:
+Pyautogui.click(356.0,66.5)
+Pyautogui.click(356.0,66.5)

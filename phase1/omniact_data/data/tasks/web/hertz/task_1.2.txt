@@ -1,0 +1,6 @@
+Task: Enter "Florida" in the pick up location
+Output script:
+pyautogui.click(379.5,429.5)
+pyautogui.write("Florida")
+pyautogui.press("down")
+pyautogui.press("enter")

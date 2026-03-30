@@ -1,0 +1,4 @@
+Task: Modify the beginning time of the event to 9:00 AM
+Output Script:
+pyautogui.click(882.5,432.5)
+pyautogui.write("9:00")

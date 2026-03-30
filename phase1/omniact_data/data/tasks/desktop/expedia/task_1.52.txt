@@ -1,0 +1,3 @@
+Task: Access the settings of the account.
+Output script:
+pyautogui.click(2609.5,1762.5)

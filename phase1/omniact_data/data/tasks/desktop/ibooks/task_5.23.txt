@@ -1,0 +1,5 @@
+Task: Sort out the titles of the books in a list format.
+Output Script:
+pyautogui.click(3150.5,155.5)
+pyautogui.write("list view")
+pyautogui.press("enter")

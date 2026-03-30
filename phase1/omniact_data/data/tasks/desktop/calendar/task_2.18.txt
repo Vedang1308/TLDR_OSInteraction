@@ -1,0 +1,4 @@
+Task: Arrange a time-table for Thursday from 9:30 am to 3 pm.
+Output script:
+pyautogui.click(1124.0,398.0)
+pyautogui.dragTo(1125.5,1163.5"left")

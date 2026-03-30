@@ -1,0 +1,4 @@
+Task: Navigate to the next page by scrolling downwards.
+Output script:
+pyautogui.moveTo(1446.5,973.5)
+pyautogui.scroll(30)

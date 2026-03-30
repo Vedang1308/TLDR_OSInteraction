@@ -1,0 +1,3 @@
+Task: Access the explore premium area
+Output script:
+pyautogui.click(1642.5,90.0)

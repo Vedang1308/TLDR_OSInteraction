@@ -1,0 +1,3 @@
+Task: Generate the archive of songs played earlier
+Output Script:
+pyautogui.click(3193.0,172.5)

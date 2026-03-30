@@ -1,0 +1,3 @@
+Task: check what items I have put so far in the shopping cart
+Output Script:
+pyautogui.click(1288.5,116.0)

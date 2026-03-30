@@ -1,0 +1,3 @@
+Task: Check the skills required for "Administrative Assistant"
+Output Script:
+pyautogui.click(1037.5,841.0)

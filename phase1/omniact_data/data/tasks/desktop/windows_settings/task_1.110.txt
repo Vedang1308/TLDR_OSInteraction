@@ -1,0 +1,3 @@
+Task: Execute the "Phone" button clicking function
+Output Script:
+pyautogui.click(962.5,429.5)

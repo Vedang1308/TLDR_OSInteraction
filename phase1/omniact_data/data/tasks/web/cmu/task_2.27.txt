@@ -1,0 +1,3 @@
+Task: Navigate to the Student Financial Support Page
+Output Script:
+pyautogui.click(366.5,236.5)

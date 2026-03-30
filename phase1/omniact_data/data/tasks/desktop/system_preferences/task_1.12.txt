@@ -1,0 +1,6 @@
+Task: Search for application setting in search bar.
+Output Script:
+pyautogui.click(1788.0,192.5)
+pyautogui.write("application")
+pyautogui.press("down")
+pyautogui.press("enter")

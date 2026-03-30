@@ -1,0 +1,5 @@
+Task: Add the notes "Please RSVP by Friday".
+Output script:
+pyautogui.click(1609.0,813.5)
+pyautogui.write("Please RSVP by Friday")
+pyautogui.press("enter")

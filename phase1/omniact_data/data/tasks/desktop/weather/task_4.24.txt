@@ -1,0 +1,3 @@
+Task: Discuss what is meant by "feels like" temperature in meteorology.
+Output Script:
+pyautogui.doubleClick(1843.5,1608.0)

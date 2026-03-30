@@ -1,0 +1,4 @@
+Task: Set up an event for Martin Luther King Jr Day.
+Output script:
+pyautogui.click(620.0,887.0)
+pyautogui.click(620.0,887.0)

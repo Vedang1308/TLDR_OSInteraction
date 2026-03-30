@@ -1,0 +1,530 @@
+{
+    "example_0": {
+        "top_left": [
+            78,
+            35
+        ],
+        "bottom_right": [
+            115,
+            65
+        ],
+        "label": "search"
+    },
+    "example_1": {
+        "top_left": [
+            81,
+            97
+        ],
+        "bottom_right": [
+            301,
+            140
+        ],
+        "label": "Bluetooth"
+    },
+    "example_2": {
+        "top_left": [
+            81,
+            142
+        ],
+        "bottom_right": [
+            303,
+            184
+        ],
+        "label": "Background"
+    },
+    "example_3": {
+        "top_left": [
+            80,
+            189
+        ],
+        "bottom_right": [
+            305,
+            228
+        ],
+        "label": "Appearance"
+    },
+    "example_4": {
+        "top_left": [
+            79,
+            231
+        ],
+        "bottom_right": [
+            302,
+            268
+        ],
+        "label": "Notifications"
+    },
+    "example_5": {
+        "top_left": [
+            78,
+            274
+        ],
+        "bottom_right": [
+            305,
+            313
+        ],
+        "label": "Search"
+    },
+    "example_6": {
+        "top_left": [
+            79,
+            322
+        ],
+        "bottom_right": [
+            307,
+            367
+        ],
+        "label": "Applications"
+    },
+    "example_7": {
+        "top_left": [
+            78,
+            370
+        ],
+        "bottom_right": [
+            306,
+            409
+        ],
+        "label": "Privacy"
+    },
+    "example_8": {
+        "top_left": [
+            77,
+            414
+        ],
+        "bottom_right": [
+            308,
+            454
+        ],
+        "label": "Online Accounts"
+    },
+    "example_9": {
+        "top_left": [
+            78,
+            461
+        ],
+        "bottom_right": [
+            306,
+            497
+        ],
+        "label": "Sharing"
+    },
+    "example_10": {
+        "top_left": [
+            78,
+            508
+        ],
+        "bottom_right": [
+            309,
+            546
+        ],
+        "label": "Sound"
+    },
+    "example_11": {
+        "top_left": [
+            77,
+            552
+        ],
+        "bottom_right": [
+            309,
+            590
+        ],
+        "label": "Power"
+    },
+    "example_12": {
+        "top_left": [
+            76,
+            597
+        ],
+        "bottom_right": [
+            309,
+            633
+        ],
+        "label": "Displays"
+    },
+    "example_13": {
+        "top_left": [
+            76,
+            639
+        ],
+        "bottom_right": [
+            304,
+            679
+        ],
+        "label": "Mouse & Trackpad"
+    },
+    "example_14": {
+        "top_left": [
+            75,
+            687
+        ],
+        "bottom_right": [
+            308,
+            725
+        ],
+        "label": "Keyboard shortcuts"
+    },
+    "example_15": {
+        "top_left": [
+            75,
+            733
+        ],
+        "bottom_right": [
+            309,
+            766
+        ],
+        "label": "Printer"
+    },
+    "example_16": {
+        "top_left": [
+            832,
+            163
+        ],
+        "bottom_right": [
+            964,
+            189
+        ],
+        "label": "Low volume"
+    },
+    "example_17": {
+        "top_left": [
+            1037,
+            162
+        ],
+        "bottom_right": [
+            1225,
+            190
+        ],
+        "label": "medium volume"
+    },
+    "example_18": {
+        "top_left": [
+            1279,
+            161
+        ],
+        "bottom_right": [
+            1361,
+            188
+        ],
+        "label": "high volume"
+    },
+    "example_19": {
+        "top_left": [
+            1341,
+            238
+        ],
+        "bottom_right": [
+            1394,
+            268
+        ],
+        "label": "over-amplification"
+    },
+    "example_20": {
+        "top_left": [
+            980,
+            377
+        ],
+        "bottom_right": [
+            1076,
+            399
+        ],
+        "label": "system sounds"
+    },
+    "example_21": {
+        "top_left": [
+            1112,
+            376
+        ],
+        "bottom_right": [
+            1241,
+            398
+        ],
+        "label": "medium sounds"
+    },
+    "example_22": {
+        "top_left": [
+            1271,
+            377
+        ],
+        "bottom_right": [
+            1348,
+            399
+        ],
+        "label": "high sound"
+    },
+    "example_23": {
+        "top_left": [
+            974,
+            496
+        ],
+        "bottom_right": [
+            1334,
+            528
+        ],
+        "label": "speakers"
+    },
+    "example_24": {
+        "top_left": [
+            1341,
+            494
+        ],
+        "bottom_right": [
+            1404,
+            529
+        ],
+        "label": "test"
+    },
+    "example_25": {
+        "top_left": [
+            986,
+            573
+        ],
+        "bottom_right": [
+            1174,
+            593
+        ],
+        "label": "left"
+    },
+    "example_26": {
+        "top_left": [
+            1202,
+            573
+        ],
+        "bottom_right": [
+            1390,
+            594
+        ],
+        "label": "right"
+    },
+    "example_27": {
+        "top_left": [
+            974,
+            702
+        ],
+        "bottom_right": [
+            1403,
+            738
+        ],
+        "label": "input device"
+    },
+    "example_28": {
+        "top_left": [
+            975,
+            778
+        ],
+        "bottom_right": [
+            1400,
+            812
+        ],
+        "label": "configuration"
+    },
+    "example_29": {
+        "top_left": [
+            976,
+            844
+        ],
+        "bottom_right": [
+            1089,
+            871
+        ],
+        "label": "input volume"
+    },
+    "example_30": {
+        "top_left": [
+            1107,
+            844
+        ],
+        "bottom_right": [
+            1252,
+            873
+        ],
+        "label": "medium volume"
+    },
+    "example_31": {
+        "top_left": [
+            1272,
+            842
+        ],
+        "bottom_right": [
+            1352,
+            873
+        ],
+        "label": "high volume"
+    },
+    "example_32": {
+        "top_left": [
+            815,
+            949
+        ],
+        "bottom_right": [
+            937,
+            983
+        ],
+        "label": "default alert sounds"
+    },
+    "example_33": {
+        "top_left": [
+            938,
+            948
+        ],
+        "bottom_right": [
+            1058,
+            986
+        ],
+        "label": "Bark alert sound"
+    },
+    "example_34": {
+        "top_left": [
+            1057,
+            948
+        ],
+        "bottom_right": [
+            1178,
+            985
+        ],
+        "label": "Drip alert sound"
+    },
+    "example_35": {
+        "top_left": [
+            1178,
+            949
+        ],
+        "bottom_right": [
+            1300,
+            984
+        ],
+        "label": "Glass alert sound"
+    },
+    "example_36": {
+        "top_left": [
+            1299,
+            950
+        ],
+        "bottom_right": [
+            1418,
+            984
+        ],
+        "label": "Sonar alert sound"
+    },
+    "example_37": {
+        "top_left": [
+            75,
+            777
+        ],
+        "bottom_right": [
+            307,
+            813
+        ],
+        "label": "removable media"
+    },
+    "example_38": {
+        "top_left": [
+            75,
+            819
+        ],
+        "bottom_right": [
+            308,
+            853
+        ],
+        "label": "color"
+    },
+    "example_39": {
+        "top_left": [
+            76,
+            866
+        ],
+        "bottom_right": [
+            309,
+            904
+        ],
+        "label": "Region & Language"
+    },
+    "example_40": {
+        "top_left": [
+            77,
+            912
+        ],
+        "bottom_right": [
+            312,
+            950
+        ],
+        "label": "Universal Access"
+    },
+    "example_41": {
+        "top_left": [
+            77,
+            961
+        ],
+        "bottom_right": [
+            310,
+            994
+        ],
+        "label": "Users"
+    },
+    "example_42": {
+        "top_left": [
+            75,
+            1004
+        ],
+        "bottom_right": [
+            309,
+            1038
+        ],
+        "label": "Default Applications"
+    },
+    "example_43": {
+        "top_left": [
+            75,
+            1050
+        ],
+        "bottom_right": [
+            309,
+            1079
+        ],
+        "label": "Date & Time"
+    },
+    "example_44": {
+        "top_left": [
+            14,
+            1021
+        ],
+        "bottom_right": [
+            60,
+            1069
+        ],
+        "label": "Applications"
+    },
+    "example_45": {
+        "top_left": [
+            1803,
+            36
+        ],
+        "bottom_right": [
+            1834,
+            62
+        ],
+        "label": "minimize"
+    },
+    "example_46": {
+        "top_left": [
+            1843,
+            36
+        ],
+        "bottom_right": [
+            1872,
+            63
+        ],
+        "label": "reduce screen size"
+    },
+    "example_47": {
+        "top_left": [
+            1879,
+            36
+        ],
+        "bottom_right": [
+            1911,
+            62
+        ],
+        "label": "close window"
+    }
+}

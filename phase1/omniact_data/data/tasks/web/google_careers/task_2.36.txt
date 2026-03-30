@@ -1,0 +1,3 @@
+Task: Explore your employment opportunities
+Output Script:
+pyautogui.click(1206.5,32.0)

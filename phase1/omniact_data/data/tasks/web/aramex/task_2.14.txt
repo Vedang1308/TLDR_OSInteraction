@@ -1,0 +1,3 @@
+Task: Retrieve the home page by using the bottom left side panel button.
+Output Script:
+pyautogui.click(137.0,680.5)

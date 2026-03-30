@@ -1,0 +1,5 @@
+Task: Create a new note and write content - "This is a new Note"
+Output Script:
+pyautogui.click(222.0,103.0)
+pyautogui.click(728.5,585.0)
+pyautogui.write("This is a New Note")

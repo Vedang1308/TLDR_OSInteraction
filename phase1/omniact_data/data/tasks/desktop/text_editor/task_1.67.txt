@@ -1,0 +1,3 @@
+Task: "Begin a new document creation"
+Output Script:
+pyautogui.click(404.5,48.0)

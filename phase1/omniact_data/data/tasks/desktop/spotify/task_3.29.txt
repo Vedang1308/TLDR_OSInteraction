@@ -1,0 +1,4 @@
+Task: Browse to find out which songs in the Encore album are going to be released soon
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

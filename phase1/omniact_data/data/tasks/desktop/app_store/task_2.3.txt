@@ -1,0 +1,3 @@
+Task: Select the "more" option to open the description.
+Output script:
+pyautogui.click(2381.5,1602.0)

@@ -1,0 +1,6 @@
+Task: Seek the video backward by 1 minute with keyboard
+Output Script:
+pyautogui.press("left")
+pyautogui.press("left")
+pyautogui.press("left")
+pyautogui.press("left")

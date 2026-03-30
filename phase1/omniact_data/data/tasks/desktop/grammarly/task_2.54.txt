@@ -1,0 +1,3 @@
+Task: Trigger printing for the document
+Output script:
+pyautogui.click(188.5,359.5)

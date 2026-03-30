@@ -1,0 +1,3 @@
+Task: Change the color selection for the T-shirt third from the left
+Output Script:
+pyautogui.click(536.5,893.0)

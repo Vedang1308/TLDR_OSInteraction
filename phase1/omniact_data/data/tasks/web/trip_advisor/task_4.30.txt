@@ -1,0 +1,3 @@
+Task: Engage the Restaurants button to display local eateries
+Output Script:
+pyautogui.click(370.5,81.0)

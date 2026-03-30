@@ -1,0 +1,6 @@
+Task: Select the first brand in the expand brand drop-down
+Output Script:
+pyautogui.click(154.5,560.5)
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")

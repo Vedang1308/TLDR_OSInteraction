@@ -1,0 +1,3 @@
+Task: Navigate to Aramex"s Instagram profile by clicking the Instagram symbol at the footer of the page 
+Output Script:
+pyautogui.click(1145.0,681.0)

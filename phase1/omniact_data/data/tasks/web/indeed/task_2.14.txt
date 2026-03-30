@@ -1,0 +1,3 @@
+Task: Look at job details for "Front Desk Agent"
+Output Script:
+pyautogui.click(1179.0,538.5)

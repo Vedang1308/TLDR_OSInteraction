@@ -1,0 +1,4 @@
+Task: Jump to the earlier messages in the chat box with Jack
+Output Script:
+pyautogui.click(1150.5,465.0)
+pyautogui.scroll(10)

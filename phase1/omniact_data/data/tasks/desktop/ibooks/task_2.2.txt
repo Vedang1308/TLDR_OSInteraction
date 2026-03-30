@@ -1,0 +1,3 @@
+Task: Read more about the description of the current book by publisher
+Output Script:
+pyautogui.click(2535.0,1504.5)

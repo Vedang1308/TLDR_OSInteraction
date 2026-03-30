@@ -1,0 +1,123 @@
+{
+    "example_0": {
+        "top_left": [
+            93,
+            3
+        ],
+        "bottom_right": [
+            240,
+            48
+        ],
+        "label": "terminal_options"
+    },
+    "example_1": {
+        "top_left": [
+            240,
+            6
+        ],
+        "bottom_right": [
+            332,
+            42
+        ],
+        "label": "shell_options"
+    },
+    "example_2": {
+        "top_left": [
+            332,
+            1
+        ],
+        "bottom_right": [
+            427,
+            45
+        ],
+        "label": "edit"
+    },
+    "example_3": {
+        "top_left": [
+            427,
+            1
+        ],
+        "bottom_right": [
+            524,
+            45
+        ],
+        "label": "view_options"
+    },
+    "example_4": {
+        "top_left": [
+            524,
+            1
+        ],
+        "bottom_right": [
+            661,
+            48
+        ],
+        "label": "window_options"
+    },
+    "example_5": {
+        "top_left": [
+            661,
+            1
+        ],
+        "bottom_right": [
+            767,
+            48
+        ],
+        "label": "help_options"
+    },
+    "example_6": {
+        "top_left": [
+            1,
+            42
+        ],
+        "bottom_right": [
+            53,
+            103
+        ],
+        "label": "close_window"
+    },
+    "example_7": {
+        "top_left": [
+            84,
+            48
+        ],
+        "bottom_right": [
+            132,
+            103
+        ],
+        "label": "full_screen"
+    },
+    "example_8": {
+        "top_left": [
+            630,
+            165
+        ],
+        "bottom_right": [
+            3360,
+            202
+        ],
+        "label": "type_area"
+    },
+    "example_9": {
+        "top_left": [
+            3306,
+            108
+        ],
+        "bottom_right": [
+            3360,
+            158
+        ],
+        "label": "create_new_tab"
+    },
+    "example_10": {
+        "top_left": [
+            1,
+            211
+        ],
+        "bottom_right": [
+            3360,
+            2100
+        ],
+        "label": "right_click_area"
+    }
+}

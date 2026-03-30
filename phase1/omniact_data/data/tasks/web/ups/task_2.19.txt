@@ -1,0 +1,3 @@
+Task: Confirm the shipping configurations
+Output Script:
+pyautogui.click(297.0,302.5)

@@ -1,0 +1,3 @@
+Task: Navigate to the homepage of Governor Kathy Hochul
+Output Script:
+pyautogui.click(159.0,131.0)

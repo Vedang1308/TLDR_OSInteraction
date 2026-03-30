@@ -1,0 +1,3 @@
+Task: Access the complete list of top-ranked paid books
+Output Script:
+pyautogui.click(573.5,981.5)

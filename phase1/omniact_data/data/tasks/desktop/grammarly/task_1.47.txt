@@ -1,0 +1,3 @@
+Task: Check out additional suggestions from Grammarly
+Output script:
+pyautogui.click(1268.0,258.5)

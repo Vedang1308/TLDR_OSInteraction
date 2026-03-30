@@ -1,0 +1,3 @@
+Task: Visualize all shopping outlets in Pittsburgh
+Output Script:
+pyautogui.click(720.0,848.0)

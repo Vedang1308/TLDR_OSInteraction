@@ -1,0 +1,5 @@
+Task: Find a title that a user has copied
+Output Script:
+pyautogui.click(858.0,70.0)
+pyautogui.hotkey("ctrl", "v")
+pyautogui.click(970.0,70.0)

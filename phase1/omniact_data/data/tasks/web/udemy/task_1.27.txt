@@ -1,0 +1,2 @@
+Task: Navigate to language settings.
+pyautogui.click(673.0,356.0)

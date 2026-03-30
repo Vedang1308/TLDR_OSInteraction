@@ -1,0 +1,7 @@
+Task: Add the shortcut "Win+M" for turning on/off the microphone
+Output Script:
+pyautogui.moveTo(702.5,1017.0)
+pyautogui.scroll(10)
+pyautogui.click(702.5,1017.0)
+pyautogui.write("Win+M")
+pyautogui.press("enter")

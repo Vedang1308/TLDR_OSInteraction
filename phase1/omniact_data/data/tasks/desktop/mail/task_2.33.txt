@@ -1,0 +1,6 @@
+Task: Apply bold styling to text and adjust to font size 14.
+Output script:
+pyautogui.click(2192.5,130.5)
+pyautogui.click(2001.0,132.5)
+pyautogui.write("14")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Click on "filters" button to specify your search requirements.
+Output script:
+pyautogui.click(1519.0,1739.5)

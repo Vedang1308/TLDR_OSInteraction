@@ -1,0 +1,3 @@
+Task: Interact twice with "show_next_slides" to reveal the subsequent 10 most sought-after courses
+pyautogui.click(1366.0,439.0)
+pyautogui.click(1366.0,439.0)

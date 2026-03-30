@@ -1,0 +1,3 @@
+Task: Access the extra settings for the track titled "You"
+Output Script:
+pyautogui.click(2663.0,759.0)

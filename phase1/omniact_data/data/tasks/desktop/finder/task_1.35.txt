@@ -1,0 +1,6 @@
+Task: In the "downloads" directory, create a new sub-directory named "photos"
+Output Script:
+pyautogui.click(468.5,600.5)
+pyautogui.hotkey("ctrl", "shift", "n")
+pyautogui.write("photos")
+pyautogui.press("enter")

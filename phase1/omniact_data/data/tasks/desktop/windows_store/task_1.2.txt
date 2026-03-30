@@ -1,0 +1,3 @@
+Task: "See profile" of user
+Output Script:
+pyautogui.click(1663.0,29.5)

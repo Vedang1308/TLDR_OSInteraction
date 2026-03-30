@@ -1,0 +1,3 @@
+Task: Begin the track "Evil Deeds"
+Output script:
+pyautogui.click(958.5,638.0)

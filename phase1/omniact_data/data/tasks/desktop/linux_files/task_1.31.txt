@@ -1,0 +1,5 @@
+Task: Search for a text document called "helloworld.txt" in your main directory.
+Output Script:
+pyautogui.click(1035.0,48.5)
+pyautogui.write("helloworld.txt")
+pyautogui.press("enter")

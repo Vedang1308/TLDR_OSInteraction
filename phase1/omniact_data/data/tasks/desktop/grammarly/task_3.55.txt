@@ -1,0 +1,3 @@
+Task: Start a note to daily track of first note earlier
+Output script:
+pyautogui.click(1412.5,293.5)

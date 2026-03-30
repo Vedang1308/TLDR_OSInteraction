@@ -1,0 +1,3 @@
+Task: Download the Q2 2023 Investor Presentation by clicking on a button in the Resources menu
+Output Script:
+pyautogui.click(1192.0,703.0)

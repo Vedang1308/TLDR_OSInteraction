@@ -1,0 +1,506 @@
+{
+    "example_0": {
+        "top_left": [
+            24,
+            816
+        ],
+        "bottom_right": [
+            129,
+            895
+        ],
+        "valid": 1,
+        "label": "view_image"
+    },
+    "example_1": {
+        "top_left": [
+            248,
+            24
+        ],
+        "bottom_right": [
+            307,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect to Mobile page"
+    },
+    "example_2": {
+        "top_left": [
+            96,
+            283
+        ],
+        "bottom_right": [
+            147,
+            328
+        ],
+        "valid": 1,
+        "label": "redirect_to_specs"
+    },
+    "example_3": {
+        "top_left": [
+            557,
+            276
+        ],
+        "bottom_right": [
+            558,
+            277
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_4": {
+        "top_left": [
+            557,
+            360
+        ],
+        "bottom_right": [
+            558,
+            361
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_5": {
+        "top_left": [
+            12,
+            96
+        ],
+        "bottom_right": [
+            54,
+            117
+        ],
+        "valid": 1,
+        "label": "home_product_category"
+    },
+    "example_6": {
+        "top_left": [
+            723,
+            24
+        ],
+        "bottom_right": [
+            819,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_SmartThings"
+    },
+    "example_7": {
+        "top_left": [
+            1235,
+            769
+        ],
+        "bottom_right": [
+            1395,
+            843
+        ],
+        "valid": 1,
+        "label": "choose Forest Green color"
+    },
+    "example_8": {
+        "top_left": [
+            478,
+            24
+        ],
+        "bottom_right": [
+            563,
+            56
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            279,
+            96
+        ],
+        "bottom_right": [
+            363,
+            117
+        ],
+        "valid": 1,
+        "label": "reditect_all_washers"
+    },
+    "example_10": {
+        "top_left": [
+            24,
+            722
+        ],
+        "bottom_right": [
+            129,
+            801
+        ],
+        "valid": 1,
+        "label": "Third_image_tab"
+    },
+    "example_11": {
+        "top_left": [
+            392,
+            24
+        ],
+        "bottom_right": [
+            477,
+            56
+        ],
+        "valid": 1,
+        "label": "show_appliances"
+    },
+    "example_12": {
+        "top_left": [
+            557,
+            444
+        ],
+        "bottom_right": [
+            558,
+            445
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_13": {
+        "top_left": [
+            308,
+            24
+        ],
+        "bottom_right": [
+            391,
+            56
+        ],
+        "valid": 1,
+        "label": "filter_by_TV&Audio_category"
+    },
+    "example_14": {
+        "top_left": [
+            564,
+            24
+        ],
+        "bottom_right": [
+            632,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_displays_page"
+    },
+    "example_15": {
+        "top_left": [
+            1382,
+            293
+        ],
+        "bottom_right": [
+            1407,
+            318
+        ],
+        "valid": 1,
+        "label": "favorite_heart_icon"
+    },
+    "example_16": {
+        "top_left": [
+            527,
+            154
+        ],
+        "bottom_right": [
+            549,
+            204
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_17": {
+        "top_left": [
+            147,
+            283
+        ],
+        "bottom_right": [
+            216,
+            328
+        ],
+        "valid": 1,
+        "label": "redirect_to_Reviews"
+    },
+    "example_18": {
+        "top_left": [
+            1288,
+            20
+        ],
+        "bottom_right": [
+            1328,
+            60
+        ],
+        "valid": 1,
+        "label": "search_query"
+    },
+    "example_19": {
+        "top_left": [
+            205,
+            96
+        ],
+        "bottom_right": [
+            265,
+            117
+        ],
+        "valid": 1,
+        "label": "view_washers"
+    },
+    "example_20": {
+        "top_left": [
+            24,
+            628
+        ],
+        "bottom_right": [
+            129,
+            708
+        ],
+        "valid": 1,
+        "label": "zoom_product_image"
+    },
+    "example_21": {
+        "top_left": [
+            557,
+            402
+        ],
+        "bottom_right": [
+            558,
+            403
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_22": {
+        "top_left": [
+            200,
+            24
+        ],
+        "bottom_right": [
+            247,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_shop"
+    },
+    "example_23": {
+        "top_left": [
+            1033,
+            24
+        ],
+        "bottom_right": [
+            1096,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_explore"
+    },
+    "example_24": {
+        "top_left": [
+            16,
+            24
+        ],
+        "bottom_right": [
+            136,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_samsung_home_page"
+    },
+    "example_25": {
+        "top_left": [
+            1175,
+            284
+        ],
+        "bottom_right": [
+            1370,
+            327
+        ],
+        "valid": 1,
+        "label": "redirect_to_Chat_With_An_Expert"
+    },
+    "example_26": {
+        "top_left": [
+            1165,
+            24
+        ],
+        "bottom_right": [
+            1259,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_for_business_page"
+    },
+    "example_27": {
+        "top_left": [
+            1098,
+            24
+        ],
+        "bottom_right": [
+            1164,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_Support"
+    },
+    "example_28": {
+        "top_left": [
+            633,
+            24
+        ],
+        "bottom_right": [
+            722,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_accessories"
+    },
+    "example_29": {
+        "top_left": [
+            216,
+            283
+        ],
+        "bottom_right": [
+            287,
+            328
+        ],
+        "valid": 1,
+        "label": "redirect_to_support"
+    },
+    "example_30": {
+        "top_left": [
+            24,
+            534
+        ],
+        "bottom_right": [
+            129,
+            614
+        ],
+        "valid": 1,
+        "label": "zoom_product_image"
+    },
+    "example_31": {
+        "top_left": [
+            557,
+            318
+        ],
+        "bottom_right": [
+            558,
+            319
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_32": {
+        "top_left": [
+            1065,
+            769
+        ],
+        "bottom_right": [
+            1225,
+            843
+        ],
+        "valid": 1,
+        "label": "select_Silver_Steel_color"
+    },
+    "example_33": {
+        "top_left": [
+            24,
+            474
+        ],
+        "bottom_right": [
+            129,
+            524
+        ],
+        "valid": 1,
+        "label": "loads_previous_options"
+    },
+    "example_34": {
+        "top_left": [
+            1336,
+            20
+        ],
+        "bottom_right": [
+            1376,
+            60
+        ],
+        "valid": 1,
+        "label": "shopping_cart"
+    },
+    "example_35": {
+        "top_left": [
+            23,
+            283
+        ],
+        "bottom_right": [
+            96,
+            328
+        ],
+        "valid": 1,
+        "label": "redirect_to_benefits_of_washer"
+    },
+    "example_36": {
+        "top_left": [
+            896,
+            769
+        ],
+        "bottom_right": [
+            1055,
+            843
+        ],
+        "valid": 1,
+        "label": "Product_color_option"
+    },
+    "example_37": {
+        "top_left": [
+            68,
+            96
+        ],
+        "bottom_right": [
+            191,
+            117
+        ],
+        "valid": 1,
+        "label": "redirect_to_Home_Appliance"
+    },
+    "example_38": {
+        "top_left": [
+            287,
+            283
+        ],
+        "bottom_right": [
+            356,
+            328
+        ],
+        "valid": 1,
+        "label": "redirect_to_support_related_page"
+    },
+    "example_39": {
+        "top_left": [
+            680,
+            246
+        ],
+        "bottom_right": [
+            760,
+            259
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_40": {
+        "top_left": [
+            784,
+            222
+        ],
+        "bottom_right": [
+            871,
+            245
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_41": {
+        "top_left": [
+            377,
+            96
+        ],
+        "bottom_right": [
+            437,
+            117
+        ],
+        "valid": 1,
+        "label": "redirect_to_Bespoke"
+    }
+}

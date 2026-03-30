@@ -1,0 +1,4 @@
+Task: Navigate to the end of the list in the app"s battery usage section.
+Output Script:
+pyautogui.moveTo(442.5,709.0)
+pyautogui.scroll(20)

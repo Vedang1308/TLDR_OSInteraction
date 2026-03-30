@@ -1,0 +1,3 @@
+Task: Display events scheduled for the following month
+Output Script:
+pyautogui.click(1353.0,165.5)

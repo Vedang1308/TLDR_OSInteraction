@@ -1,0 +1,3 @@
+Task: Redirect to find a store nearby.
+Output Script:
+pyautogui.click(1222.0,15.0)

@@ -1,0 +1,3 @@
+Task: Choose the August month from the calendar.
+Output script:
+pyautogui.click(2478.5,977.0)

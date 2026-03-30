@@ -1,0 +1,8 @@
+Task: Set the language preference of the site to Italian utilizing keyboard strokes.
+Output Script:
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")
+pyautogui.write("Italiano")
+pyautogui.press("enter")

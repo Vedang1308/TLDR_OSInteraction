@@ -1,0 +1,5 @@
+Task: Remove the selected folder
+Output Script:
+pyautogui.moveTo(135.5,71.0)
+pyautogui.click(135.5,71.0)
+pyautogui.press("delete")

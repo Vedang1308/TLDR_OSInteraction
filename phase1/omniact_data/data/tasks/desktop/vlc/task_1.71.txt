@@ -1,0 +1,3 @@
+Task: Enable the keyboard shortcuts menu
+Output Script:
+pyautogui.click(1772.0,454.0)

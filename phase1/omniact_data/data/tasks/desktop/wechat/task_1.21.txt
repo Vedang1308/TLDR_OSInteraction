@@ -1,0 +1,7 @@
+Task: Choose an emoji that is situated at the 2nd row and 3rd column of the emoji menu.
+Output Script:
+pyautogui.click(422.0,874.5)
+pyautogui.press("right")
+pyautogui.press("right")
+pyautogui.press("down")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Select the 4th product for purchase by clicking on the cart button
+Output Script:
+pyautogui.click(916.0,858.0)

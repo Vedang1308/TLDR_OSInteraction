@@ -1,0 +1,3 @@
+Task: Click on the "Graphics settings" button to open "Related Settings".
+Output Script:
+pyautogui.click(1679.5,174.5)

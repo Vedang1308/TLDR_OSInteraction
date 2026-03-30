@@ -1,0 +1,3 @@
+Task: Access the Best selling games page
+Output Script:
+pyautogui.click(263.0,752.0)

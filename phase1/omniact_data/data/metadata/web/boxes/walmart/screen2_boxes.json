@@ -1,0 +1,206 @@
+{
+    "example_0": {
+        "top_left": [
+            1118,
+            20
+        ],
+        "bottom_right": [
+            1238,
+            68
+        ],
+        "valid": 1,
+        "label": "My_Items_redirect"
+    },
+    "example_1": {
+        "top_left": [
+            1360,
+            20
+        ],
+        "bottom_right": [
+            1422,
+            68
+        ],
+        "valid": 1,
+        "label": "shopping_cart_icon"
+    },
+    "example_2": {
+        "top_left": [
+            381,
+            565
+        ],
+        "bottom_right": [
+            705,
+            892
+        ],
+        "valid": 1,
+        "label": "redirect_to_wicked_party_supplies_page"
+    },
+    "example_3": {
+        "top_left": [
+            402,
+            632
+        ],
+        "bottom_right": [
+            461,
+            651
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_4": {
+        "top_left": [
+            756,
+            632
+        ],
+        "bottom_right": [
+            815,
+            651
+        ],
+        "valid": 1,
+        "label": "redirect_to_Shop_now"
+    },
+    "example_5": {
+        "top_left": [
+            864,
+            330
+        ],
+        "bottom_right": [
+            904,
+            370
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_6": {
+        "top_left": [
+            178,
+            20
+        ],
+        "bottom_right": [
+            328,
+            68
+        ],
+        "valid": 1,
+        "label": "redirect_to_departments_page"
+    },
+    "example_7": {
+        "top_left": [
+            1110,
+            263
+        ],
+        "bottom_right": [
+            1179,
+            282
+        ],
+        "valid": 1,
+        "label": "redirect_to_shop_decor"
+    },
+    "example_8": {
+        "top_left": [
+            1110,
+            681
+        ],
+        "bottom_right": [
+            1169,
+            701
+        ],
+        "valid": 1,
+        "label": "shop_for_pets"
+    },
+    "example_9": {
+        "top_left": [
+            1066,
+            28
+        ],
+        "bottom_right": [
+            1098,
+            60
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_10": {
+        "top_left": [
+            1030,
+            24
+        ],
+        "bottom_right": [
+            1070,
+            64
+        ],
+        "valid": 1,
+        "label": "search_text_box"
+    },
+    "example_11": {
+        "top_left": [
+            328,
+            20
+        ],
+        "bottom_right": [
+            444,
+            68
+        ],
+        "valid": 1,
+        "label": "view_services"
+    },
+    "example_12": {
+        "top_left": [
+            378,
+            153
+        ],
+        "bottom_right": [
+            1062,
+            495
+        ],
+        "valid": 1,
+        "label": "redirect_to_shop_all"
+    },
+    "example_13": {
+        "top_left": [
+            1238,
+            20
+        ],
+        "bottom_right": [
+            1352,
+            68
+        ],
+        "valid": 1,
+        "label": "sign_in_to_account"
+    },
+    "example_14": {
+        "top_left": [
+            1089,
+            156
+        ],
+        "bottom_right": [
+            1413,
+            336
+        ],
+        "valid": 1,
+        "label": "shop_decor_items"
+    },
+    "example_15": {
+        "top_left": [
+            735,
+            565
+        ],
+        "bottom_right": [
+            1059,
+            892
+        ],
+        "valid": 1,
+        "label": "redirect_to_Flash_Deals"
+    },
+    "example_16": {
+        "top_left": [
+            16,
+            20
+        ],
+        "bottom_right": [
+            178,
+            68
+        ],
+        "valid": 1,
+        "label": "redirect_to_home_page_walmart_logo"
+    }
+}

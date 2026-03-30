@@ -1,0 +1,3 @@
+Task: Inspect wind particulars in map orientation
+Output Script:
+pyautogui.click(2640.5,809.5)

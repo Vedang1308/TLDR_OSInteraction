@@ -1,0 +1,4 @@
+Task: Navigate to "explore stays" section on the screen.
+Output script:
+pyautogui.moveTo(1440.0,1277.5)
+pyautogui.hscroll(30)

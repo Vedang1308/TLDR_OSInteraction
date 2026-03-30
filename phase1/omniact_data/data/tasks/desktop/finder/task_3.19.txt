@@ -1,0 +1,3 @@
+Task: Open the Go Options menu
+Output Script:
+pyautogui.click(508.5,26.5)

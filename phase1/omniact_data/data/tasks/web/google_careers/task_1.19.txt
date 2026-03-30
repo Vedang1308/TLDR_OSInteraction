@@ -1,0 +1,3 @@
+Task: Access advanced settings
+Output Script:
+pyautogui.click(982.5,639.0)

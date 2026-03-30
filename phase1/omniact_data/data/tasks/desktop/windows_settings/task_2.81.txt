@@ -1,0 +1,3 @@
+Task: Click on the Troubleshooting option under Xbox Game Bar
+Output Script:
+pyautogui.click(1727.0,419.0)

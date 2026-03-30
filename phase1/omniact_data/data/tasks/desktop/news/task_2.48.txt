@@ -1,0 +1,4 @@
+Task: Roll up to examine preceding stories.
+Output script:
+pyautogui.click(1660.0,954.5)
+pyautogui.scroll(-100)

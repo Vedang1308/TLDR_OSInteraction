@@ -1,0 +1,3 @@
+Task: Adjust sound to high
+Output Script:
+pyautogui.click(1309.5,388.0)

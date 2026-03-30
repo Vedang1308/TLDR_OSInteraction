@@ -1,0 +1,4 @@
+Task: Organize an activity at 5 in the evening on Monday.
+Output script:
+pyautogui.click(734.0,1158.0)
+pyautogui.click(734.0,1158.0)

@@ -1,0 +1,189 @@
+{
+    "example_0": {
+        "top_left": [
+            18,
+            73
+        ],
+        "bottom_right": [
+            75,
+            130
+        ],
+        "label": "Home"
+    },
+    "example_1": {
+        "top_left": [
+            15,
+            148
+        ],
+        "bottom_right": [
+            77,
+            206
+        ],
+        "label": "Apps"
+    },
+    "example_2": {
+        "top_left": [
+            13,
+            226
+        ],
+        "bottom_right": [
+            75,
+            281
+        ],
+        "label": "Games"
+    },
+    "example_3": {
+        "top_left": [
+            12,
+            304
+        ],
+        "bottom_right": [
+            81,
+            366
+        ],
+        "label": "Films & TV"
+    },
+    "example_4": {
+        "top_left": [
+            12,
+            380
+        ],
+        "bottom_right": [
+            80,
+            440
+        ],
+        "label": "AI Hub"
+    },
+    "example_5": {
+        "top_left": [
+            584,
+            10
+        ],
+        "bottom_right": [
+            1330,
+            46
+        ],
+        "label": "Search apps"
+    },
+    "example_6": {
+        "top_left": [
+            185,
+            469
+        ],
+        "bottom_right": [
+            345,
+            503
+        ],
+        "label": "See details forge of empires"
+    },
+    "example_7": {
+        "top_left": [
+            1270,
+            467
+        ],
+        "bottom_right": [
+            1468,
+            504
+        ],
+        "label": "Get game pass Starfield"
+    },
+    "example_8": {
+        "top_left": [
+            1687,
+            467
+        ],
+        "bottom_right": [
+            1849,
+            505
+        ],
+        "label": "See details Game pass"
+    },
+    "example_9": {
+        "top_left": [
+            928,
+            694
+        ],
+        "bottom_right": [
+            945,
+            713
+        ],
+        "label": "Scroll 1"
+    },
+    "example_10": {
+        "top_left": [
+            945,
+            695
+        ],
+        "bottom_right": [
+            961,
+            713
+        ],
+        "label": "Scroll 2"
+    },
+    "example_11": {
+        "top_left": [
+            961,
+            694
+        ],
+        "bottom_right": [
+            975,
+            715
+        ],
+        "label": "Scroll 3"
+    },
+    "example_12": {
+        "top_left": [
+            976,
+            694
+        ],
+        "bottom_right": [
+            990,
+            715
+        ],
+        "label": "Scroll 4"
+    },
+    "example_13": {
+        "top_left": [
+            1642,
+            13
+        ],
+        "bottom_right": [
+            1680,
+            47
+        ],
+        "label": "Account"
+    },
+    "example_14": {
+        "top_left": [
+            135,
+            730
+        ],
+        "bottom_right": [
+            391,
+            774
+        ],
+        "label": "Best selling games"
+    },
+    "example_15": {
+        "top_left": [
+            15,
+            875
+        ],
+        "bottom_right": [
+            81,
+            937
+        ],
+        "label": "Library"
+    },
+    "example_16": {
+        "top_left": [
+            15,
+            956
+        ],
+        "bottom_right": [
+            72,
+            1011
+        ],
+        "label": "Help"
+    }
+}

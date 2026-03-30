@@ -1,0 +1,3 @@
+Task: Open your cart items
+Output Script:
+pyautogui.click(1159.0,67.0)

@@ -1,0 +1,3 @@
+Task: Modify calendar setup to weekly view
+Output Script:
+Pyautogui.click(1329.0,70.0)

@@ -1,0 +1,3 @@
+Task: Open the page to pay parking ticket in NYC from the lower panel
+Output Script:
+pyautogui.click(970.0,713.0)

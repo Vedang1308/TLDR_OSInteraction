@@ -1,0 +1,5 @@
+Task: Input "mark@gmail.com" as an invitee"s email.
+Output script:
+pyautogui.click(1609.0,748.0)
+pyautogui.write("mark@gmail.com")
+pyautogui.press("enter")

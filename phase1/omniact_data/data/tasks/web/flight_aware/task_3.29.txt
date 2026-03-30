@@ -1,0 +1,3 @@
+Task: Search for data on position-only flight
+Output Script:
+pyautogui.click(322.0,730.5)

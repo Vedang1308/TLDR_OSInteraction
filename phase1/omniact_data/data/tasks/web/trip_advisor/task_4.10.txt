@@ -1,0 +1,3 @@
+Task: Click on flights to book flights
+Output Script:
+pyautogui.click(454.0,81.0)

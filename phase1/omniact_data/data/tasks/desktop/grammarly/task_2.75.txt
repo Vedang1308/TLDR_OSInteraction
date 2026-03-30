@@ -1,0 +1,3 @@
+Task: Carry out a command to perform the last operation again
+Output script:
+pyautogui.hotkey("ctrl", "y")

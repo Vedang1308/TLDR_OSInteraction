@@ -1,0 +1,4 @@
+Task: Click on "good" and "new on Expedia" options.
+Output script:
+pyautogui.click(1436.0,411.5)
+pyautogui.click(1438.5,756.5)

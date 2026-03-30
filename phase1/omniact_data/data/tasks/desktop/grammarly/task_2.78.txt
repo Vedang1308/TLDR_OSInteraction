@@ -1,0 +1,3 @@
+Task: Magnify the current document on screen
+Output script:
+pyautogui.hotkey("ctrl", "+")

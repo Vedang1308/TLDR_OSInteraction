@@ -1,0 +1,167 @@
+{
+    "example_0": {
+        "top_left": [
+            2474,
+            629
+        ],
+        "bottom_right": [
+            2661,
+            677
+        ],
+        "label": "antioxidant"
+    },
+    "example_1": {
+        "top_left": [
+            703,
+            1164
+        ],
+        "bottom_right": [
+            846,
+            1216
+        ],
+        "label": "unkempt"
+    },
+    "example_2": {
+        "top_left": [
+            169,
+            53
+        ],
+        "bottom_right": [
+            248,
+            148
+        ],
+        "label": "see_chapters"
+    },
+    "example_3": {
+        "top_left": [
+            248,
+            48
+        ],
+        "bottom_right": [
+            330,
+            153
+        ],
+        "label": "see_bookmarks"
+    },
+    "example_4": {
+        "top_left": [
+            330,
+            48
+        ],
+        "bottom_right": [
+            406,
+            150
+        ],
+        "label": "see_notes"
+    },
+    "example_5": {
+        "top_left": [
+            2893,
+            48
+        ],
+        "bottom_right": [
+            2969,
+            150
+        ],
+        "label": "share"
+    },
+    "example_6": {
+        "top_left": [
+            2973,
+            52
+        ],
+        "bottom_right": [
+            3049,
+            154
+        ],
+        "label": "change_font"
+    },
+    "example_7": {
+        "top_left": [
+            3052,
+            50
+        ],
+        "bottom_right": [
+            3128,
+            152
+        ],
+        "label": "search"
+    },
+    "example_8": {
+        "top_left": [
+            3130,
+            50
+        ],
+        "bottom_right": [
+            3209,
+            153
+        ],
+        "label": "bookmark_page"
+    },
+    "example_9": {
+        "top_left": [
+            3209,
+            73
+        ],
+        "bottom_right": [
+            3335,
+            126
+        ],
+        "label": "buy_book"
+    },
+    "example_10": {
+        "top_left": [
+            938,
+            1840
+        ],
+        "bottom_right": [
+            990,
+            1895
+        ],
+        "label": "pie"
+    },
+    "example_11": {
+        "top_left": [
+            1143,
+            1835
+        ],
+        "bottom_right": [
+            1164,
+            1895
+        ],
+        "label": "manzana"
+    },
+    "example_12": {
+        "top_left": [
+            3,
+            156
+        ],
+        "bottom_right": [
+            3360,
+            2100
+        ],
+        "label": "scroll_to_next_page"
+    },
+    "example_13": {
+        "top_left": [
+            2517,
+            1114
+        ],
+        "bottom_right": [
+            2627,
+            1164
+        ],
+        "label": "drizzle"
+    },
+    "example_14": {
+        "top_left": [
+            2646,
+            469
+        ],
+        "bottom_right": [
+            2780,
+            521
+        ],
+        "label": "manslob"
+    }
+}

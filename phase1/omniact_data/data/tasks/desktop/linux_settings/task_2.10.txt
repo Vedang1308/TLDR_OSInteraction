@@ -1,0 +1,3 @@
+Task: Minimize current window
+Output Script:
+pyautogui.click(1819.0,51.0)

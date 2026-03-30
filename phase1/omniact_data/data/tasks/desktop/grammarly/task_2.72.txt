@@ -1,0 +1,3 @@
+Task: Perform an undo action of the prior step
+Output script:
+pyautogui.hotkey("ctrl", "z")

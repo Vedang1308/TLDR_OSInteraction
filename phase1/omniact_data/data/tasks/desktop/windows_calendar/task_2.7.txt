@@ -1,0 +1,3 @@
+Task: Switch mode to "monthly" calendar
+Output Script:
+Pyautogui.click(1436.0,72.5)

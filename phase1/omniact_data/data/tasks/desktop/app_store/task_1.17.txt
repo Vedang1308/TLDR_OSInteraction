@@ -1,0 +1,3 @@
+Task: Open the "Develop" page.
+Output script:
+pyautogui.click(220.5,593.5)

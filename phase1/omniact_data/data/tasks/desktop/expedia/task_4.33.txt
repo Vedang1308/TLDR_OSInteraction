@@ -1,0 +1,3 @@
+Task: Opt for roundtrip flight arrangement.
+Output script:
+pyautogui.click(498.0,128.5)

@@ -1,0 +1,4 @@
+Task: Scroll down in the left panel to show more settings
+Output Script:
+pyautogui.moveTo(203.0,1002.5)
+pyautogui.scroll(20)

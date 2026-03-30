@@ -1,0 +1,3 @@
+Task: See Coursera for Business
+Output Script:
+pyautogui.click(214.5,20.0)

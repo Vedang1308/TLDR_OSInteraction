@@ -1,0 +1,3 @@
+Task: Navigate to the option for exploring stays.
+Output script:
+pyautogui.click(1440.0,1277.5)

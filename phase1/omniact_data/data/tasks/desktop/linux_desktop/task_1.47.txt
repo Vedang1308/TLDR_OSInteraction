@@ -1,0 +1,4 @@
+Task: Initiate Ubuntu"s search feature
+Output Script:
+pyautogui.hotkey("winleft", "s")
+pyautogui.write("document.txt")

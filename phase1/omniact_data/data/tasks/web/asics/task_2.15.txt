@@ -1,0 +1,3 @@
+Task: Display the collection for females
+Output Script: 
+pyautogui.click(245.0,367.5)

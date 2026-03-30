@@ -1,0 +1,3 @@
+Task: Examine the variations in stock for the complete dataset. 
+Output script:
+pyautogui.click(2718.5,395.0)

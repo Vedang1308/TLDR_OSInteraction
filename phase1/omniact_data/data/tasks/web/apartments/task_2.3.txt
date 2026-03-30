@@ -1,0 +1,3 @@
+Task: Scroll to the previous picture
+Output script:
+pyautogui.click(32.0,291.0)

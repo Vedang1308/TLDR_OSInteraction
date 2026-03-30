@@ -1,0 +1,4 @@
+Task: Assign the alarm with the title "Lazy Day"
+Output Script:
+pyautogui.click(1737.5,1124.0)
+pyautogui.write("Lazy Day")

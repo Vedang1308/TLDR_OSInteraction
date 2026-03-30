@@ -1,0 +1,3 @@
+Task: Initiate a reply to the chosen email.
+Output script:
+pyautogui.click(1304.5,56.5)

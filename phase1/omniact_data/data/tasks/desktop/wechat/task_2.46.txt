@@ -1,0 +1,6 @@
+Task: Type the word "Hello" in the designated text area and utilize the underline feature to enhance the typed text.
+Output Script:
+pyautogui.click(728.5,585.0)
+pyautogui.write("Hello")
+pyautogui.hotkey("ctrl", "a")
+pyautogui.click(801.5,183.0)

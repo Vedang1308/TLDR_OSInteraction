@@ -1,0 +1,3 @@
+Task: Accept Grammarly"s suggestion exactly as it is
+Output script:
+pyautogui.click(1331.0,444.5)

@@ -1,0 +1,5 @@
+Task: Implement the division of 2 by zero on the calculator.
+Output Script:
+pyautogui.click(1936.5,1159.5)
+pyautogui.click(2169.5,875.5)
+pyautogui.click(1881.0,1255.5)

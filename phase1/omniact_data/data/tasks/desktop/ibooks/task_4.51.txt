@@ -1,0 +1,3 @@
+Task: Purchase the novel "Secret Keeper"
+Output Script:
+pyautogui.click(3223.5,1562.0)

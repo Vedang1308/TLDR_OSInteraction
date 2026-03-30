@@ -1,0 +1,3 @@
+Task: Select the choice to generate a new mail. 
+Output script:
+pyautogui.click(1387.0,55.5)

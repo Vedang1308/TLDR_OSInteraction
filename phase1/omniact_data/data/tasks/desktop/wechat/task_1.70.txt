@@ -1,0 +1,5 @@
+Task: Access the first item in the files area. 
+Output Script:
+pyautogui.click(33.5,288.5)
+pyautogui.press("down")
+pyautogui.press("enter")

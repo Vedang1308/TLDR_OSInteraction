@@ -1,0 +1,101 @@
+{
+    "example_0": {
+        "top_left": [
+            31,
+            177
+        ],
+        "bottom_right": [
+            2856,
+            249
+        ],
+        "label": "flying from"
+    },
+    "example_1": {
+        "top_left": [
+            34,
+            277
+        ],
+        "bottom_right": [
+            2856,
+            344
+        ],
+        "label": "flying to"
+    },
+    "example_2": {
+        "top_left": [
+            37,
+            366
+        ],
+        "bottom_right": [
+            2859,
+            441
+        ],
+        "label": "select date"
+    },
+    "example_3": {
+        "top_left": [
+            26,
+            460
+        ],
+        "bottom_right": [
+            2865,
+            547
+        ],
+        "label": "number of travellers"
+    },
+    "example_4": {
+        "top_left": [
+            26,
+            560
+        ],
+        "bottom_right": [
+            2865,
+            644
+        ],
+        "label": "preferred class"
+    },
+    "example_5": {
+        "top_left": [
+            970,
+            108
+        ],
+        "bottom_right": [
+            1912,
+            147
+        ],
+        "label": "one way"
+    },
+    "example_6": {
+        "top_left": [
+            1912,
+            110
+        ],
+        "bottom_right": [
+            2845,
+            152
+        ],
+        "label": "multi-city"
+    },
+    "example_7": {
+        "top_left": [
+            23,
+            102
+        ],
+        "bottom_right": [
+            973,
+            155
+        ],
+        "label": "roundtrip"
+    },
+    "example_8": {
+        "top_left": [
+            31,
+            1701
+        ],
+        "bottom_right": [
+            2856,
+            1784
+        ],
+        "label": "search"
+    }
+}

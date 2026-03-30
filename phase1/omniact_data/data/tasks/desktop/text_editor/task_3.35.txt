@@ -1,0 +1,4 @@
+Task: "Append a return statement at the end of the existing file"
+Output Script:
+pyautogui.click(1109.0,606.0)
+pyautogui.write("return")

@@ -1,0 +1,5 @@
+Task: Open the "applications" folder and scroll down to the bottom
+Output Script:
+pyautogui.click(166.5,281.0)
+pyautogui.click(166.5,281.0)
+pyautogui.scroll(-100)

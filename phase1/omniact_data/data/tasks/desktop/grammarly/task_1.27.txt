@@ -1,0 +1,3 @@
+Task: Choose everything written in the file
+Output script:
+pyautogui.hotkey("ctrl","A")

@@ -1,0 +1,3 @@
+Task: Initiate the action for ending the meeting. 
+Output Script:
+pyautogui.click(2792.0,1742.5)

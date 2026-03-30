@@ -1,0 +1,3 @@
+Task: Click the option to forward the selected message.
+Output script:
+pyautogui.click(2141.0,56.5)

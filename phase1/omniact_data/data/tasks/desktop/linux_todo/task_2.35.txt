@@ -1,0 +1,3 @@
+Task: Dismiss active search box through keyboard
+Output Script:
+pyautogui.press("esc")

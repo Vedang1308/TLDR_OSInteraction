@@ -1,0 +1,4 @@
+Task: Scan the hourly weather forecast to identify if there will be rainfall at 1am
+Output Script:
+pyautogui.moveTo(1679.5, 650.5)
+pyautogui.hscroll("10")

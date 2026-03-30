@@ -1,0 +1,3 @@
+Task: Monitor the Auckland"s climate
+Output Script:
+pyautogui.click(310.5,1019.5)

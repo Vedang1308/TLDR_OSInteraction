@@ -1,0 +1,3 @@
+Task: Switch calendar to daily viewing mode.
+Output script:
+pyautogui.click(1243.5,35.5)

@@ -1,0 +1,6 @@
+Task: Input "New York" in the search bar and execute the search 
+Output script:
+pyautogui.click(344.0,388.0)
+pyautogui.write("New York")
+pyautogui.press("down")
+pyautogui.press("enter")

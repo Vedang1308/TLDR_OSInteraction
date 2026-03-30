@@ -1,0 +1,5 @@
+Task: search for "Google"
+Output Script:
+pyautogui.click(959, 67)
+pyautogui.write("Google")
+pyautogui.press("Enter")

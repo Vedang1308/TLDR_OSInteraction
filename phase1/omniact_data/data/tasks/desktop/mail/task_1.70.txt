@@ -1,0 +1,3 @@
+Task: Choose the option for accessing the drafts.
+Output script:
+pyautogui.click(196.5,595.5)

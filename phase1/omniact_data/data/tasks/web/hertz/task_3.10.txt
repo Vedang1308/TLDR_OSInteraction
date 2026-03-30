@@ -1,0 +1,6 @@
+Task: Select "New York" from the dropdown in the location search bar 
+Output script:
+pyautogui.click(344.0,388.0)
+pyautogui.write("New York")
+pyautogui.press("down")
+pyautogui.press("enter")

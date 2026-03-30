@@ -1,0 +1,4 @@
+Task: Input "03" in the hour field.
+Output Script:
+pyautogui.click(1389.0,985.0)
+pyautogui.write("03")

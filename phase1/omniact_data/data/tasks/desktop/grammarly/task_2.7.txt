@@ -1,0 +1,3 @@
+Task: Return back to the home
+Output script:
+pyautogui.click(187.5,134.5)

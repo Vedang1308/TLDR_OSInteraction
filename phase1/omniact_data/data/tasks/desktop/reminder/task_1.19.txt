@@ -1,0 +1,3 @@
+Task: Click to schedule a new appointment for the next day.
+Output script:
+pyautogui.click(612.0,828.5)

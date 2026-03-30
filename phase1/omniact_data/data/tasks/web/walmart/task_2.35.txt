@@ -1,0 +1,3 @@
+Task: Navigate to flash deals webpage via shop now button
+Output Script:
+pyautogui.click(785.5,641.5)

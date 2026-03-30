@@ -1,0 +1,3 @@
+Task: Examine the stock variations for the previous week.
+Output script:
+pyautogui.click(1006.5,388.5)

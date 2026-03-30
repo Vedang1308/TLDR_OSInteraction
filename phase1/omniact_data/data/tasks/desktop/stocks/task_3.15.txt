@@ -1,0 +1,3 @@
+Task: Save the news story for later.
+Output script:
+pyautogui.click(787.0,57.5)

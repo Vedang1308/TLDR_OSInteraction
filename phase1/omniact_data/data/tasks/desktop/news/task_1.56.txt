@@ -1,0 +1,3 @@
+Task: Go to the "Election 2024" segment. 
+Output script:
+pyautogui.click(223.0,690.0)

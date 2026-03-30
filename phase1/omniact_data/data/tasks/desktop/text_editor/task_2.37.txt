@@ -1,0 +1,7 @@
+Task: "Locate all instances of the second most recent search"
+Output Script:
+pyautogui.click(1197.5,488.0)
+pyautogui.press("tab")
+pyautogui.press("down")
+pyautogui.press("enter")
+pyautogui.click(1164.0,663.0)

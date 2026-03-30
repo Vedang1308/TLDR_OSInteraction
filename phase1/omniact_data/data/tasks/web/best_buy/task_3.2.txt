@@ -1,0 +1,3 @@
+Task: Go to Best Buy home by clicking on the top left icon
+Output Script:
+pyautogui.click(74.0,69.0)

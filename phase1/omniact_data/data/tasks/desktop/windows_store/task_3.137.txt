@@ -1,0 +1,3 @@
+Task: Access Mail and calendar settings
+Output Script:
+pyautogui.click(1841.5,502.0)

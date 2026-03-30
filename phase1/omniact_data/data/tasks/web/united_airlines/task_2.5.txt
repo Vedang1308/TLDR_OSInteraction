@@ -1,0 +1,3 @@
+Task: Not sure what is confirmation button and click the help button
+Output script:
+pyautogui.click(1268.5,71.0)

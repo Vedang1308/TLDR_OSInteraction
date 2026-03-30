@@ -1,0 +1,3 @@
+Task: Access further details by selecting the "more" option. 
+Output script:
+pyautogui.click(2381.5,1602.0)

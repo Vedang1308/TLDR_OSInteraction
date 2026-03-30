@@ -1,0 +1,3 @@
+Task: Activate the Advanced Tracking mode for package surveillance
+Output Script:
+pyautogui.click(580.0,690.5)

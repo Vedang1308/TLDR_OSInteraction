@@ -1,0 +1,3 @@
+Task: Navigate to the keyboard shortcuts panel
+Output Script:
+pyautogui.click(1772.0,454.0)

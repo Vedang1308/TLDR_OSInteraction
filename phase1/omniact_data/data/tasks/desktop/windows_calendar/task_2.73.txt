@@ -1,0 +1,3 @@
+Task: Look at the day"s agenda
+Output Script:
+Pyautogui.click(1221.5,71.0)

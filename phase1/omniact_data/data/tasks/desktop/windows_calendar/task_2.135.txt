@@ -1,0 +1,3 @@
+Task: Move to the upcoming day in the calendar
+Output Script:
+Pyautogui.click(405.0,67.0)

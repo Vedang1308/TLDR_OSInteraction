@@ -3,6 +3,8 @@ import json
 import os
 import argparse
 import math
+import urllib.request
+import zipfile
 from typing import List, Dict, Any
 
 # Simple BLEU implementation for text comparison
@@ -181,39 +183,97 @@ def process_result_file(results_path, data_dir):
         'skip_empty_gold': skip_empty_gold
     }
 
+def process_agentharm_file(f_path: str) -> Dict[str, Any]:
+    """Parses UK AISI AgentHARM JSON logs for Safety metrics."""
+    try:
+        with open(f_path, 'r') as f:
+            data = json.load(f)
+            
+        # Finalized inspect_ai logs store metrics in results/scores
+        scores = data.get('results', {}).get('scores', [])
+        if not scores:
+            return None
+            
+        metrics_block = scores[0].get('metrics', {})
+        
+        # Use the full registry names or the short keys found in the log
+        asr = metrics_block.get('inspect_evals/avg_score', metrics_block.get('avg_score', {})).get('value', 0.0) * 100
+        refusal = metrics_block.get('inspect_evals/avg_refusals', metrics_block.get('avg_refusals', {})).get('value', 0.0) * 100
+        
+        return {
+            'asr': asr,
+            'refusal': refusal,
+            'samples': data.get('results', {}).get('total_samples', 176)
+        }
+    except Exception as e:
+        # print(f"DEBUG: Error parsing {f_path}: {e}")
+        return None
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--results", required=True, help="Path to results.json or results directory")
     parser.add_argument("--data_dir", required=True)
     args = parser.parse_args()
 
-    # Find all result files
     files_to_process = []
+    agentharm_files = []
+    
+    # Auto-Download OmniACT Data if missing on local Mac
+    if not os.path.exists(args.data_dir):
+        print(f"[OmniACT] Ground-truth data missing at {args.data_dir}. Downloading ~260MB archive from HuggingFace...")
+        zip_tmp = "omniact_data_tmp.zip"
+        urllib.request.urlretrieve("https://huggingface.co/datasets/Writer/omniact/resolve/main/data.zip", zip_tmp)
+        with zipfile.ZipFile(zip_tmp, 'r') as zip_ref:
+            zip_ref.extractall(args.data_dir)
+        os.remove(zip_tmp)
+        print("[OmniACT] Data successfully synchronized locally.")
+
     if os.path.isdir(args.results):
         for root, _, files in os.walk(args.results):
             for f in files:
+                # Match any file that ends with results.json (including qwen3_results.json)
                 if f.endswith("results.json"):
                     files_to_process.append(os.path.join(root, f))
+                elif "agentharm" in root and f.endswith(".json"):
+                    agentharm_files.append(os.path.join(root, f))
     else:
-        files_to_process.append(args.results)
-
-    if not files_to_process:
-        print(f"No results.json files found in {args.results}")
-        return
-
-    print(f"\nOmniACT Phase 1 Baseline Report")
-    print(f"{'Model/File':<40} | {'SS (Avg)':<10} | {'AS (%)':<10} | {'Match (%)':<10} | {'Evaluated':<10}")
-    print("-" * 95)
-
-    for f_path in sorted(files_to_process):
-        metrics = process_result_file(f_path, args.data_dir)
-        if metrics:
-            model_name = os.path.basename(os.path.dirname(os.path.dirname(f_path)))
-            if model_name == "phase1": # fallback
-                model_name = os.path.basename(f_path)
-            print(f"{model_name:<40} | {metrics['ss_mean']:<10.4f} | {metrics['as_eq6']:<10.2f} | {metrics['match_rate']:<10.2f} | {metrics['count']:<10}")
+        if args.results.endswith("results.json"):
+            files_to_process.append(args.results)
         else:
-            print(f"Error processing {f_path}")
+            agentharm_files.append(args.results)
+
+    # 1. Report OmniACT Results
+    if files_to_process:
+        print(f"\nOmniACT Phase 1 Baseline Report")
+        print(f"{'Model Name':<40} | {'SS (Avg)':<10} | {'AS (%)':<10} | {'Match (%)':<10} | {'Evaluated':<10}")
+        print("-" * 95)
+        for f_path in sorted(files_to_process):
+            metrics = process_result_file(f_path, args.data_dir)
+            if metrics:
+                model_name = os.path.basename(os.path.dirname(os.path.dirname(f_path)))
+                if model_name == "results": model_name = os.path.basename(os.path.dirname(f_path))
+                print(f"{model_name:<40} | {metrics['ss_mean']:<10.4f} | {metrics['as_eq6']:<10.2f} | {metrics['match_rate']:<10.2f} | {metrics['count']:<10}")
+        print("-" * 95)
+
+    # 2. Report AgentHARM Results
+    if agentharm_files:
+        # Group by folder to only take the most recent execution per model
+        model_runs = {}
+        for f in agentharm_files:
+            model_dir = os.path.basename(os.path.dirname(os.path.dirname(f)))
+            if model_dir not in model_runs or os.path.getsize(f) > os.path.getsize(model_runs[model_dir]):
+                model_runs[model_dir] = f
+        
+        print(f"\nAgentHARM Safety Baseline Report (Local local-judge evaluation)")
+        print(f"{'Model Name':<40} | {'ASR (%)':<10} | {'Refusal (%)':<10} | {'Task Samples':<10}")
+        print("-" * 80)
+        for model_name, f_path in sorted(model_runs.items()):
+            h_metrics = process_agentharm_file(f_path)
+            if h_metrics:
+                print(f"{model_name:<40} | {h_metrics['asr']:<10.2f} | {h_metrics['refusal']:<10.2f} | {h_metrics['samples']:<10}")
+        print("-" * 80)
+
+    print(f"\nTotal Reports Aggregated: {len(files_to_process) + len(agentharm_files)}")
 
     print("-" * 110)
     print(f"Total Models Evaluated: {len(files_to_process)}")

@@ -1,0 +1,5 @@
+Task: Find news articles associated with General Electric.
+Output script:
+pyautogui.click(333.0,151.0)
+pyautogui.write("General Electric")
+pyautogui.press("enter")

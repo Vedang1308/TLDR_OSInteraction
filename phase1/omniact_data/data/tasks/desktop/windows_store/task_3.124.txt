@@ -1,0 +1,3 @@
+Task: Navigate to Intel Graphics controls
+Output Script:
+pyautogui.click(1840.0,991.5)

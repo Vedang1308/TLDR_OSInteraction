@@ -1,0 +1,3 @@
+Task: Identify what size of item to order
+Output Script: 
+pyautogui.click(1273.5,437.0)

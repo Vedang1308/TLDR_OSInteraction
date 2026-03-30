@@ -1,0 +1,5 @@
+Task: Change availability to "Busy"
+Output Script:
+Pyautogui.click(513.5,125.0)
+Pyautogui.press("Tab")
+Pyautogui.press("Enter")

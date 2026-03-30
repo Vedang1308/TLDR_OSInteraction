@@ -1,0 +1,3 @@
+Task: Open Careers webpage
+Output Script:
+pyautogui.click(829.5,597.5)

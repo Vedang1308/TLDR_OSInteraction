@@ -1,0 +1,4 @@
+Task: Adjust the narration speed to the following level
+Output Script:
+pyautogui.click(847.0,775.5)
+pyautogui.press("right")

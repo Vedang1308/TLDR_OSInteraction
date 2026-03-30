@@ -1,0 +1,3 @@
+Task: Choose the option to set a timer for Mac startup.
+Output Script:
+pyautogui.click(787.0,930.0)

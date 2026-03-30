@@ -1,0 +1,3 @@
+Task: Proceed to the final section of the book
+Output Script:
+pyautogui.click(1118.0,624.5)

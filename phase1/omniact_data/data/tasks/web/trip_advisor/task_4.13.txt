@@ -1,0 +1,5 @@
+Task: Initiate a web search for The Priory Hotel
+Output Script:
+pyautogui.click(392.0,30.0)
+pyautogui.write("The Priory Hotel")
+pyautogui.press("enter")

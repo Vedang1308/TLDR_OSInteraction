@@ -1,0 +1,4 @@
+Task: Move the page down to check further options
+Output Script: 
+pyautogui.press("space")
+pyautogui.scroll(30)

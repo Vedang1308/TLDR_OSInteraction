@@ -1,0 +1,4 @@
+Task: Implement sorting filter
+Output script:
+pyautogui.click(1258.0,77.0)
+pyautogui.scroll(30)

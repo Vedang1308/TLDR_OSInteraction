@@ -1,0 +1,17 @@
+{
+    "1": "time_hours",
+    "2": "time_minutes",
+    "3": "AM",
+    "4": "PM",
+    "5": "repeat_sunday",
+    "6": "repeat_monday",
+    "7": "repeat_tuesday",
+    "8": "repeat_wednesday",
+    "9": "repeat_thursday",
+    "10": "repeat_friday",
+    "11": "repeat_saturday",
+    "12": "alarm_name",
+    "13": "sound",
+    "14": "snooze",
+    "15": "save"
+}

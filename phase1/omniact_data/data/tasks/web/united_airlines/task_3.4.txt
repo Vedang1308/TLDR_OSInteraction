@@ -1,0 +1,4 @@
+Task: Change the start point and the destination
+Output script:
+pyautogui.click(798.5,368.0)
+pyautogui.click(984.0,368.0)

@@ -1,0 +1,3 @@
+Task: Access the "Atif" playlist by clicking on it.
+Output Script:
+pyautogui.click(1170.5,446.0)

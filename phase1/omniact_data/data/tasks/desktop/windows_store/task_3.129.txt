@@ -1,0 +1,3 @@
+Task: Navigate to the menu options of Microsoft Store
+Output Script:
+pyautogui.click(1839.0,798.0)

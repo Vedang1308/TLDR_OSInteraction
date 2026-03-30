@@ -1,0 +1,3 @@
+Task: Shut down presently running audiobooks
+Output script:
+pyautogui.click(376.5,351.0)

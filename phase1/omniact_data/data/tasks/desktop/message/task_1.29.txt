@@ -1,0 +1,4 @@
+Task: Wish Ash a "Good Afternoon".
+Output Script:
+pyautogui.click(1980.0,2041.0)
+pyautogui.write("Good Morning")

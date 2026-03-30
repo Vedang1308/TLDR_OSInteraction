@@ -1,0 +1,3 @@
+Task: Locate and select the Battery settings on the left-hand panel
+Output Script:
+pyautogui.click(202.5,585.5)

@@ -1,0 +1,3 @@
+Task: Use click to reveal all email addresses linked to an event
+Output Script:
+Pyautogui.click(1344.5, 177)

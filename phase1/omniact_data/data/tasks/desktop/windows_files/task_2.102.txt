@@ -1,0 +1,5 @@
+Task: Establish a folder named "Laptop"
+Output Script:
+pyautogui.hotkey("ctrl","shift","n")
+pyautogui.write("Laptop")
+pyautogui.press("enter")

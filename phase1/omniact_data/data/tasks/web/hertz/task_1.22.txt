@@ -1,0 +1,3 @@
+Task: Access the SanfordAirport page.
+Output script:
+pyautogui.click(975.0,887.5)

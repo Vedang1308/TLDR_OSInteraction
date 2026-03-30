@@ -1,0 +1,3 @@
+Task: Review the songs played recently
+Output Script:
+pyautogui.click(195.5,453.0)

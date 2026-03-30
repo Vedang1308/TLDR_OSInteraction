@@ -1,0 +1,3 @@
+Task: Locate and click on the article named "Wall Street Over Reacting".
+Output script:
+pyautogui.click(1098.0,1322.0)

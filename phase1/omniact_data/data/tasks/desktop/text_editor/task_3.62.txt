@@ -1,0 +1,3 @@
+Task: "Terminate the code_algo tab in the browser"
+Output Script:
+pyautogui.click(1036.5,93.0)

@@ -1,0 +1,3 @@
+Task: Direct yourself to the Home menu
+Output Script:
+pyautogui.click(46.5,101.5)

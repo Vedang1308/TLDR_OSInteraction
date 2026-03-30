@@ -1,0 +1,3 @@
+Task: Go to the FlightAware corporate web page
+Output Script:
+pyautogui.click(1334.5,105.5)

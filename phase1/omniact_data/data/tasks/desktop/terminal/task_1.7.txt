@@ -1,0 +1,3 @@
+Task: Select all text in the text area using keyboard shortcut
+Output Script:
+pyautogui.hotkey("ctrl", "a")

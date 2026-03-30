@@ -1,0 +1,3 @@
+Task: Navigate to the Masters course of Data Science at University of Michigan
+Output Script:
+pyautogui.click(187.0,195.5)

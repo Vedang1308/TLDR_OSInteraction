@@ -1,0 +1,4 @@
+Task: Schedule an event for 1 pm on coming Tuesday.
+Output script:
+pyautogui.click(1125.5,1163.5)
+pyautogui.click(1125.5,1163.5)

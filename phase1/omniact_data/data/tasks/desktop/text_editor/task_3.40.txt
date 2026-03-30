@@ -1,0 +1,4 @@
+Task: "Paste the previously copied text in a new tab via hotkeys"
+Output Script:
+pyautogui.click(407.5,49.0)
+pyautogui.hotkey("ctrl", "v")

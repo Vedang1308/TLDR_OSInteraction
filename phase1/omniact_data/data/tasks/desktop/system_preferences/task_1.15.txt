@@ -1,0 +1,6 @@
+Task: Access the brightness setting through the search bar.
+Output Script:
+pyautogui.click(1788.0,192.5)
+pyautogui.write("brightness")
+pyautogui.press("down")
+pyautogui.press("enter")

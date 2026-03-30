@@ -1,0 +1,194 @@
+{
+    "example_0": {
+        "top_left": [
+            714,
+            774
+        ],
+        "bottom_right": [
+            1288,
+            824
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_1": {
+        "top_left": [
+            1238,
+            23
+        ],
+        "bottom_right": [
+            1288,
+            39
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_2": {
+        "top_left": [
+            1197,
+            97
+        ],
+        "bottom_right": [
+            1213,
+            113
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_3": {
+        "top_left": [
+            152,
+            874
+        ],
+        "bottom_right": [
+            397,
+            898
+        ],
+        "valid": 1,
+        "label": "wi-fi_icon"
+    },
+    "example_4": {
+        "top_left": [
+            360,
+            25
+        ],
+        "bottom_right": [
+            441,
+            42
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_5": {
+        "top_left": [
+            1037,
+            21
+        ],
+        "bottom_right": [
+            1099,
+            38
+        ],
+        "valid": 1,
+        "label": "search_icon_with_search_button"
+    },
+    "example_6": {
+        "top_left": [
+            429,
+            874
+        ],
+        "bottom_right": [
+            684,
+            898
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_7": {
+        "top_left": [
+            1249,
+            66
+        ],
+        "bottom_right": [
+            1288,
+            89
+        ],
+        "valid": 1,
+        "label": "Redirect_Help Link"
+    },
+    "example_8": {
+        "top_left": [
+            152,
+            35
+        ],
+        "bottom_right": [
+            366,
+            57
+        ],
+        "valid": 1,
+        "label": "redirect_to_United_homepage"
+    },
+    "example_9": {
+        "top_left": [
+            1247,
+            781
+        ],
+        "bottom_right": [
+            1283,
+            817
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_10": {
+        "top_left": [
+            992,
+            874
+        ],
+        "bottom_right": [
+            1288,
+            898
+        ],
+        "valid": 1,
+        "label": "redirect_Traveling with pets"
+    },
+    "example_11": {
+        "top_left": [
+            854,
+            21
+        ],
+        "bottom_right": [
+            1013,
+            38
+        ],
+        "valid": 1,
+        "label": "language_bar"
+    },
+    "example_12": {
+        "top_left": [
+            716,
+            874
+        ],
+        "bottom_right": [
+            960,
+            898
+        ],
+        "valid": 1,
+        "label": "redirect_to_united_club_page"
+    },
+    "example_13": {
+        "top_left": [
+            1124,
+            20
+        ],
+        "bottom_right": [
+            1194,
+            40
+        ],
+        "valid": 1,
+        "label": "redirect_to_Sign_In_page"
+    },
+    "example_14": {
+        "top_left": [
+            1218,
+            19
+        ],
+        "bottom_right": [
+            1238,
+            38
+        ],
+        "valid": 1,
+        "label": "redirect_to_shopping_cart"
+    },
+    "example_15": {
+        "top_left": [
+            962,
+            531
+        ],
+        "bottom_right": [
+            962,
+            549
+        ],
+        "valid": 0,
+        "label": "NA"
+    }
+}

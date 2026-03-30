@@ -1,0 +1,3 @@
+Task: Procure the spoken version of the present book
+Output Script:
+pyautogui.click(2577.0,1091.0)

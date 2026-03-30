@@ -1,0 +1,3 @@
+Task: navigate to the "Jackets & Outerwear" category  
+Output Script: 
+pyautogui.click(343.5,217.5)

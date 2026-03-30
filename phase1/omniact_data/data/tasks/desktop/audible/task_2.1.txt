@@ -1,0 +1,4 @@
+Task: Rewind by 1 min (30 seconds button twice)
+Output Script:
+pyautogui.click(912.5,700.0)
+pyautogui.click(912.5,700.0)

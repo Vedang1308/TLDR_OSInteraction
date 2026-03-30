@@ -1,0 +1,3 @@
+Task: Click on the date 3
+Output script:
+pyautogui.click(2313.0,163.5)

@@ -1,0 +1,3 @@
+Task: Access "Contact Us" tab
+Output Script:
+pyautogui.click(1261.0,236.5)

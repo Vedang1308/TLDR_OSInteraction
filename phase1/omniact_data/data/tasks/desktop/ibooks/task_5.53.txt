@@ -1,0 +1,3 @@
+Task: Select the "More Options" button for the book titled "Songs of Kabir" to view additional information.
+Output Script:
+pyautogui.click(2761.0,969.5)

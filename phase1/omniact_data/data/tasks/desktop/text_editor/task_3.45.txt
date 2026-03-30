@@ -1,0 +1,3 @@
+Task: "Navigate through the various possibilities after clicking open in the top menu."
+Output Script:
+pyautogui.click(366.5,49.0)

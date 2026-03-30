@@ -1,0 +1,3 @@
+Task: Add the preferred book to your save for later list
+Output Script:
+pyautogui.click(1268.0,824.0)

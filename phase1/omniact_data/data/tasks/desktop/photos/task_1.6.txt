@@ -1,0 +1,3 @@
+Task: Select first picture with hot air balloons
+Output Script:
+pyautogui.click(728.5,541.0)

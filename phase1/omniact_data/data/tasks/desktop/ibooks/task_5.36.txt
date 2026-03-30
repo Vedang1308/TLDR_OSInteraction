@@ -1,0 +1,3 @@
+Task: Navigate to "Old Indian Legends" and click the "Read" button to begin your reading.
+Output Script:
+pyautogui.click(694.0,1383.5)

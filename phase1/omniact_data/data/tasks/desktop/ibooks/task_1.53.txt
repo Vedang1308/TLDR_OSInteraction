@@ -1,0 +1,4 @@
+Task: Find and select the book "The Power of Now" via the search bar
+Output Script:
+pyautogui.click(198.5,139.5)
+pyautogui.write("The Power of Now")

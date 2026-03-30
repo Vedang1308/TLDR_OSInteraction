@@ -1,0 +1,4 @@
+Task: Opt for "options" and then select the first entry on the list
+Output Script:
+pyautogui.click(1767.0,48.0)
+pyautogui.press("enter")

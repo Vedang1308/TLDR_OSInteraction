@@ -1,0 +1,3 @@
+Task: Enable Microsoft Store settings
+Output Script:
+pyautogui.click(1839.0,798.0)

@@ -1,0 +1,4 @@
+Task: Use right click to open "Entrepreneurship" tab in new window for course exploration.
+pyautogui.rightClick(202.0,97.0)
+pyautogui.write("open")
+pyautogui.press("enter")

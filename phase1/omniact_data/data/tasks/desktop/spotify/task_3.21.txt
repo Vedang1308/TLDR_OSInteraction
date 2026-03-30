@@ -1,0 +1,4 @@
+Task: Sort the playlist by descending number of plays
+Output script:
+pyautogui.click(1198.0,425.5)
+pyautogui.click(1198.0,425.5)

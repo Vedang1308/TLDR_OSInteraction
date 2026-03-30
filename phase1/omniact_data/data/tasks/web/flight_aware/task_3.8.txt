@@ -1,0 +1,13 @@
+Task: Search Flight by Route, with Origin as Pittsburgh and Destination as JFK using the top
+search bar
+Output Script:
+pyautogui.click(560.5,63.5)
+pyautogui.write("Route")
+pyautogui.press("enter")
+pyautogui.press("tab")
+pyautogui.write("Pittsburgh")
+pyautogui.press("enter")
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.write("JFK")
+pyautogui.press("enter")

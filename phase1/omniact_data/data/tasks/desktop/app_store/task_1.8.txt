@@ -1,0 +1,3 @@
+Task: Click on the "Develop" category.
+Output script:
+pyautogui.click(220.5,593.5)

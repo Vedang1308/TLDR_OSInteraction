@@ -1,0 +1,3 @@
+Task: Begin the live chat with the helpdesk representative.
+Output script:
+pyautogui.click(2806.5,1647.0)

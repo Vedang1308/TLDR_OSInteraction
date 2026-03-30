@@ -1,0 +1,6 @@
+Task: Navigate to Settings. 
+Output Script:
+Pyautogui.click(301.0,1002.0)
+Pyautogui.press("Up")
+Pyautogui.press("Tab")
+Pyautogui.press("Enter")

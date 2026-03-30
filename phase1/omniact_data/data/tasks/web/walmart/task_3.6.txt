@@ -1,0 +1,3 @@
+Task: View different return options available for the current product
+Output Script:
+pyautogui.click(1199.0,869.0)

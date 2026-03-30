@@ -1,0 +1,6 @@
+Task: Augment system volume
+Output Script:
+pyautogui.moveTo(1856.5,13.5)
+pyautogui.click(1856.5,13.5)
+pyautogui.moveTo(1871.0,73.5)
+pyautogui.click(1871.0,73.5)

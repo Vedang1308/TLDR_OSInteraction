@@ -1,0 +1,3 @@
+Task: Examine and secure package offers.
+Output script:
+pyautogui.click(2380.5,379.5)

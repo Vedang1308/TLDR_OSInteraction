@@ -1,0 +1,5 @@
+Task: Move to the "Support" button and then click on "Contact Us" to send a message to customer service.
+Output script:
+pyautogui.click(2718.5,1599.0)
+pyautogui.write("Contact Us")
+pyautogui.press("Enter")

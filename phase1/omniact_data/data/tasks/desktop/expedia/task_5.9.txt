@@ -1,0 +1,3 @@
+Task: Filter places near "Times Square".
+Output script:
+pyautogui.click(1442.0,1285.0)

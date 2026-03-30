@@ -1,0 +1,5 @@
+Task: Change theme to light.
+Output Script:
+pyautogui.click(1213.0,441.5)
+pyautogui.write("light")
+pyautogui.press("enter")

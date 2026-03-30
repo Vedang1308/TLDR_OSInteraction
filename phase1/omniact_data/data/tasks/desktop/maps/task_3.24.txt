@@ -1,0 +1,5 @@
+Task: Update the destination to the location Stratford.
+Output script:
+pyautogui.click(2574.0,300.0)
+pyautogui.write("Stratford")
+pyautogui.press("Enter")

@@ -1,0 +1,6 @@
+Task: Remove existing keyboard shortcut for the screenshot function
+Output Script:
+pyautogui.click(703.5,672.0)
+pyautogui.hotkey("ctrl","a")
+pyautogui.press("delete")
+pyautogui.press("enter")

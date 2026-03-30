@@ -1,0 +1,5 @@
+Task: Set your departure city as "Mumbai" in the flight search.
+Output script:
+pyautogui.click(1438.0,208.5)
+pyautogui.write("Mumbai")
+pyautogui.press("enter")

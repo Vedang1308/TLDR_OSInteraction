@@ -1,0 +1,3 @@
+Task: Initiate the playback of the video through mouse click
+Output Script:
+pyautogui.click(150.0,1051.0)

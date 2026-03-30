@@ -1,0 +1,3 @@
+Task: Check the calendar to set your departure day for the flight.
+Output script:
+pyautogui.click(1438.0,402.0)

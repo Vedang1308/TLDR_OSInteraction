@@ -1,0 +1,3 @@
+Task: Print the image
+Output Script:
+pyautogui.click(1765.0,193.0)

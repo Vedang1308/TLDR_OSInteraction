@@ -1,0 +1,3 @@
+Task: Navigate to Tiktok application specifications
+Output Script:
+pyautogui.click(860.5,666.5)

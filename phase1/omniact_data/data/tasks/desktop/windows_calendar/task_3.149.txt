@@ -1,0 +1,4 @@
+Task: Set the termination time of the function to 10:00 PM
+Output Script:
+pyautogui.click(881.5,501.0)
+pyautogui.write("22:00")

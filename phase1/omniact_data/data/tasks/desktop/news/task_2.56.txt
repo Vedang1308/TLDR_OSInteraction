@@ -1,0 +1,3 @@
+Task: Navigate to the selections for the second news in Tasting Table.
+Output script:
+pyautogui.click(1603.5,1648.0)

@@ -1,0 +1,3 @@
+Task: Insert the required file
+Output script:
+pyautogui.click(511.0,404.5)

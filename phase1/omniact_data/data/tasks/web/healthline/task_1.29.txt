@@ -1,0 +1,5 @@
+Task: Under the "Plan" drop-down, select the initial listing.
+Output Script:
+pyautogui.click(753.5,35.0)
+pyautogui.press("tab")
+pyautogui.press("enter")

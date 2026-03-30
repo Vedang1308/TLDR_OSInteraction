@@ -1,0 +1,3 @@
+Task: Determine the dates of travel.
+Output script:
+pyautogui.click(1448.0,403.5)

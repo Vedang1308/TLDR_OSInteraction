@@ -1,0 +1,5 @@
+Task: Navigate to the "downloads" folder and choose all files present in it.
+Output Script:
+pyautogui.click(1133.0,262.5)
+pyautogui.click(1133.0,262.5)
+pyautogui.hotkey("ctrl", "a")

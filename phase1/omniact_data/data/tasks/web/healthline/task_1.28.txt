@@ -1,0 +1,5 @@
+Task: Click on "Plan" and then pick the first available selection.
+Output Script:
+pyautogui.click(753.5,35.0)
+pyautogui.press("tab")
+pyautogui.press("enter")

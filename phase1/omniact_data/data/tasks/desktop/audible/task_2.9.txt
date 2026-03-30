@@ -1,0 +1,4 @@
+Task: Fast forward by 1 min (30 seconds button twice)
+Output Script:
+pyautogui.click(1080.5,700.0)
+pyautogui.click(1080.5,700.0)

@@ -1,0 +1,3 @@
+Task: Navigate to Bluetooth Preferences
+Output Script:
+pyautogui.click(1752.5,234.0)

@@ -1,0 +1,3 @@
+Task: Exhibit all the messages appearing in the system tray corner
+Output Script:
+pyautogui.click(1883.5,1055.5)

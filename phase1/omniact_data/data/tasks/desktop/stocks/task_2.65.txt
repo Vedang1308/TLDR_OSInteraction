@@ -1,0 +1,3 @@
+Task: Navigate and click on the "3 dots" to open more possibilities.
+Output script:
+pyautogui.click(2710.5,1512.0)

@@ -1,0 +1,5 @@
+Task: search for "libre"
+Output Script:
+pyautogui.click(959, 67)
+pyautogui.write("libre")
+pyautogui.press("Enter")

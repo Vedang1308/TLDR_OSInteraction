@@ -1,0 +1,3 @@
+Task: Navigate back to the homepage by selecting the New York State symbol
+Output Script:
+pyautogui.click(129.0,45.0)

@@ -1,0 +1,4 @@
+Task: Double decrease the image size
+Output Script:
+pyautogui.click(95.5,50.0)
+pyautogui.click(95.5,50.0)

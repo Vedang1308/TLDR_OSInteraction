@@ -1,0 +1,3 @@
+Task: Navigate to the Government section on Coursera
+Output Script:
+pyautogui.click(489.0,20.0)

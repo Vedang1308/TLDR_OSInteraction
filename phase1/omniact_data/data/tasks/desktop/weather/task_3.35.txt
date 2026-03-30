@@ -1,0 +1,3 @@
+Task: Check the current climate in New Delhi
+Output Script:
+pyautogui.click(319.5,297.0)

@@ -1,0 +1,4 @@
+Task: Tab down on the page twice
+Output Script:
+pyautogui.press("down")
+pyautogui.press("down")

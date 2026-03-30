@@ -1,0 +1,3 @@
+Task: Logout from the editing program
+Output script:
+pyautogui.click(194.0,1007.5)

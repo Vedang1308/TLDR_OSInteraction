@@ -1,0 +1,4 @@
+Task: Select options for unrestricted cancelation and suitable for families.
+Output script:
+pyautogui.click(1435.5,545.5)
+pyautogui.click(1439.5,702.5)

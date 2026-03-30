@@ -1,0 +1,3 @@
+Task: Move to the subsequent tab using keyboard shortcut
+Output Script:
+pyautogui.hotkey("ctrl", "tab")

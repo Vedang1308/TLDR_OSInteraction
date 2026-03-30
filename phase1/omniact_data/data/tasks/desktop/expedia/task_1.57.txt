@@ -1,0 +1,3 @@
+Task: Navigate to the main page. 
+Output script:
+pyautogui.click(468.0,1757.5)

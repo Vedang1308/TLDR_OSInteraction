@@ -1,0 +1,3 @@
+Task: Choose the package for the Statue of Liberty tour.
+Output script:
+pyautogui.click(1443.0,550.0)

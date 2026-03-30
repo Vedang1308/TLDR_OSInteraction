@@ -1,0 +1,3 @@
+Task: Access the "budget_2022_excel_file" with the typical Excel files application.
+Output Script:
+pyautogui.doubleClick(700.0,468.0)

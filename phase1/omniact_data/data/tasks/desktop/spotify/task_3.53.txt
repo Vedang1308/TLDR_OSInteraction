@@ -1,0 +1,3 @@
+Task: Return to the last visited page
+Output script:
+pyautogui.click(506.0,90.0)

@@ -1,0 +1,3 @@
+Task: Click Sign Up
+Output Script:
+pyautogui.click(1161.0,62.0)

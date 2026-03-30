@@ -1,0 +1,5 @@
+Task: Select "Sci-fi" from the dropdown list in the top right corner for book browsing.
+Output Script:
+pyautogui.click(3194.0,52.0)
+pyautogui.write("Sci-fi")
+pyautogui.press("enter")

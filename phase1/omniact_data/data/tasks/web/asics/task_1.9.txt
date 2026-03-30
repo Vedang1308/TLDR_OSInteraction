@@ -1,0 +1,3 @@
+Task: See the price range of the kid"s shoe section.
+Output Script:
+pyautogui.click(245.0,620.0)

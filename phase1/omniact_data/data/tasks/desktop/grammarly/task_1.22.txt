@@ -1,0 +1,4 @@
+Task: Turn selected word"s font into bold
+Output script:
+pyautogui.click(459.0,200.5)
+pyautogui.click(167.5,1011.0)

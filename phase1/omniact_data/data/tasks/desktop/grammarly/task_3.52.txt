@@ -1,0 +1,3 @@
+Task: Direct the cursor to the page end
+Output script:
+pyautogui.click(1908.0,932.0)

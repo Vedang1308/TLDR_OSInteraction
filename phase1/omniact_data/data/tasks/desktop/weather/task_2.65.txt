@@ -1,0 +1,3 @@
+Task: Click on New Delhi to bring up its geographical details.
+Output Script:
+pyautogui.click(319.5,297.0)

@@ -1,0 +1,5 @@
+Task: Perform an undo operation in the last modified mail body
+Output Script:
+pyautogui.click(1310.5,415.5)
+pyautogui.hotkey("ctrl", "a")
+pyautogui.click(1450.5,123.0)

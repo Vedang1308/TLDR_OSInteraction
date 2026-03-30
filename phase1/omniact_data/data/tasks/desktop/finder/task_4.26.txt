@@ -1,0 +1,4 @@
+Task: Initiate song playback and transition to the following song.
+Output Script:
+pyautogui.click(3228.0,717.0)
+pyautogui.click(3283.5,717.5)

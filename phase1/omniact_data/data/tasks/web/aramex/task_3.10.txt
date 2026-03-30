@@ -1,0 +1,5 @@
+Task: Adjust language setting to the second option in the selection menu.
+Output Script:
+pyautogui.click(1315.5,20.0)
+pyautogui.press("down")
+pyautogui.press("enter")

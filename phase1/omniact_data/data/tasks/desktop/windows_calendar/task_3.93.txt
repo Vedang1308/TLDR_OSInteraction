@@ -1,0 +1,3 @@
+Task: Select the feature to input conclusion date
+Output Script:
+pyautogui.click(418.0,500.5)

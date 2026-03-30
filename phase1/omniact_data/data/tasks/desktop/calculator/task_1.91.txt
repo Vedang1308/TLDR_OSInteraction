@@ -1,0 +1,4 @@
+Task: Find the cube root of 8 using automated scripts.
+Output Script:
+pyautogui.click(1936.5,971.0)
+pyautogui.click(1366.0,1065.0)

@@ -1,0 +1,3 @@
+Task: Widen the aims part
+Output script:
+pyautogui.click(1781.0,271.0)

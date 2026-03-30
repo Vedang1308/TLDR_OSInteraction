@@ -1,0 +1,3 @@
+Task: To exit full screen, click on the green symbol 
+Output Script:
+pyautogui.click(108.0,75.5)

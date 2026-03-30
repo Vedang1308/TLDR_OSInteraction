@@ -1,0 +1,3 @@
+Task: Display every retail location in Pittsburgh
+Output Script:
+pyautogui.click(720.0,848.0)

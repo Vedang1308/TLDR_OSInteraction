@@ -1,0 +1,3 @@
+Task: Adjust the video orientation by employing the rotate anticlockwise button.
+Output Script:
+pyautogui.click(1772.5,310.0)

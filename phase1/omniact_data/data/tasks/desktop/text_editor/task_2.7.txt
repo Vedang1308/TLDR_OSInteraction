@@ -1,0 +1,7 @@
+Task: "Find all the occurences of the 2nd latest searched word"
+Output Script:
+pyautogui.click(1197.5,488.0)
+pyautogui.press("tab")
+pyautogui.press("down")
+pyautogui.press("enter")
+pyautogui.click(1164.0,663.0)

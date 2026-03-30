@@ -1,0 +1,3 @@
+Task: Access the authors tab
+Output Script:
+pyautogui.click(1023.5,176.0)

@@ -1,0 +1,3 @@
+Task: Using the mouse, perform a double click on the folder named "Videos"
+Output Script:
+pyautogui.doubleClick(1068.0,524.5)

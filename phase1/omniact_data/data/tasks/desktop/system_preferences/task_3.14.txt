@@ -1,0 +1,3 @@
+Task: Optimize video streaming while on battery.
+Output Script:
+pyautogui.click(1266.0,510.0)

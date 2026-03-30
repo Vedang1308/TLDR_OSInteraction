@@ -1,0 +1,3 @@
+Task: Click on the "back" icon in the top left corner to go up one directory level.
+Output Script:
+pyautogui.click(22.5,197.5)

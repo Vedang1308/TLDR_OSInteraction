@@ -1,0 +1,3 @@
+Task: Select the Channels tab
+Output Script:
+pyautogui.click(1042.5,49.0)

@@ -1,0 +1,3 @@
+Task: Navigate to options in Microsoft Photos
+Output Script:
+pyautogui.click(1838.5,407.0)

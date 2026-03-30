@@ -1,0 +1,3 @@
+Task: Perform a keyboard function to generate a new tab in the browser
+Output Script:
+pyautogui.hotkey("ctrl", "t")

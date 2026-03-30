@@ -1,0 +1,3 @@
+Task: Share your screen with the meeting participants.
+Output Script:
+pyautogui.click(1131.0,1091.5)

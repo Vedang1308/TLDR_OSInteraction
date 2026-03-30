@@ -1,0 +1,3 @@
+Task: Change to afternoon time setting
+Output Script:
+pyautogui.click(1743.0,899.0)

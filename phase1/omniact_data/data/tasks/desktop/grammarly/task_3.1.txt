@@ -1,0 +1,4 @@
+Task: Add the new document
+Output script:
+pyautogui.click(511.5,295.5)
+pyautogui.write("Carnegie Mellon University!")

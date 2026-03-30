@@ -1,0 +1,3 @@
+Task: Activate the news update for iPhone 15.
+Output script:
+pyautogui.click(2435.5,1328.5)

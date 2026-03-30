@@ -1,0 +1,3 @@
+Task: Navigate to the latest outlook look
+Output Script:
+Pyautogui.click(1697.5,70.0)

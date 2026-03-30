@@ -1,0 +1,3 @@
+Task: Navigate to the screen time setting.
+Output Script:
+pyautogui.click(1550.5,751.0)

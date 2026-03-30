@@ -1,0 +1,3 @@
+Task: Tap on the Walmart emblem to return to the main page.
+Output Script:
+pyautogui.click(97.0,44.0)

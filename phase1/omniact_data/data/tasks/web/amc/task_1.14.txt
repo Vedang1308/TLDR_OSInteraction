@@ -1,0 +1,4 @@
+Task: Copy Entire Website
+Output Script:
+pyautogui.hotkey("ctrl", "shift", "a")
+pyautogui.hotkey("ctrl", "c")

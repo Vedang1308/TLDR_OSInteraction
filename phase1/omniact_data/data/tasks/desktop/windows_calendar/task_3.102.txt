@@ -1,0 +1,3 @@
+Task: Set up an alarm for the event
+Output Script:
+pyautogui.click(789.0,125.5)

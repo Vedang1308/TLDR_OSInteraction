@@ -1,0 +1,3 @@
+Task: Access the settings for subtitles.
+Output Script:
+pyautogui.click(1702.0,1734.0)

@@ -1,0 +1,3 @@
+Task: Explore different sections by selecting the "departments" tab.
+Output Script:
+pyautogui.click(154.5,436.5)

@@ -1,0 +1,3 @@
+Task: Turn on Spanish language option
+Output Script:
+pyautogui.click(1318.0,15.0)

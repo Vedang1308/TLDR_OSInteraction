@@ -1,0 +1,3 @@
+Task: View all mails in the inbox
+Output Script:
+pyautogui.click(652.5,130.5)

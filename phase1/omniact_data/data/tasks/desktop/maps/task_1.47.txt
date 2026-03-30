@@ -1,0 +1,5 @@
+Task: Search for hotels in the vicinity.
+Output script:
+pyautogui.click(283.5,103.5)
+pyautogui.hotkey("down")
+pyautogui.press("enter")

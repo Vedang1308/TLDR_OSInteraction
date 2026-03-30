@@ -1,0 +1,3 @@
+Task: Sort event members by last name
+Output Script:
+pyautogui.click(1453.0,337.0)

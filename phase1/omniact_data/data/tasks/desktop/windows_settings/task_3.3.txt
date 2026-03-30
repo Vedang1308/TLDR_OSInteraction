@@ -1,0 +1,4 @@
+Task: Scroll down to show more apps in the battery usage per app section
+Output Script:
+pyautogui.moveTo(442.5,709.0)
+pyautogui.scroll(20)

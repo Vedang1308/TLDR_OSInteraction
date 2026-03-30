@@ -1,0 +1,3 @@
+Task: Access the North America job section
+Output Script:
+pyautogui.click(363.5,336.0)

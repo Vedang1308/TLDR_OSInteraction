@@ -1,0 +1,578 @@
+{
+    "example_0": {
+        "top_left": [
+            927,
+            534
+        ],
+        "bottom_right": [
+            967,
+            574
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_1": {
+        "top_left": [
+            974,
+            8
+        ],
+        "bottom_right": [
+            1068,
+            47
+        ],
+        "valid": 1,
+        "label": "redirect_to_gift_cards"
+    },
+    "example_2": {
+        "top_left": [
+            112,
+            167
+        ],
+        "bottom_right": [
+            202,
+            293
+        ],
+        "valid": 1,
+        "label": "redirect_to_products_page"
+    },
+    "example_3": {
+        "top_left": [
+            480,
+            574
+        ],
+        "bottom_right": [
+            699,
+            610
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_4": {
+        "top_left": [
+            1152,
+            8
+        ],
+        "bottom_right": [
+            1233,
+            47
+        ],
+        "valid": 1,
+        "label": "redirect_to_recipes"
+    },
+    "example_5": {
+        "top_left": [
+            148,
+            78
+        ],
+        "bottom_right": [
+            278,
+            117
+        ],
+        "valid": 1,
+        "label": "redirect_to_categories"
+    },
+    "example_6": {
+        "top_left": [
+            931,
+            434
+        ],
+        "bottom_right": [
+            967,
+            470
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_7": {
+        "top_left": [
+            224,
+            167
+        ],
+        "bottom_right": [
+            314,
+            293
+        ],
+        "valid": 1,
+        "label": "redirect_to_dairy"
+    },
+    "example_8": {
+        "top_left": [
+            16,
+            354
+        ],
+        "bottom_right": [
+            141,
+            376
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            390,
+            534
+        ],
+        "bottom_right": [
+            430,
+            574
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_10": {
+        "top_left": [
+            1233,
+            8
+        ],
+        "bottom_right": [
+            1326,
+            47
+        ],
+        "valid": 1,
+        "label": "redirect_to_Pharmacy"
+    },
+    "example_11": {
+        "top_left": [
+            1010,
+            167
+        ],
+        "bottom_right": [
+            1106,
+            305
+        ],
+        "valid": 1,
+        "label": "redirect_to_beer_wine_liquor_page"
+    },
+    "example_12": {
+        "top_left": [
+            898,
+            167
+        ],
+        "bottom_right": [
+            994,
+            305
+        ],
+        "valid": 1,
+        "label": "redirect_to_beauty_and_personal_care_options"
+    },
+    "example_13": {
+        "top_left": [
+            1306,
+            71
+        ],
+        "bottom_right": [
+            1392,
+            119
+        ],
+        "valid": 1,
+        "label": "shopping_cart_button"
+    },
+    "example_14": {
+        "top_left": [
+            749,
+            618
+        ],
+        "bottom_right": [
+            967,
+            678
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_15": {
+        "top_left": [
+            480,
+            434
+        ],
+        "bottom_right": [
+            699,
+            574
+        ],
+        "valid": 1,
+        "label": "add_to_cart_button"
+    },
+    "example_16": {
+        "top_left": [
+            1347,
+            167
+        ],
+        "bottom_right": [
+            1437,
+            293
+        ],
+        "valid": 1,
+        "label": "scroll_for_next_categories"
+    },
+    "example_17": {
+        "top_left": [
+            663,
+            434
+        ],
+        "bottom_right": [
+            699,
+            470
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_18": {
+        "top_left": [
+            659,
+            534
+        ],
+        "bottom_right": [
+            699,
+            574
+        ],
+        "valid": 1,
+        "label": "add_to_cart_button"
+    },
+    "example_19": {
+        "top_left": [
+            449,
+            167
+        ],
+        "bottom_right": [
+            539,
+            293
+        ],
+        "valid": 1,
+        "label": "redirect_to_Frozen"
+    },
+    "example_20": {
+        "top_left": [
+            394,
+            434
+        ],
+        "bottom_right": [
+            430,
+            470
+        ],
+        "valid": 1,
+        "label": "redirect_to_Bread"
+    },
+    "example_21": {
+        "top_left": [
+            212,
+            434
+        ],
+        "bottom_right": [
+            430,
+            574
+        ],
+        "valid": 1,
+        "label": "select_Giant_Eagle_bakery"
+    },
+    "example_22": {
+        "top_left": [
+            212,
+            618
+        ],
+        "bottom_right": [
+            430,
+            678
+        ],
+        "valid": 1,
+        "label": "redirect_to_product"
+    },
+    "example_23": {
+        "top_left": [
+            48,
+            78
+        ],
+        "bottom_right": [
+            140,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_Giant_Eagle_homepage"
+    },
+    "example_24": {
+        "top_left": [
+            480,
+            618
+        ],
+        "bottom_right": [
+            699,
+            678
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_25": {
+        "top_left": [
+            337,
+            167
+        ],
+        "bottom_right": [
+            427,
+            293
+        ],
+        "valid": 1,
+        "label": "redirect_bakery"
+    },
+    "example_26": {
+        "top_left": [
+            1196,
+            534
+        ],
+        "bottom_right": [
+            1236,
+            574
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_27": {
+        "top_left": [
+            530,
+            72
+        ],
+        "bottom_right": [
+            1297,
+            118
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_28": {
+        "top_left": [
+            1200,
+            434
+        ],
+        "bottom_right": [
+            1236,
+            470
+        ],
+        "valid": 1,
+        "label": "display_sourdough_bread product"
+    },
+    "example_29": {
+        "top_left": [
+            561,
+            167
+        ],
+        "bottom_right": [
+            651,
+            293
+        ],
+        "valid": 1,
+        "label": "view_beverages"
+    },
+    "example_30": {
+        "top_left": [
+            1235,
+            167
+        ],
+        "bottom_right": [
+            1325,
+            293
+        ],
+        "valid": 1,
+        "label": "filter_by_deli_category"
+    },
+    "example_31": {
+        "top_left": [
+            1017,
+            574
+        ],
+        "bottom_right": [
+            1236,
+            610
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_32": {
+        "top_left": [
+            0,
+            167
+        ],
+        "bottom_right": [
+            90,
+            293
+        ],
+        "valid": 1,
+        "label": "view_all_categories"
+    },
+    "example_33": {
+        "top_left": [
+            1326,
+            8
+        ],
+        "bottom_right": [
+            1400,
+            47
+        ],
+        "valid": 1,
+        "label": "sign_in_button"
+    },
+    "example_34": {
+        "top_left": [
+            749,
+            574
+        ],
+        "bottom_right": [
+            967,
+            610
+        ],
+        "valid": 1,
+        "label": " redirecting to Market District Bakery"
+    },
+    "example_35": {
+        "top_left": [
+            384,
+            78
+        ],
+        "bottom_right": [
+            521,
+            117
+        ],
+        "valid": 1,
+        "label": "redirect_to_order_again_page"
+    },
+    "example_36": {
+        "top_left": [
+            878,
+            8
+        ],
+        "bottom_right": [
+            974,
+            47
+        ],
+        "valid": 1,
+        "label": "display_weekly_ad"
+    },
+    "example_37": {
+        "top_left": [
+            1017,
+            434
+        ],
+        "bottom_right": [
+            1236,
+            574
+        ],
+        "valid": 1,
+        "label": "add_to_cart_Market_District_Cookies_button"
+    },
+    "example_38": {
+        "top_left": [
+            1068,
+            8
+        ],
+        "bottom_right": [
+            1152,
+            47
+        ],
+        "valid": 1,
+        "label": "redirect_to_catering"
+    },
+    "example_39": {
+        "top_left": [
+            40,
+            8
+        ],
+        "bottom_right": [
+            160,
+            47
+        ],
+        "valid": 1,
+        "label": "select_a_store_location"
+    },
+    "example_40": {
+        "top_left": [
+            1122,
+            167
+        ],
+        "bottom_right": [
+            1212,
+            293
+        ],
+        "valid": 1,
+        "label": "redirect_to_concy_page"
+    },
+    "example_41": {
+        "top_left": [
+            749,
+            434
+        ],
+        "bottom_right": [
+            967,
+            574
+        ],
+        "valid": 1,
+        "label": "add_to_cart_button"
+    },
+    "example_42": {
+        "top_left": [
+            278,
+            78
+        ],
+        "bottom_right": [
+            384,
+            117
+        ],
+        "valid": 1,
+        "label": "redirect_to_Savings"
+    },
+    "example_43": {
+        "top_left": [
+            673,
+            167
+        ],
+        "bottom_right": [
+            763,
+            293
+        ],
+        "valid": 1,
+        "label": "redirect_to_pantry"
+    },
+    "example_44": {
+        "top_left": [
+            1017,
+            618
+        ],
+        "bottom_right": [
+            1236,
+            678
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_45": {
+        "top_left": [
+            0,
+            0
+        ],
+        "bottom_right": [
+            48,
+            24
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_46": {
+        "top_left": [
+            212,
+            574
+        ],
+        "bottom_right": [
+            430,
+            610
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_47": {
+        "top_left": [
+            786,
+            167
+        ],
+        "bottom_right": [
+            876,
+            293
+        ],
+        "valid": 1,
+        "label": "redirect_to_baby_options"
+    }
+}

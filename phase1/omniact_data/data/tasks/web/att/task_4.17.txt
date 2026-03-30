@@ -1,0 +1,3 @@
+Task: Access the "Wireless" tab
+Output Script:
+pyautogui.click(244.0,67.0)

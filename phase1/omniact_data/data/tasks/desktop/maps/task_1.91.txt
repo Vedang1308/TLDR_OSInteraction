@@ -1,0 +1,5 @@
+Task: Switch the map display setting to satellite mode.
+Output script:
+pyautogui.click(2416.0,40.0)
+pyautogui.hotkey("down")
+pyautogui.press("enter")

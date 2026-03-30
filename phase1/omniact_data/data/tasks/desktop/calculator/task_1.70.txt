@@ -1,0 +1,4 @@
+Task: Find out the reciprocal value of 5
+Output Script:
+pyautogui.click(1938.0,1065.0)
+pyautogui.click(1140.0,1062.0)

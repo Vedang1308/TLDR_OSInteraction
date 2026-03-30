@@ -1,0 +1,5 @@
+Task: Find the chat records of Jack 
+Output Script:
+pyautogui.click(201.5,44.5)
+pyautogui.write("Jack")
+pyautogui.press("enter")

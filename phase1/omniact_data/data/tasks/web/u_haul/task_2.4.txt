@@ -1,0 +1,3 @@
+Task: "Rent a truck for a 3 bedroom apartment"
+Output Script:
+pyautogui.click(1043.0,724.5)

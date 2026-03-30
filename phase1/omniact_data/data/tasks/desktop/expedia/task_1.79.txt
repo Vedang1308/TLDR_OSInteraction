@@ -1,0 +1,5 @@
+Task: Conduct a search for the flight identified as ABC1234.
+Output script:
+pyautogui.click(1442.0,227.5)
+pyautogui.write("ABC1234")
+pyautogui.press("enter")

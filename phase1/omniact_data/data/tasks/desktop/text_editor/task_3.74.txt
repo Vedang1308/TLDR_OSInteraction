@@ -1,0 +1,7 @@
+Task: "Mimic the information in code_algo document and input it into an new document by pressing Ctrl+A, Ctrl+C, and Ctrl+V consecutively"
+Output Script:
+pyautogui.click(383.5,158.0)
+pyautogui.hotkey("ctrl","a")
+pyautogui.hotkey("ctrl","c")
+pyautogui.click(158.0,124.5)
+pyautogui.hotkey("ctrl","v")

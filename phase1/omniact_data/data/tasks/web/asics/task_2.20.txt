@@ -1,0 +1,3 @@
+Task: Conduct a search for more data on GEL ROCKET 11 model
+Output Script: 
+pyautogui.click(860.0,685.0)

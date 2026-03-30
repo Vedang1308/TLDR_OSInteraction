@@ -1,0 +1,3 @@
+Task: Navigate to the article by selecting the photo which displays three mattresses.
+Output Script:
+pyautogui.click(242.5,820.5)

@@ -1,0 +1,3 @@
+Task: Move song to preferred songs
+Output script:
+pyautogui.click(1741.0,222.5)

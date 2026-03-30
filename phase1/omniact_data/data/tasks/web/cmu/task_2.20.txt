@@ -1,0 +1,3 @@
+Task: Navigate to the ID Cards section
+Output Script:
+pyautogui.click(584.0,236.5)

@@ -1,0 +1,3 @@
+Task: Develop a navigation path from the Regent"s park.
+Output script:
+pyautogui.click(1848.0,549.5)

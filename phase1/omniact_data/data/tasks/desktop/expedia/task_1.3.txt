@@ -1,0 +1,4 @@
+Task: Check popular destinations.
+Output script:
+pyautogui.moveTo(1440.0,1277.5)
+pyautogui.hscroll(30)

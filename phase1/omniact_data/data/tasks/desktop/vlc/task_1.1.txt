@@ -1,0 +1,3 @@
+Task: Take screenshot of the current VLC screen
+Output Script:
+pyautogui.click(1767.5,169.5)

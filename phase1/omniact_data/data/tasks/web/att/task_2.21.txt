@@ -1,0 +1,3 @@
+Task: Advance to seek a store in your vicinity.
+Output Script:
+pyautogui.click(1222.0,15.0)

@@ -1,0 +1,4 @@
+Task: Browse through more contacts 
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

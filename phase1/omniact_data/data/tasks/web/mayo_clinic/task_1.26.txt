@@ -1,0 +1,5 @@
+Task: Search the internet for treatments for intestinal bleeding
+Output Script:
+pyautogui.click(1356.0,52.0)
+pyautogui.write("intestinal bleeding treatment")
+pyautogui.press("enter")

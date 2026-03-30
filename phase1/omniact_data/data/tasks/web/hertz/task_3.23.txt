@@ -1,0 +1,6 @@
+Task: Go to "View Saved Cars", key in "andrew@cmu.edu" and "andrew" for login details.
+Output script:
+pyautogui.click(1330.5,85.0)
+pyautogui.write("andrew@cmu.edu")
+pyautogui.press("tab")
+pyautogui.write("andrew")

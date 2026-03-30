@@ -1,0 +1,3 @@
+Task: Navigate to Zoom configuration settings.
+Output Script:
+pyautogui.click(2816.0,162.0)

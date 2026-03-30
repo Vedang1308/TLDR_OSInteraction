@@ -1,0 +1,3 @@
+Task: Select the option to finalize event date
+Output Script:
+pyautogui.click(418.0,500.5)

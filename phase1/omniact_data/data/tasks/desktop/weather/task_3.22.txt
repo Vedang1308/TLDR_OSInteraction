@@ -1,0 +1,7 @@
+Task: Click the arrow button 5 times to check the weather 5 days ahead.
+Output Script:
+pyautogui.click(2222.0,865.0)
+pyautogui.click(2222.0,865.0)
+pyautogui.click(2222.0,865.0)
+pyautogui.click(2222.0,865.0)
+pyautogui.click(2222.0,865.0)

@@ -1,0 +1,6 @@
+Task: Alter the initial location to Taipei and set the ultimate destination as United States
+Output script:
+pyautogui.click(299.0,368.0)
+pyautogui.write("Taipei")
+pyautogui.click(567.0,368.0)
+pyautogui.write("United States")

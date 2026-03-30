@@ -1,0 +1,5 @@
+Task: Fill "Paris" on the destination input box and confirm with enter.
+Output script:
+pyautogui.click(1438.5,304.5)
+pyautogui.write("Paris")
+pyautogui.press("enter")

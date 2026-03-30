@@ -1,0 +1,3 @@
+Task: Inspect different health-related topics by using the view option 
+Output Script:
+pyautogui.click(1215.0,744.0)

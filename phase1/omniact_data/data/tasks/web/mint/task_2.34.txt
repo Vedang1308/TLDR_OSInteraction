@@ -1,0 +1,3 @@
+Task: Examine the specifics of Motorola RAZR+
+Output Script:
+pyautogui.click(1140.0,835.0)

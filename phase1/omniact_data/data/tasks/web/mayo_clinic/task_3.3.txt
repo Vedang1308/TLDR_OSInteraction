@@ -1,0 +1,5 @@
+Task: Could you please find out if there’s information on LDAC on mayolabs?
+Output Script:
+pyautogui.click(1379.5,96.0)
+pyautogui.write("LDAC")
+pyautogui.press("enter")

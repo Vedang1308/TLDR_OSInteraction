@@ -1,0 +1,5 @@
+Task: Add multiple stocks to watchlist.
+Output script:
+pyautogui.click(2603.5,244.0)
+pyautogui.write("AAPL, GOOGL, MSFT")
+pyautogui.press("Enter")

@@ -1,0 +1,5 @@
+Task: Modify the email receiver to "john@example.com"
+Output Script:
+pyautogui.click(1328.0,236.0)
+pyautogui.hotkey("ctrl", "a")
+pyautogui.write("john@example.com")

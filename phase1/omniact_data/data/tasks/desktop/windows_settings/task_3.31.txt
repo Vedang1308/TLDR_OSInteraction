@@ -1,0 +1,3 @@
+Task: Set battery saver to limit notifications and restrict background tasks
+Output Script:
+pyautogui.click(456.5,515.0)

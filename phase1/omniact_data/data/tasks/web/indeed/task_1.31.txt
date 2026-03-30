@@ -1,0 +1,3 @@
+Task: Submit your resume on the given webpage
+Output Script:
+pyautogui.click(607.5,233.5)

@@ -1,0 +1,4 @@
+Task: Arrange a program on January 22.
+Output script:
+pyautogui.click(617.0,1152.5)
+pyautogui.click(617.0,1152.5)

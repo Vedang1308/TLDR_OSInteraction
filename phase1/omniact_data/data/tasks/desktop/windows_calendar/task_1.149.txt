@@ -1,0 +1,3 @@
+Task: Select the day mode
+Output Script:
+Pyautogui.click(1218.5,71.0)

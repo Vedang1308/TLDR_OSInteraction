@@ -1,0 +1,3 @@
+Task: Use the zoom in button to enlarge the video viewing frame.
+Output Script:
+pyautogui.click(1769.5,256.0)

@@ -1,0 +1,3 @@
+Task: Reset to initial configuration.
+Output Script:
+pyautogui.click(1755.0,1101.0)

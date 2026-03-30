@@ -1,0 +1,123 @@
+{
+    "example_0": {
+        "top_left": [
+            2514,
+            1071
+        ],
+        "bottom_right": [
+            2640,
+            1111
+        ],
+        "label": "buy_audiobook"
+    },
+    "example_1": {
+        "top_left": [
+            2796,
+            1045
+        ],
+        "bottom_right": [
+            2848,
+            1161
+        ],
+        "label": "next_book"
+    },
+    "example_2": {
+        "top_left": [
+            1901,
+            616
+        ],
+        "bottom_right": [
+            2248,
+            674
+        ],
+        "label": "want_to_read"
+    },
+    "example_3": {
+        "top_left": [
+            2264,
+            616
+        ],
+        "bottom_right": [
+            2606,
+            674
+        ],
+        "label": "read_sample"
+    },
+    "example_4": {
+        "top_left": [
+            2561,
+            340
+        ],
+        "bottom_right": [
+            2596,
+            374
+        ],
+        "label": "more_options"
+    },
+    "example_5": {
+        "top_left": [
+            1032,
+            116
+        ],
+        "bottom_right": [
+            1088,
+            171
+        ],
+        "label": "close_book_details"
+    },
+    "example_6": {
+        "top_left": [
+            1222,
+            766
+        ],
+        "bottom_right": [
+            1314,
+            882
+        ],
+        "label": "add_for_save_to_later"
+    },
+    "example_7": {
+        "top_left": [
+            1546,
+            616
+        ],
+        "bottom_right": [
+            1885,
+            674
+        ],
+        "label": "buy_book"
+    },
+    "example_8": {
+        "top_left": [
+            2496,
+            1482
+        ],
+        "bottom_right": [
+            2574,
+            1527
+        ],
+        "label": "read_more"
+    },
+    "example_9": {
+        "top_left": [
+            1014,
+            108
+        ],
+        "bottom_right": [
+            2746,
+            2100
+        ],
+        "label": "scroll_book_details"
+    },
+    "example_10": {
+        "top_left": [
+            403,
+            1
+        ],
+        "bottom_right": [
+            3360,
+            2100
+        ],
+        "label": "scroll_to_next_book"
+    }
+}

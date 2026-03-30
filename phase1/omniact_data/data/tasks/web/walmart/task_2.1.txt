@@ -1,0 +1,3 @@
+Task: Open My Items window
+Output Script:
+pyautogui.click(1178.0,44.0)

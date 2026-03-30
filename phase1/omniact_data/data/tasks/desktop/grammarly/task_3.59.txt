@@ -1,0 +1,3 @@
+Task: Access "Note Better Demonstrate" file
+Output script:
+pyautogui.click(736.0,294.0)

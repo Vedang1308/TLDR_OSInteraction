@@ -1,0 +1,4 @@
+Task: Scroll right to know more about the other books
+Output Script:
+pyautogui.moveTo(1881.5,1050.5)
+pyautogui.hscroll(20)

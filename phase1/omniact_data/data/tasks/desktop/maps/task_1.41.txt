@@ -1,0 +1,3 @@
+Task: Wipe out the history of recent map searches.
+Output script:
+pyautogui.click(108.0,976.5)

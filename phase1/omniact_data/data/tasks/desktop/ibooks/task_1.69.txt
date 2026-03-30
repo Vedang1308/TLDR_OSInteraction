@@ -1,0 +1,3 @@
+Task: Open "Dreamland" from the bought top charts list
+Output Script:
+pyautogui.click(789.0,843.5)

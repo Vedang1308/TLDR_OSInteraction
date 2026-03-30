@@ -1,0 +1,5 @@
+Task: Utilize keyboard, input "tools" into the search box and initiate the search.
+Output Script:
+pyautogui.click(959.0,67.0)
+pyautogui.write("tools")
+pyautogui.press("Enter")

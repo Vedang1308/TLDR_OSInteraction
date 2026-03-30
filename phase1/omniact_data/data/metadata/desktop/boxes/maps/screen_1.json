@@ -1,0 +1,277 @@
+{
+    "example_0": {
+        "top_left": [
+            33,
+            75
+        ],
+        "bottom_right": [
+            534,
+            132
+        ],
+        "label": "search maps"
+    },
+    "example_1": {
+        "top_left": [
+            25,
+            318
+        ],
+        "bottom_right": [
+            555,
+            388
+        ],
+        "label": "add home"
+    },
+    "example_2": {
+        "top_left": [
+            25,
+            399
+        ],
+        "bottom_right": [
+            554,
+            466
+        ],
+        "label": "add work"
+    },
+    "example_3": {
+        "top_left": [
+            28,
+            509
+        ],
+        "bottom_right": [
+            553,
+            548
+        ],
+        "label": "add guide"
+    },
+    "example_4": {
+        "top_left": [
+            30,
+            961
+        ],
+        "bottom_right": [
+            186,
+            992
+        ],
+        "label": "clear recents"
+    },
+    "example_5": {
+        "top_left": [
+            1579,
+            1035
+        ],
+        "bottom_right": [
+            1713,
+            1074
+        ],
+        "label": "greenwich"
+    },
+    "example_6": {
+        "top_left": [
+            1183,
+            768
+        ],
+        "bottom_right": [
+            1375,
+            829
+        ],
+        "label": "regent's park"
+    },
+    "example_7": {
+        "top_left": [
+            1400,
+            178
+        ],
+        "bottom_right": [
+            1488,
+            206
+        ],
+        "label": "enfield"
+    },
+    "example_8": {
+        "top_left": [
+            891,
+            464
+        ],
+        "bottom_right": [
+            985,
+            498
+        ],
+        "label": "barnet"
+    },
+    "example_9": {
+        "top_left": [
+            1609,
+            607
+        ],
+        "bottom_right": [
+            1793,
+            646
+        ],
+        "label": "Wanstead park"
+    },
+    "example_10": {
+        "top_left": [
+            2263,
+            1181
+        ],
+        "bottom_right": [
+            2417,
+            1224
+        ],
+        "label": "Dartford"
+    },
+    "example_11": {
+        "top_left": [
+            2250,
+            1600
+        ],
+        "bottom_right": [
+            2430,
+            1676
+        ],
+        "label": "Lullingstone Castle"
+    },
+    "example_12": {
+        "top_left": [
+            1053,
+            1606
+        ],
+        "bottom_right": [
+            1143,
+            1637
+        ],
+        "label": "sutton"
+    },
+    "example_13": {
+        "top_left": [
+            2642,
+            1730
+        ],
+        "bottom_right": [
+            2684,
+            1770
+        ],
+        "label": "zoom out"
+    },
+    "example_14": {
+        "top_left": [
+            2686,
+            1730
+        ],
+        "bottom_right": [
+            2730,
+            1770
+        ],
+        "label": "zoom in"
+    },
+    "example_15": {
+        "top_left": [
+            2756,
+            1680
+        ],
+        "bottom_right": [
+            2856,
+            1774
+        ],
+        "label": "compass"
+    },
+    "example_16": {
+        "top_left": [
+            1130,
+            992
+        ],
+        "bottom_right": [
+            1218,
+            1022
+        ],
+        "label": "chelsea"
+    },
+    "example_17": {
+        "top_left": [
+            2472,
+            18
+        ],
+        "bottom_right": [
+            2514,
+            54
+        ],
+        "label": "3D view"
+    },
+    "example_18": {
+        "top_left": [
+            2820,
+            16
+        ],
+        "bottom_right": [
+            2862,
+            58
+        ],
+        "label": "account"
+    },
+    "example_19": {
+        "top_left": [
+            2756,
+            12
+        ],
+        "bottom_right": [
+            2800,
+            58
+        ],
+        "label": "share"
+    },
+    "example_20": {
+        "top_left": [
+            2690,
+            14
+        ],
+        "bottom_right": [
+            2730,
+            58
+        ],
+        "label": "add"
+    },
+    "example_21": {
+        "top_left": [
+            2624,
+            16
+        ],
+        "bottom_right": [
+            2664,
+            60
+        ],
+        "label": "directions"
+    },
+    "example_22": {
+        "top_left": [
+            2550,
+            22
+        ],
+        "bottom_right": [
+            2596,
+            56
+        ],
+        "label": "look around"
+    },
+    "example_23": {
+        "top_left": [
+            2332,
+            18
+        ],
+        "bottom_right": [
+            2372,
+            60
+        ],
+        "label": "show current location"
+    },
+    "example_24": {
+        "top_left": [
+            2388,
+            16
+        ],
+        "bottom_right": [
+            2444,
+            64
+        ],
+        "label": "mode menu"
+    }
+}

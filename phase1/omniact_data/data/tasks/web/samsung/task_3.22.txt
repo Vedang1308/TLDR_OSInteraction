@@ -1,0 +1,3 @@
+Task: Press on the heart-shaped icon to mark this product for your wish list
+Output Script:
+pyautogui.click(1394.5,305.5)

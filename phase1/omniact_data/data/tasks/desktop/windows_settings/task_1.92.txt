@@ -1,0 +1,3 @@
+Task: Click on "Devices" option in settings
+Output Script:
+pyautogui.click(619.0,429.5)

@@ -1,0 +1,4 @@
+Task: Go to "Memories" album and use top bar for magnifying images
+Output Script:
+pyautogui.click(213.0,246.5)
+pyautogui.write("enlarge_pics")

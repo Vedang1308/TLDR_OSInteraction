@@ -1,0 +1,3 @@
+Task: Move to the end snapshot of the slideshow
+Output Script:
+pyautogui.click(2011.5,2016.5)

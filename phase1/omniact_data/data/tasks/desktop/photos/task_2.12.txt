@@ -1,0 +1,3 @@
+Task: Go to the first picture in the slideshow
+Output Script:
+pyautogui.click(1047.0,2013.5)

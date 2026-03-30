@@ -1,0 +1,3 @@
+Task: see what are the exclusive perks they offer
+Output Script:
+pyautogui.click(720.0,28.5)

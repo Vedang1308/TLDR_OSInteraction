@@ -1,0 +1,288 @@
+{
+    "example_0": {
+        "top_left": [
+            7,
+            388
+        ],
+        "bottom_right": [
+            306,
+            413
+        ],
+        "label": "desktop"
+    },
+    "example_1": {
+        "top_left": [
+            5,
+            447
+        ],
+        "bottom_right": [
+            304,
+            472
+        ],
+        "label": "downloads_left_tab"
+    },
+    "example_2": {
+        "top_left": [
+            322,
+            429
+        ],
+        "bottom_right": [
+            1078,
+            453
+        ],
+        "label": "budget_excel_file"
+    },
+    "example_3": {
+        "top_left": [
+            322,
+            456
+        ],
+        "bottom_right": [
+            1078,
+            480
+        ],
+        "label": "budget_2022_excel_file"
+    },
+    "example_4": {
+        "top_left": [
+            322,
+            509
+        ],
+        "bottom_right": [
+            1078,
+            533
+        ],
+        "label": "template_text_file"
+    },
+    "example_5": {
+        "top_left": [
+            322,
+            348
+        ],
+        "bottom_right": [
+            1078,
+            372
+        ],
+        "label": "documents_folder"
+    },
+    "example_6": {
+        "top_left": [
+            881,
+            60
+        ],
+        "bottom_right": [
+            1036,
+            90
+        ],
+        "label": "item_check_boxes"
+    },
+    "example_7": {
+        "top_left": [
+            882,
+            114
+        ],
+        "bottom_right": [
+            1037,
+            144
+        ],
+        "label": "hidden_items"
+    },
+    "example_8": {
+        "top_left": [
+            637,
+            113
+        ],
+        "bottom_right": [
+            660,
+            138
+        ],
+        "label": "more_layouts"
+    },
+    "example_9": {
+        "top_left": [
+            667,
+            57
+        ],
+        "bottom_right": [
+            722,
+            160
+        ],
+        "label": "sort_by"
+    },
+    "example_10": {
+        "top_left": [
+            2,
+            178
+        ],
+        "bottom_right": [
+            43,
+            217
+        ],
+        "label": "back_navigation"
+    },
+    "example_11": {
+        "top_left": [
+            44,
+            177
+        ],
+        "bottom_right": [
+            79,
+            216
+        ],
+        "label": "next_navigation"
+    },
+    "example_12": {
+        "top_left": [
+            1507,
+            174
+        ],
+        "bottom_right": [
+            1542,
+            213
+        ],
+        "label": "refresh_directory"
+    },
+    "example_13": {
+        "top_left": [
+            1557,
+            176
+        ],
+        "bottom_right": [
+            1908,
+            216
+        ],
+        "label": "search_file"
+    },
+    "example_14": {
+        "top_left": [
+            1,
+            58
+        ],
+        "bottom_right": [
+            75,
+            152
+        ],
+        "label": "navigation_page_dropdown"
+    },
+    "example_15": {
+        "top_left": [
+            342,
+            66
+        ],
+        "bottom_right": [
+            478,
+            91
+        ],
+        "label": "large_icons_view"
+    },
+    "example_16": {
+        "top_left": [
+            313,
+            226
+        ],
+        "bottom_right": [
+            652,
+            255
+        ],
+        "label": "sort_by_name"
+    },
+    "example_17": {
+        "top_left": [
+            832,
+            225
+        ],
+        "bottom_right": [
+            982,
+            260
+        ],
+        "label": "sort_by_type"
+    },
+    "example_18": {
+        "top_left": [
+            982,
+            226
+        ],
+        "bottom_right": [
+            1084,
+            261
+        ],
+        "label": "sort_by_size"
+    },
+    "example_19": {
+        "top_left": [
+            139,
+            29
+        ],
+        "bottom_right": [
+            208,
+            58
+        ],
+        "label": "share_option"
+    },
+    "example_20": {
+        "top_left": [
+            4,
+            657
+        ],
+        "bottom_right": [
+            307,
+            684
+        ],
+        "label": "windows_c_option"
+    },
+    "example_21": {
+        "top_left": [
+            1745,
+            1
+        ],
+        "bottom_right": [
+            1796,
+            34
+        ],
+        "label": "minimize"
+    },
+    "example_22": {
+        "top_left": [
+            1803,
+            1
+        ],
+        "bottom_right": [
+            1854,
+            34
+        ],
+        "label": "exit_full_screen"
+    },
+    "example_23": {
+        "top_left": [
+            1862,
+            1
+        ],
+        "bottom_right": [
+            1913,
+            34
+        ],
+        "label": "close_window"
+    },
+    "example_24": {
+        "top_left": [
+            554,
+            1026
+        ],
+        "bottom_right": [
+            614,
+            1080
+        ],
+        "label": "minimize_using_icon"
+    },
+    "example_25": {
+        "top_left": [
+            863,
+            1026
+        ],
+        "bottom_right": [
+            925,
+            1080
+        ],
+        "label": "open_spotify"
+    }
+}

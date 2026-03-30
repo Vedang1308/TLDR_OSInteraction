@@ -1,0 +1,3 @@
+Task: Arrange event participants in order of surname
+Output Script:
+pyautogui.click(1453.0,337.0)

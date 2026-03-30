@@ -1,0 +1,3 @@
+Task: Transition to the Service Guidance Panel
+Output Script:
+pyautogui.click(1093.0,89.0)

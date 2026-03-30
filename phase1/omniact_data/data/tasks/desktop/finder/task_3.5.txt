@@ -1,0 +1,3 @@
+Task: Open Safari App using the fifth blue button at buttom
+Output Script:
+pyautogui.click(519.0,2027.5)

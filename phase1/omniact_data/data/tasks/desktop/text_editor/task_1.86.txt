@@ -1,0 +1,5 @@
+Task: "Access the file named report.docx"
+Output Script:
+pyautogui.click(308.5,48.0)
+pyautogui.write("report.docx")
+pyautogui.press("enter")

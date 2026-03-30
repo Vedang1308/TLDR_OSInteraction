@@ -1,0 +1,2 @@
+Task: see aquamarine color
+Output Script: pyautogui.click(1039.0,386.0)

@@ -1,0 +1,6 @@
+Task: Modify the document named "project.docx" to become "final_project.docx"
+Output Script:
+pyautogui.click(477.5,340.0)
+pyautogui.hotkey("r")
+pyautogui.write("final_project.docx")
+pyautogui.press("enter")

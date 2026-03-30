@@ -1,0 +1,5 @@
+Task: Find files through the search function
+Output Script:
+pyautogui.click(193.5,102.5)
+pyautogui.write("files")
+pyautogui.press("enter")

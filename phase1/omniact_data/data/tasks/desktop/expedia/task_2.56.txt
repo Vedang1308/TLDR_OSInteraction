@@ -1,0 +1,3 @@
+Task: Update the travellers field by increasing the count by 1.
+Output script:
+pyautogui.click(1449.0,499.5)

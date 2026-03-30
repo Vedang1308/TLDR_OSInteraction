@@ -1,0 +1,5 @@
+Task: Find Sales Tax
+Output Script:
+pyautogui.hotKey("ctrl", "f")
+pyautogui.write("Sales Tax")
+pyautogui.press("enter")

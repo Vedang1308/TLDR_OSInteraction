@@ -1,0 +1,3 @@
+Task: Proceed with downloading the preselected playlist.
+Output script:
+pyautogui.click(676.0,337.5)

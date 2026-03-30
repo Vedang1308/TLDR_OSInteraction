@@ -1,0 +1,3 @@
+Task: Go back one page.
+Output script:
+pyautogui.click(713.0,55.0)

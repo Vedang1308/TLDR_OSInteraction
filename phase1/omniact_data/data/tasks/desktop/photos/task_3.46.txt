@@ -1,0 +1,3 @@
+Task: Click on the bioluminescence image to enlarge it
+Output Script:
+pyautogui.click(936.0,656.0)

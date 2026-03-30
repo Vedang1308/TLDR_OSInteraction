@@ -1,0 +1,3 @@
+Task: Post your CV on the designated website 
+Output Script:
+pyautogui.click(607.5,233.5)

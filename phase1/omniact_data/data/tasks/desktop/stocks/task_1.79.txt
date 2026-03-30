@@ -1,0 +1,3 @@
+Task: Please navigate to Dow Jones stock for further details.
+Output script:
+pyautogui.click(332.5,398.0)

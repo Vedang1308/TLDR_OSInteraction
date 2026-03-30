@@ -1,0 +1,3 @@
+Task: Return to the start page of UPS
+Output Script:
+pyautogui.click(87.0,60.5)

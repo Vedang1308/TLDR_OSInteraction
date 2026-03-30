@@ -1,0 +1,3 @@
+Task: Initiate the music player app
+Output Script:
+pyautogui.click(467.5,665.0)

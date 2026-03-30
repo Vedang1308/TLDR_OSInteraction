@@ -1,0 +1,3 @@
+Task: Select the policy of MayoClinic
+Output Script:
+pyautogui.click(939.5,658.0)

@@ -1,0 +1,3 @@
+Task: Display weather forecast for Tokyo
+Output Script:
+pyautogui.click(312.5,776.5)

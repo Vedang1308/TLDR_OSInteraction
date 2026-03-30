@@ -1,0 +1,5 @@
+Task: Append the note "discuss the solutions for homework 3" to the event.
+Output script:
+pyautogui.click(1735.5,1030.0)
+pyautogui.write("discuss the solutions for homework 3")
+pyautogui.press("Enter")

@@ -1,0 +1,3 @@
+Task: "Shut the unnamed document using the orange section"
+Output Script:
+pyautogui.click(259.0,126.5)

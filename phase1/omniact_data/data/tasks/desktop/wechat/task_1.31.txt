@@ -1,0 +1,5 @@
+Task: Make a copy of Jack"s sent text.
+Output Script:
+pyautogui.click(696.5,146.5)
+pyautogui.hotkey("ctrl", "a")
+pyautogui.hotkey("ctrl", "c")

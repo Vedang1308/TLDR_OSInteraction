@@ -1,0 +1,3 @@
+Task: back to homepage
+Output script:
+pyautogui.click(720.0,23.0)

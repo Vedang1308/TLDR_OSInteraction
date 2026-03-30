@@ -1,0 +1,5 @@
+Task: Transition from the default map layout to an aerial view.
+Output script:
+pyautogui.click(1970.5,342.5)
+pyautogui.write("satellite view")
+pyautogui.press("enter")

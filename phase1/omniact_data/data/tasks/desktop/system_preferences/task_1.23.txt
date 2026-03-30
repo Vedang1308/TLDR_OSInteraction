@@ -1,0 +1,3 @@
+Task: Inspect the options linked to internet accounts.
+Output Script:
+pyautogui.click(731.5,755.5)

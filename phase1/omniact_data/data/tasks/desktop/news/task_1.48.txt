@@ -1,0 +1,3 @@
+Task: Find and click on the "Entertainment" segment.
+Output script:
+pyautogui.click(222.0,970.5)

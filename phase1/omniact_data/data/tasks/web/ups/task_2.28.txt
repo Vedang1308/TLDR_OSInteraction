@@ -1,0 +1,4 @@
+Task: Ascend to explore the list of available countries or territories.
+Output Script:
+pyautogui.click(720.0,432.5)
+pyautogui.scroll(-15)

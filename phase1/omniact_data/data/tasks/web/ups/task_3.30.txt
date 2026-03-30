@@ -1,0 +1,5 @@
+Task: Locate the package using the pre-copied Zip Code in the search box.
+Output Script:
+pyautogui.click(361.5,813.5)
+pyautogui.hotkey("ctrl", "v")
+pyautogui.press("enter")

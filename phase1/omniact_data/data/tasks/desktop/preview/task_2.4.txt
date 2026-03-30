@@ -1,0 +1,3 @@
+Task: Select the option to change thickness of the sketch.
+Output script:
+pyautogui.click(913.5,181.5)

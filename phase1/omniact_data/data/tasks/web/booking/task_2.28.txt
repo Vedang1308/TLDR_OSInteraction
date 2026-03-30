@@ -1,0 +1,3 @@
+Task: Click on the flights icon for browsing flight options
+Output Script:
+pyautogui.click(319.5,90.0)

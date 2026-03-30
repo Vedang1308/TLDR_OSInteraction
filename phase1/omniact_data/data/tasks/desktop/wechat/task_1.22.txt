@@ -1,0 +1,7 @@
+Task: Navigate to an emoji placed at the third position horizontally and second vertically on the emoji screen.
+Output Script:
+pyautogui.click(422.0,874.5)
+pyautogui.press("right")
+pyautogui.press("right")
+pyautogui.press("down")
+pyautogui.press("enter")

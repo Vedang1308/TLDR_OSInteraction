@@ -1,0 +1,3 @@
+Task: Select the "Help" section with mouse click
+Output Script:
+pyautogui.click(1768.0,384.5)

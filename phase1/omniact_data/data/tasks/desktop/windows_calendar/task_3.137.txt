@@ -1,0 +1,5 @@
+Task: Transmit event specifics using the calendar feature
+Output Script:
+pyautogui.click(1821.5,69.0)
+pyautogui.write("Calendar")
+pyautogui.press("Enter")

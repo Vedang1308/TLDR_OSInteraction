@@ -1,0 +1,4 @@
+Task: Capture all available text information from the Mayo Clinic site by using select all and copy commands.
+Output Script:
+pyautogui.hotkey("ctrl","a")
+pyautogui.hotkey("ctrl","c")

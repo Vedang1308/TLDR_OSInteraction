@@ -1,0 +1,3 @@
+Task: Turn the note window to minimized mode
+Output Script:
+pyautogui.click(1203.0,130.0)

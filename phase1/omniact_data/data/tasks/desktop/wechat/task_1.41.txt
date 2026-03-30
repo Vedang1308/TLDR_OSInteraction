@@ -1,0 +1,3 @@
+Task: Access extended messaging options
+Output Script:
+pyautogui.click(1898.5,48.0)

@@ -1,0 +1,5 @@
+Task: Type "Mumbai" in the field indicating the city you are flying from.
+Output script:
+pyautogui.click(1438.0,208.5)
+pyautogui.write("Mumbai")
+pyautogui.press("enter")

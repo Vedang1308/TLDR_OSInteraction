@@ -1,0 +1,3 @@
+Task: Direct the cursor to Instacart"s front page
+Output Script:
+pyautogui.click(147.0,44.0)

@@ -1,0 +1,3 @@
+Task: Use keyboard keys to jump one minute ahead in the current video content
+Output Script:
+pyautogui.press("right")

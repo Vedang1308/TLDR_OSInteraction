@@ -1,0 +1,3 @@
+Task: Set timer
+Output Script:
+pyautogui.click(1948.0,48.0)

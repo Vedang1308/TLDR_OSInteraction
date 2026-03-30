@@ -1,0 +1,3 @@
+Task: Open up the objectives division
+Output script:
+pyautogui.click(1781.0,271.0)

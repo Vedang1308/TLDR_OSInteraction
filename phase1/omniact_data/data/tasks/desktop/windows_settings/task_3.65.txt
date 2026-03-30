@@ -1,0 +1,3 @@
+Task: Click on "Notification & actions" in the left-hand panel for settings configurations
+Output Script:
+pyautogui.click(202.0,401.5)

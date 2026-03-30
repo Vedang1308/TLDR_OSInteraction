@@ -1,0 +1,3 @@
+Task: Access the Power & sleep settings from the left-hand side options
+Output Script:
+pyautogui.click(537.5,320.0)

@@ -1,0 +1,3 @@
+Task: Using keyboard keys, open up a fresh browser tab.
+Output Script:
+pyautogui.hotkey("ctrl", "t")

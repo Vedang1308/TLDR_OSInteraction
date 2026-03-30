@@ -1,0 +1,5 @@
+Task: Execute a search for "Killers of the Flower Moon"
+Output Script:
+pyautogui.click(866, 80)
+pyautogui.write("Killers of the Flower Moon")
+pyautogui.press("enter")

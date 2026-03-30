@@ -1,0 +1,5 @@
+Task: Write a message to Lucas asking about his weekend
+Output Script:
+pyautogui.click(320.0,765.5)
+pyautogui.write("How was your weekend")
+pyautogui.press("enter")

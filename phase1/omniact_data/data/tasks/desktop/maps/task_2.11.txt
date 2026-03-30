@@ -1,0 +1,3 @@
+Task: Like the place by clicking on the thumbs up button.
+Output script:
+pyautogui.click(1578.5,670.0)

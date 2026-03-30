@@ -1,0 +1,6 @@
+Task: Navigate through different product visuals 
+Output Script:
+pyautogui.click(904.0,574.0)
+pyautogui.press("enter")
+pyautogui.press("enter")
+pyautogui.press("enter")

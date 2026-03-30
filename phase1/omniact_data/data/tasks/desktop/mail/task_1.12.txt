@@ -1,0 +1,3 @@
+Task: Mute the conversation.
+Output script:
+pyautogui.click(2379.5,51.0)

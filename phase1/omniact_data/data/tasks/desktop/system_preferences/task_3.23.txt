@@ -1,0 +1,3 @@
+Task: Switch off the dimming feature when the device is using battery power.
+Output Script:
+pyautogui.click(1294.5,460.0)

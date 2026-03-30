@@ -1,0 +1,3 @@
+Task: Select the action to proceed the chosen message.
+Output script:
+pyautogui.click(2141.0,56.5)

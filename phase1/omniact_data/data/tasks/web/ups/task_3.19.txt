@@ -1,0 +1,5 @@
+Task: Find the parcel linked to the Postcode "10243".
+Output Script:
+pyautogui.click(361.5,813.5)
+pyautogui.write("10243")
+pyautogui.press("enter")

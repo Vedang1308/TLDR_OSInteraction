@@ -1,0 +1,5 @@
+Task: Search for event Josh birthday
+Output script:
+pyautogui.click(280.5,130.5)
+pyautogui.write("Josh birthday")
+pyautogui.press("Enter")

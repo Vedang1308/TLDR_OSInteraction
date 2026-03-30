@@ -1,0 +1,3 @@
+Task: Boost up the light intensity of the screen
+Output Script:
+pyautogui.click(3274.5,448.0)

@@ -1,0 +1,3 @@
+Task: Begin the countdown by clicking on the green start button
+Output Script:
+pyautogui.click(1848.0,1970.0)

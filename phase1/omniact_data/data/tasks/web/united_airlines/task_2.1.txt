@@ -1,0 +1,8 @@
+Task: Input information confirmation number "123" and name "Chen" and find a trip
+Output script:
+pyautogui.click(397.5,374.5)
+pyautogui.click(402.0,431.0)
+pyautogui.write("123")
+pyautogui.click(402.0,540.0)
+pyautogui.write("Chen")
+pyautogui.click(258.0,631.0)

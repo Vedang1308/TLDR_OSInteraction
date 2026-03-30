@@ -1,0 +1,5 @@
+Task: Modify the page"s language to the second choice in the available list.
+Output Script:
+pyautogui.click(1315.5,20.0)
+pyautogui.press("down")
+pyautogui.press("enter")

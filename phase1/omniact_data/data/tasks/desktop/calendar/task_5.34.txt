@@ -1,0 +1,5 @@
+Task: Schedule an alert to pop up 30 minutes before the event starts.
+Output script:
+pyautogui.click(1600.5,662.0)
+pyautogui.write("30 minutes before")
+pyautogui.press("enter")

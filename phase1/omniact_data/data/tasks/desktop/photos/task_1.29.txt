@@ -1,0 +1,5 @@
+Task: Initiate a slideshow using right-click on the first image in the second row.
+Output Script:
+pyautogui.rightClick(727.0,1137.0)
+pyautogui.write("Play Slideshow")
+pyautogui.press("enter")

@@ -1,0 +1,5 @@
+Task: Sort contents in the library in accordance to their date of inclusion
+Output Script:
+pyautogui.click(1442.0,242.0)
+pyautogui.press("down")
+pyautogui.press("enter")

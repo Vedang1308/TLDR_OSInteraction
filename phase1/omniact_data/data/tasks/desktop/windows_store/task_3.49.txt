@@ -1,0 +1,3 @@
+Task: Transition to Home Dashboard
+Output Script:
+pyautogui.click(46.0,99.0)

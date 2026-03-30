@@ -1,0 +1,3 @@
+Task: Do a deep dive into Diabetes knowledge discovery
+Output Script:
+pyautogui.click(1048.0,869.0)

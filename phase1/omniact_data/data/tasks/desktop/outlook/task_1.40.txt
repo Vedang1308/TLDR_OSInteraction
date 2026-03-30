@@ -1,0 +1,3 @@
+Task: Display all correspondence
+Output Script:
+pyautogui.click(496.0,132.5)

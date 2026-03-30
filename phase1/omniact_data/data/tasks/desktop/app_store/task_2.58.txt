@@ -1,0 +1,5 @@
+Task: Click on the "Playrix" button and then select "Developer Section" for more developer related information.
+Output script:
+pyautogui.click(2751.0,1492.5)
+pyautogui.write("About Us")
+pyautogui.press("Enter")

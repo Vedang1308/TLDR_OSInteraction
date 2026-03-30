@@ -1,0 +1,3 @@
+Task: Navigate to and select the contacts option at the top.
+Output script:
+pyautogui.click(1470.0,51.0)

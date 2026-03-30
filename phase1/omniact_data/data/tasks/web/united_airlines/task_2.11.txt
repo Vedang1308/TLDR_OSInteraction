@@ -1,0 +1,3 @@
+Task: Locate receipts
+Output script:
+pyautogui.click(578.0,168.0)

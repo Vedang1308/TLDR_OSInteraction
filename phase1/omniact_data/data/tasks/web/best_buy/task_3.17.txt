@@ -1,0 +1,4 @@
+Task: Navigate to display the open box prices for 55" X77L Series Television.
+Output Script:
+pyautogui.click(1295.0,722.5)
+pyautogui.click(1046.0,558.0)

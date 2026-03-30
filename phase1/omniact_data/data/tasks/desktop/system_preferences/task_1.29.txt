@@ -1,0 +1,3 @@
+Task: Choose the language and region configuration.
+Output Script:
+pyautogui.click(1713.0,582.0)

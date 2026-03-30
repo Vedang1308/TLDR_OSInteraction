@@ -1,0 +1,4 @@
+Task: Direct to the Florida designated area
+Output script:
+pyautogui.press("space")
+pyautogui.click(718.5,832.5)

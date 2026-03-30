@@ -1,0 +1,5 @@
+Task: "Identify every spot where the word "cat" is mentioned in the document"
+Output Script:
+pyautogui.click(1027.0,490.0)
+pyautogui.write("cat")
+pyautogui.click(1164.0,663.0)

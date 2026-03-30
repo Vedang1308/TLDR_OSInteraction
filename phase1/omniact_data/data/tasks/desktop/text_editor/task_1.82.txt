@@ -1,0 +1,5 @@
+Task: "Convert the saved file type to HTML"
+Output Script:
+pyautogui.click(1513.5,1066.0)
+pyautogui.write("HTML")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Check Apple iPhone 15 Pro Max Phone
+Output Script:
+pyautogui.click(1140.0,760.0)

@@ -1,0 +1,5 @@
+Task: Organize library items according to their addition date
+Output Script:
+pyautogui.click(1442.0,242.0)
+pyautogui.press("down")
+pyautogui.press("enter")

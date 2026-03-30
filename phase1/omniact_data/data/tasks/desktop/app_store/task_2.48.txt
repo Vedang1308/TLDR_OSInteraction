@@ -1,0 +1,5 @@
+Task: Click "more" and then choose "Reviews" to read user opinions.
+Output script:
+pyautogui.click(2381.5,1602.0)
+pyautogui.write("Reviews")
+pyautogui.press("Enter")

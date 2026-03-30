@@ -1,0 +1,4 @@
+Task: In the "Places" album, zoom in the pictures using the options in the top bar
+Output Script:
+pyautogui.click(215.0,359.5)
+pyautogui.write("enlarge_pics")

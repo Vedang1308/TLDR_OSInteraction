@@ -1,0 +1,4 @@
+Task: Pause the ongoing count and then set the stopwatch to its initial state.
+Output Script:
+pyautogui.click(1847.0,1969.0)
+pyautogui.click(1504.5,1971.5)

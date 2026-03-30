@@ -1,0 +1,6 @@
+Task: Establish a new "photos" directory within the "downloads" folder
+Output Script:
+pyautogui.click(468.5,600.5)
+pyautogui.hotkey("ctrl", "shift", "n")
+pyautogui.write("photos")
+pyautogui.press("enter")

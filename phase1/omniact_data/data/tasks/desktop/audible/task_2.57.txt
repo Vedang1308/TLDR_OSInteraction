@@ -1,0 +1,5 @@
+Task: Proceed to the following choice in the more options selection.
+Output Script:
+pyautogui.click(1199.0,236.5)
+pyautogui.press("down")
+pyautogui.press("enter")
