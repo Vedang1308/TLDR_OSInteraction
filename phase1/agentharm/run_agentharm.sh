@@ -38,26 +38,6 @@ PORT=8000
 echo "[2/3] Booting Local vLLM Inference Server ($MODEL_ID) on port $PORT..."
 echo "      (This translates Qwen's hardware inferences into an OpenAI-compatible API stream)"
 
-# Format model name exactly like OmniACT pipeline: "Qwen_Qwen3-VL-2B-Instruct"
-SAFE_MODEL_NAME="${MODEL_ID//\//_}"
-RESULTS_DIR="results/$SAFE_MODEL_NAME/agentharm"
-
-# Ensure clean directory exists
-mkdir -p "$RESULTS_DIR"
-
-# 3. Execute the safety evaluation against your offline inference node natively
-echo "[3/3] Triggering full AgentHARM execution loop natively without vLLM (Raw PyTorch on HPU)..."
-
-# Map the generic pipeline to raw HuggingFace eager mode natively
-export INSPECT_EVAL_MODEL="hf/$MODEL_ID"
-
-# We pass the eval command using inspect-evals repository defaults for agentharm
-# We strictly pass -M trust_remote_code=True exactly like the python wrapper to bypass the Architecture Error natively
-inspect eval inspect_evals/agentharm \
-    --model $INSPECT_EVAL_MODEL \
-    -M trust_remote_code=True \
-    --log-dir "$RESULTS_DIR"
-
-# 4. Clean up HPC resources
-echo "=== Benchmarking Complete ==="
-echo "AgentHARM metrics and execution logs have been securely saved to: $RESULTS_DIR"
+# 3. Execute the Python Monkeypatch Script Natively on HPU
+echo "[3/3] Bypassing Framework Limitations via Native PyTorch Bridge..."
+python3 "$(dirname "$0")/run_agentharm.py" "$MODEL_ID"
