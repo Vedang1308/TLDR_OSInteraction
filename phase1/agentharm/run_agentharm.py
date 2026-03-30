@@ -28,7 +28,10 @@ provider_model_str = f"gaudi_qwen/{model_id}"
 
 print("Instantiating Judge Model locally to completely bypass missing OpenAI API Keys...")
 eval(
-    agentharm(judge_model=provider_model_str),
+    agentharm(
+        refusal_judge=provider_model_str,
+        semantic_judge=provider_model_str
+    ),
     model=provider_model_str,
     log_dir=log_dir
 )
