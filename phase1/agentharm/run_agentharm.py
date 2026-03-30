@@ -54,7 +54,8 @@ eval(
     ),
     model=provider_model_str,
     log_dir=log_dir,
-    log_format="json"
+    log_format="json",
+    max_connections=1
 )
 
 print(f"\nAgentHARM metrics and execution logs have been securely saved to: {log_dir}")
