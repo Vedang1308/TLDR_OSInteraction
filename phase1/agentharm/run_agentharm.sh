@@ -46,6 +46,7 @@ python3 -m vllm.entrypoints.openai.api_server \
     --port $PORT \
     --dtype bfloat16 \
     --enforce-eager \
+    --trust-remote-code \
     --max-model-len 4096 \
     > vllm_server.log 2>&1 &
     
