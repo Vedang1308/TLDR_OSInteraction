@@ -1,0 +1,20 @@
+# Datasets (Massive binary files)
+phase1/omniact_data/
+*.zip
+
+# Evaluation Results (Local machine specific)
+phase1/results/
+results/
+
+# Python/System leftovers
+**/__pycache__/
+.DS_Store
+*.pyc
+
+# Local Environment
+.env
+venv/
+bin/
+lib/
+include/
+share/
