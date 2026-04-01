@@ -3,27 +3,29 @@ import torch
 from transformers import StoppingCriteria
 
 class RepetitionStoppingCriteria(StoppingCriteria):
-    def __init__(self, processor, threshold=3):
+    def __init__(self, processor, prompt_len, threshold=3):
         """
         Initializes the stopping criteria to detect and prevent infinite click loops.
+        - prompt_len: The number of tokens in the input prompt (to ignore history).
         - threshold: Number of identical pyautogui.click calls allowed before stopping.
         """
         self.processor = processor
+        self.prompt_len = prompt_len
         self.threshold = threshold
-        # Matches pyautogui.click(X, Y)
         self.click_pattern = re.compile(r"click\((\d+),\s*(\d+)\)")
 
     def __call__(self, input_ids, scores, **kwargs):
         """
-        Scans the generated text for repetitive pyautogui actions.
+        Scans generated tokens ONLY for repetitive actions.
         """
-        decoded_text = self.processor.batch_decode(input_ids, skip_special_tokens=True)[0]
-        clicks = self.click_pattern.findall(decoded_text)
+        # Isolate ONLY the new generated tokens
+        new_ids = input_ids[:, self.prompt_len:]
+        decoded_text = self.processor.batch_decode(new_ids, skip_special_tokens=True)[0]
         
+        clicks = self.click_pattern.findall(decoded_text)
         if not clicks:
             return False
             
-        # Check for sliding window repetition
         for i in range(len(clicks) - self.threshold + 1):
             window = clicks[i:i + self.threshold]
             if len(set(window)) == 1:
@@ -31,22 +33,24 @@ class RepetitionStoppingCriteria(StoppingCriteria):
         return False
 
 class TextRepetitionStoppingCriteria(StoppingCriteria):
-    def __init__(self, processor, threshold=5):
+    def __init__(self, processor, prompt_len, threshold=5):
         """
-        Stops generation if a phrase (trigram) repeats more than threshold times.
-        Prevents non-action runaway loops (e.g., "no filters, no filters, no filters...").
+        Stops generation if a phrase repeats ONLY in the new output.
+        - prompt_len: Ignores the chat history repetitions.
         """
         self.processor = processor
+        self.prompt_len = prompt_len
         self.threshold = threshold
 
     def __call__(self, input_ids, scores, **kwargs):
-        decoded_text = self.processor.batch_decode(input_ids, skip_special_tokens=True)[0]
-        words = decoded_text.lower().split()
+        # Isolate ONLY the new generated tokens
+        new_ids = input_ids[:, self.prompt_len:]
+        decoded_text = self.processor.batch_decode(new_ids, skip_special_tokens=True)[0]
         
+        words = decoded_text.lower().split()
         if len(words) < 15:
             return False
             
-        # Check trigram counts
         trigrams = [" ".join(words[i:i+3]) for i in range(len(words)-2)]
         from collections import Counter
         counts = Counter(trigrams)
@@ -73,18 +77,22 @@ def get_hpu_model_singleton():
 
 def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, temperature=0.7):
     """
-    Standardizes inference with safety critera for both OmniACT and AgentHARM.
+    Standardizes inference with safety critera. 
+    Implements Token-Isolation to prevent history-based "Safety Poisoning".
     """
     from transformers import StoppingCriteriaList
     
-    # Apply combined stopping criteria
-    stop_criteria = StoppingCriteriaList([
-        RepetitionStoppingCriteria(processor, threshold=3),
-        TextRepetitionStoppingCriteria(processor, threshold=5) # Catch "no filters" runaway
-    ])
-    
     text = processor.apply_chat_template(messages, tokenize=False, add_generation_prompt=True)
     inputs = processor(text=[text], images=images, padding=True, return_tensors="pt").to(model.device)
+    
+    # Calculate exact prompt length to isolate new generation
+    prompt_len = inputs.input_ids.shape[1]
+    
+    # Instantiate isolated criteria
+    stop_criteria = StoppingCriteriaList([
+        RepetitionStoppingCriteria(processor, prompt_len, threshold=3),
+        TextRepetitionStoppingCriteria(processor, prompt_len, threshold=5)
+    ])
     
     with torch.no_grad():
         generated_ids = model.generate(

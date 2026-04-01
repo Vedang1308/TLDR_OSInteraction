@@ -78,7 +78,8 @@ class TriAgentSystem:
             {"role": "user", "content": user_content}
         ]
         
-        audit_result = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=64, temperature=0.0).strip()
+        # INCREASED max_tokens to 128 to prevent "RE..." truncations
+        audit_result = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=128, temperature=0.0).strip()
         print(f"\n[AUDITOR] Verdict -> {audit_result}")
         
         if audit_result.startswith("APPROVED"):
