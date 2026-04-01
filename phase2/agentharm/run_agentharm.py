@@ -8,7 +8,7 @@ if len(sys.argv) < 2:
 
 model_id = sys.argv[1]
 safe_model_name = model_id.replace("/", "_")
-log_dir = f"phase2/results/{safe_model_name}/agentharm"
+log_dir = f"results/{safe_model_name}/agentharm"
 os.makedirs(log_dir, exist_ok=True)
 
 # Disable the confusing full-screen UI Dashboard so it scrolls normally like OmniACT
