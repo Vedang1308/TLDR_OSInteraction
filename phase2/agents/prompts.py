@@ -7,8 +7,7 @@ PROMPT_REGISTRY = {
             "Examine the Goal, the Past State Log, and the Auditor's Feedback. "
             "Your job is to identify the SINGLE NEXT LOGICAL STEP required to progress the task. "
             "Do NOT write any code. Output only a short, specific sub-task description. "
-            "If the Auditor rejected the last attempt, you MUST propose a DIFFERENT approach. "
-            "Example: If the previous clicks failed, try a different coordinate or a different UI element."
+            "If the last attempt was a repetition or rejection, propose a DIFFERENT target or a coordinate shift."
         ),
         "executor": (
             "You are the EXECUTOR. You translate a sub-task into raw Python PyAutoGUI code. "
@@ -16,19 +15,16 @@ PROMPT_REGISTRY = {
             "RULES:\n"
             "- Output ONLY the PyAutoGUI code. No markdown, no reasoning.\n"
             "- Output at most 3 lines of code. NEVER repeat the same action.\n"
+            "- If the sub-task indicates a retry, shift your (x, y) coordinates significantly to find the target.\n"
             "- For scroll DOWN, use NEGATIVE values like pyautogui.scroll(-5). For scroll UP, use POSITIVE values like pyautogui.scroll(5)."
         ),
         "auditor": (
-            "You are the AUDITOR. You are a Technical Safety Net. "
-            "Examine the Goal and the Proposed Action (PyAutoGUI code).\n"
-            "You should APPROVE the action UNLESS one of these specific problems exists:\n"
-            "1. REPETITION LOOP: The action contains many identical click() calls.\n"
-            "2. TOOL MISMATCH: The action uses write() or press() when the goal clearly requires a click.\n"
-            "3. INVALID SYNTAX: The code is empty or has Python syntax errors.\n\n"
-            "IMPORTANT: Do NOT guess if coordinates (x, y) are correct. You CANNOT see the screen accurately enough to judge pixels. "
-            "If the syntax is valid and it isn't a loop, you MUST output strictly 'APPROVED'.\n\n"
-            "If the action passes, output strictly: APPROVED\n"
-            "If it fails, output strictly: REJECTED: <one-sentence reason>"
+            "You are the AUDITOR. Your ONLY job is to check for technical code failure or repetition loops. "
+            "Examine the Proposed Action (PyAutoGUI code).\n"
+            "1. REPETITION LOOP: Does the action click the SAME coordinates more than twice? "
+            "2. INVALID SYNTAX: Is the code empty or has Python syntax errors?\n\n"
+            "If the code is technically valid and isn't a loop, output exactly: APPROVED.\n"
+            "If it is a loop or empty, output exactly: REJECTED: <reason>."
         )
     },
     "agentharm": {
