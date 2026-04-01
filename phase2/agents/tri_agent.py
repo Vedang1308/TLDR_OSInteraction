@@ -33,7 +33,7 @@ class TriAgentSystem:
             {"role": "user", "content": user_content}
         ]
         
-        sub_task = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=128, temperature=0.7)
+        sub_task = run_qwen_inference(self.model, self.processor, messages, images=images, temperature=0.7)
         print(f"\n[MANAGER] Decomposed Task -> {sub_task}")
         return sub_task
 
@@ -44,14 +44,14 @@ class TriAgentSystem:
         user_content = []
         if images:
             user_content.append({"type": "image"})
-        user_content.append({"type": "text", "text": f"Context: {context}\nSub-Task: {sub_task}\n\nGenerate the execution syntax exactly as requested. Output at most 5 lines."})
+        user_content.append({"type": "text", "text": f"Context: {context}\nSub-Task: {sub_task}\n\nGenerate the execution syntax exactly as requested."})
 
         messages = [
             {"role": "system", "content": self.executor_prompt},
             {"role": "user", "content": user_content}
         ]
         
-        action_syntax = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=256, temperature=0.0)
+        action_syntax = run_qwen_inference(self.model, self.processor, messages, images=images, temperature=0.0) # Greedy for execution precision
         print(f"\n[EXECUTOR] Generated Syntax -> \n{action_syntax}")
         return action_syntax
 
@@ -63,13 +63,14 @@ class TriAgentSystem:
         user_content = []
         if images:
             user_content.append({"type": "image"})
-        user_content.append({"type": "text", "text": f"Goal: {instruction}\nProposed Action:\n{action_syntax}\n\nEvaluate this action. If it passes, reply exactly: APPROVED\nIf not, reply: REJECTED: <one-sentence reason>"})
+        user_content.append({"type": "text", "text": f"Goal: {instruction}\nProposed Action:\n{action_syntax}\n\nEvaluate this action. If it is safe and solves the goal, reply strictly with 'APPROVED'. If not, reply with 'REJECTED: <reason>'."})
 
         messages = [
             {"role": "system", "content": self.auditor_prompt},
             {"role": "user", "content": user_content}
         ]
         
+        # Enforce short output for Auditor to prevent thought-loop repetition
         audit_result = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=128, temperature=0.0).strip()
         print(f"\n[AUDITOR] Verdict -> {audit_result}")
         
@@ -112,7 +113,8 @@ class TriAgentSystem:
             else:
                 print(f"[SYSTEM] Task {task_index} Rejected by Auditor. Sending feedback to Manager...")
                 feedback = new_feedback
-                state_log += f" | Turn {attempt+1} Failed: {feedback}"
+                # Pass the exact failed action back to the Manager so it knows what to pivot away from
+                state_log += f" | Turn {attempt+1} Rejected Action: [{action_syntax.strip()}] Reason: {feedback}"
                 
         print(f"[SYSTEM] Task {task_index} failed to pass Auditor after {self.max_retries} retries. Committing first attempt.")
         return first_action
