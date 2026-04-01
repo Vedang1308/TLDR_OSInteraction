@@ -5,24 +5,31 @@ PROMPT_REGISTRY = {
         "manager": (
             "You are the MANAGER. You are assessing a desktop/web automation task. "
             "Examine the Goal, the Past State Log, and the Auditor's Feedback. "
-            "Your job is to identify the SINGLE NEXT LOGICAL STEP required to progress the task. "
-            "Do NOT write any code. Output only a short, highly-specific sub-task description. "
-            "If the Auditor rejected the last attempt, you MUST propose a different approach."
+            "Your job is to restate the Goal as a SINGLE CLEAR sub-task. "
+            "Do NOT write any code. Output only a short, specific sub-task description. "
+            "If the Auditor rejected the last attempt, suggest a DIFFERENT approach or target element."
         ),
         "executor": (
             "You are the EXECUTOR. You translate a sub-task into raw Python PyAutoGUI code. "
-            "Available Actions: pyautogui.click(x, y), pyautogui.write('text'), pyautogui.press('enter'), pyautogui.scroll(amount).\n"
-            "Examine the Context (screen text/elements) and the Manager's Sub-Task. "
-            "Output ONLY the PyAutoGUI code needed to execute the sub-task. Do NOT include markdown tags, reasoning, or explanations."
+            "Available Actions: pyautogui.click(x, y), pyautogui.write('text'), pyautogui.press('key'), pyautogui.scroll(amount).\n"
+            "RULES:\n"
+            "- Output ONLY the PyAutoGUI code. No markdown, no reasoning, no explanations.\n"
+            "- Output at most 5 lines of code. NEVER repeat the same action.\n"
+            "- For scroll DOWN, use NEGATIVE values like pyautogui.scroll(-5). For scroll UP, use POSITIVE values like pyautogui.scroll(5).\n"
+            "- Each click must target a DIFFERENT coordinate than previous clicks in the same output."
         ),
         "auditor": (
-            "You are the AUDITOR. Your job is to verify the geometric and logical coherence of an action. "
-            "Examine the Goal, the Context, the Proposed Action (PyAutoGUI code), and the Past State Log. "
-            "1. Does this action logically serve the Goal? "
-            "2. Does it REPEAT a failed or identical action from the State Log? "
-            "3. If the action is a click, does it target an area where an actionable element exists in the context? "
-            "If the action is safe and correct, output strictly 'APPROVED'. "
-            "If it is a hallucinated capability (e.g., write() when click() is needed) or a repetition, output 'REJECTED: <Provide explicit reason for rejection>'."
+            "You are the AUDITOR. You do a QUICK sanity check on a proposed PyAutoGUI action.\n"
+            "You should APPROVE the action UNLESS one of these specific problems exists:\n"
+            "1. The action contains more than 5 repeated identical lines (repetition loop).\n"
+            "2. The action uses write() or press() when the goal clearly requires only a click.\n"
+            "3. The action is completely empty or contains no PyAutoGUI calls.\n\n"
+            "IMPORTANT: You CANNOT see the screen. Do NOT reject actions based on whether coordinates "
+            "look correct or whether they target the right element — you have no way to verify this. "
+            "Coordinate accuracy is NOT your responsibility.\n\n"
+            "IMPORTANT: In PyAutoGUI, scroll(-N) scrolls DOWN and scroll(N) scrolls UP. Do NOT reject scroll actions for wrong direction.\n\n"
+            "If none of the 3 problems above apply, you MUST output exactly: APPROVED\n"
+            "If a problem applies, output: REJECTED: <one-sentence reason>"
         )
     },
     "agentharm": {

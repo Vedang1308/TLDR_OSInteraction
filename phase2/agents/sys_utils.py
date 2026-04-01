@@ -1,5 +1,44 @@
 import builtins
 import torch
+import re
+import math
+from transformers import StoppingCriteria, StoppingCriteriaList
+
+class RepetitionStoppingCriteria(StoppingCriteria):
+    """Stops generation when the model starts looping identical or near-identical click lines."""
+    def __init__(self, processor, threshold=3):
+        self.processor = processor
+        self.threshold = threshold
+        self.pattern = re.compile(r"click\((\d+),\s*(\d+)\)")
+
+    def __call__(self, input_ids, scores, **kwargs):
+        generated_text = self.processor.batch_decode(input_ids[:, -200:], skip_special_tokens=True)[0]
+        lines = [l.strip() for l in generated_text.split('\n') if l.strip()]
+        
+        if len(lines) >= self.threshold:
+            last_lines = lines[-self.threshold:]
+            # Exact match check
+            if len(set(last_lines)) == 1:
+                return True
+            
+            # Drifting Click detection
+            clicks = []
+            for line in last_lines:
+                match = self.pattern.search(line)
+                if match:
+                    clicks.append((int(match.group(1)), int(match.group(2))))
+            
+            if len(clicks) == self.threshold:
+                all_close = True
+                for i in range(1, len(clicks)):
+                    dist = math.sqrt((clicks[i][0]-clicks[i-1][0])**2 + (clicks[i][1]-clicks[i-1][1])**2)
+                    if dist >= 40:
+                        all_close = False
+                        break
+                if all_close:
+                    return True
+        return False
+
 
 def get_hpu_model_singleton():
     """
@@ -18,9 +57,10 @@ def get_hpu_model_singleton():
             "globally in `builtins` before instantiating the Multi-Agent System."
         )
 
-def run_qwen_inference(model, processor, messages, images=None, tools=None, max_tokens=1024, temperature=0.7):
+def run_qwen_inference(model, processor, messages, images=None, tools=None, max_tokens=512, temperature=0.7):
     """
     Utility wrapper to natively execute Qwen3-VL inferences on the HPU.
+    Includes RepetitionStoppingCriteria to prevent infinite click loops.
     """
     # Build text prompt
     text_prompt = processor.apply_chat_template(
@@ -37,12 +77,15 @@ def run_qwen_inference(model, processor, messages, images=None, tools=None, max_
         return_tensors="pt"
     ).to(model.device)
     
+    stopping_criteria = StoppingCriteriaList([RepetitionStoppingCriteria(processor)])
+    
     with torch.no_grad():
         generated_ids = model.generate(
             **inputs, 
             max_new_tokens=max_tokens,
             temperature=temperature,
-            do_sample=temperature > 0
+            do_sample=temperature > 0,
+            stopping_criteria=stopping_criteria
         )
         
     generated_ids_trimmed = [

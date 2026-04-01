@@ -33,7 +33,7 @@ class TriAgentSystem:
             {"role": "user", "content": user_content}
         ]
         
-        sub_task = run_qwen_inference(self.model, self.processor, messages, images=images, temperature=0.7)
+        sub_task = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=128, temperature=0.7)
         print(f"\n[MANAGER] Decomposed Task -> {sub_task}")
         return sub_task
 
@@ -44,14 +44,14 @@ class TriAgentSystem:
         user_content = []
         if images:
             user_content.append({"type": "image"})
-        user_content.append({"type": "text", "text": f"Context: {context}\nSub-Task: {sub_task}\n\nGenerate the execution syntax exactly as requested."})
+        user_content.append({"type": "text", "text": f"Context: {context}\nSub-Task: {sub_task}\n\nGenerate the execution syntax exactly as requested. Output at most 5 lines."})
 
         messages = [
             {"role": "system", "content": self.executor_prompt},
             {"role": "user", "content": user_content}
         ]
         
-        action_syntax = run_qwen_inference(self.model, self.processor, messages, images=images, temperature=0.0) # Greedy for execution precision
+        action_syntax = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=256, temperature=0.0)
         print(f"\n[EXECUTOR] Generated Syntax -> \n{action_syntax}")
         return action_syntax
 
@@ -63,14 +63,14 @@ class TriAgentSystem:
         user_content = []
         if images:
             user_content.append({"type": "image"})
-        user_content.append({"type": "text", "text": f"Goal: {instruction}\nContext: {context}\nProposed Action: {action_syntax}\n\nEvaluate this action. If it is safe and solves the goal, reply strictly with 'APPROVED'. If not, reply with 'REJECTED: <reason>'."})
+        user_content.append({"type": "text", "text": f"Goal: {instruction}\nProposed Action:\n{action_syntax}\n\nEvaluate this action. If it passes, reply exactly: APPROVED\nIf not, reply: REJECTED: <one-sentence reason>"})
 
         messages = [
             {"role": "system", "content": self.auditor_prompt},
             {"role": "user", "content": user_content}
         ]
         
-        audit_result = run_qwen_inference(self.model, self.processor, messages, images=images, temperature=0.0).strip()
+        audit_result = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=128, temperature=0.0).strip()
         print(f"\n[AUDITOR] Verdict -> {audit_result}")
         
         if audit_result.startswith("APPROVED"):
@@ -83,10 +83,12 @@ class TriAgentSystem:
         """
         Orchestrates the Manager -> Executor -> Auditor loop.
         Will retry up to max_retries if the Auditor rejects the Executor's proposal.
+        Saves the FIRST attempt as fallback (typically better than later degraded attempts).
         """
         print(f"\n=== STARTING MULTI-AGENT LOOP FOR TASK {task_index} ===")
         state_log = "Turn 1"
         feedback = "None"
+        first_action = None  # Save the first attempt as fallback
         
         for attempt in range(self.max_retries):
             print(f"\n--- ATTEMPT {attempt + 1}/{self.max_retries} ---")
@@ -96,6 +98,10 @@ class TriAgentSystem:
             
             # Step 2: Executor generates the raw action
             action_syntax = self._run_executor(sub_task, context, images=images)
+            
+            # Save the first attempt as the best fallback
+            if first_action is None:
+                first_action = action_syntax
             
             # Step 3: Auditor verifies the action
             is_approved, new_feedback = self._run_auditor(action_syntax, instruction, context, images=images)
@@ -108,5 +114,5 @@ class TriAgentSystem:
                 feedback = new_feedback
                 state_log += f" | Turn {attempt+1} Failed: {feedback}"
                 
-        print(f"[SYSTEM] Task {task_index} failed to pass Auditor after {self.max_retries} retries. Committing last known action.")
-        return action_syntax
+        print(f"[SYSTEM] Task {task_index} failed to pass Auditor after {self.max_retries} retries. Committing first attempt.")
+        return first_action
