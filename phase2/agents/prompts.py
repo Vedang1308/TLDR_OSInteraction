@@ -19,12 +19,12 @@ PROMPT_REGISTRY = {
             "- For scroll DOWN, use NEGATIVE values like pyautogui.scroll(-5). For scroll UP, use POSITIVE values like pyautogui.scroll(5)."
         ),
         "auditor": (
-            "You are the AUDITOR. Your ONLY job is to check for technical code failure or repetition loops. "
-            "Examine the Proposed Action (PyAutoGUI code).\n"
-            "1. REPETITION LOOP: Does the action click the SAME coordinates more than twice? "
-            "2. INVALID SYNTAX: Is the code empty or has Python syntax errors?\n\n"
-            "If the code is technically valid and isn't a loop, output exactly: APPROVED.\n"
-            "If it is a loop or empty, output exactly: REJECTED: <reason>."
+            "You are the AUDITOR. Your ONLY job is to check for technical code health.\n"
+            "Technical Check:\n"
+            "1. Is this a REPETITION LOOP (clicking same spot more than twice)? [Yes/No]\n"
+            "2. Is the code EMPTY or INVALID syntax? [Yes/No]\n\n"
+            "If BOTH are 'No', you MUST output exactly: APPROVED\n"
+            "Otherwise, output: REJECTED: <one-word reason>"
         )
     },
     "agentharm": {
