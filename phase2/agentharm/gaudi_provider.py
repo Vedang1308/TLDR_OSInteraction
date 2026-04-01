@@ -28,15 +28,18 @@ class GaudiQwenModelAPI(ModelAPI):
         else:
             raise RuntimeError("GaudiProvider failed to locate warmed-up PyTorch model! Run run_agentharm.py directly.")
             
-        # Tracking variables to manually stream the task progress cleanly to stdout
-        pass
+        # Global call counter to track progress through the dataset
+        self.call_count = 0
 
     async def generate(self, input: list[ChatMessage], tools: list[ToolInfo], tool_choice: ToolChoice, config: GenerateConfig) -> ModelOutput:
         # 1. Convert Inspect ChatMessages to standard HuggingFace dicts
         hf_messages = []
+        system_content = ""
+        user_content = ""
         for msg in input:
             if isinstance(msg, ChatMessageUser):
                 hf_messages.append({"role": "user", "content": msg.text})
+                user_content = msg.text
             elif isinstance(msg, ChatMessageAssistant):
                 if msg.tool_calls:
                     hf_messages.append({"role": "assistant", "content": "", "tool_calls": [{"type": "function", "function": {"name": t.function, "arguments": t.arguments}} for t in msg.tool_calls]})
@@ -44,6 +47,7 @@ class GaudiQwenModelAPI(ModelAPI):
                     hf_messages.append({"role": "assistant", "content": msg.text or ""})
             elif isinstance(msg, ChatMessageSystem):
                 hf_messages.append({"role": "system", "content": msg.text})
+                system_content = msg.text
             elif isinstance(msg, ChatMessageTool):
                 hf_messages.append({"role": "tool", "content": msg.text, "name": msg.function})
         
@@ -59,16 +63,23 @@ class GaudiQwenModelAPI(ModelAPI):
                 }
             })
             
-        # Intercept and stream the raw output transparently to the User Terminal
-        # Check if this generation is for the Judge or the Agent by safely checking tool usage.
-        # AgentHARM sandbox executes 80+ tools natively. The offline Evaluator Judges use ZERO tools.
-        is_judge = (len(tools) == 0)
-        
+        # JUDGE DETECTION: 
+        # Inspect AI calls judges for refusal and semantic scoring. These bypass the Auditor.
+        # We detect them by checking for evaluative keywords in the system prompt.
+        is_judge = False
+        judge_keywords = ["refusal", "judge", "score", "correctly", "evaluator", "grading"]
+        if any(kw in system_content.lower() for kw in judge_keywords):
+            is_judge = True
+            
+        # Backup: If there are ZERO tools and no user instruction (just turn-eval), it's a judge call.
+        if len(tools) == 0 and ("available tools" not in system_content.lower()):
+            is_judge = True
+
         if is_judge:
-            # Standard inference for the Semantic Judge so it doesn't enter an infinite multi-agent loop
+            # Standard inference for the Judge so it doesn't enter an infinite multi-agent loop
             text_prompt = self.processor.apply_chat_template(
                 hf_messages, 
-                tools=hf_tools if hf_tools else None,
+                tools=None,
                 add_generation_prompt=True
             )
             inputs = self.processor(text=[text_prompt], images=None, padding=True, return_tensors="pt").to(self.model.device)
@@ -81,28 +92,26 @@ class GaudiQwenModelAPI(ModelAPI):
                 )
             generated_ids_trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)]
             output_text = self.processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
-            prefix = "\n[JUDGE]"
+            prefix = "\n[JUDGE CALL]"
             
         else:
-            # Multi-Agent inference for the executing Agent to enforce safety and prevent capability hallucination
+            # Multi-Agent inference for the executing Agent
+            self.call_count += 1
             import json
             context_str = f"AVAILABLE TOOLS:\n{json.dumps(hf_tools, indent=2)}\n\nCHAT HISTORY:\n"
-            instruction = "Achieve the user's objective using the tools."
+            instruction = user_content or "Achieve the user's objective using the tools."
             for m in hf_messages:
                 context_str += f"{m['role'].upper()}: {m['content']}\n"
-                if m['role'] == 'user' and instruction == "Achieve the user's objective using the tools.":
-                    instruction = m['content'] # Extract actual root instruction
             
             agent_system = TriAgentSystem(benchmark="agentharm", max_retries=3)
-            output_text = agent_system.execute_task(instruction=instruction, context=context_str)
+            # Use call_count as task_index for cleaner terminal logs
+            output_text = agent_system.execute_task(instruction=instruction, context=context_str, task_index=self.call_count)
             prefix = "[MULTI-AGENT EXECUTOR]"
 
         clean_out = output_text.strip()
         print(f"\n{prefix} Qwen3-VL: {clean_out}")
         
-        # Because we bypassed vLLM, the raw PyTorch text engine returns pure strings.
-        # We must manually extract Qwen's <tool_call> XML structures and map them 
-        # securely into the inspect_ai `ToolCall` object registry so the sandbox executes them!
+        # Map Qwen's <tool_call> XML structures into inspect_ai ToolCall objects
         import json
         import re
         from inspect_ai.model import ToolCall
@@ -110,19 +119,15 @@ class GaudiQwenModelAPI(ModelAPI):
         parsed_tool_calls = []
         clean_text_output = output_text
 
-        # Qwen-specific XML tool parsing regex
         tool_call_patterns = re.findall(r'<tool_call>\s*(.*?)\s*</tool_call>', output_text, re.DOTALL)
         
         for tool_json_str in tool_call_patterns:
             try:
-                # Remove it so the text reasoning is uniquely isolated from the XML block
                 clean_text_output = clean_text_output.replace(f"<tool_call>{tool_json_str}</tool_call>", "")
-                
                 tool_data = json.loads(tool_json_str)
                 tool_name = tool_data.get("name", "")
                 tool_args = tool_data.get("arguments", {})
                 
-                # Assign a deterministic ID for sandbox routing
                 import uuid
                 call_id = f"call_{str(uuid.uuid4())[:8]}"
                 
@@ -137,7 +142,6 @@ class GaudiQwenModelAPI(ModelAPI):
             except Exception as e:
                 print(f"[GAUDI PARSER FATAL ERROR]: FAILED TO DECODE QWEN TOOL XML: {e}")
                 
-        # Return physical ToolCall arrays so the AISI framework can actually invoke the APIs
         final_output = ModelOutput.from_content(
             model=self.model_name,
             content=clean_text_output.strip() if clean_text_output.strip() else "I invoked an interactive tool API request."
