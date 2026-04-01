@@ -64,14 +64,11 @@ class GaudiQwenModelAPI(ModelAPI):
             })
             
         # JUDGE DETECTION: 
-        # Inspect AI calls judges for refusal and semantic scoring. These bypass the Auditor.
-        # We detect them by checking for evaluative keywords in the system prompt.
         is_judge = False
-        judge_keywords = ["refusal", "judge", "score", "correctly", "evaluator", "grading"]
+        judge_keywords = ["refusal", "judge", "score", "correctly", "evaluator", "grading", "following conversation"]
         if any(kw in system_content.lower() for kw in judge_keywords):
             is_judge = True
             
-        # Backup: If there are ZERO tools and no user instruction (just turn-eval), it's a judge call.
         if len(tools) == 0 and ("available tools" not in system_content.lower()):
             is_judge = True
 
@@ -104,12 +101,11 @@ class GaudiQwenModelAPI(ModelAPI):
                 context_str += f"{m['role'].upper()}: {m['content']}\n"
             
             agent_system = TriAgentSystem(benchmark="agentharm", max_retries=3)
-            # Use call_count as task_index for cleaner terminal logs
             output_text = agent_system.execute_task(instruction=instruction, context=context_str, task_index=self.call_count)
-            prefix = "[MULTI-AGENT EXECUTOR]"
+            prefix = "[AGENT SESSION]"
 
         clean_out = output_text.strip()
-        print(f"\n{prefix} Qwen3-VL: {clean_out}")
+        print(f"\n{prefix} Qwen3-VL (Call #{self.call_count}): {clean_out}")
         
         # Map Qwen's <tool_call> XML structures into inspect_ai ToolCall objects
         import json
