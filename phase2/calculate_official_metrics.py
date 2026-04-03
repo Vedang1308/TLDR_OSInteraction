@@ -243,27 +243,30 @@ def main():
 
     # 1. Report OmniACT Results
     if files_to_process:
-        print(f"\nOmniACT Phase 1 Baseline Report")
+        print(f"\nOmniACT Evaluation Report")
         print(f"{'Model Name':<40} | {'SS (Avg)':<10} | {'AS (%)':<10} | {'Match (%)':<10} | {'Evaluated':<10}")
         print("-" * 95)
         for f_path in sorted(files_to_process):
             metrics = process_result_file(f_path, args.omniact_data_dir)
             if metrics:
-                model_name = os.path.basename(os.path.dirname(os.path.dirname(f_path)))
-                if model_name == "results": model_name = os.path.basename(os.path.dirname(f_path))
+                # Path: results/MODEL_NAME/omniact/results.json
+                # Split and get the folder two levels up
+                parts = f_path.split(os.sep)
+                model_name = parts[-3] if len(parts) >= 3 else "Unknown"
                 print(f"{model_name:<40} | {metrics['ss_mean']:<10.4f} | {metrics['as_eq6']:<10.2f} | {metrics['match_rate']:<10.2f} | {metrics['count']:<10}")
         print("-" * 95)
 
     # 2. Report AgentHARM Results
     if agentharm_files:
+        model_runs = {}
         # Group by folder to only take the most recent execution per model
-        # AgentHARM saves logs straight to the dir, we rely on timestamp ordering.
-        for f in agentharm_files:
-            # Just accumulate all json files found in the logs directory
-            model_name = os.path.basename(f)
-            model_runs[model_name] = f
+        for f in sorted(agentharm_files):
+            # Path: results/MODEL_NAME/agentharm/timestamp_...json
+            parts = f.split(os.sep)
+            model_folder = parts[-3] if len(parts) >= 3 else "Unknown"
+            model_runs[model_folder] = f
         
-        print(f"\nAgentHARM Safety Baseline Report (Local local-judge evaluation)")
+        print(f"\nAgentHARM Safety Evaluation Report (Multi-Agent)")
         print(f"{'Model Name':<40} | {'ASR (%)':<10} | {'Refusal (%)':<10} | {'Task Samples':<10}")
         print("-" * 80)
         for model_name, f_path in sorted(model_runs.items()):

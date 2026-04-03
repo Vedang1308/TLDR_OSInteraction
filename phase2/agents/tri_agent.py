@@ -34,7 +34,8 @@ class TriAgentSystem:
             {"role": "user", "content": user_content}
         ]
         
-        sub_task = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=128, temperature=0.7)
+        # ⚡ SPEED OPTIMIZATION: Tight 64-token budget for Manager
+        sub_task = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=64, temperature=0.7)
         print(f"\n[MANAGER] Decomposed Task -> {sub_task}")
         return sub_task
 
@@ -56,7 +57,7 @@ class TriAgentSystem:
         print(f"\n[EXECUTOR] Generated Syntax -> \n{action_syntax}")
         return action_syntax
 
-    def _run_auditor(self, action_syntax, instruction=None, context=None, images=None):
+    def _run_auditor(self, action_syntax, instruction=None, state_log=None, context=None, images=None):
         """
         The Critic logic. Evaluates the Executor's syntax against the Planner's original instruction and the system safety/drift policies.
         Returns (is_approved: bool, feedback: str)
@@ -65,12 +66,14 @@ class TriAgentSystem:
         if images:
             user_content.append({"type": "image"})
             
-        prompt_text = f"Proposed Action: {action_syntax}\n\nEvaluate this action."
-        # Only include Goal/Context for Safety-centric benchmarks (AgentHARM)
+        # 🏆 UTILITY RECOVERY: Restore Goal and History to the Auditor for ALL benchmarks.
+        # This allows the Auditor to verify coordination precision in OmniACT.
+        prompt_text = f"Goal: {instruction}\n"
         if self.benchmark == "agentharm":
-             prompt_text = f"Goal: {instruction}\nContext: {context}\n{prompt_text}"
+             prompt_text += f"Sequence History: {state_log}\n"
         
-        prompt_text += " Reply exactly 'APPROVED' or 'REJECTED: <one-sentence reason>'."
+        prompt_text += f"Proposed Action: {action_syntax}\n"
+        prompt_text += "Reply exactly 'APPROVED' or 'REJECTED: <one-sentence reason>'."
         user_content.append({"type": "text", "text": prompt_text})
 
         messages = [
@@ -78,8 +81,8 @@ class TriAgentSystem:
             {"role": "user", "content": user_content}
         ]
         
-        # INCREASED max_tokens to 128 to prevent "RE..." truncations
-        audit_result = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=128, temperature=0.0).strip()
+        # ⚡ SPEED OPTIMIZATION: Tight 64-token budget for Auditor
+        audit_result = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=64, temperature=0.0).strip()
         print(f"\n[AUDITOR] Verdict -> {audit_result}")
         
         if audit_result.startswith("APPROVED"):
@@ -112,16 +115,22 @@ class TriAgentSystem:
             if first_action is None:
                 first_action = action_syntax
             
-            # Step 3: Auditor verifies the action (Blind validation for OmniACT)
-            is_approved, new_feedback = self._run_auditor(action_syntax, instruction=instruction, context=context, images=images)
-            
-            if is_approved:
-                print(f"[SYSTEM] Task {task_index} Approved and Committed!")
-                return action_syntax
+            # ⚡ SPEED OPTIMIZATION: Early-Exit Syntax Check
+            # If the Executor failed to produce code, skip the Auditor (save 1 HPU inference call)
+            if not action_syntax or len(action_syntax.strip()) < 5:
+                print(f"[SYSTEM] Task {task_index} Executor Syntax Error. Skipping Auditor...")
+                new_feedback = "The action syntax is empty or missing pyautogui commands."
             else:
-                print(f"[SYSTEM] Task {task_index} Rejected by Auditor. Sending feedback to Manager...")
-                feedback = new_feedback
-                state_log += f" | Turn {attempt+1} Rejected Action: [{action_syntax.strip()}] Reason: {feedback}"
+                # Step 3: Auditor verifies the action (Goal-Aware in Phase 2B)
+                is_approved, new_feedback = self._run_auditor(action_syntax, instruction=instruction, state_log=state_log, context=context, images=images)
+                
+                if is_approved:
+                    print(f"[SYSTEM] Task {task_index} Approved and Committed!")
+                    return action_syntax
+            
+            print(f"[SYSTEM] Task {task_index} Rejected. Sending feedback to Manager...")
+            feedback = new_feedback
+            state_log += f" | Turn {attempt+1} Rejected Action: [{action_syntax.strip()}] Reason: {feedback}"
                 
         print(f"[SYSTEM] Task {task_index} failed to pass Auditor after {self.max_retries} retries. Committing first attempt.")
         return first_action

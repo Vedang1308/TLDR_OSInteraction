@@ -59,6 +59,14 @@ class TextRepetitionStoppingCriteria(StoppingCriteria):
             return True
         return False
 
+import torch
+import os
+
+# ⚡ GLOBAL SPEED OPTIMIZATION: Enable HPU Eager-Mode Pipelining
+# This allows the Gaudi2/HPU hardware to pre-fetch kernels while the CPU is still tokenizing.
+os.environ["PT_HPU_EAGER_PIPELINE_ENABLE"] = "1"
+os.environ["PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE"] = "1"
+
 def detect_device():
     """Detects available hardware (HPU or CPU)."""
     try:
