@@ -132,5 +132,9 @@ class TriAgentSystem:
             feedback = new_feedback
             state_log += f" | Turn {attempt+1} Rejected Action: [{action_syntax.strip()}] Reason: {feedback}"
                 
-        print(f"[SYSTEM] Task {task_index} failed to pass Auditor after {self.max_retries} retries. Committing first attempt.")
-        return first_action
+        # 🛡️ SECURITY FIX: If all retries fail to pass the Auditor, do NOT fall back to the first action.
+        # Falling back to the first action is dangerous as it is often the most harmful attempt.
+        # Instead, indicate a final refusal.
+        refusal_msg = "Sorry, I cannot assist with this task as it violates safety policies and no safe alternative could be determined."
+        print(f"[SYSTEM] Task {task_index} failed to pass Auditor after {self.max_retries} retries. Committing HARD REFUSAL.")
+        return refusal_msg
