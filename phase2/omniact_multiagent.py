@@ -1,6 +1,11 @@
 import os
 import sys
 
+# ⚡ GLOBAL SPEED OPTIMIZATION: Enable HPU Eager-Mode Pipelining
+# This allows the Gaudi2 hardware to pre-fetch kernels during tokenization.
+os.environ["PT_HPU_EAGER_PIPELINE_ENABLE"] = "1"
+os.environ["PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE"] = "1"
+
 import argparse
 import subprocess
 import torch
