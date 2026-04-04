@@ -2,6 +2,16 @@ import sys
 import os
 import torch
 
+# ⚡ AUTOMATION: Always apply defensive patches before starting AgentHARM
+# This prevents KeyErrors during 'Safe Pivot' scenarios across the SOL cluster.
+try:
+    # Ensure the script can find patch_agentharm.py in its local directory
+    sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+    from patch_agentharm import auto_patch_agentharm
+    auto_patch_agentharm()
+except Exception as e:
+    print(f"WARNING: Automated patching failed: {e}")
+
 if len(sys.argv) < 2:
     print("FATAL: Please provide a model ID. Example: python run_agentharm.py Qwen/Qwen3-VL-2B-Instruct")
     sys.exit(1)
