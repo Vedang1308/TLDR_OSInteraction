@@ -27,17 +27,27 @@ os.environ["INSPECT_DISPLAY"] = "plain"
 print(f"=== INITIALIZING NATIVE PYTORCH AGENTHARM RUN ===")
 
 # 1. Warm up HuggingFace BEFORE inspect_ai starts to prevent TaskGroup Isolation bugs!
-# Because inspect_ai uses coroutines and isolates module loading, we must structurally 
-# initialize trust_remote_code locally in the true python main thread first!
 print("Warming up HuggingFace Module Cache globally...")
 from transformers import AutoProcessor, AutoConfig, AutoModelForImageTextToText
+from phase2.agents.sys_utils import detect_device
+
+# Determine the best available hardware
+DEVICE = detect_device()
+print(f"Hardware Detection Result: {DEVICE.upper()}")
 
 # Pre-load statically to populate sys.modules seamlessly
 GLOBAL_PROCESSOR = AutoProcessor.from_pretrained(model_id, trust_remote_code=True)
 GLOBAL_CONFIG = AutoConfig.from_pretrained(model_id, trust_remote_code=True)
 GLOBAL_MODEL = AutoModelForImageTextToText.from_pretrained(model_id, config=GLOBAL_CONFIG, trust_remote_code=True)
-GLOBAL_MODEL.to("hpu").eval()
-print(f"Model successfully anchored to HPU at global scope!")
+
+# 🚀 UNIVERSAL LOADING: Handle HPU vs CUDA vs CPU
+if DEVICE == "hpu":
+    GLOBAL_MODEL.to("hpu")
+elif DEVICE == "cuda":
+    GLOBAL_MODEL.to("cuda")
+
+GLOBAL_MODEL.eval()
+print(f"Model successfully anchored to {DEVICE.upper()} at global scope!")
 
 # 2. Expose to the local system so GaudiProvider can grab it
 import builtins

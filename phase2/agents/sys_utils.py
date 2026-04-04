@@ -61,19 +61,37 @@ class TextRepetitionStoppingCriteria(StoppingCriteria):
 
 import torch
 import os
-
-# ⚡ GLOBAL SPEED OPTIMIZATION: Enable HPU Eager-Mode Pipelining
-# This allows the Gaudi2/HPU hardware to pre-fetch kernels while the CPU is still tokenizing.
-os.environ["PT_HPU_EAGER_PIPELINE_ENABLE"] = "1"
-os.environ["PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE"] = "1"
+import subprocess
 
 def detect_device():
-    """Detects available hardware (HPU or CPU)."""
+    """Dynamically detects HPU (Gaudi), CUDA (Nvidia), or CPU."""
+    # 1. Check for Gaudi HPU
     try:
-        import habana_frameworks.torch.core as htcore
+        subprocess.check_output(["hl-smi"], stderr=subprocess.DEVNULL)
         return "hpu"
-    except ImportError:
-        return "cpu"
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        pass
+
+    # 2. Check for Nvidia GPU
+    try:
+        subprocess.check_output(["nvidia-smi"], stderr=subprocess.DEVNULL)
+        return "cuda"
+    except (FileNotFoundError, subprocess.CalledProcessError):
+        pass
+
+    return "cpu"
+
+# ⚡ Hardware-Specific Optimizations
+DEVICE = detect_device()
+if DEVICE == "hpu":
+    # Enable HPU Eager-Mode Pipelining for Gaudi2
+    os.environ["PT_HPU_EAGER_PIPELINE_ENABLE"] = "1"
+    os.environ["PT_HPU_EAGER_COLLECTIVE_PIPELINE_ENABLE"] = "1"
+    print("GAUDI DETECTED: HPU Eager-Pipelining Enabled.")
+elif DEVICE == "cuda":
+    print("NVIDIA DETECTED: Standard CUDA Acceleration Active.")
+else:
+    print("CPU DETECTED: Non-accelerated fallback mode active.")
 
 def get_hpu_model_singleton():
     """Retrieves the globally cached model from builtins to prevent OOM."""

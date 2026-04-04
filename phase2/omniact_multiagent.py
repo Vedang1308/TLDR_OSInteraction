@@ -49,23 +49,7 @@ class RepetitionStoppingCriteria(StoppingCriteria):
                 return True
         return False
 
-def detect_device():
-    """Detects available hardware accelerator (Gaudi HPU, Nvidia GPU, or CPU)."""
-    try:
-        # Check for Gaudi HPU
-        subprocess.check_output(["hl-smi"], stderr=subprocess.DEVNULL)
-        return "hpu"
-    except (FileNotFoundError, subprocess.CalledProcessError):
-        pass
-
-    try:
-        # Check for Nvidia GPU
-        subprocess.check_output(["nvidia-smi"], stderr=subprocess.DEVNULL)
-        return "cuda"
-    except (FileNotFoundError, subprocess.CalledProcessError):
-        pass
-
-    return "cpu"
+from phase2.agents.sys_utils import detect_device
 
 def load_vlm_model(model_name, device):
     """Loads the specified HuggingFace VLM Model onto the available hardware device.
