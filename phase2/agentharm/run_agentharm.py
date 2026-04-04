@@ -2,6 +2,13 @@ import sys
 import os
 import torch
 
+# 🚀 PROJECT PATH RESOLUTION: Add the root directory to sys.path
+# This ensures that 'from phase2...' imports work regardless of where the script is invoked.
+current_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.abspath(os.path.join(current_dir, "..", ".."))
+if root_dir not in sys.path:
+    sys.path.insert(0, root_dir)
+
 # ⚡ AUTOMATION: Always apply defensive patches before starting AgentHARM
 # This prevents KeyErrors during 'Safe Pivot' scenarios across the SOL cluster.
 try:

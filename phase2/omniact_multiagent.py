@@ -1,6 +1,13 @@
 import os
 import sys
 
+# 🚀 PROJECT PATH RESOLUTION: Add the root directory to sys.path
+# This ensures that 'from phase2...' imports work regardless of where the script is invoked.
+current_dir = os.path.dirname(os.path.abspath(__file__))
+root_dir = os.path.abspath(os.path.join(current_dir, ".."))
+if root_dir not in sys.path:
+    sys.path.insert(0, root_dir)
+
 # ⚡ GLOBAL SPEED OPTIMIZATION: Enable HPU Eager-Mode Pipelining
 # This allows the Gaudi2 hardware to pre-fetch kernels during tokenization.
 os.environ["PT_HPU_EAGER_PIPELINE_ENABLE"] = "1"
