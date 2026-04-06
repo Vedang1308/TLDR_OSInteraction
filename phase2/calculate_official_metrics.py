@@ -215,10 +215,22 @@ def main():
     parser.add_argument("--omniact_data_dir", type=str, default="omniact_data/data", help="Path to ground-truth testing data.")
     args = parser.parse_args()
 
+    # PHASE 1 Hardcoded Baselines for direct cluster comparison
+    phase1_omniact = {
+        "Qwen_Qwen3-VL-2B-Instruct": {"ss": 0.2252, "as": 40.17, "match": 62.88},
+        "Qwen_Qwen3-VL-4B-Instruct": {"ss": 0.1609, "as": 26.92, "match": 70.15},
+        "Qwen_Qwen3-VL-8B-Instruct": {"ss": 0.2184, "as": 40.17, "match": 73.55}
+    }
+    
+    phase1_agentharm = {
+        "Qwen_Qwen3-VL-2B-Instruct": {"asr": 33.90, "refusal": 67.05},
+        "Qwen_Qwen3-VL-4B-Instruct": {"asr": 37.09, "refusal": 46.59},
+        "Qwen_Qwen3-VL-8B-Instruct": {"asr": 32.19, "refusal": 52.84}
+    }
+
     files_to_process = []
     agentharm_files = []
     
-    # Auto-Download OmniACT Data if missing on local Mac
     if not os.path.exists(args.omniact_data_dir):
         print(f"[OmniACT] Ground-truth data missing at {args.omniact_data_dir}. Downloading ~260MB archive from HuggingFace...")
         zip_tmp = "omniact_data_tmp.zip"
@@ -241,44 +253,52 @@ def main():
         else:
             agentharm_files.append(args.results_dir)
 
-    # 1. Report OmniACT Results
     if files_to_process:
-        print(f"\nOmniACT Evaluation Report")
-        print(f"{'Model Name':<40} | {'SS (Avg)':<10} | {'AS (%)':<10} | {'Match (%)':<10} | {'Evaluated':<10}")
-        print("-" * 95)
+        print(f"\n=======================================================================================================================")
+        print(f"                                   OMNIACT UTILITY COMPARISON (Phase 1 vs Phase 2)                                     ")
+        print(f"=======================================================================================================================")
+        print(f"{'Model Name':<30} | {'SS P1':<8} -> {'SS P2':<8} ({'Delta':<7}) | {'AS P1':<6} -> {'AS P2':<6} ({'Delta':<7})")
+        print("-" * 119)
         for f_path in sorted(files_to_process):
             metrics = process_result_file(f_path, args.omniact_data_dir)
             if metrics:
-                # Path: results/MODEL_NAME/omniact/results.json
-                # Split and get the folder two levels up
                 parts = f_path.split(os.sep)
                 model_name = parts[-3] if len(parts) >= 3 else "Unknown"
-                print(f"{model_name:<40} | {metrics['ss_mean']:<10.4f} | {metrics['as_eq6']:<10.2f} | {metrics['match_rate']:<10.2f} | {metrics['count']:<10}")
-        print("-" * 95)
+                p1 = phase1_omniact.get(model_name, {"ss": 0.0, "as": 0.0, "match": 0.0})
+                
+                ss_delta = metrics['ss_mean'] - p1['ss']
+                as_delta = metrics['as_eq6'] - p1['as']
+                
+                ss_delta_str = f"{ss_delta:+.4f}"
+                as_delta_str = f"{as_delta:+.2f}%"
+                
+                print(f"{model_name:<30} | {p1['ss']:<8} -> {metrics['ss_mean']:<8.4f} ({ss_delta_str:<7}) | {p1['as']:<6}% -> {metrics['as_eq6']:<6.2f}% ({as_delta_str:<7})")
+        print("-" * 119)
 
-    # 2. Report AgentHARM Results
     if agentharm_files:
         model_runs = {}
-        # Group by folder to only take the most recent execution per model
         for f in sorted(agentharm_files):
-            # Path: results/MODEL_NAME/agentharm/timestamp_...json
             parts = f.split(os.sep)
             model_folder = parts[-3] if len(parts) >= 3 else "Unknown"
             model_runs[model_folder] = f
         
-        print(f"\nAgentHARM Safety Evaluation Report (Multi-Agent)")
-        print(f"{'Model Name':<40} | {'ASR (%)':<10} | {'Refusal (%)':<10} | {'Task Samples':<10}")
-        print("-" * 80)
+        print(f"\n============================================================================================")
+        print(f"                      AGENTHARM SAFETY COMPARISON (Phase 1 vs Phase 2)                        ")
+        print(f"============================================================================================")
+        print(f"{'Model Name':<30} | {'ASR P1':<8} -> {'ASR P2':<8} ({'Delta':<7}) | {'Refusal P1':<10} -> {'Refusal P2':<10}")
+        print("-" * 92)
         for model_name, f_path in sorted(model_runs.items()):
             h_metrics = process_agentharm_file(f_path)
             if h_metrics:
-                print(f"{model_name:<40} | {h_metrics['asr']:<10.2f} | {h_metrics['refusal']:<10.2f} | {h_metrics['samples']:<10}")
-        print("-" * 80)
+                p1 = phase1_agentharm.get(model_name, {"asr": 0.0, "refusal": 0.0})
+                
+                asr_delta = h_metrics['asr'] - p1['asr']
+                asr_delta_str = f"{asr_delta:+.2f}%"
+                
+                print(f"{model_name:<30} | {p1['asr']:<8}% -> {h_metrics['asr']:<8.2f}% ({asr_delta_str:<7}) | {p1['refusal']:<10}% -> {h_metrics['refusal']:<10.2f}%")
+        print("-" * 92)
 
-    print(f"\nTotal Reports Aggregated: {len(files_to_process) + len(agentharm_files)}")
-
-    print("-" * 110)
-    print(f"Total Models Evaluated: {len(files_to_process)}")
+    print(f"\nTotal Architectures Evaluated: {len(files_to_process)}")
 
 if __name__ == "__main__":
     main()
