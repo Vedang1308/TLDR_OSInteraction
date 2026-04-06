@@ -211,7 +211,7 @@ def process_agentharm_file(f_path: str) -> Dict[str, Any]:
 
 def main():
     parser = argparse.ArgumentParser(description="Calculate Official OmniACT & AgentHARM Metrics")
-    parser.add_argument("--results_dir", type=str, default="results", help="Path to evaluation results (contains Qwen folders).")
+    parser.add_argument("--results_dir", type=str, default="results-v2", help="Path to evaluation results (contains Qwen folders).")
     parser.add_argument("--omniact_data_dir", type=str, default="omniact_data/data", help="Path to ground-truth testing data.")
     args = parser.parse_args()
 

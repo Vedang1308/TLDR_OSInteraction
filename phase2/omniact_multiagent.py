@@ -151,7 +151,7 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
     safe_model_name = model_name.replace("/", "_")
     
     # Establish strict Model/Benchmark directory segregation for massive-scale analytics
-    results_dir = os.path.join("results", safe_model_name, "omniact")
+    results_dir = os.path.join("results-v2", safe_model_name, "omniact")
     os.makedirs(results_dir, exist_ok=True)
     
     # Strip the generic monolithic vendor prefix to build a hyper-clean output filename string natively
