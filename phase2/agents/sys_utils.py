@@ -120,11 +120,31 @@ def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, 
         TextRepetitionStoppingCriteria(processor, prompt_len, threshold=5)
     ])
     
+    # Model-Aware Inference Scaling
+    try:
+        model_name = getattr(model.config, "_name_or_path", "").lower()
+        if not model_name:
+            model_name = getattr(model, "name_or_path", "").lower()
+    except Exception:
+        model_name = ""
+        
+    top_k = 50 # default
+    if "2b" in model_name:
+        temperature = 0.4 # More deterministic for smaller model to prevent severe hallucination
+        top_k = 20
+    elif "4b" in model_name:
+        temperature = 0.5 # Balanced determinism/diversity for intermediate 4B model
+        top_k = 35
+    elif "8b" in model_name:
+        temperature = max(temperature, 0.7) # Preserve diversity for large 8B model
+        top_k = 50
+
     with torch.no_grad():
         generated_ids = model.generate(
             **inputs, 
             max_new_tokens=max_tokens, 
             temperature=temperature,
+            top_k=top_k,
             do_sample=(temperature > 0),
             stopping_criteria=stop_criteria
         )

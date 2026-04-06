@@ -141,7 +141,7 @@ import builtins
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from phase2.agents.tri_agent import TriAgentSystem
+from phase2.agents.omniact_agent import OmniactAgentSystem
 
 def eval_omniact(model_name, device, model, processor, limit=-1):
     print(f"[OmniACT] Evaluating {model_name} against OmniACT dataset...")
@@ -222,8 +222,16 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
             
         from PIL import Image
         image = Image.open(image_path).convert("RGB")
-        # Aggressively cap raw pixel arrays to prevent exploding attention matrix memory on huge dataset images
-        image.thumbnail((1280, 1280), Image.Resampling.LANCZOS)
+        
+        # Smart Image Resolution Routing based on architecture size
+        max_dim = 1280
+        if "8b" in model_name.lower():
+            max_dim = 1920 # HD Preservation for large models
+            print(f"  -> [HD Vision] Using expanded {max_dim}x{max_dim} context window.")
+        else:
+            max_dim = 1280 # Aggressively cap raw pixel arrays for smaller models
+            
+        image.thumbnail((max_dim, max_dim), Image.Resampling.LANCZOS)
         
         # 0. UI Metadata Grounding REMOVED for Phase 1 Baseline (Pure Vision-to-Action)
         grounding_text = ""
@@ -268,10 +276,10 @@ pyautogui.press("enter")"""
             
         print(f"\n[{idx}/{total_tasks}] Task: {task_id}")
         
-        # Instantiate the agent system dynamically
-        agent_system = TriAgentSystem(benchmark="omniact", max_retries=3)
+        # Instantiate the agent system dynamically (Self-Trust Consensus)
+        agent_system = OmniactAgentSystem(benchmark="omniact", num_samples=5, temperature=0.7)
         
-        # Execute the multi-agent loop
+        # Execute the high-temp sample loop
         generated_action = agent_system.execute_task(
             instruction=instruction_text,
             context=context_string,

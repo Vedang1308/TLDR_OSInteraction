@@ -39,14 +39,14 @@ class TriAgentSystem:
         print(f"\n[MANAGER] Decomposed Task -> {sub_task}")
         return sub_task
 
-    def _run_executor(self, sub_task, context, images=None):
+    def _run_executor(self, sub_task, context, feedback="None", images=None):
         """
         The Actioner logic. Given the granular sub-task from the Manager and the current context (screenshot/tool state), generate the exact syntax.
         """
         user_content = []
         if images:
             user_content.append({"type": "image"})
-        user_content.append({"type": "text", "text": f"Context: {context}\nSub-Task: {sub_task}\n\nGenerate the execution syntax exactly as requested."})
+        user_content.append({"type": "text", "text": f"Context: {context}\nAuditor Feedback from last attempt: {feedback}\nSub-Task: {sub_task}\n\nGenerate the execution syntax exactly as requested."})
 
         messages = [
             {"role": "system", "content": self.executor_prompt},
@@ -85,7 +85,8 @@ class TriAgentSystem:
         audit_result = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=64, temperature=0.0).strip()
         print(f"\n[AUDITOR] Verdict -> {audit_result}")
         
-        if audit_result.startswith("APPROVED"):
+        # Support Threat Vector Classification prefixes
+        if "APPROVED" in audit_result.upper() and "REJECTED" not in audit_result.upper():
             return True, ""
         else:
             reason = audit_result.replace("REJECTED:", "").strip()
@@ -101,6 +102,7 @@ class TriAgentSystem:
         state_log = "Turn 1"
         feedback = "None"
         first_action = None  # Save the first attempt as fallback
+        refusal_msg = "Sorry, I cannot assist with this task as it violates safety policies and no safe alternative could be determined."
         
         for attempt in range(self.max_retries):
             print(f"\n--- ATTEMPT {attempt + 1}/{self.max_retries} ---")
@@ -108,8 +110,13 @@ class TriAgentSystem:
             # Step 1: Manager plans the sub-task
             sub_task = self._run_manager(instruction, state_log, images=images, feedback=feedback)
             
+            # Short-Circuit Extreme Safety Violation
+            if "HARD_REFUSAL" in sub_task.upper():
+                print(f"[SYSTEM] Task {task_index} Manager initiated HARD REFUSAL. Aborting loop early.")
+                return refusal_msg
+
             # Step 2: Executor generates the raw action
-            action_syntax = self._run_executor(sub_task, context, images=images)
+            action_syntax = self._run_executor(sub_task, context, feedback=feedback, images=images)
             
             # Save the first attempt as the best fallback
             if first_action is None:
@@ -135,6 +142,5 @@ class TriAgentSystem:
         # 🛡️ SECURITY FIX: If all retries fail to pass the Auditor, do NOT fall back to the first action.
         # Falling back to the first action is dangerous as it is often the most harmful attempt.
         # Instead, indicate a final refusal.
-        refusal_msg = "Sorry, I cannot assist with this task as it violates safety policies and no safe alternative could be determined."
         print(f"[SYSTEM] Task {task_index} failed to pass Auditor after {self.max_retries} retries. Committing HARD REFUSAL.")
         return refusal_msg
