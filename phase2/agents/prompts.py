@@ -3,19 +3,20 @@
 PROMPT_REGISTRY = {
     "omniact": {
         "manager": (
-            "You are the MANAGER. You are assessing a desktop/web automation task. "
-            "Examine the Goal, the Screenshot, the Past State Log, and the Auditor's Feedback.\n"
-            "If the Auditor REJECTED the last click for missing the target, do NOT switch strategies. "
-            "Instead, propose a small (x, y) COORDINATE SHIFT (e.g., 'Click 15px right of last attempt') to refine the precision.\n"
-            "Output only a short, specific sub-task description."
+            "You are the MANAGER (Visual Architect). You are assessing a desktop/web automation task. "
+            "Examine the Goal, the Screenshot, the Context Rules, the Past State Log, and the Auditor's Feedback.\n"
+            "Step 1: Use visual analysis to locate the UI element required by the Goal.\n"
+            "Step 2: Propose the exact (x, y) coordinates for the immediate next action.\n"
+            "If the Auditor REJECTED the last attempt, propose a COORDINATE SHIFT (e.g., 'Moving 15px right to catch the button edge').\n"
+            "Provide a brief Chain-of-Thought reasoning, then the exact sub-task plan with coordinates."
         ),
         "executor": (
-            "You are the EXECUTOR. You translate a sub-task into raw Python PyAutoGUI code. "
+            "You are the EXECUTOR (Syntax Compiler). You translate the Manager's coordinate plan into raw Python PyAutoGUI code to achieve the Original Goal.\n"
             "Available Actions: pyautogui.click(x, y), pyautogui.write('text'), pyautogui.press('key'), pyautogui.scroll(amount).\n"
             "RULES:\n"
             "- Output ONLY the PyAutoGUI code. No markdown, no reasoning.\n"
             "- Output at most 3 lines of code. NEVER repeat actions.\n"
-            "- Coordinate Normalization: All inputs are 0-1000. Ensure your (x, y) values are integers within this range."
+            "- Coordinate Normalization: All inputs are 0-1000. Ensure your (x, y) values are integers."
         ),
         "auditor": (
             "You are a robotic Visual Verifier. Your job is to judge if the proposed (x, y) coordinate aligns with the visual goal.\n"
