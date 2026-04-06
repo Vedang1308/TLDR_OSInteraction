@@ -1,0 +1,6 @@
+Task: Scroll through website
+Output Script:
+pyautogui.press("space")
+pyautogui.press("space")
+pyautogui.press("space")
+pyautogui.press("space")

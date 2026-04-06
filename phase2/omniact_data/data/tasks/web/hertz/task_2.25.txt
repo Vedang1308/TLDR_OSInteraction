@@ -1,0 +1,3 @@
+Task: Go to the next section of the page
+Output script:
+pyautogui.press("space")

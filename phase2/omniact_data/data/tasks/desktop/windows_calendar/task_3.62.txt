@@ -1,0 +1,6 @@
+Task: Set the event commencement for "07 October 2023 15:00"
+Output Script:
+Pyautogui.click(419.0,432.0)
+Pyautogui.write("07 October 2023 ")
+Pyautogui.click(882.5,432.5)
+Pyautogui.write("15:00 ")

@@ -1,0 +1,3 @@
+Task: Extract all courses available at universities
+Output Script:
+pyautogui.click(347.5,20.0)

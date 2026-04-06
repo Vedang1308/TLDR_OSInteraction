@@ -1,0 +1,4 @@
+Task: Go to the "documents" folder and mark all its content
+Output Script:
+pyautogui.click(166.5,390.0)
+pyautogui.hotkey("ctrl", "a")

@@ -1,0 +1,3 @@
+Task: Clicking on the editor settings icon
+Output script:
+pyautogui.click(188.5,722.5)

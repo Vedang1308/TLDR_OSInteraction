@@ -1,0 +1,3 @@
+Task: Observe the change in stock performance over the last week.
+Output script:
+pyautogui.click(1006.5,388.5)

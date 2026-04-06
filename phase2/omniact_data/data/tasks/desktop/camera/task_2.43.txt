@@ -1,0 +1,3 @@
+Task: Terminate the camera application
+Output Script:
+pyautogui.click(1892.0,49.5)

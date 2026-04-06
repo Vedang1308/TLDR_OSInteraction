@@ -1,0 +1,3 @@
+Task: Switch to the "Pictures" tab
+Output Script:
+pyautogui.click(169.5,363.5)

@@ -1,0 +1,3 @@
+Task: Execute the Games application
+Output Script:
+pyautogui.click(334.0,322.0)

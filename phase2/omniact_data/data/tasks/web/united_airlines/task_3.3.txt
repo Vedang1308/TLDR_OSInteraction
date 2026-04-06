@@ -1,0 +1,4 @@
+Task: Scroll to see the most popular flights to Chicago
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

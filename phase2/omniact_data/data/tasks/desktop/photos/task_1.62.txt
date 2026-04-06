@@ -1,0 +1,6 @@
+Task: Turn Louvre image three times
+Output Script:
+pyautogui.click(2477.5,538.5)
+pyautogui.click(2645.5,49.5)
+pyautogui.click(2645.5,49.5)
+pyautogui.click(2645.5,49.5)

@@ -1,0 +1,3 @@
+Task: Click on the "Fashion" section.
+Output script:
+pyautogui.click(223.0,1025.0)

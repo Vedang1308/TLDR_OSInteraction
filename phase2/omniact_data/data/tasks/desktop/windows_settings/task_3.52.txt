@@ -1,0 +1,3 @@
+Task: Access "Project to this PC" settings via side panel.
+Output Script:
+pyautogui.click(201.0,824.5)

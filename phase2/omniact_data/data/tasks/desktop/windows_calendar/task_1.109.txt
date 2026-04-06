@@ -1,0 +1,3 @@
+Task: Transition to the email tab
+Output Script:
+Pyautogui.click(31.0,999.5)

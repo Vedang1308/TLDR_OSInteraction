@@ -1,0 +1,3 @@
+Task: Access the G20 news that is presented on the panel
+Output script:
+pyautogui.click(1271.5,1013.5)

@@ -1,0 +1,4 @@
+Task: Adjust the timer to 30 minutes.
+Output Script:
+pyautogui.click(1669.0,986.0)
+pyautogui.write("30")

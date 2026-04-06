@@ -1,0 +1,4 @@
+Task: Schedule an itinerary on Monday from 11am till 4:30 pm.
+Output script:
+pyautogui.click(1124.0,398.0)
+pyautogui.dragTo(1125.5,1163.5"left")

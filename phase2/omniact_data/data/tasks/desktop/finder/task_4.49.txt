@@ -1,0 +1,3 @@
+Task: Deactivate airdrop
+Output Script:
+pyautogui.click(3285.0,588.5)

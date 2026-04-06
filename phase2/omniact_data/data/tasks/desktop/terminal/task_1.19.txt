@@ -1,0 +1,5 @@
+Task: Execute ls command in the terminal to showcase all files
+Output Script:
+pyautogui.click(1996.0,212.0)
+pyautogui.write("ls")
+pyautogui.press("enter")

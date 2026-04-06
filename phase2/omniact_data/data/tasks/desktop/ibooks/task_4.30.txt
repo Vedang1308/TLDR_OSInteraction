@@ -1,0 +1,3 @@
+Task: Purchase the book titled "Heat 2"
+Output Script:
+pyautogui.click(3222.5,986.0)

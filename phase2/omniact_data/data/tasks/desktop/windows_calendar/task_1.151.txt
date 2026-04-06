@@ -1,0 +1,3 @@
+Task: Alter the outlook to a weekly layout.
+Output Script:
+Pyautogui.click(1329.0,70.0)

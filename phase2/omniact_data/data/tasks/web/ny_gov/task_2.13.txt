@@ -1,0 +1,3 @@
+Task: From the lower dashboard, launch the culture and recreation services.
+Output Script:
+pyautogui.click(541.0,791.5)

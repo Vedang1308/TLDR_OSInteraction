@@ -1,0 +1,3 @@
+Task: Execute the print command on this file
+Output script:
+pyautogui.click(188.5,359.5)

@@ -1,0 +1,3 @@
+Task: Delve deeper into details about Springfield, VA
+Output script:
+pyautogui.click(175.0,735.0)

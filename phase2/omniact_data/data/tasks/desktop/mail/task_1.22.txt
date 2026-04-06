@@ -1,0 +1,3 @@
+Task: Choose the option to create a fresh message.
+Output script:
+pyautogui.click(1387.0,55.5)

@@ -1,0 +1,4 @@
+Task: Increment the value of hours by one unit
+Output Script:
+pyautogui.click(1389.0,985.0)
+pyautogui.press("up")

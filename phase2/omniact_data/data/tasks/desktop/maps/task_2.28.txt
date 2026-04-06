@@ -1,0 +1,4 @@
+Task: Scroll to access the full information about Canary Wharf.
+Output script:
+pyautogui.moveTo(1702.5,933.5)
+pyautogui.scroll(30)

@@ -1,0 +1,5 @@
+Task: Set "London" as the endpoint of your journey.
+Output script:
+pyautogui.click(1438.5,304.5)
+pyautogui.write("London")
+pyautogui.press("enter")

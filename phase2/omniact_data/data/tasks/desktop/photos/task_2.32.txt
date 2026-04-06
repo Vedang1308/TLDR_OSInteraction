@@ -1,0 +1,3 @@
+Task: Proceed to the concluding photo in the presentation
+Output Script:
+pyautogui.click(2011.5,2016.5)

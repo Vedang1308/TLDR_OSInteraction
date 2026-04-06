@@ -1,0 +1,3 @@
+Task: Access the Games module
+Output Script:
+pyautogui.click(44.0,253.5)

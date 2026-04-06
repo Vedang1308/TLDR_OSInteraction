@@ -1,0 +1,3 @@
+Task: Execute the termination of software by pressing "close" button
+Output Script:
+pyautogui.click(1895.0,21.0)

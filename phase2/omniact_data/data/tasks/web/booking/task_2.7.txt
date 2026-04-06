@@ -1,0 +1,3 @@
+Task: Search for stays using the criterion selected
+Output Script:
+pyautogui.click(1210.5,500.0)

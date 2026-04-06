@@ -1,0 +1,302 @@
+{
+    "example_0": {
+        "top_left": [
+            710,
+            783
+        ],
+        "bottom_right": [
+            1026,
+            802
+        ],
+        "valid": 1,
+        "label": "view_deals_redirect"
+    },
+    "example_1": {
+        "top_left": [
+            710,
+            478
+        ],
+        "bottom_right": [
+            1026,
+            783
+        ],
+        "valid": 1,
+        "label": "It redirects you to the Clearance and Open Box page."
+    },
+    "example_2": {
+        "top_left": [
+            1176,
+            122
+        ],
+        "bottom_right": [
+            1276,
+            140
+        ],
+        "valid": 1,
+        "label": "order_status"
+    },
+    "example_3": {
+        "top_left": [
+            40,
+            52
+        ],
+        "bottom_right": [
+            108,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_BestBuy"
+    },
+    "example_4": {
+        "top_left": [
+            433,
+            123
+        ],
+        "bottom_right": [
+            509,
+            139
+        ],
+        "valid": 1,
+        "label": "Search box."
+    },
+    "example_5": {
+        "top_left": [
+            434,
+            140
+        ],
+        "bottom_right": [
+            542,
+            156
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_6": {
+        "top_left": [
+            126,
+            123
+        ],
+        "bottom_right": [
+            218,
+            139
+        ],
+        "valid": 1,
+        "label": "Deal_promotion_redirect"
+    },
+    "example_7": {
+        "top_left": [
+            1066,
+            232
+        ],
+        "bottom_right": [
+            1229,
+            381
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_8": {
+        "top_left": [
+            15,
+            853
+        ],
+        "bottom_right": [
+            151,
+            892
+        ],
+        "valid": 1,
+        "label": " redirecting to most viewed items link page."
+    },
+    "example_9": {
+        "top_left": [
+            747,
+            123
+        ],
+        "bottom_right": [
+            798,
+            141
+        ],
+        "valid": 1,
+        "label": "More_dropdown_menu"
+    },
+    "example_10": {
+        "top_left": [
+            40,
+            140
+        ],
+        "bottom_right": [
+            181,
+            156
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_11": {
+        "top_left": [
+            658,
+            123
+        ],
+        "bottom_right": [
+            720,
+            139
+        ],
+        "valid": 1,
+        "label": "redirect_to_gift_cards"
+    },
+    "example_12": {
+        "top_left": [
+            1092,
+            488
+        ],
+        "bottom_right": [
+            1407,
+            735
+        ],
+        "valid": 1,
+        "label": "redirect_to_HPEnvy_deal"
+    },
+    "example_13": {
+        "top_left": [
+            710,
+            447
+        ],
+        "bottom_right": [
+            827,
+            478
+        ],
+        "valid": 1,
+        "label": "redirect_outlet_deals"
+    },
+    "example_14": {
+        "top_left": [
+            246,
+            123
+        ],
+        "bottom_right": [
+            405,
+            139
+        ],
+        "valid": 1,
+        "label": "redirect_my best buy memberships"
+    },
+    "example_15": {
+        "top_left": [
+            1092,
+            783
+        ],
+        "bottom_right": [
+            1407,
+            802
+        ],
+        "valid": 1,
+        "label": "redirect_shopalltopdeals"
+    },
+    "example_16": {
+        "top_left": [
+            710,
+            232
+        ],
+        "bottom_right": [
+            872,
+            381
+        ],
+        "valid": 1,
+        "label": "redirect_to_item"
+    },
+    "example_17": {
+        "top_left": [
+            537,
+            123
+        ],
+        "bottom_right": [
+            630,
+            139
+        ],
+        "valid": 1,
+        "label": "redirect_to_best_buy_outlet"
+    },
+    "example_18": {
+        "top_left": [
+            888,
+            232
+        ],
+        "bottom_right": [
+            1050,
+            381
+        ],
+        "valid": 1,
+        "label": "redirect_computericon"
+    },
+    "example_19": {
+        "top_left": [
+            40,
+            123
+        ],
+        "bottom_right": [
+            98,
+            139
+        ],
+        "valid": 1,
+        "label": "redirect_top_deals"
+    },
+    "example_20": {
+        "top_left": [
+            1323,
+            57
+        ],
+        "bottom_right": [
+            1400,
+            87
+        ],
+        "valid": 1,
+        "label": "shopping_cart_icon"
+    },
+    "example_21": {
+        "top_left": [
+            156,
+            56
+        ],
+        "bottom_right": [
+            242,
+            88
+        ],
+        "valid": 1,
+        "label": "Menu_drop-down"
+    },
+    "example_22": {
+        "top_left": [
+            0,
+            0
+        ],
+        "bottom_right": [
+            1440,
+            36
+        ],
+        "valid": 1,
+        "label": "It will redirect to chat, call and video chat for further consultation"
+    },
+    "example_23": {
+        "top_left": [
+            806,
+            52
+        ],
+        "bottom_right": [
+            842,
+            92
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_24": {
+        "top_left": [
+            909,
+            121
+        ],
+        "bottom_right": [
+            996,
+            141
+        ],
+        "valid": 1,
+        "label": "Search box"
+    }
+}

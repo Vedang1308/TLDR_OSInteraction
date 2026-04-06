@@ -1,0 +1,4 @@
+Task: Copy the 11:30 am time
+Output Script:
+pyautogui.rightClick(159.5,423.0)
+pyautogui.hotkey("ctrl", "c")

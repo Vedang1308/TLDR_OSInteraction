@@ -1,0 +1,3 @@
+Task: Inspect all existing data for fluctuations in stock.
+Output script:
+pyautogui.click(2718.5,395.0)

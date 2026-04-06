@@ -1,0 +1,3 @@
+Task: Activate the function to see the stored messages.
+Output script:
+pyautogui.click(206.5,824.5)

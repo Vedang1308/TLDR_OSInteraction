@@ -1,0 +1,3 @@
+Task: Access your account at Mayo Clinic website
+Output Script:
+pyautogui.click(1284.0,49.0)

@@ -1,0 +1,4 @@
+Task: Scroll to see what else popular topics are
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

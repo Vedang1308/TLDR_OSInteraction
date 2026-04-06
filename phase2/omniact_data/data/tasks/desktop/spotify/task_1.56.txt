@@ -1,0 +1,3 @@
+Task: Perform back navigation
+Output script:
+pyautogui.click(512.0,91.0)

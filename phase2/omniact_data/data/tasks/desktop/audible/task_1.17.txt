@@ -1,0 +1,5 @@
+Task: Open the website "www.google.com"
+Output Script:
+pyautogui.click(1365.0,100.5)
+pyautogui.write("sapiens")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Remove the document named "James Rachels"
+Output script:
+pyautogui.click(1021.0,400.5)

@@ -1,0 +1,3 @@
+Task: Close the current window using keyboard shortcut
+Output Script:
+pyautogui.hotkey("alt", "f4")

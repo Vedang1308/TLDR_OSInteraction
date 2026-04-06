@@ -1,0 +1,3 @@
+Task: Check the recently played songs
+Output Script:
+pyautogui.click(195.5,453.0)

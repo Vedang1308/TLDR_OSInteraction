@@ -1,0 +1,5 @@
+Task: Utilize the share option to load the narrative in Safari.
+Output script:
+pyautogui.click(2828.5,48.0)
+pyautogui.write("Safari")
+pyautogui.press("enter")

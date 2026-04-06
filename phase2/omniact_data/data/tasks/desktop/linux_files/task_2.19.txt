@@ -1,0 +1,4 @@
+Task: Create a new directory using keyboard and mouse
+Output Script:
+pyautogui.click(1833.0,113.5)
+pyautogui.hotkey("ctrl", "shift", "n")

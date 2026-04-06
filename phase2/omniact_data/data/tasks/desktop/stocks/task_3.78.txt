@@ -1,0 +1,4 @@
+Task: Begin the subsequent news video file.
+Output script:
+pyautogui.click(1773.0,1084.0)
+pyautogui.click(1773.0,1084.0)

@@ -1,0 +1,5 @@
+Task: Calculate the product of 3 and 4 using multiplication operator.
+Output Script:
+pyautogui.click(2053.5,1162.0)
+pyautogui.click(2169.5,968.5)
+pyautogui.click(1820.5,1066.0)

@@ -1,0 +1,5 @@
+Task: View the image at fourth position in the sequence
+Output Script: 
+pyautogui.click(846.0,516.0)
+pyautogui.click(846.0,516.0)
+pyautogui.click(846.0,516.0)

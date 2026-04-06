@@ -1,0 +1,3 @@
+Task: View the stock change for 12 noon.
+Output script:
+pyautogui.click(1533.0,688.5)

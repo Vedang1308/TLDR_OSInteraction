@@ -1,0 +1,3 @@
+Task: Acquire further knowledge on "Warehouse Worker"
+Output Script:
+pyautogui.click(1029.0,792.0)

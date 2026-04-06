@@ -1,0 +1,4 @@
+Task: Add the new document
+Output script:
+pyautogui.click(188.5,233.5)
+pyautogui.write("Hi")

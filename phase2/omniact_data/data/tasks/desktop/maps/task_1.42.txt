@@ -1,0 +1,3 @@
+Task: Remove the recent searches from the maps.
+Output script:
+pyautogui.click(108.0,976.5)

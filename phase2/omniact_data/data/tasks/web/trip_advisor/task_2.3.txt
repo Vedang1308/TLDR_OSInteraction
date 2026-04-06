@@ -1,0 +1,3 @@
+Task: Open Trips page
+Output Script:
+pyautogui.click(1067.5,30.0)

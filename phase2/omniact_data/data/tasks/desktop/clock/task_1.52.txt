@@ -1,0 +1,4 @@
+Task: Start recording a lap time and then cease the stopwatch action.
+Output Script:
+pyautogui.click(1504.5,1971.5)
+pyautogui.click(1847.0,1969.0)

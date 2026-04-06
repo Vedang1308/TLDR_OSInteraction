@@ -1,0 +1,5 @@
+Task: Retrieve files with the name "Hi Nari and Prof Singh"
+Output script:
+pyautogui.click(1055.0,115.5)
+pyautogui.write("Hi Nari and Prof Singh")
+pyautogui.press("enter)

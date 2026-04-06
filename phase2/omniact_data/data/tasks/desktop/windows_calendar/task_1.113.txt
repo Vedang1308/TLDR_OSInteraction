@@ -1,0 +1,3 @@
+Task: Access the "Calendar" section by clicking on its tab
+Output Script:
+Pyautogui.click(90.0,999.5)

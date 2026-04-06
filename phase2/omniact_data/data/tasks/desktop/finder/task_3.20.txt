@@ -1,0 +1,3 @@
+Task: Open the History Options menu
+Output Script:
+pyautogui.click(608.5,24.5)

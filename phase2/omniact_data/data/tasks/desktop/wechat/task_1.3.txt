@@ -1,0 +1,5 @@
+Task: Search for Jack in chats
+Output Script:
+pyautogui.click(201.5,44.5)
+pyautogui.write("Jack")
+pyautogui.press("enter")

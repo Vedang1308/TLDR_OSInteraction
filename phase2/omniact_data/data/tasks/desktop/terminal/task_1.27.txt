@@ -1,0 +1,4 @@
+Task: Insert the text stored in clipboard into the text field using keyboard commands.
+Output Script:
+pyautogui.click(1996.0,212.0)
+pyautogui.hotkey("ctrl", "v")

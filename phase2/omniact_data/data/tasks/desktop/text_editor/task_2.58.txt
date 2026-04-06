@@ -1,0 +1,7 @@
+Task: "In the document, change all occurrences of "happy" with the word "joyful"
+Output Script:
+pyautogui.click(1027.0,490.0)
+pyautogui.write("happy")
+pyautogui.click(1027.5,535.0)
+pyautogui.write("joyful")
+pyautogui.click(923.5,662.0)

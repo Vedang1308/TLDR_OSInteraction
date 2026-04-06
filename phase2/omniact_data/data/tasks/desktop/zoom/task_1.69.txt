@@ -1,0 +1,5 @@
+Task: Connect to the web meeting using the provided ID ABCDEFGH.
+Output Script:
+pyautogui.click(1129.5,746.5)
+pyautogui.write("ABCDEFGH")
+pyautogui.press("enter")

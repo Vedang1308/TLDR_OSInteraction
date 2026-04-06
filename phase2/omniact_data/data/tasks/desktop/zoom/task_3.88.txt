@@ -1,0 +1,5 @@
+Task: Find the contact "Interviee" in the contacts list of the phone application.
+Output Script:
+pyautogui.click(1471.5,55.0)
+pyautogui.write("Interviee")
+pyautogui.press("enter")

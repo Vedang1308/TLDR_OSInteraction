@@ -1,0 +1,3 @@
+Task: Initiate Films & TV program
+Output Script:
+pyautogui.click(469.5,322.5)

@@ -1,0 +1,3 @@
+Task: "Click on the orange button on the left for closing the document"
+Output Script:
+pyautogui.click(252.0,90.0)

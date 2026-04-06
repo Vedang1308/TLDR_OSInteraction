@@ -1,0 +1,3 @@
+Task: Navigate to the page for tracking flights
+Output Script:
+pyautogui.click(821.5,105.5)

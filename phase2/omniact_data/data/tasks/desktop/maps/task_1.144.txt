@@ -1,0 +1,5 @@
+Task: Input a new guide location "bars" by using the "add guide" button.
+Output script:
+pyautogui.click(290.5,528.5)
+pyautogui.write("bars")
+pyautogui.press("enter")

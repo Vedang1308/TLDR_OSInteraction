@@ -1,0 +1,3 @@
+Task: Close the current window using the close window button
+Output Script:
+pyautogui.click(27.0,72.5)

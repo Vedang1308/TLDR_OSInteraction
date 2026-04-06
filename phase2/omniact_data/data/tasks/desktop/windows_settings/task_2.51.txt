@@ -1,0 +1,3 @@
+Task: Navigate to "Captures" folder on the left panel
+Output Script:
+pyautogui.click(198.5,342.0)

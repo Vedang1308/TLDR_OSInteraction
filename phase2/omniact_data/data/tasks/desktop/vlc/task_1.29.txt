@@ -1,0 +1,3 @@
+Task: Skip one minute forward in the media playback using keyboard keys
+Output Script:
+pyautogui.press("right")

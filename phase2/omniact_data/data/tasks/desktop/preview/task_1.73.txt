@@ -1,0 +1,3 @@
+Task: Activate the view display.
+Output script:
+pyautogui.click(453.5,26.5)

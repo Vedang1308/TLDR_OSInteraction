@@ -1,0 +1,5 @@
+Task: Circulate the news on Facebook through automation script.
+Output script:
+pyautogui.click(2828.5,48.0)
+pyautogui.write("Facebook")
+pyautogui.press("enter")

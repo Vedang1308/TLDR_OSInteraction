@@ -1,0 +1,3 @@
+Task: Open Mail and Calendar
+Output Script:
+pyautogui.click(1724.5,503.0)

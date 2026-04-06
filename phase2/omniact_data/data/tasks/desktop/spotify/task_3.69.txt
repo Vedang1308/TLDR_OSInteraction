@@ -1,0 +1,4 @@
+Task: Proceed to the lower part of the list in the playlist
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

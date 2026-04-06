@@ -1,0 +1,2 @@
+Task: Go to page that shows all Business courses under the "Operations" category
+pyautogui.click(768.5,97.0)

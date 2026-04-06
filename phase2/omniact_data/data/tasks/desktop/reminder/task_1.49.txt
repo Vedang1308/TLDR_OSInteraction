@@ -1,0 +1,3 @@
+Task: Arrange an occasion for the day after today.
+Output script:
+pyautogui.click(612.0,828.5)

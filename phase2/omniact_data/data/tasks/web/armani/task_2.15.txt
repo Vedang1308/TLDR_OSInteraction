@@ -1,0 +1,3 @@
+Task: Navigate to the graphic T-shirt section to view all graphic T-shirts
+Output Script:
+pyautogui.click(385.0,228.0)

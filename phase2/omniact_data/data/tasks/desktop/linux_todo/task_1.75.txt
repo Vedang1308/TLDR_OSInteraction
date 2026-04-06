@@ -1,0 +1,5 @@
+Task: Add "study for biology test" task
+Output Script:
+pyautogui.click(731.5,805.0)
+pyautogui.write("math homework")
+pyautogui.press("Enter")

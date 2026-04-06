@@ -1,0 +1,3 @@
+Task: Navigate to the about page in the image viewer
+Output Script:
+pyautogui.click(1762.0,384.0)

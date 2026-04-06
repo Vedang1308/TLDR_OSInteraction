@@ -1,0 +1,3 @@
+Task: Explore different styles of children"s running footwear
+Output Script:
+pyautogui.click(245.0,872.5)

@@ -1,0 +1,3 @@
+Task: Navigate to the "Event reminder" settings.
+Output Script:
+Pyautogui.click(789.0,125.5)

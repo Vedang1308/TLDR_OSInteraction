@@ -1,0 +1,6 @@
+Task: Apply a rotation thrice on the Louvre photo
+Output Script:
+pyautogui.click(2477.5,538.5)
+pyautogui.click(2645.5,49.5)
+pyautogui.click(2645.5,49.5)
+pyautogui.click(2645.5,49.5)

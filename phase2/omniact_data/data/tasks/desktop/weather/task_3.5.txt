@@ -1,0 +1,4 @@
+Task: Scroll to view the option to view temperature for 18th
+Output Script:
+pyautogui.moveto("scroll_dates")
+pyautogui.hscroll("5")

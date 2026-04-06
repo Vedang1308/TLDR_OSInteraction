@@ -1,0 +1,3 @@
+Task: Open the user guide.
+Output Script:
+pyautogui.click(1886.5,1206.5)

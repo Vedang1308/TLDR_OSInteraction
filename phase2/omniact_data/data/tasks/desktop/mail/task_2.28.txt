@@ -1,0 +1,5 @@
+Task: Type "Application for job" as the subject.
+Output script:
+pyautogui.click(2220.0,326.0)
+pyautogui.write("Application for job")
+pyautogui.press("enter")

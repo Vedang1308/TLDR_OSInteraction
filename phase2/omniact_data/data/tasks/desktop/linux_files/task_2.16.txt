@@ -1,0 +1,3 @@
+Task: Star the file manual.txt using mouse
+Output Script:
+pyautogui.click(1893.0,571.0)

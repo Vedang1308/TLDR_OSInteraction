@@ -1,0 +1,4 @@
+Task: Move two steps down on your current screen
+Output Script:
+pyautogui.press("down")
+pyautogui.press("down")

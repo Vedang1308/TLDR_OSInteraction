@@ -1,0 +1,5 @@
+Task: Look for Diet Coke Can
+Output Script:
+pyautogui.click(312.0,42.0)
+pyautogui.write("Diet Coke Can")
+pyautogui.press("enter")

@@ -1,0 +1,6 @@
+Task: Write "Welcome" in the open note and underscore the text
+Output Script:
+pyautogui.click(728.5,585.0)
+pyautogui.write("Hello")
+pyautogui.hotkey("ctrl", "a")
+pyautogui.click(755.5,184.0)

@@ -1,0 +1,3 @@
+Task: Look into the 15GB Plan specifics
+Output Script:
+pyautogui.click(560.0,568.0)

@@ -1,0 +1,3 @@
+Task: Access the album folder
+Output script:
+pyautogui.click(1739.0,423.5)

@@ -1,0 +1,3 @@
+Task: Dispatch an email
+Output Script:
+pyautogui.click(1572.5,68.0)

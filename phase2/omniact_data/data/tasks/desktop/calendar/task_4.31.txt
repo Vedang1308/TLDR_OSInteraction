@@ -1,0 +1,3 @@
+Task: Click on the date July 16th on the calendar screen.
+Output script:
+pyautogui.click(1709.0,1031.5)

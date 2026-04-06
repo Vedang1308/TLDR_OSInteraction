@@ -1,0 +1,3 @@
+Task: Click on the "Next weekend plan" message
+Output Script:
+pyautogui.click(3111.0,673.0)

@@ -1,0 +1,3 @@
+Task: Visit the jobs page
+Output Script:
+pyautogui.click(1206.5,32.0)

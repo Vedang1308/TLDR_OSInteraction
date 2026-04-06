@@ -1,0 +1,3 @@
+Task: Expand additional settings in the playlist 
+Output script:
+pyautogui.click(740.0,338.5)

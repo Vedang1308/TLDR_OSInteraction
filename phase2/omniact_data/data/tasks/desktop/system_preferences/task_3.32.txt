@@ -1,0 +1,4 @@
+Task: Evaluate the condition of the battery and exit the window by hitting OK.
+Output Script:
+pyautogui.click(1500.5,1100.0)
+pyautogui.press("enter")

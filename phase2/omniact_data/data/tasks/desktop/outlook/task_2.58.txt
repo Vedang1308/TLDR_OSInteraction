@@ -1,0 +1,3 @@
+Task: Display all incoming emails
+Output Script:
+pyautogui.click(652.5,130.5)

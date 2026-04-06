@@ -1,0 +1,6 @@
+Task: Type "Windows Hello" into the search bar, drop down to the first result using the down key and select it by hitting enter.
+Output Script:
+pyautogui.click(959.0,289.0)
+pyautogui.write("Windows Hello")
+pyautogui.press("down")
+pyautogui.press("enter")

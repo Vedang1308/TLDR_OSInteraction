@@ -1,0 +1,3 @@
+Task: Redact the selected text.
+Output script:
+pyautogui.click(181.5,183.0)

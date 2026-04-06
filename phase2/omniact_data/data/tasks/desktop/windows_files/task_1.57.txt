@@ -1,0 +1,3 @@
+Task: Launch the "budget_2022_excel_file" using the standard Excel files software.
+Output Script:
+pyautogui.doubleClick(700.0,468.0)

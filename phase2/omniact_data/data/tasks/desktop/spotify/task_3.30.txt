@@ -1,0 +1,4 @@
+Task: Slide to check the yet-to-be-released tracks in the Encore album
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

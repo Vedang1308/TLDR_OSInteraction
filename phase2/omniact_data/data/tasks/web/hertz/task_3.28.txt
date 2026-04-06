@@ -1,0 +1,7 @@
+Task: Using online search, look for second-hand car dealers in your vicinity.
+Output script:
+pyautogui.click(691.0,79.0)
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.write("Used Car Dealers Near You")
+pyautogui.press("enter")

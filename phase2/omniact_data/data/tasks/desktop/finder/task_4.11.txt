@@ -1,0 +1,3 @@
+Task: Pause the currently playing music
+Output Script:
+pyautogui.click(3228.0,717.0)

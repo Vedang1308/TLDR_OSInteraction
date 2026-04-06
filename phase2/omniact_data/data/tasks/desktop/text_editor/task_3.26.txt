@@ -1,0 +1,4 @@
+Task: "Edit the array from boolean in the comment to hello boolean"
+Output Script:
+pyautogui.click(383.5,158.0)
+pyautogui.write(" hello")

@@ -1,0 +1,5 @@
+Task: Change the option of salary view
+Output Script:
+pyautogui.click(503.0,575.0)
+pyautogui.press("down")
+pyautogui.press("enter")

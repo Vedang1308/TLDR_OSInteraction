@@ -1,0 +1,3 @@
+Task: Execute a click action on the "Insert" button
+Output Script:
+pyautogui.click(902.0,73.5)

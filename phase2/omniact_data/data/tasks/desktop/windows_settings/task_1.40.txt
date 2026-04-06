@@ -1,0 +1,5 @@
+Task: Search for the copied content in the search bar.
+Output Script:
+pyautogui.click(959.0,289.0)
+pyautogui.hotkey("ctrl", "v")
+pyautogui.press("enter")

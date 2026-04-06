@@ -1,0 +1,5 @@
+Task: "Find all the occurences of the word "flower" in the document"
+Output Script:
+pyautogui.click(1027.0,490.0)
+pyautogui.write("flower")
+pyautogui.click(1164.0,663.0)

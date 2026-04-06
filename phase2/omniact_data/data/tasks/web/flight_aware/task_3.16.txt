@@ -1,0 +1,3 @@
+Task: Launch FlightAware"s customer service chat box
+Output Script:
+pyautogui.click(1339.5,63.0)

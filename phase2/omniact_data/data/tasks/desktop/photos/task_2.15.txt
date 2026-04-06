@@ -1,0 +1,3 @@
+Task: Proceed to the third photo in the slide sequence
+Output Script:
+pyautogui.click(1168.5,2015.5)

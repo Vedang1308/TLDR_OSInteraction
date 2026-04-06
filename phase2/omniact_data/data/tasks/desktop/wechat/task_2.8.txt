@@ -1,0 +1,3 @@
+Task: Sync current note to cloud
+Output Script:
+pyautogui.click(1171.5,183.0)

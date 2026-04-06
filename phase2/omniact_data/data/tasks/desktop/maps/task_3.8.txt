@@ -1,0 +1,3 @@
+Task: Select transportation mode to biking.
+Output script:
+pyautogui.click(2782.0,163.5)

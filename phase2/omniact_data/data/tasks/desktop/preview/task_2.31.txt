@@ -1,0 +1,3 @@
+Task: Select the setting to change the typography of your text.
+Output script:
+pyautogui.click(1208.5,184.0)

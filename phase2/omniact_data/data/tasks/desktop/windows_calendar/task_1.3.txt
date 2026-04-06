@@ -1,0 +1,3 @@
+Task: jump to the date of Sep.30
+Output Script:
+Pyautogui.click(1577.5,220.5)

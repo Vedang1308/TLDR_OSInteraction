@@ -1,0 +1,3 @@
+Task: Change the industry filter for jobs
+Output Script:
+pyautogui.click(325.0,433.0)

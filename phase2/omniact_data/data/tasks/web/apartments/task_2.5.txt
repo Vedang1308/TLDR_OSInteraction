@@ -1,0 +1,3 @@
+Task: Go to the map
+Output script:
+pyautogui.click(25.0,27.0)

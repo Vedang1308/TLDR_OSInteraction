@@ -1,0 +1,7 @@
+Task: "Retrieve pricing for lorry hire with collection from point A and return to point B"
+Output Script:
+pyautogui.click(317.0,576.5)
+pyautogui.write("A")
+pyautogui.click(627.0,576.5)
+pyautogui.write("B")
+pyautogui.click(1185.0,577.0)

@@ -1,0 +1,5 @@
+Task: Search for the artist "Calvin Harris"
+Output Script:
+pyautogui.click(3203.5,139.5)
+pyautogui.write("Calvin Harris")
+pyautogui.press("Enter")

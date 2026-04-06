@@ -1,0 +1,3 @@
+Task: Click AC to clear contents
+Output Script:
+pyautogui.click(1823.0,878.0)

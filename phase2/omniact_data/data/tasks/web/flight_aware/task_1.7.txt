@@ -1,0 +1,5 @@
+Task: Select the 2nd option for the search
+Output Script:
+pyautogui.click(474.0,63.5)
+pyautogui.press("down")
+pyautogui.press("enter")

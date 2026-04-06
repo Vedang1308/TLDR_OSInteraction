@@ -1,0 +1,3 @@
+Task: "How much do boxes cost?"
+Output Script: 
+pyautogui.click(385.0,605.0)

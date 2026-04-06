@@ -1,0 +1,5 @@
+Task: Navigate to "folder_shared" and click on the first file
+Output Script:
+pyautogui.click(165.0,622.0)
+pyautogui.press("right")
+pyautogui.press("enter")

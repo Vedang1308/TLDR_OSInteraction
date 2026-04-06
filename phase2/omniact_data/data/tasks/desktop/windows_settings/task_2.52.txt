@@ -1,0 +1,3 @@
+Task: Click on "Captures" located on the left section of the interface
+Output Script:
+pyautogui.click(198.5,342.0)

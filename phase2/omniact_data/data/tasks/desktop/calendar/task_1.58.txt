@@ -1,0 +1,3 @@
+Task: Move the cursor to the number 1 that represents a date.
+Output script:
+pyautogui.click(2204.5,161.5)

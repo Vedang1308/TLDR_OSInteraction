@@ -1,0 +1,3 @@
+Task: Trigger share on Pinterest feature
+Output Script:
+pyautogui.click(21.0,492.0)

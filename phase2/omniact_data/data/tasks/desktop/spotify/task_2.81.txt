@@ -1,0 +1,3 @@
+Task: Exchange the continuous loop function with single loop function
+Output script:
+pyautogui.click(1080.5,957.5)

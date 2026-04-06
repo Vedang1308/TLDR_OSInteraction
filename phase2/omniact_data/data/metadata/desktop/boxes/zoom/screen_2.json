@@ -1,0 +1,288 @@
+{
+    "example_0": {
+        "top_left": [
+            51,
+            1701
+        ],
+        "bottom_right": [
+            140,
+            1787
+        ],
+        "label": "mute-unmute button"
+    },
+    "example_1": {
+        "top_left": [
+            142,
+            1701
+        ],
+        "bottom_right": [
+            170,
+            1781
+        ],
+        "label": "audio options"
+    },
+    "example_2": {
+        "top_left": [
+            225,
+            1700
+        ],
+        "bottom_right": [
+            312,
+            1795
+        ],
+        "label": "start-stop video"
+    },
+    "example_3": {
+        "top_left": [
+            317,
+            1701
+        ],
+        "bottom_right": [
+            348,
+            1781
+        ],
+        "label": "video options"
+    },
+    "example_4": {
+        "top_left": [
+            490,
+            1702
+        ],
+        "bottom_right": [
+            588,
+            1788
+        ],
+        "label": "security"
+    },
+    "example_5": {
+        "top_left": [
+            647,
+            1700
+        ],
+        "bottom_right": [
+            791,
+            1790
+        ],
+        "label": "participants"
+    },
+    "example_6": {
+        "top_left": [
+            876,
+            1700
+        ],
+        "bottom_right": [
+            963,
+            1787
+        ],
+        "label": "chat"
+    },
+    "example_7": {
+        "top_left": [
+            792,
+            1698
+        ],
+        "bottom_right": [
+            813,
+            1791
+        ],
+        "label": "participant options"
+    },
+    "example_8": {
+        "top_left": [
+            964,
+            1700
+        ],
+        "bottom_right": [
+            993,
+            1788
+        ],
+        "label": "chat options"
+    },
+    "example_9": {
+        "top_left": [
+            1027,
+            1701
+        ],
+        "bottom_right": [
+            1155,
+            1786
+        ],
+        "label": "share screen"
+    },
+    "example_10": {
+        "top_left": [
+            1157,
+            1701
+        ],
+        "bottom_right": [
+            1177,
+            1766
+        ],
+        "label": "share screen options"
+    },
+    "example_11": {
+        "top_left": [
+            1239,
+            1702
+        ],
+        "bottom_right": [
+            1303,
+            1787
+        ],
+        "label": "polls"
+    },
+    "example_12": {
+        "top_left": [
+            1398,
+            1703
+        ],
+        "bottom_right": [
+            1483,
+            1788
+        ],
+        "label": "record meeting"
+    },
+    "example_13": {
+        "top_left": [
+            1537,
+            1704
+        ],
+        "bottom_right": [
+            1688,
+            1786
+        ],
+        "label": "on off captiosn"
+    },
+    "example_14": {
+        "top_left": [
+            1689,
+            1704
+        ],
+        "bottom_right": [
+            1715,
+            1764
+        ],
+        "label": "captions options"
+    },
+    "example_15": {
+        "top_left": [
+            1739,
+            1704
+        ],
+        "bottom_right": [
+            1933,
+            1786
+        ],
+        "label": "breakput rooms"
+    },
+    "example_16": {
+        "top_left": [
+            1965,
+            1705
+        ],
+        "bottom_right": [
+            2074,
+            1789
+        ],
+        "label": "reactions"
+    },
+    "example_17": {
+        "top_left": [
+            2076,
+            1704
+        ],
+        "bottom_right": [
+            2094,
+            1765
+        ],
+        "label": "reaction options"
+    },
+    "example_18": {
+        "top_left": [
+            2160,
+            1706
+        ],
+        "bottom_right": [
+            2235,
+            1799
+        ],
+        "label": "applications"
+    },
+    "example_19": {
+        "top_left": [
+            2237,
+            1707
+        ],
+        "bottom_right": [
+            2276,
+            1798
+        ],
+        "label": "application options"
+    },
+    "example_20": {
+        "top_left": [
+            2307,
+            1707
+        ],
+        "bottom_right": [
+            2424,
+            1789
+        ],
+        "label": "whiteboard"
+    },
+    "example_21": {
+        "top_left": [
+            2426,
+            1708
+        ],
+        "bottom_right": [
+            2453,
+            1789
+        ],
+        "label": "whiteboard options"
+    },
+    "example_22": {
+        "top_left": [
+            2505,
+            1709
+        ],
+        "bottom_right": [
+            2580,
+            1791
+        ],
+        "label": "more options"
+    },
+    "example_23": {
+        "top_left": [
+            2727,
+            1714
+        ],
+        "bottom_right": [
+            2857,
+            1771
+        ],
+        "label": "end meeting"
+    },
+    "example_24": {
+        "top_left": [
+            2760,
+            15
+        ],
+        "bottom_right": [
+            2853,
+            58
+        ],
+        "label": "layout"
+    },
+    "example_25": {
+        "top_left": [
+            2687,
+            18
+        ],
+        "bottom_right": [
+            2728,
+            56
+        ],
+        "label": "pair with zoom-room"
+    }
+}

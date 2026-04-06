@@ -1,0 +1,3 @@
+Task: Scroll page down
+Output script:
+pyautogui.press("space")

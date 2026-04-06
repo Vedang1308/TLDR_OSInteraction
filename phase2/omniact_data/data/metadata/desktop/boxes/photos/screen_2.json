@@ -1,0 +1,101 @@
+{
+    "example_0": {
+        "top_left": [
+            40,
+            1974
+        ],
+        "bottom_right": [
+            130,
+            2061
+        ],
+        "label": "play_from_start"
+    },
+    "example_1": {
+        "top_left": [
+            167,
+            1974
+        ],
+        "bottom_right": [
+            257,
+            2061
+        ],
+        "label": "add_music"
+    },
+    "example_2": {
+        "top_left": [
+            296,
+            1972
+        ],
+        "bottom_right": [
+            386,
+            2059
+        ],
+        "label": "add_filters"
+    },
+    "example_3": {
+        "top_left": [
+            3102,
+            1972
+        ],
+        "bottom_right": [
+            3192,
+            2059
+        ],
+        "label": "play_pause"
+    },
+    "example_4": {
+        "top_left": [
+            3231,
+            1973
+        ],
+        "bottom_right": [
+            3321,
+            2060
+        ],
+        "label": "see_pic_tiles"
+    },
+    "example_5": {
+        "top_left": [
+            1022,
+            1971
+        ],
+        "bottom_right": [
+            1072,
+            2056
+        ],
+        "label": "show_pic1"
+    },
+    "example_6": {
+        "top_left": [
+            1083,
+            1972
+        ],
+        "bottom_right": [
+            1130,
+            2057
+        ],
+        "label": "show_pic2"
+    },
+    "example_7": {
+        "top_left": [
+            1145,
+            1972
+        ],
+        "bottom_right": [
+            1192,
+            2059
+        ],
+        "label": "show_pic3"
+    },
+    "example_8": {
+        "top_left": [
+            1988,
+            1973
+        ],
+        "bottom_right": [
+            2035,
+            2060
+        ],
+        "label": "show_pic_last"
+    }
+}

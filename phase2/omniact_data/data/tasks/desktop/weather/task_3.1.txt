@@ -1,0 +1,3 @@
+Task: Check the weather on 13th by pressing the date button
+Output Script:
+pyautogui.click(1937.0,808.0)

@@ -1,0 +1,3 @@
+Task: Filter places near "Statue of Liberty".
+Output script:
+pyautogui.click(1442.0,1392.0)

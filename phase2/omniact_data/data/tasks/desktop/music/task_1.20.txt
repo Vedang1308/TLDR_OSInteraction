@@ -1,0 +1,3 @@
+Task: Play Tailgating
+Output script:
+pyautogui.click(3222.5,1150.5)

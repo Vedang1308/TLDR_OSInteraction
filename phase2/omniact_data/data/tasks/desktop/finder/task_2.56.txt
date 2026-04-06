@@ -1,0 +1,4 @@
+Task: Show the contents of Backup folder, then hide them again
+Output Script:
+pyautogui.click(384.0,190.0)
+pyautogui.click(384.0,190.0)

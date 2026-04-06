@@ -1,0 +1,3 @@
+Task: Shift to the Films & TV division
+Output Script:
+pyautogui.click(46.5,335.0)

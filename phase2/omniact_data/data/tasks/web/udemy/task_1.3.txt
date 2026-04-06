@@ -1,0 +1,2 @@
+Task: Buy the course now
+pyautogui.click(1094.0,451.0)

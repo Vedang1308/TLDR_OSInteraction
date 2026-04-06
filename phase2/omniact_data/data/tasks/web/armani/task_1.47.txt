@@ -1,0 +1,3 @@
+Task: Reserve a time slot by using the appointment tool in the menu
+Output Script:
+pyautogui.click(1175.5,171.5)

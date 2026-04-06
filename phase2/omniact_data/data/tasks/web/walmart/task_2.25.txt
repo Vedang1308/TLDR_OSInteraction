@@ -1,0 +1,3 @@
+Task: Proceed to your account"s interface
+Output Script:
+pyautogui.click(1295.0,44.0)

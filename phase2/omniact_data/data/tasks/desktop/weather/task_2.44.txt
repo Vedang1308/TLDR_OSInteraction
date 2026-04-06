@@ -1,0 +1,3 @@
+Task: Conceal the city list located on the left side of the screen
+Output Script:
+pyautogui.click(701.0,49.0)

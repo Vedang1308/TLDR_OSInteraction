@@ -1,0 +1,4 @@
+Task: Go to the album "Recents" and enlarge pictures using top bar
+Output Script:
+pyautogui.click(215.0,413.5)
+pyautogui.write("enlarge_pics")

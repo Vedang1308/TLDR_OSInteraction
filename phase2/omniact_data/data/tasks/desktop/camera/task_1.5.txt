@@ -1,0 +1,5 @@
+Task: Open a new image that is the second one in the file browser
+Output Script:
+pyautogui.click(1769.0,137.0)
+pyautogui.press("down")
+pyautogui.press("enter")

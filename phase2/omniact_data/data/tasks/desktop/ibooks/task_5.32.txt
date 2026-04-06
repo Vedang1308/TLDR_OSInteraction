@@ -1,0 +1,3 @@
+Task: Click on the "More Options" selection for "How to Behave" book to view more alternatives.
+Output Script:
+pyautogui.click(859.0,966.5)

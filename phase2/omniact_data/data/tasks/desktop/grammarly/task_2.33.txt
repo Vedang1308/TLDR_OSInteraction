@@ -1,0 +1,3 @@
+Task: Process the file export
+Output script:
+pyautogui.click(190.0,318.5)

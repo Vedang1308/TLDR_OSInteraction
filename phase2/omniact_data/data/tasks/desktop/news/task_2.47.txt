@@ -1,0 +1,4 @@
+Task: Move upwards to browse through preceding content.
+Output script:
+pyautogui.click(1660.0,954.5)
+pyautogui.scroll(-100)

@@ -1,0 +1,4 @@
+Task: Move "documents" folders to "application" folder by dragging
+Output Script:
+pyautogui.click(809.5,263.0)
+pyautogui.dragTo(476.5,264.0,"left")

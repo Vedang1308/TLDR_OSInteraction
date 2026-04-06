@@ -1,0 +1,3 @@
+Task: Execute Films & TV software
+Output Script:
+pyautogui.click(469.5,322.5)

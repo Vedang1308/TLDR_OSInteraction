@@ -1,0 +1,3 @@
+Task: Indicate this event as noteworthy.
+Output script:
+pyautogui.click(1178.0,1112.0)

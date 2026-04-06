@@ -1,0 +1,3 @@
+Task: Navigate to the section displaying fruits and vegetables
+Output Script:
+pyautogui.click(157.0,230.0)

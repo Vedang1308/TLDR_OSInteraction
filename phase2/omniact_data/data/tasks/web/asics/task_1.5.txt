@@ -1,0 +1,10 @@
+Task: See different categories they have, but changed my mind to go back to searching for my husband"s shoes
+Output Script:
+pyautogui.click(245.0,367.5)
+pyautogui.press("tab")
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("up")
+pyautogui.press("up")
+pyautogui.click(297.5,116.0)

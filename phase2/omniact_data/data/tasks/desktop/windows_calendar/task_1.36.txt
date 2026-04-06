@@ -1,0 +1,3 @@
+Task: Change the view to month
+Output Script:
+Pyautogui.click(1438.5,69.5)

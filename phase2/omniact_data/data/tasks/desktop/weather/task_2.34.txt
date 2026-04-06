@@ -1,0 +1,3 @@
+Task: Check the prevailing weather at Niagara Falls
+Output Script:
+pyautogui.click(317.5,412.0)

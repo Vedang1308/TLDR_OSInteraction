@@ -1,0 +1,6 @@
+Task: Subtract 5 from 10
+Output Script:
+pyautogui.click(1822.0,1161.0)
+pyautogui.click(1881.0,1255.5)
+pyautogui.click(2168.0,1067.5)
+pyautogui.click(1938.0,1065.0)

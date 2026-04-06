@@ -1,0 +1,5 @@
+Task: Search for  Amazon"s in the inbox
+Output Script:
+pyautogui.click(460.5,71.0)
+pyautogui.write("Amazon")
+pyautogui.press("enter")

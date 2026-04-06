@@ -1,0 +1,5 @@
+Task: Select the "more" button, then find and select the "Reviews" option to see feedback from users.
+Output script:
+pyautogui.click(2381.5,1602.0)
+pyautogui.write("Reviews")
+pyautogui.press("Enter")

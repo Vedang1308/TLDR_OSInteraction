@@ -1,0 +1,4 @@
+Task: Navigate towards the end of the page to reveal additional content.
+Output script:
+pyautogui.moveTo(1660.0,954.5)
+pyautogui.scroll(-30)

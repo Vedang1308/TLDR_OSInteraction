@@ -1,0 +1,5 @@
+Task: Add a review of the place by clicking on the "more options" button and selecting "add review".
+Output script:
+pyautogui.click(1970.5,342.5)
+pyautogui.write("add review")
+pyautogui.press("enter")

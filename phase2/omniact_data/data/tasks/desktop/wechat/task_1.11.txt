@@ -1,0 +1,4 @@
+Task: Scroll up in the chat with Jack
+Output Script:
+pyautogui.click(1150.5,465.0)
+pyautogui.scroll(10)

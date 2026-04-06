@@ -1,0 +1,3 @@
+Task: Zoom out of the document
+Output script:
+pyautogui.hotkey("ctrl", "-")

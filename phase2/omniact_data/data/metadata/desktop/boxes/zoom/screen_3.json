@@ -1,0 +1,167 @@
+{
+    "example_0": {
+        "top_left": [
+            31,
+            23
+        ],
+        "bottom_right": [
+            301,
+            70
+        ],
+        "label": "search bar"
+    },
+    "example_1": {
+        "top_left": [
+            42,
+            354
+        ],
+        "bottom_right": [
+            890,
+            440
+        ],
+        "label": "timer app"
+    },
+    "example_2": {
+        "top_left": [
+            45,
+            626
+        ],
+        "bottom_right": [
+            890,
+            704
+        ],
+        "label": "music app"
+    },
+    "example_3": {
+        "top_left": [
+            987,
+            623
+        ],
+        "bottom_right": [
+            1865,
+            706
+        ],
+        "label": "virtual background app"
+    },
+    "example_4": {
+        "top_left": [
+            1926,
+            623
+        ],
+        "bottom_right": [
+            2590,
+            701
+        ],
+        "label": "group photo app"
+    },
+    "example_5": {
+        "top_left": [
+            2795,
+            140
+        ],
+        "bottom_right": [
+            2837,
+            184
+        ],
+        "label": "setting"
+    },
+    "example_6": {
+        "top_left": [
+            2734,
+            26
+        ],
+        "bottom_right": [
+            2765,
+            76
+        ],
+        "label": "open activity center"
+    },
+    "example_7": {
+        "top_left": [
+            176,
+            262
+        ],
+        "bottom_right": [
+            362,
+            312
+        ],
+        "label": "sort app"
+    },
+    "example_8": {
+        "top_left": [
+            1445,
+            137
+        ],
+        "bottom_right": [
+            1678,
+            187
+        ],
+        "label": "add new apps"
+    },
+    "example_9": {
+        "top_left": [
+            1101,
+            20
+        ],
+        "bottom_right": [
+            1178,
+            87
+        ],
+        "label": "home option"
+    },
+    "example_10": {
+        "top_left": [
+            1259,
+            20
+        ],
+        "bottom_right": [
+            1351,
+            95
+        ],
+        "label": "meeting"
+    },
+    "example_11": {
+        "top_left": [
+            1426,
+            15
+        ],
+        "bottom_right": [
+            1517,
+            95
+        ],
+        "label": "contacts"
+    },
+    "example_12": {
+        "top_left": [
+            1598,
+            29
+        ],
+        "bottom_right": [
+            1667,
+            95
+        ],
+        "label": "applications"
+    },
+    "example_13": {
+        "top_left": [
+            1748,
+            23
+        ],
+        "bottom_right": [
+            1862,
+            87
+        ],
+        "label": "whiteboard"
+    },
+    "example_14": {
+        "top_left": [
+            2653,
+            23
+        ],
+        "bottom_right": [
+            2695,
+            76
+        ],
+        "label": "pair with zoom-room"
+    }
+}

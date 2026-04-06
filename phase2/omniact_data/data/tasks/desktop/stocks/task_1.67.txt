@@ -1,0 +1,3 @@
+Task: Access detailed information about Nike stock.
+Output script:
+pyautogui.click(328.5,1385.5)

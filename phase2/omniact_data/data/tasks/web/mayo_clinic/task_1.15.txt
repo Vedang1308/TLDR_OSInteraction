@@ -1,0 +1,4 @@
+Task: Move the "request appointment" option to the "Donate" section.
+Output Script:
+pyautogui.moveTo(1079.0,49.0)
+pyautogui.dragTo(1199.5,49.0,"left")

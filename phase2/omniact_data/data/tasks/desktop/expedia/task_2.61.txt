@@ -1,0 +1,5 @@
+Task: Set "Bangalore" as the starting point for your journey.
+Output script:
+pyautogui.click(1438.0,208.5)
+pyautogui.write("Bangalore")
+pyautogui.press("enter")

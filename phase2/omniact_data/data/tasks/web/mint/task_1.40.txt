@@ -1,0 +1,3 @@
+Task: Open up the Why Mint webpage
+Output Script:
+pyautogui.click(1000.0,89.0)

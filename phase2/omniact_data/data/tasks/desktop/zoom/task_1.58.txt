@@ -1,0 +1,3 @@
+Task: Press the home option to return to the initial interface.
+Output Script:
+pyautogui.click(1142.0,51.0)

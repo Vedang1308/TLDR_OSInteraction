@@ -1,0 +1,3 @@
+Task: Activating the editor configurations
+Output script:
+pyautogui.click(188.5,722.5)

@@ -1,0 +1,5 @@
+Task: Share the place with a friend by clicking on the "more options" button and selecting "share".
+Output script:
+pyautogui.click(1970.5,342.5)
+pyautogui.write("share")
+pyautogui.press("enter")

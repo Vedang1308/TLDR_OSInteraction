@@ -1,0 +1,3 @@
+Task: Convey your distaste for the place by pressing the down-facing thumb button.
+Output script:
+pyautogui.click(1612.5,671.0)

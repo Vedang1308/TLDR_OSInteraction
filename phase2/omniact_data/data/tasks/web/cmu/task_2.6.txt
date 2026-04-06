@@ -1,0 +1,3 @@
+Task: Highlight "The Hub"
+Output Script:
+pyautogui.doubleClick(208.0,107.0)

@@ -1,0 +1,3 @@
+Task: Expand the score section
+Output script:
+pyautogui.click(1780.0,160.0)

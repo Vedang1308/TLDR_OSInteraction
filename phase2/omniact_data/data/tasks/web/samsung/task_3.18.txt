@@ -1,0 +1,4 @@
+Task: Go to the beginning of the photo gallery and enlarge the first image
+Output Script:
+pyautogui.click(76.5,499.0)
+pyautogui.moveTo(76.5,574.0)

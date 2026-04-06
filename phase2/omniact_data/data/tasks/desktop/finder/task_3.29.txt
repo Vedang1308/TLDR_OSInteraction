@@ -1,0 +1,4 @@
+Task: Use the search icon to find the Calculator Application
+Output Script:
+pyautogui.click(2891.5,25.5)
+pyautogui.write("calculator")

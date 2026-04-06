@@ -1,0 +1,3 @@
+Task: Access the 2023 Q2 Investment Presentation through the button inside the Resource tab
+Output Script:
+pyautogui.click(1192.0,703.0)

@@ -1,0 +1,134 @@
+{
+    "example_0": {
+        "top_left": [
+            569,
+            1
+        ],
+        "bottom_right": [
+            703,
+            69
+        ],
+        "valid": 1,
+        "label": "discover_drop-down"
+    },
+    "example_1": {
+        "top_left": [
+            363,
+            1
+        ],
+        "bottom_right": [
+            569,
+            69
+        ],
+        "valid": 1,
+        "label": " redirecting to health conditions."
+    },
+    "example_2": {
+        "top_left": [
+            804,
+            1
+        ],
+        "bottom_right": [
+            935,
+            69
+        ],
+        "valid": 1,
+        "label": "drop_down_connect"
+    },
+    "example_3": {
+        "top_left": [
+            210,
+            468
+        ],
+        "bottom_right": [
+            730,
+            544
+        ],
+        "valid": 1,
+        "label": "article_link_tiktok_vitamin_d"
+    },
+    "example_4": {
+        "top_left": [
+            840,
+            470
+        ],
+        "bottom_right": [
+            1250,
+            584
+        ],
+        "valid": 1,
+        "label": "article_link_post_traumatic_stress"
+    },
+    "example_5": {
+        "top_left": [
+            1230,
+            27
+        ],
+        "bottom_right": [
+            1270,
+            43
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_6": {
+        "top_left": [
+            1160,
+            732
+        ],
+        "bottom_right": [
+            1270,
+            756
+        ],
+        "valid": 1,
+        "label": "view_redirect "
+    },
+    "example_7": {
+        "top_left": [
+            703,
+            1
+        ],
+        "bottom_right": [
+            804,
+            69
+        ],
+        "valid": 1,
+        "label": "Plan_drop-down"
+    },
+    "example_8": {
+        "top_left": [
+            1121,
+            26
+        ],
+        "bottom_right": [
+            1205,
+            44
+        ],
+        "valid": 1,
+        "label": "redirect_subscribe"
+    },
+    "example_9": {
+        "top_left": [
+            840,
+            599
+        ],
+        "bottom_right": [
+            1236,
+            641
+        ],
+        "valid": 1,
+        "label": "article_link"
+    },
+    "example_10": {
+        "top_left": [
+            170,
+            22
+        ],
+        "bottom_right": [
+            338,
+            48
+        ],
+        "valid": 1,
+        "label": "Healthline_homepage_redirect"
+    }
+}

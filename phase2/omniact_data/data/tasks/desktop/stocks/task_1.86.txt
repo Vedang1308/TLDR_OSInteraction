@@ -1,0 +1,5 @@
+Task: Use the top left search bar to find "Apple Inc" company"s stock data.
+Output script:
+pyautogui.click(329.5,149.5)
+pyautogui.write("Apple Inc")
+pyautogui.press("enter")

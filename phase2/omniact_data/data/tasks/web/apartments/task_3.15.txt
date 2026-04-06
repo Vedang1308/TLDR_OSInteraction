@@ -1,0 +1,3 @@
+Task: initiate the process to add a new property
+Output script:
+pyautogui.click(1376.5,23.0)

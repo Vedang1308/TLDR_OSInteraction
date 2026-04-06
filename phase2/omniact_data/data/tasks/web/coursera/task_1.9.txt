@@ -1,0 +1,3 @@
+Task: Check Coursera For Government Page
+Output Script:
+pyautogui.click(489.0,20.0)

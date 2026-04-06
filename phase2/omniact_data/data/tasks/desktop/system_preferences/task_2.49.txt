@@ -1,0 +1,4 @@
+Task: Navigate down on the screen.
+Output Script:
+pyautogui.click(1479.5,856.0)
+pyautogui.scroll(-30)

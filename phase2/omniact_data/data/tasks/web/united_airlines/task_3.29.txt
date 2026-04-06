@@ -1,0 +1,3 @@
+Task: Proceed to Premium Cabin Special Offers
+Output script:
+pyautogui.click(1096.0,590.0)

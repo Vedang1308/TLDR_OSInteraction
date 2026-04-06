@@ -1,0 +1,3 @@
+Task: To make your current screen smaller, press the dash-like icon placed in the top-right edge of your window.
+Output Script:
+pyautogui.click(1783.5,22.5)

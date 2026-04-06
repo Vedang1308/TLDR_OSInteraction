@@ -1,0 +1,3 @@
+Task: Search for flights and hotels
+Output Script:
+pyautogui.click(450.5,90.0)

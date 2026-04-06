@@ -1,0 +1,5 @@
+Task: Send a text to dad saying "Love you"
+Output Script:
+pyautogui.click(320.0,1416.5)
+pyautogui.write("Love you")
+pyautogui.press("enter")

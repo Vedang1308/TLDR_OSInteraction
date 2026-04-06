@@ -1,0 +1,3 @@
+Task: Navigate to the shop decor section by selecting the shop decor card
+Output Script:
+pyautogui.click(1144.5,272.5)

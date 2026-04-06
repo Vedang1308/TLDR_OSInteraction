@@ -1,0 +1,3 @@
+Task: Carry out the instruction to display the "Greenwich Park" content
+Output Script:
+pyautogui.doubleClick(1881.5,1982.0)

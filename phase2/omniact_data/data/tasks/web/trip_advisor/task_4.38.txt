@@ -1,0 +1,3 @@
+Task: Select the flights option for booking
+Output Script:
+pyautogui.click(454.0,81.0)

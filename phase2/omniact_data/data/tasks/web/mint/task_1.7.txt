@@ -1,0 +1,3 @@
+Task: Go to the Help Page
+Output Script:
+pyautogui.click(1093.0,89.0)

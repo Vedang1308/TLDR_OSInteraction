@@ -1,0 +1,230 @@
+{
+    "example_0": {
+        "top_left": [
+            736,
+            39
+        ],
+        "bottom_right": [
+            779,
+            81
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_1": {
+        "top_left": [
+            244,
+            796
+        ],
+        "bottom_right": [
+            479,
+            831
+        ],
+        "valid": 1,
+        "label": "Search_box_Zip_Code"
+    },
+    "example_2": {
+        "top_left": [
+            1216,
+            130
+        ],
+        "bottom_right": [
+            1380,
+            148
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_3": {
+        "top_left": [
+            150,
+            155
+        ],
+        "bottom_right": [
+            213,
+            203
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_4": {
+        "top_left": [
+            245,
+            155
+        ],
+        "bottom_right": [
+            307,
+            203
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_5": {
+        "top_left": [
+            997,
+            547
+        ],
+        "bottom_right": [
+            1026,
+            564
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_6": {
+        "top_left": [
+            1028,
+            417
+        ],
+        "bottom_right": [
+            1156,
+            458
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_7": {
+        "top_left": [
+            244,
+            718
+        ],
+        "bottom_right": [
+            485,
+            753
+        ],
+        "valid": 1,
+        "label": "search_city"
+    },
+    "example_8": {
+        "top_left": [
+            1124,
+            130
+        ],
+        "bottom_right": [
+            1184,
+            148
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            339,
+            155
+        ],
+        "bottom_right": [
+            483,
+            203
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_10": {
+        "top_left": [
+            323,
+            539
+        ],
+        "bottom_right": [
+            366,
+            555
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_11": {
+        "top_left": [
+            1332,
+            160
+        ],
+        "bottom_right": [
+            1376,
+            204
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_12": {
+        "top_left": [
+            1278,
+            166
+        ],
+        "bottom_right": [
+            1333,
+            206
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_13": {
+        "top_left": [
+            1063,
+            547
+        ],
+        "bottom_right": [
+            1158,
+            564
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_14": {
+        "top_left": [
+            1340,
+            39
+        ],
+        "bottom_right": [
+            1380,
+            81
+        ],
+        "valid": 1,
+        "label": "language_change_button"
+    },
+    "example_15": {
+        "top_left": [
+            991,
+            130
+        ],
+        "bottom_right": [
+            1091,
+            148
+        ],
+        "valid": 1,
+        "label": "Address price search"
+    },
+    "example_16": {
+        "top_left": [
+            60,
+            255
+        ],
+        "bottom_right": [
+            98,
+            271
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_17": {
+        "top_left": [
+            484,
+            796
+        ],
+        "bottom_right": [
+            519,
+            831
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_18": {
+        "top_left": [
+            60,
+            141
+        ],
+        "bottom_right": [
+            114,
+            218
+        ],
+        "valid": 1,
+        "label": "redirect_home"
+    }
+}

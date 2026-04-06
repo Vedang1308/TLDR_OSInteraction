@@ -1,0 +1,3 @@
+Task: Reject the proposed correction initiated by Grammarly
+Output script:
+pyautogui.click(1197.0,257.0)

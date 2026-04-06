@@ -1,0 +1,5 @@
+Task: Navigate to "Lily Rose" in your phone"s contact book.
+Output Script:
+pyautogui.click(1471.5,55.0)
+pyautogui.write("Lily Rose")
+pyautogui.press("enter")

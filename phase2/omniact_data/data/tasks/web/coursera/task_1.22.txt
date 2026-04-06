@@ -1,0 +1,3 @@
+Task: Access Duke University"s Homepage
+Output Script:
+pyautogui.click(410.5,740.0)

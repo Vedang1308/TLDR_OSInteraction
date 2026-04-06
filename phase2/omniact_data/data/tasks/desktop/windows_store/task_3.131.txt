@@ -1,0 +1,3 @@
+Task: Launch settings in Windows media player 
+Output Script:
+pyautogui.click(1840.0,601.0)

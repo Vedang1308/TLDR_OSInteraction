@@ -1,0 +1,3 @@
+Task: Send the currently opened email to another recipient
+Output Script:
+pyautogui.click(1825.5,186.0)

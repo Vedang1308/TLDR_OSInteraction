@@ -1,0 +1,3 @@
+Task: Register a new home address. 
+Output script:
+pyautogui.click(290.0,353.0)

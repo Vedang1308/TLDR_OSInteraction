@@ -1,0 +1,5 @@
+Task: Update the city to London via the search tool
+Output Script:
+pyautogui.click(3156.0,49.0)
+pyautogui.write("London")
+pyautogui.press("enter")

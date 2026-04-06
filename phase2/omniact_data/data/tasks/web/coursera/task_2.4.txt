@@ -1,0 +1,3 @@
+Task: Check all online degrees
+Output Script:
+pyautogui.click(1069.0,72.0)

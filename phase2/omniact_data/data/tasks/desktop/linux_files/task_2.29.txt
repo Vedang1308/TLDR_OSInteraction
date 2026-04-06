@@ -1,0 +1,5 @@
+Task: Implement the formation of a new file folder via mouse right-click and keyboard keys.
+Output Script:
+pyautogui.rightClick(1091.5,861.5)
+pyautogui.press("down")
+pyautogui.press("enter")

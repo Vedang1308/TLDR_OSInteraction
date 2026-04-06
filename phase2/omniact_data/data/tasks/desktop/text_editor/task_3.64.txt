@@ -1,0 +1,3 @@
+Task: "Press the save option to secure the file"
+Output Script:
+pyautogui.click(1712.0,48.5)

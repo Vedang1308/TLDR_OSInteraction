@@ -1,0 +1,3 @@
+Task: Access more data by clicking on the Home Depot stock.
+Output script:
+pyautogui.click(324.0,1259.5)

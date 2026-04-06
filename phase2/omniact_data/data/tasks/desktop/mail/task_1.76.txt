@@ -1,0 +1,3 @@
+Task: Navigate and open the crucial mail.
+Output script:
+pyautogui.click(196.5,480.0)

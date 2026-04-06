@@ -1,0 +1,5 @@
+Task: Dispatch the narrative to the Notes program.
+Output script:
+pyautogui.click(2834.0,51.0)
+pyautogui.write("Notes")
+pyautogui.press("Enter")

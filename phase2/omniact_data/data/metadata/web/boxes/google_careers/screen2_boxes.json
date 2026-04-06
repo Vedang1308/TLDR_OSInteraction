@@ -1,0 +1,170 @@
+{
+    "example_0": {
+        "top_left": [
+            441,
+            23
+        ],
+        "bottom_right": [
+            500,
+            40
+        ],
+        "valid": 1,
+        "label": "redirect_to_students_page"
+    },
+    "example_1": {
+        "top_left": [
+            640,
+            312
+        ],
+        "bottom_right": [
+            776,
+            360
+        ],
+        "valid": 1,
+        "label": "redirect_europe"
+    },
+    "example_2": {
+        "top_left": [
+            270,
+            312
+        ],
+        "bottom_right": [
+            457,
+            360
+        ],
+        "valid": 1,
+        "label": "North_America_Locations"
+    },
+    "example_3": {
+        "top_left": [
+            944,
+            312
+        ],
+        "bottom_right": [
+            1170,
+            360
+        ],
+        "valid": 1,
+        "label": "redirect_to_Africa_and_Middle_East_locations_page"
+    },
+    "example_4": {
+        "top_left": [
+            776,
+            312
+        ],
+        "bottom_right": [
+            944,
+            360
+        ],
+        "valid": 1,
+        "label": "change_location_region"
+    },
+    "example_5": {
+        "top_left": [
+            457,
+            312
+        ],
+        "bottom_right": [
+            640,
+            360
+        ],
+        "valid": 1,
+        "label": "Latin_America_tab"
+    },
+    "example_6": {
+        "top_left": [
+            1141,
+            14
+        ],
+        "bottom_right": [
+            1272,
+            50
+        ],
+        "valid": 1,
+        "label": "drop-down_your_career"
+    },
+    "example_7": {
+        "top_left": [
+            1324,
+            14
+        ],
+        "bottom_right": [
+            1420,
+            50
+        ],
+        "valid": 1,
+        "label": "sign_in_to_account"
+    },
+    "example_8": {
+        "top_left": [
+            230,
+            23
+        ],
+        "bottom_right": [
+            295,
+            40
+        ],
+        "valid": 1,
+        "label": "locations_page"
+    },
+    "example_9": {
+        "top_left": [
+            168,
+            23
+        ],
+        "bottom_right": [
+            210,
+            40
+        ],
+        "valid": 1,
+        "label": "redirect_to_Teams"
+    },
+    "example_10": {
+        "top_left": [
+            315,
+            23
+        ],
+        "bottom_right": [
+            369,
+            40
+        ],
+        "valid": 1,
+        "label": "redirect_to_Benefits"
+    },
+    "example_11": {
+        "top_left": [
+            64,
+            22
+        ],
+        "bottom_right": [
+            138,
+            46
+        ],
+        "valid": 1,
+        "label": "Redirect to Google"
+    },
+    "example_12": {
+        "top_left": [
+            389,
+            23
+        ],
+        "bottom_right": [
+            421,
+            40
+        ],
+        "valid": 1,
+        "label": "redirect_to_jobs_page"
+    },
+    "example_13": {
+        "top_left": [
+            1272,
+            12
+        ],
+        "bottom_right": [
+            1312,
+            52
+        ],
+        "valid": 1,
+        "label": "Menu_button"
+    }
+}

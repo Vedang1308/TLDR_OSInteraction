@@ -1,0 +1,3 @@
+Task: Browse to the "Documents" tab 
+Output Script:
+pyautogui.click(167.5,248.5)

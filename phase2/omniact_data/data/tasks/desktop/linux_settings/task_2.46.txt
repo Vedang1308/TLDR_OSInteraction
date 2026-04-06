@@ -1,0 +1,3 @@
+Task: Start the Archive Manager application
+Output Script:
+pyautogui.click(192.0,246.5)

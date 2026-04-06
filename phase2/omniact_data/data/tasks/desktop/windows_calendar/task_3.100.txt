@@ -1,0 +1,3 @@
+Task: Set an alert for the occasion
+Output Script:
+pyautogui.click(789.0,125.5)

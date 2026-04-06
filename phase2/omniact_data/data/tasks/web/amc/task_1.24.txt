@@ -1,0 +1,4 @@
+Task: Navigate downwards twice on the current page
+Output Script:
+pyautogui.press("down")
+pyautogui.press("down")

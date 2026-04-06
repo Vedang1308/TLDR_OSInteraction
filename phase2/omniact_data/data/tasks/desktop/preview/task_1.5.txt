@@ -1,0 +1,4 @@
+Task: Rotate the document page by 180 degrees.
+Output script:
+pyautogui.click(2089.5,99.5)
+pyautogui.click(2089.5,99.5)

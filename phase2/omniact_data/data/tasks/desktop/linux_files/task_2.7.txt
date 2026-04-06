@@ -1,0 +1,6 @@
+Task: Open the menu and select the "New File" option using keyboard
+Output Script:
+pyautogui.click(1769.5,50.0)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Append your signature to the file.
+Output script:
+pyautogui.click(669.0,184.5)

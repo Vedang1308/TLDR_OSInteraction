@@ -1,0 +1,3 @@
+Task: Hit the "AC" button for data deletion
+Output Script:
+pyautogui.click(1823.0,878.0)

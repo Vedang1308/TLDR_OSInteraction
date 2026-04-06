@@ -1,0 +1,6 @@
+Task: Switch the typeface to bold and alter the font dimension to 8.
+Output script:
+pyautogui.click(2192.5,130.5)
+pyautogui.click(2001.0,132.5)
+pyautogui.write("8")
+pyautogui.press("enter")

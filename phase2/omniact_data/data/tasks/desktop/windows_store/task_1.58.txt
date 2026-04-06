@@ -1,0 +1,6 @@
+Task: Go to Gaming Page
+Output Script:
+autogui.click(44.5,100.5)
+pyautogui.press("PGDN")
+pyautogui.press("PGDN")
+pyautogui.press("enter")

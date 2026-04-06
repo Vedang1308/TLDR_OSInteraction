@@ -1,0 +1,3 @@
+Task: Click on the "memorial tour" for adding it to the travel schedule.
+Output script:
+pyautogui.click(1441.5,1053.5)

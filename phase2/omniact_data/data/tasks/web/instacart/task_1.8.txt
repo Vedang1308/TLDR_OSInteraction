@@ -1,0 +1,3 @@
+Task: Redirect  to Costco Store
+Output Script:
+pyautogui.click(720.0,541.0)

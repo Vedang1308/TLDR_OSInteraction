@@ -1,0 +1,3 @@
+Task: Search the question
+Output script:
+pyautogui.click(1236.0,358.5)

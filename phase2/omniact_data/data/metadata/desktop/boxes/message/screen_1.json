@@ -1,0 +1,299 @@
+{
+    "example_0": {
+        "top_left": [
+            19,
+            185
+        ],
+        "bottom_right": [
+            617,
+            314
+        ],
+        "label": "message_ash"
+    },
+    "example_1": {
+        "top_left": [
+            772,
+            2016
+        ],
+        "bottom_right": [
+            3188,
+            2066
+        ],
+        "label": "type_message"
+    },
+    "example_2": {
+        "top_left": [
+            677,
+            2021
+        ],
+        "bottom_right": [
+            730,
+            2056
+        ],
+        "label": "widgets"
+    },
+    "example_3": {
+        "top_left": [
+            20,
+            314
+        ],
+        "bottom_right": [
+            618,
+            443
+        ],
+        "label": "message_clara"
+    },
+    "example_4": {
+        "top_left": [
+            21,
+            442
+        ],
+        "bottom_right": [
+            619,
+            571
+        ],
+        "label": "message_thomas"
+    },
+    "example_5": {
+        "top_left": [
+            3190,
+            2016
+        ],
+        "bottom_right": [
+            3246,
+            2066
+        ],
+        "label": "voice_message"
+    },
+    "example_6": {
+        "top_left": [
+            3274,
+            2011
+        ],
+        "bottom_right": [
+            3338,
+            2074
+        ],
+        "label": "emoji"
+    },
+    "example_7": {
+        "top_left": [
+            3188,
+            14
+        ],
+        "bottom_right": [
+            3267,
+            90
+        ],
+        "label": "facetime_video"
+    },
+    "example_8": {
+        "top_left": [
+            3269,
+            16
+        ],
+        "bottom_right": [
+            3348,
+            92
+        ],
+        "label": "info"
+    },
+    "example_9": {
+        "top_left": [
+            21,
+            572
+        ],
+        "bottom_right": [
+            619,
+            701
+        ],
+        "label": "message_ash"
+    },
+    "example_10": {
+        "top_left": [
+            21,
+            701
+        ],
+        "bottom_right": [
+            619,
+            830
+        ],
+        "label": "message_lukas"
+    },
+    "example_11": {
+        "top_left": [
+            21,
+            832
+        ],
+        "bottom_right": [
+            619,
+            961
+        ],
+        "label": "message_harris"
+    },
+    "example_12": {
+        "top_left": [
+            22,
+            963
+        ],
+        "bottom_right": [
+            620,
+            1092
+        ],
+        "label": "message_john"
+    },
+    "example_13": {
+        "top_left": [
+            22,
+            1092
+        ],
+        "bottom_right": [
+            620,
+            1221
+        ],
+        "label": "message_matt"
+    },
+    "example_14": {
+        "top_left": [
+            22,
+            1222
+        ],
+        "bottom_right": [
+            620,
+            1351
+        ],
+        "label": "message_yosemite"
+    },
+    "example_15": {
+        "top_left": [
+            21,
+            1352
+        ],
+        "bottom_right": [
+            619,
+            1481
+        ],
+        "label": "message_dad"
+    },
+    "example_16": {
+        "top_left": [
+            22,
+            1481
+        ],
+        "bottom_right": [
+            620,
+            1610
+        ],
+        "label": "message_sid"
+    },
+    "example_17": {
+        "top_left": [
+            543,
+            8
+        ],
+        "bottom_right": [
+            622,
+            90
+        ],
+        "label": "new_message"
+    },
+    "example_18": {
+        "top_left": [
+            2903,
+            648
+        ],
+        "bottom_right": [
+            3319,
+            698
+        ],
+        "label": "text_next_weekend_plan"
+    },
+    "example_19": {
+        "top_left": [
+            677,
+            1119
+        ],
+        "bottom_right": [
+            1022,
+            1169
+        ],
+        "label": "text_done_it_before"
+    },
+    "example_20": {
+        "top_left": [
+            3019,
+            1316
+        ],
+        "bottom_right": [
+            3324,
+            1364
+        ],
+        "label": "text_whats_the_cost"
+    },
+    "example_21": {
+        "top_left": [
+            2680,
+            1671
+        ],
+        "bottom_right": [
+            3324,
+            1721
+        ],
+        "label": "text_tickets are cheap"
+    },
+    "example_22": {
+        "top_left": [
+            680,
+            179
+        ],
+        "bottom_right": [
+            1138,
+            229
+        ],
+        "label": "text_did_you_see_movie"
+    },
+    "example_23": {
+        "top_left": [
+            643,
+            106
+        ],
+        "bottom_right": [
+            3360,
+            1995
+        ],
+        "label": "scroll_chat_history"
+    },
+    "example_24": {
+        "top_left": [
+            1,
+            161
+        ],
+        "bottom_right": [
+            643,
+            2095
+        ],
+        "label": "scroll_previous_contacts"
+    },
+    "example_25": {
+        "top_left": [
+            24,
+            106
+        ],
+        "bottom_right": [
+            614,
+            153
+        ],
+        "label": "search_contact"
+    },
+    "example_26": {
+        "top_left": [
+            667,
+            1635
+        ],
+        "bottom_right": [
+            764,
+            1664
+        ],
+        "label": "view_reply"
+    }
+}

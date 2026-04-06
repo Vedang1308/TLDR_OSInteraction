@@ -1,0 +1,4 @@
+Task: Click on the March section of the calendar to view it in detail.
+Output script:
+pyautogui.click(1776.0,459.5)
+pyautogui.click(1776.0,459.5)

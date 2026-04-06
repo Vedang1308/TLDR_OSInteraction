@@ -1,0 +1,4 @@
+Task: Find and select the book "Rich dad poor dad" through the search tool.
+Output Script:
+pyautogui.click(198.5,139.5)
+pyautogui.write("Rich dad poor dad")

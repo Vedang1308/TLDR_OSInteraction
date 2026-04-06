@@ -1,0 +1,3 @@
+Task: To edit your account settings, first click on your account icon. 
+Output Script:
+pyautogui.click(2823.0,47.0)

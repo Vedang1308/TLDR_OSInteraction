@@ -1,0 +1,5 @@
+Task: Find recent news about Dow Jones.
+Output script:
+pyautogui.click(333.0,151.0)
+pyautogui.write("Dow Jones")
+pyautogui.press("enter")

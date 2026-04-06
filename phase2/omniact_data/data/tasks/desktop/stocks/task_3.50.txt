@@ -1,0 +1,3 @@
+Task: Archive the news report for future use.
+Output script:
+pyautogui.click(787.0,57.5)

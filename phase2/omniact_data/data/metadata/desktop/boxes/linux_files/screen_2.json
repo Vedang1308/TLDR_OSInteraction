@@ -1,0 +1,244 @@
+{
+    "example_0": {
+        "top_left": [
+            1673,
+            34
+        ],
+        "bottom_right": [
+            1710,
+            67
+        ],
+        "label": "icon_view"
+    },
+    "example_1": {
+        "top_left": [
+            1711,
+            35
+        ],
+        "bottom_right": [
+            1743,
+            66
+        ],
+        "label": "view_options"
+    },
+    "example_2": {
+        "top_left": [
+            1753,
+            34
+        ],
+        "bottom_right": [
+            1786,
+            66
+        ],
+        "label": "menu"
+    },
+    "example_3": {
+        "top_left": [
+            260,
+            502
+        ],
+        "bottom_right": [
+            1876,
+            547
+        ],
+        "label": "videos_list_icon"
+    },
+    "example_4": {
+        "top_left": [
+            261,
+            549
+        ],
+        "bottom_right": [
+            1877,
+            594
+        ],
+        "label": "manual_txt_list_icon"
+    },
+    "example_5": {
+        "top_left": [
+            261,
+            595
+        ],
+        "bottom_right": [
+            1877,
+            640
+        ],
+        "label": "readme_md_list_icon"
+    },
+    "example_6": {
+        "top_left": [
+            1876,
+            505
+        ],
+        "bottom_right": [
+            1908,
+            549
+        ],
+        "label": "star_videos"
+    },
+    "example_7": {
+        "top_left": [
+            1877,
+            549
+        ],
+        "bottom_right": [
+            1909,
+            593
+        ],
+        "label": "star_manual_txt"
+    },
+    "example_8": {
+        "top_left": [
+            1877,
+            594
+        ],
+        "bottom_right": [
+            1909,
+            638
+        ],
+        "label": "star_readme_md"
+    },
+    "example_9": {
+        "top_left": [
+            1742,
+            150
+        ],
+        "bottom_right": [
+            1776,
+            185
+        ],
+        "label": "cut"
+    },
+    "example_10": {
+        "top_left": [
+            1782,
+            150
+        ],
+        "bottom_right": [
+            1819,
+            184
+        ],
+        "label": "copy"
+    },
+    "example_11": {
+        "top_left": [
+            1826,
+            152
+        ],
+        "bottom_right": [
+            1860,
+            184
+        ],
+        "label": "paste"
+    },
+    "example_12": {
+        "top_left": [
+            1672,
+            199
+        ],
+        "bottom_right": [
+            1861,
+            235
+        ],
+        "label": "select_all"
+    },
+    "example_13": {
+        "top_left": [
+            1742,
+            97
+        ],
+        "bottom_right": [
+            1796,
+            132
+        ],
+        "label": "new_tab"
+    },
+    "example_14": {
+        "top_left": [
+            1806,
+            96
+        ],
+        "bottom_right": [
+            1860,
+            131
+        ],
+        "label": "new_directory"
+    },
+    "example_15": {
+        "top_left": [
+            1679,
+            97
+        ],
+        "bottom_right": [
+            1733,
+            132
+        ],
+        "label": "new_file"
+    },
+    "example_16": {
+        "top_left": [
+            1673,
+            246
+        ],
+        "bottom_right": [
+            1861,
+            275
+        ],
+        "label": "show_hidden_files"
+    },
+    "example_17": {
+        "top_left": [
+            1674,
+            275
+        ],
+        "bottom_right": [
+            1862,
+            304
+        ],
+        "label": "remove_sidebar"
+    },
+    "example_18": {
+        "top_left": [
+            1674,
+            370
+        ],
+        "bottom_right": [
+            1862,
+            399
+        ],
+        "label": "help"
+    },
+    "example_19": {
+        "top_left": [
+            1675,
+            317
+        ],
+        "bottom_right": [
+            1863,
+            346
+        ],
+        "label": "preferences"
+    },
+    "example_20": {
+        "top_left": [
+            2,
+            167
+        ],
+        "bottom_right": [
+            69,
+            232
+        ],
+        "label": "close_files_icon_left"
+    },
+    "example_21": {
+        "top_left": [
+            263,
+            643
+        ],
+        "bottom_right": [
+            1920,
+            1080
+        ],
+        "label": "right_click_area"
+    }
+}

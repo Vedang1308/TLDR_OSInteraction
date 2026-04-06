@@ -1,0 +1,3 @@
+Task: Redirects to car rental
+Output script:
+pyautogui.click(226.5,162.0)

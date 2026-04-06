@@ -1,0 +1,3 @@
+Task: View the calendar in weekly format.
+Output script:
+pyautogui.click(1374.0,37.5)

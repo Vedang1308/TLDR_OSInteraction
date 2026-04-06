@@ -1,0 +1,3 @@
+Task: Stop the audio output
+Output Script:
+pyautogui.click(2828.0,588.5)

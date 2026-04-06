@@ -1,0 +1,5 @@
+Task: Arrange to play the song "1000 hours" at a later point using the extra settings available.
+Output Script:
+pyautogui.click(2665.0,1620.0)
+pyautogui.write("play later")
+pyautogui.press("enter")

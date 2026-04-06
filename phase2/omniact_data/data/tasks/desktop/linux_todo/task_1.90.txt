@@ -1,0 +1,3 @@
+Task: Indicate completion of gardening task
+Output Script:
+pyautogui.click(694.5,156.0)

@@ -1,0 +1,3 @@
+Task: Select a color wallpaper.
+Output Script:
+pyautogui.click(877.5,682.5)

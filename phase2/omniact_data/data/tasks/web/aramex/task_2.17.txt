@@ -1,0 +1,3 @@
+Task: Click the Instagram icon placed at the end of the webpage to open the Aramex Instagram page
+Output Script:
+pyautogui.click(1145.0,681.0)

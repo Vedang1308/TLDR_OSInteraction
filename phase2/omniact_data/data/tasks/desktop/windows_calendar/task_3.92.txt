@@ -1,0 +1,3 @@
+Task: Pick the function to set the final date
+Output Script:
+pyautogui.click(418.0,500.5)

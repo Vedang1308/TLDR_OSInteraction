@@ -1,0 +1,3 @@
+Task: Open Sports Drop Down
+Output Script:
+pyautogui.click(304.5,94.5)

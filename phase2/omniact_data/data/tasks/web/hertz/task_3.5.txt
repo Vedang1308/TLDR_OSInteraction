@@ -1,0 +1,6 @@
+Task: Enter the view saved cars "andrew@cmu.edu" and "andrew"
+Output script:
+pyautogui.click(1330.5,85.0)
+pyautogui.write("andrew@cmu.edu")
+pyautogui.press("tab")
+pyautogui.write("andrew")

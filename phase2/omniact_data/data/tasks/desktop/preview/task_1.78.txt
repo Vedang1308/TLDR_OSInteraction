@@ -1,0 +1,5 @@
+Task: Navigate to and open up the properties of the file.
+Output script:
+pyautogui.click(276.0,24.0)
+pyautogui.write("properties")
+pyautogui.press("Enter")

@@ -1,0 +1,3 @@
+Task: Access all our chocolate variants by clicking the specified option below the logo on the left.
+Output Script:
+pyautogui.click(105.5,175.5)

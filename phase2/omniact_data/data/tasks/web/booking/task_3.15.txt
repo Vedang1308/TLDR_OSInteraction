@@ -1,0 +1,3 @@
+Task: Find out additional days for ticket availability
+Output Script:
+pyautogui.click(968.0,847.0)

@@ -1,0 +1,3 @@
+Task: Switch the mode of transport to car.
+Output script:
+pyautogui.click(2515.5,164.0)

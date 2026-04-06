@@ -1,0 +1,3 @@
+Task: Activate Screen Lock
+Output Script:
+pyautogui.click(1750.5,310.0)

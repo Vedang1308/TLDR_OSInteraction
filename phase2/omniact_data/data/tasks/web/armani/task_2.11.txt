@@ -1,0 +1,3 @@
+Task: Verify your shopping cart by clicking on the shopping bag symbol located at the top right corner of the webpage
+Output Script:
+pyautogui.click(1400.0,60.0)

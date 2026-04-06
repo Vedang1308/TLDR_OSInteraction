@@ -1,0 +1,3 @@
+Task: Hit on the cloud icon to access OneDrive account configurations.
+Output Script:
+pyautogui.click(1013.0,135.0)

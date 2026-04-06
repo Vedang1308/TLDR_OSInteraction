@@ -1,0 +1,3 @@
+Task: Bookmark the news report for subsequent viewing.
+Output script:
+pyautogui.click(787.0,57.5)

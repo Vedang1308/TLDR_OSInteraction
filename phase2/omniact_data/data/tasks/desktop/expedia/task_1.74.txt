@@ -1,0 +1,3 @@
+Task: Check out and book from the available events or attractions.
+Output script:
+pyautogui.click(499.0,380.0)

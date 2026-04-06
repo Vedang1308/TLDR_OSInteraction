@@ -1,0 +1,5 @@
+Task: Navigate to the second link in the About dropdown.
+Output Script:
+pyautogui.click(937.5,131.0)
+pyautogui.press("tab")
+pyautogui.press("enter")

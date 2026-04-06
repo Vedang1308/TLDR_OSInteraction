@@ -1,0 +1,3 @@
+Task: Move to the next tune in the queue
+Output Script:
+pyautogui.click(2931.0,172.5)

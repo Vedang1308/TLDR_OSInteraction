@@ -1,0 +1,3 @@
+Task: Check wind status in map view
+Output Script:
+pyautogui.click(2640.5,809.5)

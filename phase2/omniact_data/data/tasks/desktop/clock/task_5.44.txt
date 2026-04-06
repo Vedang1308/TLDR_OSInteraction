@@ -1,0 +1,3 @@
+Task: Finalize alarm configuration
+Output Script:
+pyautogui.click(1935.0,1340.0)

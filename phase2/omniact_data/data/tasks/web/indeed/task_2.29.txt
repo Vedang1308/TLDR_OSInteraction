@@ -1,0 +1,3 @@
+Task: Search for more vacancies under "Crew Members" 
+Output Script:
+pyautogui.click(285.5,705.0)

@@ -1,0 +1,5 @@
+Task: Set the event type to "Birthday Party".
+Output script:
+pyautogui.click(1839.5,516.0)
+pyautogui.write("Birthday Party")
+pyautogui.press("enter")

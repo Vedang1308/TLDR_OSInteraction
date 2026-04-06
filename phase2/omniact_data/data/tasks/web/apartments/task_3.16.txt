@@ -1,0 +1,3 @@
+Task: activate the option for property addition
+Output script:
+pyautogui.click(1376.5,23.0)

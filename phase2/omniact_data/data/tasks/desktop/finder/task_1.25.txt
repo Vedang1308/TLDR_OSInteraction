@@ -1,0 +1,3 @@
+Task: Execute the Report.xml file with a double-click
+Output Script:
+pyautogui.doubleClick(701.5,341.5)

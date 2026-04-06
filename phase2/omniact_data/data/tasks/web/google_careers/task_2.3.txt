@@ -1,0 +1,3 @@
+Task: Redirect to Europe
+Output Script:
+pyautogui.click(708.0,336.0)

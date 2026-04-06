@@ -1,0 +1,278 @@
+{
+    "example_0": {
+        "top_left": [
+            1209,
+            10
+        ],
+        "bottom_right": [
+            1288,
+            50
+        ],
+        "valid": 1,
+        "label": "sign_in_menu"
+    },
+    "example_1": {
+        "top_left": [
+            104,
+            599
+        ],
+        "bottom_right": [
+            415,
+            623
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_2": {
+        "top_left": [
+            320,
+            60
+        ],
+        "bottom_right": [
+            421,
+            102
+        ],
+        "valid": 1,
+        "label": "Redirect_Restaurants"
+    },
+    "example_3": {
+        "top_left": [
+            732,
+            661
+        ],
+        "bottom_right": [
+            1022,
+            861
+        ],
+        "valid": 1,
+        "label": "redirect_to_review"
+    },
+    "example_4": {
+        "top_left": [
+            1115,
+            10
+        ],
+        "bottom_right": [
+            1201,
+            50
+        ],
+        "valid": 1,
+        "label": "Redirects to Alerts"
+    },
+    "example_5": {
+        "top_left": [
+            926,
+            10
+        ],
+        "bottom_right": [
+            1020,
+            50
+        ],
+        "valid": 1,
+        "label": "redirect_user_review"
+    },
+    "example_6": {
+        "top_left": [
+            1046,
+            871
+        ],
+        "bottom_right": [
+            1336,
+            891
+        ],
+        "valid": 1,
+        "label": "redirect_Turin_Palace_Hotel"
+    },
+    "example_7": {
+        "top_left": [
+            152,
+            10
+        ],
+        "bottom_right": [
+            340,
+            50
+        ],
+        "valid": 1,
+        "label": "redirect_tripadvisor_homepage"
+    },
+    "example_8": {
+        "top_left": [
+            418,
+            871
+        ],
+        "bottom_right": [
+            708,
+            891
+        ],
+        "valid": 1,
+        "label": "redirect_Serras_Barcelona_hotel"
+    },
+    "example_9": {
+        "top_left": [
+            621,
+            60
+        ],
+        "bottom_right": [
+            692,
+            102
+        ],
+        "valid": 1,
+        "label": "redirect_cruises"
+    },
+    "example_10": {
+        "top_left": [
+            487,
+            60
+        ],
+        "bottom_right": [
+            621,
+            102
+        ],
+        "valid": 1,
+        "label": "redirect_to_vacation_rentals_page"
+    },
+    "example_11": {
+        "top_left": [
+            1028,
+            10
+        ],
+        "bottom_right": [
+            1107,
+            50
+        ],
+        "valid": 1,
+        "label": " redirecting toTrips"
+    },
+    "example_12": {
+        "top_left": [
+            421,
+            60
+        ],
+        "bottom_right": [
+            487,
+            102
+        ],
+        "valid": 1,
+        "label": "flights_redirect"
+    },
+    "example_13": {
+        "top_left": [
+            1184,
+            336
+        ],
+        "bottom_right": [
+            1332,
+            398
+        ],
+        "valid": 1,
+        "label": "search hotels"
+    },
+    "example_14": {
+        "top_left": [
+            418,
+            661
+        ],
+        "bottom_right": [
+            708,
+            861
+        ],
+        "valid": 1,
+        "label": "redirect_to_serras_barcelona"
+    },
+    "example_15": {
+        "top_left": [
+            152,
+            60
+        ],
+        "bottom_right": [
+            217,
+            102
+        ],
+        "valid": 1,
+        "label": "redirect_to_hotels_page"
+    },
+    "example_16": {
+        "top_left": [
+            104,
+            871
+        ],
+        "bottom_right": [
+            394,
+            891
+        ],
+        "valid": 1,
+        "label": "redirect_to_mandapa_listing"
+    },
+    "example_17": {
+        "top_left": [
+            1287,
+            605
+        ],
+        "bottom_right": [
+            1336,
+            621
+        ],
+        "valid": 1,
+        "label": "see all products"
+    },
+    "example_18": {
+        "top_left": [
+            104,
+            661
+        ],
+        "bottom_right": [
+            394,
+            861
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_19": {
+        "top_left": [
+            382,
+            12
+        ],
+        "bottom_right": [
+            402,
+            48
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_20": {
+        "top_left": [
+            217,
+            60
+        ],
+        "bottom_right": [
+            320,
+            102
+        ],
+        "valid": 1,
+        "label": "redirect_to_things_to_do"
+    },
+    "example_21": {
+        "top_left": [
+            732,
+            871
+        ],
+        "bottom_right": [
+            1022,
+            891
+        ],
+        "valid": 1,
+        "label": "redirect_Aria_Hotel"
+    },
+    "example_22": {
+        "top_left": [
+            1046,
+            661
+        ],
+        "bottom_right": [
+            1336,
+            861
+        ],
+        "valid": 1,
+        "label": "Go to the page about the Turin Palace Hotel."
+    }
+}

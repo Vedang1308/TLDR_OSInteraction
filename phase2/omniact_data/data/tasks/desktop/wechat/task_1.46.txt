@@ -1,0 +1,3 @@
+Task: Keep Jack"s chat at forefront
+Output Script:
+pyautogui.click(1776.5,16.5)

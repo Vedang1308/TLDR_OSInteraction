@@ -1,0 +1,5 @@
+Task: Select the "HD" option from the video options menu
+Output Script:
+pyautogui.click(1767.0,48.0)
+pyautogui.press("down")
+pyautogui.press("enter")

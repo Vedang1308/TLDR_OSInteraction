@@ -1,0 +1,5 @@
+Task: Locate Pittsburgh, PA on the map.
+Output script:
+pyautogui.click(655.0,355.0)
+pyautogui.write("Pittsburgh, PA")
+pyautogui.click(1064.0,355.0)

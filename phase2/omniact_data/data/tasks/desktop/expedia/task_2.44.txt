@@ -1,0 +1,3 @@
+Task: Select the combo offer of hotel and car.
+Output script:
+pyautogui.click(428.0,106.5)

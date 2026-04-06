@@ -1,0 +1,5 @@
+Task: "Set tab width to 2"
+Output Script:
+pyautogui.click(1624.0,1065.5)
+pyautogui.write("2")
+pyautogui.press("enter")

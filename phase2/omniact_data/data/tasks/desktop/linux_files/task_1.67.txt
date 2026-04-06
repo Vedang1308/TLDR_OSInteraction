@@ -1,0 +1,7 @@
+Task: Use Python"s automation scripting to produce a text file called "file.txt" within the Downloads folder.
+Output Script:
+pyautogui.click(527.0,117.0)
+pyautogui.rightClick(1092.0,620.5)
+pyautogui.write("new file")
+pyautogui.write("file.txt")
+pyautogui.press("enter")

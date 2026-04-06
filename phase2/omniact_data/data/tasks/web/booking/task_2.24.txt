@@ -1,0 +1,3 @@
+Task: Look for available flights by using the "search for flights" button.
+Output Script:
+pyautogui.click(255.0,811.0)

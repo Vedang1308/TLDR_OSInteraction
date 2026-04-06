@@ -1,0 +1,3 @@
+Task: Shift to Grammarly"s next advice
+Output script:
+pyautogui.click(1590.5,256.5)

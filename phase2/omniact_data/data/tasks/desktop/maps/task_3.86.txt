@@ -1,0 +1,5 @@
+Task: Key in "Big Ben" for the destination field.
+Output script:
+pyautogui.click(2574.0,300.0)
+pyautogui.write("Big Ben")
+pyautogui.press("Enter")

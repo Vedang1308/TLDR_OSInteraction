@@ -1,0 +1,3 @@
+Task: Select every item within the directory using keyboard shorts.
+Output Script:
+pyautogui.hotkey("ctrl", "a")

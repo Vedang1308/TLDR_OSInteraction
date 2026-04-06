@@ -1,0 +1,3 @@
+Task: Open the Terminal App
+Output Script:
+pyautogui.click(2073.0,2029.5)

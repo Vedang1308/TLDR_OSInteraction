@@ -1,0 +1,5 @@
+Task: Enter into the Deep playlist and use the scroll feature to uncover more songs.
+Output Script:
+pyautogui.click(3065.0,448.0)
+pyautogui.moveTo(1884.5,1104.0)
+pyautogui.scroll(5)

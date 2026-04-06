@@ -1,0 +1,3 @@
+Task: Display your desktop view to the participants of your meeting.
+Output Script:
+pyautogui.click(1131.0,1091.5)

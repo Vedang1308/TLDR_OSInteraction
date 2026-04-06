@@ -1,0 +1,5 @@
+Task: Adjust event notification to ring 30 minutes beforehand
+Output Script:
+Pyautogui.click(1477.0,419.0)
+Pyautogui.press("Down")
+Pyautogui.press("Enter")

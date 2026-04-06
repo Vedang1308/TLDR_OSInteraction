@@ -1,0 +1,3 @@
+Task: Investigate the available color choices for children"s footwear.
+Output Script:
+pyautogui.click(245.0,569.5)

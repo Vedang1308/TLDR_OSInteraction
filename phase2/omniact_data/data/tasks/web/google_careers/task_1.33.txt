@@ -1,0 +1,3 @@
+Task: Review all places
+Output Script:
+pyautogui.click(262.5,31.5)

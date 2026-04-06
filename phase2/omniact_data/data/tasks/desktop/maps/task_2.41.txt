@@ -1,0 +1,5 @@
+Task: Look for proximate eateries by typing "restaurants" into the search bar.
+Output script:
+pyautogui.click(280.0,99.5)
+pyautogui.write("restaurants")
+pyautogui.press("enter")

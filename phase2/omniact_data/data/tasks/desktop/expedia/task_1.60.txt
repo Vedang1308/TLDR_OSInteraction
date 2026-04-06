@@ -1,0 +1,3 @@
+Task: Browse and reserve accessible cruise trips.
+Output script:
+pyautogui.click(1441.0,380.0)

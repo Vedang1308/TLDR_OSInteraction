@@ -1,0 +1,5 @@
+Task: Click on the share button and send the current page to Whatsapp.
+Output script:
+pyautogui.click(2834.0,51.0)
+pyautogui.write("Whatsapp")
+pyautogui.press("Enter")

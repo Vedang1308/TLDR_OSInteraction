@@ -1,0 +1,3 @@
+Task: Reach settings to adjust standard interface
+Output Script:
+pyautogui.click(192.5,208.5)

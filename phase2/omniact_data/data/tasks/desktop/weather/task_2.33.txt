@@ -1,0 +1,3 @@
+Task: Determine the current climate for Niagara Falls
+Output Script:
+pyautogui.click(317.5,412.0)

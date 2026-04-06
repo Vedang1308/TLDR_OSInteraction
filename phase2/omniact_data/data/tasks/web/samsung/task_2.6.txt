@@ -1,0 +1,3 @@
+Task: Navigate two pages backwards by selecting the TVs option
+Output Script:
+pyautogui.click(273.5,106.5)

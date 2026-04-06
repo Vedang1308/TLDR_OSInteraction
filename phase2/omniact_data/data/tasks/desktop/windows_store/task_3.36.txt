@@ -1,0 +1,3 @@
+Task: Open Windows media player
+Output Script:
+pyautogui.click(1725.0,600.0)

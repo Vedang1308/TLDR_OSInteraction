@@ -1,0 +1,145 @@
+{
+    "example_0": {
+        "top_left": [
+            1187,
+            177
+        ],
+        "bottom_right": [
+            1220,
+            215
+        ],
+        "label": "close_book"
+    },
+    "example_1": {
+        "top_left": [
+            811,
+            672
+        ],
+        "bottom_right": [
+            873,
+            729
+        ],
+        "label": "start_from_beginning"
+    },
+    "example_2": {
+        "top_left": [
+            880,
+            670
+        ],
+        "bottom_right": [
+            945,
+            730
+        ],
+        "label": "reverse_30_seconds"
+    },
+    "example_3": {
+        "top_left": [
+            1048,
+            670
+        ],
+        "bottom_right": [
+            1113,
+            730
+        ],
+        "label": "forward_30_seconds"
+    },
+    "example_4": {
+        "top_left": [
+            1114,
+            670
+        ],
+        "bottom_right": [
+            1179,
+            730
+        ],
+        "label": "book_ending"
+    },
+    "example_5": {
+        "top_left": [
+            786,
+            746
+        ],
+        "bottom_right": [
+            908,
+            805
+        ],
+        "label": "book_speed"
+    },
+    "example_6": {
+        "top_left": [
+            929,
+            746
+        ],
+        "bottom_right": [
+            1066,
+            807
+        ],
+        "label": "list_chapters"
+    },
+    "example_7": {
+        "top_left": [
+            1078,
+            746
+        ],
+        "bottom_right": [
+            1213,
+            810
+        ],
+        "label": "add_bookmark"
+    },
+    "example_8": {
+        "top_left": [
+            1153,
+            176
+        ],
+        "bottom_right": [
+            1186,
+            214
+        ],
+        "label": "maximize_book"
+    },
+    "example_9": {
+        "top_left": [
+            981,
+            622
+        ],
+        "bottom_right": [
+            1005,
+            629
+        ],
+        "label": "book_middle"
+    },
+    "example_10": {
+        "top_left": [
+            1106,
+            621
+        ],
+        "bottom_right": [
+            1130,
+            628
+        ],
+        "label": "book_ending"
+    },
+    "example_11": {
+        "top_left": [
+            1178,
+            216
+        ],
+        "bottom_right": [
+            1220,
+            257
+        ],
+        "label": "book_more_options"
+    },
+    "example_12": {
+        "top_left": [
+            1120,
+            177
+        ],
+        "bottom_right": [
+            1153,
+            215
+        ],
+        "label": "maximize_book"
+    }
+}

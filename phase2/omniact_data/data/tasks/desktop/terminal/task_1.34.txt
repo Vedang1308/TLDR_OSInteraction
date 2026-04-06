@@ -1,0 +1,3 @@
+Task: Perform a copy operation on the currently selected text through keyboard commands. 
+Output Script:
+pyautogui.hotkey("ctrl", "c")

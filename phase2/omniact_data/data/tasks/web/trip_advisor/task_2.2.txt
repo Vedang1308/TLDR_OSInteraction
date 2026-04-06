@@ -1,0 +1,4 @@
+Task: View the first restaurant description in Traveller"s choice
+Output Script:
+pyautogui.moveto("scroll_to_fine_dining_description")
+pyautogui.scroll(+150)

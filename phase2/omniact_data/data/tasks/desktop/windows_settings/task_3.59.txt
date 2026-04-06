@@ -1,0 +1,3 @@
+Task: Launch the screen settings
+Output Script:
+pyautogui.click(202.5,280.5)

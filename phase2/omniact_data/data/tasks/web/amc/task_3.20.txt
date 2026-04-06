@@ -1,0 +1,5 @@
+Task: After typing in the email, press tab twice to see if there"s more data to be inserted.
+Output Script:
+pyautogui.click(451.0,797.5)
+pyautogui.press("tab")
+pyautogui.press("tab")

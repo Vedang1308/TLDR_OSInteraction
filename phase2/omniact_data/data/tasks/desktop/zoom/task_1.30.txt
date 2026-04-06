@@ -1,0 +1,4 @@
+Task: Choose to participate in an already scheduled meeting.
+Output Script: 
+pyautogui.click(1129.5,746.5)
+

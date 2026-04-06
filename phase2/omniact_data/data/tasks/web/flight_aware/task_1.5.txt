@@ -1,0 +1,4 @@
+Task: Press the "down" and "enter" arrow key once using pyautogui.
+Output Script:
+pyautogui.press("down")
+pyautogui.press("enter")

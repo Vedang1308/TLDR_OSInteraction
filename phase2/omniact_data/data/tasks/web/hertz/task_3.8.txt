@@ -1,0 +1,3 @@
+Task: See more detail in Springfield, VA
+Output script:
+pyautogui.click(175.0,735.0)

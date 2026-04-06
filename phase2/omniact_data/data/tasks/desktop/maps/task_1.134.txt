@@ -1,0 +1,5 @@
+Task: Insert a fresh guide for exploration.
+Output script:
+pyautogui.click(290.5,528.5)
+pyautogui.write("sightseeing")
+pyautogui.press("enter")

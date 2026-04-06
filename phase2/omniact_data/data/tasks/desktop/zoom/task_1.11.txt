@@ -1,0 +1,3 @@
+Task: Click on the home option to return to the main screen.
+Output Script:
+pyautogui.click(1142.0,51.0)

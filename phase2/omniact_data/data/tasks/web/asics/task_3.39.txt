@@ -1,0 +1,3 @@
+Task: Ascertain the correct size to select while buying
+Output Script: 
+pyautogui.click(1273.5,437.0)

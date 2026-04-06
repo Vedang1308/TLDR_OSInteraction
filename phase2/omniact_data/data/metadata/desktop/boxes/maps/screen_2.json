@@ -1,0 +1,101 @@
+{
+    "example_0": {
+        "top_left": [
+            1420,
+            508
+        ],
+        "bottom_right": [
+            1692,
+            591
+        ],
+        "label": "directions"
+    },
+    "example_1": {
+        "top_left": [
+            1715,
+            508
+        ],
+        "bottom_right": [
+            1981,
+            591
+        ],
+        "label": "create route from"
+    },
+    "example_2": {
+        "top_left": [
+            1562,
+            655
+        ],
+        "bottom_right": [
+            1595,
+            685
+        ],
+        "label": "like place"
+    },
+    "example_3": {
+        "top_left": [
+            1596,
+            654
+        ],
+        "bottom_right": [
+            1629,
+            688
+        ],
+        "label": "dislike place"
+    },
+    "example_4": {
+        "top_left": [
+            1444,
+            1178
+        ],
+        "bottom_right": [
+            1966,
+            1245
+        ],
+        "label": "add photos"
+    },
+    "example_5": {
+        "top_left": [
+            1444,
+            1274
+        ],
+        "bottom_right": [
+            1968,
+            1334
+        ],
+        "label": "rate the place"
+    },
+    "example_6": {
+        "top_left": [
+            1405,
+            372
+        ],
+        "bottom_right": [
+            2000,
+            1495
+        ],
+        "label": "scroll place info"
+    },
+    "example_7": {
+        "top_left": [
+            1948,
+            323
+        ],
+        "bottom_right": [
+            1993,
+            362
+        ],
+        "label": "more options"
+    },
+    "example_8": {
+        "top_left": [
+            25,
+            67
+        ],
+        "bottom_right": [
+            535,
+            132
+        ],
+        "label": "search labels"
+    }
+}

@@ -1,0 +1,3 @@
+Task: Choose the "map" section to show the journey points.
+Output script:
+pyautogui.click(1371.5,1739.5)

@@ -1,0 +1,3 @@
+Task: What is the climate at Niagara Falls
+Output Script:
+pyautogui.click(317.5,412.0)

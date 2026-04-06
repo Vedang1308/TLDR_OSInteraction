@@ -1,0 +1,5 @@
+Task: Schedule a client meeting for the coming week.
+Output script:
+pyautogui.click(611.5,587.5)
+pyautogui.write("Meeting with clients")
+pyautogui.press("Enter")

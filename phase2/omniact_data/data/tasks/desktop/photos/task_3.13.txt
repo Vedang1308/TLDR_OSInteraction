@@ -1,0 +1,3 @@
+Task: Double tap on the image illustrating bioluminescence. 
+Output Script:
+pyautogui.click(936.0,656.0)

@@ -1,0 +1,3 @@
+Task: Use the icon to reduce the window size
+Output Script:
+pyautogui.click(584.0,1053.0)

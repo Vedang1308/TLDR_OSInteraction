@@ -1,0 +1,3 @@
+Task: Identify and select the "Forest" photos
+Output Script:
+pyautogui.click(936.0,1533.5)

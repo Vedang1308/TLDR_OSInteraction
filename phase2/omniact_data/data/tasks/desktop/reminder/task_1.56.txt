@@ -1,0 +1,5 @@
+Task: Look up information related to meetings on your system
+Output script:
+pyautogui.click(280.5,130.5)
+pyautogui.write("meetings")
+pyautogui.press("Enter")

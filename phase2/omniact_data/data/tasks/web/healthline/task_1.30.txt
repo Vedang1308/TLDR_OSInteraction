@@ -1,0 +1,3 @@
+Task: Sign up for the healthline newsletter.
+Output Script:
+pyautogui.click(1163.0,35.0)

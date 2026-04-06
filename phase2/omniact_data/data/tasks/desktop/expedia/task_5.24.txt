@@ -1,0 +1,5 @@
+Task: Choose all budget categories less than $75
+Output script:
+pyautogui.click(1441.0,939.0)
+pyautogui.click(1443.0,994.5)
+pyautogui.click(1443.5,1048.0)

@@ -1,0 +1,4 @@
+Task: "Exit from the find and replace toolbar and minimize the currently open text file"
+Output Script:
+pyautogui.click(1205.0,436.0)
+pyautogui.click(36.0,537.0)

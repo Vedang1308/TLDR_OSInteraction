@@ -1,0 +1,4 @@
+Task: Navigate to the customer feedback section.
+Output script:
+pyautogui.click(224.0,731.5)
+pyautogui.scroll(30)

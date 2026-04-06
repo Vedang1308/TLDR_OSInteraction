@@ -1,0 +1,3 @@
+Task: Open the Home page in settings by clicking on the icon shaped like a house
+Output Script:
+pyautogui.click(200.5,91.0)

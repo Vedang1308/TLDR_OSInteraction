@@ -1,0 +1,3 @@
+Task: Access the Gaming Window
+Output Script:
+pyautogui.click(46.5,258.5)

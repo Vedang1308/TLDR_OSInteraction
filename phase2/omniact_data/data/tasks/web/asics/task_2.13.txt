@@ -1,0 +1,3 @@
+Task: Explore the collection of sports footwear
+Output Script: 
+pyautogui.click(190.0,217.5)

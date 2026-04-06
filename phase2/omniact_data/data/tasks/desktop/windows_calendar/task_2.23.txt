@@ -1,0 +1,3 @@
+Task: Open the "more details" section for the current event
+Output Script:
+Pyautogui.click(1581.5,481.5)

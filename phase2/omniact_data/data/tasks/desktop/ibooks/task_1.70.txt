@@ -1,0 +1,3 @@
+Task: Access "Dreamland" from purchased top books
+Output Script:
+pyautogui.click(789.0,843.5)

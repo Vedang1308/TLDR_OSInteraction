@@ -1,0 +1,3 @@
+Task: Listen to NPR News
+Output script:
+pyautogui.click(786.5,1457.0)

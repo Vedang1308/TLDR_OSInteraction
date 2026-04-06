@@ -1,0 +1,3 @@
+Task: View the weather in Auckland
+Output Script:
+pyautogui.click(310.5,1019.5)

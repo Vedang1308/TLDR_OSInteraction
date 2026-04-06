@@ -1,0 +1,3 @@
+Task: Navigate to the stored news articles.
+Output script:
+pyautogui.click(218.0,464.5)

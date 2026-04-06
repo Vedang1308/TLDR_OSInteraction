@@ -1,0 +1,6 @@
+Task: Increase the battery level to turn on the battery saver at by two levels
+Output Script:
+pyautogui.click(492.0,635.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Unfold the contents within the Downloads directory
+Output Script:
+pyautogui.click(383.0,270.0)

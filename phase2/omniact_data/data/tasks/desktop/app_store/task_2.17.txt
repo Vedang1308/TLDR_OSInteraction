@@ -1,0 +1,3 @@
+Task: Navigate to the application"s webpage.
+Output script:
+pyautogui.click(2718.5,1547.5)

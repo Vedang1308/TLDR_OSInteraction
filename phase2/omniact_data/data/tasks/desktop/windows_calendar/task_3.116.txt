@@ -1,0 +1,4 @@
+Task: Change the completion time of the event to 7 PM
+Output Script:
+pyautogui.click(881.5,501.0)
+pyautogui.write("19:00")

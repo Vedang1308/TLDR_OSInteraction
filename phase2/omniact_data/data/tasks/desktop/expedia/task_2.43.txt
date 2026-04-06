@@ -1,0 +1,3 @@
+Task: Opt for the combined package of hotel accommodation and car service.
+Output script:
+pyautogui.click(428.0,106.5)

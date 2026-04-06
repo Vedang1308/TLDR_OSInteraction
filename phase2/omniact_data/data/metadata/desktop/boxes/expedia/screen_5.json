@@ -1,0 +1,266 @@
+{
+    "example_0": {
+        "top_left": [
+            914,
+            238
+        ],
+        "bottom_right": [
+            1958,
+            271
+        ],
+        "label": "any"
+    },
+    "example_1": {
+        "top_left": [
+            910,
+            294
+        ],
+        "bottom_right": [
+            1961,
+            323
+        ],
+        "label": "wonderful"
+    },
+    "example_2": {
+        "top_left": [
+            913,
+            346
+        ],
+        "bottom_right": [
+            1960,
+            378
+        ],
+        "label": "very good"
+    },
+    "example_3": {
+        "top_left": [
+            913,
+            396
+        ],
+        "bottom_right": [
+            1959,
+            427
+        ],
+        "label": "good"
+    },
+    "example_4": {
+        "top_left": [
+            911,
+            531
+        ],
+        "bottom_right": [
+            1960,
+            560
+        ],
+        "label": "free cancellation"
+    },
+    "example_5": {
+        "top_left": [
+            908,
+            580
+        ],
+        "bottom_right": [
+            1965,
+            616
+        ],
+        "label": "deals"
+    },
+    "example_6": {
+        "top_left": [
+            908,
+            628
+        ],
+        "bottom_right": [
+            1968,
+            665
+        ],
+        "label": "local expert picks"
+    },
+    "example_7": {
+        "top_left": [
+            908,
+            686
+        ],
+        "bottom_right": [
+            1971,
+            719
+        ],
+        "label": "family friendly"
+    },
+    "example_8": {
+        "top_left": [
+            909,
+            739
+        ],
+        "bottom_right": [
+            1968,
+            774
+        ],
+        "label": "new on Expedia"
+    },
+    "example_9": {
+        "top_left": [
+            909,
+            793
+        ],
+        "bottom_right": [
+            1974,
+            826
+        ],
+        "label": "select hotel pickup"
+    },
+    "example_10": {
+        "top_left": [
+            913,
+            919
+        ],
+        "bottom_right": [
+            1969,
+            959
+        ],
+        "label": "less than 25"
+    },
+    "example_11": {
+        "top_left": [
+            913,
+            976
+        ],
+        "bottom_right": [
+            1973,
+            1013
+        ],
+        "label": "25 to 50"
+    },
+    "example_12": {
+        "top_left": [
+            913,
+            1030
+        ],
+        "bottom_right": [
+            1974,
+            1066
+        ],
+        "label": "50 to 75"
+    },
+    "example_13": {
+        "top_left": [
+            910,
+            1085
+        ],
+        "bottom_right": [
+            1966,
+            1119
+        ],
+        "label": "75 to 100"
+    },
+    "example_14": {
+        "top_left": [
+            911,
+            1135
+        ],
+        "bottom_right": [
+            1969,
+            1169
+        ],
+        "label": "more than 100"
+    },
+    "example_15": {
+        "top_left": [
+            911,
+            1266
+        ],
+        "bottom_right": [
+            1973,
+            1304
+        ],
+        "label": "times square"
+    },
+    "example_16": {
+        "top_left": [
+            911,
+            1320
+        ],
+        "bottom_right": [
+            1974,
+            1356
+        ],
+        "label": "central park"
+    },
+    "example_17": {
+        "top_left": [
+            910,
+            1374
+        ],
+        "bottom_right": [
+            1974,
+            1410
+        ],
+        "label": "statue of liberty"
+    },
+    "example_18": {
+        "top_left": [
+            911,
+            1428
+        ],
+        "bottom_right": [
+            1975,
+            1460
+        ],
+        "label": "broadway"
+    },
+    "example_19": {
+        "top_left": [
+            910,
+            1478
+        ],
+        "bottom_right": [
+            1975,
+            1514
+        ],
+        "label": "broadway"
+    },
+    "example_20": {
+        "top_left": [
+            910,
+            1544
+        ],
+        "bottom_right": [
+            1014,
+            1565
+        ],
+        "label": "see more"
+    },
+    "example_21": {
+        "top_left": [
+            931,
+            159
+        ],
+        "bottom_right": [
+            966,
+            194
+        ],
+        "label": "close"
+    },
+    "example_22": {
+        "top_left": [
+            1881,
+            158
+        ],
+        "bottom_right": [
+            1960,
+            194
+        ],
+        "label": "clear"
+    },
+    "example_23": {
+        "top_left": [
+            921,
+            1589
+        ],
+        "bottom_right": [
+            1959,
+            1646
+        ],
+        "label": "done"
+    }
+}

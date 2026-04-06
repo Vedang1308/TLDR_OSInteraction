@@ -1,0 +1,3 @@
+Task: Increase the image size by 1 zoom level
+Output Script:
+pyautogui.click(219.0,51.0)

@@ -1,0 +1,3 @@
+Task: Select the option which includes both a car and flight booking.
+Output script:
+pyautogui.click(261.0,106.5)

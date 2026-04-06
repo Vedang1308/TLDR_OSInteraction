@@ -1,0 +1,5 @@
+Task: Navigate to subsequent chapter
+Output Script:
+pyautogui.click(997.5,776.5)
+pyautogui.press("down")
+pyautogui.press("enter")

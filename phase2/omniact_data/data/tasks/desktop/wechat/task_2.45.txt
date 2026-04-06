@@ -1,0 +1,4 @@
+Task: Produce a fresh note and add a direct horizontal line within it.
+Output Script:
+pyautogui.click(222.0,103.0)
+pyautogui.click(991.5,182.0)

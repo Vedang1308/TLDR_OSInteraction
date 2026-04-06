@@ -1,0 +1,3 @@
+Task: initiate menu window
+Output script:
+pyautogui.click(54.5,23.0)

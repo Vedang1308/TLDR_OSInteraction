@@ -1,0 +1,3 @@
+Task: Initiate the windows authentication process by using the "sign in" button with your Microsoft details.
+Output Script:
+pyautogui.click(382.0,178.0)

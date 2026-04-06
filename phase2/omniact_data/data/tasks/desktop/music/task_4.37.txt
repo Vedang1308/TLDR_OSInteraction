@@ -1,0 +1,3 @@
+Task: Click on the song "Glad You Exist" to download.
+Output Script:
+pyautogui.click(2035.5,1512.5)

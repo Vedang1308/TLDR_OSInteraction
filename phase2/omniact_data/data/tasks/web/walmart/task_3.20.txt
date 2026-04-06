@@ -1,0 +1,3 @@
+Task: Check the details of the seller
+Output Script:
+pyautogui.click(1087.0,834.0)

@@ -1,0 +1,4 @@
+Task: Visit the Personal directory, then back out to the folder you were in before.
+Output Script:
+pyautogui.click(1883.0,309.0)
+pyautogui.press("backspace")

@@ -1,0 +1,6 @@
+Task: Access the Billing Page by opening a new window
+Output Script:
+pyautogui.rightclick(516.0,247.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

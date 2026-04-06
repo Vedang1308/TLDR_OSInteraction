@@ -1,0 +1,3 @@
+Task: Minimize map"s view scale.
+Output script:
+pyautogui.click(2663.0,1750.0)

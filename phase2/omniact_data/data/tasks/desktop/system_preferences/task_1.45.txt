@@ -1,0 +1,6 @@
+Task: Find keyboard configurations using search option. 
+Output Script:
+pyautogui.click(1788.0,192.5)
+pyautogui.write("keyboard")
+pyautogui.press("down")
+pyautogui.press("enter")

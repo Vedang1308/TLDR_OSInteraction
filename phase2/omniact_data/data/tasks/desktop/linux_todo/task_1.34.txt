@@ -1,0 +1,4 @@
+Task: Shift the position of "haircut" to be before "meal prep" on the screen.
+Output Script:
+pyautogui.moveTo(670.0,649.0)
+pyautogui.dragTo(670.0,600.0, "left")

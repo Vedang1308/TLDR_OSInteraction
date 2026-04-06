@@ -1,0 +1,3 @@
+Task: Shut all files using mouse and keyboard
+Output Script:
+pyautogui.click(35.5,199.5)

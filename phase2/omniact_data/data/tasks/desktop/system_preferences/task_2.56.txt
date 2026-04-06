@@ -1,0 +1,3 @@
+Task: Select the function to modify the color theme.
+Output Script:
+pyautogui.click(1213.0,441.5)

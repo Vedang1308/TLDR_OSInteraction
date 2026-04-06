@@ -1,0 +1,3 @@
+Task: Use the addition symbol to promptly create a new event.
+Output script:
+pyautogui.click(196.0,38.0)

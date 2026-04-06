@@ -1,0 +1,4 @@
+Task: Select the entire content on the page.
+Output script:
+pyautogui.moveTo(1438.5,230.5)
+pyautogui.dragTo(1439.5,398.0,"left")

@@ -1,0 +1,6 @@
+Task: Proceed to the "photos" folder to create and name a new folder as "vacation".
+Output Script:
+pyautogui.click(1449.0,262.5)
+pyautogui.hotkey("ctrl","shift","n")
+pyautogui.write("vacation")
+pyautogui.press("enter")

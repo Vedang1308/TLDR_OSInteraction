@@ -1,0 +1,5 @@
+Task: Click on the first item in the Displays dropdown menu
+Output Script:
+pyautogui.click(598.0,40.0)
+pyautogui.press("tab")
+pyautogui.press("enter")

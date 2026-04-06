@@ -1,0 +1,3 @@
+Task: Navigate to Top Free Apps
+Output Script:
+pyautogui.click(228.5,88.0)

@@ -1,0 +1,3 @@
+Task: Open Desktop folder directly from the left pane
+Output Script:
+pyautogui.click(156.5,400.5)

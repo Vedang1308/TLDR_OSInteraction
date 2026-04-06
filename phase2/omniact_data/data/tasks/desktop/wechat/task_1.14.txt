@@ -1,0 +1,5 @@
+Task: Select the second contact in the contacts tab
+Output Script:
+pyautogui.click(33.5,185.5)
+pyautogui.press("down")
+pyautogui.press("enter")

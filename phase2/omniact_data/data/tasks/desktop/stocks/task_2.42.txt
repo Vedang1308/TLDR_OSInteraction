@@ -1,0 +1,3 @@
+Task: Check the last week"s progress of stock market.
+Output script:
+pyautogui.click(1006.5,388.5)

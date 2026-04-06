@@ -1,0 +1,3 @@
+Task: Select the July month on the calendar to see the schedule. 
+Output script:
+pyautogui.click(1771.5,974.5)

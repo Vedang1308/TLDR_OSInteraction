@@ -1,0 +1,3 @@
+Task: Increase the volume to maximum
+Output Script:
+pyautogui.click(3208.0,587.5)

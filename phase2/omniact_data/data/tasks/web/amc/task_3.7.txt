@@ -1,0 +1,3 @@
+Task: Register a new user account
+Output Script:
+pyautogui.click(476.0,589.5)

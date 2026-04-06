@@ -1,0 +1,5 @@
+Task: Look for the "Berkshire Hathway" stock by entering it into the search bar.
+Output script:
+pyautogui.click(329.5,149.5)
+pyautogui.write("Berkshire Hathway")
+pyautogui.press("enter")

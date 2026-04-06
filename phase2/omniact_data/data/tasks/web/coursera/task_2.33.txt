@@ -1,0 +1,3 @@
+Task: Navigate to Careers section
+Output Script:
+pyautogui.click(829.5,597.5)

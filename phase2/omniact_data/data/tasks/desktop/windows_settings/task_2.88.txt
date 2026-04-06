@@ -1,0 +1,3 @@
+Task: Locate and click on the feedback submission page
+Output Script:
+pyautogui.click(1672.5,542.5)

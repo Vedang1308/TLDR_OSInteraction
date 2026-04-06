@@ -1,0 +1,6 @@
+Task: Increase the "meal prep" task priority to high
+Output Script:
+pyautogui.click(1323.0,599.0)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

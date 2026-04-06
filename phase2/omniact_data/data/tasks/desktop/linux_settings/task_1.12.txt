@@ -1,0 +1,3 @@
+Task: Open Users settings
+Output Script:
+pyautogui.click(193.5,977.5)

@@ -1,0 +1,3 @@
+Task: "Access the settings for the document open button"
+Output Script:
+pyautogui.click(366.5,49.0)

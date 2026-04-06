@@ -1,0 +1,4 @@
+Task: Move the page to find and view the temperature for the date 18th.
+Output Script:
+pyautogui.moveto("scroll_dates")
+pyautogui.hscroll("5")

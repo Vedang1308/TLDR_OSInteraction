@@ -1,0 +1,3 @@
+Task: Create a new mail
+Output Script:
+pyautogui.click(160.5,131.0)

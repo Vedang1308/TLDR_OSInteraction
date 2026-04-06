@@ -1,0 +1,3 @@
+Task: Inspect the second listing in the attractions category
+Output Script:
+pyautogui.click(913.5,607.0)

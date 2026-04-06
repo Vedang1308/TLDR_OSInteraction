@@ -1,0 +1,3 @@
+Task: Proceed back to the collection of reviews on Healthline"s website.
+Output Script:
+pyautogui.click(720.0,174.5)

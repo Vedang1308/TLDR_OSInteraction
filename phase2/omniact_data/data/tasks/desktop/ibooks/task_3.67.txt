@@ -1,0 +1,5 @@
+Task: Locate the term "misleading" in the ebook.
+Output Script:
+pyautogui.click(3090.0,101.0)
+pyautogui.write("misleading")
+pyautogui.press("enter")

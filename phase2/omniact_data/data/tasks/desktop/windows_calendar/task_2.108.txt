@@ -1,0 +1,3 @@
+Task: Store the ongoing event
+Output Script:
+Pyautogui.click(1717.0,482.5)

@@ -1,0 +1,5 @@
+Task: Locate nearby food places by inputting "restaurants" in the search field.
+Output script:
+pyautogui.click(280.0,99.5)
+pyautogui.write("restaurants")
+pyautogui.press("enter")

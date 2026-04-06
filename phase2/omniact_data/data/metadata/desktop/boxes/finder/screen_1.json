@@ -1,0 +1,332 @@
+{
+    "example_0": {
+        "top_left": [
+            396,
+            245
+        ],
+        "bottom_right": [
+            574,
+            437
+        ],
+        "label": "file_pic_1"
+    },
+    "example_1": {
+        "top_left": [
+            607,
+            245
+        ],
+        "bottom_right": [
+            796,
+            438
+        ],
+        "label": "file_report"
+    },
+    "example_2": {
+        "top_left": [
+            830,
+            246
+        ],
+        "bottom_right": [
+            1019,
+            439
+        ],
+        "label": "folder_desktop"
+    },
+    "example_3": {
+        "top_left": [
+            1044,
+            245
+        ],
+        "bottom_right": [
+            1233,
+            438
+        ],
+        "label": "folder_projects"
+    },
+    "example_4": {
+        "top_left": [
+            374,
+            504
+        ],
+        "bottom_right": [
+            563,
+            697
+        ],
+        "label": "folder_downloads"
+    },
+    "example_5": {
+        "top_left": [
+            601,
+            505
+        ],
+        "bottom_right": [
+            790,
+            698
+        ],
+        "label": "folder_work"
+    },
+    "example_6": {
+        "top_left": [
+            828,
+            505
+        ],
+        "bottom_right": [
+            1017,
+            698
+        ],
+        "label": "folder_personal"
+    },
+    "example_7": {
+        "top_left": [
+            1044,
+            506
+        ],
+        "bottom_right": [
+            1233,
+            699
+        ],
+        "label": "folder_backup"
+    },
+    "example_8": {
+        "top_left": [
+            6,
+            150
+        ],
+        "bottom_right": [
+            335,
+            198
+        ],
+        "label": "airdrop"
+    },
+    "example_9": {
+        "top_left": [
+            4,
+            203
+        ],
+        "bottom_right": [
+            333,
+            251
+        ],
+        "label": "recents"
+    },
+    "example_10": {
+        "top_left": [
+            2,
+            257
+        ],
+        "bottom_right": [
+            331,
+            305
+        ],
+        "label": "applications"
+    },
+    "example_11": {
+        "top_left": [
+            1,
+            311
+        ],
+        "bottom_right": [
+            329,
+            359
+        ],
+        "label": "desktop"
+    },
+    "example_12": {
+        "top_left": [
+            2,
+            366
+        ],
+        "bottom_right": [
+            331,
+            414
+        ],
+        "label": "documents"
+    },
+    "example_13": {
+        "top_left": [
+            1,
+            424
+        ],
+        "bottom_right": [
+            329,
+            472
+        ],
+        "label": "downloads"
+    },
+    "example_14": {
+        "top_left": [
+            2,
+            547
+        ],
+        "bottom_right": [
+            331,
+            595
+        ],
+        "label": "icloud_drive"
+    },
+    "example_15": {
+        "top_left": [
+            1,
+            598
+        ],
+        "bottom_right": [
+            329,
+            646
+        ],
+        "label": "folder_shared"
+    },
+    "example_16": {
+        "top_left": [
+            363,
+            58
+        ],
+        "bottom_right": [
+            442,
+            140
+        ],
+        "label": "back"
+    },
+    "example_17": {
+        "top_left": [
+            443,
+            58
+        ],
+        "bottom_right": [
+            522,
+            140
+        ],
+        "label": "next"
+    },
+    "example_18": {
+        "top_left": [
+            1861,
+            69
+        ],
+        "bottom_right": [
+            1927,
+            127
+        ],
+        "label": "tile_view"
+    },
+    "example_19": {
+        "top_left": [
+            1938,
+            70
+        ],
+        "bottom_right": [
+            2004,
+            128
+        ],
+        "label": "list_view"
+    },
+    "example_20": {
+        "top_left": [
+            2014,
+            73
+        ],
+        "bottom_right": [
+            2080,
+            131
+        ],
+        "label": "tab_view"
+    },
+    "example_21": {
+        "top_left": [
+            2088,
+            71
+        ],
+        "bottom_right": [
+            2154,
+            129
+        ],
+        "label": "focus_view"
+    },
+    "example_22": {
+        "top_left": [
+            2235,
+            58
+        ],
+        "bottom_right": [
+            2335,
+            132
+        ],
+        "label": "sort"
+    },
+    "example_23": {
+        "top_left": [
+            2345,
+            60
+        ],
+        "bottom_right": [
+            2418,
+            131
+        ],
+        "label": "share"
+    },
+    "example_24": {
+        "top_left": [
+            2428,
+            61
+        ],
+        "bottom_right": [
+            2501,
+            132
+        ],
+        "label": "tag"
+    },
+    "example_25": {
+        "top_left": [
+            2696,
+            79
+        ],
+        "bottom_right": [
+            3332,
+            127
+        ],
+        "label": "search"
+    },
+    "example_26": {
+        "top_left": [
+            43,
+            90
+        ],
+        "bottom_right": [
+            64,
+            114
+        ],
+        "label": "close"
+    },
+    "example_27": {
+        "top_left": [
+            126,
+            91
+        ],
+        "bottom_right": [
+            147,
+            115
+        ],
+        "label": "minimize"
+    },
+    "example_28": {
+        "top_left": [
+            356,
+            161
+        ],
+        "bottom_right": [
+            3359,
+            2100
+        ],
+        "label": "scroll_items"
+    },
+    "example_29": {
+        "top_left": [
+            6,
+            150
+        ],
+        "bottom_right": [
+            348,
+            2098
+        ],
+        "label": "scroll_tabs"
+    }
+}

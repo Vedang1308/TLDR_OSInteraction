@@ -1,0 +1,3 @@
+Task: Halt the stopwatch by clicking the red button 
+Output Script:
+pyautogui.click(1847.0,1969.0)

@@ -1,0 +1,4 @@
+Task: Swipe to delete the weather information of San Francisco from the left-side panel.
+Output Script:
+pyautogui.moveTo(316, 531)
+pyautogui.hscroll("10")

@@ -1,0 +1,3 @@
+Task: Access the "Drafts" folder using mouse click
+Output Script:
+pyautogui.click(165.0,530.5)

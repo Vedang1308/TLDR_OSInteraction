@@ -1,0 +1,3 @@
+Task: Navigate to my basket page
+Output Script:
+pyautogui.click(1383.0,40.0)

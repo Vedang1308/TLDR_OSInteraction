@@ -1,0 +1,6 @@
+Task: Add the second filter to the slideshow
+Output Script:
+pyautogui.click(341.0,2015.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Provide in-depth details about the UV index
+Output Script:
+pyautogui.click(1840.5,973.0)

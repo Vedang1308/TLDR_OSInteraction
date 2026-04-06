@@ -1,0 +1,3 @@
+Task: Select Backups
+Output Script:
+pyautogui.click(192.5,344.5)

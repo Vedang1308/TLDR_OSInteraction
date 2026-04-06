@@ -1,0 +1,3 @@
+Task: Filter search results
+Output Script:
+pyautogui.click(1301.5,440.0)

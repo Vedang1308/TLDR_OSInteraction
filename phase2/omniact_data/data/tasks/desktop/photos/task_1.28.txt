@@ -1,0 +1,4 @@
+Task: Expand the pictures in the "Nature" album using the options in the top bar.
+Output Script:
+pyautogui.click(207.0,925.5)
+pyautogui.write("enlarge_pics")

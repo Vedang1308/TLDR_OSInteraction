@@ -1,0 +1,3 @@
+Task: Initiate the slide presentation from the current slide.
+Output Script:
+pyautogui.click(3147.0,2015.5)

@@ -1,0 +1,5 @@
+Task: Bookmark through right click function
+Output Script:
+pyautogui.rightClick(1680.5,1155.5)
+pyautogui.write("mark as bookmark")
+pyautogui.press("enter")

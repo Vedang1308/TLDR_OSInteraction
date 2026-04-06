@@ -1,0 +1,6 @@
+Task: Access the first item listed in the recently viewed menu
+Output Script:
+pyautogui.click(1086.0,128.0)
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")

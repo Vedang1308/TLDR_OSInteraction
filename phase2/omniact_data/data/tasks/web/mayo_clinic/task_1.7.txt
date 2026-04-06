@@ -1,0 +1,4 @@
+Task: Obtain all selectable text in the Mayo Clinic Website.
+Output Script:
+pyautogui.hotkey("ctrl","a")
+pyautogui.hotkey("ctrl","c")

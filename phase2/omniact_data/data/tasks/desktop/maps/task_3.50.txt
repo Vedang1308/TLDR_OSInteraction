@@ -1,0 +1,3 @@
+Task: Launch the navigation operations by pressing the "go now" button.
+Output script:
+pyautogui.click(2445.5,376.0)

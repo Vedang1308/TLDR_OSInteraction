@@ -1,0 +1,3 @@
+Task: Switch mode to "weekly" calendar
+Output Script:
+Pyautogui.click(1329.0,70.0)

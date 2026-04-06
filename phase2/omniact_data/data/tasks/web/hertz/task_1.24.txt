@@ -1,0 +1,6 @@
+Task: Select the start and end date for booking
+Output script:
+pyautogui.click(288.5,491.5)
+pyautogui.press("enter")
+pyautogui.click(651.5,491.5)
+pyautogui.press("enter")

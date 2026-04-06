@@ -1,0 +1,4 @@
+Task: Browse further for more contacts in your friend list
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

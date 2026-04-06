@@ -1,0 +1,5 @@
+Task: Utilize the search feature to find "bank."
+Output Script:
+pyautogui.click(1364.0,51.5)
+pyautogui.write("bank")
+pyautogui.press("enter")

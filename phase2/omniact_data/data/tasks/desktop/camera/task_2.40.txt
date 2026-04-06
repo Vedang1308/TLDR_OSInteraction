@@ -1,0 +1,7 @@
+Task: Navigate through a dropdown menu to display Cheese information.
+Output Script:
+pyautogui.click(1892.0,49.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

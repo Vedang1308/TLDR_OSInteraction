@@ -1,0 +1,3 @@
+Task: Launch the Microsoft Clipchamp application
+Output Script:
+pyautogui.click(1587.0,186.5)

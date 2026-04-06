@@ -1,0 +1,4 @@
+Task: For event planning, scroll from 9 in the morning to 1 in the afternoon.
+Output script:
+pyautogui.click(1096.0,385.0)
+pyautogui.dragTo(1083.0,892.5"left")

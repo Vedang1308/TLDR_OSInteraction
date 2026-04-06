@@ -1,0 +1,5 @@
+Task: Find and show all the activities planned for the year 2022.
+Output script:
+pyautogui.click(280.5,130.5)
+pyautogui.write("2022")
+pyautogui.press("Enter")

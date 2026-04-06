@@ -1,0 +1,4 @@
+Task: Search for the playlist named "Stuck on You" by scrolling down.
+Output Script:
+pyautogui.moveTo(1884.5,1104.0)
+pyautogui.scroll(5)

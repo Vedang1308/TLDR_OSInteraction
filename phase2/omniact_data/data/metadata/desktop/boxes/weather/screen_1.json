@@ -1,0 +1,233 @@
+{
+    "example_0": {
+        "top_left": [
+            24,
+            106
+        ],
+        "bottom_right": [
+            622,
+            240
+        ],
+        "label": "weather_chicago"
+    },
+    "example_1": {
+        "top_left": [
+            22,
+            241
+        ],
+        "bottom_right": [
+            617,
+            353
+        ],
+        "label": "weather_new_delhi"
+    },
+    "example_2": {
+        "top_left": [
+            20,
+            356
+        ],
+        "bottom_right": [
+            615,
+            468
+        ],
+        "label": "weather_niagara_falls"
+    },
+    "example_3": {
+        "top_left": [
+            18,
+            470
+        ],
+        "bottom_right": [
+            614,
+            592
+        ],
+        "label": "weather_san_francisco"
+    },
+    "example_4": {
+        "top_left": [
+            16,
+            592
+        ],
+        "bottom_right": [
+            612,
+            714
+        ],
+        "label": "weather_vancouver"
+    },
+    "example_5": {
+        "top_left": [
+            14,
+            718
+        ],
+        "bottom_right": [
+            611,
+            835
+        ],
+        "label": "weather_tokyo"
+    },
+    "example_6": {
+        "top_left": [
+            12,
+            961
+        ],
+        "bottom_right": [
+            609,
+            1078
+        ],
+        "label": "weather_auckland"
+    },
+    "example_7": {
+        "top_left": [
+            2977,
+            21
+        ],
+        "bottom_right": [
+            3335,
+            77
+        ],
+        "label": "search_city"
+    },
+    "example_8": {
+        "top_left": [
+            1693,
+            503
+        ],
+        "bottom_right": [
+            2309,
+            792
+        ],
+        "label": "hourly_forecast"
+    },
+    "example_9": {
+        "top_left": [
+            1693,
+            819
+        ],
+        "bottom_right": [
+            2309,
+            1111
+        ],
+        "label": "air_quality"
+    },
+    "example_10": {
+        "top_left": [
+            1693,
+            1140
+        ],
+        "bottom_right": [
+            1990,
+            1432
+        ],
+        "label": "uv_index"
+    },
+    "example_11": {
+        "top_left": [
+            2013,
+            1140
+        ],
+        "bottom_right": [
+            2310,
+            1432
+        ],
+        "label": "sun_position"
+    },
+    "example_12": {
+        "top_left": [
+            1695,
+            1462
+        ],
+        "bottom_right": [
+            1992,
+            1754
+        ],
+        "label": "feels_like_temperature"
+    },
+    "example_13": {
+        "top_left": [
+            2019,
+            1463
+        ],
+        "bottom_right": [
+            2316,
+            1755
+        ],
+        "label": "humidity"
+    },
+    "example_14": {
+        "top_left": [
+            2330,
+            1461
+        ],
+        "bottom_right": [
+            2627,
+            1753
+        ],
+        "label": "visibility"
+    },
+    "example_15": {
+        "top_left": [
+            2644,
+            1462
+        ],
+        "bottom_right": [
+            2941,
+            1754
+        ],
+        "label": "pressure"
+    },
+    "example_16": {
+        "top_left": [
+            2332,
+            1142
+        ],
+        "bottom_right": [
+            2629,
+            1434
+        ],
+        "label": "wind"
+    },
+    "example_17": {
+        "top_left": [
+            2645,
+            1145
+        ],
+        "bottom_right": [
+            2942,
+            1437
+        ],
+        "label": "precipitation"
+    },
+    "example_18": {
+        "top_left": [
+            1053,
+            819
+        ],
+        "bottom_right": [
+            1667,
+            1756
+        ],
+        "label": "10_day_forecast"
+    },
+    "example_19": {
+        "top_left": [
+            2335,
+            503
+        ],
+        "bottom_right": [
+            2946,
+            1116
+        ],
+        "label": "map_view"
+    },
+    "example_20": {
+        "top_left": [
+            659,
+            3
+        ],
+        "bottom_right": [
+            743,
+            95
+        ],
+        "label": "hide_list"
+    }
+}

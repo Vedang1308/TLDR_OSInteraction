@@ -1,0 +1,3 @@
+Task: Click on the options for reactions.
+Output Script:
+pyautogui.click(2085.0,1734.5)

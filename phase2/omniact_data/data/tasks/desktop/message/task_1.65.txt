@@ -1,0 +1,5 @@
+Task: Convey to Thomas that you"ve previously accomplished this task and it was not hard for you.
+Output Script:
+pyautogui.click(320.0,506.5)
+pyautogui.write("I"ve done it before, it"s easy")
+pyautogui.press("enter")

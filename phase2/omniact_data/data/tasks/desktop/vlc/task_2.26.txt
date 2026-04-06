@@ -1,0 +1,3 @@
+Task: Navigate to further video content below
+Output Script:
+pyautogui.scroll(-100)

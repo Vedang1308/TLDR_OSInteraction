@@ -1,0 +1,5 @@
+Task: Locate and select the top trending topic.
+Output Script:
+pyautogui.click(1198.0,104.0)
+pyautogui.press("down")
+pyautogui.press("enter")

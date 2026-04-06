@@ -1,0 +1,4 @@
+Task: Request the presence of "abc@example.com" at the upcoming event.
+Output Script:
+pyautogui.click(1547.0,272.5)
+pyautogui.write("abc@example.com")

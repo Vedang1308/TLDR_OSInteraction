@@ -1,0 +1,5 @@
+Task: Append "office" as a new spot in your saved places list.
+Output script:
+pyautogui.click(290.5,528.5)
+pyautogui.write("office")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Initiate Pinterest sharing function
+Output Script:
+pyautogui.click(21.0,492.0)

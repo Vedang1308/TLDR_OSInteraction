@@ -1,0 +1,3 @@
+Task: Please select the "close" button to end the running window.
+Output script:
+pyautogui.click(2339.0,149.5)

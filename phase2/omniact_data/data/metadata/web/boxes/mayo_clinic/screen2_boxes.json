@@ -1,0 +1,302 @@
+{
+    "example_0": {
+        "top_left": [
+            240,
+            854
+        ],
+        "bottom_right": [
+            333,
+            873
+        ],
+        "valid": 1,
+        "label": "redirect_to_glucosamine_link"
+    },
+    "example_1": {
+        "top_left": [
+            280,
+            426
+        ],
+        "bottom_right": [
+            312,
+            464
+        ],
+        "valid": 1,
+        "label": "b"
+    },
+    "example_2": {
+        "top_left": [
+            680,
+            472
+        ],
+        "bottom_right": [
+            712,
+            510
+        ],
+        "valid": 1,
+        "label": "number_sign"
+    },
+    "example_3": {
+        "top_left": [
+            560,
+            426
+        ],
+        "bottom_right": [
+            592,
+            464
+        ],
+        "valid": 1,
+        "label": " redirecting to next page."
+    },
+    "example_4": {
+        "top_left": [
+            320,
+            426
+        ],
+        "bottom_right": [
+            352,
+            464
+        ],
+        "valid": 1,
+        "label": "Sort_letter_'C'"
+    },
+    "example_5": {
+        "top_left": [
+            680,
+            426
+        ],
+        "bottom_right": [
+            712,
+            464
+        ],
+        "valid": 1,
+        "label": "find_options_starting_with_letter_L"
+    },
+    "example_6": {
+        "top_left": [
+            440,
+            426
+        ],
+        "bottom_right": [
+            472,
+            464
+        ],
+        "valid": 1,
+        "label": " redirecting to next page."
+    },
+    "example_7": {
+        "top_left": [
+            982,
+            651
+        ],
+        "bottom_right": [
+            1060,
+            665
+        ],
+        "valid": 1,
+        "label": "redirect_to_opportunities"
+    },
+    "example_8": {
+        "top_left": [
+            240,
+            472
+        ],
+        "bottom_right": [
+            272,
+            510
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            240,
+            714
+        ],
+        "bottom_right": [
+            364,
+            733
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_10": {
+        "top_left": [
+            360,
+            426
+        ],
+        "bottom_right": [
+            392,
+            464
+        ],
+        "valid": 1,
+        "label": "Letter_D_tab"
+    },
+    "example_11": {
+        "top_left": [
+            1248,
+            37
+        ],
+        "bottom_right": [
+            1320,
+            61
+        ],
+        "valid": 1,
+        "label": "mangifying login icon that corresponds to login option."
+    },
+    "example_12": {
+        "top_left": [
+            440,
+            472
+        ],
+        "bottom_right": [
+            472,
+            510
+        ],
+        "valid": 1,
+        "label": "letter_'U'_tab"
+    },
+    "example_13": {
+        "top_left": [
+            240,
+            128
+        ],
+        "bottom_right": [
+            631,
+            168
+        ],
+        "valid": 1,
+        "label": "heading of the page Drugs and Supplements."
+    },
+    "example_14": {
+        "top_left": [
+            333,
+            27
+        ],
+        "bottom_right": [
+            405,
+            77
+        ],
+        "valid": 1,
+        "label": " redirecting to Health library LInk page."
+    },
+    "example_15": {
+        "top_left": [
+            453,
+            27
+        ],
+        "bottom_right": [
+            567,
+            77
+        ],
+        "valid": 1,
+        "label": " redirecting to for medical  professionals page."
+    },
+    "example_16": {
+        "top_left": [
+            240,
+            798
+        ],
+        "bottom_right": [
+            362,
+            817
+        ],
+        "valid": 1,
+        "label": "Redirect_Folate_link"
+    },
+    "example_17": {
+        "top_left": [
+            920,
+            858
+        ],
+        "bottom_right": [
+            1176,
+            880
+        ],
+        "valid": 1,
+        "label": "redirect_icon"
+    },
+    "example_18": {
+        "top_left": [
+            760,
+            426
+        ],
+        "bottom_right": [
+            792,
+            464
+        ],
+        "valid": 1,
+        "label": "filter_by_letter_N"
+    },
+    "example_19": {
+        "top_left": [
+            920,
+            770
+        ],
+        "bottom_right": [
+            1168,
+            808
+        ],
+        "valid": 1,
+        "label": NaN
+    },
+    "example_20": {
+        "top_left": [
+            920,
+            651
+        ],
+        "bottom_right": [
+            959,
+            665
+        ],
+        "valid": 1,
+        "label": "redirect_policy"
+    },
+    "example_21": {
+        "top_left": [
+            560,
+            472
+        ],
+        "bottom_right": [
+            592,
+            510
+        ],
+        "valid": 1,
+        "label": "Letter_'X'_tab"
+    },
+    "example_22": {
+        "top_left": [
+            240,
+            602
+        ],
+        "bottom_right": [
+            272,
+            621
+        ],
+        "valid": 1,
+        "label": "filter_by_aloe_products"
+    },
+    "example_23": {
+        "top_left": [
+            240,
+            630
+        ],
+        "bottom_right": [
+            351,
+            649
+        ],
+        "valid": 1,
+        "label": "redirect_Coenzyme_Q10"
+    },
+    "example_24": {
+        "top_left": [
+            600,
+            426
+        ],
+        "bottom_right": [
+            632,
+            464
+        ],
+        "valid": 1,
+        "label": "sort the drugs name in alphabetic order"
+    }
+}

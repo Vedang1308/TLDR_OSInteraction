@@ -1,0 +1,3 @@
+Task: Click on the "plan for later" button to schedule a trip for a later time.
+Output script:
+pyautogui.click(2696.0,376.5)

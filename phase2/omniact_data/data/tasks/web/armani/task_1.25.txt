@@ -1,0 +1,3 @@
+Task: Navigate to the Graphic T-shirts section using the menu bar
+Output Script:
+pyautogui.click(386.0,228.0)

@@ -1,0 +1,5 @@
+Task: Add "doctor appointment" task
+Output Script:
+pyautogui.click(731.5,805.0)
+pyautogui.write("house party)
+pyautogui.press("Enter")

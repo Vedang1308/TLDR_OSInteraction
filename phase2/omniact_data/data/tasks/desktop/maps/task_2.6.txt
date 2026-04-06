@@ -1,0 +1,3 @@
+Task: Dislike the place by clicking on the thumbs down button.
+Output script:
+pyautogui.click(1612.5,671.0)

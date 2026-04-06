@@ -1,0 +1,5 @@
+Task: "Make the width of the tab in this document equal to 4"
+Output Script:
+pyautogui.click(1624.0,1065.5)
+pyautogui.write("4")
+pyautogui.press("enter")

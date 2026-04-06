@@ -1,0 +1,4 @@
+Task: Check if there is rain at 1am using hourly forecast window
+Output Script:
+pyautogui.moveTo(1679.5, 650.5)
+pyautogui.hscroll("10")

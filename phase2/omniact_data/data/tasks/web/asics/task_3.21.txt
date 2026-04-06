@@ -1,0 +1,5 @@
+Task: Advance to the fourth photo in the lineup
+Output Script: 
+pyautogui.click(846.0,516.0)
+pyautogui.click(846.0,516.0)
+pyautogui.click(846.0,516.0)

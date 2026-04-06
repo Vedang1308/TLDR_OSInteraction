@@ -1,0 +1,302 @@
+{
+    "example_0": {
+        "top_left": [
+            196,
+            302
+        ],
+        "bottom_right": [
+            238,
+            350
+        ],
+        "valid": 1,
+        "label": "filter_by_New"
+    },
+    "example_1": {
+        "top_left": [
+            1342,
+            415
+        ],
+        "bottom_right": [
+            1390,
+            463
+        ],
+        "valid": 1,
+        "label": "show_next_slides"
+    },
+    "example_2": {
+        "top_left": [
+            24,
+            121
+        ],
+        "bottom_right": [
+            167,
+            169
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_3": {
+        "top_left": [
+            300,
+            19
+        ],
+        "bottom_right": [
+            915,
+            53
+        ],
+        "valid": 1,
+        "label": "search_by_searchbar"
+    },
+    "example_4": {
+        "top_left": [
+            249,
+            121
+        ],
+        "bottom_right": [
+            362,
+            169
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_5": {
+        "top_left": [
+            74,
+            513
+        ],
+        "bottom_right": [
+            312,
+            553
+        ],
+        "valid": 1,
+        "label": " redirecting to powerful bussiness writing :how to write concisely"
+    },
+    "example_6": {
+        "top_left": [
+            532,
+            121
+        ],
+        "bottom_right": [
+            657,
+            169
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_7": {
+        "top_left": [
+            577,
+            73
+        ],
+        "bottom_right": [
+            719,
+            121
+        ],
+        "valid": 1,
+        "label": "redirect_to_business_strategy"
+    },
+    "example_8": {
+        "top_left": [
+            271,
+            73
+        ],
+        "bottom_right": [
+            399,
+            121
+        ],
+        "valid": 1,
+        "label": "redirect_to_communications_page"
+    },
+    "example_9": {
+        "top_left": [
+            1376,
+            73
+        ],
+        "bottom_right": [
+            1416,
+            121
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_10": {
+        "top_left": [
+            719,
+            73
+        ],
+        "bottom_right": [
+            818,
+            121
+        ],
+        "valid": 1,
+        "label": "redirect_to_Operations"
+    },
+    "example_11": {
+        "top_left": [
+            254,
+            302
+        ],
+        "bottom_right": [
+            327,
+            350
+        ],
+        "valid": 1,
+        "label": "redirect_to_trending_options"
+    },
+    "example_12": {
+        "top_left": [
+            597,
+            513
+        ],
+        "bottom_right": [
+            824,
+            553
+        ],
+        "valid": 1,
+        "label": "option_link"
+    },
+    "example_13": {
+        "top_left": [
+            859,
+            513
+        ],
+        "bottom_right": [
+            1071,
+            572
+        ],
+        "valid": 1,
+        "label": "chooses_option"
+    },
+    "example_14": {
+        "top_left": [
+            818,
+            73
+        ],
+        "bottom_right": [
+            977,
+            121
+        ],
+        "valid": 1,
+        "label": "redirect_to_Post_Management"
+    },
+    "example_15": {
+        "top_left": [
+            977,
+            73
+        ],
+        "bottom_right": [
+            1092,
+            121
+        ],
+        "valid": 1,
+        "label": "redirect_to_business_law"
+    },
+    "example_16": {
+        "top_left": [
+            336,
+            652
+        ],
+        "bottom_right": [
+            466,
+            652
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_17": {
+        "top_left": [
+            252,
+            12
+        ],
+        "bottom_right": [
+            300,
+            60
+        ],
+        "valid": 1,
+        "label": "search_button"
+    },
+    "example_18": {
+        "top_left": [
+            74,
+            652
+        ],
+        "bottom_right": [
+            205,
+            652
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_19": {
+        "top_left": [
+            597,
+            652
+        ],
+        "bottom_right": [
+            728,
+            652
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_20": {
+        "top_left": [
+            0,
+            36
+        ],
+        "bottom_right": [
+            138,
+            36
+        ],
+        "valid": 1,
+        "label": "redirect_to_Udemy_Page"
+    },
+    "example_21": {
+        "top_left": [
+            167,
+            121
+        ],
+        "bottom_right": [
+            249,
+            169
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_22": {
+        "top_left": [
+            133,
+            73
+        ],
+        "bottom_right": [
+            271,
+            121
+        ],
+        "valid": 1,
+        "label": "redirect_to_Entrepreneurship"
+    },
+    "example_23": {
+        "top_left": [
+            1120,
+            513
+        ],
+        "bottom_right": [
+            1303,
+            533
+        ],
+        "valid": 1,
+        "label": "redirect_to_introduction_to_business_page"
+    },
+    "example_24": {
+        "top_left": [
+            512,
+            73
+        ],
+        "bottom_right": [
+            577,
+            121
+        ],
+        "valid": 1,
+        "label": "filter_by_sales_course_topic"
+    }
+}

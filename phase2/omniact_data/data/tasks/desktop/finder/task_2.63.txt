@@ -1,0 +1,6 @@
+Task: Generate a new directory within the "Downloads" folder.
+Output Script:
+pyautogui.click(383.0,270.0)
+pyautogui.rightClick(1883.0,268.0)
+pyautogui.write("New Folder")
+pyautogui.press("enter")

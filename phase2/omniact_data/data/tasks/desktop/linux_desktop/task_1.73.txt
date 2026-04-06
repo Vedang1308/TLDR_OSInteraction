@@ -1,0 +1,3 @@
+Task: Shut Down or Logout
+Output Script:
+pyautogui.click(1751.5,372.0)

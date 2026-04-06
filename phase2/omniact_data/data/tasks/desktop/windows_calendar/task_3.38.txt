@@ -1,0 +1,4 @@
+Task: Set start date as "07 October 2023"
+Output Script:
+pyautogui.click(419.0,432.0)
+pyautogui.write("07 October 2023 ")

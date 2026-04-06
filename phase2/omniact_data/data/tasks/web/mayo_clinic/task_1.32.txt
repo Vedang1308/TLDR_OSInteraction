@@ -1,0 +1,3 @@
+Task: Schedule a session with the help of the Mayoclinic animation.
+Output Script:
+pyautogui.click(381.0,642.0)

@@ -1,0 +1,3 @@
+Task: Open preferences menu
+Output Script:
+pyautogui.click(1768.5,137.0)

@@ -1,0 +1,3 @@
+Task: Select the first email from the email list
+Output script:
+pyautogui.click(810.5,210.5)

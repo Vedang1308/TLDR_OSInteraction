@@ -1,0 +1,3 @@
+Task: Use a keyboard shortcut to go to the tab on the left
+Output Script:
+pyautogui.hotkey("ctrl", "shift", "tab")

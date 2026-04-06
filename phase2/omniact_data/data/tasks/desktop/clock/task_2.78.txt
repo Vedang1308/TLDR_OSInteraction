@@ -1,0 +1,4 @@
+Task: Update the seconds field to 45
+Output Script:
+pyautogui.click(1960.0,980.5)
+pyautogui.write("45")

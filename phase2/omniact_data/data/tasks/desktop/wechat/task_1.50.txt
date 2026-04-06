@@ -1,0 +1,3 @@
+Task: Begin the file transfer option
+Output Script:
+pyautogui.click(225.5,194.5)

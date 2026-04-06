@@ -1,0 +1,3 @@
+Task: Explore details of the 15GB Plan
+Output Script:
+pyautogui.click(560.0,568.0)

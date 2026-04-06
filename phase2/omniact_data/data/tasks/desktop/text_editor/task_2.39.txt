@@ -1,0 +1,7 @@
+Task: "Discover every occurrence of the word that was searched penultimate time"
+Output Script:
+pyautogui.click(1197.5,488.0)
+pyautogui.press("tab")
+pyautogui.press("down")
+pyautogui.press("enter")
+pyautogui.click(1164.0,663.0)

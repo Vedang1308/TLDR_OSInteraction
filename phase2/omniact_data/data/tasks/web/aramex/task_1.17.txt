@@ -1,0 +1,3 @@
+Task: Reach the principal interface through the aramex icon.
+Output Script:
+pyautogui.click(105.0,40.0)

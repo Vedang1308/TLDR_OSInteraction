@@ -1,0 +1,6 @@
+Task: Apply both Italic and Underline format to all text in the email body.
+Output Script:
+pyautogui.click(1310.5,415.5)
+pyautogui.hotkey("ctrl", "a")
+pyautogui.click(821.0,124.0)
+pyautogui.click(868.0,124.0)

@@ -1,0 +1,3 @@
+Task: Preview the calendar entry on 13th March
+Output script:
+pyautogui.click(1797.5,499.5)

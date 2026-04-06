@@ -1,0 +1,3 @@
+Task: Choose to view stock price changes across the latest month.
+Output script:
+pyautogui.click(1192.5,387.0)

@@ -1,0 +1,3 @@
+Task: Add the playlist to your favorites
+Output script:
+pyautogui.click(610.0,338.5,)

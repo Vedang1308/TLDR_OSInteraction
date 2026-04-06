@@ -1,0 +1,3 @@
+Task: Press the space bar once to scroll down and view additional topics
+Output Script:
+pyautogui.press("space")

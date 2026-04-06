@@ -1,0 +1,3 @@
+Task: Select the "Music" option
+Output Script:
+pyautogui.click(169.5,324.5)

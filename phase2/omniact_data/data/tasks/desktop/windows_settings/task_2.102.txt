@@ -1,0 +1,3 @@
+Task: Navigate to the Network settings of Xbox
+Output Script:
+pyautogui.click(200.0,460.5)

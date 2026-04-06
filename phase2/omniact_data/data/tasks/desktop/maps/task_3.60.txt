@@ -1,0 +1,3 @@
+Task: Shut the existing window by clicking on the "close" button.
+Output script:
+pyautogui.click(2339.0,149.5)

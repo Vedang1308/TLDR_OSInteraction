@@ -1,0 +1,3 @@
+Task: Initiate a new folder creation solely using keyboard commands
+Output Script:
+pyautogui.hotkey("ctrl", "shift", "n")

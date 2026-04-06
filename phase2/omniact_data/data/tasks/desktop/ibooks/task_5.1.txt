@@ -1,0 +1,3 @@
+Task: double click to read the book "Songs of Kabir"
+Output Script:
+pyautogui.doubleClick(2592.0,617.5)

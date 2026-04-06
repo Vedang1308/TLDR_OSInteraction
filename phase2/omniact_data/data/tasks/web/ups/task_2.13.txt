@@ -1,0 +1,3 @@
+Task: Switch off the On-screen Guidance
+Output Script:
+pyautogui.click(173.5,306.5)

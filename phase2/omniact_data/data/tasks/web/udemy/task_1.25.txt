@@ -1,0 +1,3 @@
+Task: Click on the link to access the course content preview and pause by pressing space 
+pyautogui.click(1094.0,199.5)
+pyautogui.press("space")

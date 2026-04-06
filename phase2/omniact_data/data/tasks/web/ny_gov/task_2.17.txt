@@ -1,0 +1,3 @@
+Task: To view more services, click on "Explore Services" button
+Output Script:
+pyautogui.click(720.0,362.0)

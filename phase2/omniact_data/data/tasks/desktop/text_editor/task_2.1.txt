@@ -1,0 +1,5 @@
+Task: "Find the word "shakespeare" in the document"
+Output Script:
+pyautogui.click(1027.0,490.0)
+pyautogui.write("shakespeare")
+pyautogui.click(1164.0,663.0)

@@ -1,0 +1,3 @@
+Task: Check out member exclusive deals at the top of the page
+Output Script:
+pyautogui.click(720.0,16.5)

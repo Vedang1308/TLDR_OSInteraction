@@ -1,0 +1,3 @@
+Task: Initiate the playlist opening 
+Output script:
+pyautogui.click(228.5,422.0)

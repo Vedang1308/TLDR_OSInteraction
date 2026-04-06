@@ -1,0 +1,3 @@
+Task: Execute the action to reveal all tags
+Output Script:
+pyautogui.click(225.5,277.5)

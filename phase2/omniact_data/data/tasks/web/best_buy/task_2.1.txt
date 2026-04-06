@@ -1,0 +1,5 @@
+Task: Search for Pixel 8 Pro deals on Best Buy
+Output Script:
+pyautogui.click(548.5,70.0)
+pyautogui.write("Pixel 8 Pro")
+pyautogui.press("enter")

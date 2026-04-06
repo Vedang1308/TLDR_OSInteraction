@@ -1,0 +1,5 @@
+Task: Conduct a Brown Bread search
+Output Script:
+pyautogui.click(913.5,95.0)
+pyautogui.write("Brown Bread")
+pyautogui.press("enter")

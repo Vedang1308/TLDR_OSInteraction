@@ -1,0 +1,3 @@
+Task: Archive the current activity
+Output Script:
+Pyautogui.click(1717.0,482.5)

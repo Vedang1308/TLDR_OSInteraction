@@ -1,0 +1,5 @@
+Task: Decrease hours by 2
+Output Script:
+pyautogui.click(1389.0,985.0)
+pyautogui.press("down")
+pyautogui.press("down")

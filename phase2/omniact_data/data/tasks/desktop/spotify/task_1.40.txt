@@ -1,0 +1,3 @@
+Task: Decrement the sound level
+Output script:
+pyautogui.click(1791.5,974.0)

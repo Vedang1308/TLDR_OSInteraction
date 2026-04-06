@@ -1,0 +1,3 @@
+Task: Classify event members based on their family name.
+Output Script:
+pyautogui.click(1453.0,337.0)

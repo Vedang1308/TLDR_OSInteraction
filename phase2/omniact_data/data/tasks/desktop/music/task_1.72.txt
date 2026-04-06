@@ -1,0 +1,3 @@
+Task: Move cursor to Tailgating
+Output script:
+pyautogui.moveTo(2827.0,836.0)

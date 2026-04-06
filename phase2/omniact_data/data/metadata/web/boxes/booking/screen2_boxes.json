@@ -1,0 +1,290 @@
+{
+    "example_0": {
+        "top_left": [
+            1189,
+            18
+        ],
+        "bottom_right": [
+            1258,
+            54
+        ],
+        "valid": 1,
+        "label": "redirect_to_Sign_In_Page"
+    },
+    "example_1": {
+        "top_left": [
+            529,
+            68
+        ],
+        "bottom_right": [
+            661,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_Car_rentals"
+    },
+    "example_2": {
+        "top_left": [
+            1250,
+            747
+        ],
+        "bottom_right": [
+            1286,
+            783
+        ],
+        "valid": 1,
+        "label": "next_icon"
+    },
+    "example_3": {
+        "top_left": [
+            744,
+            793
+        ],
+        "bottom_right": [
+            839,
+            829
+        ],
+        "valid": 1,
+        "label": "browse_vacation_properties"
+    },
+    "example_4": {
+        "top_left": [
+            267,
+            68
+        ],
+        "bottom_right": [
+            372,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_icon"
+    },
+    "example_5": {
+        "top_left": [
+            882,
+            12
+        ],
+        "bottom_right": [
+            930,
+            60
+        ],
+        "valid": 1,
+        "label": "help_icon"
+    },
+    "example_6": {
+        "top_left": [
+            350,
+            547
+        ],
+        "bottom_right": [
+            351,
+            548
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_7": {
+        "top_left": [
+            761,
+            12
+        ],
+        "bottom_right": [
+            818,
+            60
+        ],
+        "valid": 1,
+        "label": "select currency"
+    },
+    "example_8": {
+        "top_left": [
+            1155,
+            473
+        ],
+        "bottom_right": [
+            1266,
+            527
+        ],
+        "valid": 1,
+        "label": "search_button"
+    },
+    "example_9": {
+        "top_left": [
+            938,
+            12
+        ],
+        "bottom_right": [
+            1094,
+            60
+        ],
+        "valid": 1,
+        "label": "redirect_to_property_list_page"
+    },
+    "example_10": {
+        "top_left": [
+            864,
+            481
+        ],
+        "bottom_right": [
+            1143,
+            519
+        ],
+        "valid": 1,
+        "label": "choose_room_type_and_visitors"
+    },
+    "example_11": {
+        "top_left": [
+            376,
+            68
+        ],
+        "bottom_right": [
+            525,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_Flight_+_Hotel"
+    },
+    "example_12": {
+        "top_left": [
+            716,
+            482
+        ],
+        "bottom_right": [
+            836,
+            518
+        ],
+        "valid": 1,
+        "label": "check_out_date_information"
+    },
+    "example_13": {
+        "top_left": [
+            593,
+            482
+        ],
+        "bottom_right": [
+            704,
+            518
+        ],
+        "valid": 1,
+        "label": "search_checkindate"
+    },
+    "example_14": {
+        "top_left": [
+            826,
+            12
+        ],
+        "bottom_right": [
+            874,
+            60
+        ],
+        "valid": 1,
+        "label": "select_US_flag_button"
+    },
+    "example_15": {
+        "top_left": [
+            166,
+            68
+        ],
+        "bottom_right": [
+            263,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_Stays"
+    },
+    "example_16": {
+        "top_left": [
+            186,
+            793
+        ],
+        "bottom_right": [
+            324,
+            829
+        ],
+        "valid": 1,
+        "label": "search_for_flights_button"
+    },
+    "example_17": {
+        "top_left": [
+            170,
+            368
+        ],
+        "bottom_right": [
+            287,
+            416
+        ],
+        "valid": 1,
+        "label": "learn_more"
+    },
+    "example_18": {
+        "top_left": [
+            154,
+            747
+        ],
+        "bottom_right": [
+            190,
+            783
+        ],
+        "valid": 1,
+        "label": "redirect_search_for_flights"
+    },
+    "example_19": {
+        "top_left": [
+            802,
+            68
+        ],
+        "bottom_right": [
+            943,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_Airport_Taxis"
+    },
+    "example_20": {
+        "top_left": [
+            182,
+            24
+        ],
+        "bottom_right": [
+            326,
+            48
+        ],
+        "valid": 1,
+        "label": "redirect_to_Booking.com_page"
+    },
+    "example_21": {
+        "top_left": [
+            1102,
+            18
+        ],
+        "bottom_right": [
+            1181,
+            54
+        ],
+        "valid": 1,
+        "label": "redirect_to_register_account"
+    },
+    "example_22": {
+        "top_left": [
+            665,
+            68
+        ],
+        "bottom_right": [
+            798,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_attractions"
+    },
+    "example_23": {
+        "top_left": [
+            170,
+            547
+        ],
+        "bottom_right": [
+            171,
+            548
+        ],
+        "valid": 0,
+        "label": "NA"
+    }
+}

@@ -1,0 +1,3 @@
+Task: Adjust settings for mouse
+Output Script:
+pyautogui.click(190.0,659.0)

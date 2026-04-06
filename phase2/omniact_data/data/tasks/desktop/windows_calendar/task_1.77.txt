@@ -1,0 +1,6 @@
+Task: Switch to a different option using Tab key.
+Output Script:
+Pyautogui.click(301.0,1002.0)
+Pyautogui.press("Up")
+Pyautogui.press("Tab")
+Pyautogui.press("Enter")

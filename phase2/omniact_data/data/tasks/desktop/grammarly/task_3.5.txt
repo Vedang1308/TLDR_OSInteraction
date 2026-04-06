@@ -1,0 +1,3 @@
+Task: Look at the delete document
+Output script:
+pyautogui.click(187.0,294.5)

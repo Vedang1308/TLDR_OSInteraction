@@ -1,0 +1,5 @@
+Task: Replicate a text message sent by Jack.
+Output Script:
+pyautogui.click(696.5,146.5)
+pyautogui.hotkey("ctrl", "a")
+pyautogui.hotkey("ctrl", "c")

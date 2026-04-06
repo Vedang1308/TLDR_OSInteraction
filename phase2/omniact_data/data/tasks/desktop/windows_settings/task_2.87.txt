@@ -1,0 +1,3 @@
+Task: Navigate to the page labeled "Give Feedback"
+Output Script:
+pyautogui.click(1672.5,542.5)

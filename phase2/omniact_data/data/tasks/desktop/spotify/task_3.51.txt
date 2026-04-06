@@ -1,0 +1,3 @@
+Task: Sort the tracks in the playlist by their names
+Output script:
+pyautogui.click(774.0,425.5)

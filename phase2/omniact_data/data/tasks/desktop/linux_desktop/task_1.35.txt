@@ -1,0 +1,4 @@
+Task: Trigger the right-click menu on the desktop
+Output Script:
+pyautogui.moveTo(1759.0,742.5)
+pyautogui.rightClick(1759.0,742.5)

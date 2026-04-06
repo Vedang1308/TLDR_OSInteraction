@@ -1,0 +1,3 @@
+Task: Navigate to the options in Windows media player
+Output Script:
+pyautogui.click(1840.0,601.0)

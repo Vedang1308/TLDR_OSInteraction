@@ -1,0 +1,3 @@
+Task: Make changes to the 12pm appointment.
+Output Script:
+pyautogui.click(640.5,313.5)

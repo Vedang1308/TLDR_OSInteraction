@@ -1,0 +1,6 @@
+Task: Open the second option in the Menu
+Output Script:
+pyautogui.click(199.0,72.0)
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")

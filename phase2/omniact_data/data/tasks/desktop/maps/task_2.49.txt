@@ -1,0 +1,3 @@
+Task: Show your liking for the place by hitting the like button. 
+Output script:
+pyautogui.click(1578.5,670.0)

@@ -1,0 +1,200 @@
+{
+    "example_0": {
+        "top_left": [
+            492,
+            553
+        ],
+        "bottom_right": [
+            1878,
+            622
+        ],
+        "label": "mockingbird_play"
+    },
+    "example_1": {
+        "top_left": [
+            948,
+            935
+        ],
+        "bottom_right": [
+            993,
+            981
+        ],
+        "label": "play_pause"
+    },
+    "example_2": {
+        "top_left": [
+            886,
+            934
+        ],
+        "bottom_right": [
+            937,
+            981
+        ],
+        "label": "beginning_song"
+    },
+    "example_3": {
+        "top_left": [
+            1003,
+            934
+        ],
+        "bottom_right": [
+            1054,
+            981
+        ],
+        "label": "beginning_end"
+    },
+    "example_4": {
+        "top_left": [
+            1055,
+            934
+        ],
+        "bottom_right": [
+            1106,
+            981
+        ],
+        "label": "loop_and_loop_once"
+    },
+    "example_5": {
+        "top_left": [
+            833,
+            935
+        ],
+        "bottom_right": [
+            884,
+            982
+        ],
+        "label": "shuffle"
+    },
+    "example_6": {
+        "top_left": [
+            1826,
+            713
+        ],
+        "bottom_right": [
+            1884,
+            763
+        ],
+        "label": "close_ad"
+    },
+    "example_7": {
+        "top_left": [
+            225,
+            949
+        ],
+        "bottom_right": [
+            275,
+            1000
+        ],
+        "label": "like_song"
+    },
+    "example_8": {
+        "top_left": [
+            1348,
+            111
+        ],
+        "bottom_right": [
+            1622,
+            150
+        ],
+        "label": "search_playlist"
+    },
+    "example_9": {
+        "top_left": [
+            1308,
+            150
+        ],
+        "bottom_right": [
+            1628,
+            199
+        ],
+        "label": "create_playlist"
+    },
+    "example_10": {
+        "top_left": [
+            1310,
+            200
+        ],
+        "bottom_right": [
+            1628,
+            249
+        ],
+        "label": "open_playlist"
+    },
+    "example_11": {
+        "top_left": [
+            1626,
+            247
+        ],
+        "bottom_right": [
+            1855,
+            299
+        ],
+        "label": "add_to_queue"
+    },
+    "example_12": {
+        "top_left": [
+            1627,
+            198
+        ],
+        "bottom_right": [
+            1855,
+            247
+        ],
+        "label": "save_to_liked"
+    },
+    "example_13": {
+        "top_left": [
+            1627,
+            153
+        ],
+        "bottom_right": [
+            1859,
+            194
+        ],
+        "label": "remove_from_playlist"
+    },
+    "example_14": {
+        "top_left": [
+            1625,
+            354
+        ],
+        "bottom_right": [
+            1857,
+            395
+        ],
+        "label": "goto_artist"
+    },
+    "example_15": {
+        "top_left": [
+            1623,
+            403
+        ],
+        "bottom_right": [
+            1855,
+            444
+        ],
+        "label": "goto_album"
+    },
+    "example_16": {
+        "top_left": [
+            1624,
+            456
+        ],
+        "bottom_right": [
+            1856,
+            497
+        ],
+        "label": "show_credits"
+    },
+    "example_17": {
+        "top_left": [
+            1622,
+            504
+        ],
+        "bottom_right": [
+            1854,
+            545
+        ],
+        "label": "share_song"
+    }
+}

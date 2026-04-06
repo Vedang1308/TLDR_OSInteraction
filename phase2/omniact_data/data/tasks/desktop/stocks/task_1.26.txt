@@ -1,0 +1,5 @@
+Task: Perform a search for the "Aurora" stock by typing it in the search bar and hitting enter.
+Output script:
+pyautogui.click(329.5,149.5)
+pyautogui.write("Aurora")
+pyautogui.press("enter")

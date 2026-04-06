@@ -1,0 +1,4 @@
+Task: Initiate the "Preferences" by clicking on the first field inside "Options".
+Output Script:
+pyautogui.click(1767.0,48.0)
+pyautogui.press("enter")

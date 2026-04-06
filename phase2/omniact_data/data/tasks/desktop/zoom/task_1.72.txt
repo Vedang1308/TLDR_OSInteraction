@@ -1,0 +1,3 @@
+Task: Navigate and click on the alert bell.
+Output Script:
+pyautogui.click(2752.0,51.0)

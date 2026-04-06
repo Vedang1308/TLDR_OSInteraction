@@ -1,0 +1,3 @@
+Task: Click on the Messages icon positioned at the bottom of the screen.
+Output Script:
+pyautogui.click(1294.5,2025.5)

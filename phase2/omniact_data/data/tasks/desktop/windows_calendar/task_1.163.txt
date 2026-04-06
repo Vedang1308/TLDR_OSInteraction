@@ -1,0 +1,3 @@
+Task: Access your email by clicking on the appropriate tab
+Output Script:
+Pyautogui.click(31.0,999.5)

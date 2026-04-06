@@ -1,0 +1,3 @@
+Task: Access the game details of Starfield by initiating a cursor click on the indicated point.
+Output Script:
+pyautogui.click(953.0,704.0)

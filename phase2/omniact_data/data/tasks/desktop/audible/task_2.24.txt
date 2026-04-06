@@ -1,0 +1,4 @@
+Task: Shift the speech speed to the next possible rate
+Output Script:
+pyautogui.click(847.0,775.5)
+pyautogui.press("right")

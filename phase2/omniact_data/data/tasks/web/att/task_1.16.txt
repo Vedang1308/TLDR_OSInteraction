@@ -1,0 +1,3 @@
+Task: Search for available mobile plans
+Output Script:
+pyautogui.click(720.0,134.5)

@@ -1,0 +1,3 @@
+Task: Modify mouse and trackpad configurations
+Output Script:
+pyautogui.click(190.0,659.0)

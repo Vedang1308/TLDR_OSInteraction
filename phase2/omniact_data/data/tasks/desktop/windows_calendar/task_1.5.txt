@@ -1,0 +1,3 @@
+Task: See the Microsoft accounts that are correlated with this calendar:
+Output Script:
+Pyautogui.click(167.5,615.0)

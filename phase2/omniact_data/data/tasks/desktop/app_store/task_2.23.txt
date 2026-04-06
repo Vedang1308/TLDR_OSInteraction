@@ -1,0 +1,3 @@
+Task: Click on the "more" button to expand the details. 
+Output script:
+pyautogui.click(2381.5,1602.0)

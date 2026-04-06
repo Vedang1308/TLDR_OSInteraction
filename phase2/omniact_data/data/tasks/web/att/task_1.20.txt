@@ -1,0 +1,3 @@
+Task: Activate Spanish language setting
+Output Script:
+pyautogui.click(1318.0,15.0)

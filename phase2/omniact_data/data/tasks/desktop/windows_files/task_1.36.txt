@@ -1,0 +1,3 @@
+Task: Access the Desktop directory straight from the left-hand menu.
+Output Script:
+pyautogui.click(156.5,400.5)

@@ -1,0 +1,7 @@
+Task: Access the second entry in the "Woman" dropdown menu
+Output Script:
+pyautogui.moveTo(341, 171.5)
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")

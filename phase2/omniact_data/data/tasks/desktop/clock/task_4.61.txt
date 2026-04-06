@@ -1,0 +1,3 @@
+Task: Stop the scheduled 4pm action
+Output Script:
+pyautogui.click(949.5,423.0)

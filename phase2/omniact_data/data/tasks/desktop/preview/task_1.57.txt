@@ -1,0 +1,3 @@
+Task: Turn off fullscreen mode.
+Output script:
+pyautogui.click(132.0,100.0)

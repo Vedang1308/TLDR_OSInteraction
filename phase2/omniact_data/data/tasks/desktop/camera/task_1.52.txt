@@ -1,0 +1,3 @@
+Task: Modify the image viewer"s preferences
+Output Script:
+pyautogui.click(1762.0,463.0)

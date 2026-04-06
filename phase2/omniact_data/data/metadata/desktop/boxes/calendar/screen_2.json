@@ -1,0 +1,112 @@
+{
+    "example_0": {
+        "top_left": [
+            548,
+            368
+        ],
+        "bottom_right": [
+            923,
+            423
+        ],
+        "label": "monday 9 am"
+    },
+    "example_1": {
+        "top_left": [
+            928,
+            370
+        ],
+        "bottom_right": [
+            1320,
+            426
+        ],
+        "label": "tuesday 2 Jan 9 am"
+    },
+    "example_2": {
+        "top_left": [
+            542,
+            1126
+        ],
+        "bottom_right": [
+            926,
+            1190
+        ],
+        "label": "monday Jan 1 pm"
+    },
+    "example_3": {
+        "top_left": [
+            934,
+            1123
+        ],
+        "bottom_right": [
+            1317,
+            1204
+        ],
+        "label": "tuesday 2 Jan 1 pm"
+    },
+    "example_4": {
+        "top_left": [
+            2467,
+            12
+        ],
+        "bottom_right": [
+            2862,
+            62
+        ],
+        "label": "search bar"
+    },
+    "example_5": {
+        "top_left": [
+            1328,
+            754
+        ],
+        "bottom_right": [
+            1709,
+            829
+        ],
+        "label": "wednesday 3 Jan Noon"
+    },
+    "example_6": {
+        "top_left": [
+            1326,
+            1504
+        ],
+        "bottom_right": [
+            1717,
+            1570
+        ],
+        "label": "Wednesday 3 Jan 6 pm"
+    },
+    "example_7": {
+        "top_left": [
+            1717,
+            501
+        ],
+        "bottom_right": [
+            2103,
+            562
+        ],
+        "label": "Thursday 4 Jan 10 am"
+    },
+    "example_8": {
+        "top_left": [
+            1720,
+            1254
+        ],
+        "bottom_right": [
+            2109,
+            1315
+        ],
+        "label": "Thursday 4 Jan 4 pm"
+    },
+    "example_9": {
+        "top_left": [
+            167,
+            15
+        ],
+        "bottom_right": [
+            215,
+            56
+        ],
+        "label": "create quick event"
+    }
+}

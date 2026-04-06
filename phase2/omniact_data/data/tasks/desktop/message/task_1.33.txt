@@ -1,0 +1,5 @@
+Task: Navigate and view previous messages with Clara
+Output Script:
+pyautogui.click(319.0,378.5)
+pyautogui.moveTo(2001.5,1050.5)
+pyautogui.scroll(30)

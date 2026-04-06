@@ -1,0 +1,5 @@
+Task: For a new task, set today"s date as the required deadline.
+Output script:
+pyautogui.click(746.0,1110.5)
+pyautogui.write("today")
+pyautogui.press("Enter")

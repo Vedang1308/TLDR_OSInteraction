@@ -1,0 +1,3 @@
+Task: Open Mail App
+Output Script:
+pyautogui.click(36.0,131.5)

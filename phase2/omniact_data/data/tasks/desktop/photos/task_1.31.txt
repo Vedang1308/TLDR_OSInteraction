@@ -1,0 +1,5 @@
+Task: Execute a slideshow by applying right mouse click on the top photo of second line.
+Output Script:
+pyautogui.rightClick(727.0,1137.0)
+pyautogui.write("Play Slideshow")
+pyautogui.press("enter")

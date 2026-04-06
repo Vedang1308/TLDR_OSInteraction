@@ -1,0 +1,3 @@
+Task: Initiate "see more" action.
+Output script:
+pyautogui.click(962.0,1554.5)

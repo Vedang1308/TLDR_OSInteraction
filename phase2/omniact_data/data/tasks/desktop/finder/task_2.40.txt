@@ -1,0 +1,3 @@
+Task: Organize the files based on size in increasing order
+Output Script:
+pyautogui.click(2998.5,132.0)

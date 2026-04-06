@@ -1,0 +1,5 @@
+Task: Add recipient of mail as "beck@gmail.com"
+Output script:
+pyautogui.click(2206.0,194.0)
+pyautogui.write("beck@gmail.com")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Proceed to the regular fit T-shirts section by selecting it.
+Output Script:
+pyautogui.click(1070.0,823.0)

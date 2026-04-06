@@ -1,0 +1,3 @@
+Task: Inspect the emails connected to this particular calendar.
+Output Script:
+Pyautogui.click(166.5,554.5)

@@ -1,0 +1,3 @@
+Task: Access settings to alter basic visual display 
+Output Script:
+pyautogui.click(192.5,208.5)

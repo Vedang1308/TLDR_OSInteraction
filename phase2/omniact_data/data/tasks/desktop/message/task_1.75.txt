@@ -1,0 +1,5 @@
+Task: Compose a text message to Ash asking "Did you had fun?"
+Output Script:
+pyautogui.click(320.0,636.5)
+pyautogui.write("Did you had fun?")
+pyautogui.press("enter")

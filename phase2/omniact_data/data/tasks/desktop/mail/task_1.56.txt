@@ -1,0 +1,3 @@
+Task: Disable the noise for the existing talk.
+Output script:
+pyautogui.click(2379.5,51.0)

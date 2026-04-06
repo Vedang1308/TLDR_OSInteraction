@@ -1,0 +1,3 @@
+Task: Navigate to the display options
+Output Script:
+pyautogui.click(202.5,280.5)

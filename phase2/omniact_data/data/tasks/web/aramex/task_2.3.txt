@@ -1,0 +1,3 @@
+Task: Go back to the home page by clicking on the button in the lower left panel
+Output Script:
+pyautogui.click(137.0,680.5)

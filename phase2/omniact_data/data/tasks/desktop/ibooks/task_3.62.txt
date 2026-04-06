@@ -1,0 +1,5 @@
+Task: Distribute this page on Twitter using the share button
+Output Script:
+pyautogui.click(2931.0,99.0)
+pyautogui.write("Twitter")
+pyautogui.press("enter")

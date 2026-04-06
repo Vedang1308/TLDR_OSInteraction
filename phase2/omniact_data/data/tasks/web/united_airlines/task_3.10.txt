@@ -1,0 +1,6 @@
+Task: Modify the commencement point to Taipei and the final location to United States
+Output script:
+pyautogui.click(299.0,368.0)
+pyautogui.write("Taipei")
+pyautogui.click(567.0,368.0)
+pyautogui.write("United States")

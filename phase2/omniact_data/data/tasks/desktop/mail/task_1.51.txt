@@ -1,0 +1,3 @@
+Task: Erase the chosen text message.
+Output script:
+pyautogui.click(1757.5,51.0)

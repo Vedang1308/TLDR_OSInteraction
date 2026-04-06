@@ -1,0 +1,4 @@
+Task: Use the back arrow to reach the date of day before yesterday
+Output Script:
+Pyautogui.click(356.0,66.5)
+Pyautogui.click(356.0,66.5)

@@ -1,0 +1,3 @@
+Task: Purchase the audio format of the book at hand
+Output Script:
+pyautogui.click(2577.0,1091.0)

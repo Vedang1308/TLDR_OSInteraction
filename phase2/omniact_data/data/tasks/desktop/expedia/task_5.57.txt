@@ -1,0 +1,3 @@
+Task: Choose the "see more" feature.
+Output script:
+pyautogui.click(962.0,1554.5)

@@ -1,0 +1,3 @@
+Task: Organize event attendees by their last name
+Output Script:
+pyautogui.click(1453.0,337.0)

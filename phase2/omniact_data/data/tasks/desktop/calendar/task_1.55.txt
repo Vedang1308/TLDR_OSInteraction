@@ -1,0 +1,4 @@
+Task: Move from 1 pm to 9 am to schedule an appointment
+Output script:
+pyautogui.click(1083.0,892.5)
+pyautogui.dragTo(1096.0,385.0"left")

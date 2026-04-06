@@ -1,0 +1,3 @@
+Task: Identify Auckland"s weather situation
+Output Script:
+pyautogui.click(310.5,1019.5)

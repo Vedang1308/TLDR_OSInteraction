@@ -1,0 +1,4 @@
+Task: Navigate to the "new_document" option and select it.
+Output script:
+pyautogui.click(511.5,295.5)
+pyautogui.write("Carnegie Mellon University!")

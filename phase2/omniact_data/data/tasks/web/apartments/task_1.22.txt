@@ -1,0 +1,4 @@
+Task: Pick property to my favored collection
+Output script:
+pyautogui.click(1409.0,431.0)
+pyautogui.click(1409.0,730.0)

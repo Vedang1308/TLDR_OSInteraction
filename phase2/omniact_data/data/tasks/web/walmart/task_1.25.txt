@@ -1,0 +1,3 @@
+Task: Launch the pop-up displaying the pricing information
+Output Script:
+pyautogui.click(539.0,474.0)

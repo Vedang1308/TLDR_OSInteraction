@@ -1,0 +1,3 @@
+Task: Select the option for a one-way trip.
+Output script:
+pyautogui.click(1441.0,127.5)

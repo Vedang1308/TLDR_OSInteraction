@@ -1,0 +1,3 @@
+Task: Purchase the novel "Last Kingdom"
+Output Script:
+pyautogui.click(3224.5,407.0)

@@ -1,0 +1,3 @@
+Task: Navigate straight to the third image in the presentation
+Output Script:
+pyautogui.click(1168.5,2015.5)

@@ -1,0 +1,3 @@
+Task: Modify backdrop configurations
+Output Script:
+pyautogui.click(192.0,163.0)

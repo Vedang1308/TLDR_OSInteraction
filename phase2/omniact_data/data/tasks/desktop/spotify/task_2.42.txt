@@ -1,0 +1,3 @@
+Task: Finish the advertisement viewing
+Output script:
+pyautogui.click(1855.0,738.0)

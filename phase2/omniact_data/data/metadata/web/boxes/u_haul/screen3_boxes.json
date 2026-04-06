@@ -1,0 +1,602 @@
+{
+    "example_0": {
+        "top_left": [
+            615,
+            372
+        ],
+        "bottom_right": [
+            823,
+            413
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_1": {
+        "top_left": [
+            1061,
+            61
+        ],
+        "bottom_right": [
+            1262,
+            103
+        ],
+        "valid": 1,
+        "label": " redirecting to hitches & accessories page."
+    },
+    "example_2": {
+        "top_left": [
+            405,
+            446
+        ],
+        "bottom_right": [
+            406,
+            447
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_3": {
+        "top_left": [
+            135,
+            61
+        ],
+        "bottom_right": [
+            238,
+            103
+        ],
+        "valid": 1,
+        "label": "redirect_Trucks"
+    },
+    "example_4": {
+        "top_left": [
+            619,
+            446
+        ],
+        "bottom_right": [
+            620,
+            447
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_5": {
+        "top_left": [
+            238,
+            61
+        ],
+        "bottom_right": [
+            406,
+            103
+        ],
+        "valid": 1,
+        "label": "Trailors &Towing"
+    },
+    "example_6": {
+        "top_left": [
+            505,
+            446
+        ],
+        "bottom_right": [
+            506,
+            447
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_7": {
+        "top_left": [
+            566,
+            518
+        ],
+        "bottom_right": [
+            809,
+            556
+        ],
+        "valid": 1,
+        "label": "select_date"
+    },
+    "example_8": {
+        "top_left": [
+            566,
+            583
+        ],
+        "bottom_right": [
+            809,
+            622
+        ],
+        "valid": 1,
+        "label": " redirecting to select."
+    },
+    "example_9": {
+        "top_left": [
+            437,
+            205
+        ],
+        "bottom_right": [
+            645,
+            246
+        ],
+        "valid": 1,
+        "label": "sign in / orders box that corresponds to sign in bar."
+    },
+    "example_10": {
+        "top_left": [
+            406,
+            61
+        ],
+        "bottom_right": [
+            584,
+            103
+        ],
+        "valid": 1,
+        "label": "icon that corresponds to sign in page"
+    },
+    "example_11": {
+        "top_left": [
+            723,
+            330
+        ],
+        "bottom_right": [
+            931,
+            371
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_12": {
+        "top_left": [
+            1023,
+            372
+        ],
+        "bottom_right": [
+            1231,
+            413
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_13": {
+        "top_left": [
+            1262,
+            61
+        ],
+        "bottom_right": [
+            1305,
+            103
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_14": {
+        "top_left": [
+            615,
+            205
+        ],
+        "bottom_right": [
+            823,
+            246
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_15": {
+        "top_left": [
+            1023,
+            247
+        ],
+        "bottom_right": [
+            1231,
+            288
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_16": {
+        "top_left": [
+            135,
+            30
+        ],
+        "bottom_right": [
+            512,
+            45
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_17": {
+        "top_left": [
+            839,
+            518
+        ],
+        "bottom_right": [
+            1081,
+            556
+        ],
+        "valid": 1,
+        "label": "start_time_drop-down"
+    },
+    "example_18": {
+        "top_left": [
+            615,
+            330
+        ],
+        "bottom_right": [
+            823,
+            371
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_19": {
+        "top_left": [
+            437,
+            163
+        ],
+        "bottom_right": [
+            645,
+            204
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_20": {
+        "top_left": [
+            584,
+            61
+        ],
+        "bottom_right": [
+            692,
+            103
+        ],
+        "valid": 1,
+        "label": "redirect_storage"
+    },
+    "example_21": {
+        "top_left": [
+            269,
+            372
+        ],
+        "bottom_right": [
+            477,
+            413
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_22": {
+        "top_left": [
+            437,
+            247
+        ],
+        "bottom_right": [
+            645,
+            288
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_23": {
+        "top_left": [
+            1023,
+            330
+        ],
+        "bottom_right": [
+            1231,
+            371
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_24": {
+        "top_left": [
+            1150,
+            26
+        ],
+        "bottom_right": [
+            1177,
+            42
+        ],
+        "valid": 1,
+        "label": "cart_redirect"
+    },
+    "example_25": {
+        "top_left": [
+            723,
+            163
+        ],
+        "bottom_right": [
+            931,
+            204
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_26": {
+        "top_left": [
+            269,
+            163
+        ],
+        "bottom_right": [
+            477,
+            204
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_27": {
+        "top_left": [
+            1045,
+            26
+        ],
+        "bottom_right": [
+            1106,
+            42
+        ],
+        "valid": 1,
+        "label": "redirects to locations page"
+    },
+    "example_28": {
+        "top_left": [
+            615,
+            163
+        ],
+        "bottom_right": [
+            823,
+            204
+        ],
+        "valid": 1,
+        "label": "Redirect_Sign In Link"
+    },
+    "example_29": {
+        "top_left": [
+            723,
+            121
+        ],
+        "bottom_right": [
+            931,
+            162
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_30": {
+        "top_left": [
+            269,
+            289
+        ],
+        "bottom_right": [
+            477,
+            329
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_31": {
+        "top_left": [
+            437,
+            121
+        ],
+        "bottom_right": [
+            645,
+            162
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_32": {
+        "top_left": [
+            839,
+            583
+        ],
+        "bottom_right": [
+            1081,
+            622
+        ],
+        "valid": 1,
+        "label": "start_time_drop-down"
+    },
+    "example_33": {
+        "top_left": [
+            437,
+            330
+        ],
+        "bottom_right": [
+            645,
+            371
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_34": {
+        "top_left": [
+            1023,
+            163
+        ],
+        "bottom_right": [
+            1231,
+            204
+        ],
+        "valid": 1,
+        "label": "Hire local moving labor to help link"
+    },
+    "example_35": {
+        "top_left": [
+            1023,
+            289
+        ],
+        "bottom_right": [
+            1231,
+            329
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_36": {
+        "top_left": [
+            692,
+            61
+        ],
+        "bottom_right": [
+            915,
+            103
+        ],
+        "valid": 1,
+        "label": "boxes_packing_redirect"
+    },
+    "example_37": {
+        "top_left": [
+            269,
+            205
+        ],
+        "bottom_right": [
+            477,
+            246
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_38": {
+        "top_left": [
+            1190,
+            15
+        ],
+        "bottom_right": [
+            1305,
+            47
+        ],
+        "valid": 1,
+        "label": "redirect_signin"
+    },
+    "example_39": {
+        "top_left": [
+            723,
+            372
+        ],
+        "bottom_right": [
+            931,
+            413
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_40": {
+        "top_left": [
+            615,
+            247
+        ],
+        "bottom_right": [
+            823,
+            288
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_41": {
+        "top_left": [
+            615,
+            414
+        ],
+        "bottom_right": [
+            823,
+            455
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_42": {
+        "top_left": [
+            269,
+            121
+        ],
+        "bottom_right": [
+            477,
+            162
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_43": {
+        "top_left": [
+            437,
+            289
+        ],
+        "bottom_right": [
+            645,
+            329
+        ],
+        "valid": 1,
+        "label": "sign-in_account_menu"
+    },
+    "example_44": {
+        "top_left": [
+            615,
+            289
+        ],
+        "bottom_right": [
+            823,
+            329
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_45": {
+        "top_left": [
+            915,
+            61
+        ],
+        "bottom_right": [
+            1061,
+            103
+        ],
+        "valid": 1,
+        "label": "Moving_labor_redirect"
+    },
+    "example_46": {
+        "top_left": [
+            269,
+            247
+        ],
+        "bottom_right": [
+            477,
+            288
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_47": {
+        "top_left": [
+            901,
+            26
+        ],
+        "bottom_right": [
+            1007,
+            42
+        ],
+        "valid": 1,
+        "label": "address_box"
+    },
+    "example_48": {
+        "top_left": [
+            723,
+            205
+        ],
+        "bottom_right": [
+            931,
+            246
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_49": {
+        "top_left": [
+            615,
+            121
+        ],
+        "bottom_right": [
+            823,
+            162
+        ],
+        "valid": 0,
+        "label": "NA"
+    }
+}

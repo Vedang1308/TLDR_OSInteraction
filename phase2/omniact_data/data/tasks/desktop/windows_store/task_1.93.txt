@@ -1,0 +1,3 @@
+Task: Initiate Help tool 
+Output Script:
+pyautogui.click(45.0,981.5)

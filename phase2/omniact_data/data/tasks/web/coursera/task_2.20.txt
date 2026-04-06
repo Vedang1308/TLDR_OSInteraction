@@ -1,0 +1,3 @@
+Task: Enroll on Coursera without any charges
+Output Script:
+pyautogui.click(1390.0,73.0)

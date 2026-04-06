@@ -1,0 +1,5 @@
+Task: "Alter the tab spacing in this file to be 4 units wide"
+Output Script:
+pyautogui.click(1624.0,1065.5)
+pyautogui.write("4")
+pyautogui.press("enter")

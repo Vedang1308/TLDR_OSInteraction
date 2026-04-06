@@ -1,0 +1,3 @@
+Task: Open the properties of the current video
+Output Script:
+pyautogui.click(1771.0,485.0)

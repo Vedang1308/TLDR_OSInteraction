@@ -1,0 +1,3 @@
+Task: Retrieve invoice records
+Output script:
+pyautogui.click(578.0,168.0)

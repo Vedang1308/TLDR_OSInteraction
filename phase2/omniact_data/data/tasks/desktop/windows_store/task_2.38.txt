@@ -1,0 +1,3 @@
+Task: Navigate to the AI Hub
+Output Script:
+pyautogui.click(46.0,410.0)

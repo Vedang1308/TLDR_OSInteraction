@@ -1,0 +1,3 @@
+Task: Locate the popular jobs section on Indeed
+Output Script:
+pyautogui.click(720.0,395.0)

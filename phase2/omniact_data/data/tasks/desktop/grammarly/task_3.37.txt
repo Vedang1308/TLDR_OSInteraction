@@ -1,0 +1,3 @@
+Task: Navigate to and open the "With CGANs, the authors" document.
+Output script:
+pyautogui.click(1636.5,873.5)

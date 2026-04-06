@@ -1,0 +1,4 @@
+Task: Run the setup for the "Spark Mail - AI Email & Inbox" software.
+Output script:
+pyautogui.click(2722.5,1745.0)
+pyautogui.click(2722.5,1745.0)

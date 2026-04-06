@@ -1,0 +1,6 @@
+Task: Copy the "email address" data and paste it in the "recipient" field of a new mail.
+pyautogui.doubleClick(1189.0,772.0)
+pyautogui.hotkey("ctrl", "c")
+pyautogui.click(607.5,36.0)
+pyautogui.hotkey("ctrl", "v")
+pyautogui.click(276.0,36.0)

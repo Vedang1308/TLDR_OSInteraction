@@ -1,0 +1,3 @@
+Task: Access the section displaying goods for Students and Educators
+Output Script:
+pyautogui.click(1199.5,226.0)

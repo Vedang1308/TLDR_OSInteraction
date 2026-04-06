@@ -1,0 +1,3 @@
+Task: Open up the login interface on the Mayo Clinic webpage
+Output Script:
+pyautogui.click(1284.0,49.0)

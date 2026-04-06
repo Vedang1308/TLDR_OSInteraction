@@ -1,0 +1,3 @@
+Task: Click on "change date or location" to revise the details of your trip.
+Output script:
+pyautogui.click(1443.5,42.5)

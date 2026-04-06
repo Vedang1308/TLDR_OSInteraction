@@ -1,0 +1,3 @@
+Task: Navigate to the additional options of the song "You"
+Output Script:
+pyautogui.click(2663.0,759.0)

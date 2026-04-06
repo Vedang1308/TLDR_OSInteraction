@@ -1,0 +1,4 @@
+Task: Scroll down to the top of the page
+Output Script:
+pyautogui.moveTo(1899.0,1178.0)
+pyautogui.scroll(-100)

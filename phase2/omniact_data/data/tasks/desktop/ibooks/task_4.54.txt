@@ -1,0 +1,3 @@
+Task: Gain extra details about "Secret Keeper" book by hitting on the three-dot icon
+Output Script:
+pyautogui.click(3260.5,1647.0)

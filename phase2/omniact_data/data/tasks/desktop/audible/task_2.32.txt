@@ -1,0 +1,3 @@
+Task: Terminate open book 
+Output Script:
+pyautogui.click(1203.5,196.0)

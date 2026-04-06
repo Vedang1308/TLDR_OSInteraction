@@ -1,0 +1,5 @@
+Task: Use "cd" command to go back to previous directory
+Output Script:
+pyautogui.click(1995.0,183.5)
+pyautogui.write("cd ../")
+pyautogui.press("enter")

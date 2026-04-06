@@ -1,0 +1,5 @@
+Task: Wipe all files within the "applications" directory exclusively utilizing keyboard shortcuts.
+Output Script:
+pyautogui.click(476.5,264.0)
+pyautogui.hotkey("ctrl","a")
+pyautogui.press("delete")

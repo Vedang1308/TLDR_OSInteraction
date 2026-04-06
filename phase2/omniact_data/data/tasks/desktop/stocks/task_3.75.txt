@@ -1,0 +1,5 @@
+Task: Upload the news data on LinkedIn social media.
+Output script:
+pyautogui.click(2828.5,48.0)
+pyautogui.write("LinkedIn")
+pyautogui.press("enter")

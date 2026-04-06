@@ -1,0 +1,3 @@
+Task: Navigate to the main Google page
+Output Script:
+pyautogui.click(101.0,34.0)

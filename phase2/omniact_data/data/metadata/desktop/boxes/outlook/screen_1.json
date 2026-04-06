@@ -1,0 +1,200 @@
+{
+    "example_0": {
+        "top_left": [
+            87,
+            49
+        ],
+        "bottom_right": [
+            413,
+            89
+        ],
+        "label": "Search mail"
+    },
+    "example_1": {
+        "top_left": [
+            422,
+            50
+        ],
+        "bottom_right": [
+            465,
+            89
+        ],
+        "label": "Refresh mail"
+    },
+    "example_2": {
+        "top_left": [
+            463,
+            115
+        ],
+        "bottom_right": [
+            529,
+            150
+        ],
+        "label": "View mails"
+    },
+    "example_3": {
+        "top_left": [
+            8,
+            105
+        ],
+        "bottom_right": [
+            54,
+            149
+        ],
+        "label": "New email"
+    },
+    "example_4": {
+        "top_left": [
+            8,
+            46
+        ],
+        "bottom_right": [
+            55,
+            95
+        ],
+        "label": "Hide side panel"
+    },
+    "example_5": {
+        "top_left": [
+            66,
+            162
+        ],
+        "bottom_right": [
+            542,
+            262
+        ],
+        "label": "First email"
+    },
+    "example_6": {
+        "top_left": [
+            64,
+            529
+        ],
+        "bottom_right": [
+            539,
+            630
+        ],
+        "label": "Yesterday email from Expedia"
+    },
+    "example_7": {
+        "top_left": [
+            1802,
+            165
+        ],
+        "bottom_right": [
+            1849,
+            207
+        ],
+        "label": "Forward"
+    },
+    "example_8": {
+        "top_left": [
+            897,
+            904
+        ],
+        "bottom_right": [
+            1008,
+            951
+        ],
+        "label": "See details"
+    },
+    "example_9": {
+        "top_left": [
+            830,
+            52
+        ],
+        "bottom_right": [
+            920,
+            90
+        ],
+        "label": "reply email"
+    },
+    "example_10": {
+        "top_left": [
+            936,
+            49
+        ],
+        "bottom_right": [
+            1049,
+            90
+        ],
+        "label": "Reply all email"
+    },
+    "example_11": {
+        "top_left": [
+            1066,
+            50
+        ],
+        "bottom_right": [
+            1165,
+            90
+        ],
+        "label": "Forward email"
+    },
+    "example_12": {
+        "top_left": [
+            1242,
+            49
+        ],
+        "bottom_right": [
+            1349,
+            88
+        ],
+        "label": "Archive email"
+    },
+    "example_13": {
+        "top_left": [
+            1367,
+            48
+        ],
+        "bottom_right": [
+            1462,
+            91
+        ],
+        "label": "Delete email"
+    },
+    "example_14": {
+        "top_left": [
+            1476,
+            47
+        ],
+        "bottom_right": [
+            1587,
+            91
+        ],
+        "label": "Flag email"
+    },
+    "example_15": {
+        "top_left": [
+            1594,
+            49
+        ],
+        "bottom_right": [
+            1648,
+            90
+        ],
+        "label": "Email options"
+    },
+    "example_16": {
+        "top_left": [
+            3,
+            793
+        ],
+        "bottom_right": [
+            61,
+            842
+        ],
+        "label": "Calendar"
+    },
+    "example_17": {
+        "top_left": [
+            1,
+            979
+        ],
+        "bottom_right": [
+            58,
+            1025
+        ],
+        "label": "Settings"
+    }
+}

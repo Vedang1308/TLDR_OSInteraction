@@ -1,0 +1,3 @@
+Task: Navigate and click on the desktop and screen saver settings.
+Output Script:
+pyautogui.click(893.5,582.0)

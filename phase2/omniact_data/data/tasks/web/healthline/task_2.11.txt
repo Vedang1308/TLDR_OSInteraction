@@ -1,0 +1,3 @@
+Task: Find out if ADHD falls under the category of learning disabilities
+Output Script:
+pyautogui.click(301.5,477.0)
