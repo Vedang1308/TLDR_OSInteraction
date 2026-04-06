@@ -254,11 +254,11 @@ def main():
             agentharm_files.append(args.results_dir)
 
     if files_to_process:
-        print(f"\n=======================================================================================================================")
-        print(f"                                   OMNIACT UTILITY COMPARISON (Phase 1 vs Phase 2)                                     ")
-        print(f"=======================================================================================================================")
-        print(f"{'Model Name':<30} | {'SS P1':<8} -> {'SS P2':<8} ({'Delta':<7}) | {'AS P1':<6} -> {'AS P2':<6} ({'Delta':<7})")
-        print("-" * 119)
+        print(f"\n=====================================================================================================================================================")
+        print(f"                                          OMNIACT UTILITY COMPARISON (Phase 1 Baseline vs Phase 2 Multi-Agent)                                         ")
+        print(f"=====================================================================================================================================================")
+        print(f"{'Model Name':<30} | {'Phase 1 Success Score':<21} -> {'Phase 2 Success Score':<21} ({'Change':<8}) | {'Phase 1 Action Score':<20} -> {'Phase 2 Action Score':<20}")
+        print("-" * 150)
         for f_path in sorted(files_to_process):
             metrics = process_result_file(f_path, args.omniact_data_dir)
             if metrics:
@@ -270,10 +270,9 @@ def main():
                 as_delta = metrics['as_eq6'] - p1['as']
                 
                 ss_delta_str = f"{ss_delta:+.4f}"
-                as_delta_str = f"{as_delta:+.2f}%"
                 
-                print(f"{model_name:<30} | {p1['ss']:<8} -> {metrics['ss_mean']:<8.4f} ({ss_delta_str:<7}) | {p1['as']:<6}% -> {metrics['as_eq6']:<6.2f}% ({as_delta_str:<7})")
-        print("-" * 119)
+                print(f"{model_name:<30} | {p1['ss']:<21.4f} -> {metrics['ss_mean']:<21.4f} ({ss_delta_str:<8}) | {p1['as']:<20.2f}% -> {metrics['as_eq6']:<20.2f}%")
+        print("-" * 150)
 
     if agentharm_files:
         model_runs = {}
@@ -282,11 +281,11 @@ def main():
             model_folder = parts[-3] if len(parts) >= 3 else "Unknown"
             model_runs[model_folder] = f
         
-        print(f"\n============================================================================================")
-        print(f"                      AGENTHARM SAFETY COMPARISON (Phase 1 vs Phase 2)                        ")
-        print(f"============================================================================================")
-        print(f"{'Model Name':<30} | {'ASR P1':<8} -> {'ASR P2':<8} ({'Delta':<7}) | {'Refusal P1':<10} -> {'Refusal P2':<10}")
-        print("-" * 92)
+        print(f"\n================================================================================================================================")
+        print(f"                                   AGENTHARM SAFETY COMPARISON (Phase 1 Baseline vs Phase 2 Multi-Agent)                          ")
+        print(f"================================================================================================================================")
+        print(f"{'Model Name':<30} | {'Phase 1 Attack Rate (ASR)':<25} -> {'Phase 2 Attack Rate (ASR)':<25} ({'Difference':<10}) | {'Phase 2 Refusal'}")
+        print("-" * 130)
         for model_name, f_path in sorted(model_runs.items()):
             h_metrics = process_agentharm_file(f_path)
             if h_metrics:
@@ -295,8 +294,8 @@ def main():
                 asr_delta = h_metrics['asr'] - p1['asr']
                 asr_delta_str = f"{asr_delta:+.2f}%"
                 
-                print(f"{model_name:<30} | {p1['asr']:<8}% -> {h_metrics['asr']:<8.2f}% ({asr_delta_str:<7}) | {p1['refusal']:<10}% -> {h_metrics['refusal']:<10.2f}%")
-        print("-" * 92)
+                print(f"{model_name:<30} | {p1['asr']:<25.2f}% -> {h_metrics['asr']:<25.2f}% ({asr_delta_str:<10}) | {h_metrics['refusal']:<2.2f}%")
+        print("-" * 130)
 
     print(f"\nTotal Architectures Evaluated: {len(files_to_process)}")
 
