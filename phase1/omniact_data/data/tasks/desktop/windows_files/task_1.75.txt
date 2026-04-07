@@ -1,3 +1,0 @@
-Task: Update the directory to incorporate all recent changes.
-Output Script:
-pyautogui.click(1524.5,193.5)

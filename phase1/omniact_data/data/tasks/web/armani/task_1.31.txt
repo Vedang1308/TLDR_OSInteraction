@@ -1,3 +1,0 @@
-Task: Select the first product for purchase by clicking on the associated shopping cart icon
-Output Script:
-pyautogui.click(216.0,858.0)

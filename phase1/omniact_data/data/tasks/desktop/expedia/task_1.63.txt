@@ -1,3 +1,0 @@
-Task: Initiate a conversation with the customer support agent.
-Output script:
-pyautogui.click(2806.5,1647.0)

@@ -1,3 +1,0 @@
-Task: Hide all presently active applications on the screen
-Output Script:
-pyautogui.hotkey("win", "d")

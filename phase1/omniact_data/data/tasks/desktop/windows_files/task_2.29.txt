@@ -1,5 +1,0 @@
-Task: Erase all files from the "applications" folder purely by using keyboard commands.
-Output Script:
-pyautogui.click(476.5,264.0)
-pyautogui.hotkey("ctrl","a")
-pyautogui.press("delete")

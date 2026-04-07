@@ -1,4 +1,0 @@
-Task: Execute two downward movements on the screen
-Output Script:
-pyautogui.press("down")
-pyautogui.press("down")

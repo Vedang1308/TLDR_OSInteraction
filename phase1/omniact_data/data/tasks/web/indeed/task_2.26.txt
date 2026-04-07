@@ -1,3 +1,0 @@
-Task: Navigate to the page for company reviews.
-Output Script:
-pyautogui.click(363.5,34.0)

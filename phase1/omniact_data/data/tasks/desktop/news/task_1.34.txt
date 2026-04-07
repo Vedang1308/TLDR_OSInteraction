@@ -1,4 +1,0 @@
-Task: Navigate downward through the news feed by scrolling 50 parts.
-Output script:
-pyautogui.moveTo(1685.0,1073.5)
-pyautogui.scroll(50)

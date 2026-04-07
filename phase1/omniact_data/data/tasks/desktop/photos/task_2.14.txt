@@ -1,3 +1,0 @@
-Task: Jump directly to the third slide in the slideshow
-Output Script:
-pyautogui.click(1168.5,2015.5)

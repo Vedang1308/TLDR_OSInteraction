@@ -1,5 +1,0 @@
-Task: Move up to the prior choice in the more options dropdown menu
-Output Script:
-pyautogui.click(1199.0,236.5)
-pyautogui.press("up")
-pyautogui.press("enter")

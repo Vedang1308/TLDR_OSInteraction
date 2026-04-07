@@ -1,5 +1,0 @@
-Task: Locate and open "Emily"s" contact information. 
-Output Script:
-pyautogui.click(319.0,129.5)
-pyautogui.write("Emily")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Check out University of Pennsylvania"s particulars
-Output Script:
-pyautogui.click(1210.0,739.5)

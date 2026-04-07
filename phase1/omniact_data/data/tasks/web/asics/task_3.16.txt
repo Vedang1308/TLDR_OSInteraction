@@ -1,3 +1,0 @@
-Task: Navigate to the subsequent product image
-Output Script: 
-pyautogui.click(846.0,516.0)

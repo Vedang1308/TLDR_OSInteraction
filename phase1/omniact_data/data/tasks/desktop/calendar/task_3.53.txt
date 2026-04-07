@@ -1,3 +1,0 @@
-Task: Change the calendar view to a monthly layout.
-Output script:
-pyautogui.click(1502.0,37.0)

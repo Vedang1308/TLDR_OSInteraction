@@ -1,3 +1,0 @@
-Task: In order to navigate back to Best Buy homepage, click on the icon at the top left.
-Output Script:
-pyautogui.click(74.0,69.0)

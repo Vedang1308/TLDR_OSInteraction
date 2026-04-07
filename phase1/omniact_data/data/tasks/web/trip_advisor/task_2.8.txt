@@ -1,3 +1,0 @@
-Task: Access the plus members section on the website
-Output Script:
-pyautogui.click(877.5,30.0)

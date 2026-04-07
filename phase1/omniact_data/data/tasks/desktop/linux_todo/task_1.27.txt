@@ -1,3 +1,0 @@
-Task: Check off the "professor meeting" task
-Output Script:
-pyautogui.click(695.5,107.0)

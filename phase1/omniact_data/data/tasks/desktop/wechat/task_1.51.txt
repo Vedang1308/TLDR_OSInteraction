@@ -1,4 +1,0 @@
-Task: Navigate upwards in your conversation with Jack
-Output Script:
-pyautogui.click(1150.5,465.0)
-pyautogui.scroll(10)

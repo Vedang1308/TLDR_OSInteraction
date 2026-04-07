@@ -1,3 +1,0 @@
-Task: Select the options for the fourth article in Tasting Table.
-Output script:
-pyautogui.click(2682.5,1651.0)

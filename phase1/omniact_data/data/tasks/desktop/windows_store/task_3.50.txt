@@ -1,3 +1,0 @@
-Task: Access the application sorting feature
-Output Script: 
-pyautogui.click(1792.5,315.0)

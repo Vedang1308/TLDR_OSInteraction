@@ -1,3 +1,0 @@
-Task: Access the page for job hunting
-Output Script:
-pyautogui.click(1233.0,713.0)

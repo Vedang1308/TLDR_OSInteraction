@@ -1,3 +1,0 @@
-Task: Go to your shopping cart by clicking the bag icon positioned in the upper right portion of the interface
-Output Script:
-pyautogui.click(1400.0,60.0)

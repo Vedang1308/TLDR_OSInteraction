@@ -1,3 +1,0 @@
-Task: Use the button on the top menu to go to the government site.
-Output Script:
-pyautogui.click(565.5,46.0)

@@ -1,3 +1,0 @@
-Task: Fetch information of highest grossing games
-Output Script:
-pyautogui.click(263.0,752.0)

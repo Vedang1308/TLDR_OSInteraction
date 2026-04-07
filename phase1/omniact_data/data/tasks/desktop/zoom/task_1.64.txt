@@ -1,3 +1,0 @@
-Task: Access your profile preferences by hitting the account button.
-Output Script:
-pyautogui.click(2823.0,47.0)

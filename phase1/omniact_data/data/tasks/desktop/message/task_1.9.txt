@@ -1,3 +1,0 @@
-Task: View info
-Output Script:
-pyautogui.click(3308.5,54.0)

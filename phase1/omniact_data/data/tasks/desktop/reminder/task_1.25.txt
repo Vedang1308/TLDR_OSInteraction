@@ -1,3 +1,0 @@
-Task: Check the reminder for any flagged entries.
-Output script:
-pyautogui.click(413.0,395.5)

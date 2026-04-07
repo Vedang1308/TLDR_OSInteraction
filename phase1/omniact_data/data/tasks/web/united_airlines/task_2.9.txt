@@ -1,8 +1,0 @@
-Task: Click on the application icon, input the verification code "123", provide the surname "Chen", and commence a trip search.
-Output script:
-pyautogui.click(397.5,374.5)
-pyautogui.click(402.0,431.0)
-pyautogui.write("123")
-pyautogui.click(402.0,540.0)
-pyautogui.write("Chen")
-pyautogui.click(258.0,631.0)

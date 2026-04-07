@@ -1,3 +1,0 @@
-Task: Press on "AC" to erase the data
-Output Script:
-pyautogui.click(1823.0,878.0)

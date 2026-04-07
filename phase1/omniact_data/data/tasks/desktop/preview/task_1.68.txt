@@ -1,3 +1,0 @@
-Task: Access the Tools option.
-Output script:
-pyautogui.click(633.0,26.5)

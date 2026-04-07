@@ -1,2 +1,0 @@
-Task: Select the "filter_by_sales_course_topic" tab
-pyautogui.click(544.5,97.0)

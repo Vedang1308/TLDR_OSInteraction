@@ -1,3 +1,0 @@
-Task: Ascertain the wind speed in Rio de Janeiro
-Output Script:
-pyautogui.click(1841.5,1287.0)

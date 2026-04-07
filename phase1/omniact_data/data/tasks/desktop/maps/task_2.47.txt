@@ -1,5 +1,0 @@
-Task: Determine the quickest route to the nearest public transport stop.
-Output script:
-pyautogui.click(1556.0,549.5)
-pyautogui.write("public transportation")
-pyautogui.press("enter")

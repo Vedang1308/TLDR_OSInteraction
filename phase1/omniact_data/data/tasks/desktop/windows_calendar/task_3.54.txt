@@ -1,4 +1,0 @@
-Task: Define "order takeout" as the to-do list item
-Output Script:
-Pyautogui.click(655.0,573.0)
-Pyautogui.write("connect to hifi")

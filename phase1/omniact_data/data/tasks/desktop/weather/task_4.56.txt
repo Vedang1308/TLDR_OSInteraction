@@ -1,3 +1,0 @@
-Task: Elaborate on the UV index statistics of Rio de Janeiro
-Output Script:
-pyautogui.doubleClick(1840.5,973.0)

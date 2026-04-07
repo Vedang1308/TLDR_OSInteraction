@@ -1,5 +1,0 @@
-Task: Disseminate event information via calendar utility
-Output Script:
-pyautogui.click(1821.5,69.0)
-pyautogui.write("Calendar")
-pyautogui.press("Enter")

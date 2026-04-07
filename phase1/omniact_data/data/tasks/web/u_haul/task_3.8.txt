@@ -1,3 +1,0 @@
-Task: "Acquire moving boxes"
-Output Script: 
-pyautogui.click(495.0,82.0)

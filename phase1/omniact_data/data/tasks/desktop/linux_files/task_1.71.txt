@@ -1,5 +1,0 @@
-Task: Incorporate a new destination named "Assignments" in the sidebar.
-Output Script:
-pyautogui.click(167.0,483.0)
-pyautogui.write("Assignments")
-pyautogui.press("enter")

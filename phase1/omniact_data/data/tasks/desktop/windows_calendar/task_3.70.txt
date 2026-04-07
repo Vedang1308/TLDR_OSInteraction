@@ -1,3 +1,0 @@
-Task: Erase the event by clicking on the delete button
-Output Script:
-Pyautogui.click(281.0,124.0)

@@ -1,3 +1,0 @@
-Task: Add to bookmark
-Output Script:
-pyautogui.click(1145.5,778.0)

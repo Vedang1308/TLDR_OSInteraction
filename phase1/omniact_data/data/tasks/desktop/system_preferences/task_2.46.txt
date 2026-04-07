@@ -1,3 +1,0 @@
-Task: Activate the search box.
-Output Script:
-pyautogui.click(1785.5,193.0)

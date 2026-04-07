@@ -1,5 +1,0 @@
-Task: Navigate to the "Support" section then access the "Contact Us" menu to get in touch with customer support.
-Output script:
-pyautogui.click(2718.5,1599.0)
-pyautogui.write("Contact Us")
-pyautogui.press("Enter")

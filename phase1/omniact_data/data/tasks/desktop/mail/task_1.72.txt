@@ -1,3 +1,0 @@
-Task: Select the option to view the dispatched emails.
-Output script:
-pyautogui.click(204.5,291.5)

@@ -1,4 +1,0 @@
-Task: Proceed to the official page of Orlando international airport
-Output script:
-pyautogui.press("space")
-pyautogui.click(797.5,887.5)

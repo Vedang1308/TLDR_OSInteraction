@@ -1,3 +1,0 @@
-Task: Register for healthline"s email updates.
-Output Script:
-pyautogui.click(1163.0,35.0)

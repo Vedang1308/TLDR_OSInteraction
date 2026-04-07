@@ -1,3 +1,0 @@
-Task: Proceed to the page previously visited
-Output script:
-pyautogui.click(45.0,37.0)

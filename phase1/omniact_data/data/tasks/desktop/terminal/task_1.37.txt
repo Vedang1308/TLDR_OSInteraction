@@ -1,3 +1,0 @@
-Task: Use a keyboard combination to select all content in the active window.
-Output Script:
-pyautogui.hotkey("ctrl", "a")

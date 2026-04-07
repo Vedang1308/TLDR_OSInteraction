@@ -1,4 +1,0 @@
-Task: Use hourly forecast feature and scroll to the 10th hour for checking the weather condition at 1am
-Output Script:
-pyautogui.moveTo(1679.5, 650.5)
-pyautogui.hscroll("10")

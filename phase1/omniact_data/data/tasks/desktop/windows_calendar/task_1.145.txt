@@ -1,3 +1,0 @@
-Task: Access today"s date
-Output Script:
-Pyautogui.click(1109.0,70.5)

@@ -1,3 +1,0 @@
-Task: Check the wishlist
-Output Script:
-pyautogui.click(816.0,176.5)

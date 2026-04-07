@@ -1,4 +1,0 @@
-Task: Choose "Nature Sounds" from sound options. 
-Output Script:
-pyautogui.click(1737.5,1186.0)
-pyautogui.write("Nature Sounds")

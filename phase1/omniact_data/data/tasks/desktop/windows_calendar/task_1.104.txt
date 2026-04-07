@@ -1,3 +1,0 @@
-Task: Alter the perspective to view by year
-Output Script:
-Pyautogui.click(1548.5,70.0)

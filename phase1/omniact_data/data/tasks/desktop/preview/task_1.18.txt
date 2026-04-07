@@ -1,3 +1,0 @@
-Task: Open the view menu.
-Output script:
-pyautogui.click(453.5,26.5)

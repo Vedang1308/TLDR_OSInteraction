@@ -1,4 +1,0 @@
-Task: Scroll the news feed by 50 units.
-Output script:
-pyautogui.moveTo(1685.0,1073.5)
-pyautogui.scroll(50)

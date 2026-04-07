@@ -1,3 +1,0 @@
-Task: What do you do if you have a complaint on mayolabs?
-Output Script:
-pyautogui.click(839.5,96.0)

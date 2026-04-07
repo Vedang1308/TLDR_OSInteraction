@@ -1,3 +1,0 @@
-Task: Look for and click on the sketch button on the interface.
-Output script:
-pyautogui.click(260.0,183.0)

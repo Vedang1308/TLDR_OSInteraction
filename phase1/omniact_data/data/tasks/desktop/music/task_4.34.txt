@@ -1,3 +1,0 @@
-Task: Enable the airplay option on your music app.
-Output Script:
-pyautogui.click(3163.0,50.5)

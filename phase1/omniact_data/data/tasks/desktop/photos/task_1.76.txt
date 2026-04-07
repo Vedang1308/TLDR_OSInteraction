@@ -1,4 +1,0 @@
-Task: Open album named "Memories" and use top panel controls to enlarge the photographs.
-Output Script:
-pyautogui.click(213.0,246.5)
-pyautogui.write("enlarge_pics")

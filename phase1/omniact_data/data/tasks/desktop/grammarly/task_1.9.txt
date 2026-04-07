@@ -1,3 +1,0 @@
-Task: Dismiss Grammarly"s suggested correction
-Output script:
-pyautogui.click(1197.0,257.0)

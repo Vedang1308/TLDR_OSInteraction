@@ -1,4 +1,0 @@
-Task: Hit the "get" option twice to setup the application.
-Output script:
-pyautogui.click(891.0,318.5)
-pyautogui.click(891.0,318.5)

@@ -1,3 +1,0 @@
-Task: Confirm whether this company has a Twitter account
-Output Script:
-pyautogui.click(21.0,408.0)

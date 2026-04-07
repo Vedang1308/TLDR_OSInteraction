@@ -1,3 +1,0 @@
-Task: Access the filters for altering your choice.
-Output script:
-pyautogui.click(1519.0,1739.5)

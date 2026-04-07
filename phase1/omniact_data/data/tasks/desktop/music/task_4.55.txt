@@ -1,3 +1,0 @@
-Task: Start the track "Mehrama"
-Output Script:
-pyautogui.click(3060.0,841.0)

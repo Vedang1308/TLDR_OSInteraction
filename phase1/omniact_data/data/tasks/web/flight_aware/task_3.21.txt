@@ -1,3 +1,0 @@
-Task: Determine the frequency of data updates on FlightAware.
-Output Script:
-pyautogui.click(372.0,269.5)

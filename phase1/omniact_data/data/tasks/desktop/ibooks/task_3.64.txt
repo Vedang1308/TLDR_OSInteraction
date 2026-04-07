@@ -1,5 +1,0 @@
-Task: Locate the word "angry" in an e-book
-Output Script:
-pyautogui.click(3090.0,101.0)
-pyautogui.write("angry")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Look for further information about the position "Security Officer"
-Output Script:
-pyautogui.click(696.5,792.0)

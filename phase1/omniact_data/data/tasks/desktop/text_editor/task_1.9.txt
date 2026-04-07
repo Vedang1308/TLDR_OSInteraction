@@ -1,3 +1,0 @@
-Task: "Click on the x button in the middle-right of the page"
-Output Script:
-pyautogui.click(1900.5,623.5)

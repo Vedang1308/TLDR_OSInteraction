@@ -1,5 +1,0 @@
-Task: Go to the "username" box and input your username as "JohnDoe".
-Output script:
-pyautogui.click(2574.5,255.5)
-pyautogui.write("Los Angeles")
-pyautogui.press("Enter")

@@ -1,6 +1,0 @@
-Task: Change the writing style to bold and resize the font to 21
-Output script:
-pyautogui.click(2192.5,130.5)
-pyautogui.click(2001.0,132.5)
-pyautogui.write("21")
-pyautogui.press("enter")

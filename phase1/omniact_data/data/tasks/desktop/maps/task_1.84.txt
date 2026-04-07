@@ -1,3 +1,0 @@
-Task: Examine the present location on the map.
-Output script:
-pyautogui.click(2573.0,39.0)

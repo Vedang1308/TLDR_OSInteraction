@@ -1,3 +1,0 @@
-Task: Switch to tile mode
-Output Script:
-pyautogui.click(3276.0,2016.5)

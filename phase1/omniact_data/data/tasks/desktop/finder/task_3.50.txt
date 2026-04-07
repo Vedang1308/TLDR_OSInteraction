@@ -1,3 +1,0 @@
-Task: Activate the System Preferences from the icons located at the bottom
-Output Script:
-pyautogui.click(327.0,2028.5)

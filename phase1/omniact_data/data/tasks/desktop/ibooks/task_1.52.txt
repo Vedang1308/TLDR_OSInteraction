@@ -1,4 +1,0 @@
-Task: Locate the book "The Power of Now" using the search function
-Output Script:
-pyautogui.click(198.5,139.5)
-pyautogui.write("The Power of Now")

@@ -1,5 +1,0 @@
-Task: Input the tracking id 123456 in the search bar to find the shipment details. 
-Output Script:
-pyautogui.click(634.5,640.0)
-pyautogui.write("123456")
-pyautogui.press("enter")

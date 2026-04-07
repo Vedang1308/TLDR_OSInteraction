@@ -1,3 +1,0 @@
-Task: Visit Data Science Master"s program webpage for University of Michigan
-Output Script:
-pyautogui.click(187.0,195.5)

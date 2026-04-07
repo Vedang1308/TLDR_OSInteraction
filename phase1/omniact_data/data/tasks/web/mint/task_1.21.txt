@@ -1,3 +1,0 @@
-Task: Extract more data on 20GB Plan
-Output Script:
-pyautogui.click(880.0,568.0)

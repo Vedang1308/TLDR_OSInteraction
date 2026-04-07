@@ -1,3 +1,0 @@
-Task: Interact with the "Playrix" button to go to their website.
-Output script:
-pyautogui.click(2751.0,1492.5)

@@ -1,5 +1,0 @@
-Task: Find the way to the nearest "market".
-Output script:
-pyautogui.click(2644.0,38.0)
-pyautogui.write("market")
-pyautogui.press("enter")

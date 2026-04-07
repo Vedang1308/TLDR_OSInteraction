@@ -1,3 +1,0 @@
-Task: Navigate to the book"s conclusion
-Output Script:
-pyautogui.click(1118.0,624.5)

@@ -1,3 +1,0 @@
-Task: Implement chosen search option
-Output Script:
-pyautogui.click(1301.5,440.0)

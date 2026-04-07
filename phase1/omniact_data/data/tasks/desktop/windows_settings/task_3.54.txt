@@ -1,3 +1,0 @@
-Task: Click on the small horizontal line located at the top right section to reduce the size of the window.
-Output Script:
-pyautogui.click(1783.5,22.5)

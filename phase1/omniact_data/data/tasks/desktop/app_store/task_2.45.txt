@@ -1,5 +1,0 @@
-Task: To share the application on Facebook, click on the "share" button and select the "Facebook" platform.
-Output script:
-pyautogui.click(2800.5,50.5)
-pyautogui.write("Facebook")
-pyautogui.press("Enter")

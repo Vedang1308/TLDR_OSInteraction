@@ -1,4 +1,0 @@
-Task: Set up a reminder for 9 am on January 1st.
-Output script:
-pyautogui.click(735.5,395.5)
-pyautogui.click(735.5,395.5)

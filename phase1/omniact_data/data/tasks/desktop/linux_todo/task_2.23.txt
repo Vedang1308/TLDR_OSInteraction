@@ -1,3 +1,0 @@
-Task: Fetch all tasks slated for today"s date
-Output Script:
-pyautogui.click(1118.0,50.0)

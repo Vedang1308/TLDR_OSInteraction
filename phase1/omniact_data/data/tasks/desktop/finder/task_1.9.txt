@@ -1,6 +1,0 @@
-Task: Share the "file_pic_1" with a friend using airdrop
-Output Script:
-pyautogui.click(485.0,341.0)
-pyautogui.click(170.5,174.0)
-pyautogui.write("friend"s name")
-pyautogui.press("enter")

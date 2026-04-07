@@ -1,5 +1,0 @@
-Task: Navigate to the search bar and type in the stock symbol "AAPL".
-Output script:
-pyautogui.click(330.0,145.5)
-pyautogui.write("AAPL")
-pyautogui.press("Enter")

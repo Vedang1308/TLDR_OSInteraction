@@ -1,3 +1,0 @@
-Task: Choose the "plan for later" functionality to set up a trip in the future.
-Output script:
-pyautogui.click(2696.0,376.5)

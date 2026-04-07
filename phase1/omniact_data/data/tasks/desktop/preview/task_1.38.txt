@@ -1,3 +1,0 @@
-Task: Increase the size of the document for better visibility.
-Output script:
-pyautogui.click(1762.0,100.0)

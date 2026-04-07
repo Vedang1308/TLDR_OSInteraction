@@ -1,5 +1,0 @@
-Task: Write "Hello" to Jack in the message box and press send.
-Output Script:
-pyautogui.click(1147.5,961.5)
-pyautogui.write("Hello")
-pyautogui.press("enter")

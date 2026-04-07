@@ -1,3 +1,0 @@
-Task: Use the button on the lower left side panel to return to the main page.
-Output Script:
-pyautogui.click(137.0,680.5)

@@ -1,4 +1,0 @@
-Task: Click to create an event on 30th of the month.
-Output script:
-pyautogui.click(1031.5,1413.5)
-pyautogui.click(1031.5,1413.5)

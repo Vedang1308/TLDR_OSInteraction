@@ -1,6 +1,0 @@
-Task: Update event finish date as "14 December 2023" and end time as "15:30"
-Output Script:
-Pyautogui.click(418.0,500.5)
-Pyautogui.write("14 December 2023 ")
-Pyautogui.click(881.5,501.0)
-Pyautogui.write("15:30 ")

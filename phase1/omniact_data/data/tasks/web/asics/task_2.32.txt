@@ -1,7 +1,0 @@
-Task: Check out the sort of product they are retailing.
-Output Script: 
-pyautogui.click(245.0,468.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

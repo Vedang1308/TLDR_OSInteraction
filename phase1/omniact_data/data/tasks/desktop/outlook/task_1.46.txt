@@ -1,3 +1,0 @@
-Task: Click on the topmost email in the inbox
-Output Script:
-pyautogui.click(304.0,212.0)

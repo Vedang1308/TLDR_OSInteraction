@@ -1,3 +1,0 @@
-Task: Press the icon to add a new occurrence for tomorrow.
-Output script:
-pyautogui.click(612.0,828.5)

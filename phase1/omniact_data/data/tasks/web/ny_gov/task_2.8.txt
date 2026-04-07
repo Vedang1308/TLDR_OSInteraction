@@ -1,3 +1,0 @@
-Task: Scroll down to reveal additional functions
-Output Script:
-pyautogui.scroll(20)

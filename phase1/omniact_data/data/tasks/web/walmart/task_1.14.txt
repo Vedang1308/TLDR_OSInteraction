@@ -1,5 +1,0 @@
-Task: Insert three tables to the shopping basket
-Output Script:
-pyautogui.click(368.5,847.0)
-pyautogui.press("enter")
-pyautogui.press("enter")

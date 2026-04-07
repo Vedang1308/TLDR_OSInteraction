@@ -1,3 +1,0 @@
-Task: Change camera settings
-Output Script:
-pyautogui.click(147.0,12.5)

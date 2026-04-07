@@ -1,3 +1,0 @@
-Task: Access the sent email folder
-Output script:
-pyautogui.click(202.0,653.5)

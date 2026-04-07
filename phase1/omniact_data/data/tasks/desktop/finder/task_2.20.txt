@@ -1,3 +1,0 @@
-Task: Access and display the contents hidden in the Downloads folder
-Output Script:
-pyautogui.click(383.0,270.0)

@@ -1,3 +1,0 @@
-Task: Navigate to the calendar of October month.
-Output script:
-pyautogui.click(1088.5,1509.5)

@@ -1,3 +1,0 @@
-Task: Initiate the recording for the meeting.
-Output Script:
-pyautogui.click(1440.5,1745.5)

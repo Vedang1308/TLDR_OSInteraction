@@ -1,6 +1,0 @@
-Task: Page down on the current website view
-Output Script:
-pyautogui.press("space")
-pyautogui.press("space")
-pyautogui.press("space")
-pyautogui.press("space")

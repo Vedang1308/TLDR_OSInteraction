@@ -1,3 +1,0 @@
-Task: Turn off the Grammarly assistant
-Output script:
-pyautogui.click(1801.0,70.0)

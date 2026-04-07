@@ -1,5 +1,0 @@
-Task: Type "Workshop" within the session type field.
-Output script:
-pyautogui.click(1839.5,516.0)
-pyautogui.write("Team Building")
-pyautogui.press("enter")

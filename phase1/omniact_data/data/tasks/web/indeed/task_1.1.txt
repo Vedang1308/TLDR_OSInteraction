@@ -1,5 +1,0 @@
-Task: Search for Machine Learning Engineer job
-Output Script:
-pyautogui.click(499.5,160.0)
-pyautogui.write("Machine Learning Engineer")
-pyautogui.press("enter")

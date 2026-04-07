@@ -1,4 +1,0 @@
-Task: Change the border color of the selected shape to blue.
-Output script:
-pyautogui.click(1010.5,183.5)
-pyautogui.write("blue")

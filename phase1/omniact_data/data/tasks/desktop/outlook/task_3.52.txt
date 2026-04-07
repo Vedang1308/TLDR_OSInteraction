@@ -1,3 +1,0 @@
-Task: Renew the contents of inbox
-Output Script:
-pyautogui.click(599.5,69.5)

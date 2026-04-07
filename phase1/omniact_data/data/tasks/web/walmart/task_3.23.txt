@@ -1,3 +1,0 @@
-Task: Inspect the return policy of the active item
-Output Script:
-pyautogui.click(1199.0,869.0)

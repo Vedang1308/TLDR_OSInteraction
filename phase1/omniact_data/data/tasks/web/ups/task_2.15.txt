@@ -1,4 +1,0 @@
-Task: Change the current return address and opt for email notifications regarding this shipment
-Output Script:
-pyautogui.click(996.5,813.5)
-pyautogui.click(366.5,724.5)

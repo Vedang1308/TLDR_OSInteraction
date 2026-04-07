@@ -1,3 +1,0 @@
-Task: Interact with the options of the third news item listed at Tasting Table.
-Output script:
-pyautogui.click(2141.0,1648.5)

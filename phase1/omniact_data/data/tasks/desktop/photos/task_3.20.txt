@@ -1,3 +1,0 @@
-Task: Please amplify the waterfall image by double-clicking on it
-Output Script:
-pyautogui.doubleClick(1901.0,1535.5)

@@ -1,4 +1,0 @@
-Task: Remove the very first mail in inbox
-Output Script:
-pyautogui.click(304.0,212.0)
-pyautogui.click(1414.5,69.5)

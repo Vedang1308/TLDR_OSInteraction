@@ -1,3 +1,0 @@
-Task: Change calendar view to display the whole year
-Output Script:
-Pyautogui.click(1546.5,71.0)

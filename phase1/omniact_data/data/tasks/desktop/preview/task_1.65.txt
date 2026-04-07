@@ -1,3 +1,0 @@
-Task: Mark the specific text for emphasis.
-Output script:
-pyautogui.click(1949.0,99.0)

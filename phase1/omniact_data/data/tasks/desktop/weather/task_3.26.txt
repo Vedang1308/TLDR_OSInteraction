@@ -1,3 +1,0 @@
-Task: Locate and display the weather conditions for 6am
-Output Script:
-pyautogui.click(1869.0,1279.5)

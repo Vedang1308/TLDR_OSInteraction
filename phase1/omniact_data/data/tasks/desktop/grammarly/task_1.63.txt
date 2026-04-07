@@ -1,3 +1,0 @@
-Task: Extract the word "clearly" from the file text 
-Output script:
-pyautogui.click(1331.0,718.5)

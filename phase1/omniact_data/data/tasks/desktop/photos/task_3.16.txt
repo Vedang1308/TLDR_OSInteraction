@@ -1,3 +1,0 @@
-Task: Click the like button under the first picture found on the left, represented by a heart icon.
-Output Script:
-pyautogui.click(484.0,1020.0)

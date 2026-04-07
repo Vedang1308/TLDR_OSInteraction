@@ -1,4 +1,0 @@
-Task: Extend the list to view more applications in the battery utilization part.
-Output Script:
-pyautogui.moveTo(442.5,709.0)
-pyautogui.scroll(20)

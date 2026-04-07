@@ -1,3 +1,0 @@
-Task: Navigate to the specifications part on the washing machine"s webpage.
-Output Script:
-pyautogui.scroll(30)

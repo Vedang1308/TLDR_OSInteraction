@@ -1,3 +1,0 @@
-Task: Read the sample of "Heat 2"
-Output Script:
-pyautogui.doubleClick(1881.5,991.5)

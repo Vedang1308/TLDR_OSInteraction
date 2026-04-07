@@ -1,3 +1,0 @@
-Task: Trigger an alert for the audio file labelled "Music 1"
-Output script:
-pyautogui.click(1356.0,394.0)

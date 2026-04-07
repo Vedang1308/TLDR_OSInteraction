@@ -1,3 +1,0 @@
-Task: reveal menu dropdown
-Output script:
-pyautogui.click(54.5,23.0)

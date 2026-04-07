@@ -1,3 +1,0 @@
-Task: Play Hot 97 station
-Output script:
-pyautogui.click(1500.5,1461.0)

@@ -1,3 +1,0 @@
-Task: Opt to reject the suggested job opening
-Output Script:
-pyautogui.click(1198.0,771.0)

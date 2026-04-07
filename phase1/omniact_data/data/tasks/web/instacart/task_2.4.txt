@@ -1,3 +1,0 @@
-Task: Head to the Categories Section
-Output Script:
-pyautogui.click(213.0,97.5)

@@ -1,3 +1,0 @@
-Task: Choose the option to switch the color theme.
-Output Script:
-pyautogui.click(1213.0,441.5)

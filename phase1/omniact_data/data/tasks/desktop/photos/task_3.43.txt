@@ -1,4 +1,0 @@
-Task: Navigate to the beginning of the webpage
-Output Script:
-pyautogui.moveTo(1899.0,1178.0)
-pyautogui.scroll(-100)

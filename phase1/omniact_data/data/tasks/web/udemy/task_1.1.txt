@@ -1,3 +1,0 @@
-Task: View course detail and add to cart
-pyautogui.click(247.5,755.0)
-pyautogui.click(1094.0,395.0)

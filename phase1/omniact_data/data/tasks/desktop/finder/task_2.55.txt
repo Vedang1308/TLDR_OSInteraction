@@ -1,4 +1,0 @@
-Task: Unfold the Backup directory, then fold it back
-Output Script:
-pyautogui.click(384.0,190.0)
-pyautogui.click(384.0,190.0)

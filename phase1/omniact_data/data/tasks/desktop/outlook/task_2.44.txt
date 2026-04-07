@@ -1,3 +1,0 @@
-Task: Select Sent Mails section 
-Output Script:
-pyautogui.click(164.5,586.0)

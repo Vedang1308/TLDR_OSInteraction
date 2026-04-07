@@ -1,3 +1,0 @@
-Task: Look up for the current job trends on Indeed
-Output Script:
-pyautogui.click(720.0,395.0)

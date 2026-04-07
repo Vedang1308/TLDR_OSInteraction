@@ -1,3 +1,0 @@
-Task: Subscribe the heathline newsletter
-Output Script:
-pyautogui.click(1163.0,35.0)

@@ -1,4 +1,0 @@
-Task: Proceed one minute ahead in the playback (Hit the 30 seconds forward button two instances)
-Output Script:
-pyautogui.click(1080.5,700.0)
-pyautogui.click(1080.5,700.0)

@@ -1,3 +1,0 @@
-Task: Explore member-only offers placed at the top section of the webpage
-Output Script:
-pyautogui.click(720.0,16.5)

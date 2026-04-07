@@ -1,4 +1,0 @@
-Task: View emails from "joe07779@gmail.com"
-Output Script:
-pyautogui.click(646.5,130.5)
-pyautogui.click(164.0,341.0)

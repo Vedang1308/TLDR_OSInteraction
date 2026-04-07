@@ -1,3 +1,0 @@
-Task: Access the "Updates" page.
-Output script:
-pyautogui.click(220.0,735.5)

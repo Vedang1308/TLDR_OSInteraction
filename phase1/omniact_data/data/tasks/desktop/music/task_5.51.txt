@@ -1,3 +1,0 @@
-Task: Confirm the existence of English Slow playlist
-Output Script:
-pyautogui.click(1172.0,1003.0)

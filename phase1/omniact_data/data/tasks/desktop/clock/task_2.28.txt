@@ -1,4 +1,0 @@
-Task: Automate the input value of 41 in the minutes field.
-Output Script:
-pyautogui.click(1669.0,986.0)
-pyautogui.write("41")

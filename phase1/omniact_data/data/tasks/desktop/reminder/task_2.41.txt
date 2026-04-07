@@ -1,3 +1,0 @@
-Task: Mark this event as significant.
-Output script:
-pyautogui.click(1178.0,1112.0)

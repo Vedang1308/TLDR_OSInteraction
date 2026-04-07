@@ -1,3 +1,0 @@
-Task: Activate the Reminders Program
-Output Script:
-pyautogui.click(1102.0,2026.5)

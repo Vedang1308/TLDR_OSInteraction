@@ -1,3 +1,0 @@
-Task: Give thumbs up to song
-Output script:
-pyautogui.click(250.0,974.5)

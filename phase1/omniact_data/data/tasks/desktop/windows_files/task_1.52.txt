@@ -1,3 +1,0 @@
-Task: Scale up to large icon view
-Output Script:
-pyautogui.click(410.0,78.5)

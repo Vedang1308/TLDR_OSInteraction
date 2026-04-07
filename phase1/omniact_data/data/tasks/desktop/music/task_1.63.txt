@@ -1,3 +1,0 @@
-Task: Notify me about Top Music Tracks
-Output script:
-pyautogui.click(2300.5,396.5)

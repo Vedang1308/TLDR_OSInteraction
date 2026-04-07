@@ -1,3 +1,0 @@
-Task: Obtain tasks set to be completed today
-Output Script:
-pyautogui.click(1118.0,50.0)

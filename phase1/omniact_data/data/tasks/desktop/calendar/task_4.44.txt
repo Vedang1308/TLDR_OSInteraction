@@ -1,3 +1,0 @@
-Task: Click on the date January 4 on the calendar.
-Output script:
-pyautogui.click(481.5,398.5)

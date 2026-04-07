@@ -1,3 +1,0 @@
-Task: Isolate the messages that haven"t been read yet.
-Output script:
-pyautogui.click(1132.5,51.0)

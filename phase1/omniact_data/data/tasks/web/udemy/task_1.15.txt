@@ -1,2 +1,0 @@
-Task: Click on the purchase option
-pyautogui.click(1094.0,451.0)

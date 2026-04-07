@@ -1,3 +1,0 @@
-Task: Look up weather conditions in New Delhi
-Output Script:
-pyautogui.click(319.5,297.0)

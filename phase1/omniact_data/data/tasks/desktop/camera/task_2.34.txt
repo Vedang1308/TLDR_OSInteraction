@@ -1,3 +1,0 @@
-Task: Switch to Burst method in capture options.
-Output Script:
-pyautogui.click(260.0,954.0)

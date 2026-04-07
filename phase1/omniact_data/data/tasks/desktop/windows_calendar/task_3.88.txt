@@ -1,3 +1,0 @@
-Task: Select the icon for the beginning date of the event
-Output Script:
-pyautogui.click(419.0,432.0)

@@ -1,3 +1,0 @@
-Task: Open the Slack App.
-Output Script:
-pyautogui.click(143.0,26.5)

@@ -1,2 +1,0 @@
-Task: Display all the courses made by the creator of the present course
-pyautogui.click(294.5,328.0)

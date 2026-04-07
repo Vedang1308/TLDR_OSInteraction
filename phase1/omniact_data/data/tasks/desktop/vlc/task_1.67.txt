@@ -1,3 +1,0 @@
-Task: Click on the preferences section
-Output Script:
-pyautogui.click(1772.0,424.0)

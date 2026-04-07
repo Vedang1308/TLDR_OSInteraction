@@ -1,3 +1,0 @@
-Task: Explore all internet based academic degree options
-Output Script:
-pyautogui.click(1069.0,72.0)

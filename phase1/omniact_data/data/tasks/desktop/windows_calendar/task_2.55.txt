@@ -1,4 +1,0 @@
-Task: Set "New York" as the place for the event
-Output Script:
-Pyautogui.click(1517.5,366.0)
-Pyautogui.write("New York ")

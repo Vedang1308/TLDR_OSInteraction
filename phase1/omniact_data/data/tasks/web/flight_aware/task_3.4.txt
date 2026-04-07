@@ -1,3 +1,0 @@
-Task: Redirect to FlightAware"s contact number
-Output Script:
-pyautogui.click(1218.0,63.0)

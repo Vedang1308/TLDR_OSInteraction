@@ -1,3 +1,0 @@
-Task: Switch on Bluetooth
-Output Script:
-pyautogui.click(2902.5,213.5)

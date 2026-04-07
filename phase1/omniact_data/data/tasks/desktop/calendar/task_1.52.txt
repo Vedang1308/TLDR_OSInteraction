@@ -1,3 +1,0 @@
-Task: Go to the annual display on the calendar.
-Output script:
-pyautogui.click(1634.5,38.5)

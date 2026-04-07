@@ -1,3 +1,0 @@
-Task: "How do I get a job here?"
-Output Script: 
-pyautogui.click(864.0,34.0)

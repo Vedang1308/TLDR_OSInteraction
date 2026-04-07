@@ -1,3 +1,0 @@
-Task: Start playing Dublab
-Output script:
-pyautogui.click(2210.5,1697.0)

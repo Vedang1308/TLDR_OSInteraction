@@ -1,3 +1,0 @@
-Task: Access the assistance page of the program.
-Output script:
-pyautogui.click(2718.5,1599.0)

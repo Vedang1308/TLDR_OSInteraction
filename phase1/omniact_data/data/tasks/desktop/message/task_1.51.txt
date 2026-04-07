@@ -1,5 +1,0 @@
-Task: Locate and select contact named John
-Output Script:
-pyautogui.click(319.0,129.5)
-pyautogui.write("John")
-pyautogui.press("enter")

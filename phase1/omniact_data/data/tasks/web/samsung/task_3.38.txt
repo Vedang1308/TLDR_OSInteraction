@@ -1,4 +1,0 @@
-Task: Select the crimson red color and click on the second image 
-Output Script:
-pyautogui.click(1145.0,806.0)
-pyautogui.click(76.5,761.5)

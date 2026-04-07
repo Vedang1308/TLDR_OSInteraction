@@ -1,3 +1,0 @@
-Task: Turn up the volume to high
-Output Script:
-pyautogui.click(1309.5,388.0)

@@ -1,3 +1,0 @@
-Task: Identify the weather conditions at Niagara Falls
-Output Script:
-pyautogui.click(317.5,412.0)

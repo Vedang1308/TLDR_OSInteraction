@@ -1,3 +1,0 @@
-Task: From the panel opened, find the weather at 6am
-Output Script:
-pyautogui.click(1869.0,1279.5)

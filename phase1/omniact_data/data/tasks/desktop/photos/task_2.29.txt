@@ -1,3 +1,0 @@
-Task: Cease the slideshow in progress
-Output Script:
-pyautogui.click(3147.0,2015.5)

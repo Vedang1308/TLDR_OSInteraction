@@ -1,3 +1,0 @@
-Task: Initiate the event"s start date feature by clicking on it.
-Output Script:
-pyautogui.click(419.0,432.0)

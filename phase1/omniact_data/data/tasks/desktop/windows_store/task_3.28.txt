@@ -1,3 +1,0 @@
-Task: Open Included with device
-Output Script:
-pyautogui.click(645.0,320.5)

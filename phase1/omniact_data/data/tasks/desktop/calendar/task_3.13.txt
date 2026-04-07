@@ -1,3 +1,0 @@
-Task: View the calendar in yearly format.
-Output script:
-pyautogui.click(1633.0,38.0)

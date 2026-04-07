@@ -1,7 +1,0 @@
-Task: "Search all appearances of the word which was searched before the last"
-Output Script:
-pyautogui.click(1197.5,488.0)
-pyautogui.press("tab")
-pyautogui.press("down")
-pyautogui.press("enter")
-pyautogui.click(1164.0,663.0)

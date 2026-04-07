@@ -1,5 +1,0 @@
-Task: Add location of the event as "Zoom meeting".
-Output script:
-pyautogui.click(962.5,1110.5)
-pyautogui.write("Zoom meeting")
-pyautogui.press("Enter")

@@ -1,3 +1,0 @@
-Task: Arrange a session by tapping its menu alternative
-Output Script:
-pyautogui.click(1175.5,171.5)

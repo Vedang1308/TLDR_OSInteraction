@@ -1,3 +1,0 @@
-Task: Navigate to the digit 2 and click on it
-Output script:
-pyautogui.click(2258.5,164.0)

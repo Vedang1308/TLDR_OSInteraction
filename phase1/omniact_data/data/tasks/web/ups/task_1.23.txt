@@ -1,6 +1,0 @@
-Task: Right click to open Quote Page on a fresh tab and subsequently close the tab.
-Output Script:
-pyautogui.rightclick(288.0,247.5)
-pyautogui.press("down")
-pyautogui.press("enter")
-pyautogui.hotkey("ctrl", "w")

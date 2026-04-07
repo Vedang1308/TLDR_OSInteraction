@@ -1,3 +1,0 @@
-Task: Sort the playlist by title
-Output script:
-pyautogui.click(774.0,425.5)

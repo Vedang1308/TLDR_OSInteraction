@@ -1,3 +1,0 @@
-Task: Go to the "Update & Security" settings menu
-Output Script:
-pyautogui.click(961.5,685.5)

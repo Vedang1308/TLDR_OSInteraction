@@ -1,3 +1,0 @@
-Task: Redirect to Best Fares
-Output script:
-pyautogui.click(344.0,590.0,)

@@ -1,3 +1,0 @@
-Task: Send the active email to the archive.
-Output Script:
-pyautogui.click(1295.5,68.5)

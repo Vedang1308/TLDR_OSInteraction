@@ -1,3 +1,0 @@
-Task: Initiate the App Store by pressing the blue button located at the lower section of your interface.
-Output Script:
-pyautogui.click(1490.5,2027.5)

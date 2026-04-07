@@ -1,5 +1,0 @@
-Task: Insert "bars" into your guide by clicking on "add guide".
-Output script:
-pyautogui.click(290.5,528.5)
-pyautogui.write("bars")
-pyautogui.press("enter")

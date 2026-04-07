@@ -1,3 +1,0 @@
-Task: Finish reading book
-Output Script:
-pyautogui.click(1203.5,196.0)

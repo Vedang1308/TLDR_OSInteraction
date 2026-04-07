@@ -1,3 +1,0 @@
-Task: Navigate to the CMU Tartans Instagram page
-Output Script:
-pyautogui.click(1165.5,32.0)

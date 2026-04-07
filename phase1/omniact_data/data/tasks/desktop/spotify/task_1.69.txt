@@ -1,3 +1,0 @@
-Task: Initiate pop-up of notification window
-Output script:
-pyautogui.click(1761.5,90.0)

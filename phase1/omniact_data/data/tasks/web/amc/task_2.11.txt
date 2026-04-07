@@ -1,4 +1,0 @@
-Task: Access movie data then proceed to the former screen
-Output Script:
-pyautogui.click(949.5,597.5)
-pyautogui.click(101.5,26.5)

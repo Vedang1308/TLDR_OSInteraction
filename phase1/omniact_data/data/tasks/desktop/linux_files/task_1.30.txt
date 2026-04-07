@@ -1,5 +1,0 @@
-Task: In the home folder, find the text file "helloworld.txt".
-Output Script:
-pyautogui.click(1035.0,48.5)
-pyautogui.write("helloworld.txt")
-pyautogui.press("enter")

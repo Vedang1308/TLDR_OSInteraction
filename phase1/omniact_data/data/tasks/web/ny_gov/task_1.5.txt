@@ -1,3 +1,0 @@
-Task: Redirect to the new page
-Output Script:
-pyautogui.click(442.5,46.0)

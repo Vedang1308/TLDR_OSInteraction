@@ -1,3 +1,0 @@
-Task: Ascertain which models are on offer in the sports shoes section.
-Output Script: 
-pyautogui.click(245.0,721.0)

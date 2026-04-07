@@ -1,3 +1,0 @@
-Task: Click on your profile picture to reach your account settings.
-Output Script:
-pyautogui.click(2823.0,47.0)

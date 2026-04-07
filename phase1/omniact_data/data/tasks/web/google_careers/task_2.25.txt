@@ -1,3 +1,0 @@
-Task: Navigate to the job listings for North America
-Output Script:
-pyautogui.click(363.5,336.0)

@@ -1,3 +1,0 @@
-Task: "Close code_algo document using the orange panel"
-Output Script:
-pyautogui.click(258.0,92.5)

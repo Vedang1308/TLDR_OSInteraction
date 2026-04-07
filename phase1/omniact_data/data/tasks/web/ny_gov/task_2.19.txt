@@ -1,3 +1,0 @@
-Task: Click the button on the upper panel leading to the government website.
-Output Script:
-pyautogui.click(565.5,46.0)

@@ -1,3 +1,0 @@
-Task: Apply filter to show only top product deals
-Output Script:
-pyautogui.click(158.0,322.0)

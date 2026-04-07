@@ -1,3 +1,0 @@
-Task: Tick off the "haircut" task as done
-Output Script:
-pyautogui.click(692.5,649.0)

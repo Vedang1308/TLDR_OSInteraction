@@ -1,5 +1,0 @@
-Task: In the top left"s search field, type in "Apple Inc" to check its stock index.
-Output script:
-pyautogui.click(329.5,149.5)
-pyautogui.write("Apple Inc")
-pyautogui.press("enter")

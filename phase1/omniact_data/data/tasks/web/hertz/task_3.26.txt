@@ -1,3 +1,0 @@
-Task: Access the educational materials on rent2buy
-Output script:
-pyautogui.click(904.0,141.0)

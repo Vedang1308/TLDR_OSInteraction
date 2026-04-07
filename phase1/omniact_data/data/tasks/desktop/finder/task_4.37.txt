@@ -1,3 +1,0 @@
-Task: Engage with a newly found wifi network
-Output Script:
-pyautogui.click(2903.5,126.5)

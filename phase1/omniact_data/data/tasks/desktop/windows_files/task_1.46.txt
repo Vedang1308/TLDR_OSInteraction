@@ -1,3 +1,0 @@
-Task: Open the context menu for the template.txt folder
-Output Script:
-pyautogui.rightClick(700.0,521.0)

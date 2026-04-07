@@ -1,3 +1,0 @@
-Task: Update the event account information
-Output Script:
-Pyautogui.click(1344.5,177.0)

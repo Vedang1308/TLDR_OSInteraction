@@ -1,3 +1,0 @@
-Task: View the grasslands image in full size by double clicking it
-Output Script:
-pyautogui.doubleClick(2858.0,1535.5)

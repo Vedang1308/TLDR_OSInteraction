@@ -1,3 +1,0 @@
-Task: Look for airport cab services
-Output Script:
-pyautogui.click(872.5,90.0)

@@ -1,3 +1,0 @@
-Task: Proceed to the subsequent day on the schedule
-Output Script:
-Pyautogui.click(405.0,67.0)

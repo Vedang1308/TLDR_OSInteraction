@@ -1,3 +1,0 @@
-Task: Access the "Play" page.
-Output script:
-pyautogui.click(221.0,516.5)

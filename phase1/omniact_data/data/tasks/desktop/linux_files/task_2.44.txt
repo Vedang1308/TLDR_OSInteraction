@@ -1,4 +1,0 @@
-Task: Perform a cut operation on the manual.txt file using mouse and keyboard inputs
-Output Script:
-pyautogui.click(1069.0,571.5)
-pyautogui.hotkey("ctrl", "x")

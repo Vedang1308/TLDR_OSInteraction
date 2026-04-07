@@ -1,3 +1,0 @@
-Task: Open the page to find a job
-Output Script:
-pyautogui.click(1233.0,713.0)

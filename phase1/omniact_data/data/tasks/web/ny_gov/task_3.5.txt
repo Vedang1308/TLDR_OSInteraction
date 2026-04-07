@@ -1,3 +1,0 @@
-Task: Contact the office of Governor Kathy Hochul by clicking on the contact button
-Output Script:
-pyautogui.click(1042.0,131.0)

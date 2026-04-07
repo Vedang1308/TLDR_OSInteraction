@@ -1,3 +1,0 @@
-Task: Review the stock"s performance over the past year.
-Output script:
-pyautogui.click(1964.5,390.0)

@@ -1,3 +1,0 @@
-Task: Start a voice call with Jack
-Output Script:
-pyautogui.click(1836.5,876.0)

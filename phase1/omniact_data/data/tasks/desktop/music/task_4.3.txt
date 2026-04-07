@@ -1,4 +1,0 @@
-Task: Scroll the song queue up to the first song
-Output Script:
-pyautogui.moveTo(3059.5,1108.5)
-pyautogui.scroll(-10)

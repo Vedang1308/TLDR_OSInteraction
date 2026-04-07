@@ -1,3 +1,0 @@
-Task: Obtain the playlist by downloading it.
-Output script:
-pyautogui.click(676.0,337.5)

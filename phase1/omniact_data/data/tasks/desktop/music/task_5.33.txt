@@ -1,3 +1,0 @@
-Task: Navigate to the iTunes store
-Output Script:
-pyautogui.click(195.5,742.5)

@@ -1,3 +1,0 @@
-Task: Proceed to the "Get Help" interface
-Output Script:
-pyautogui.click(1672.0,497.0)

@@ -1,3 +1,0 @@
-Task: Open the map display
-Output Script:
-pyautogui.click(2639.0,915.0)

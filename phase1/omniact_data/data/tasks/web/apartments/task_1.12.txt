@@ -1,3 +1,0 @@
-Task: alter language to English
-Output script:
-pyautogui.click(152.0,23.0)

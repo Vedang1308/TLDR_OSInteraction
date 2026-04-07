@@ -1,3 +1,0 @@
-Task: Choose the yearly layout on the calendar.
-Output script:
-pyautogui.click(1634.5,38.5)

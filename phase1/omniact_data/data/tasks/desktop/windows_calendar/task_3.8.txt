@@ -1,3 +1,0 @@
-Task: Save event using the save button
-Output Script:
-Pyautogui.click(182.5,124.0)

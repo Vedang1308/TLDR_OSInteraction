@@ -1,4 +1,0 @@
-Task: Select all contents in the document and copy it
-Output script:
-pyautogui.click(191.5,669.0)
-pyautogui.hotkey("ctrl", "c")

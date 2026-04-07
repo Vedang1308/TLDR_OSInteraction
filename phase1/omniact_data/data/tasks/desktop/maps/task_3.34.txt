@@ -1,3 +1,0 @@
-Task: Exit out of the directions window. 
-Output script:
-pyautogui.click(2339.0,149.5)

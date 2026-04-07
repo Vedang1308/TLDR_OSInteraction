@@ -1,3 +1,0 @@
-Task: Check the weather for the 16th in Chicago
-Output Script:
-pyautogui.click(2210.0,808.0)

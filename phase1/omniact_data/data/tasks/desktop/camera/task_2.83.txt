@@ -1,3 +1,0 @@
-Task: Snap a photo with a desired filter 
-Output Script:
-pyautogui.click(1846.0,953.5)

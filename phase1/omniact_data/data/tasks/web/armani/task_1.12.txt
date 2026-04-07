@@ -1,3 +1,0 @@
-Task: Navigate to just slim fit T-shirts by clicking on that item
-Output Script:
-pyautogui.click(370.0,630.5)

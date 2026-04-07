@@ -1,5 +1,0 @@
-Task: Adjust the backdrop color to the second selection present in the drop-down menu
-Output Script:
-pyautogui.click(1722.0,51.0)
-pyautogui.press("down")
-pyautogui.press("enter")

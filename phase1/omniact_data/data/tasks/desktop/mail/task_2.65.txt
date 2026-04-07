@@ -1,5 +1,0 @@
-Task: Address the email to "alex@gmail.com".
-Output script:
-pyautogui.click(2206.0,194.0)
-pyautogui.write("alex@gmail.com")
-pyautogui.press("enter")

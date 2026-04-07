@@ -1,3 +1,0 @@
-Task: Set up an event reminder
-Output Script:
-pyautogui.click(789.0,125.5)

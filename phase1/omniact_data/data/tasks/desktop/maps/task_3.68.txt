@@ -1,3 +1,0 @@
-Task: Click on the button called "swap dest and source" to interchange source and destination locations.
-Output script:
-pyautogui.click(2781.0,277.0)

@@ -1,3 +1,0 @@
-Task: Navigate to Benefits page 
-Output Script:
-pyautogui.click(342.0,31.5)

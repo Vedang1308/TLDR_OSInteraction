@@ -1,3 +1,0 @@
-Task: Schedule a notification for the function
-Output Script:
-pyautogui.click(789.0,125.5)

@@ -1,3 +1,0 @@
-Task: Modify the sketch line weight.
-Output script:
-pyautogui.click(913.5,181.5)

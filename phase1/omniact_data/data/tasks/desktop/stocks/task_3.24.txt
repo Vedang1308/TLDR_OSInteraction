@@ -1,3 +1,0 @@
-Task: Pick the command to keep the tale.
-Output script:
-pyautogui.click(787.0,57.5)

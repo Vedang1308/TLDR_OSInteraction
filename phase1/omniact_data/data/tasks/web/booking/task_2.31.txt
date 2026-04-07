@@ -1,3 +1,0 @@
-Task: Execute a search command for property availability
-Output Script:
-pyautogui.click(1210.5,500.0)

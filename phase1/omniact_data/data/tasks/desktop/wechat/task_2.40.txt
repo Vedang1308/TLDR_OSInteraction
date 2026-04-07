@@ -1,3 +1,0 @@
-Task: Expand the current note window to full screen
-Output Script:
-pyautogui.click(1243.5,129.0)

@@ -1,4 +1,0 @@
-Task: Organize the files from minimum to maximum size.
-Output Script:
-pyautogui.click(1033.0,243.5)
-pyautogui.click(1033.0,243.5)

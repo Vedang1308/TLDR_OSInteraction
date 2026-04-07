@@ -1,3 +1,0 @@
-Task: Inspect the account details
-Output script:
-pyautogui.click(187.0,350.5)

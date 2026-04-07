@@ -1,3 +1,0 @@
-Task: Inspect Apple iPhone 15 Pro Max phone"s details.
-Output Script:
-pyautogui.click(1140.0,760.0)

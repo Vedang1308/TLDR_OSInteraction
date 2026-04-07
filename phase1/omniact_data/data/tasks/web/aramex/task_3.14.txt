@@ -1,5 +1,0 @@
-Task: Click on the search button, input "careers" and press enter to find related results.
-Output Script:
-pyautogui.click(1408.0,20.0)
-pyautogui.write("careers")
-pyautogui.press("enter")

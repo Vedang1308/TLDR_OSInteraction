@@ -1,3 +1,0 @@
-Task: Visit the bookmarked news items in the list.
-Output script:
-pyautogui.click(218.0,464.5)

@@ -1,3 +1,0 @@
-Task: Click on the tab labeled "Recents".
-Output Script:
-pyautogui.click(166.5,94.5)

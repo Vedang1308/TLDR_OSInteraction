@@ -1,7 +1,0 @@
-Task: Decrease minutes by 5
-Output Script:
-pyautogui.click(1669.0,986.0)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("down")

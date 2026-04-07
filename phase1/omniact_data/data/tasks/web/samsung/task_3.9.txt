@@ -1,3 +1,0 @@
-Task: Scroll down to the specs section of the page for the washer
-Output Script:
-pyautogui.scroll(30)

@@ -1,3 +1,0 @@
-Task: Choose all text
-Output script:
-pyautogui.click(191.5,669.0)

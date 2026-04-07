@@ -1,3 +1,0 @@
-Task: Click on the SBUX stock for getting more info. 
-Output script:
-pyautogui.click(328.5,1506.0)

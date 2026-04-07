@@ -1,5 +1,0 @@
-Task: Fill "Singapore" as the travel destination on the search bar.
-Output script:
-pyautogui.click(1438.5,304.5)
-pyautogui.write("Singapore")
-pyautogui.press("enter")

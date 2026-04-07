@@ -1,3 +1,0 @@
-Task: Click on the option to upload pictures. 
-Output script:
-pyautogui.click(1705.0,1211.5)

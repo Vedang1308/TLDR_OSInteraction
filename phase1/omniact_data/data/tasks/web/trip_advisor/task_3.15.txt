@@ -1,3 +1,0 @@
-Task: Initiate the page for writing reviews
-Output Script:
-pyautogui.click(973.0,190.0)

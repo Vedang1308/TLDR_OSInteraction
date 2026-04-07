@@ -1,5 +1,0 @@
-Task: Choose the "Facebook" option after clicking on the "share" button to disseminate the application on your Facebook profile.
-Output script:
-pyautogui.click(2800.5,50.5)
-pyautogui.write("Facebook")
-pyautogui.press("Enter")

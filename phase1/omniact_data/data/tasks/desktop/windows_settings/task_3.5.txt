@@ -1,3 +1,0 @@
-Task: Change the time period for battery usage per app to "1 week"
-Output Script:
-pyautogui.click(588.0,931.0)

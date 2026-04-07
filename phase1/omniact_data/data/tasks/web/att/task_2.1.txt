@@ -1,3 +1,0 @@
-Task: Check the support section
-Output Script:
-pyautogui.click(1228.5,67.0)

@@ -1,3 +1,0 @@
-Task: "Exit the tools menu by clicking the right-side button"
-Output Script:
-pyautogui.click(1767.0,48.0)

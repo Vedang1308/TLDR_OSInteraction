@@ -1,3 +1,0 @@
-Task: Inspect Vancouver"s weather forecast
-Output Script:
-pyautogui.click(314.0,653.0)

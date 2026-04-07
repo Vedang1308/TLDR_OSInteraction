@@ -1,4 +1,0 @@
-Task: Move "haircut" to above "meal prep"
-Output Script:
-pyautogui.moveTo(670.0,649.0)
-pyautogui.dragTo(670.0,600.0, "left")

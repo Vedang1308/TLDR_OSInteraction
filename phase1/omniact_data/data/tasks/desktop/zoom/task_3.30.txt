@@ -1,3 +1,0 @@
-Task: Execute the application sort in reverse order.
-Output Script:
-pyautogui.click(269.0,287.0)

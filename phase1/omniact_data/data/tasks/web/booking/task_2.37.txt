@@ -1,3 +1,0 @@
-Task: Find lodging options by clicking the Stays button
-Output Script:
-pyautogui.click(214.5,90.0)

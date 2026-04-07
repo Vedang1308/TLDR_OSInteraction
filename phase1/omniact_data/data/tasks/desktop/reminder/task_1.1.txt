@@ -1,3 +1,0 @@
-Task: Click the icon for creating new event tomorrow.
-Output script:
-pyautogui.click(612.0,828.5)

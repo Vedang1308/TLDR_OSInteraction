@@ -1,3 +1,0 @@
-Task: Turn off the sound for the current discussion.
-Output script:
-pyautogui.click(2379.5,51.0)

@@ -1,3 +1,0 @@
-Task: Execute a command for a clockwise video rotation
-Output Script:
-pyautogui.click(1770.5,282.5)

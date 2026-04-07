@@ -1,3 +1,0 @@
-Task: Know more about the type of ADHD and symptoms in children and adults
-Output Script:
-pyautogui.click(590.0,882.0)

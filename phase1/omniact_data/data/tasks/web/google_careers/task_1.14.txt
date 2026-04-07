@@ -1,5 +1,0 @@
-Task: Locate "Software Intern" roles
-Output Script:
-pyautogui.click(185.5,156.0)
-pyautogui.write("Software Intern")
-pyautogui.press("enter")

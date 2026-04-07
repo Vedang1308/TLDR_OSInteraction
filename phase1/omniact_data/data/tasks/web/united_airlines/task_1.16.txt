@@ -1,4 +1,0 @@
-Task: Run a scroll to uncover additional top trending issues.
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

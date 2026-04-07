@@ -1,3 +1,0 @@
-Task: Return to the site"s homepage
-Output Script:
-pyautogui.click(203.0,66.5)

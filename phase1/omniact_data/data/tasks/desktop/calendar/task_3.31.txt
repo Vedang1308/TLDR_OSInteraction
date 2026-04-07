@@ -1,3 +1,0 @@
-Task: Opt to view the weekly layout of the calendar.
-Output script:
-pyautogui.click(1374.0,37.5)

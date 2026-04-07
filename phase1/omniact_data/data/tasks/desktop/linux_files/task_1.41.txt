@@ -1,3 +1,0 @@
-Task: Display details of the desktop icon
-Output Script:
-pyautogui.rightClick(318.0,116.0)

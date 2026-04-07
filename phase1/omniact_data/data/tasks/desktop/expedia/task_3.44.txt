@@ -1,3 +1,0 @@
-Task: Select the "bus tour" for addition to your travel agenda.
-Output script:
-pyautogui.click(1449.5,805.0)

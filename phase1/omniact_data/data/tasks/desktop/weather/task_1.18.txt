@@ -1,3 +1,0 @@
-Task: Check UV index in Milan
-Output Script:
-pyautogui.click(1841.5,1286.0)

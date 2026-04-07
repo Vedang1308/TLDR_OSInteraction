@@ -1,4 +1,0 @@
-Task: Access the Work directory and go back to the last visited directory
-Output Script:
-pyautogui.click(1881.0,469.0)
-pyautogui.press("backspace")

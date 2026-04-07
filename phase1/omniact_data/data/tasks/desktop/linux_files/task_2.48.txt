@@ -1,3 +1,0 @@
-Task: Choose all documents in the folder using keyboard commands.
-Output Script:
-pyautogui.hotkey("ctrl", "a")

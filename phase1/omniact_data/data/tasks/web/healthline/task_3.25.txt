@@ -1,3 +1,0 @@
-Task: Choose the image that showcases three mattresses to view the related article.
-Output Script:
-pyautogui.click(242.5,820.5)

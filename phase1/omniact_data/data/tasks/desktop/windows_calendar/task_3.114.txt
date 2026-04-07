@@ -1,4 +1,0 @@
-Task: Change the event conclusion time to 6:30 in the evening.
-Output Script:
-pyautogui.click(881.5,501.0)
-pyautogui.write("18:30")

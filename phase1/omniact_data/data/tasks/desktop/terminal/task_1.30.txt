@@ -1,5 +1,0 @@
-Task: Open inspector via right-click.
-Output Script:
-pyautogui.rightClick(1684.5,1168.5)
-pyautogui.write("show inspector")
-pyautogui.press("enter")

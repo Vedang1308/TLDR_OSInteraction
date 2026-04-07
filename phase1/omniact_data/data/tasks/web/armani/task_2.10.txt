@@ -1,6 +1,0 @@
-Task: Access the entire men"s clothing collection by moving the pointer to the men"s section, hitting tab twice and then making the selection.
-Output Script:
-pyautogui.moveTo(412, 171.5)
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("enter")

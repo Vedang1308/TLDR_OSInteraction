@@ -1,5 +1,0 @@
-Task: Navigate to "Adult" category using top right "Browse" menu
-Output Script:
-pyautogui.click(3194.0,52.0)
-pyautogui.write("Adult")
-pyautogui.press("enter")

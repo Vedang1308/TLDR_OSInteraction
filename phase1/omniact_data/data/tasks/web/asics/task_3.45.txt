@@ -1,4 +1,0 @@
-Task: Scroll a bit towards the bottom to see additional buttons
-Output Script: 
-pyautogui.press("space")
-pyautogui.scroll(30)

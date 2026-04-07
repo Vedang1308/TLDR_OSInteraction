@@ -1,3 +1,0 @@
-Task: Go to the combined flight and hotel booking page
-Output Script:
-pyautogui.click(450.5,90.0)

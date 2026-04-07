@@ -1,3 +1,0 @@
-Task: Generate a route starting from Regent"s park.
-Output script:
-pyautogui.click(1848.0,549.5)

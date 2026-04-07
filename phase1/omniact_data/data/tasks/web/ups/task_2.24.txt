@@ -1,6 +1,0 @@
-Task: Navigate to the registration page in a separate window
-Output Script:
-pyautogui.rightClick(1304.0,54.0)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

@@ -1,5 +1,0 @@
-Task: Key in the Tracking Number "A123456" in the designated tracking field and hit the enter button.
-Output Script:
-pyautogui.click(590.0,347.0)
-pyautogui.write("A123456")
-pyautogui.press("enter")

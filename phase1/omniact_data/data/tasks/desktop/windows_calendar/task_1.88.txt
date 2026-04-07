@@ -1,3 +1,0 @@
-Task: Progress to the forthcoming month
-Output Script:
-Pyautogui.click(405.5,66.0)

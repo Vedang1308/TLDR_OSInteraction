@@ -1,3 +1,0 @@
-Task: Click on the July calendar to view the events.
-Output script:
-pyautogui.click(1771.5,974.5)

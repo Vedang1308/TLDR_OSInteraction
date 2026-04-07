@@ -1,5 +1,0 @@
-Task: Search for Cloud Computing Course
-Output Script:
-pyautogui.click(681.0,597.5)
-pyautogui.write("Cloud Computing")
-pyautogui.press("enter")

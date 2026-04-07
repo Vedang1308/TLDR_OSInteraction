@@ -1,3 +1,0 @@
-Task: Lower all active windows
-Output Script:
-pyautogui.hotkey("win", "d")

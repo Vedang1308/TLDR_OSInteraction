@@ -1,3 +1,0 @@
-Task: Start messaging Harris
-Output Script:
-pyautogui.click(320.0,896.5)

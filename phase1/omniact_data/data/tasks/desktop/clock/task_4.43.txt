@@ -1,3 +1,0 @@
-Task: Update the 4pm notification
-Output Script:
-pyautogui.click(1053.5,314.0)

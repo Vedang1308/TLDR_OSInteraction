@@ -1,3 +1,0 @@
-Task: Navigate to the Sound options from the left-hand side 
-Output Script:
-pyautogui.click(201.5,340.5)

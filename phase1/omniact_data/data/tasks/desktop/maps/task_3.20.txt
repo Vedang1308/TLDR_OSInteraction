@@ -1,5 +1,0 @@
-Task: Set the destination as the Golden Bridge.
-Output script:
-pyautogui.click(2574.0,300.0)
-pyautogui.write("Golden Bridge")
-pyautogui.press("Enter")

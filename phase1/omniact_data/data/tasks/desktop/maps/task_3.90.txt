@@ -1,5 +1,0 @@
-Task: Select "British Museum" as your destination.
-Output script:
-pyautogui.click(2574.0,300.0)
-pyautogui.write("British Museum")
-pyautogui.press("Enter")

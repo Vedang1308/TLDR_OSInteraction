@@ -1,3 +1,0 @@
-Task: Click on the close option of this file.
-Output script:
-pyautogui.click(51.5,99.0)

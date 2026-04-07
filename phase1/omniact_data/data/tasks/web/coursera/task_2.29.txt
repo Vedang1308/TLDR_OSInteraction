@@ -1,3 +1,0 @@
-Task: Register for the class
-Output Script:
-pyautogui.click(205.5,597.5)

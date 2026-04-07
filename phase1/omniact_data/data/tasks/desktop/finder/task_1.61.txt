@@ -1,3 +1,0 @@
-Task: Alter to list display mode.
-Output Script:
-pyautogui.click(1971.0,99.0)

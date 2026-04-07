@@ -1,3 +1,0 @@
-Task: Change travel method to bicycle.
-Output script:
-pyautogui.click(2782.0,163.5)

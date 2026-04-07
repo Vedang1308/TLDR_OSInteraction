@@ -1,6 +1,0 @@
-Task: Navigate and select the first recently viewed item from the drop-down menu
-Output Script:
-pyautogui.click(1086.0,128.0)
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("enter")

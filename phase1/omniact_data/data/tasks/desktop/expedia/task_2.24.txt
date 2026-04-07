@@ -1,3 +1,0 @@
-Task: Select the option to alter the count of passengers. 
-Output script:
-pyautogui.click(1449.0,499.5)

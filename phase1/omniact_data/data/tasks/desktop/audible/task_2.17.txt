@@ -1,4 +1,0 @@
-Task: Roll back 1 minute (by pressing 30 seconds rewind button two times)
-Output Script:
-pyautogui.click(912.5,700.0)
-pyautogui.click(912.5,700.0)

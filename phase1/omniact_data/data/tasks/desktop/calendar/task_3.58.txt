@@ -1,4 +1,0 @@
-Task: Set up a recurring event on the 30th of each month.
-Output script:
-pyautogui.click(1031.5,1413.5)
-pyautogui.click(1031.5,1413.5)

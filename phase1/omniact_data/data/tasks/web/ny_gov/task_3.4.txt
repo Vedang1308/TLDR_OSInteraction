@@ -1,3 +1,0 @@
-Task: Go back to the home page by clicking on the New York State icon
-Output Script:
-pyautogui.click(129.0,45.0)

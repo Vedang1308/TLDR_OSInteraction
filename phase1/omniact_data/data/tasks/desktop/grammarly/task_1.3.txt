@@ -1,3 +1,0 @@
-Task: Select all the word in the dicument
-Output script:
-pyautogui.hotkey("ctrl","A")

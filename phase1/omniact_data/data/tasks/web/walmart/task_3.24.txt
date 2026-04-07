@@ -1,3 +1,0 @@
-Task: Check return provisions of the selected product
-Output Script:
-pyautogui.click(1199.0,869.0)

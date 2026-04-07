@@ -1,3 +1,0 @@
-Task: Navigate to the video"s conclusion
-Output Script:
-pyautogui.click(1737.5,1049.5)

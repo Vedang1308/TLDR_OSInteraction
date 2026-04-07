@@ -1,4 +1,0 @@
-Task: See more kid"s running shoes
-Output Script:
-pyautogui.press("space")
-pyautogui.scroll(30)

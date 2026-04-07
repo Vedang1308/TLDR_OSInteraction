@@ -1,3 +1,0 @@
-Task: Shrink down the active window.
-Output Script:
-pyautogui.click(728.5,194.0)

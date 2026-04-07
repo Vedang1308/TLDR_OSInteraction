@@ -1,3 +1,0 @@
-Task: Pick different shades for the last T-shirt in the queue.
-Output Script:
-pyautogui.click(1236.5,893.0)

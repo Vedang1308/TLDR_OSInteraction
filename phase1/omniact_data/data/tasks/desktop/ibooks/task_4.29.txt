@@ -1,3 +1,0 @@
-Task: Implement a double mouse click to read the preview of Last Kingdom
-Output Script:
-pyautogui.doubleClick(1880.5,404.5)

@@ -1,3 +1,0 @@
-Task: Activate the meeting recording system.
-Output Script:
-pyautogui.click(1440.5,1745.5)

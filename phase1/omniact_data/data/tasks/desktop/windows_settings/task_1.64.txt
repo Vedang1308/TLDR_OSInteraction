@@ -1,3 +1,0 @@
-Task: Select the "System" icon
-Output Script:
-pyautogui.click(285.5,429.5)

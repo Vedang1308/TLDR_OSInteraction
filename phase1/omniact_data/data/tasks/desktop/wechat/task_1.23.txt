@@ -1,7 +1,0 @@
-Task: Select the emoji which is two positions downward and three positions to the right in the emoji selection panel.
-Output Script:
-pyautogui.click(422.0,874.5)
-pyautogui.press("right")
-pyautogui.press("right")
-pyautogui.press("down")
-pyautogui.press("enter")

@@ -1,6 +1,0 @@
-Task: Input "Hello" in your active document and make the text bold
-Output Script:
-pyautogui.click(728.5,585.0)
-pyautogui.write("Hello")
-pyautogui.hotkey("ctrl", "a")
-pyautogui.click(709.5,184.0)

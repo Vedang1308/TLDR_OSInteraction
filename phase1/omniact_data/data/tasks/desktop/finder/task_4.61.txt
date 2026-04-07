@@ -1,3 +1,0 @@
-Task: Establish connectivity with a Bluetooth-enabled device
-Output Script:
-pyautogui.click(2902.5,213.5)

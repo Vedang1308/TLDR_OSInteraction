@@ -1,5 +1,0 @@
-Task: Post the current news on your Twitter account. 
-Output script:
-pyautogui.click(2828.5,48.0)
-pyautogui.write("Twitter")
-pyautogui.press("enter")

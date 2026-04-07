@@ -1,7 +1,0 @@
-Task: Navigate through top-rated films
-Output Script:
-pyautogui.click(816.0,561.0)
-pyautogui.click(816.0,561.0)
-pyautogui.click(816.0,561.0)
-pyautogui.click(816.0,561.0)
-pyautogui.click(816.0,561.0)

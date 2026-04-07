@@ -1,4 +1,0 @@
-Task: Pick "Rock Music" as the sound option.
-Output Script:
-pyautogui.click(1737.5,1186.0)
-pyautogui.write("Rock Music")

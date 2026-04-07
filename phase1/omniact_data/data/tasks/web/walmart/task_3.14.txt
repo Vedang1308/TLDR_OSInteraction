@@ -1,3 +1,0 @@
-Task: Enlarge the product photo
-Output Script:
-pyautogui.click(908.0,334.0)

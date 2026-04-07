@@ -1,4 +1,0 @@
-Task: Execute filter-based search
-Output script:
-pyautogui.click(1258.0,77.0)
-pyautogui.scroll(30)

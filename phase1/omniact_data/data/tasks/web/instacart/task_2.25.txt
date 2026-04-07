@@ -1,5 +1,0 @@
-Task: Look up for Brown Bread in the search bar
-Output Script:
-pyautogui.click(913.5,95.0)
-pyautogui.write("Brown Bread")
-pyautogui.press("enter")

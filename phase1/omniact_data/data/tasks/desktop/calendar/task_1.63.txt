@@ -1,3 +1,0 @@
-Task: Select the third day of the month
-Output script:
-pyautogui.click(2313.0,163.5)

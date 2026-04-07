@@ -1,3 +1,0 @@
-Task: Examine the preferences to alter the primary printer.
-Output Script:
-pyautogui.click(888.0,1160.5)

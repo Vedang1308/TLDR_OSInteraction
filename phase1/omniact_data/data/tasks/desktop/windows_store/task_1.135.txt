@@ -1,3 +1,0 @@
-Task: Launch the Library feature
-Output Script:
-pyautogui.click(43.5,906.0)

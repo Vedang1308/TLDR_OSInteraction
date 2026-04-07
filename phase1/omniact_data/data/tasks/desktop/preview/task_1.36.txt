@@ -1,4 +1,0 @@
-Task: Turn the page of the file around twice.
-Output script:
-pyautogui.click(2089.5,99.5)
-pyautogui.click(2089.5,99.5)

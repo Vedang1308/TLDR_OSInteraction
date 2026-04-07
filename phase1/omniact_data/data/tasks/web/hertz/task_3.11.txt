@@ -1,6 +1,0 @@
-Task: Look for "New York" in the location field using the search feature
-Output script:
-pyautogui.click(344.0,388.0)
-pyautogui.write("New York")
-pyautogui.press("down")
-pyautogui.press("enter")

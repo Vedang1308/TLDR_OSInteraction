@@ -1,3 +1,0 @@
-Task: Launch Coursera"s Government Page
-Output Script:
-pyautogui.click(489.0,20.0)

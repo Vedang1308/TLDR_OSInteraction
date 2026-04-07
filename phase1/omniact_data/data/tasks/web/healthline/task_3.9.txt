@@ -1,3 +1,0 @@
-Task: Locate and navigate to the reviews section in blue link
-Output Script:
-pyautogui.click(198.5,99.0)

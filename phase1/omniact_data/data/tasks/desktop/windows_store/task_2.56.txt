@@ -1,3 +1,0 @@
-Task: For gaming, select the fourth app visible on the screen.
-Output Script:
-pyautogui.click(983.0,704.5)

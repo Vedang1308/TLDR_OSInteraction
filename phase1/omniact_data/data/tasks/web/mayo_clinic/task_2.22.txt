@@ -1,3 +1,0 @@
-Task: Gather information on the topic of Diabetes
-Output Script:
-pyautogui.click(1048.0,869.0)

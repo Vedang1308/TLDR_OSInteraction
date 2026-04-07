@@ -1,3 +1,0 @@
-Task: Maximize the current note window
-Output Script:
-pyautogui.click(1243.5,129.0)

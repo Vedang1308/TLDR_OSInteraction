@@ -1,3 +1,0 @@
-Task: "Insert current date and time"
-Output Script:
-pyautogui.click(1767.0,251.5)

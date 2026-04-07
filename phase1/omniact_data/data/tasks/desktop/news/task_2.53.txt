@@ -1,5 +1,0 @@
-Task: Transfer the current page information to Whatsapp by selecting the share option.
-Output script:
-pyautogui.click(2834.0,51.0)
-pyautogui.write("Whatsapp")
-pyautogui.press("Enter")

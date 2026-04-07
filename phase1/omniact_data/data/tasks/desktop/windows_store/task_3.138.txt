@@ -1,3 +1,0 @@
-Task: Navigate to Mail and calendar preferences
-Output Script:
-pyautogui.click(1841.5,502.0)

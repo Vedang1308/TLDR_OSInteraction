@@ -1,5 +1,0 @@
-Task: Input "Golden Bridge" as the final location.
-Output script:
-pyautogui.click(2574.0,300.0)
-pyautogui.write("Golden Bridge")
-pyautogui.press("Enter")

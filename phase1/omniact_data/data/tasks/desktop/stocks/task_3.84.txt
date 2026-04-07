@@ -1,3 +1,0 @@
-Task: Ascend to peruse prior news stories.
-Output script:
-pyautogui.scroll(100)

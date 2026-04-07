@@ -1,3 +1,0 @@
-Task: View the "Prepaid Plans"
-Output Script:
-pyautogui.click(480.0,134.5)

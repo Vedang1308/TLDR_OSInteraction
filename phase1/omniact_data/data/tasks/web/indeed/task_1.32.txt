@@ -1,3 +1,0 @@
-Task: Search for organizations having job vacancies
-Output Script:
-pyautogui.click(388.5,785.0)

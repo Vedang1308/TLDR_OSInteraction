@@ -1,4 +1,0 @@
-Task: Scroll sideways to navigate to the following page
-Output Script:
-pyautogui.moveTo(1681.5,1128.0)
-pyautogui.hscroll("10")

@@ -1,3 +1,0 @@
-Task: Execute iTunes program
-Output Script:
-pyautogui.click(1002.0,189.0)

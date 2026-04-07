@@ -1,3 +1,0 @@
-Task: "Need to recruit local aid for moving"
-Output Script: 
-pyautogui.click(1127.0,183.5)

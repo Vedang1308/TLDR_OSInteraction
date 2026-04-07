@@ -1,3 +1,0 @@
-Task: Enable screen sharing for all viewers in the current conference.
-Output Script:
-pyautogui.click(1131.0,1091.5)

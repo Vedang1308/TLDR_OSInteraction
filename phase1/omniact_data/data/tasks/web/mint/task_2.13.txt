@@ -1,5 +1,0 @@
-Task: Retrieve all Samsung phone listings.
-Output Script:
-pyautogui.click(324.0,344.0)
-pyautogui.write("Samsung")
-pyautogui.press("enter")

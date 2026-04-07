@@ -1,3 +1,0 @@
-Task: Access the chat settings option.
-Output Script:
-pyautogui.click(978.5,1744.0)

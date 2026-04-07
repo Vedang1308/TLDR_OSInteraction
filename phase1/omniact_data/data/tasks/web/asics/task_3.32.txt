@@ -1,6 +1,0 @@
-Task: Inspect the aquamarine color choice, filter by Medium size, view further images and if none are appealing, close the browser window.
-Output Script:
-pyautogui.click(1039.0,386.0)
-pyautogui.click(1082.5,477.5)
-pyautogui.click(846.0,516.0)
-pyautogui.hotkey("ctrl", "w")

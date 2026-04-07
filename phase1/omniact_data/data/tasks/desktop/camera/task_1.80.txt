@@ -1,3 +1,0 @@
-Task: Implement the operation to reverse the preceding move
-Output Script:
-pyautogui.hotkey("ctrl", "z")

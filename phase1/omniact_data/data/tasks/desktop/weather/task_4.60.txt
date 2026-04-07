@@ -1,3 +1,0 @@
-Task: Cross-check the placement of the sun at 6am on the popup screen
-Output Script:
-pyautogui.click(2512.5,750.5)

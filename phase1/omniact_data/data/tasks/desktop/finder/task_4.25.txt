@@ -1,3 +1,0 @@
-Task: Turn up the audio to the topmost level
-Output Script:
-pyautogui.click(3208.0,587.5)

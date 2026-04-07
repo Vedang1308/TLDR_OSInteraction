@@ -1,3 +1,0 @@
-Task: Close the Note window
-Output Script:
-pyautogui.click(1285.5,131.0)

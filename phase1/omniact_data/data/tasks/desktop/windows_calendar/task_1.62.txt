@@ -1,3 +1,0 @@
-Task: View the Microsoft accounts tied to this calendar.
-Output Script:
-Pyautogui.click(167.5,615.0)

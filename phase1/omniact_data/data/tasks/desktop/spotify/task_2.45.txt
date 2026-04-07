@@ -1,3 +1,0 @@
-Task: Advance to the next tune
-Output script:
-pyautogui.click(1028.5,957.5)

@@ -1,4 +1,0 @@
-Task: Navigate to the Work folder and then return to the previous folder
-Output Script:
-pyautogui.click(1881.0,469.0)
-pyautogui.press("backspace")

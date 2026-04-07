@@ -1,3 +1,0 @@
-Task: Scroll down one screen length to check for other subjects using the space bar
-Output Script:
-pyautogui.press("space")

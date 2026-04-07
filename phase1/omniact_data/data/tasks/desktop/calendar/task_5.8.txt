@@ -1,5 +1,0 @@
-Task: Add the location "Conference Room 2".
-Output script:
-pyautogui.click(1578.5,576.0)
-pyautogui.write("Conference Room 2")
-pyautogui.press("enter")

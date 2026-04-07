@@ -1,4 +1,0 @@
-Task: Click on "options" and confirm the first selection
-Output Script:
-pyautogui.click(1767.0,48.0)
-pyautogui.press("enter")

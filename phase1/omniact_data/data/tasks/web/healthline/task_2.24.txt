@@ -1,3 +1,0 @@
-Task: Access the given link to understand the treatment options for ADHD.
-Output Script:
-pyautogui.click(801.5,391.0)

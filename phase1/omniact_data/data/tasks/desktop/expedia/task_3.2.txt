@@ -1,3 +1,0 @@
-Task: Select search icon to change things to do.
-Output script:
-pyautogui.click(2826.0,36.0)

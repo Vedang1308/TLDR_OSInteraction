@@ -1,5 +1,0 @@
-Task: Alter the salary display option.
-Output Script:
-pyautogui.click(503.0,575.0)
-pyautogui.press("down")
-pyautogui.press("enter")

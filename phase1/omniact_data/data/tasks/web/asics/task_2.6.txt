@@ -1,3 +1,0 @@
-Task: Filter the models by size of the shoes
-Output Script: 
-pyautogui.click(245.0,317.0)

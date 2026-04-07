@@ -1,3 +1,0 @@
-Task: Seek the video forward by 1 minute with keyboard
-Output Script:
-pyautogui.press("right")

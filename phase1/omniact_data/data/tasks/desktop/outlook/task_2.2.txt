@@ -1,5 +1,0 @@
-Task: Change the subject of email to "Query"
-Output Script:
-pyautogui.click(1325.0,285.0)
-pyautogui.hotkey("ctrl", "a")
-pyautogui.write("Query")

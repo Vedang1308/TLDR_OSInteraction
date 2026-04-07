@@ -1,3 +1,0 @@
-Task: Engage the One Key Cash function.
-Output script:
-pyautogui.click(2703.0,695.0)

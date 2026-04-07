@@ -1,3 +1,0 @@
-Task: Dispatch your curriculum vitae on the specified site 
-Output Script:
-pyautogui.click(607.5,233.5)

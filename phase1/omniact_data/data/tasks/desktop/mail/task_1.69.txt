@@ -1,3 +1,0 @@
-Task: Select the drafts folder to view its content.
-Output script:
-pyautogui.click(196.5,595.5)

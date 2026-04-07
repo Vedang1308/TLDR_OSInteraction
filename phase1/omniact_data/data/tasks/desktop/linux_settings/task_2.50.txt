@@ -1,3 +1,0 @@
-Task: Shrink the active window to the taskbar
-Output Script:
-pyautogui.click(1819.0,51.0)

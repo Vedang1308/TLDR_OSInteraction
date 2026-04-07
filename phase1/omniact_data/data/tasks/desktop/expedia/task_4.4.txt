@@ -1,3 +1,0 @@
-Task: Search for the flight with filled details.
-Output script:
-pyautogui.click(1443.5,1742.5)

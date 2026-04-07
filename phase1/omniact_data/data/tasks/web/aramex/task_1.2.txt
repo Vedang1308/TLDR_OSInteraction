@@ -1,3 +1,0 @@
-Task: Track a package using Advanced Tracking button
-Output Script:
-pyautogui.click(580.0,690.5)

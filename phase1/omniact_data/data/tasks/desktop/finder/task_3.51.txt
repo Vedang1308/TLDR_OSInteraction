@@ -1,3 +1,0 @@
-Task: Select and open the System Preferences icon positioned on the bottom part of the screen
-Output Script:
-pyautogui.click(327.0,2028.5)

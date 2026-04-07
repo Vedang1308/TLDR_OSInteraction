@@ -1,3 +1,0 @@
-Task: Show all happenings planned for today
-Output script:
-pyautogui.click(145.0,259.0)

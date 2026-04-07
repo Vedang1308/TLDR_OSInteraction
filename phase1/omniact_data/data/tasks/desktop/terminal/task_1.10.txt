@@ -1,3 +1,0 @@
-Task: Scroll down on the screen using keyboard shortcut
-Output Script:
-pyautogui.hotkey("ctrl", "down")

@@ -1,5 +1,0 @@
-Task: Set event status as "Out of office"
-Output Script:
-pyautogui.click(513.5,125.0)
-pyautogui.write("Out of office")
-pyautogui.press("Enter")

@@ -1,4 +1,0 @@
-Task: Type "Johnson" in the field for family name.
-Output script:
-pyautogui.click(844.5,365.0)
-pyautogui.write("Chen")

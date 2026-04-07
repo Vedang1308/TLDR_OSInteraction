@@ -1,3 +1,0 @@
-Task: Lessen the display of the current window to taskbar.
-Output Script:
-pyautogui.click(728.5,194.0)

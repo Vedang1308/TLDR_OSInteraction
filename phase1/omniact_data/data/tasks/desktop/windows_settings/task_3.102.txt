@@ -1,3 +1,0 @@
-Task: Click on the Storage option from the sidebar
-Output Script:
-pyautogui.click(203.0,645.0)

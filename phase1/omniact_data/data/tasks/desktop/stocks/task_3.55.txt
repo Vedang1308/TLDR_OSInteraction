@@ -1,5 +1,0 @@
-Task: Look up for the latest news related to General Electric.
-Output script:
-pyautogui.click(333.0,151.0)
-pyautogui.write("General Electric")
-pyautogui.press("enter")

@@ -1,6 +1,0 @@
-Task: Access the second option in the dropdown menu using a combination of mouse click and keystrokes.
-Output Script:
-pyautogui.click(1769.5,50.0)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

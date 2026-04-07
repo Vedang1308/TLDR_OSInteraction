@@ -1,5 +1,0 @@
-Task: For the kid"s shoes section, reconfigure the price range such that the highest price is 300 by moving the right slider on the price range bar up to the 300 mark.
-Output Script:
-pyautogui.click(245.0,620.0)
-pyautogui.press("tab")
-pyautogui.hscroll(-10)

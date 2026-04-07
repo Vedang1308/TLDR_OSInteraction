@@ -1,5 +1,0 @@
-Task: Open a new terminal window
-Output Script:
-pyautogui.click(166.5,25.5)
-pyautogui.write("new terminal")
-pyautogui.press("enter")

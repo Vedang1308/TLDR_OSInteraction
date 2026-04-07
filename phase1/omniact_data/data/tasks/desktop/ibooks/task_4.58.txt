@@ -1,3 +1,0 @@
-Task: Implement the function of viewing the "Greenwich Park" document 
-Output Script:
-pyautogui.doubleClick(1881.5,1982.0)

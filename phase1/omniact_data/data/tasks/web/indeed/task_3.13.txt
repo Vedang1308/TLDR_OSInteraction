@@ -1,3 +1,0 @@
-Task: Remove "United States" as the set work location
-Output Script:
-pyautogui.click(910.0,246.0)

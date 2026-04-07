@@ -1,5 +1,0 @@
-Task: Show me all items available for purchase in Pittsburgh
-Output Script:
-pyautogui.click(1161.0,40.0)
-pyautogui.write("Pittsburgh")
-pyautogui.press("enter")

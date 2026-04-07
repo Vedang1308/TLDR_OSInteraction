@@ -1,3 +1,0 @@
-Task: Open the alert display center
-Output Script:
-pyautogui.click(1377.0,186.0)

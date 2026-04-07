@@ -1,4 +1,0 @@
-Task: Procure Starfield Game Pass 
-Output Script:
-pyautogui.click(953.0,704.0)
-pyautogui.click(1768.0,486.0)

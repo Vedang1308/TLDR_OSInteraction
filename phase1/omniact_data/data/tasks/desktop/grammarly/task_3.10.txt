@@ -1,3 +1,0 @@
-Task: Check the account info
-Output script:
-pyautogui.click(187.0,350.5)

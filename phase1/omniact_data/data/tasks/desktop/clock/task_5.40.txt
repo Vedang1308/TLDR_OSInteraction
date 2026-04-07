@@ -1,3 +1,0 @@
-Task: Deactivate snooze feature
-Output Script:
-pyautogui.click(1569.0,1241.5)

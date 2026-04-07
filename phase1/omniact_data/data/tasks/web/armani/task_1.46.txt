@@ -1,3 +1,0 @@
-Task: Schedule a meeting time using the appointment button
-Output Script:
-pyautogui.click(1175.5,171.5)

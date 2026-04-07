@@ -1,3 +1,0 @@
-Task: Adjust the settings of the desktop background
-Output Script:
-pyautogui.click(192.0,163.0)

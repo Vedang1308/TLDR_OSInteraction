@@ -1,3 +1,0 @@
-Task: Navigate to the main menu in settings by pressing on the home icon
-Output Script:
-pyautogui.click(200.5,91.0)

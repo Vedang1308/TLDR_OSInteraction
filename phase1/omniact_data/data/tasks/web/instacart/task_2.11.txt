@@ -1,3 +1,0 @@
-Task: Click on a particular store location in the list
-Output Script:
-pyautogui.click(100.0,27.5)

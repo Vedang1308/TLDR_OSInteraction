@@ -1,3 +1,0 @@
-Task: Look up San Francisco"s current weather
-Output Script:
-pyautogui.click(316.0,531.0)

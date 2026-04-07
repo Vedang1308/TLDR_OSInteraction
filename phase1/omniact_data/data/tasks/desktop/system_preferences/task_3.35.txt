@@ -1,3 +1,0 @@
-Task: Select the scheduling option for your Mac"s boot time.
-Output Script:
-pyautogui.click(787.0,930.0)

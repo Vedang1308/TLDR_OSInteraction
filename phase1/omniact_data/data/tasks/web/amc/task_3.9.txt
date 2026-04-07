@@ -1,5 +1,0 @@
-Task: Input user’s email address into the appropriate field
-Output Script:
-pyautogui.click(451.0,797.5)
-pyautogui.write("andrew@andrew.cmu.edu")
-pyautogui.press("enter")

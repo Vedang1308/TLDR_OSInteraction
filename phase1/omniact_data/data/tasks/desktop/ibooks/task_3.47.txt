@@ -1,3 +1,0 @@
-Task: Direct the pointer to "see_notes" on the display
-Output Script:
-pyautogui.moveTo(368.0,99.0)

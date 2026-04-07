@@ -1,3 +1,0 @@
-Task: Start the interactive session with the digital assistant.
-Output script:
-pyautogui.click(1443.0,563.0)

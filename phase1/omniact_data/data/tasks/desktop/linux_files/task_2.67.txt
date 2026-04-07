@@ -1,3 +1,0 @@
-Task: Click on the star icon near the file named manual.txt
-Output Script:
-pyautogui.click(1893.0,571.0)

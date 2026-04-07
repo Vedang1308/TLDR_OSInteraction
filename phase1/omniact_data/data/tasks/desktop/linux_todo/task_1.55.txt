@@ -1,5 +1,0 @@
-Task: Label "client presentation" as prominent.
-Output Script:
-pyautogui.click(1321.5,206.0)
-pyautogui.press("down")
-pyautogui.press("enter")

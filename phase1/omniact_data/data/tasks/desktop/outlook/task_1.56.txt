@@ -1,3 +1,0 @@
-Task: Shrink the side navigation panel
-Output Script:
-pyautogui.click(31.5,70.5)

@@ -1,4 +1,0 @@
-Task: Move to the top part of the document.
-Output Script:
-pyautogui.moveTo(1899.0,1178.0)
-pyautogui.scroll(-100)

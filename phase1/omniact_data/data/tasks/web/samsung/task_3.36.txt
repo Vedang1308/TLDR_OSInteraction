@@ -1,3 +1,0 @@
-Task: Proceed to the specifications segment of the washer"s product page.
-Output Script:
-pyautogui.scroll(30)

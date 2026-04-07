@@ -1,5 +1,0 @@
-Task: Get rid of the top file
-Output Script:
-pyautogui.click(485.0,341.0)
-pyautogui.hotkey("shift", "right")
-pyautogui.press("backspace")

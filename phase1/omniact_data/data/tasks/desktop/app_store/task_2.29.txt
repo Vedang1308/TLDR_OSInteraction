@@ -1,3 +1,0 @@
-Task: Select the "See All" button to explore all the alternatives.
-Output script:
-pyautogui.click(2746.5,1756.0)

@@ -1,3 +1,0 @@
-Task: Choose the "memorial tour" from the options to include in the travel plan. 
-Output script:
-pyautogui.click(1441.5,1053.5)

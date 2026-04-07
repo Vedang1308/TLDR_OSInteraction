@@ -1,5 +1,0 @@
-Task: Change the map view to satellite view.
-Output script:
-pyautogui.click(1970.5,342.5)
-pyautogui.write("satellite view")
-pyautogui.press("enter")

@@ -1,5 +1,0 @@
-Task: Navigate and find Drake"s music album "Views"
-Output Script:
-pyautogui.click(3203.5,139.5)
-pyautogui.write("Drake Views")
-pyautogui.press("Enter")

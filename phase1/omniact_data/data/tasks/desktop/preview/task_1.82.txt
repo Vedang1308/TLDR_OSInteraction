@@ -1,4 +1,0 @@
-Task: Navigate to the page above in the document.
-Output script:
-pyautogui.moveTo(1446.5,973.5)
-pyautogui.scroll(-30)

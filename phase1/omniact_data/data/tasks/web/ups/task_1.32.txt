@@ -1,4 +1,0 @@
-Task: In the tracking area, remove the last character of the tracking ID.
-Output Script:
-pyautogui.click(590.0,347.0)
-pyautogui.press("backspace")

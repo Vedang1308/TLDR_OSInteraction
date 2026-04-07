@@ -1,4 +1,0 @@
-Task: Adjust the time seconds count to 45
-Output Script:
-pyautogui.click(1960.0,980.5)
-pyautogui.write("45")

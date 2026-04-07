@@ -1,8 +1,0 @@
-Task: Calculate the product of 2, pi and 9 using a programmable interface.
-Output Script:
-pyautogui.click(1936.5,1159.5)
-pyautogui.click(2169.5,968.5)
-pyautogui.click(1594.5,1255.5)
-pyautogui.click(2169.5,968.5)
-pyautogui.click(2054.0,974.5)
-pyautogui.click(2169.0,1255.5)

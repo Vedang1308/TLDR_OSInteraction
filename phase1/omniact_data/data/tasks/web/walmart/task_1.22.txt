@@ -1,3 +1,0 @@
-Task: To check out various departments, click on the "departments" tab.
-Output Script:
-pyautogui.click(154.5,436.5)

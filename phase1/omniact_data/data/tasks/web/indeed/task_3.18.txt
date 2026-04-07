@@ -1,3 +1,0 @@
-Task: Uncover details about usual compensation rates
-Output Script:
-pyautogui.click(409.0,529.0)

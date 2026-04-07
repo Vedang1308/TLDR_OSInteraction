@@ -1,6 +1,0 @@
-Task: Apply Italics and Bold formatting to the entire content within the email body.
-Output Script:
-pyautogui.click(1310.5,415.5)
-pyautogui.hotkey("ctrl", "a")
-pyautogui.click(821.0,124.0)
-pyautogui.click(770.0,124.5)

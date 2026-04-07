@@ -1,3 +1,0 @@
-Task: Click on the New York State logo to return to the homepage
-Output Script:
-pyautogui.click(129.0,45.0)

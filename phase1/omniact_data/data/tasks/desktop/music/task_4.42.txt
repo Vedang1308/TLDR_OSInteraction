@@ -1,3 +1,0 @@
-Task: Navigate to the list view of the playlist named "Dan Shay".
-Output Script:
-pyautogui.click(702.0,333.0)

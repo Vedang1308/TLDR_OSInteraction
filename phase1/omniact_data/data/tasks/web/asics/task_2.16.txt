@@ -1,3 +1,0 @@
-Task: Show the selection designed for women 
-Output Script: 
-pyautogui.click(245.0,367.5)

@@ -1,5 +1,0 @@
-Task: Find "Movies" in the search bar.
-Output Script:
-pyautogui.click(959, 67)
-pyautogui.write("Movies")
-pyautogui.press("Enter")

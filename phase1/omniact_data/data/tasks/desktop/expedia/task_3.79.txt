@@ -1,3 +1,0 @@
-Task: Pick "memorial tour" item for the itinerary inclusion. 
-Output script:
-pyautogui.click(1441.5,1053.5)

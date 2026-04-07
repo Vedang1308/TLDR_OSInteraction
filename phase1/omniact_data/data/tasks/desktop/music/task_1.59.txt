@@ -1,3 +1,0 @@
-Task: Start streaming 102.7 FM LA radio
-Output script:
-pyautogui.click(788.5,1698.0)

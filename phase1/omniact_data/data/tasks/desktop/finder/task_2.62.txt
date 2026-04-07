@@ -1,3 +1,0 @@
-Task: Categorize and order the files based on kind in an ascending manner
-Output Script:
-pyautogui.click(3215.0,130.5)

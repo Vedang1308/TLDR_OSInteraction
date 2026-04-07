@@ -1,5 +1,0 @@
-Task: Copy the value in the City placeholder
-Output Script:
-pyautogui.click(364.5,735.5)
-pyautogui.hotkey("ctrl", "a")
-pyautogui.hotkey("ctrl", "c")

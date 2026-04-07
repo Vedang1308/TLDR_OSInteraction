@@ -1,3 +1,0 @@
-Task: Switch to the previous track in the playlist.
-Output script:
-pyautogui.click(911.5,957.5)

@@ -1,6 +1,0 @@
-Task: Open windows start, click on search box, type "a", perform scroll operation three times.
-Output Script:
-pyautogui.hotkey("winleft", "s")
-pyautogui.click(959.0,67.0)
-pyautogui.write("a")
-pyautogui.scroll(3)

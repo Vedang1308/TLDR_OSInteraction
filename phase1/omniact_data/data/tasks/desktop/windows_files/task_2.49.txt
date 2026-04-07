@@ -1,3 +1,0 @@
-Task: Navigate to the "programs" folder.
-Output Script:
-pyautogui.rightClick(1763.0,262.5)

@@ -1,3 +1,0 @@
-Task: Inspect if there are any unread notifications.
-Output script:
-pyautogui.click(2065.5,1761.0)

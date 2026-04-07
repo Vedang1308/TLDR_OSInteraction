@@ -1,3 +1,0 @@
-Task: Use a keyboard shortcut to shut the currently selected window
-Output Script:
-pyautogui.hotkey("alt", "f4")

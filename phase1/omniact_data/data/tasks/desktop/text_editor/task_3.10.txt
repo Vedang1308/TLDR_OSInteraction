@@ -1,7 +1,0 @@
-Task: "Copy the contents of code_algo document to paste in untitled document using hotkeys Ctrl, A for select All, Ctrl+C for copy and Ctrl+V for paste"
-Output Script:
-pyautogui.click(383.5,158.0)
-pyautogui.hotkey("ctrl","a")
-pyautogui.hotkey("ctrl","c")
-pyautogui.click(158.0,124.5)
-pyautogui.hotkey("ctrl","v")

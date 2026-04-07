@@ -1,6 +1,0 @@
-Task: Subtract 2 from 5
-Output Script:
-pyautogui.click(1938.0,1065.0)
-pyautogui.click(2168.0,1067.5)
-pyautogui.click(1936.5,1159.5)
-pyautogui.click(2169.0,1255.5)

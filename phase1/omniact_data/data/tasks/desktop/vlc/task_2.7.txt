@@ -1,4 +1,0 @@
-Task: Click on the first video in the Channels tab
-Output Script:
-pyautogui.click(1042.5,49.0)
-pyautogui.click(229.0,302.5)

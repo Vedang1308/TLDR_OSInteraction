@@ -1,3 +1,0 @@
-Task: Initiate the help interface
-Output Script:
-pyautogui.click(1766.5,195.0)

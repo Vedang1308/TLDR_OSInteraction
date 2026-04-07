@@ -1,3 +1,0 @@
-Task: Select "Science" tab on the screen.
-Output script:
-pyautogui.click(224.5,1250.0)

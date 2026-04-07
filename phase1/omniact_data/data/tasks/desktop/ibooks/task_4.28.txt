@@ -1,3 +1,0 @@
-Task: Perform a double touch to view the sample of Last Kingdom
-Output Script:
-pyautogui.doubleClick(1880.5,404.5)

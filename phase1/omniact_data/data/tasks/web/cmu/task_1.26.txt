@@ -1,3 +1,0 @@
-Task: Navigate to the Student Experience drop down list
-Output Script:
-pyautogui.click(688.0,94.5)

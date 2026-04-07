@@ -1,3 +1,0 @@
-Task: Navigate to the page to settle parking charges in NYC from the lower panel
-Output Script:
-pyautogui.click(970.0,713.0)

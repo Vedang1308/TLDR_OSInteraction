@@ -1,5 +1,0 @@
-Task: Choose "London Eye" as the place to visit.
-Output script:
-pyautogui.click(2574.0,300.0)
-pyautogui.write("London Eye")
-pyautogui.press("Enter")

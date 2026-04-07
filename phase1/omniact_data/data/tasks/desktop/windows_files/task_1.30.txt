@@ -1,4 +1,0 @@
-Task: Reposition the "template.txt" file to the "downloads" folder within this directory by dragging the file.
-Output Script:
-pyautogui.click(700.0,521.0)
-pyautogui.dragTo(700.0,360.0,"left")

@@ -1,3 +1,0 @@
-Task: Access the Walt Disney share on the stock market.
-Output script:
-pyautogui.click(322.5,1014.5)

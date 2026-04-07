@@ -1,3 +1,0 @@
-Task: Select other colors for the last T-shirt
-Output Script:
-pyautogui.click(1236.5,893.0)

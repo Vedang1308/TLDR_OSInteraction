@@ -1,3 +1,0 @@
-Task: Execute Safari Browser by pressing the fifth blue icon at the bottom
-Output Script:
-pyautogui.click(519.0,2027.5)

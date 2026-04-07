@@ -1,4 +1,0 @@
-Task: Attach a note requiring the conclusion part to be verified.
-Output script:
-pyautogui.click(768.5,185.0)
-pyautogui.write("check the conclusion")

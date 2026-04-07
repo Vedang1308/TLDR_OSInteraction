@@ -1,3 +1,0 @@
-Task: Explore rental vehicle alternatives.
-Output script:
-pyautogui.click(2383.0,226.5)

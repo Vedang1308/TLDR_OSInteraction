@@ -1,3 +1,0 @@
-Task: Explore the article titled - "Supporting someone with post-traumatic stress disorder"
-Output Script:
-pyautogui.click(1045.0,527.0)

@@ -1,4 +1,0 @@
-Task: Navigate and select the "departure date" and "return date" fields.
-Output script:
-pyautogui.click(798.5,368.0)
-pyautogui.click(984.0,368.0)

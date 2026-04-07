@@ -1,3 +1,0 @@
-Task: Verify the location of the sun at 6am in the pop-up window
-Output Script:
-pyautogui.click(2512.5,750.5)

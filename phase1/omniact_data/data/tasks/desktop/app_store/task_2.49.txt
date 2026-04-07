@@ -1,5 +1,0 @@
-Task: Tap on the "more" icon and locate "Reviews" to view customer feedback.
-Output script:
-pyautogui.click(2381.5,1602.0)
-pyautogui.write("Reviews")
-pyautogui.press("Enter")

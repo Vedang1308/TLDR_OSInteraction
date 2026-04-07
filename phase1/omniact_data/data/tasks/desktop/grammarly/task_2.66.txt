@@ -1,3 +1,0 @@
-Task: Alter the parameters in the editor settings
-Output script:
-pyautogui.click(188.5,722.5)

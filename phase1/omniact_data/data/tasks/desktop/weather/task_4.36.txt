@@ -1,3 +1,0 @@
-Task: Explore more about precipitation
-Output Script:
-pyautogui.click(2158.5,1286.0)

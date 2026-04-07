@@ -1,3 +1,0 @@
-Task: Move to the "Fashion" segment.
-Output script:
-pyautogui.click(223.0,1025.0)

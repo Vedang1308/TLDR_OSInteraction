@@ -1,3 +1,0 @@
-Task: Start the operation of fabricating a new list.
-Output Script:
-pyautogui.click(116.5,52.0)

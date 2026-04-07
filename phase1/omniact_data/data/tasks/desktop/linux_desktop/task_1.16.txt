@@ -1,3 +1,0 @@
-Task: Open Firefox App
-Output Script:
-pyautogui.click(35.0,61.5)

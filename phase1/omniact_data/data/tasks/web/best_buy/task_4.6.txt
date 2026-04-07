@@ -1,3 +1,0 @@
-Task: View the special offers available only for members at the page"s top
-Output Script:
-pyautogui.click(720.0,16.5)

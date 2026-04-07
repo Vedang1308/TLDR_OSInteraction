@@ -1,3 +1,0 @@
-Task: Launch Assistance application
-Output Script:
-pyautogui.click(37.0,472.5)

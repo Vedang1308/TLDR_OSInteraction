@@ -1,3 +1,0 @@
-Task: Navigate to the final image in the slideshow
-Output Script:
-pyautogui.click(2011.5,2016.5)

@@ -1,5 +1,0 @@
-Task: Rename the personal folder to home
-Output Script:
-pyautogui.rightClick(922.5,601.5)
-pyautogui.write("home")
-pyautogui.press("enter")

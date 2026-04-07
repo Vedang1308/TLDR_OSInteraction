@@ -1,2 +1,0 @@
-Task: Choose from 7 different language subtitles.
-pyautogui.click(673.0,356.0)

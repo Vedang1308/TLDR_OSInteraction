@@ -1,3 +1,0 @@
-Task: Hover over three dots for Microsoft photos
-Output Script:
-pyautogui.moveTo(1838.5,407.0)

@@ -1,3 +1,0 @@
-Task: Unfold the complete profile information of Jack
-Output Script:
-pyautogui.click(34.0,69.5)

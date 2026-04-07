@@ -1,3 +1,0 @@
-Task: "Save the document using the save button"
-Output Script:
-pyautogui.click(1712.0,48.5)

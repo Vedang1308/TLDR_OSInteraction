@@ -1,3 +1,0 @@
-Task: "Looking to employ local hands for shifting"
-Output Script: 
-pyautogui.click(1127.0,183.5)

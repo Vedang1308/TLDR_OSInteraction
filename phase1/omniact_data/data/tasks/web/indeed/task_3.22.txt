@@ -1,3 +1,0 @@
-Task: Initiate a visit to Indeed"s homepage
-Output Script:
-pyautogui.click(76.0,36.0)

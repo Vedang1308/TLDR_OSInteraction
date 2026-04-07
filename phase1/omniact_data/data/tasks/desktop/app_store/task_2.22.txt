@@ -1,5 +1,0 @@
-Task: Find and select the Share button to copy the accessible link.
-Output script:
-pyautogui.click(2800.5,50.5)
-pyautogui.write("Copy")
-pyautogui.press("Enter")

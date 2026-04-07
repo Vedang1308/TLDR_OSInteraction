@@ -1,3 +1,0 @@
-Task: Select Click on @ArmaniExchange menu item at the top to navigate to that tab
-Output Script:
-pyautogui.click(981.5,171.5)

@@ -1,3 +1,0 @@
-Task: Verify the company"s existence on Twitter
-Output Script:
-pyautogui.click(21.0,408.0)

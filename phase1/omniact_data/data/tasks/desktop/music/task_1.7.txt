@@ -1,3 +1,0 @@
-Task: Expand local broadcasters
-Output script:
-pyautogui.click(657.5,1321.5)

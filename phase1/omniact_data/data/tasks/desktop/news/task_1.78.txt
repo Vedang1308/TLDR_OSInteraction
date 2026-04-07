@@ -1,3 +1,0 @@
-Task: Access the "Science" portion on the website.
-Output script:
-pyautogui.click(224.5,1250.0)

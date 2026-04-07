@@ -1,3 +1,0 @@
-Task: Navigate to the multi-city flights section.
-Output script:
-pyautogui.click(2378.5,131.0)

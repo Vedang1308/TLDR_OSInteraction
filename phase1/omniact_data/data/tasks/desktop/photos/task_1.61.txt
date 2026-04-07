@@ -1,6 +1,0 @@
-Task: Execute three successive rotations on the Sydney lotus temple image.
-Output Script:
-pyautogui.click(2479.0,1135.5)
-pyautogui.click(2645.5,49.5)
-pyautogui.click(2645.5,49.5)
-pyautogui.click(2645.5,49.5)

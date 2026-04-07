@@ -1,3 +1,0 @@
-Task: Go to Armani/dolci"s main webpage by clicking the icon located at the upper left corner of the screen.
-Output Script:
-pyautogui.click(145.0,76.0)

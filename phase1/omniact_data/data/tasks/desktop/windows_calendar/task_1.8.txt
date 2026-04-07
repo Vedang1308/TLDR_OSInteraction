@@ -1,3 +1,0 @@
-Task: Switch mode to "yearly" calendar
-Output Script:
-Pyautogui.click(1548.5,70.0)

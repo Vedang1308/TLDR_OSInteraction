@@ -1,3 +1,0 @@
-Task: Click on the add feature to open a new tab
-Output Script:
-pyautogui.click(3334.5,29.5)

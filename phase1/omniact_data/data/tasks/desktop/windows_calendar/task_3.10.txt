@@ -1,3 +1,0 @@
-Task: Open event in new window using the delete button
-Output Script:
-Pyautogui.click(1821.5,69.0)

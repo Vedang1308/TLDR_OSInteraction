@@ -1,5 +1,0 @@
-Task: As a medical professional, please get the first option available from the mayoclinic tab meant for you.
-Output Script:
-pyautogui.click(510.0,52.0)
-pyautogui.press("tab")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Press the "know more" button to gain more insight about the business pledges.
-Output Script:
-pyautogui.click(218.5,331.5)

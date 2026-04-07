@@ -1,3 +1,0 @@
-Task: Move down to see additional videos
-Output Script:
-pyautogui.scroll(-100)

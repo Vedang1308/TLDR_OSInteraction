@@ -1,4 +1,0 @@
-Task: Create an event for 5 pm on Monday.
-Output script:
-pyautogui.click(734.0,1158.0)
-pyautogui.click(734.0,1158.0)

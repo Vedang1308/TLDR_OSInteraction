@@ -1,3 +1,0 @@
-Task: "Open a new tab"
-Output Script:
-pyautogui.click(407.5,49.0)

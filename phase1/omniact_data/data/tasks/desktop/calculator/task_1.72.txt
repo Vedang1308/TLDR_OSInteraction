@@ -1,5 +1,0 @@
-Task: Find the natural logarithm value of the number 10
-Output Script:
-pyautogui.click(1822.0,1161.0)
-pyautogui.click(1881.0,1255.5)
-pyautogui.click(1595.5,1070.0)

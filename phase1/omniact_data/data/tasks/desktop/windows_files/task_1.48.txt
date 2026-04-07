@@ -1,3 +1,0 @@
-Task: Reveal all obscured objects
-Output Script:
-pyautogui.click(959.5,129.0)

@@ -1,3 +1,0 @@
-Task: Select the picture of Louvre
-Output Script:
-pyautogui.click(3059.5,548.5)

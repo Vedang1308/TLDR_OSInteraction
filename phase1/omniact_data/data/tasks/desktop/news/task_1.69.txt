@@ -1,3 +1,0 @@
-Task: Initiate the "History" section.
-Output script:
-pyautogui.click(218.5,521.5)

@@ -1,3 +1,0 @@
-Task: See what different color option there are for the kid"s shoes section
-Output Script:
-pyautogui.click(245.0,569.5)

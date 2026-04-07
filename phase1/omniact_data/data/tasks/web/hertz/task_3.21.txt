@@ -1,6 +1,0 @@
-Task: Navigate to "View Saved Cars", enter the email "andrew@cmu.edu" and username "andrew".
-Output script:
-pyautogui.click(1330.5,85.0)
-pyautogui.write("andrew@cmu.edu")
-pyautogui.press("tab")
-pyautogui.write("andrew")

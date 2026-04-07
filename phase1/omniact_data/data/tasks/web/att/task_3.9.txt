@@ -1,3 +1,0 @@
-Task: Browse for the prepaid service packages. 
-Output Script:
-pyautogui.click(481.0,67.0)

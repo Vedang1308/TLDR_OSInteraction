@@ -1,3 +1,0 @@
-Task: Show full profile details of Jack
-Output Script:
-pyautogui.click(34.0,69.5)

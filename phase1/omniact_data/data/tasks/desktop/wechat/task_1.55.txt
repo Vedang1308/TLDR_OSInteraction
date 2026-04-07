@@ -1,3 +1,0 @@
-Task: Access the camera functionality
-Output Script:
-pyautogui.click(35.0,341.5)

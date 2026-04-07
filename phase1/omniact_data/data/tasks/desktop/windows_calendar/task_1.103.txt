@@ -1,3 +1,0 @@
-Task: Modify the timeframe to annual view
-Output Script:
-Pyautogui.click(1548.5,70.0)

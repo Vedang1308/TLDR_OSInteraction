@@ -1,7 +1,0 @@
-Task: "Duplicate the material from code_algo and paste it into an untitled document utilizing hotkeys Ctrl+A, Ctrl+C, and Ctrl+V"
-Output Script:
-pyautogui.click(383.5,158.0)
-pyautogui.hotkey("ctrl","a")
-pyautogui.hotkey("ctrl","c")
-pyautogui.click(158.0,124.5)
-pyautogui.hotkey("ctrl","v")

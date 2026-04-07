@@ -1,5 +1,0 @@
-Task: Maximize the current window using the window options
-Output Script:
-pyautogui.click(592.5,24.5)
-pyautogui.write("maximize")
-pyautogui.press("enter")

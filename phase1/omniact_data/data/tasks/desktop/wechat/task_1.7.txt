@@ -1,3 +1,0 @@
-Task: View more chat options
-Output Script:
-pyautogui.click(1898.5,48.0)

@@ -1,3 +1,0 @@
-Task: View the press release discussing the introduction of a new free tax file utility.
-Output Script:
-pyautogui.click(164.0,679.5)

@@ -1,3 +1,0 @@
-Task: Check the available options in "Event reminder".
-Output Script:
-Pyautogui.click(789.0,125.5)

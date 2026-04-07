@@ -1,5 +1,0 @@
-Task: Clear all the content from the "applications" folder using hotkeys.
-Output Script:
-pyautogui.click(476.5,264.0)
-pyautogui.hotkey("ctrl","a")
-pyautogui.press("delete")

@@ -1,3 +1,0 @@
-Task: Increase the size of the displayed document
-Output script:
-pyautogui.hotkey("ctrl", "+")

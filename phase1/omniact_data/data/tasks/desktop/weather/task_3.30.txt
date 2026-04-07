@@ -1,4 +1,0 @@
-Task: Scroll sideways to find the temperature data of the 18th.
-Output Script:
-pyautogui.moveto("scroll_dates")
-pyautogui.hscroll("5")

@@ -1,5 +1,0 @@
-Task: "Access the file named time.docx"
-Output Script:
-pyautogui.click(308.5,48.0)
-pyautogui.write("time.docx")
-pyautogui.press("enter")

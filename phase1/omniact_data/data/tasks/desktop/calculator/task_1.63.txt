@@ -1,5 +1,0 @@
-Task: Enter the digits 3 and 0, then select the tangent function.
-Output Script:
-pyautogui.click(2053.5,1162.0)
-pyautogui.click(1881.0,1255.5)
-pyautogui.click(1480.0,1161.5)

@@ -1,3 +1,0 @@
-Task: Undo the last action
-Output Script:
-pyautogui.hotkey("ctrl", "z")

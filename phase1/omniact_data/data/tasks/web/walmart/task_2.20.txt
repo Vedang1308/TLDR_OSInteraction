@@ -1,5 +1,0 @@
-Task: Find electric irons in a search engine
-Output Script:
-pyautogui.click(1050.0,44.0)
-pyautogui.write("electric irons")
-pyautogui.click(1082.0,44.0)

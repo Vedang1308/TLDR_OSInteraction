@@ -1,3 +1,0 @@
-Task: Navigate to "Project to this PC" from the left menu.
-Output Script:
-pyautogui.click(201.0,824.5)

@@ -1,3 +1,0 @@
-Task: Initiate Whatsapp app
-Output Script:
-pyautogui.click(418.5,188.5)

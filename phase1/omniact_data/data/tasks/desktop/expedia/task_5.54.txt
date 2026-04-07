@@ -1,4 +1,0 @@
-Task: Identify areas in proximity of "Broadway" and "Times Square".
-Output script:
-pyautogui.click(1442.5,1496.0)
-pyautogui.click(1442.0,1285.0)

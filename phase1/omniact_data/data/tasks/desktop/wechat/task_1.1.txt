@@ -1,7 +1,0 @@
-Task: Select an emoji that is on the 3rd column and 2nd row of the emoji list
-Output Script:
-pyautogui.click(422.0,874.5)
-pyautogui.press("right")
-pyautogui.press("right")
-pyautogui.press("down")
-pyautogui.press("enter")

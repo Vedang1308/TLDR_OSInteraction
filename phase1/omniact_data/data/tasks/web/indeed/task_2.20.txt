@@ -1,3 +1,0 @@
-Task: Fetch additional details regarding "Warehouse Worker"
-Output Script:
-pyautogui.click(1029.0,792.0)

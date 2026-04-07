@@ -1,4 +1,0 @@
-Task: See the camera in full screen view
-Output Script:
-pyautogui.click(1769.0,48.5)
-pyautogui.click(1769.5,110.0)

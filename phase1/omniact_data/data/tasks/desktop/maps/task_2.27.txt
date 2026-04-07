@@ -1,4 +1,0 @@
-Task: Navigate and read the details of Hyde Park.
-Output script:
-pyautogui.moveTo(1702.5,933.5)
-pyautogui.scroll(30)

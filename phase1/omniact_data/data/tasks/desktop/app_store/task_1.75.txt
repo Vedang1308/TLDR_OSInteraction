@@ -1,3 +1,0 @@
-Task: Find and click on the tab named "Updates".
-Output script:
-pyautogui.click(220.0,735.5)

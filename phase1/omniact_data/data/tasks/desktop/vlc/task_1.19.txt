@@ -1,3 +1,0 @@
-Task: Create a screenshot gallery of the current video
-Output Script:
-pyautogui.click(1767.5,197.5)

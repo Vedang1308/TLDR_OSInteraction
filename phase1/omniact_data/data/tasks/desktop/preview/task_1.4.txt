@@ -1,5 +1,0 @@
-Task: Choose the layout icon and select "Always show sidebar"
-Output script:
-pyautogui.click(228.0,100.0)
-pyautogui.write("Always show sidebar")
-pyautogui.press("Enter")

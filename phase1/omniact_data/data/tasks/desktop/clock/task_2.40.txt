@@ -1,3 +1,0 @@
-Task: Complete the action by clicking "done".
-Output Script:
-pyautogui.click(1506.0,1971.5)

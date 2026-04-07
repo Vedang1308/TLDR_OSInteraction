@@ -1,3 +1,0 @@
-Task: Reveal further details about the position, "Warehouse Associate"
-Output Script:
-pyautogui.click(512.0,538.5)

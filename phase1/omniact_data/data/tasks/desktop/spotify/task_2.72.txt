@@ -1,3 +1,0 @@
-Task: Remove selected audio file from the playlist
-Output script:
-pyautogui.click(1743.0,173.5)

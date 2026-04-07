@@ -1,3 +1,0 @@
-Task: log-in before I buy this product
-Output Script: 
-pyautogui.click(1192.0,76.5)

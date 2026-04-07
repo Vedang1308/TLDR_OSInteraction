@@ -1,7 +1,0 @@
-Task: See what kind of product they have
-Output Script: 
-pyautogui.click(245.0,468.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

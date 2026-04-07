@@ -1,3 +1,0 @@
-Task: "Select the untitled file on the panel"s left-hand side"
-Output Script:
-pyautogui.click(158.0,124.5)

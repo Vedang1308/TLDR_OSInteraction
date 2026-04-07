@@ -1,3 +1,0 @@
-Task: Enable notification limits and curtail background operations when battery saver mode is engaged
-Output Script:
-pyautogui.click(456.5,515.0)

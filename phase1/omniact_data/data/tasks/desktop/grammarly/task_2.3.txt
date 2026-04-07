@@ -1,3 +1,0 @@
-Task: Select all the word
-Output script:
-pyautogui.click(191.5,669.0)

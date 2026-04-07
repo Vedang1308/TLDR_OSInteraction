@@ -1,3 +1,0 @@
-Task: Fold the side bar of the calendar
-Output Script:
-Pyautogui.click(31.0,69.5)

@@ -1,3 +1,0 @@
-Task: Navigate to the fourth news post on Tasting Table.
-Output script:
-pyautogui.click(2468.5,1363.0)

@@ -1,3 +1,0 @@
-Task: Execute email sending
-Output Script:
-pyautogui.click(1572.5,68.0)

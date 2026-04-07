@@ -1,3 +1,0 @@
-Task: Examine the internet accounts configuration.
-Output Script:
-pyautogui.click(731.5,755.5)

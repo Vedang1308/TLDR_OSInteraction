@@ -1,3 +1,0 @@
-Task: Navigate to the view options window.
-Output script:
-pyautogui.click(228.0,100.0)

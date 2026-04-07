@@ -1,3 +1,0 @@
-Task: Read more articles about Nutrition
-Output Script:
-pyautogui.click(647.5,99.0)

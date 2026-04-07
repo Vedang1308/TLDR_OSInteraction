@@ -1,3 +1,0 @@
-Task: Proceed to the integrated flights and hotels section
-Output Script:
-pyautogui.click(450.5,90.0)

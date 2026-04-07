@@ -1,3 +1,0 @@
-Task: Access the NYC parking ticket payment portal on the lower panel
-Output Script:
-pyautogui.click(970.0,713.0)

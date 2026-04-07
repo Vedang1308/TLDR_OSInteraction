@@ -1,3 +1,0 @@
-Task: Add song to queue
-Output script:
-pyautogui.click(1740.5,273.0)

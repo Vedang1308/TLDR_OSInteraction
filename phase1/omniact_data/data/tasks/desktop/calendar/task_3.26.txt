@@ -1,4 +1,0 @@
-Task: Carry out a double click for the event on Ground Hog Day.
-Output script:
-pyautogui.click(2270.5,1413.0)
-pyautogui.click(2270.5,1413.0)

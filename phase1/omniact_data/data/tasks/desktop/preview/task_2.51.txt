@@ -1,3 +1,0 @@
-Task: Incorporate your autograph into the document.
-Output script:
-pyautogui.click(669.0,184.5)

@@ -1,5 +1,0 @@
-Task: Add location of the event as "123 Woodlane street".
-Output script:
-pyautogui.click(962.5,1110.5)
-pyautogui.write("123 Woodlane street")
-pyautogui.press("Enter")

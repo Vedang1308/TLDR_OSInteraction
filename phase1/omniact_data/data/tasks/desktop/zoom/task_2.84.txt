@@ -1,3 +1,0 @@
-Task: Initiate the application configuration.
-Output Script:
-pyautogui.click(2256.5,1752.5)

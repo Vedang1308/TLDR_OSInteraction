@@ -1,4 +1,0 @@
-Task: Navigate to the "documents" folder and highlight all files within it
-Output Script:
-pyautogui.click(166.5,390.0)
-pyautogui.hotkey("ctrl", "a")

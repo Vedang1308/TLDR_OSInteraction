@@ -1,4 +1,0 @@
-Task: Trigger the function to set up an event on the month"s 30th.
-Output script:
-pyautogui.click(1031.5,1413.5)
-pyautogui.click(1031.5,1413.5)

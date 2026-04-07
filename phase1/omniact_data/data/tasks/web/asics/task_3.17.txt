@@ -1,3 +1,0 @@
-Task: Display the following photo of the product
-Output Script: 
-pyautogui.click(846.0,516.0)

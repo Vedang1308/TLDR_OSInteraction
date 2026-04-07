@@ -1,3 +1,0 @@
-Task: Turn off the functionality which dims the display while operating on battery.
-Output Script:
-pyautogui.click(1294.5,460.0)

@@ -1,2 +1,0 @@
-Task: Observe all courses constructed by the same author of the existing course
-pyautogui.click(294.5,328.0)

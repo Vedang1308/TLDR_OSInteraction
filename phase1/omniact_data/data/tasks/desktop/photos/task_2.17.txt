@@ -1,3 +1,0 @@
-Task: Enable the tile interface
-Output Script:
-pyautogui.click(3276.0,2016.5)

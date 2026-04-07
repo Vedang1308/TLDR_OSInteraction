@@ -1,3 +1,0 @@
-Task: Enlarge the screen to its maximum size
-Output Script:
-pyautogui.click(1856.0,50.5)

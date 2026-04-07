@@ -1,3 +1,0 @@
-Task: Choose the fourth product from the list by hitting the "Add to Cart" option
-Output Script:
-pyautogui.click(916.0,858.0)

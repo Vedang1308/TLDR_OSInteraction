@@ -1,3 +1,0 @@
-Task: Initiate video playback using keyboard
-Output Script:
-pyautogui.press("space")

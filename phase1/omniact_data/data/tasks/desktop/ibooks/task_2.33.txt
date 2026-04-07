@@ -1,4 +1,0 @@
-Task: Navigate downwards to examine the summary of the current book
-Output Script:
-pyautogui.moveTo(1880.0,1104.0)
-pyautogui.scroll(50)

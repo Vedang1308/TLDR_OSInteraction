@@ -1,6 +1,0 @@
-Task: Transfer the file named "template.txt" into the "documents" folder making use of only keyboard hotkeys.
-Output Script:
-pyautogui.click(811.5,340.5)
-pyautogui.hotkey("ctrl","c")
-pyautogui.click(809.5,263.0)
-pyautogui.hotkey("ctrl","v")

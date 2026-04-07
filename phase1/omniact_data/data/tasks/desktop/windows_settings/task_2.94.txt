@@ -1,3 +1,0 @@
-Task: Access the Xbox Networking settings by hitting the button situated on the left-hand side panel.
-Output Script:
-pyautogui.click(200.0,460.5)

@@ -1,3 +1,0 @@
-Task: Display all items not visible
-Output Script:
-pyautogui.click(959.5,129.0)

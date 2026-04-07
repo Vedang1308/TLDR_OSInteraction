@@ -1,3 +1,0 @@
-Task: Open the book "Songs of Kabir" by double clicking on it.
-Output Script:
-pyautogui.doubleClick(2592.0,617.5)

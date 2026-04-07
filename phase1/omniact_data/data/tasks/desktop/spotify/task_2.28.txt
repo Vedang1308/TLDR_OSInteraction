@@ -1,4 +1,0 @@
-Task: Navigate through the upcoming song list by scrolling
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

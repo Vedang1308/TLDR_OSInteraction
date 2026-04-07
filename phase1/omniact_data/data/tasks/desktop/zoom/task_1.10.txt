@@ -1,3 +1,0 @@
-Task: Add a new calendar to your account.
-Output Script:
-pyautogui.click(1857.5,1085.5)

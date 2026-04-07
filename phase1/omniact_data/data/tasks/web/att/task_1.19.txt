@@ -1,3 +1,0 @@
-Task: Switch software language to Spanish
-Output Script:
-pyautogui.click(1318.0,15.0)

@@ -1,3 +1,0 @@
-Task: Set the duration for battery usage for each application to "1 week"
-Output Script:
-pyautogui.click(588.0,931.0)

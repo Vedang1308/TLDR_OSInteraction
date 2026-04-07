@@ -1,3 +1,0 @@
-Task: Expand the list of Grammarly"s suggestions
-Output script:
-pyautogui.click(84.0,68.5)

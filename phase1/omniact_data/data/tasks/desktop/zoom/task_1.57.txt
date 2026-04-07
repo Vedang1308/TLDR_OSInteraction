@@ -1,3 +1,0 @@
-Task: Select the home option to get back to the starting screen.
-Output Script:
-pyautogui.click(1142.0,51.0)

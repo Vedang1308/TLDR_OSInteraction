@@ -1,3 +1,0 @@
-Task: Launch the Word program
-Output Script:
-pyautogui.click(438.5,868.5)

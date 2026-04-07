@@ -1,3 +1,0 @@
-Task: Select the option to view one month"s worth of stock fluctuation.
-Output script:
-pyautogui.click(1192.5,387.0)

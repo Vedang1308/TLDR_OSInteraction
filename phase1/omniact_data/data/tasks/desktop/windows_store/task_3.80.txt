@@ -1,3 +1,0 @@
-Task: Access phone linking settings
-Output Script:
-pyautogui.click(1840.5,893.0)

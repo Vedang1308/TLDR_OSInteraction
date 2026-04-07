@@ -1,3 +1,0 @@
-Task: Research information about different ADHD types and their symptoms
-Output Script:
-pyautogui.click(590.0,882.0)

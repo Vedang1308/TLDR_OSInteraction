@@ -1,3 +1,0 @@
-Task: Bring up all School Supplies products.
-Output Script:
-pyautogui.click(543.0,322.0)

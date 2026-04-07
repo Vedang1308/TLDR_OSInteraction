@@ -1,4 +1,0 @@
-Task: Initiate video trailer followed by a quick pause
-Output Script:
-pyautogui.click(357.5,508.5)
-pyautogui.press("space")

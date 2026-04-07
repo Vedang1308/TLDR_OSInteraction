@@ -1,3 +1,0 @@
-Task: Access the Flash Deals offerings.
-Output Script:
-pyautogui.click(897.0,728.5)

@@ -1,5 +1,0 @@
-Task: Search for occurrences of "handsome" in the entire book
-Output Script:
-pyautogui.click(3090.0,101.0)
-pyautogui.write("handsome")
-pyautogui.press("enter")

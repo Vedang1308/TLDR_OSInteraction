@@ -1,3 +1,0 @@
-Task: Collapsing the window to the taskbar
-Output Script:
-pyautogui.click(1816.5,50.5)

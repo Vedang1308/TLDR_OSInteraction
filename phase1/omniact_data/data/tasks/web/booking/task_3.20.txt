@@ -1,3 +1,0 @@
-Task: Search taxi options for airport transfers
-Output Script:
-pyautogui.click(872.5,90.0)

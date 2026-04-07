@@ -1,3 +1,0 @@
-Task: Classification under Alcohol Section
-Output Script:
-pyautogui.click(249.0,322.0)

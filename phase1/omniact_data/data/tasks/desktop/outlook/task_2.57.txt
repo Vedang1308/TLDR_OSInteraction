@@ -1,3 +1,0 @@
-Task: Repopulate the inbox
-Output Script:
-pyautogui.click(599.5,71.0)

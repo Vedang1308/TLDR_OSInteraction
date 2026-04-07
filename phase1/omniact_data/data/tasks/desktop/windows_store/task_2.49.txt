@@ -1,3 +1,0 @@
-Task: Navigate the pointer to Account
-Output Script:
-pyautogui.moveTo(1661.0,30.0)

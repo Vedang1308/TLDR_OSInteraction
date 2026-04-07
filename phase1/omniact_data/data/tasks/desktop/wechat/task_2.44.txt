@@ -1,4 +1,0 @@
-Task: Generate a new memo and incorporate a horizontal separator.
-Output Script:
-pyautogui.click(222.0,103.0)
-pyautogui.click(991.5,182.0)

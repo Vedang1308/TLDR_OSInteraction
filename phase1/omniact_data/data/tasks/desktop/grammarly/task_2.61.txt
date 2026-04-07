@@ -1,3 +1,0 @@
-Task: Unfold the goals segment
-Output script:
-pyautogui.click(1781.0,271.0)

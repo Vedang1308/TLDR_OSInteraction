@@ -1,3 +1,0 @@
-Task: Investigate the two-year performance of the stocks.
-Output script:
-pyautogui.click(2153.5,391.5)

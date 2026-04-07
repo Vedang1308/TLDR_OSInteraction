@@ -1,3 +1,0 @@
-Task: Discontinue the weather forecast search for Rio
-Output Script:
-pyautogui.click(3308.5,53.0)

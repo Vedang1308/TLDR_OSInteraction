@@ -1,3 +1,0 @@
-Task: Click on the icon located at the top left of the screen to access the homepage.
-Output Script:
-pyautogui.click(254.0,35.0)

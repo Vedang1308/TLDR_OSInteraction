@@ -1,6 +1,0 @@
-Task: Modify the final digit of the tracking code to "0" and initiate search
-Output Script:
-pyautogui.click(590.0,347.0)
-pyautogui.press("backspace")
-pyautogui.write("0")
-pyautogui.press("enter")

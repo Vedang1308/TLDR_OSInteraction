@@ -1,4 +1,0 @@
-Task: Navigate to the end of the webpage
-Output Script:
-pyautogui.moveTo(1899.0,1178.0)
-pyautogui.scroll(100)

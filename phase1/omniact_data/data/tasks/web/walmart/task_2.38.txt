@@ -1,3 +1,0 @@
-Task: Check out our services
-Output Script:
-pyautogui.click(386.0,44.0)

@@ -1,3 +1,0 @@
-Task: Initiate the reading of the book "Old Indian Legends" by clicking on the "Read" button.
-Output Script:
-pyautogui.click(694.0,1383.5)

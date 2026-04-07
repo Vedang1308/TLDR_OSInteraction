@@ -1,3 +1,0 @@
-Task: "Procure a self-storage space"
-Output Script: 
-pyautogui.click(638.0,82.0)

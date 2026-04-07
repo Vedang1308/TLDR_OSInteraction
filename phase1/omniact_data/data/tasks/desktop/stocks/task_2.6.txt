@@ -1,3 +1,0 @@
-Task: Check the stock change for the past 5 years.
-Output script:
-pyautogui.click(2350.5,392.5)

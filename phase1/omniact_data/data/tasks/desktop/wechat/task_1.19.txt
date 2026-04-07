@@ -1,3 +1,0 @@
-Task: Open the new chat option
-Output Script:
-pyautogui.click(349.0,45.0)

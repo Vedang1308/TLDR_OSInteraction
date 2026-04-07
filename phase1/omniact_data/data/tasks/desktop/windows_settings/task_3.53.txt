@@ -1,3 +1,0 @@
-Task: Use the left sidebar to open "Project to this PC" settings.
-Output Script:
-pyautogui.click(201.0,824.5)

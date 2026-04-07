@@ -1,3 +1,0 @@
-Task: Navigate to the Deli Category
-Output Script:
-pyautogui.click(1280.0,230.0)

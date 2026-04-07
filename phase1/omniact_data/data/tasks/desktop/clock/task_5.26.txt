@@ -1,4 +1,0 @@
-Task: Ensure the alarm is set to go off every Sunday and Thursday.
-Output Script:
-pyautogui.click(1579.5,1010.0)
-pyautogui.click(1788.0,1011.0)

@@ -1,4 +1,0 @@
-Task: Program the alarm to sound on Sundays and Thursdays. 
-Output Script:
-pyautogui.click(1579.5,1010.0)
-pyautogui.click(1788.0,1011.0)

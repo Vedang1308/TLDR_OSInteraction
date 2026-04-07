@@ -1,3 +1,0 @@
-Task: Reduce the dimensions of the active window
-Output Script:
-pyautogui.click(1856.5,52.0)

@@ -1,3 +1,0 @@
-Task: Navigate to the month display on the calendar
-Output script:
-pyautogui.click(1506.5,37.0)

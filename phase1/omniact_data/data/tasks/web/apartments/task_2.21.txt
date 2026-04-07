@@ -1,3 +1,0 @@
-Task: Proceed to the map section
-Output script:
-pyautogui.click(25.0,27.0)

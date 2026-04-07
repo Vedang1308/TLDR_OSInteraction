@@ -1,3 +1,0 @@
-Task: Investigate the modifications implemented at Mayo Clinic
-Output Script:
-pyautogui.click(142.5,642.0)

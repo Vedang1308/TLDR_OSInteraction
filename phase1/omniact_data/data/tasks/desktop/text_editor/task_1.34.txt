@@ -1,3 +1,0 @@
-Task: "Open document statistics feature"
-Output Script:
-pyautogui.click(1766.0,225.5)

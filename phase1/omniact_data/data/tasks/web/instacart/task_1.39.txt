@@ -1,3 +1,0 @@
-Task: Enable expedited shipping from Target Store
-Output Script:
-pyautogui.click(328.0,651.0)

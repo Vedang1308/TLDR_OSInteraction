@@ -1,3 +1,0 @@
-Task: Click on the option that reads "empire state building" to add it to your travel plan.
-Output script:
-pyautogui.click(1448.0,1550.0)

@@ -1,3 +1,0 @@
-Task: Insert chosen song to play next queue
-Output script:
-pyautogui.click(1740.5,273.0)

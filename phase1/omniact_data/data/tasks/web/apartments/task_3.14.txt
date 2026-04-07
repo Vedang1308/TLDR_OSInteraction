@@ -1,3 +1,0 @@
-Task: engage the "Add a Property" function
-Output script:
-pyautogui.click(1376.5,23.0)

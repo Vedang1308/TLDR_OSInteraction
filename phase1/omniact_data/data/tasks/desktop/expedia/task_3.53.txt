@@ -1,3 +1,0 @@
-Task: Include "empire state building" in your schedule by clicking on the corresponding option.
-Output script:
-pyautogui.click(1448.0,1550.0)

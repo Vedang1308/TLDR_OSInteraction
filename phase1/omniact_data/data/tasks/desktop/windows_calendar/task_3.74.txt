@@ -1,3 +1,0 @@
-Task: Use the "Share event" feature to open the event in a different window  
-Output Script:
-Pyautogui.click(1821.5,69.0)

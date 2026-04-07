@@ -1,3 +1,0 @@
-Task: Enable meeting members to view your screen.
-Output Script:
-pyautogui.click(1131.0,1091.5)

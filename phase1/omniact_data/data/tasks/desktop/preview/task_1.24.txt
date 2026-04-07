@@ -1,5 +1,0 @@
-Task: Distribute the document using Messages.
-Output script:
-pyautogui.click(1839.0,101.5)
-pyautogui.write("message")
-pyautogui.press("Enter")

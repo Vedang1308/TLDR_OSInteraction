@@ -1,3 +1,0 @@
-Task: Opt for a daily view on the calendar
-Output script:
-pyautogui.click(1245.0,37.0)

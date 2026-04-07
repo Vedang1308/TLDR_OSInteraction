@@ -1,3 +1,0 @@
-Task: Launch the communication with the automated chat representative.
-Output script:
-pyautogui.click(1443.0,563.0)

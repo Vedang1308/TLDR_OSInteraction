@@ -1,7 +1,0 @@
-Task: "Replace the word "beautiful" with "gorgeous" in the document"
-Output Script:
-pyautogui.click(1027.0,490.0)
-pyautogui.write("beautiful")
-pyautogui.click(1027.5,535.0)
-pyautogui.write("gorgeous")
-pyautogui.click(923.5,662.0)

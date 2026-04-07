@@ -1,3 +1,0 @@
-Task: Activate the Settings option
-Output Script:
-pyautogui.click(153.5,16.5)

@@ -1,4 +1,0 @@
-Task: Select the option to partake in a pre-set meeting.
-Output Script: 
-pyautogui.click(1129.5,746.5)
-

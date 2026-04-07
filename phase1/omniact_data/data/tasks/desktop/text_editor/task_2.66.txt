@@ -1,7 +1,0 @@
-Task: "Change the occurrence of the word "computer" in the document to "laptop"
-Output Script:
-pyautogui.click(1027.0,490.0)
-pyautogui.write("computer")
-pyautogui.click(1027.5,535.0)
-pyautogui.write("laptop")
-pyautogui.click(1044.5,664.0)

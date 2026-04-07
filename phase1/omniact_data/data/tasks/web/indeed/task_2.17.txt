@@ -1,3 +1,0 @@
-Task: Adjust the industry category for employment opportunities
-Output Script:
-pyautogui.click(325.0,433.0)

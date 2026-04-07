@@ -1,3 +1,0 @@
-Task: Switch off the screen after quarter of an hour.
-Output Script:
-pyautogui.click(1227.5,352.5)

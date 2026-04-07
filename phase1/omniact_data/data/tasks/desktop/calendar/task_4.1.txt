@@ -1,4 +1,0 @@
-Task: Select on the March calendar to zoom in.
-Output script:
-pyautogui.click(1776.0,459.5)
-pyautogui.click(1776.0,459.5)

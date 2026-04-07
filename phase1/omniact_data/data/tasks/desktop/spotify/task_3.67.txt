@@ -1,4 +1,0 @@
-Task: Navigate through the playlist by scrolling down 
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

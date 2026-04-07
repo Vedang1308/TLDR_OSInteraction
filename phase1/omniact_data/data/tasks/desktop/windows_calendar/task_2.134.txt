@@ -1,3 +1,0 @@
-Task: Transition to the following day on the calendar
-Output Script:
-Pyautogui.click(405.0,67.0)

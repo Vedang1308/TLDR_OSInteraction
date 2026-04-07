@@ -1,3 +1,0 @@
-Task: Boost Screen Brightness
-Output Script:
-pyautogui.click(1871.0,104.0)

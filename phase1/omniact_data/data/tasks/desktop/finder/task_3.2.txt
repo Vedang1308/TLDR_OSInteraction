@@ -1,4 +1,0 @@
-Task: Task a screen shot of the screen
-Output Script:
-pyautogui.hotkey("shift", "ctrl", "5")
-pyautogui.press("enter")

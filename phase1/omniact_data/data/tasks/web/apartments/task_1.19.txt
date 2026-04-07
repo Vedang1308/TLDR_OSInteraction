@@ -1,3 +1,0 @@
-Task: Proceed to the subsequent picture on the right side
-Output script:
-pyautogui.click(1185.0,879.5)

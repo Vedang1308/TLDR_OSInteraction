@@ -1,3 +1,0 @@
-Task: Export the "James Rachels" document
-Output script:
-pyautogui.click(962.5,400.5)

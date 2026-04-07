@@ -1,5 +1,0 @@
-Task: Find the word "misleading" in the digital book.
-Output Script:
-pyautogui.click(3090.0,101.0)
-pyautogui.write("misleading")
-pyautogui.press("enter")

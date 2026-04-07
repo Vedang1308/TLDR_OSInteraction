@@ -1,3 +1,0 @@
-Task: Lower the volumn
-Output script:
-pyautogui.click(1794.0,973.5)

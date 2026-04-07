@@ -1,3 +1,0 @@
-Task: Inspect the songs sung by Arijit Singh in the playlist named "Arijit"
-Output Script:
-pyautogui.click(704.5,445.0)

@@ -1,3 +1,0 @@
-Task: Conduct research on Diabetes disease
-Output Script:
-pyautogui.click(1048.0,869.0)

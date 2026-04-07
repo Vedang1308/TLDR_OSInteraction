@@ -1,3 +1,0 @@
-Task: "Investigate the various selections accessible after choosing open in the top navigation bar."
-Output Script:
-pyautogui.click(366.5,49.0)

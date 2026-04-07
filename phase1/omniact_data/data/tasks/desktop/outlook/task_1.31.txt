@@ -1,6 +1,0 @@
-Task: Navigate to the second item under Settings.
-Output Script:
-pyautogui.rightClick(29.5,1002.0)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

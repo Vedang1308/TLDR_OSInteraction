@@ -1,3 +1,0 @@
-Task: Retrieve 15th"s Chicago weather report
-Output Script:
-pyautogui.click(2119.0,807.0)

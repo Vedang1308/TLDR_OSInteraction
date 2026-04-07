@@ -1,3 +1,0 @@
-Task: Display the current weather of Milan.
-Output Script:
-pyautogui.click(317.0,899.0)

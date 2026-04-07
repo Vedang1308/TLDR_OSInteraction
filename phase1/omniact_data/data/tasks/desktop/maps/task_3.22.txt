@@ -1,5 +1,0 @@
-Task: Set the destination as the London Eye.
-Output script:
-pyautogui.click(2574.0,300.0)
-pyautogui.write("London Eye")
-pyautogui.press("Enter")

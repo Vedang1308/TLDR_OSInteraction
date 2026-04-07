@@ -1,3 +1,0 @@
-Task: Click on the "end meeting" button.
-Output Script:
-pyautogui.click(2792.0,1742.5)

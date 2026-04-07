@@ -1,5 +1,0 @@
-Task: Search for the phrase "Sales Tax" using keyboard shortcuts
-Output Script:
-pyautogui.hotKey("ctrl", "f")
-pyautogui.write("Sales Tax")
-pyautogui.press("enter")

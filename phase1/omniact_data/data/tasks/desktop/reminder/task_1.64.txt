@@ -1,5 +1,0 @@
-Task: Inquire about the event "Product launch"
-Output script:
-pyautogui.click(280.5,130.5)
-pyautogui.write("Product launch")
-pyautogui.press("Enter")

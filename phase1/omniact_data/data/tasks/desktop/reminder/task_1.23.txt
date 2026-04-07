@@ -1,3 +1,0 @@
-Task: Look at the items marked by a flag in the reminder.
-Output script:
-pyautogui.click(413.0,395.5)

@@ -1,5 +1,0 @@
-Task: "Switch p increment to decrement on the 14th line"
-Output Script:
-pyautogui.click(459.0,353.5)
-pyautogui.press("backspace")
-pyautogui.write("-")

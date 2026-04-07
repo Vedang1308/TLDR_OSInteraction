@@ -1,3 +1,0 @@
-Task: Begin the download process for the file named "James Rachels"
-Output script:
-pyautogui.click(962.5,400.5)

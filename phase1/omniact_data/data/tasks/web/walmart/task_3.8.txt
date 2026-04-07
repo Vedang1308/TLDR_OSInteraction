@@ -1,3 +1,0 @@
-Task: Navigate back to "Sports & Outdoors" category
-Output Script:
-pyautogui.click(81.0,158.0)

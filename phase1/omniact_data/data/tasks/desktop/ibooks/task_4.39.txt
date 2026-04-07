@@ -1,3 +1,0 @@
-Task: Activate "Secret Keeper" for reading
-Output Script:
-pyautogui.doubleClick(1881.5,1571.5)

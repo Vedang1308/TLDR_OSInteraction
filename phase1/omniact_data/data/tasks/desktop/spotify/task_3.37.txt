@@ -1,3 +1,0 @@
-Task: Navigate to my profile
-Output script:
-pyautogui.click(1763.5,975.0)

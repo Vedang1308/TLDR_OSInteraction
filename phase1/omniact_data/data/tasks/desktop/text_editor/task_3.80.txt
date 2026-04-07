@@ -1,3 +1,0 @@
-Task: "End the unnamed file"s tab using the tab bar"
-Output Script:
-pyautogui.click(1890.5,91.5)

@@ -1,3 +1,0 @@
-Task: Select the option to send a screenshot to Jack
-Output Script:
-pyautogui.click(510.0,874.5)

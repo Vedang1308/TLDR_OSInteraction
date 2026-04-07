@@ -1,5 +1,0 @@
-Task: play the song "1000 hours" later using more options button
-Output Script:
-pyautogui.click(2665.0,1620.0)
-pyautogui.write("play later")
-pyautogui.press("enter")

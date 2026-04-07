@@ -1,3 +1,0 @@
-Task: Close the menu tab
-Output script:
-pyautogui.click(74.5,70.0)

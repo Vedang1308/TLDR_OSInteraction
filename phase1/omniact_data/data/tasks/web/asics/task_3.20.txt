@@ -1,5 +1,0 @@
-Task: Navigate to the fourth picture in the row
-Output Script: 
-pyautogui.click(846.0,516.0)
-pyautogui.click(846.0,516.0)
-pyautogui.click(846.0,516.0)

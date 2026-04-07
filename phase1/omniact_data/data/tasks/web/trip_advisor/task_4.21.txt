@@ -1,3 +1,0 @@
-Task: Access your saved travel plan list
-Output Script:
-pyautogui.click(1067.5,30.0)

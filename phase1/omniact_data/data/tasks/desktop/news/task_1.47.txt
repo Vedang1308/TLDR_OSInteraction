@@ -1,3 +1,0 @@
-Task: Go to the "Entertainment" tab and click on it.
-Output script:
-pyautogui.click(222.0,970.5)

@@ -1,3 +1,0 @@
-Task: Select the "citypass newyork" option to see the different packages.
-Output script:
-pyautogui.click(1448.0,323.5)

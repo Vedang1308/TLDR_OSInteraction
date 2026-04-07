@@ -1,3 +1,0 @@
-Task: Display all products listed in the School Supplies category.
-Output Script:
-pyautogui.click(543.0,322.0)

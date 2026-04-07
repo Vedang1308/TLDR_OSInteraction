@@ -1,3 +1,0 @@
-Task: Look over the evaluations for the laundry machine
-Output Script:
-pyautogui.click(181.5,305.5)

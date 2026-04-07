@@ -1,3 +1,0 @@
-Task: Carry out a click action on "Rewards"
-Output Script:
-pyautogui.click(1408.0,141.0)

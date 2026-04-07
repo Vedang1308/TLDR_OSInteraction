@@ -1,3 +1,0 @@
-Task: Implement Grammarly"s clarity suggestion for "the purpose of"
-Output script:
-pyautogui.click(1101.5,256.0)

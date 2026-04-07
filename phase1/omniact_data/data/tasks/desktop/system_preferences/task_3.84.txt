@@ -1,3 +1,0 @@
-Task: Proceed to the next settings page.
-Output Script:
-pyautogui.click(929.5,195.5)

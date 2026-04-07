@@ -1,3 +1,0 @@
-Task: Click to view the fourth offer on the screen
-Output Script:
-pyautogui.click(756.0,770.0)

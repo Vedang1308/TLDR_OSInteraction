@@ -1,3 +1,0 @@
-Task: Access the page for domestic shipping costs calculation
-Output Script:
-pyautogui.click(448.5,245.0)

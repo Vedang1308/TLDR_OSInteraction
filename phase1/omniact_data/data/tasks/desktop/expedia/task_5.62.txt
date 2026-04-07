@@ -1,4 +1,0 @@
-Task: Choose the "very good" and "family friendly" choices on the system.
-Output script:
-pyautogui.click(1436.5,362.0)
-pyautogui.click(1439.5,702.5)

@@ -1,4 +1,0 @@
-Task: Set event end time to 10:00 PM
-Output Script:
-pyautogui.click(881.5,501.0)
-pyautogui.write("22:00")

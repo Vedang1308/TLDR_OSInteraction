@@ -1,3 +1,0 @@
-Task: Invoke the phone number dial function
-Output script:
-pyautogui.click(1154.0,776.0)

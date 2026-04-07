@@ -1,4 +1,0 @@
-Task: Display the image in full screen view
-Output Script:
-pyautogui.click(1768.0,113.0)
-pyautogui.hotkey("ctrl", "f")

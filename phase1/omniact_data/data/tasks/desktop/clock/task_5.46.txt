@@ -1,6 +1,0 @@
-Task: Input 10 hour and 30 minutes in time settings
-Output Script:
-pyautogui.click(1615.5,816.0)
-pyautogui.write("10")
-pyautogui.click(1743.0,815.5)
-pyautogui.write("30")

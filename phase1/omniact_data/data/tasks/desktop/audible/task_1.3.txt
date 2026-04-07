@@ -1,4 +1,0 @@
-Task: Scroll down to find next book
-Output Script:
-pyautogui.moveTo(995.0,572.5)
-pyautogui.scroll(15)

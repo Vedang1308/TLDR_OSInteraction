@@ -1,3 +1,0 @@
-Task: See the meteorological conditions on the 14th
-Output Script:
-pyautogui.click(2026.0,808.0)

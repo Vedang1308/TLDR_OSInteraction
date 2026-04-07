@@ -1,3 +1,0 @@
-Task: Navigate to the services section from the main menu
-Output Script:
-pyautogui.click(336.5,46.0)

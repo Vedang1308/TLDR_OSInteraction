@@ -1,4 +1,0 @@
-Task: Navigate to see the upcoming titles
-Output Script:
-pyautogui.moveTo(1881.5,1116.0)
-pyautogui.scroll(10)

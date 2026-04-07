@@ -1,3 +1,0 @@
-Task: Request an appointment from the Mayoclinic animation.
-Output Script:
-pyautogui.click(381.0,642.0)

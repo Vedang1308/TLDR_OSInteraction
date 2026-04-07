@@ -1,3 +1,0 @@
-Task: Launch 93.5 KDAY
-Output script:
-pyautogui.click(2209.5,1461.0)

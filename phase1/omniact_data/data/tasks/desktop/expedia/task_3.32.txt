@@ -1,3 +1,0 @@
-Task: Select the circle line tour for viewing New York harbour lights.
-Output script:
-pyautogui.click(1448.0,1296.5)

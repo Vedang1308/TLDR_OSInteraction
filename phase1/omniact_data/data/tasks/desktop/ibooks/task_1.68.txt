@@ -1,3 +1,0 @@
-Task: Navigate to and peruse "Outlive" from the NY Times Notifications
-Output Script:
-pyautogui.click(2919.0,452.5)

@@ -1,5 +1,0 @@
-Task: In the top left search bar, input "Aurora" and press enter. 
-Output script:
-pyautogui.click(329.5,149.5)
-pyautogui.write("Aurora")
-pyautogui.press("enter")

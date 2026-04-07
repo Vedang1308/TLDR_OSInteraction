@@ -1,3 +1,0 @@
-Task: Choose settings for the fourth recipe story at Tasting Table.
-Output script:
-pyautogui.click(2682.5,1651.0)

@@ -1,5 +1,0 @@
-Task: Initiate a new conversation with Chris.
-Output Script:
-pyautogui.click(582.5,49.0)
-pyautogui.write("Chris")
-pyautogui.press("enter")

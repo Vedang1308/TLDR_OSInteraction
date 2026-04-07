@@ -1,3 +1,0 @@
-Task: Enter into my account
-Output Script:
-pyautogui.click(1223.5,36.0)

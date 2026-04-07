@@ -1,3 +1,0 @@
-Task: View the weather in Milan
-Output Script:
-pyautogui.click(317.0,899.0)

@@ -1,4 +1,0 @@
-Task: Execute a 50-unit scroll downward to view more applications.
-Output script:
-pyautogui.click(1663.0,901.5)
-pyautogui.scroll(50)

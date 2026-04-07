@@ -1,3 +1,0 @@
-Task: Play 102.7 FM in Los Angeles
-Output script:
-pyautogui.click(788.5,1698.0)

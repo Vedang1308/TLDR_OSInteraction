@@ -1,3 +1,0 @@
-Task: Include the stock in the watchlist.
-Output script:
-pyautogui.click(2603.5,244.0)

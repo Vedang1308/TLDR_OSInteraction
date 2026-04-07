@@ -1,3 +1,0 @@
-Task: Explore the seller options
-Output Script:
-pyautogui.click(1087.0,834.0)

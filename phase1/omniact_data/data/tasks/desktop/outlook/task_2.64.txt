@@ -1,6 +1,0 @@
-Task: Select entire text in the mail body and apply both bold and italics styling.
-Output Script:
-pyautogui.click(1310.5,415.5)
-pyautogui.hotkey("ctrl", "a")
-pyautogui.click(770.0,124.5)
-pyautogui.click(821.0,124.0)

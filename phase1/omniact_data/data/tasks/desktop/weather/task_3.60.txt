@@ -1,3 +1,0 @@
-Task: Show the weather forecast for Chicago on the 16th
-Output Script:
-pyautogui.click(2210.0,808.0)

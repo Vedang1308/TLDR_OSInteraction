@@ -1,3 +1,0 @@
-Task: Select the "Wireless" section
-Output Script:
-pyautogui.click(244.0,67.0)

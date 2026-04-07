@@ -1,3 +1,0 @@
-Task: Access the options menu
-Output script:
-pyautogui.click(48.0,37.5)

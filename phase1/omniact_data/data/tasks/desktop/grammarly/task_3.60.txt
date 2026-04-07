@@ -1,3 +1,0 @@
-Task: Browse "Note Better Demonstrate" document
-Output script:
-pyautogui.click(736.0,294.0)

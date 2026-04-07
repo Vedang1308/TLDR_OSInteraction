@@ -1,3 +1,0 @@
-Task: Navigate to the sports shoes section
-Output Script: 
-pyautogui.click(190.0,217.5)

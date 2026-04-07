@@ -1,3 +1,0 @@
-Task: Schedule a meeting using the designated menu option.
-Output Script:
-pyautogui.click(1175.5,171.5)

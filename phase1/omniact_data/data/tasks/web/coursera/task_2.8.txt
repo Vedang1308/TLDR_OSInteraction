@@ -1,3 +1,0 @@
-Task: Check Careers page
-Output Script:
-pyautogui.click(829.5,597.5)

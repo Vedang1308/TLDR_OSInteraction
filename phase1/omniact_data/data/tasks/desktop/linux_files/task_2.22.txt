@@ -1,5 +1,0 @@
-Task: Using mouse selection and keyboard shortcuts, create a copy of the file named manual.txt in the same folder.
-Output Script:
-pyautogui.click(1069.0,571.5)
-pyautogui.hotkey("ctrl", "c")
-pyautogui.hotkey("ctrl", "v")

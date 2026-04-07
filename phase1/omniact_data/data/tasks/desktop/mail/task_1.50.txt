@@ -1,3 +1,0 @@
-Task: Select and move messages to the archive.
-Output script:
-pyautogui.click(1664.5,52.5)

@@ -1,4 +1,0 @@
-Task: Magnify the calendar for the month of May.
-Output script:
-pyautogui.click(391.0,975.5)
-pyautogui.click(391.0,975.5)

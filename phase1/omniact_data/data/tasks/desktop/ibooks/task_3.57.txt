@@ -1,4 +1,0 @@
-Task: Add the current site to bookmarks and view entire bookmarked sites list
-Output Script:
-pyautogui.click(3169.5,101.5)
-pyautogui.click(289.0,100.5)

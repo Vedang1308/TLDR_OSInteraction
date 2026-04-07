@@ -1,3 +1,0 @@
-Task: Initiate the Library
-Output Script:
-pyautogui.click(43.5,906.0)

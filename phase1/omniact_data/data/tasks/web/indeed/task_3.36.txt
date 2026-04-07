@@ -1,3 +1,0 @@
-Task: Validate the proposed recommendation by affirming
-Output Script:
-pyautogui.click(1070.0,771.0)

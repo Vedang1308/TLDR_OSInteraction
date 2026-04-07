@@ -1,4 +1,0 @@
-Task: Initiate the creation of a new directory with specific keyboard shortcuts
-Output Script:
-pyautogui.click(1833.0,113.5)
-pyautogui.hotkey("ctrl", "shift", "n")

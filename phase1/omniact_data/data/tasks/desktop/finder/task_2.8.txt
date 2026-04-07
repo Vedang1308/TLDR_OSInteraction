@@ -1,3 +1,0 @@
-Task: Sort the files by size in ascending order
-Output Script:
-pyautogui.click(2998.5,132.0)

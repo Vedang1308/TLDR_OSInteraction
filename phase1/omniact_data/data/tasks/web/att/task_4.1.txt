@@ -1,3 +1,0 @@
-Task: View store locations in a new tab
-Output Script:
-pyautogui.doubleClick(1222.0,15.0)

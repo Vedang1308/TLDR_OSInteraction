@@ -1,6 +1,0 @@
-Task: Initiate a search operation covering 50 miles from Pittsburgh
-Output script:
-pyautogui.click(715.5,388.0)
-pyautogui.press("up")
-pyautogui.press("enter")
-pyautogui.click(927.5,416.0)

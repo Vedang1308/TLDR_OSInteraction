@@ -1,3 +1,0 @@
-Task: Identify the Microsoft accounts associated with this calendar.
-Output Script:
-Pyautogui.click(167.5,615.0)

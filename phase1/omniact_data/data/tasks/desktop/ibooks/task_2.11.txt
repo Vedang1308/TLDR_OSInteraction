@@ -1,3 +1,0 @@
-Task: Shut the text named "Great expectations"
-Output Script:
-pyautogui.click(1060.0,143.5)

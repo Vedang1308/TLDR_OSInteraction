@@ -1,3 +1,0 @@
-Task: Activate Dublab streaming
-Output script:
-pyautogui.click(2210.5,1697.0)

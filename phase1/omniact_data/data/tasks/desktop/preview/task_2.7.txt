@@ -1,3 +1,0 @@
-Task: Select the rectangular selection tool.
-Output script:
-pyautogui.click(119.0,182.5)

@@ -1,4 +1,0 @@
-Task: Suspend the stopwatch function, then initiate it again.
-Output Script:
-pyautogui.click(1847.0,1969.0)
-pyautogui.click(1847.0,1969.0)

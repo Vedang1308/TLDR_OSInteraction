@@ -1,5 +1,0 @@
-Task: Share the current page on social media "Facebook"
-Output Script:
-pyautogui.click(2931.0,99.0)
-pyautogui.write("Facebook")
-pyautogui.press("enter")

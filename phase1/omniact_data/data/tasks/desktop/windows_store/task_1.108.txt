@@ -1,3 +1,0 @@
-Task: Access AI Hub by clicking on it
-Output Script:
-pyautogui.click(47.0,412.0)

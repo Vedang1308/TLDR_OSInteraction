@@ -1,3 +1,0 @@
-Task: Proceed to the Shop Plan Page
-Output Script:
-pyautogui.click(458.5,89.0)

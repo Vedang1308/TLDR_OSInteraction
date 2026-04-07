@@ -1,3 +1,0 @@
-Task: Determine the current location of the sun in Milan
-Output Script:
-pyautogui.click(2161.5,1286.0)

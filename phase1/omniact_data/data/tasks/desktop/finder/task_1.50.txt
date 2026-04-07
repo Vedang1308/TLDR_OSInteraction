@@ -1,3 +1,0 @@
-Task: Discontinue working on the current tab
-Output Script:
-pyautogui.click(53.5,102.0)

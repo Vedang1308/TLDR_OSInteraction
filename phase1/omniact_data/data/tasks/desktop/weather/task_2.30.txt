@@ -1,4 +1,0 @@
-Task: Erase the San Francisco weather data from left side panel through a swipe action.
-Output Script:
-pyautogui.moveTo(316, 531)
-pyautogui.hscroll("10")

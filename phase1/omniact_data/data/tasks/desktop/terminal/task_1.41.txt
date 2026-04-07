@@ -1,3 +1,0 @@
-Task: End the current tab with a keystroke command
-Output Script:
-pyautogui.hotkey("ctrl", "w")

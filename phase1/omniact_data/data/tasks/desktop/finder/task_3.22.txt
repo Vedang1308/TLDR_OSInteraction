@@ -1,4 +1,0 @@
-Task: Drag the specific folder and drop it into the recycle bin.
-Output Script:
-pyautogui.moveTo(3217.5,161.0)
-pyautogui.dragTo(3225.5,2025.5, "left")

@@ -1,5 +1,0 @@
-Task: Find "Google" application
-Output Script:
-pyautogui.click(959, 67)
-pyautogui.write("Google")
-pyautogui.press("Enter")

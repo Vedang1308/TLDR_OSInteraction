@@ -1,3 +1,0 @@
-Task: Undo the job location defined as "United States"
-Output Script:
-pyautogui.click(910.0,246.0)

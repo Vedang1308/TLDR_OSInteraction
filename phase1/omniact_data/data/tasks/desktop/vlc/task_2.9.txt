@@ -1,5 +1,0 @@
-Task: Search for a specific channel in the search bar
-Output Script:
-pyautogui.click(996.0,95.5)
-pyautogui.write("channel name")
-pyautogui.press("enter")

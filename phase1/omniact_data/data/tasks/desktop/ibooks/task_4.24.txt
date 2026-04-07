@@ -1,4 +1,0 @@
-Task: Scroll down slightly to view the "Greenwich Park" book
-Output Script:
-pyautogui.moveTo(1880.5,1103.0)
-pyautogui.scroll(5)

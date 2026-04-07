@@ -1,3 +1,0 @@
-Task: Click on the information pop-up for price details
-Output Script:
-pyautogui.click(539.0,474.0)

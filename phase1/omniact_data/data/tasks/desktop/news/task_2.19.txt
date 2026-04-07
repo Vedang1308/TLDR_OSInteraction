@@ -1,3 +1,0 @@
-Task: Click on the second news article in the "More from Tasting Table" section.
-Output script:
-pyautogui.click(1390.5,1360.5)

@@ -1,3 +1,0 @@
-Task: Redirect to the government page by clicking on a button from the top panel
-Output Script:
-pyautogui.click(565.5,46.0)

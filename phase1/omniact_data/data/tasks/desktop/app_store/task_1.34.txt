@@ -1,3 +1,0 @@
-Task: Initiate the third app listed in the first column.
-Output script:
-pyautogui.click(807.5,1741.5)

@@ -1,3 +1,0 @@
-Task: Shrink the active notepad window
-Output Script:
-pyautogui.click(1203.0,130.0)

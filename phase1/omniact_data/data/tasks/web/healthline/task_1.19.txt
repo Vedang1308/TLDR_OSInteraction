@@ -1,3 +1,0 @@
-Task: Explore the subsections present in the health conditions area.
-Output Script:
-pyautogui.click(466.0,35.0)

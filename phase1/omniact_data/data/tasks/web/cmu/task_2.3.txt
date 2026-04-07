@@ -1,3 +1,0 @@
-Task: Find contact information
-Output Script:
-pyautogui.click(1261.0,236.5)

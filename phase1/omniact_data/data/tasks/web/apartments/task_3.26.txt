@@ -1,3 +1,0 @@
-Task: unveil menu options
-Output script:
-pyautogui.click(54.5,23.0)

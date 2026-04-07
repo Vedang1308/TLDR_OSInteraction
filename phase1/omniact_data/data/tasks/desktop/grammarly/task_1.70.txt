@@ -1,3 +1,0 @@
-Task: Access Grammarly professional help
-Output script:
-pyautogui.click(1783.0,921.5)

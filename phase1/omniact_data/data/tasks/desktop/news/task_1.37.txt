@@ -1,3 +1,0 @@
-Task: Access the sidebar menu.
-Output script:
-pyautogui.click(575.0,51.0)

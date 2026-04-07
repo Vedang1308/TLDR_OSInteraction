@@ -1,4 +1,0 @@
-Task: Carry out the installation procedure for the "Things 3" application.
-Output script:
-pyautogui.click(1961.0,1740.5)
-pyautogui.click(1961.0,1740.5)

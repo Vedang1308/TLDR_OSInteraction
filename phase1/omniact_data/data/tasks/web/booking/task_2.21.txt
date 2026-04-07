@@ -1,3 +1,0 @@
-Task: Modify the count of people residing in the room
-Output Script:
-pyautogui.click(1003.5,500.0)

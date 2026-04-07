@@ -1,3 +1,0 @@
-Task: "Explore the different options available after open in the top bar."
-Output Script:
-pyautogui.click(366.5,49.0)

@@ -1,3 +1,0 @@
-Task: Launch the work category apps on Mac.
-Output script:
-pyautogui.click(220.5,445.5)

@@ -1,3 +1,0 @@
-Task: Discover the impact of folic acid on human body
-Output Script:
-pyautogui.click(301.0,807.5)

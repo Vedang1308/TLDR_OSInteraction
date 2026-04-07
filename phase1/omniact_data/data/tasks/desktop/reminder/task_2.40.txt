@@ -1,5 +1,0 @@
-Task: Integrate the annotation "bring textbook" into the event.
-Output script:
-pyautogui.click(1735.5,1030.0)
-pyautogui.write("bring textbook")
-pyautogui.press("Enter")

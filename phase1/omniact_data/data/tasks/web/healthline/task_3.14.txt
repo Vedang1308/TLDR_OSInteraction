@@ -1,3 +1,0 @@
-Task: Scout for blogs or articles surrounding the topic of sleep
-Output Script:
-pyautogui.click(463.5,99.0)

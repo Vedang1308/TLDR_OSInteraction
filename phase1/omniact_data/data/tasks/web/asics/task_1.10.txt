@@ -1,5 +1,0 @@
-Task: See the price range of the kid"s shoe section and move the maximum price to 300 by horizontally scrolling the point to the 300 in the price range bar.
-Output Script:
-pyautogui.click(245.0,620.0)
-pyautogui.press("tab")
-pyautogui.hscroll(-10)

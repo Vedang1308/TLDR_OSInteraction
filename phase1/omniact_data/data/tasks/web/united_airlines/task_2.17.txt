@@ -1,3 +1,0 @@
-Task: Choose English as your language (US version)
-Output script:
-pyautogui.click(977.5,30.5)

@@ -1,3 +1,0 @@
-Task: Make the directory reflect the most recent changes made.
-Output Script:
-pyautogui.click(1524.5,193.5)

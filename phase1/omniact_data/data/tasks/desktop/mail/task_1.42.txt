@@ -1,3 +1,0 @@
-Task: Alter the flag"s color.
-Output script:
-pyautogui.click(2289.5,53.5)

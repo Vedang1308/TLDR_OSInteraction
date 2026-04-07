@@ -1,5 +1,0 @@
-Task: Find a course on Machine Learning
-Output Script:
-pyautogui.click(458.0,72.0)
-pyautogui.write("Machine Learning Course")
-pyautogui.press("enter")

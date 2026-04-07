@@ -1,3 +1,0 @@
-Task: enlarge the image to see the clothes in detail
-Output Script: 
-pyautogui.click(833.0,729.0)

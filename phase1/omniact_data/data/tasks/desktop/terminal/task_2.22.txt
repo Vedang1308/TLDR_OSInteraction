@@ -1,5 +1,0 @@
-Task: Use "cd" command to transition into the directory prior to the current one 
-Output Script:
-pyautogui.click(1995.0,183.5)
-pyautogui.write("cd ../")
-pyautogui.press("enter")

@@ -1,4 +1,0 @@
-Task: Traverse downwards in the active display.
-Output Script:
-pyautogui.click(1479.5,856.0)
-pyautogui.scroll(-30)

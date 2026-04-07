@@ -1,3 +1,0 @@
-Task: Fetch the list displaying friends
-Output script:
-pyautogui.click(1809.5,90.0)

@@ -1,4 +1,0 @@
-Task: For minutes, set value as 41
-Output Script:
-pyautogui.click(1669.0,986.0)
-pyautogui.write("41")

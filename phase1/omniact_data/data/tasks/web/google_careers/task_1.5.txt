@@ -1,3 +1,0 @@
-Task: See Sort by options
-Output Script:
-pyautogui.click(331.0,636.0)

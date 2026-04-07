@@ -1,3 +1,0 @@
-Task: Launch Governor Kathy Hochul"s website
-Output Script:
-pyautogui.click(159.0,131.0)

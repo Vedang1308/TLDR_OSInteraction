@@ -1,3 +1,0 @@
-Task: Direct the mouse to the Account symbol
-Output Script:
-pyautogui.moveTo(1661.0,30.0)

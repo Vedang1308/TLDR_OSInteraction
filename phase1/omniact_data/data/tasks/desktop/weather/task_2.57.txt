@@ -1,3 +1,0 @@
-Task: Inspect the clarity in Vancouver
-Output Script:
-pyautogui.click(2478.5,1607.0)

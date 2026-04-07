@@ -1,3 +1,0 @@
-Task: Hover over Account Icon
-Output Script:
-pyautogui.moveTo(1661.0,30.0)

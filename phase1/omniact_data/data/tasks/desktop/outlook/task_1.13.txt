@@ -1,3 +1,0 @@
-Task: Collapse side panel
-Output Script:
-pyautogui.click(31.5,70.5)

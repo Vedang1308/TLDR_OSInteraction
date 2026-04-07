@@ -1,3 +1,0 @@
-Task: Decrease the audio amplitude
-Output script:
-pyautogui.click(1791.5,974.0)

@@ -1,3 +1,0 @@
-Task: To reach your account configurations, tap on the account symbol.
-Output Script:
-pyautogui.click(2823.0,47.0)

@@ -1,5 +1,0 @@
-Task: Construct a new directory with the assistance of the keyboard and mouse.
-Output Script:
-pyautogui.rightClick(1091.5,861.5)
-pyautogui.press("down")
-pyautogui.press("enter")

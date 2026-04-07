@@ -1,3 +1,0 @@
-Task: Navigate to the Today"s featured deals and select the first listing.
-Output Script:
-pyautogui.click(203.5,714.5)

@@ -1,3 +1,0 @@
-Task: "Procure packing bins for relocation"
-Output Script: 
-pyautogui.click(495.0,82.0)

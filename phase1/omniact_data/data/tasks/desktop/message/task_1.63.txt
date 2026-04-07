@@ -1,5 +1,0 @@
-Task: Write a message to Thomas, explaining that you"ve already completed the task before and found it straightforward.
-Output Script:
-pyautogui.click(320.0,506.5)
-pyautogui.write("I"ve done it before, it"s easy")
-pyautogui.press("enter")

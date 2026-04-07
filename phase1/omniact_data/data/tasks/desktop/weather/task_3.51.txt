@@ -1,3 +1,0 @@
-Task: Access map visualization
-Output Script:
-pyautogui.click(2639.0,915.0)

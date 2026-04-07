@@ -1,3 +1,0 @@
-Task: Navigate to the calendar to determine your flight"s departure date.
-Output script:
-pyautogui.click(1438.0,402.0)

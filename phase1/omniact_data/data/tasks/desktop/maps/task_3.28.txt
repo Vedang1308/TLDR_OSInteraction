@@ -1,3 +1,0 @@
-Task: Set your travel preference to public transit.
-Output script:
-pyautogui.click(2694.0,163.5)

@@ -1,3 +1,0 @@
-Task: Highlight the end date of September
-Output Script:
-Pyautogui.click(1577.5,220.5)

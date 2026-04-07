@@ -1,3 +1,0 @@
-Task: Redirect to the starting page
-Output script:
-pyautogui.click(187.5,134.5)

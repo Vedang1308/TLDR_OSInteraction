@@ -1,3 +1,0 @@
-Task: Change the current calendar viewing mode to day.
-Output script:
-pyautogui.click(1243.5,35.5)

@@ -1,4 +1,0 @@
-Task: Select the latest email from Expedia.com and collapse the sidebar.
-Output Script:
-pyautogui.click(301.5,579.5)
-pyautogui.click(31.5,70.5)

@@ -1,3 +1,0 @@
-Task: Begin the video playback using mouse
-Output Script:
-pyautogui.click(150.0,1051.0)

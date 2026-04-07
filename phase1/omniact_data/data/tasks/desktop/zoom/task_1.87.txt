@@ -1,3 +1,0 @@
-Task: Navigate back to the main menu by clicking on the "home" button.
-Output Script:
-pyautogui.click(1142.0,51.0)

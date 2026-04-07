@@ -1,3 +1,0 @@
-Task: Navigate to the "Business" category.
-Output script:
-pyautogui.click(221.0,912.5)

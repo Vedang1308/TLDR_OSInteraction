@@ -1,3 +1,0 @@
-Task: Display local attractions or events
-Output Script:
-pyautogui.click(216.5,242.0)

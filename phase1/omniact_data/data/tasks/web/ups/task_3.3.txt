@@ -1,5 +1,0 @@
-Task: Change the language from English to Spanish
-Output Script:
-pyautogui.click(1360.0,60.0)
-pyautogui.press("up")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Go to Google Home
-Output Script:
-pyautogui.click(101.0,34.0)

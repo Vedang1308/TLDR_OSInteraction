@@ -1,3 +1,0 @@
-Task: Access the list of saved news stories.
-Output script:
-pyautogui.click(218.0,464.5)

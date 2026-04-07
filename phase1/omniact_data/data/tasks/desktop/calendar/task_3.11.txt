@@ -1,3 +1,0 @@
-Task: View the calendar in daily format.
-Output script:
-pyautogui.click(1243.5,35.5)

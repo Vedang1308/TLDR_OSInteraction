@@ -1,3 +1,0 @@
-Task: Press on the "+" button to install a new alarm
-Output Script:
-pyautogui.click(3306.5,49.5)

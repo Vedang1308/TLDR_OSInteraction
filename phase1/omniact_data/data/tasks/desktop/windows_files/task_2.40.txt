@@ -1,4 +1,0 @@
-Task: Copy all the contents from the "template.txt" file by selecting all.
-Output Script:
-pyautogui.doubleClick(811.5,340.5)
-pyautogui.hotkey("ctrl","a")

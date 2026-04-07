@@ -1,5 +1,0 @@
-Task: Post the current webpage on your Twitter account
-Output Script:
-pyautogui.click(2931.0,99.0)
-pyautogui.write("Twitter")
-pyautogui.press("enter")

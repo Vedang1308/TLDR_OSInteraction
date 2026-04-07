@@ -1,4 +1,0 @@
-Task: Input "Progressive Web App" into the search bar and initiate the search by pressing the enter key.
-pyautogui.click(607.5,36.0)
-pyautogui.write("Progressive Web App")
-pyautogui.press("enter")

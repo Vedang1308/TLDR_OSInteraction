@@ -1,3 +1,0 @@
-Task: Navigate to Samsung Galaxy Phone
-Output Script:
-pyautogui.click(881.0,473.0)

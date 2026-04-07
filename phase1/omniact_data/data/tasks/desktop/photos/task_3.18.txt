@@ -1,3 +1,0 @@
-Task: Press the heart symbol located on the bottom left corner of the initial image to show appreciation.
-Output Script:
-pyautogui.click(484.0,1020.0)

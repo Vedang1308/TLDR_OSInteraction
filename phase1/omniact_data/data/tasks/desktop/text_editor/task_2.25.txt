@@ -1,4 +1,0 @@
-Task: "Exit out of the search and replace function and minimize your text editor"
-Output Script:
-pyautogui.click(1205.0,436.0)
-pyautogui.click(36.0,537.0)

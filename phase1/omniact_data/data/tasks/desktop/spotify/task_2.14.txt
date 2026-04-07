@@ -1,3 +1,0 @@
-Task: Show song credits
-Output script:
-pyautogui.click(1740.0,476.5)

@@ -1,3 +1,0 @@
-Task: Check the note regarding Goodfellow
-Output script:
-pyautogui.click(961.5,873.5)

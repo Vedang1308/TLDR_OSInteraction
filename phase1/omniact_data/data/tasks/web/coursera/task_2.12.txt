@@ -1,3 +1,0 @@
-Task: Retrieve details related to 2024 Winter Session Applications
-Output Script:
-pyautogui.click(1192.0,403.0)

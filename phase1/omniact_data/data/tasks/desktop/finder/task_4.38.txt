@@ -1,3 +1,0 @@
-Task: Activate screen mirroring feature
-Output Script:
-pyautogui.click(3264.0,286.5)

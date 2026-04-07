@@ -1,3 +1,0 @@
-Task: "Rent a self storage unit"
-Output Script: 
-pyautogui.click(638.0,82.0)

@@ -1,3 +1,0 @@
-Task: like the first picture using the heart button on bottom left
-Output Script:
-pyautogui.click(484.0,1020.0)

@@ -1,5 +1,0 @@
-Task: Type "john@gmail.com" as the recipient of the email.
-Output script:
-pyautogui.click(2206.0,194.0)
-pyautogui.write("john@gmail.com")
-pyautogui.press("enter")

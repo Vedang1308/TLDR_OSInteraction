@@ -1,3 +1,0 @@
-Task: View all Photos
-Output Script:
-pyautogui.click(1199.5,695.0)

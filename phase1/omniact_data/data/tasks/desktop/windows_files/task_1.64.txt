@@ -1,6 +1,0 @@
-Task: Update the file name from "budget_excel_file" to "budget_2021_excel_file".
-Output Script:
-pyautogui.click(700.0,441.0)
-pyautogui.hotkey("ctrl", "r")
-pyautogui.write("budget_2021_excel_file")
-pyautogui.press("enter")

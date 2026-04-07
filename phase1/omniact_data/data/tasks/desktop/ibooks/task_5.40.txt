@@ -1,3 +1,0 @@
-Task: Select "More Options" for the "Pictures from Italy" book
-Output Script:
-pyautogui.click(1809.0,968.5)

@@ -1,3 +1,0 @@
-Task: Unhide files using keyboard combination
-Output Script:
-pyautogui.hotkey("ctrl", "h")

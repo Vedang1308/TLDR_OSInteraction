@@ -1,3 +1,0 @@
-Task: Navigate to Instacart Home page
-Output Script:
-pyautogui.click(166.0,40.0)

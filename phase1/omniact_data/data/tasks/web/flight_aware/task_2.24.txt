@@ -1,3 +1,0 @@
-Task: Register for an account on FlightAware
-Output Script:
-pyautogui.click(1324.0,62.0)

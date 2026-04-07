@@ -1,5 +1,0 @@
-Task: Modify the setting for viewing salary information.
-Output Script:
-pyautogui.click(503.0,575.0)
-pyautogui.press("down")
-pyautogui.press("enter")

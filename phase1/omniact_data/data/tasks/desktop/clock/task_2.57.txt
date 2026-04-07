@@ -1,4 +1,0 @@
-Task: Reset the seconds to zero
-Output Script:
-pyautogui.click(1960.0,980.5)
-pyautogui.write("00")

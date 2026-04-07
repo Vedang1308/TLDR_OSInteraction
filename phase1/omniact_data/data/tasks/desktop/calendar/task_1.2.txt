@@ -1,3 +1,0 @@
-Task: Check the weekly calendar tab
-Output script:
-pyautogui.click(1375.5,37.0)

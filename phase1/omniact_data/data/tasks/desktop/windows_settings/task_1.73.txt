@@ -1,3 +1,0 @@
-Task: Navigate to the "Apps" settings
-Output Script:
-pyautogui.click(285.5,552.5)

@@ -1,4 +1,0 @@
-Task: Include a reminder to review the final section.
-Output script:
-pyautogui.click(768.5,185.0)
-pyautogui.write("check the conclusion")

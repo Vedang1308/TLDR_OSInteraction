@@ -1,3 +1,0 @@
-Task: Seek assistance from customer service
-Output Script:
-pyautogui.click(1073.0,36.0)

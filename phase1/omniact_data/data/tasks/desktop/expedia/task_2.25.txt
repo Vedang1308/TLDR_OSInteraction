@@ -1,3 +1,0 @@
-Task: Click on the "travellers" button to modify number of passengers. 
-Output script:
-pyautogui.click(1449.0,499.5)

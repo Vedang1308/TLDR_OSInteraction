@@ -1,3 +1,0 @@
-Task: Input a new primary residence.
-Output script:
-pyautogui.click(290.0,353.0)

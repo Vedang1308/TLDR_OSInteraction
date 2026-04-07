@@ -1,3 +1,0 @@
-Task: Highlight the document titled manual.txt using your cursor
-Output Script:
-pyautogui.click(1893.0,571.0)

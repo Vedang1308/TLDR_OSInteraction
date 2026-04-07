@@ -1,3 +1,0 @@
-Task: Determine the appropriate clothing size to purchase
-Output Script: 
-pyautogui.click(1273.5,437.0)

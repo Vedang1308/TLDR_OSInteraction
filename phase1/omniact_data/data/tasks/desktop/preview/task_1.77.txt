@@ -1,5 +1,0 @@
-Task: Retrieve the details of the chosen file.
-Output script:
-pyautogui.click(276.0,24.0)
-pyautogui.write("properties")
-pyautogui.press("Enter")

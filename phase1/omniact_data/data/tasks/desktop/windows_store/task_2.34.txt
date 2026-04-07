@@ -1,3 +1,0 @@
-Task: Explore recent proposals on sliding window
-Output Script:
-pyautogui.click(983.0,704.5)

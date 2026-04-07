@@ -1,3 +1,0 @@
-Task: Complete the transaction for "Last Kingdom" book
-Output Script:
-pyautogui.click(3224.5,407.0)

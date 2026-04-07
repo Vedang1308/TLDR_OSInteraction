@@ -1,3 +1,0 @@
-Task: Play the song irresponsible
-Output Script:
-pyautogui.doubleClick(2036.5,1081.5)

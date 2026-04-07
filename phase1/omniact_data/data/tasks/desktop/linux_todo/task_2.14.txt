@@ -1,3 +1,0 @@
-Task: Convert view mode to list 
-Output Script:
-pyautogui.click(1642.5,50.0)

@@ -1,3 +1,0 @@
-Task: Verify all the sites 
-Output Script:
-pyautogui.click(262.5,31.5)

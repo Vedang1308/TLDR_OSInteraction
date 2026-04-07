@@ -1,3 +1,0 @@
-Task: Switch off fullscreen display.
-Output script:
-pyautogui.click(132.0,100.0)

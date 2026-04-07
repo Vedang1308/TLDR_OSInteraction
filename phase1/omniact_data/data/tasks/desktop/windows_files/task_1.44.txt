@@ -1,4 +1,0 @@
-Task: Categorize the files starting from the smallest to the biggest in terms of size.
-Output Script:
-pyautogui.click(1033.0,243.5)
-pyautogui.click(1033.0,243.5)

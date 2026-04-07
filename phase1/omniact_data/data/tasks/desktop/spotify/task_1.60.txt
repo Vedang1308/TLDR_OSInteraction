@@ -1,3 +1,0 @@
-Task: Navigate to friends tab
-Output script:
-pyautogui.click(1809.5,90.0)

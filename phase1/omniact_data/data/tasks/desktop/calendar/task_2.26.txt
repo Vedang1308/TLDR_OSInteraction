@@ -1,3 +1,0 @@
-Task: Choose the addition sign to instantly create a function.
-Output script:
-pyautogui.click(191.0,35.5)

@@ -1,3 +1,0 @@
-Task: For additional details on SBUX stock, click on the Starbucks Corporation link.
-Output script:
-pyautogui.click(328.5,1506.0)

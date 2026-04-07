@@ -1,3 +1,0 @@
-Task: Close the sidebar
-Output Script:
-pyautogui.click(31.5,70.5)

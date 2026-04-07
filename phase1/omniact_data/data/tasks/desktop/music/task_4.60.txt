@@ -1,3 +1,0 @@
-Task: Click on the additional features for the music "You"
-Output Script:
-pyautogui.click(2663.0,759.0)

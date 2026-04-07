@@ -1,3 +1,0 @@
-Task: Navigate to Battery Preferences
-Output Script:
-pyautogui.click(1751.5,266.0)

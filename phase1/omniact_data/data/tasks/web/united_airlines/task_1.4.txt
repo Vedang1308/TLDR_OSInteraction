@@ -1,3 +1,0 @@
-Task: Redirect to United Club Page
-Output script:
-pyautogui.click(838.0,886.0)

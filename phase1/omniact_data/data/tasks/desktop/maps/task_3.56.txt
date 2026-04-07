@@ -1,3 +1,0 @@
-Task: Action required is to click on the "terms & conditions" link to access the content.
-Output script:
-pyautogui.click(158.0,1760.0)

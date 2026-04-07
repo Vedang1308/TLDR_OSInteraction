@@ -1,3 +1,0 @@
-Task: Open the account page
-Output Script:
-pyautogui.click(1295.0,44.0)

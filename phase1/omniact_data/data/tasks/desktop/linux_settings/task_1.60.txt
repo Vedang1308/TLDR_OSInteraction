@@ -1,3 +1,0 @@
-Task: Check audio configurations
-Output Script:
-pyautogui.click(193.5,527.0)

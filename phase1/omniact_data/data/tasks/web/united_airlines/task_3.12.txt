@@ -1,3 +1,0 @@
-Task: Navigate to my journey details
-Output script:
-pyautogui.click(816.0,75.0)

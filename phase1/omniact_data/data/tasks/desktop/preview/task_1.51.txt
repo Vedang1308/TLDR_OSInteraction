@@ -1,5 +1,0 @@
-Task: Advance to the next webpage.
-Output script:
-pyautogui.click(541.0,27.0)
-pyautogui.write("next page")
-pyautogui.press("Enter")

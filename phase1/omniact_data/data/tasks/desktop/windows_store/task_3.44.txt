@@ -1,3 +1,0 @@
-Task: Navigate to the option menu on Microsoft Photos
-Output Script:
-pyautogui.moveTo(1838.5,407.0)

@@ -1,3 +1,0 @@
-Task: Browse through all available deal categories.
-Output Script:
-pyautogui.click(180.5,67.0)

@@ -1,3 +1,0 @@
-Task: View full list of international radio stations
-Output script:
-pyautogui.click(717.5,1905.5)

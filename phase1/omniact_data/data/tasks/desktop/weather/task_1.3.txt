@@ -1,3 +1,0 @@
-Task: Hide list of temperatures for other cities
-Output Script:
-pyautogui.click(701.0,49.0)

@@ -1,5 +1,0 @@
-Task: Adjust laundry schedule to yesterday"s date.
-Output Script:
-pyautogui.click(1259.0,254.0)
-pyautogui.press("left")
-pyautogui.press("enter")

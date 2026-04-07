@@ -1,2 +1,0 @@
-Task: Redirect your webpage to Udemy home site
-pyautogui.click(69.0,36.0)

@@ -1,5 +1,0 @@
-Task: Open the second image located in the current folder.
-Output Script:
-pyautogui.click(1769.0,137.0)
-pyautogui.press("down")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Toggle off the 4pm task
-Output Script:
-pyautogui.click(949.5,423.0)

@@ -1,3 +1,0 @@
-Task: Access the ChatGPT plugin.
-Output script:
-pyautogui.click(1443.0,563.0)

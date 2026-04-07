@@ -1,3 +1,0 @@
-Task: Launch the features of whiteboard.
-Output Script:
-pyautogui.click(2439.5,1748.5)

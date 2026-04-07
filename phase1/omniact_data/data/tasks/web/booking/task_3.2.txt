@@ -1,3 +1,0 @@
-Task: View all Reviews
-Output Script:
-pyautogui.click(546.5,833.0)

@@ -1,3 +1,0 @@
-Task: "Examine the different alternatives available post selecting open from the top toolbar."
-Output Script:
-pyautogui.click(366.5,49.0)

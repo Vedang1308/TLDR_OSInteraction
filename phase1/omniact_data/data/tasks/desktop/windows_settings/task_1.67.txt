@@ -1,3 +1,0 @@
-Task: Access the "Accounts" setting options
-Output Script:
-pyautogui.click(620.0,550.5)

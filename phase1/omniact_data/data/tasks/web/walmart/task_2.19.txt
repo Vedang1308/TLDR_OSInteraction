@@ -1,3 +1,0 @@
-Task: Click on the cart button in the menu to access your shopping cart
-Output Script:
-pyautogui.click(1391.0,44.0)

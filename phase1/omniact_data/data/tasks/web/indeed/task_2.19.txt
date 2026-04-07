@@ -1,3 +1,0 @@
-Task: Update the industry preference for vacancies
-Output Script:
-pyautogui.click(325.0,433.0)

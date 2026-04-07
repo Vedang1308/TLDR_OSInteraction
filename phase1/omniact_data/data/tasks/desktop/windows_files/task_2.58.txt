@@ -1,3 +1,0 @@
-Task: Collapse all open applications
-Output Script:
-pyautogui.hotkey("win", "d")

@@ -1,4 +1,0 @@
-Task: Enter "Pittsburgh" into the location field.
-Output Script:
-Pyautogui.click(655.0,363.5)
-Pyautogui.write("Pittsburgh ")

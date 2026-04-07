@@ -1,3 +1,0 @@
-Task: "Can you guide me through the process of attaching a trailer?"
-Output Script:
-pyautogui.click(1161.5,82.0)

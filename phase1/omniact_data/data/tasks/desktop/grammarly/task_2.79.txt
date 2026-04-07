@@ -1,3 +1,0 @@
-Task: Decrease the view size of the current document
-Output script:
-pyautogui.hotkey("ctrl", "-")

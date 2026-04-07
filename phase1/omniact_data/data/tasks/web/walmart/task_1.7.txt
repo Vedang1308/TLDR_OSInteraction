@@ -1,3 +1,0 @@
-Task: Click on the Walmart logo to go to the home page
-Output Script:
-pyautogui.click(97.0,44.0)

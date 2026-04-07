@@ -1,3 +1,0 @@
-Task: Evaluate the air pollution level in Milan
-Output Script:
-pyautogui.click(2001.0,965.0)

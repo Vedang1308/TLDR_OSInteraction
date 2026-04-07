@@ -1,5 +1,0 @@
-Task: Use keyboard shortcuts to search for regularly used programs
-Output Script:
-pyautogui.hotkey("winleft", "a")
-pyautogui.write("frequent apps")
-pyautogui.press("Enter")

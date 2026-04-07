@@ -1,3 +1,0 @@
-Task: Proceed to my Instacart account logging in page
-Output Script:
-pyautogui.click(1248.0,39.0)

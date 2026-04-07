@@ -1,5 +1,0 @@
-Task: Search for video whose filename contains keyword "beach"
-Output Script:
-pyautogui.click(996.0,95.5)
-pyautogui.write("beach")
-pyautogui.press("enter")

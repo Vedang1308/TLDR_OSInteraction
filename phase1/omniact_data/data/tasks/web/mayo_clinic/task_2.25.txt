@@ -1,3 +1,0 @@
-Task: Determine the role of folic acid in the body
-Output Script:
-pyautogui.click(301.0,807.5)

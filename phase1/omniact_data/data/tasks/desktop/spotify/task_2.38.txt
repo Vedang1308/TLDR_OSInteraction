@@ -1,3 +1,0 @@
-Task: Enable continuous playback for the track
-Output script:
-pyautogui.click(1080.5,957.5)

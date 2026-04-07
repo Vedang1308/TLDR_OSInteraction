@@ -1,3 +1,0 @@
-Task: Select the settings for participants.
-Output Script:
-pyautogui.click(802.5,1744.5)

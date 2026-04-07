@@ -1,3 +1,0 @@
-Task: Navigate to the Phones section
-Output Script:
-pyautogui.click(769.5,92.5)

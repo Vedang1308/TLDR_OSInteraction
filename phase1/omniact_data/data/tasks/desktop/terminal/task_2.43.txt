@@ -1,3 +1,0 @@
-Task: Access the preferences options
-Output Script:
-pyautogui.write("preferences")

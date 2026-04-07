@@ -1,3 +1,0 @@
-Task: Enlarge local broadcasters display area
-Output script:
-pyautogui.click(657.5,1321.5)

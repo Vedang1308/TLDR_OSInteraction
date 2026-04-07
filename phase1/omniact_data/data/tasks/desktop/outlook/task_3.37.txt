@@ -1,5 +1,0 @@
-Task: Locate Google"s emails in the inbox
-Output Script:
-pyautogui.click(460.0,70.5)
-pyautogui.write("Google")
-pyautogui.press("enter")

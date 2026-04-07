@@ -1,3 +1,0 @@
-Task: Use the add symbol to initiate a new tab
-Output Script:
-pyautogui.click(3334.5,29.5)

@@ -1,3 +1,0 @@
-Task: Click on the button to organize and choose accordingly
-Output script:
-pyautogui.click(1440.0,1617.5)

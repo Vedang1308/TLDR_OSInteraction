@@ -1,3 +1,0 @@
-Task: View the stock change for all available data.
-Output script:
-pyautogui.click(2718.5,395.0)

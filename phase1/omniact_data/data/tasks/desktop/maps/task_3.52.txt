@@ -1,3 +1,0 @@
-Task: Locate and click on the "options" button to bring up more settings.
-Output script:
-pyautogui.click(2376.5,450.0)

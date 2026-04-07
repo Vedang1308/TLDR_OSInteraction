@@ -1,3 +1,0 @@
-Task: Determine the air purity in Milan
-Output Script:
-pyautogui.click(2001.0,965.0)

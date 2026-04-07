@@ -1,5 +1,0 @@
-Task: Save the primary news report
-Output script:
-pyautogui.click(1605.0,1532.0)
-pyautogui.write("Save story")
-pyautogui.press("Enter")

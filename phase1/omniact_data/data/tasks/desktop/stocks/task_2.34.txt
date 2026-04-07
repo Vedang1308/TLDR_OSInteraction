@@ -1,3 +1,0 @@
-Task: Select the option to view additional financial information from Yahoo.
-Output script:
-pyautogui.click(1014.5,1109.0)

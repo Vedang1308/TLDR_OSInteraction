@@ -1,3 +1,0 @@
-Task: Sign In to your google account
-Output Script:
-pyautogui.click(1372.0,32.0)

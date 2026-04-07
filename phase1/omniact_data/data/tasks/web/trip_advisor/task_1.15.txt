@@ -1,6 +1,0 @@
-Task: Look up Holiday Inn locations within the hotel database.
-Output Script:
-pyautogui.click(540.0,225.0)
-pyautogui.click(540.0,228.0)
-pyautogui.write("Holiday Inn")
-pyautogui.click(350.0,297.0)

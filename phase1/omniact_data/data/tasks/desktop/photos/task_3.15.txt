@@ -1,3 +1,0 @@
-Task: Perform double-click action on the bioluminescence image.
-Output Script:
-pyautogui.click(936.0,656.0)

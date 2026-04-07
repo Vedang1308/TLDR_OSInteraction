@@ -1,6 +1,0 @@
-Task: Use keyboard to rewind the video by a single minute
-Output Script:
-pyautogui.press("left")
-pyautogui.press("left")
-pyautogui.press("left")
-pyautogui.press("left")

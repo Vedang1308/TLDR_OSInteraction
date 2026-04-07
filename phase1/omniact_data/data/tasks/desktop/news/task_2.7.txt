@@ -1,3 +1,0 @@
-Task: Click on the options for the first story from Tasting Table.
-Output script:
-pyautogui.click(1064.5,1649.5)

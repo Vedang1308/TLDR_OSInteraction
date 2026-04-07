@@ -1,3 +1,0 @@
-Task: Find the payment gateway for NYC parking fines on the lower panel
-Output Script:
-pyautogui.click(970.0,713.0)

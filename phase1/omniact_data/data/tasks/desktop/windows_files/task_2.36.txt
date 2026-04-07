@@ -1,3 +1,0 @@
-Task: Display all the alerts from the notification area
-Output Script:
-pyautogui.click(1883.5,1055.5)

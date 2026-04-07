@@ -1,3 +1,0 @@
-Task: View previous month"s events
-Output Script:
-pyautogui.click(1119.0,166.5)

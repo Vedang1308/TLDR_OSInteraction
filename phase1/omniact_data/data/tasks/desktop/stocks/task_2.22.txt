@@ -1,3 +1,0 @@
-Task: Display the variation in stock prices for the last month.
-Output script:
-pyautogui.click(1192.5,387.0)

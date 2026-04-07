@@ -1,3 +1,0 @@
-Task: End the weather search operation for Rio 
-Output Script:
-pyautogui.click(3308.5,53.0)

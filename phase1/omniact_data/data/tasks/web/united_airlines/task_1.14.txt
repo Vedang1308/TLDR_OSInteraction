@@ -1,4 +1,0 @@
-Task: Navigate others trending topics by scrolling downwards
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

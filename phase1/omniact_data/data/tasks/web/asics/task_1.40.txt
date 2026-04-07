@@ -1,5 +1,0 @@
-Task: Navigate to the children"s footwear section and set the maximum cost at 300 by dragging the upper limit of the price range bar to 300.
-Output Script:
-pyautogui.click(245.0,620.0)
-pyautogui.press("tab")
-pyautogui.hscroll(-10)

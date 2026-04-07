@@ -1,3 +1,0 @@
-Task: Redirect to Help Link
-Output script:
-pyautogui.click(1268.5,77.5)

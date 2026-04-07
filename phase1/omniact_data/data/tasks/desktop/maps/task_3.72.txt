@@ -1,5 +1,0 @@
-Task: Navigate to the "destination" bar and type in Paris, then press enter.
-Output script:
-pyautogui.click(2574.0,300.0)
-pyautogui.write("Paris")
-pyautogui.press("Enter")

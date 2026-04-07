@@ -1,5 +1,0 @@
-Task: Send message to Thomas saying "I"ve done it before, it"s easy"
-Output Script:
-pyautogui.click(320.0,506.5)
-pyautogui.write("I"ve done it before, it"s easy")
-pyautogui.press("enter")

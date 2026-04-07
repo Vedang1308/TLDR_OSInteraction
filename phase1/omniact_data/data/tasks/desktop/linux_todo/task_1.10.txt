@@ -1,5 +1,0 @@
-Task: Mark "client presentation" as important
-Output Script:
-pyautogui.click(1321.5,206.0)
-pyautogui.press("down")
-pyautogui.press("enter")

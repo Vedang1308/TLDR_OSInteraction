@@ -1,3 +1,0 @@
-Task: Press the red shuffle button to randomize the Dan + Shay songs playlist.
-Output Script:
-pyautogui.click(2602.0,231.0)

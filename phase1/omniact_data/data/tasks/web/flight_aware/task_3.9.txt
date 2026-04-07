@@ -1,3 +1,0 @@
-Task: Verify the real-time status of FlightAware"s tracking data
-Output Script:
-pyautogui.click(437.0,778.5)

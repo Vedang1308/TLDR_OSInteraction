@@ -1,7 +1,0 @@
-Task: Subtract 5 from the current minute reading
-Output Script:
-pyautogui.click(1669.0,986.0)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("down")

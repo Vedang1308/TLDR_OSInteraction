@@ -1,3 +1,0 @@
-Task: Inspect the meteorological condition in San Francisco
-Output Script:
-pyautogui.click(316.0,531.0)

@@ -1,3 +1,0 @@
-Task: Store the current file
-Output script:
-pyautogui.hotkey("ctrl", "s")

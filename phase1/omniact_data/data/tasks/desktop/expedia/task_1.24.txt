@@ -1,3 +1,0 @@
-Task: Activate the notification button.
-Output script:
-pyautogui.click(2065.5,1761.0)

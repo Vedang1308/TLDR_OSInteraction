@@ -1,3 +1,0 @@
-Task: Choose the notification symbol on the screen.
-Output script:
-pyautogui.click(2065.5,1761.0)

@@ -1,3 +1,0 @@
-Task: Initiate the buying process for the first item by selecting the shopping bag option
-Output Script:
-pyautogui.click(216.0,858.0)

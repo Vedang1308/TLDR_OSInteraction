@@ -1,5 +1,0 @@
-Task: Find the contact information for "Lily Rose" in your contacts app.
-Output Script:
-pyautogui.click(1471.5,55.0)
-pyautogui.write("Lily Rose")
-pyautogui.press("enter")

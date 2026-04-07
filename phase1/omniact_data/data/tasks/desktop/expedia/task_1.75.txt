@@ -1,3 +1,0 @@
-Task: Initiate a conversation with the AI chatbot.
-Output script:
-pyautogui.click(1443.0,563.0)

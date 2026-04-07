@@ -1,3 +1,0 @@
-Task: "Launch the code_algo file from the tab bar"
-Output Script:
-pyautogui.click(645.5,92.5)

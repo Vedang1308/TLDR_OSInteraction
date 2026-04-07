@@ -1,2 +1,0 @@
-Task: Select the "root" tab and navigate to the "courses" section
-pyautogui.click(219.5,112.5)

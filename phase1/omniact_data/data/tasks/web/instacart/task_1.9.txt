@@ -1,3 +1,0 @@
-Task:  Check the Rite Aid Pharmacy page for medicines
-Output Script:
-pyautogui.click(1112.0,761.0)

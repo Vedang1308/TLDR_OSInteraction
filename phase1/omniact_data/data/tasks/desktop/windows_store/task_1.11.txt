@@ -1,3 +1,0 @@
-Task: Open Whatsapp
-Output Script:
-pyautogui.click(418.5,188.5)

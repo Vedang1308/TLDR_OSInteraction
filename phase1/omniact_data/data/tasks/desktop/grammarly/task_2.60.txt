@@ -1,3 +1,0 @@
-Task: Unfold the score data segment
-Output script:
-pyautogui.click(1780.0,160.0)

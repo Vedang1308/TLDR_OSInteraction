@@ -1,4 +1,0 @@
-Task: Jump ahead by 1 minute in the video (click 30 seconds forward button two times)
-Output Script:
-pyautogui.click(1080.5,700.0)
-pyautogui.click(1080.5,700.0)

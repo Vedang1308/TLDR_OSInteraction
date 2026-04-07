@@ -1,3 +1,0 @@
-Task: Find all items categorized under School Supplies.
-Output Script:
-pyautogui.click(543.0,322.0)

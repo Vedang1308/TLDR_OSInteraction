@@ -1,3 +1,0 @@
-Task: Terminate the menu display
-Output Script:
-pyautogui.click(1769.0,50.5)

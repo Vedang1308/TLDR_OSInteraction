@@ -1,3 +1,0 @@
-Task: Look up the current wind status
-Output Script:
-pyautogui.click(2480.5,1288.0)

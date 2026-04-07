@@ -1,4 +1,0 @@
-Task: Invite "abc@example.com" to join the scheduled event
-Output Script:
-pyautogui.click(1547.0,272.5)
-pyautogui.write("abc@example.com")

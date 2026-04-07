@@ -1,3 +1,0 @@
-Task: See the gmails that are correlated with this calendar:
-Output Script:
-Pyautogui.click(166.5,554.5)

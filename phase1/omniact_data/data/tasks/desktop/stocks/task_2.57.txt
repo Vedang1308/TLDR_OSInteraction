@@ -1,3 +1,0 @@
-Task: Interact with the "three dots" symbol to see more actions.
-Output script:
-pyautogui.click(2710.5,1512.0)

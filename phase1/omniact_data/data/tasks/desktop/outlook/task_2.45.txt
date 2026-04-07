@@ -1,3 +1,0 @@
-Task: Access Outgoing Mails
-Output Script:
-pyautogui.click(164.5,586.0)

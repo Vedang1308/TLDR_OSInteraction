@@ -1,3 +1,0 @@
-Task: Queue up the selected song
-Output script:
-pyautogui.click(1740.5,273.0)

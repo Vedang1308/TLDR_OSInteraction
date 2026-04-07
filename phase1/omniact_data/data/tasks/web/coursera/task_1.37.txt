@@ -1,3 +1,0 @@
-Task: Access "For Government" page on Coursera website
-Output Script:
-pyautogui.click(489.0,20.0)

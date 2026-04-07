@@ -1,4 +1,0 @@
-Task: Navigate down slightly to observe more functions
-Output Script: 
-pyautogui.press("space")
-pyautogui.scroll(30)

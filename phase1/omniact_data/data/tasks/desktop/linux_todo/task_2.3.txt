@@ -1,3 +1,0 @@
-Task: Open the to-do which is titled backpacking trip
-Output Script:
-pyautogui.click(233.0,242.5)

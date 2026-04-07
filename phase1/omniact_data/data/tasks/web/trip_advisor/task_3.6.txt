@@ -1,3 +1,0 @@
-Task: Search hotels in current place
-Output Script:
-pyautogui.click(131.0,242.0)

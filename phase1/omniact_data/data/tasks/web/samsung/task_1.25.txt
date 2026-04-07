@@ -1,3 +1,0 @@
-Task: Open the webpage offering products for Students and Teachers
-Output Script:
-pyautogui.click(1199.5,226.0)

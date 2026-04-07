@@ -1,4 +1,0 @@
-Task: Enlarge the March section on the calendar by selecting it.
-Output script:
-pyautogui.click(1776.0,459.5)
-pyautogui.click(1776.0,459.5)

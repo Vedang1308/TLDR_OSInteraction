@@ -1,5 +1,0 @@
-Task: Find a Table Lamp using search bar.
-Output Script:
-pyautogui.click(302.0,41.0)
-pyautogui.write("Table Lamp")
-pyautogui.press("enter")

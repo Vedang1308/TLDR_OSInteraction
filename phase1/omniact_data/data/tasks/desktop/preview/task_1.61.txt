@@ -1,3 +1,0 @@
-Task: Finish and exit the file.
-Output script:
-pyautogui.click(51.5,99.0)

@@ -1,3 +1,0 @@
-Task: Switch to world clock tab
-Output Script:
-pyautogui.click(1411.5,49.5)

@@ -1,5 +1,0 @@
-Task: Schedule the track "1000 hours" to play next by utilizing the more options function. 
-Output Script:
-pyautogui.click(2665.0,1620.0)
-pyautogui.write("play later")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Open a note to maintain daily earlier first note
-Output script:
-pyautogui.click(1412.5,293.5)

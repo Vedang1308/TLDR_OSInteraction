@@ -1,3 +1,0 @@
-Task: Obtain in-depth information about air quality in Milan
-Output Script:
-pyautogui.click(2001.0,965.0)

@@ -1,8 +1,0 @@
-Task: "Switch the last appearance of "have" in the document with "are"
-Output Script:
-pyautogui.click(1027.0,490.0)
-pyautogui.write("have")
-pyautogui.click(1027.5,535.0)
-pyautogui.write("are")
-pyautogui.click(1141.0,577.0)
-pyautogui.click(1044.5,664.0)

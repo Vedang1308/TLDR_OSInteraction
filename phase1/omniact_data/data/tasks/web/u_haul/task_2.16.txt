@@ -1,3 +1,0 @@
-Task: "Book a truck for moving from a three bedroom flat"
-Output Script:
-pyautogui.click(1043.0,724.5)

@@ -1,3 +1,0 @@
-Task: Proceed to Library section
-Output Script:
-pyautogui.click(48.0,906.0)

@@ -1,3 +1,0 @@
-Task: Locate additional job opportunities for "Crew Members"
-Output Script:
-pyautogui.click(285.5,705.0)

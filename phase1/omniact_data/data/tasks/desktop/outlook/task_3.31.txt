@@ -1,6 +1,0 @@
-Task: Go to "view mails", then press down button twice in mail type to select the second option.
-Output Script:
-pyautogui.click(646.5,130.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

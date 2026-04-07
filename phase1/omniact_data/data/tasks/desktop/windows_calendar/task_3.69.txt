@@ -1,3 +1,0 @@
-Task: Perform an action to secure the event, using the save feature
-Output Script:
-Pyautogui.click(182.5,124.0)

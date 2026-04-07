@@ -1,5 +1,0 @@
-Task: Sort the files in the "documents" folder by name
-Output Script:
-pyautogui.click(700.0,360.0)
-pyautogui.click(700.0,360.0)
-pyautogui.click(482.5,240.5)

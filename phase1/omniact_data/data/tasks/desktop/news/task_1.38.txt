@@ -1,3 +1,0 @@
-Task: Click on the sidebar tab.
-Output script:
-pyautogui.click(575.0,51.0)

@@ -1,3 +1,0 @@
-Task: Initiate the live chat feature on the FlightAware site
-Output Script:
-pyautogui.click(1339.5,63.0)

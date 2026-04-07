@@ -1,3 +1,0 @@
-Task: See the full list of NY Times Fiction books
-Output Script:
-pyautogui.click(2076.5,986.0)

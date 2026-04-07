@@ -1,3 +1,0 @@
-Task: Proceed to the layout configurations.
-Output Script:
-pyautogui.click(2806.5,36.5)

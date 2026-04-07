@@ -1,3 +1,0 @@
-Task: Navigate to the cruises page once again
-Output Script:
-pyautogui.click(722.0,242.0)

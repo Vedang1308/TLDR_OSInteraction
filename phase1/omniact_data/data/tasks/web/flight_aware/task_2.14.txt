@@ -1,3 +1,0 @@
-Task: Review real-time flight delay and cancellation stats for Monday on Flight Aware
-Output Script:
-pyautogui.click(304.5,206.0)

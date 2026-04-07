@@ -1,6 +1,0 @@
-Task: Redirect to post a photo.
-Output Script:
-pyautogui.click(766.0,30.0)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

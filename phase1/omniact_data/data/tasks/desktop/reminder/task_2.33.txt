@@ -1,5 +1,0 @@
-Task: Assign the tags "school" and "homework" to the event.
-Output script:
-pyautogui.click(1114.0,1111.5)
-pyautogui.write("school, homework")
-pyautogui.press("Enter")

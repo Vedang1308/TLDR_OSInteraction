@@ -1,5 +1,0 @@
-Task: Execute a search for the "translate" software
-Output Script:
-pyautogui.click(959.0,67.0)
-pyautogui.write("translate")
-pyautogui.press("Enter")

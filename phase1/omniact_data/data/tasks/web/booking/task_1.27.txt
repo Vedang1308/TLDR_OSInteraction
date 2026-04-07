@@ -1,3 +1,0 @@
-Task: Check out the details of the second attraction listing
-Output Script:
-pyautogui.click(913.5,607.0)

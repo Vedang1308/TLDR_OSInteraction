@@ -1,3 +1,0 @@
-Task: Switch on the do not interrupt function
-Output Script:
-pyautogui.click(3194.0,139.5)

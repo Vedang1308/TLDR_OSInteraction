@@ -1,3 +1,0 @@
-Task: Check the available models under the category of sports shoes.
-Output Script: 
-pyautogui.click(245.0,721.0)

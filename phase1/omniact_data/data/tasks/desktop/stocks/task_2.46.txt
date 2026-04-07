@@ -1,3 +1,0 @@
-Task: Verify the fluctuation in stock value for the previous two years.
-Output script:
-pyautogui.click(2153.5,391.5)

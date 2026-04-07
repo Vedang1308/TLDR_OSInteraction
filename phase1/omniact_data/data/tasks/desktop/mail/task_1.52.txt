@@ -1,3 +1,0 @@
-Task: Remove the highlighted message.
-Output script:
-pyautogui.click(1757.5,51.0)

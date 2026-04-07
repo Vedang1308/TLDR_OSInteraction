@@ -1,3 +1,0 @@
-Task: Activate unset source rpm package
-Output Script:
-pyautogui.click(1367.0,463.0)

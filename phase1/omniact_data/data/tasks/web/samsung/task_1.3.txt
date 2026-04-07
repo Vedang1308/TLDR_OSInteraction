@@ -1,5 +1,0 @@
-Task: Open the first option in the Displays dropdown
-Output Script:
-pyautogui.click(598.0,40.0)
-pyautogui.press("tab")
-pyautogui.press("enter")

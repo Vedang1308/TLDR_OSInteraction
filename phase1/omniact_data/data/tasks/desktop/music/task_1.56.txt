@@ -1,3 +1,0 @@
-Task: Access and listen to KFI AM radio broadcast
-Output script:
-pyautogui.click(2919.5,1700.0)

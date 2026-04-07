@@ -1,3 +1,0 @@
-Task: Go back two pages by clicking on TVs
-Output Script:
-pyautogui.click(273.5,106.5)

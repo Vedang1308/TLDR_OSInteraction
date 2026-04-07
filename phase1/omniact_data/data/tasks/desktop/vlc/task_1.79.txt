@@ -1,3 +1,0 @@
-Task: Navigate to the directory where the current video is located.
-Output Script:
-pyautogui.click(1765.5,110.5)

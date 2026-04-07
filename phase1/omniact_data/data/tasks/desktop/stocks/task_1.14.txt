@@ -1,3 +1,0 @@
-Task: Open the Walt Disney stock.
-Output script:
-pyautogui.click(322.5,1014.5)

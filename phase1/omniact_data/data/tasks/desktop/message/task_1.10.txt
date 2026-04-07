@@ -1,5 +1,0 @@
-Task: Search for contact "Emily"
-Output Script:
-pyautogui.click(319.0,129.5)
-pyautogui.write("Emily")
-pyautogui.press("enter")

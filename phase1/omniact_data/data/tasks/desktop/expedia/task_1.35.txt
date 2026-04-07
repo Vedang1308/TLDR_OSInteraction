@@ -1,3 +1,0 @@
-Task: Launch the ChatGPT plug-in.
-Output script:
-pyautogui.click(1443.0,563.0)

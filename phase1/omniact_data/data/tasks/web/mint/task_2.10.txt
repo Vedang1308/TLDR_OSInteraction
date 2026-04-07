@@ -1,3 +1,0 @@
-Task: Go to Mint Mobile Homepage
-Output Script:
-pyautogui.click(283.0,79.0)

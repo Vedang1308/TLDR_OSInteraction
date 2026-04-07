@@ -1,3 +1,0 @@
-Task: Search for offers on tablet devices
-Output Script:
-pyautogui.click(610.5,354.0)

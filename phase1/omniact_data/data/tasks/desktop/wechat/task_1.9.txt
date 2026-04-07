@@ -1,3 +1,0 @@
-Task: Pin the chat with Jack
-Output Script:
-pyautogui.click(1776.5,16.5)

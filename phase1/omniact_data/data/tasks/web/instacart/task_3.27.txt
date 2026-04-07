@@ -1,3 +1,0 @@
-Task: Proceed to the Floral, Party & Gift collections page.
-Output Script:
-pyautogui.click(380.5,322.0)

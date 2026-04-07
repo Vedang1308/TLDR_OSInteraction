@@ -1,4 +1,0 @@
-Task: Scroll down to read the table of contents
-Output Script:
-pyautogui.moveTo(1880.0,1104.0)
-pyautogui.scroll(90)

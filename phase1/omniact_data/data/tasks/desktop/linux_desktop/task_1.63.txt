@@ -1,3 +1,0 @@
-Task: Initiate Text Editor application
-Output Script:
-pyautogui.click(36.0,403.5)

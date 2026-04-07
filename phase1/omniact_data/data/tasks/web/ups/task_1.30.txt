@@ -1,4 +1,0 @@
-Task: Erase the final digit of the tracking code in the tracking field
-Output Script:
-pyautogui.click(590.0,347.0)
-pyautogui.press("backspace")

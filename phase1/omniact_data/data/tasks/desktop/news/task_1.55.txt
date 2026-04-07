@@ -1,3 +1,0 @@
-Task: Navigate to the section titled "Election 2024". 
-Output script:
-pyautogui.click(223.0,690.0)

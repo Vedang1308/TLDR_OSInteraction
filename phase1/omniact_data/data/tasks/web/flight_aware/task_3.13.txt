@@ -1,8 +1,0 @@
-Task: Switch the current site"s language to Italian via keyboard actions.
-Output Script:
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("enter")
-pyautogui.write("Italiano")
-pyautogui.press("enter")

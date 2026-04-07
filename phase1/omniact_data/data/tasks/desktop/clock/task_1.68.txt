@@ -1,4 +1,0 @@
-Task: Record a lap measurement and afterward reset the timer.
-Output Script:
-pyautogui.click(1504.5,1971.5)
-pyautogui.click(1504.5,1971.5)

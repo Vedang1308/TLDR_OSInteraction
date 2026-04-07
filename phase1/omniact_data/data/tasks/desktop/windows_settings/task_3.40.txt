@@ -1,3 +1,0 @@
-Task: Modify the span of battery usage per app to be "1 week"
-Output Script:
-pyautogui.click(588.0,931.0)

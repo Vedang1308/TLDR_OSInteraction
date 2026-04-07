@@ -1,3 +1,0 @@
-Task: Locate the ADHD treatment information by following the provided link.
-Output Script:
-pyautogui.click(801.5,391.0)

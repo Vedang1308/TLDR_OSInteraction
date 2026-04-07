@@ -1,3 +1,0 @@
-Task: Update the page by carrying out a refresh without typing anything.
-Output Script:
-pyautogui.click(435.5,148.0)

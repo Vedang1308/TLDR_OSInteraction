@@ -1,3 +1,0 @@
-Task: Direct your pointer towards the Microsoft Photos toolbar options
-Output Script:
-pyautogui.moveTo(1838.5,407.0)

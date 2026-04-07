@@ -1,3 +1,0 @@
-Task: Use a keyboard shortcut to make the screen display bigger.
-Output Script:
-pyautogui.hotkey("ctrl", "+")

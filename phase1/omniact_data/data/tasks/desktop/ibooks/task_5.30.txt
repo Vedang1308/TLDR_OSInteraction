@@ -1,3 +1,0 @@
-Task: Open the book titled "Life of Buddha" by clicking on it.
-Output Script:
-pyautogui.click(2116.5,1960.5)

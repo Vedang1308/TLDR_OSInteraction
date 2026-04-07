@@ -1,3 +1,0 @@
-Task: Collapse the calendar"s side menu
-Output Script:
-Pyautogui.click(31.0,69.5)

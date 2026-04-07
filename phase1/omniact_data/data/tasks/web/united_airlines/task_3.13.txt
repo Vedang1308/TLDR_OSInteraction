@@ -1,3 +1,0 @@
-Task: Head over to the "My Trip" section
-Output script:
-pyautogui.click(816.0,75.0)

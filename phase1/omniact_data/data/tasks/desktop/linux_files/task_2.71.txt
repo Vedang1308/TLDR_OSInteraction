@@ -1,6 +1,0 @@
-Task: Use a combination of mouse and keyboard inputs to access "View Options"
-Output Script:
-pyautogui.click(1727.0,50.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

@@ -1,4 +1,0 @@
-Task: Move down to the following chapter
-Output Script:
-pyautogui.moveTo(208.5,100.5)
-pyautogui.scroll("10")

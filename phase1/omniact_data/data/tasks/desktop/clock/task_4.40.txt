@@ -1,3 +1,0 @@
-Task: Activate the 8pm warning signal
-Output Script:
-pyautogui.click(1364.0,428.0)

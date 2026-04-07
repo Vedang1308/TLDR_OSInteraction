@@ -1,4 +1,0 @@
-Task: Set up the Mercury Weather software.
-Output script:
-pyautogui.click(1956.5,1469.0)
-pyautogui.click(1956.5,1469.0)

@@ -1,3 +1,0 @@
-Task: Proceed to signin option
-Output script:
-pyautogui.click(1277.0,23.0)

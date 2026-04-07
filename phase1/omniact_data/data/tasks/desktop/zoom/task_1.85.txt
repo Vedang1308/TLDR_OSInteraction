@@ -1,3 +1,0 @@
-Task: Insert a novel calendar to your current profile.
-Output Script:
-pyautogui.click(1857.5,1085.5)

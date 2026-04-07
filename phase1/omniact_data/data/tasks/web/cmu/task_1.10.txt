@@ -1,3 +1,0 @@
-Task: Search for CMU Tartans Instagram account 
-Output Script:
-pyautogui.click(1165.5,32.0)

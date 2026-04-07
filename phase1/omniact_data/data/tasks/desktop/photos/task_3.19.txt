@@ -1,3 +1,0 @@
-Task: Double click the waterfall image to enlarge it
-Output Script:
-pyautogui.doubleClick(1901.0,1535.5)

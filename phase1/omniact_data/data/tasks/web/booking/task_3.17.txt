@@ -1,3 +1,0 @@
-Task: Verify extra dates for ticket booking availability
-Output Script:
-pyautogui.click(968.0,847.0)

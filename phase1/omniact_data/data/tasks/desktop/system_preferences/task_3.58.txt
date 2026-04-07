@@ -1,3 +1,0 @@
-Task: Opt to keep the display on continuously after an hour.
-Output Script:
-pyautogui.click(1511.0,350.5)

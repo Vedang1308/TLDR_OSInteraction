@@ -1,3 +1,0 @@
-Task: Sign in to your account before completing the transaction  
-Output Script: 
-pyautogui.click(1192.0,76.5)

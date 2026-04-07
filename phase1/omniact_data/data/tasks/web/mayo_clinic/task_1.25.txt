@@ -1,5 +1,0 @@
-Task: Look up cures for bleeding in the intestines
-Output Script:
-pyautogui.click(1356.0,52.0)
-pyautogui.write("intestinal bleeding treatment")
-pyautogui.press("enter")

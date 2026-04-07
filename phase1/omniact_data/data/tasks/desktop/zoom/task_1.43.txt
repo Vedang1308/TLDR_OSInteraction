@@ -1,3 +1,0 @@
-Task: For notifications, click on the bell shaped alert icon.
-Output Script:
-pyautogui.click(2752.0,51.0)

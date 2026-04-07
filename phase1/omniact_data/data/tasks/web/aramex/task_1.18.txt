@@ -1,5 +1,0 @@
-Task: Use the tracking number 123456 to locate a shipment. 
-Output Script:
-pyautogui.click(634.5,640.0)
-pyautogui.write("123456")
-pyautogui.press("enter")

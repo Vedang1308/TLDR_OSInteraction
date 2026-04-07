@@ -1,3 +1,0 @@
-Task: Deselect all the chosen filters
-Output Script:
-pyautogui.click(315.5,96.0)

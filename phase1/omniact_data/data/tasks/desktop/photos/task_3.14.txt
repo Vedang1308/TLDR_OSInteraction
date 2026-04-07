@@ -1,3 +1,0 @@
-Task: Double click on the photo containing bioluminescence. 
-Output Script:
-pyautogui.click(936.0,656.0)

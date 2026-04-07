@@ -1,5 +1,0 @@
-Task: Locate "libre" using search
-Output Script:
-pyautogui.click(959, 67)
-pyautogui.write("libre")
-pyautogui.press("Enter")

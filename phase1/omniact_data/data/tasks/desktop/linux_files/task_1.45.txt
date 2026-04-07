@@ -1,6 +1,0 @@
-Task: Alter the "Music" file name to "My Music".
-Output Script:
-pyautogui.rightClick(631.0,118.0)
-pyautogui.write("rename")
-pyautogui.write("My Music")
-pyautogui.press("enter")

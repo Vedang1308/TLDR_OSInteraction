@@ -1,3 +1,0 @@
-Task: Perform a right-click operation
-Output Script:
-pyautogui.rightClick()

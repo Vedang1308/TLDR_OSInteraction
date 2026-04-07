@@ -1,3 +1,0 @@
-Task: Mark the active webpage for future reference
-Output Script:
-pyautogui.click(1145.5,778.0)

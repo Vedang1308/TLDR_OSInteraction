@@ -1,5 +1,0 @@
-Task: Add a new guide for sightseeing.
-Output script:
-pyautogui.click(290.5,528.5)
-pyautogui.write("sightseeing")
-pyautogui.press("enter")

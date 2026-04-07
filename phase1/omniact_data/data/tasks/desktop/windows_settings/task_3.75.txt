@@ -1,3 +1,0 @@
-Task: Navigate to the Home options from the left side panel
-Output Script:
-pyautogui.click(98.0,91.0)

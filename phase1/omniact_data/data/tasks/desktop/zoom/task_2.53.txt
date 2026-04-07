@@ -1,3 +1,0 @@
-Task: Begin a screen share session.
-Output Script:
-pyautogui.click(1091.0,1743.5)

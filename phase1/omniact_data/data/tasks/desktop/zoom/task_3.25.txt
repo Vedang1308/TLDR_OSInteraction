@@ -1,3 +1,0 @@
-Task: Hit the key to incorporate additional apps. 
-Output Script:
-pyautogui.click(1561.5,162.0)

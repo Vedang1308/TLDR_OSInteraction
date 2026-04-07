@@ -1,4 +1,0 @@
-Task: Play the next video in the news section.
-Output script:
-pyautogui.click(1773.0,1084.0)
-pyautogui.click(1773.0,1084.0)

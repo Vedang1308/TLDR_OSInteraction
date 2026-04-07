@@ -1,3 +1,0 @@
-Task: Access the folder named "Templates"
-Output Script:
-pyautogui.click(1050.0,117.0)

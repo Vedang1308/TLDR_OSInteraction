@@ -1,3 +1,0 @@
-Task: Choose the "One Direction" song from the list
-Output Script:
-pyautogui.click(2037.5,1295.5)

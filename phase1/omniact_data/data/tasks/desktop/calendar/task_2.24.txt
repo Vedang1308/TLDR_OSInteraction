@@ -1,5 +1,0 @@
-Task: Locate the "Lunch with Ann" event.
-Output script:
-pyautogui.click(2664.5,37.0)
-pyautogui.write("Lunch with Ann")
-pyautogui.press("enter")

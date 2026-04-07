@@ -1,3 +1,0 @@
-Task: Roll up to access beforehand news reports.
-Output script:
-pyautogui.scroll(100)

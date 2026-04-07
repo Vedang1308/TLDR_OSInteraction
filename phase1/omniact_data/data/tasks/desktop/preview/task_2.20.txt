@@ -1,3 +1,0 @@
-Task: Navigate to the signature panel.
-Output script:
-pyautogui.click(669.0,184.5)

@@ -1,3 +1,0 @@
-Task: Engage in planning a trip for a later date.
-Output script:
-pyautogui.click(2696.0,376.5)

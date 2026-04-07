@@ -1,3 +1,0 @@
-Task: Review employment vacancies in Latin America Region
-Output Script:
-pyautogui.click(548.5,336.0)

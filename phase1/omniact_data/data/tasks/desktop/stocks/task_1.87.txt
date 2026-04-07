@@ -1,5 +1,0 @@
-Task: Type "IBM" in the search bar located at top left and press enter.
-Output script:
-pyautogui.click(329.5,149.5)
-pyautogui.write("IBM")
-pyautogui.press("enter")

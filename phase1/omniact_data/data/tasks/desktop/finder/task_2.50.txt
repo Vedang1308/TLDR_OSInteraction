@@ -1,4 +1,0 @@
-Task: Order the files by name starting from the last alphabetically.
-Output Script:
-pyautogui.click(1446.5,132.0)
-pyautogui.click(1446.5,132.0)

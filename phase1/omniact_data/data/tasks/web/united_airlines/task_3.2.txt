@@ -1,3 +1,0 @@
-Task: Redirect to my trip
-Output script:
-pyautogui.click(816.0,75.0)

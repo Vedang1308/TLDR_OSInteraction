@@ -1,3 +1,0 @@
-Task: Proceed downwards to access more video files
-Output Script:
-pyautogui.scroll(-100)

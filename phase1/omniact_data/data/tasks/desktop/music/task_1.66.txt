@@ -1,3 +1,0 @@
-Task: Send alert for Country Music
-Output script:
-pyautogui.click(3248.0,391.0)

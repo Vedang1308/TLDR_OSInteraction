@@ -1,3 +1,0 @@
-Task: Go the option to the sound output device.
-Output Script:
-pyautogui.click(1215.5,966.0)

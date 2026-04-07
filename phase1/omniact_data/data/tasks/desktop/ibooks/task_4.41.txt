@@ -1,3 +1,0 @@
-Task: Execute the "read" command on "Secret Keeper" file
-Output Script:
-pyautogui.doubleClick(1881.5,1571.5)

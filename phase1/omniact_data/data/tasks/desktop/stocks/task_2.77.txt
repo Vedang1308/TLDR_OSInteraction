@@ -1,3 +1,0 @@
-Task: Get the one-day change in stock.
-Output script:
-pyautogui.click(810.5,389.5)

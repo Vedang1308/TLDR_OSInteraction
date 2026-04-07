@@ -1,3 +1,0 @@
-Task: Commence the video by pressing the symbol at the bottom left.
-Output Script:
-pyautogui.click(268.5,1747.5)

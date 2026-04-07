@@ -1,3 +1,0 @@
-Task: Select the "memorial tour" button to acquire more information.
-Output script:
-pyautogui.click(1441.5,1053.5)

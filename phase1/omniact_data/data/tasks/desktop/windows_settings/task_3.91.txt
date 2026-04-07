@@ -1,3 +1,0 @@
-Task: Access the Focus assist settings on the left menu
-Output Script:
-pyautogui.click(203.0,463.0)

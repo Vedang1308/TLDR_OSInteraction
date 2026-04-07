@@ -1,3 +1,0 @@
-Task: Research today"s UV index in Vancouver
-Output Script:
-pyautogui.click(1841.5,1286.0)

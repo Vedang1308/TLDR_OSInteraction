@@ -1,5 +1,0 @@
-Task: Type out "hello" in messaging field and submit by pressing enter.
-Output script:
-pyautogui.click(1154.5,726.0)
-pyautogui.write("hello")
-pyautogui.press("enter")

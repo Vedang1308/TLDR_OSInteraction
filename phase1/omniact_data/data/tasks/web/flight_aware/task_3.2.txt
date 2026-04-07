@@ -1,8 +1,0 @@
-Task: Select Italian as the language for the site using keyboard
-Output Script:
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("enter")
-pyautogui.write("Italiano")
-pyautogui.press("enter")

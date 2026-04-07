@@ -1,3 +1,0 @@
-Task: Return to the initial part of the song currently playing
-Output script:
-pyautogui.click(669.5,999.5)

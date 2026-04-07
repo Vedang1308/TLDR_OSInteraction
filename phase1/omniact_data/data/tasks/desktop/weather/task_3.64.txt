@@ -1,3 +1,0 @@
-Task: Want to view the 17th"s weather outlook in Chicago
-Output Script:
-pyautogui.click(2297.0,807.0)

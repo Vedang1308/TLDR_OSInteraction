@@ -1,3 +1,0 @@
-Task: Press the "down" arrow key once using pyautogui.
-Output Script:
-pyautogui.press("down")

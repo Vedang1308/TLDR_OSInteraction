@@ -1,4 +1,0 @@
-Task: Scroll down to view more stories.
-Output script:
-pyautogui.moveTo(1660.0,954.5)
-pyautogui.scroll(-30)

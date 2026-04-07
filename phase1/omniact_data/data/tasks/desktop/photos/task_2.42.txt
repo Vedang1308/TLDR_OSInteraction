@@ -1,3 +1,0 @@
-Task: Progress to the second visual slide in the slideshow
-Output Script:
-pyautogui.click(1106.5,2014.5)

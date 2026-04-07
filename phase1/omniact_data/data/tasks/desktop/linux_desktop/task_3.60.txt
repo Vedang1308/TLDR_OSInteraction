@@ -1,5 +1,0 @@
-Task: Lookup for "Movies" using the search function.
-Output Script:
-pyautogui.click(959, 67)
-pyautogui.write("Movies")
-pyautogui.press("Enter")

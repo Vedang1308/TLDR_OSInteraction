@@ -1,3 +1,0 @@
-Task: Launch Gaming
-Output Script:
-pyautogui.click(47.5,259.0)

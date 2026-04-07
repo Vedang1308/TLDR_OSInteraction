@@ -1,5 +1,0 @@
-Task: Secure the G20 news information.
-Output script:
-pyautogui.click(1718.5,1552.5)
-pyautogui.write("Save")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Navigate upwards to view earlier news items.
-Output script:
-pyautogui.scroll(100)

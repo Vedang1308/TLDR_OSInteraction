@@ -1,4 +1,0 @@
-Task: Specify "connect hifi" as the event description
-Output Script:
-Pyautogui.click(655.0,573.0)
-Pyautogui.write("connect to hifi")

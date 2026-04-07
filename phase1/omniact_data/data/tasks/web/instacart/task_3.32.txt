@@ -1,3 +1,0 @@
-Task: Sort the deals based on product popularity
-Output Script:
-pyautogui.click(158.0,322.0)

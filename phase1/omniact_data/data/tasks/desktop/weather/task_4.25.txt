@@ -1,3 +1,0 @@
-Task: Incorporate the temperature of Rio de Janeiro through the add button
-Output Script:
-pyautogui.click(2845.5,50.5)

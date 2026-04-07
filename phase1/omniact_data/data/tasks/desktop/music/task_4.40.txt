@@ -1,3 +1,0 @@
-Task: Display the list view of Dan Shay"s playlist.
-Output Script:
-pyautogui.click(702.0,333.0)

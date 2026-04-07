@@ -1,7 +1,0 @@
-Task: Select the third chat in the chats tab
-Output Script:
-pyautogui.click(33.5,135.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

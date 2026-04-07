@@ -1,5 +1,0 @@
-Task: Add tags to the event as "birthday" and "celebration".
-Output script:
-pyautogui.click(1114.0,1111.5)
-pyautogui.write("birthday, celebration")
-pyautogui.press("Enter")

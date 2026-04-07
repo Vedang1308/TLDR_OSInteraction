@@ -1,7 +1,0 @@
-Task: Reschedule the date of the "meeting professor" to one month ahead.
-Output Script:
-pyautogui.click(1272.5,107.0)
-pyautogui.press("right")
-pyautogui.press("right")
-pyautogui.press("right")
-pyautogui.press("enter")

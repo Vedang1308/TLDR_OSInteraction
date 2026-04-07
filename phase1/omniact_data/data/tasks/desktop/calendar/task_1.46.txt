@@ -1,3 +1,0 @@
-Task: Change the calendar view to a single day
-Output script:
-pyautogui.click(1245.0,37.0)

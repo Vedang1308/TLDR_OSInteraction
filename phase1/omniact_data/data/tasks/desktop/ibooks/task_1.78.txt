@@ -1,3 +1,0 @@
-Task: Display the complete list of Audiobooks
-Output Script:
-pyautogui.click(190.5,747.0)

@@ -1,3 +1,0 @@
-Task: Go to settings to change default appearance 
-Output Script:
-pyautogui.click(192.5,208.5)

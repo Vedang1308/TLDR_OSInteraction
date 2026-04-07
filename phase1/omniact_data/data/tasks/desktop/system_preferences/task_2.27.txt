@@ -1,3 +1,0 @@
-Task: Click on photos dropdown menu.
-Output Script:
-pyautogui.click(716.5,720.0)

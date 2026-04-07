@@ -1,3 +1,0 @@
-Task: Choose the first day in September.
-Output Script:
-Pyautogui.click(281.5,313.5)

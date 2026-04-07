@@ -1,2 +1,0 @@
-Task: View the Sales tab
-pyautogui.click(544.5,97.0)

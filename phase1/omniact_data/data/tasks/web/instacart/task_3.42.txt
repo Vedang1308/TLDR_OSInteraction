@@ -1,3 +1,0 @@
-Task: Proceed to my cart page
-Output Script:
-pyautogui.click(1383.0,40.0)

@@ -1,3 +1,0 @@
-Task: Access the SBUX stock information by clicking on it.
-Output script:
-pyautogui.click(328.5,1506.0)

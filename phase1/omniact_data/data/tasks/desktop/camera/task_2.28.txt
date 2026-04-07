@@ -1,3 +1,0 @@
-Task: Browse through all available effects
-Output Script:
-pyautogui.click(1846.0,953.5)

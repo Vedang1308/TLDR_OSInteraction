@@ -1,6 +1,0 @@
-Task: Go to the Sign up page on a new window
-Output Script:
-pyautogui.rightClick(1304.0,54.0)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

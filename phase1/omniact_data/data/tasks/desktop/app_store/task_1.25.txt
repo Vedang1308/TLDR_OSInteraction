@@ -1,3 +1,0 @@
-Task: Start the "Aliens Attack in Alex II".
-Output script:
-pyautogui.click(2234.5,1003.0)

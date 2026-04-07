@@ -1,3 +1,0 @@
-Task: Seek assistance from Grammarly expert
-Output script:
-pyautogui.click(1783.0,921.5)

@@ -1,3 +1,0 @@
-Task: Start drafting a new email 
-Output Script:
-pyautogui.click(160.5,131.0)

@@ -1,3 +1,0 @@
-Task: Shut down recent audio book files
-Output script:
-pyautogui.click(376.5,351.0)

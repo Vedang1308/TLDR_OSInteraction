@@ -1,3 +1,0 @@
-Task: Return to the start page by selecting the aramex symbol.
-Output Script:
-pyautogui.click(105.0,40.0)

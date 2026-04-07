@@ -1,3 +1,0 @@
-Task: Execute action to open phone link settings
-Output Script:
-pyautogui.click(1840.5,893.0)

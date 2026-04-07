@@ -1,3 +1,0 @@
-Task: Communicate the current map coordinates. 
-Output script:
-pyautogui.click(2778.0,35.0)

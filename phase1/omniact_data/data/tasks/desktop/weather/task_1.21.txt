@@ -1,3 +1,0 @@
-Task: Select Chicago weather information from left panel
-Output Script:
-pyautogui.click(323.0,173.0)

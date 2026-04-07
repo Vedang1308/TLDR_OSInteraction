@@ -1,3 +1,0 @@
-Task: Access Coursera"s "for Businesses" webpage
-Output Script:
-pyautogui.click(214.5,20.0)

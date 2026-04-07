@@ -1,4 +1,0 @@
-Task: Remove the existing text "Data Analyst" from the job search field and initiate search 
-Output Script:
-pyautogui.click(562.0,246.0)
-pyautogui.click(983.0,246.0)

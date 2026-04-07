@@ -1,3 +1,0 @@
-Task: Enable the do not disturb setting
-Output Script:
-pyautogui.click(3194.0,139.5)

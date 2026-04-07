@@ -1,3 +1,0 @@
-Task: View the categories under health conditions section.
-Output Script:
-pyautogui.click(466.0,35.0)

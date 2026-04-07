@@ -1,3 +1,0 @@
-Task: Show information about Desktop
-Output Script:
-pyautogui.rightClick(318.0,116.0)

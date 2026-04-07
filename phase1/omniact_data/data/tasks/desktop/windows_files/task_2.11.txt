@@ -1,3 +1,0 @@
-Task: Minimize all open windows
-Output Script:
-pyautogui.hotkey("win", "d")

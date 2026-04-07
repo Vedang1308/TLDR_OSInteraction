@@ -1,3 +1,0 @@
-Task: Call the "read_heat_2" function with a double click action
-Output Script:
-pyautogui.doubleClick(1881.5,991.5)

@@ -1,3 +1,0 @@
-Task: try the new version of outlook calendar
-Output Script:
-Pyautogui.click(1698.5,70.0)

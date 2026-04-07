@@ -1,3 +1,0 @@
-Task: Access further details on the air pollution in Milan
-Output Script:
-pyautogui.click(2001.0,965.0)

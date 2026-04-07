@@ -1,3 +1,0 @@
-Task: Go to the end of the current video
-Output Script:
-pyautogui.click(1737.5,1049.5)

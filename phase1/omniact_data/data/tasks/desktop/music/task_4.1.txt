@@ -1,3 +1,0 @@
-Task: Shuffle the dan + shay playlist using the red shuffle button
-Output Script:
-pyautogui.click(2602.0,231.0)

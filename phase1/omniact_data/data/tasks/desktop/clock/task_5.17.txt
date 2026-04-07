@@ -1,6 +1,0 @@
-Task: Set hours as 2 and minutes as 00
-Output Script:
-pyautogui.click(1615.5,816.0)
-pyautogui.write("02")
-pyautogui.click(1743.0,815.5)
-pyautogui.write("00")

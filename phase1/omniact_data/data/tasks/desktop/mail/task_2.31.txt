@@ -1,3 +1,0 @@
-Task: Execute the file attachment option in your email.
-Output script:
-pyautogui.click(2385.5,56.5)

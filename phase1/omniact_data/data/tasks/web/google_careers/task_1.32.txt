@@ -1,3 +1,0 @@
-Task: Inspect each geographical area 
-Output Script:
-pyautogui.click(262.5,31.5)

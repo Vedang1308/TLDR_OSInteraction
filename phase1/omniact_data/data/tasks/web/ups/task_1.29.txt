@@ -1,6 +1,0 @@
-Task: Move to the Billing Page on a separate window
-Output Script:
-pyautogui.rightclick(516.0,247.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

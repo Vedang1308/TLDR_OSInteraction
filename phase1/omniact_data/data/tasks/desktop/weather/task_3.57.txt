@@ -1,3 +1,0 @@
-Task: Get the climate details of Chicago for the 15th  
-Output Script:
-pyautogui.click(2119.0,807.0)

@@ -1,5 +1,0 @@
-Task: Navigate to "windows updates settings" using the left-hand menu
-Output Script:
-pyautogui.click(200.0,148.5)
-pyautogui.write("windows updates settings")
-pyautogui.press("enter")

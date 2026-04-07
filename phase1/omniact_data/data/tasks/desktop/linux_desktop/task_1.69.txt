@@ -1,3 +1,0 @@
-Task: Initiate the Email Program
-Output Script:
-pyautogui.click(36.0,131.5)

@@ -1,3 +1,0 @@
-Task: Switch the calendar display format to monthly.
-Output script:
-pyautogui.click(1502.0,37.0)

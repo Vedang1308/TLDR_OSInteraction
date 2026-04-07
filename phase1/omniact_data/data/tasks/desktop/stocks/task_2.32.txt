@@ -1,4 +1,0 @@
-Task: Move the cursor to the data of 12 noon and drag it to the 2pm data.
-Output script:
-pyautogui.moveTo(1533.0,688.5)
-pyautogui.dragTo(2088.0,663.5, button="left")

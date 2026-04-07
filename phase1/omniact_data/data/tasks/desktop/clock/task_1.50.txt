@@ -1,4 +1,0 @@
-Task: Terminate the current stopwatch session and then reset the device to zero.
-Output Script:
-pyautogui.click(1847.0,1969.0)
-pyautogui.click(1504.5,1971.5)

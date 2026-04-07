@@ -1,5 +1,0 @@
-Task: Forward this page to Twitter through the share function
-Output Script:
-pyautogui.click(2931.0,99.0)
-pyautogui.write("Twitter")
-pyautogui.press("enter")

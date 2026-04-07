@@ -1,3 +1,0 @@
-Task: Initiate the viewing options window.
-Output script:
-pyautogui.click(228.0,100.0)

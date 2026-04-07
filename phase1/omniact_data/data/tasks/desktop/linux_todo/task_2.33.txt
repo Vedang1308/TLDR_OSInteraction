@@ -1,3 +1,0 @@
-Task: End search panel operation through a mouse click
-Output Script:
-pyautogui.click(1895.5,97.0)

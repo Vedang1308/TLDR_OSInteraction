@@ -1,3 +1,0 @@
-Task: Proceed to the flight search options by activating the flights button
-Output Script:
-pyautogui.click(319.5,90.0)

@@ -1,3 +1,0 @@
-Task: Access the Graphics Settings by selecting the button on the right side of the screen
-Output Script:
-pyautogui.click(1679.5,174.5)

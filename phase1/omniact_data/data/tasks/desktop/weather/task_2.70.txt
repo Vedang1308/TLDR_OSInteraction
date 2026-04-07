@@ -1,3 +1,0 @@
-Task: Look up the weather report for Chicago
-Output Script:
-pyautogui.click(323.0,173.0)

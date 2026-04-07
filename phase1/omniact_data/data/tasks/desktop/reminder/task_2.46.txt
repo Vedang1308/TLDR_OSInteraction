@@ -1,5 +1,0 @@
-Task: Include "meeting" and "team project" as tags to the event.
-Output script:
-pyautogui.click(1114.0,1111.5)
-pyautogui.write("meeting, team project")
-pyautogui.press("Enter")

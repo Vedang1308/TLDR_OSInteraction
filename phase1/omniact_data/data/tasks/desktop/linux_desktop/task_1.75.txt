@@ -1,3 +1,0 @@
-Task: Close Session or Power Down
-Output Script:
-pyautogui.click(1751.5,372.0)

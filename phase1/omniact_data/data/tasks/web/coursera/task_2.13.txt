@@ -1,3 +1,0 @@
-Task: Obtain information about applications for the 2024 Winter Season
-Output Script:
-pyautogui.click(1192.0,403.0)

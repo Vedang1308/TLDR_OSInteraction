@@ -1,9 +1,0 @@
-Task: Go to the "photos" folder and select the first 5 image files.
-Output Script:
-pyautogui.click(1449.0,262.5)
-pyautogui.click(1449.0,262.5)
-pyautogui.press("right")
-pyautogui.hotkey("shift","right")
-pyautogui.hotkey("shift","right")
-pyautogui.hotkey("shift","right")
-pyautogui.hotkey("shift","right")

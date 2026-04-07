@@ -1,3 +1,0 @@
-Task: Navigate and open "Holly" from Top Charts
-Output Script:
-pyautogui.click(2195.0,454.5)

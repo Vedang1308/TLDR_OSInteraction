@@ -1,4 +1,0 @@
-Task: Set alarm name as "Important Meeting"
-Output Script:
-pyautogui.click(1737.5,1124.0)
-pyautogui.write("Important Meeting")

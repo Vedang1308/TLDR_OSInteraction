@@ -1,4 +1,0 @@
-Task: Direct the cursor to "Videos" by utilizing the mouse and open the folder via keyboard typing.
-Output Script:
-pyautogui.click(1068.0,524.5)
-pyautogui.press("enter")

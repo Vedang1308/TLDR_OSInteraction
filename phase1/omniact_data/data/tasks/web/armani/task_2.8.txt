@@ -1,6 +1,0 @@
-Task: Navigate to men’s clothing section by moving the mouse to the men"s menu, pressing tab twice and selecting the view all clothing option.
-Output Script:
-pyautogui.moveTo(412, 171.5)
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("enter")

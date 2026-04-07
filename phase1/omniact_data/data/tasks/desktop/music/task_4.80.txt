@@ -1,3 +1,0 @@
-Task: Execute the song "Mere Liye Tum Kaafi"
-Output Script:
-pyautogui.click(3055.0,1169.0)

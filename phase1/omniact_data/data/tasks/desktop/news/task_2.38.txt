@@ -1,5 +1,0 @@
-Task: Distribute this current tale to Twitter.
-Output script:
-pyautogui.click(2834.0,51.0)
-pyautogui.write("Twitter")
-pyautogui.press("Enter")

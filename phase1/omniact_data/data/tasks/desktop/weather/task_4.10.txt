@@ -1,3 +1,0 @@
-Task: View more details about feels like temperature
-Output Script:
-pyautogui.click(1843.5,1608.0)

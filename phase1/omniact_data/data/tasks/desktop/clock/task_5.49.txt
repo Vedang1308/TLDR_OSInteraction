@@ -1,7 +1,0 @@
-Task: Program the alarm to activate from Monday to Friday
-Output Script:
-pyautogui.click(1633.5,1012.0)
-pyautogui.click(1683.5,1008.5)
-pyautogui.click(1738.0,1011.0)
-pyautogui.click(1788.0,1011.0)
-pyautogui.click(1840.5,1012.0)

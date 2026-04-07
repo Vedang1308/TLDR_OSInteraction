@@ -1,3 +1,0 @@
-Task: Erase the file labelled "James Rachels" 
-Output script:
-pyautogui.click(1021.0,400.5)

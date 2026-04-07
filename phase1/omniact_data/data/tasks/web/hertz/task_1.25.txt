@@ -1,6 +1,0 @@
-Task: Specify the beginning and termination date for reservation
-Output script:
-pyautogui.click(288.5,491.5)
-pyautogui.press("enter")
-pyautogui.click(651.5,491.5)
-pyautogui.press("enter")

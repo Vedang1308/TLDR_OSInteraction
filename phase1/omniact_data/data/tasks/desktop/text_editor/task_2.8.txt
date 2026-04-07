@@ -1,3 +1,0 @@
-Task: "Remove the checked box - wrap around on the find replace bar"
-Output Script:
-pyautogui.click(1127.0,602.5)

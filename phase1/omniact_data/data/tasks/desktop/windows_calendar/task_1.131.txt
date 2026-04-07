@@ -1,3 +1,0 @@
-Task: Select the end date of September month.
-Output Script:
-Pyautogui.click(1577.5,220.5)

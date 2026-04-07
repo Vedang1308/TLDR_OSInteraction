@@ -1,3 +1,0 @@
-Task: Navigate to the starting point of the currently playing track
-Output script:
-pyautogui.click(669.5,999.5)

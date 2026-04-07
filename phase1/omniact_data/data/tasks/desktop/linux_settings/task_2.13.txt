@@ -1,3 +1,0 @@
-Task: Open Additional Drivers
-Output Script:
-pyautogui.click(190.5,151.0)

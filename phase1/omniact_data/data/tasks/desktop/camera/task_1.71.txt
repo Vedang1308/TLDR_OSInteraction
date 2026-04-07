@@ -1,3 +1,0 @@
-Task: Magnify the visual by one increment
-Output Script:
-pyautogui.click(219.0,51.0)

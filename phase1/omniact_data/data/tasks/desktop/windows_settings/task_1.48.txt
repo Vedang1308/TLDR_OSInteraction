@@ -1,3 +1,0 @@
-Task: Click the cloud logo for OneDrive account setting options.
-Output Script:
-pyautogui.click(1013.0,135.0)

@@ -1,3 +1,0 @@
-Task: Seek more Grammarly suggestion options
-Output script:
-pyautogui.click(1268.0,258.5)

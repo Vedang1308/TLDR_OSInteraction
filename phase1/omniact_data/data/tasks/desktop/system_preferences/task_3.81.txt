@@ -1,3 +1,0 @@
-Task: Shut down the open window.
-Output Script:
-pyautogui.click(687.5,193.0)

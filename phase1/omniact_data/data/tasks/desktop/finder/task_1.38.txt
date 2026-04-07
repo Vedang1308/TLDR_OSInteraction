@@ -1,5 +1,0 @@
-Task: Select "applications" and traverse to the final portion of the selection.
-Output Script:
-pyautogui.click(166.5,281.0)
-pyautogui.click(166.5,281.0)
-pyautogui.scroll(-100)

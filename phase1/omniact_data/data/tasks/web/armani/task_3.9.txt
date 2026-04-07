@@ -1,3 +1,0 @@
-Task: Access the story function by choosing the story menu entry
-Output Script:
-pyautogui.click(369.0,144.0)

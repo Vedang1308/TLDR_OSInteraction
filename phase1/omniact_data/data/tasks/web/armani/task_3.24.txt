@@ -1,3 +1,0 @@
-Task: To access the Armani/dolci main webpage, select the "Home" button situated below the logo on the left panel.
-Output Script:
-pyautogui.click(36.0,175.5)

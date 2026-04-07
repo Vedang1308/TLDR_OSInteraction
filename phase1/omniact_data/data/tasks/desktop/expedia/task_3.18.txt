@@ -1,3 +1,0 @@
-Task: Select the "bus tour" option to learn more about it.
-Output script:
-pyautogui.click(1449.5,805.0)

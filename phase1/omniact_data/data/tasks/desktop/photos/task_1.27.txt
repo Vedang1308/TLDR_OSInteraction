@@ -1,4 +1,0 @@
-Task: In the "Nature" album, use the upper toolbar to zoom in on the images.
-Output Script:
-pyautogui.click(207.0,925.5)
-pyautogui.write("enlarge_pics")

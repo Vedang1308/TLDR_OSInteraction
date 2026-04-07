@@ -1,3 +1,0 @@
-Task: Select the picture of lotus temple Sydney
-Output Script:
-pyautogui.click(2479.0,1135.5)

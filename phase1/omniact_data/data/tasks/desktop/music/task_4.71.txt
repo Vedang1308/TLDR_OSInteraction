@@ -1,3 +1,0 @@
-Task: Initiate the playback of song "Nadiyon Paar"
-Output Script:
-pyautogui.click(3053.5,1718.5)

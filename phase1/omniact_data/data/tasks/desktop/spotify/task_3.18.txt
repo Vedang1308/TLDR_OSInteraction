@@ -1,3 +1,0 @@
-Task: Turn off the volume
-Output script:
-pyautogui.click(1763.5,975.0)

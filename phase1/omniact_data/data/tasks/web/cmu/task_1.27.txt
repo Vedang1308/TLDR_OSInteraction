@@ -1,3 +1,0 @@
-Task: Select "Sports Medicine" module
-Output Script:
-pyautogui.doubleClick(1152.0,155.0)

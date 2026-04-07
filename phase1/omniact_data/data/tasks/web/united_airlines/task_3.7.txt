@@ -1,3 +1,0 @@
-Task: Redirect to Premium Cabin Offers
-Output script:
-pyautogui.click(1096.0,590.0)

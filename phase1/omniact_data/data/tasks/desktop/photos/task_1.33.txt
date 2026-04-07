@@ -1,3 +1,0 @@
-Task: Begin playback for the memories video
-Output Script:
-pyautogui.click(953.0,226.5)

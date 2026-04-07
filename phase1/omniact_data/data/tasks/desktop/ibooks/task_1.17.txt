@@ -1,3 +1,0 @@
-Task: Read "Dreamland" from Paid Top Charts
-Output Script:
-pyautogui.click(789.0,843.5)

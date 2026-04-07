@@ -1,3 +1,0 @@
-Task: Ask the virtual assistant questions by clicking on "Ask UPS"
-Output Script:
-pyautogui.click(1314.0,882.5)

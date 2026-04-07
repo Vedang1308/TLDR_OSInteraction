@@ -1,3 +1,0 @@
-Task: Switch to list view 
-Output Script:
-pyautogui.click(1971.0,99.0)

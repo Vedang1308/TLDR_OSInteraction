@@ -1,4 +1,0 @@
-Task: Calculate the factorial of 5
-Output Script:
-pyautogui.click(1938.0,1065.0)
-pyautogui.click(1140.5,1159.5)

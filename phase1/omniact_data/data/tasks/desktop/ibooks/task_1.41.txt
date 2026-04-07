@@ -1,3 +1,0 @@
-Task: Open the comprehensive list of top-charted paid books
-Output Script:
-pyautogui.click(573.5,981.5)

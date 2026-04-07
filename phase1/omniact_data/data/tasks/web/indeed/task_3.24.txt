@@ -1,4 +1,0 @@
-Task: Delete the currently entered job title "Software Developer" and perform search
-Output Script:
-pyautogui.click(562.0,246.0)
-pyautogui.click(983.0,246.0)

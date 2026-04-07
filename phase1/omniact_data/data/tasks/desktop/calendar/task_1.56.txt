@@ -1,4 +1,0 @@
-Task: Navigate from 1 pm to 9 am to plot an event
-Output script:
-pyautogui.click(1083.0,892.5)
-pyautogui.dragTo(1096.0,385.0"left")

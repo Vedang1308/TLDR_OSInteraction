@@ -1,3 +1,0 @@
-Task: Turn off the display after 15 minutes.
-Output Script:
-pyautogui.click(1227.5,352.5)

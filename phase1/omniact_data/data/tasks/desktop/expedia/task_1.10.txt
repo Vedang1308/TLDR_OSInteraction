@@ -1,3 +1,0 @@
-Task: View and manage upcoming trips.
-Output script:
-pyautogui.click(1536.0,1760.5)

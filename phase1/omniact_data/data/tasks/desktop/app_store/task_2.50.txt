@@ -1,5 +1,0 @@
-Task: Navigate to the "Website" section and then choose the "FAQ" tab to access common queries.
-Output script:
-pyautogui.click(2718.5,1547.5)
-pyautogui.write("FAQ")
-pyautogui.press("Enter")

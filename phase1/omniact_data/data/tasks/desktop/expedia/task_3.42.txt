@@ -1,3 +1,0 @@
-Task: Click on the option for a "bus tour" to include it in the trip schedule.
-Output script:
-pyautogui.click(1449.5,805.0)

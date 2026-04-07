@@ -1,3 +1,0 @@
-Task: figure out what size i should buy
-Output Script: 
-pyautogui.click(1273.5,437.0)

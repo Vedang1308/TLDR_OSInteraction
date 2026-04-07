@@ -1,4 +1,0 @@
-Task: Navigate to view completed titles
-Output Script:
-pyautogui.moveTo(1881.5,1116.0)
-pyautogui.scroll(-30)

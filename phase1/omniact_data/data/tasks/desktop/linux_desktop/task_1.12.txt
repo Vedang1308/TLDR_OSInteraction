@@ -1,3 +1,0 @@
-Task: Open App Store
-Output Script:
-pyautogui.click(35.0,333.5)

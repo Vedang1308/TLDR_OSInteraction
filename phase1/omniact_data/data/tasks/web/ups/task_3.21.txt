@@ -1,5 +1,0 @@
-Task: Extract the data present in the "City" field
-Output Script:
-pyautogui.click(364.5,735.5)
-pyautogui.hotkey("ctrl", "a")
-pyautogui.hotkey("ctrl", "c")

@@ -1,3 +1,0 @@
-Task: Use the "sign in" button to open sign in to windows using your Microsoft account
-Output Script:
-pyautogui.click(382.0,178.0)

@@ -1,3 +1,0 @@
-Task: Activate the polling feature.
-Output Script:
-pyautogui.click(1271.0,1744.5)

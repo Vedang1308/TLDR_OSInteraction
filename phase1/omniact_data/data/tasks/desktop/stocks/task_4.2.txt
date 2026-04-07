@@ -1,5 +1,0 @@
-Task: Search for a specific stock.
-Output script:
-pyautogui.click(330.0,145.5)
-pyautogui.write("AAPL")
-pyautogui.press("Enter")

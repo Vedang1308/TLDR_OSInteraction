@@ -1,5 +1,0 @@
-Task: Use the share button to open the story in Safari.
-Output script:
-pyautogui.click(2828.5,48.0)
-pyautogui.write("Safari")
-pyautogui.press("enter")

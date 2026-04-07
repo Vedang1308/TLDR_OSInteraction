@@ -1,5 +1,0 @@
-Task: Search for "report" in the current folder
-Output Script:
-pyautogui.click(3014.0,103.0)
-pyautogui.write("report")
-pyautogui.press("enter")

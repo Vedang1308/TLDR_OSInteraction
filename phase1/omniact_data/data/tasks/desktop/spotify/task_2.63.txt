@@ -1,3 +1,0 @@
-Task: Reveal the credit information of the song
-Output script:
-pyautogui.click(1740.0,476.5)

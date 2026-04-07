@@ -1,3 +1,0 @@
-Task: Open the settings menu
-Output script:
-pyautogui.click(1689.5,568.5)

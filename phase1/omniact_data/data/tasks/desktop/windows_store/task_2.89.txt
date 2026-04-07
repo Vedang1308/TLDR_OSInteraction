@@ -1,3 +1,0 @@
-Task: Interact with the fourth game app shown on your monitor.
-Output Script:
-pyautogui.click(983.0,704.5)

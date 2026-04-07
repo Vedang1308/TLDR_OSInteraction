@@ -1,5 +1,0 @@
-Task: Click on the "start location" field and enter the starting location as Los Angeles.
-Output script:
-pyautogui.click(2574.5,255.5)
-pyautogui.write("Los Angeles")
-pyautogui.press("Enter")

@@ -1,3 +1,0 @@
-Task: Click on the sign in button to access your account quickly
-Output Script:
-pyautogui.click(608.0,822.0)

@@ -1,3 +1,0 @@
-Task: Select the "Rewards" feature
-Output Script:
-pyautogui.click(1408.0,141.0)

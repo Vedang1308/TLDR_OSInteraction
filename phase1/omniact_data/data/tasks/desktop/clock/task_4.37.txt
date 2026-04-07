@@ -1,3 +1,0 @@
-Task: Modify the 8 am notification
-Output Script:
-pyautogui.click(224.5,314.0)

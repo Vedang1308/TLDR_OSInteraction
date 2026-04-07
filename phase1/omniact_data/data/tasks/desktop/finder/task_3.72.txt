@@ -1,3 +1,0 @@
-Task: Activate the Edit Options tabBar
-Output Script:
-pyautogui.click(327.0,24.5)

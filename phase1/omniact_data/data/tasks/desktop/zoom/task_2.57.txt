@@ -1,3 +1,0 @@
-Task: Proceed to the security configurations.
-Output Script:
-pyautogui.click(539.0,1745.0)

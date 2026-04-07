@@ -1,4 +1,0 @@
-Task: Change the time to a 12-hour format
-Output Script:
-pyautogui.click(1389.0,985.0)
-pyautogui.write("12")

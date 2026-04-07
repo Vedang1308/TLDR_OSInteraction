@@ -1,5 +1,0 @@
-Task: Input the "Win+R" combination into the "Record that" text input field.
-Output Script:
-pyautogui.click(702.5,788.5)
-pyautogui.write("Win+R")
-pyautogui.press("enter")

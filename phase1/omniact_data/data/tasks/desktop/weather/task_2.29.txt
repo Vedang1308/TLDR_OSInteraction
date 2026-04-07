@@ -1,4 +1,0 @@
-Task: Remove the San Francisco weather details from the left sidebar by using a swiping motion.
-Output Script:
-pyautogui.moveTo(316, 531)
-pyautogui.hscroll("10")

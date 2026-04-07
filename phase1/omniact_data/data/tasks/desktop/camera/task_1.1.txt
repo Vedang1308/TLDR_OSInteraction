@@ -1,5 +1,0 @@
-Task: Zoom in the image three times
-Output Script:
-pyautogui.click(219.0,51.0)
-pyautogui.click(219.0,51.0)
-pyautogui.click(219.0,51.0)

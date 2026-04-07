@@ -1,3 +1,0 @@
-Task: Proceed to the terms of service section
-Output Script:
-pyautogui.click(777.0,866.0)

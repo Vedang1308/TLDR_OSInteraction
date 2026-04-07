@@ -1,3 +1,0 @@
-Task: Forward to Cheapest Costings
-Output script:
-pyautogui.click(344.0,590.0,)

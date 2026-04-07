@@ -1,3 +1,0 @@
-Task: Access the settings for the power adapter.
-Output Script:
-pyautogui.click(788.5,867.5)

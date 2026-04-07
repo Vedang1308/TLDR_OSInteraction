@@ -1,3 +1,0 @@
-Task: Switch between the loop function and the loop once function
-Output script:
-pyautogui.click(1080.5,957.5)

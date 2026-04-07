@@ -1,3 +1,0 @@
-Task: Cancel city search to close Rio"s weather
-Output Script:
-pyautogui.click(3308.5,53.0)

@@ -1,3 +1,0 @@
-Task: Proceed to FlightAware"s contact information
-Output Script:
-pyautogui.click(1218.0,63.0)

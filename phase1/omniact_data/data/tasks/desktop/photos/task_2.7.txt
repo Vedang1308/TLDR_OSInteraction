@@ -1,3 +1,0 @@
-Task: Go to the last picture in the slideshow
-Output Script:
-pyautogui.click(2011.5,2016.5)

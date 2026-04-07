@@ -1,3 +1,0 @@
-Task: Navigate to the mobile category
-Output Script:
-pyautogui.click(34.0,946.5)

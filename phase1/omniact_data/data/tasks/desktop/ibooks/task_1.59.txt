@@ -1,3 +1,0 @@
-Task: Access the full index of Non-Fiction books by NY Times
-Output Script:
-pyautogui.click(2811.0,986.5)

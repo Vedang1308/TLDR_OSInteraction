@@ -1,4 +1,0 @@
-Task: Open the Backup folder and then close it
-Output Script:
-pyautogui.click(384.0,190.0)
-pyautogui.click(384.0,190.0)

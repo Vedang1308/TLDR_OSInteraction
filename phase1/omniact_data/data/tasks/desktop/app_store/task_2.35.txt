@@ -1,3 +1,0 @@
-Task: Select the "Playrix" option on the screen.
-Output script:
-pyautogui.click(2751.0,1492.5)

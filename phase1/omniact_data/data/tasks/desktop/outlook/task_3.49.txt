@@ -1,3 +1,0 @@
-Task: Apply italic style to text
-Output Script:
-pyautogui.click(818.0,125.0)

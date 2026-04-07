@@ -1,5 +1,0 @@
-Task: Input "British Museum" as the desired stopping point.
-Output script:
-pyautogui.click(2574.0,300.0)
-pyautogui.write("British Museum")
-pyautogui.press("Enter")

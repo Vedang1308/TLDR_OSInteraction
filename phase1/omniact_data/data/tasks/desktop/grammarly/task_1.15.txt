@@ -1,3 +1,0 @@
-Task: Remove the phrase "clearly" from the document
-Output script:
-pyautogui.click(1331.0,718.5)

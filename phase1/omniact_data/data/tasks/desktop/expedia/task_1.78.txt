@@ -1,5 +1,0 @@
-Task: Find flight number ABC1234 in the database.
-Output script:
-pyautogui.click(1442.0,227.5)
-pyautogui.write("ABC1234")
-pyautogui.press("enter")

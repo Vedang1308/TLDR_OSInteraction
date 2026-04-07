@@ -1,3 +1,0 @@
-Task: Switch to the present date in the calendar
-Output Script:
-Pyautogui.click(1106.5,72.0)

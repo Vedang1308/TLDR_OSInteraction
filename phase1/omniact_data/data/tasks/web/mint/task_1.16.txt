@@ -1,3 +1,0 @@
-Task: Inspect Details of 5GB Package
-Output Script:
-pyautogui.click(560.0,568.0)

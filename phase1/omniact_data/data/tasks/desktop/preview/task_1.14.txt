@@ -1,3 +1,0 @@
-Task: Close the document.
-Output script:
-pyautogui.click(51.5,99.0)

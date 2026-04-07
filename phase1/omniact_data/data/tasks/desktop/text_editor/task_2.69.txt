@@ -1,5 +1,0 @@
-Task: "Locate all the instances of "flower" in the present document"
-Output Script:
-pyautogui.click(1027.0,490.0)
-pyautogui.write("flower")
-pyautogui.click(1164.0,663.0)

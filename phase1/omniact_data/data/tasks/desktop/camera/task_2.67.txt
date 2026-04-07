@@ -1,3 +1,0 @@
-Task: Browse through all recorded videos
-Output Script:
-pyautogui.click(189.0,953.5)

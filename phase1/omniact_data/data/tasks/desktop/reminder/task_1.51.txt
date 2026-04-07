@@ -1,5 +1,0 @@
-Task: Enter a new event titled "Project deadline".
-Output script:
-pyautogui.click(611.5,587.5)
-pyautogui.write("Project deadline")
-pyautogui.press("Enter")

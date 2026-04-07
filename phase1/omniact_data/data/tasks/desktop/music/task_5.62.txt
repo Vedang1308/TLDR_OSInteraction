@@ -1,3 +1,0 @@
-Task: Access the playlist titled Piano Chill
-Output Script:
-pyautogui.click(1177.0,1586.0)

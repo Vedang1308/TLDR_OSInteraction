@@ -1,3 +1,0 @@
-Task: Proceed to the full Reviews section
-Output Script:
-pyautogui.click(546.5,833.0)

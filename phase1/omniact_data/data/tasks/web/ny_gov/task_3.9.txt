@@ -1,3 +1,0 @@
-Task: Navigate to the news section and open the announcement about the new tax file tool.
-Output Script:
-pyautogui.click(164.0,679.5)

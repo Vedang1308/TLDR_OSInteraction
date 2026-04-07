@@ -1,3 +1,0 @@
-Task: "Exit the code_algo tab from the webpage"
-Output Script:
-pyautogui.click(1036.5,93.0)

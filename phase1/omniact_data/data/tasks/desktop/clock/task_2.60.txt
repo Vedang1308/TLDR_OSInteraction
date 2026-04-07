@@ -1,3 +1,0 @@
-Task: Initialize the countdown by hitting the space bar
-Output Script:
-pyautogui.press("space")

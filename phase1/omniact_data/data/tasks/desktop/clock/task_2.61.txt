@@ -1,3 +1,0 @@
-Task: Begin the stopwatch with a spacebar key press
-Output Script:
-pyautogui.press("space")

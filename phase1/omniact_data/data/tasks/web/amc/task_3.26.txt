@@ -1,5 +1,0 @@
-Task: Find the entry "Sales Tax" in the opened file.
-Output Script:
-pyautogui.hotKey("ctrl", "f")
-pyautogui.write("Sales Tax")
-pyautogui.press("enter")

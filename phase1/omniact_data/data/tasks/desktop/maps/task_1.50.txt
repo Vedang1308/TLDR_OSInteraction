@@ -1,3 +1,0 @@
-Task: Change your current view to the three-dimensional mode.
-Output script:
-pyautogui.click(2493.0,36.0)

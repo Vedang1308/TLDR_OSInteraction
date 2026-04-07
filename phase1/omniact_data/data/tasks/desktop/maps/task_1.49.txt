@@ -1,3 +1,0 @@
-Task: Switch the map to 3D view.
-Output script:
-pyautogui.click(2493.0,36.0)

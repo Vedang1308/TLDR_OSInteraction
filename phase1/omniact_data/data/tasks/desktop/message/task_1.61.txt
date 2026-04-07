@@ -1,3 +1,0 @@
-Task: Activate the "Next weekend plan" option
-Output Script:
-pyautogui.click(3111.0,673.0)

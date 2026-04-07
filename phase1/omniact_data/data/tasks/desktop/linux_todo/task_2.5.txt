@@ -1,3 +1,0 @@
-Task: Find the tasks due for today
-Output Script:
-pyautogui.click(1118.0,50.0)

@@ -1,3 +1,0 @@
-Task: View the first email in your inbox
-Output Script:
-pyautogui.click(304.0,212.0)

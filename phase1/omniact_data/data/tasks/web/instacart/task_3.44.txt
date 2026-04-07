@@ -1,5 +1,0 @@
-Task: Search for shops that offer quick shipping for Hand Sanitizers.
-Output Script:
-pyautogui.click(312.0,42.0)
-pyautogui.write("Fast Delivery of Hand Sanitizers")
-pyautogui.press("enter")

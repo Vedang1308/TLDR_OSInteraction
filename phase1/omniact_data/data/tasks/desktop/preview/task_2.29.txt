@@ -1,3 +1,0 @@
-Task: Choose the option to modify the text style.
-Output script:
-pyautogui.click(1208.5,184.0)

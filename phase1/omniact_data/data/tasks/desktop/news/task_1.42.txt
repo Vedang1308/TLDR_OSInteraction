@@ -1,3 +1,0 @@
-Task: Choose the "Politics" option from the menu.
-Output script:
-pyautogui.click(224.5,1192.5)

@@ -1,3 +1,0 @@
-Task: "Open the document options menu"
-Output Script:
-pyautogui.click(363.0,49.0)

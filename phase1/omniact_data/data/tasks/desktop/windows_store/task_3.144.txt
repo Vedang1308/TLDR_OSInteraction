@@ -1,3 +1,0 @@
-Task: Initiate Windows Media Player
-Output Script:
-pyautogui.click(1725.0,600.0)

@@ -1,5 +1,0 @@
-Task: Click "suggest less" in the options from the third story in Tasting Table.
-Output script:
-pyautogui.click(2141.0,1648.5)
-pyautogui.write("suggest less")
-pyautogui.press("Enter")

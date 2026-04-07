@@ -1,3 +1,0 @@
-Task: Select "Included with device" from the options
-Output Script:
-pyautogui.click(645.0,320.5)

@@ -1,3 +1,0 @@
-Task: Carry out the stopwatch reset function
-Output Script:
-pyautogui.click(1504.5,1971.5)

@@ -1,4 +1,0 @@
-Task: View more details about sun position today
-Output Script:
-pyautogui.moveTo(2651.5,1064.5)
-pyautogui.scroll(10)

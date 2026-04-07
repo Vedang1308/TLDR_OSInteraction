@@ -1,3 +1,0 @@
-Task: Plan an activity for the next day. 
-Output script:
-pyautogui.click(612.0,828.5)

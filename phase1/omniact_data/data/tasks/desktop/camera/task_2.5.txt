@@ -1,3 +1,0 @@
-Task: Change capture to Burst model
-Output Script:
-pyautogui.click(260.0,954.0)

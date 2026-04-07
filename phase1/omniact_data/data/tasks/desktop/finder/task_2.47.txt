@@ -1,4 +1,0 @@
-Task: Go to the Downloads file location and backtrack to the last folder accessed.
-Output Script:
-pyautogui.click(1883.0,268.0)
-pyautogui.press("backspace")

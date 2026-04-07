@@ -1,3 +1,0 @@
-Task: Magnify the video by clicking the zoom in icon.
-Output Script:
-pyautogui.click(1769.5,256.0)

@@ -1,3 +1,0 @@
-Task: "Shut the tab of the unnamed document using the tab bar"
-Output Script:
-pyautogui.click(1890.5,91.5)

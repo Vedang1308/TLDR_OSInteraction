@@ -1,3 +1,0 @@
-Task: Print the document
-Output script:
-pyautogui.click(188.5,359.5)

@@ -1,3 +1,0 @@
-Task: Redirect to learn more about rent2buy
-Output script:
-pyautogui.click(904.0,141.0)

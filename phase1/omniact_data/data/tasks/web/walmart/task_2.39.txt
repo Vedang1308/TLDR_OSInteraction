@@ -1,3 +1,0 @@
-Task: Display the services present
-Output Script:
-pyautogui.click(386.0,44.0)

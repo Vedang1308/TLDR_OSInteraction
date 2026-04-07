@@ -1,3 +1,0 @@
-Task: Open plus members page
-Output Script:
-pyautogui.click(877.5,30.0)

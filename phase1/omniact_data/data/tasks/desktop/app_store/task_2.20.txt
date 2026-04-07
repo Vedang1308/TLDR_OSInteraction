@@ -1,5 +1,0 @@
-Task: Click on the Share option and copy the URL.
-Output script:
-pyautogui.click(2800.5,50.5)
-pyautogui.write("Copy")
-pyautogui.press("Enter")

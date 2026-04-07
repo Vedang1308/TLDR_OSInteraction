@@ -1,3 +1,0 @@
-Task: Shrink the open application window
-Output Script:
-pyautogui.click(1817.0,50.5)

@@ -1,3 +1,0 @@
-Task: Like song
-Output script:
-pyautogui.click(250.0,974.5)

@@ -1,3 +1,0 @@
-Task: Go back to healthline reviews
-Output Script:
-pyautogui.click(720.0,174.5)

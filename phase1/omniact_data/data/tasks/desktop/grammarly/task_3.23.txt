@@ -1,3 +1,0 @@
-Task: Download the document titled "James Rachels"
-Output script:
-pyautogui.click(962.5,400.5)

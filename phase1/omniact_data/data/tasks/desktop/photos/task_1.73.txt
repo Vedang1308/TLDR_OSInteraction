@@ -1,4 +1,0 @@
-Task: Access the "Recents" album and expand the size of the photos using the top control bar.
-Output Script:
-pyautogui.click(215.0,413.5)
-pyautogui.write("enlarge_pics")

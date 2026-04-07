@@ -1,5 +1,0 @@
-Task: Append a note to the event with the text "bring textbook".
-Output script:
-pyautogui.click(1735.5,1030.0)
-pyautogui.write("bring textbook")
-pyautogui.press("Enter")

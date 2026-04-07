@@ -1,3 +1,0 @@
-Task: Open the Desktop directory directly through the sidebar.
-Output Script:
-pyautogui.click(156.5,400.5)

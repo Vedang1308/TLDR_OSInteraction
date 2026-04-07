@@ -1,3 +1,0 @@
-Task: Click the toggle button to switch off the morning alarm.
-Output Script:
-pyautogui.click(118.0,428.0)

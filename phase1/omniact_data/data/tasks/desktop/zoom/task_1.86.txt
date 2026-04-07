@@ -1,3 +1,0 @@
-Task: Select the "home" button to go back to the main interface.
-Output Script:
-pyautogui.click(1142.0,51.0)

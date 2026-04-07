@@ -1,3 +1,0 @@
-Task: Indicate your existing location on the map.
-Output script:
-pyautogui.click(2352.0,39.0)

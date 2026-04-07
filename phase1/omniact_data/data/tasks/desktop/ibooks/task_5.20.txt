@@ -1,3 +1,0 @@
-Task: Get more details about the book "The Secret Power" by clicking the three dots.
-Output Script:
-pyautogui.click(1339.0,1731.5)

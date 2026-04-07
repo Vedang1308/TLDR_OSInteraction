@@ -1,3 +1,0 @@
-Task: Enroll for the healthline newsletter subscription.
-Output Script:
-pyautogui.click(1163.0,35.0)

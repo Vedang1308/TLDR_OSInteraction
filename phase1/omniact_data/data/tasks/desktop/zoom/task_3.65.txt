@@ -1,5 +1,0 @@
-Task: In the contacts app, look up "Lily Rose".
-Output Script:
-pyautogui.click(1471.5,55.0)
-pyautogui.write("Lily Rose")
-pyautogui.press("enter")

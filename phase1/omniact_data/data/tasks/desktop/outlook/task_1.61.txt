@@ -1,3 +1,0 @@
-Task: Initiate settings menu
-Output Script:
-pyautogui.click(29.5,1002.0)

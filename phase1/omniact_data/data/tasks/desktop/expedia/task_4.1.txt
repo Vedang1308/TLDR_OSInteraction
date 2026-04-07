@@ -1,3 +1,0 @@
-Task: Choose tab for multi-city flights.
-Output script:
-pyautogui.click(2378.5,131.0)

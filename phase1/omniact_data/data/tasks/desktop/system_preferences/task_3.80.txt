@@ -1,3 +1,0 @@
-Task: Exit from the ongoing window.
-Output Script:
-pyautogui.click(687.5,193.0)

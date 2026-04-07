@@ -1,3 +1,0 @@
-Task: Access the check in dates by clicking on the check in Data button
-Output Script:
-pyautogui.click(648.5,500.0)

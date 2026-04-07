@@ -1,3 +1,0 @@
-Task: Navigate and select the option to insert more applications. 
-Output Script:
-pyautogui.click(1561.5,162.0)

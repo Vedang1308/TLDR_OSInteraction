@@ -1,3 +1,0 @@
-Task: View all the scheduled events.
-Output script:
-pyautogui.click(412.5,258.0)

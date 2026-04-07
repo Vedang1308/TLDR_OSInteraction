@@ -1,3 +1,0 @@
-Task: Opt for the flights category to proceed with flight booking
-Output Script:
-pyautogui.click(454.0,81.0)

@@ -1,3 +1,0 @@
-Task: See the specifications of Unlimited Plan.
-Output Script:
-pyautogui.click(1200.0,568.0)

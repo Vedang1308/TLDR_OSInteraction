@@ -1,5 +1,0 @@
-Task: Search and access the online accounts settings 
-Output Script:
-pyautogui.click(191.5,293.5)
-pyautogui.write("Online Accounts")
-pyautogui.press("enter")

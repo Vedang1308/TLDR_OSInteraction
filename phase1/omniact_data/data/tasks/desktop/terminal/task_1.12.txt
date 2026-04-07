@@ -1,3 +1,0 @@
-Task: Save the current file using keyboard shortcut
-Output Script:
-pyautogui.hotkey("ctrl", "s")

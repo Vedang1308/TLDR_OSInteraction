@@ -1,3 +1,0 @@
-Task: Access the second article from Tasting Table.
-Output script:
-pyautogui.click(1390.5,1360.5)

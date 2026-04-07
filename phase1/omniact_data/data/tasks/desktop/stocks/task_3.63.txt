@@ -1,4 +1,0 @@
-Task: Re-play the previous news clip from today"s news feed.
-Output script:
-pyautogui.click(1773.0,1084.0)
-pyautogui.click(1773.0,1084.0)

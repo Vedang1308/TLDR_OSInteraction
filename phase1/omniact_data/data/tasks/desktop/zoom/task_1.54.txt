@@ -1,3 +1,0 @@
-Task: Insert a fresh calendar into your existing account.
-Output Script:
-pyautogui.click(1857.5,1085.5)

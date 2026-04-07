@@ -1,3 +1,0 @@
-Task: Get in touch with Gov. Kathy Hochul"s team by selecting the communication feature.
-Output Script:
-pyautogui.click(1042.0,131.0)

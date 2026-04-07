@@ -1,6 +1,0 @@
-Task: Locate food places in Pittsburgh
-Output Script:
-pyautogui.click(820.5,228.0)
-pyautogui.click(540.0,228.0)
-pyautogui.write("Pittsburgh")
-pyautogui.click(350.0,297.0)

@@ -1,3 +1,0 @@
-Task: Redirect to about page
-Output script:
-pyautogui.click(618.5,79.0)

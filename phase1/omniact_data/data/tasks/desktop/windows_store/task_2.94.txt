@@ -1,3 +1,0 @@
-Task: Select the "Help" tab from the menu
-Output Script:
-pyautogui.click(43.5,983.5)

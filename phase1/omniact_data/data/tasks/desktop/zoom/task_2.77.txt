@@ -1,3 +1,0 @@
-Task: Initiate the poll tool.
-Output Script:
-pyautogui.click(1271.0,1744.5)

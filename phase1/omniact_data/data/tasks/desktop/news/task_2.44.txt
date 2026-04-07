@@ -1,3 +1,0 @@
-Task: Activate the fourth news item on Tasting Table.
-Output script:
-pyautogui.click(2468.5,1363.0)

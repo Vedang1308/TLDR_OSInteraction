@@ -1,3 +1,0 @@
-Task: Launch the Game Bar configuration
-Output Script:
-pyautogui.click(199.0,282.0)

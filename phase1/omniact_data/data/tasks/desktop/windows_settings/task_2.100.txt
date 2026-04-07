@@ -1,3 +1,0 @@
-Task: Go to the "Home" by clicking on the house icon in settings.
-Output Script:
-pyautogui.click(200.5,91.0)

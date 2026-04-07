@@ -1,3 +1,0 @@
-Task: Complete the "baseball game" checkbox task
-Output Script:
-pyautogui.click(694.0,750.5)

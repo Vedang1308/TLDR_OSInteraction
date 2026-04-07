@@ -1,3 +1,0 @@
-Task: Proceed to the authentication page
-Output Script:
-pyautogui.click(1299.5,17.0)

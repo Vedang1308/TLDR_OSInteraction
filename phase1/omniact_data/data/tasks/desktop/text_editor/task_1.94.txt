@@ -1,3 +1,0 @@
-Task: "By clicking the appropriate button on the right, close the tools menu"
-Output Script:
-pyautogui.click(1767.0,48.0)

@@ -1,3 +1,0 @@
-Task: Navigate to the Best Buy daily deal
-Output Script:
-pyautogui.click(172.0,131.0)

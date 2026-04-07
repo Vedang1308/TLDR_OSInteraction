@@ -1,3 +1,0 @@
-Task: Proceed to My Items tab
-Output Script:
-pyautogui.click(1178.0,44.0)

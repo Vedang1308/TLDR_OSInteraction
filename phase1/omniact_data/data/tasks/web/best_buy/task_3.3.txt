@@ -1,3 +1,0 @@
-Task: Check out more images of the Sony TV
-Output Script:
-pyautogui.click(108.0,626.0)

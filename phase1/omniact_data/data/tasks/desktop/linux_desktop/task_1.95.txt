@@ -1,3 +1,0 @@
-Task: Collapse Menu
-Output Script:
-pyautogui.click(1856.5,13.5)

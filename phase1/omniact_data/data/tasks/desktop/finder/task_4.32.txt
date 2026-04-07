@@ -1,4 +1,0 @@
-Task: Reverse the selection of wifi and bluetooth options
-Output Script:
-pyautogui.click(2903.5,126.5)
-pyautogui.click(2902.5,213.5)

@@ -1,4 +1,0 @@
-Task: Click on the plus icon to join an existing meeting.
-Output Script: 
-pyautogui.click(1129.5,746.5)
-

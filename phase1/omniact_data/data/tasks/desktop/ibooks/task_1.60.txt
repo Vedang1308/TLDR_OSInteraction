@@ -1,3 +1,0 @@
-Task: Review "The Schoolhouse" from Top Charts
-Output Script:
-pyautogui.click(1492.0,643.5)

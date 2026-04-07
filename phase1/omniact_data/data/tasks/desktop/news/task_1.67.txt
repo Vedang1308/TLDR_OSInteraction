@@ -1,3 +1,0 @@
-Task: Access the "History" category.
-Output script:
-pyautogui.click(218.5,521.5)

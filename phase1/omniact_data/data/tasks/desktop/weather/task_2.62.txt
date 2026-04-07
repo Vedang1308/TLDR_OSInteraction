@@ -1,3 +1,0 @@
-Task: Verify the rain condition in Vancouver
-Output Script:
-pyautogui.click(2793.5,1291.0)

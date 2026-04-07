@@ -1,3 +1,0 @@
-Task: Open up the Work folder and then close it
-Output Script:
-pyautogui.click(384.0,468.0)

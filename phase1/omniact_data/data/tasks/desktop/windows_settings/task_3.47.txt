@@ -1,3 +1,0 @@
-Task: Initiate a click action on the "Give feedback" function using pyautogui
-Output Script:
-pyautogui.click(1665.5,179.5)

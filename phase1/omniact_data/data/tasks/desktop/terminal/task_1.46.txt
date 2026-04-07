@@ -1,3 +1,0 @@
-Task: Execute screen scrolling downwards using keyboard shortcut
-Output Script:
-pyautogui.hotkey("ctrl", "down")

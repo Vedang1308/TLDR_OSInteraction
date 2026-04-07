@@ -1,3 +1,0 @@
-Task: Use the Stays button at the top to search accommodations
-Output Script:
-pyautogui.click(214.5,90.0)

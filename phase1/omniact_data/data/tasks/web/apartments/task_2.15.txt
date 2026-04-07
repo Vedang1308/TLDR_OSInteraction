@@ -1,3 +1,0 @@
-Task: Go back to the picture before the current
-Output script:
-pyautogui.click(32.0,291.0)

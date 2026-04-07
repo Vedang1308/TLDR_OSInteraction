@@ -1,3 +1,0 @@
-Task: Initiate a double click on the "Videos" folder using the mouse cursor
-Output Script:
-pyautogui.doubleClick(1068.0,524.5)

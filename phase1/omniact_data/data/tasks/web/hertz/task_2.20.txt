@@ -1,3 +1,0 @@
-Task: Navigate to the page for rental extension
-Output script:
-pyautogui.click(1281.0,262.5)

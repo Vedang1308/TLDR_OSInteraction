@@ -1,3 +1,0 @@
-Task: Execute a backward navigation to the former settings page using the back arrow.
-Output Script:
-pyautogui.click(32.0,21.5)

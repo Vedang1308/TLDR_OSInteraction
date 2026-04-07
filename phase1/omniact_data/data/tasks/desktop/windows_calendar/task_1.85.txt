@@ -1,3 +1,0 @@
-Task: Move to the last month
-Output Script:
-Pyautogui.click(354.5,67.0)

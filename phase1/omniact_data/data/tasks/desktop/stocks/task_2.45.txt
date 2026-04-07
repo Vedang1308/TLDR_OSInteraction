@@ -1,3 +1,0 @@
-Task: Interact with the "Wall Street Over Reacting" news piece.
-Output script:
-pyautogui.click(1098.0,1322.0)

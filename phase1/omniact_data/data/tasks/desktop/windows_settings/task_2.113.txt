@@ -1,3 +1,0 @@
-Task: Access the page for recording a game clip using Game Bar
-Output Script:
-pyautogui.click(1725.5,371.0)

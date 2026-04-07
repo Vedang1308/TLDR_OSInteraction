@@ -1,5 +1,0 @@
-Task: Store the news related to health insurance. 
-Output script:
-pyautogui.click(2709.0,1555.0)
-pyautogui.write("Save")
-pyautogui.press("enter)

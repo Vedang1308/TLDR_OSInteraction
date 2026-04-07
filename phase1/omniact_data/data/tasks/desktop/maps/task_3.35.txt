@@ -1,3 +1,0 @@
-Task: Shut down the directions display window.
-Output script:
-pyautogui.click(2339.0,149.5)

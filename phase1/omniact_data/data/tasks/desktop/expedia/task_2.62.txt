@@ -1,5 +1,0 @@
-Task: Select "Bangalore" as the city from where you"ll be departing.
-Output script:
-pyautogui.click(1438.0,208.5)
-pyautogui.write("Bangalore")
-pyautogui.press("enter")

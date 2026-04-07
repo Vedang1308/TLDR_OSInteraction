@@ -1,3 +1,0 @@
-Task: Navigate to tab view 
-Output Script:
-pyautogui.click(2047.0,102.0)

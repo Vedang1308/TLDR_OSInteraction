@@ -1,3 +1,0 @@
-Task: Navigate to Windows media player preferences
-Output Script:
-pyautogui.click(1840.0,601.0)

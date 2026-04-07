@@ -1,3 +1,0 @@
-Task: Access your Gmail profile
-Output Script:
-pyautogui.click(1372.0,32.0)

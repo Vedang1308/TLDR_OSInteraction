@@ -1,3 +1,0 @@
-Task: Organize the files by type from lowest to highest
-Output Script:
-pyautogui.click(3215.0,130.5)

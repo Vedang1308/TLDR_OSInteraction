@@ -1,3 +1,0 @@
-Task: Launch video call to Jack
-Output Script:
-pyautogui.click(1879.5,876.0)

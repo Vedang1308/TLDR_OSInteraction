@@ -1,6 +1,0 @@
-Task: Via keyboard, move the currently playing video back one minute
-Output Script:
-pyautogui.press("left")
-pyautogui.press("left")
-pyautogui.press("left")
-pyautogui.press("left")

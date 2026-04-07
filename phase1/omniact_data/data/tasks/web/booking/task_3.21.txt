@@ -1,3 +1,0 @@
-Task: Navigate to flights and hotels page
-Output Script:
-pyautogui.click(450.5,90.0)

@@ -1,5 +1,0 @@
-Task: Find the settings in Universal Access
-Output Script:
-pyautogui.click(191.5,293.5)
-pyautogui.write("Universal Access")
-pyautogui.press("enter")

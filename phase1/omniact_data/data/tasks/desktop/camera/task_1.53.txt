@@ -1,3 +1,0 @@
-Task: Update the configuration of the image viewer
-Output Script:
-pyautogui.click(1762.0,463.0)

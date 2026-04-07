@@ -1,3 +1,0 @@
-Task: Go to the beginning of the book
-Output Script:
-pyautogui.click(842.0,700.5)

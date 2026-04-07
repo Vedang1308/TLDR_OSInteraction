@@ -1,3 +1,0 @@
-Task: revisit earlier contacted individuals
-Output Script:
-pyautogui.moveTo(322.0,1128.0)

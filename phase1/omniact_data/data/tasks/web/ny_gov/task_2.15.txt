@@ -1,3 +1,0 @@
-Task: Navigate to the services section by clicking the "Explore Services" button
-Output Script:
-pyautogui.click(720.0,362.0)

@@ -1,3 +1,0 @@
-Task: Return to the homepage of Samsung
-Output Script:
-pyautogui.click(76.0,40.0)

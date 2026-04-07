@@ -1,3 +1,0 @@
-Task: Navigate to the health conditions topics list.
-Output Script:
-pyautogui.click(466.0,35.0)

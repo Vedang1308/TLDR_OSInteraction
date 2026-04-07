@@ -1,3 +1,0 @@
-Task: Select the option for booking multiple city flights.
-Output script:
-pyautogui.click(2378.5,131.0)

@@ -1,3 +1,0 @@
-Task: Proceed to settings and reset web browsing to default recommendations 
-Output Script:
-pyautogui.click(1612.0,144.0)

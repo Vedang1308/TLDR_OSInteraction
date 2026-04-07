@@ -1,3 +1,0 @@
-Task: Execute a keyboard command to capture all the typed information on the screen.
-Output Script:
-pyautogui.hotkey("ctrl", "a")

@@ -1,3 +1,0 @@
-Task: Navigate to all stored video recordings
-Output Script:
-pyautogui.click(189.0,953.5)

@@ -1,3 +1,0 @@
-Task: Launch the second news article related to Georgia Judge.
-Output script:
-pyautogui.click(2184.0,1003.0)

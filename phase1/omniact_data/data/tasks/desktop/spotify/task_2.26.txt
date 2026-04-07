@@ -1,3 +1,0 @@
-Task: Pause the current track
-Output script:
-pyautogui.click(970.5,958.0)

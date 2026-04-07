@@ -1,3 +1,0 @@
-Task: Modify the 4pm alert
-Output Script:
-pyautogui.click(1053.5,314.0)

@@ -1,3 +1,0 @@
-Task: Initiate the Calendar App using the direct access button positioned at the bottom.
-Output Script:
-pyautogui.click(815.5,2028.5)

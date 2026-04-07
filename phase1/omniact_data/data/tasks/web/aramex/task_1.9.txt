@@ -1,3 +1,0 @@
-Task: Use the Advanced Tracking feature to monitor a parcel
-Output Script:
-pyautogui.click(580.0,690.5)

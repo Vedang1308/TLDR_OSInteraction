@@ -1,3 +1,0 @@
-Task: Alter the size of the stroke in the sketch.
-Output script:
-pyautogui.click(913.5,181.5)

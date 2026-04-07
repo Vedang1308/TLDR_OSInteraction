@@ -1,3 +1,0 @@
-Task: Click on "Discover" drop down to know more
-Output Script:
-pyautogui.click(636.0,35.0)

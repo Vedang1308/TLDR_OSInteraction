@@ -1,3 +1,0 @@
-Task: "Terminate the code_algo document via the orange dashboard"
-Output Script:
-pyautogui.click(258.0,92.5)

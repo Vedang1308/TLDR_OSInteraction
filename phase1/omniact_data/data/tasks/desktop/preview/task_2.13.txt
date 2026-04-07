@@ -1,3 +1,0 @@
-Task: Add a signature to the document.
-Output script:
-pyautogui.click(669.0,184.5)

@@ -1,3 +1,0 @@
-Task: Access the search field.
-Output script:
-pyautogui.click(2533.5,103.0)

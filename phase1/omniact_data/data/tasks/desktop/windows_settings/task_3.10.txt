@@ -1,3 +1,0 @@
-Task: Minimise the window by clicking on the underscore icon in the top right part of the page
-Output Script:
-pyautogui.click(1783.5,22.5)

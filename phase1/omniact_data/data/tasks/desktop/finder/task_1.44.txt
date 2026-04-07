@@ -1,6 +1,0 @@
-Task: Send the "file_pic_1" file to a friend using airdrop feature 
-Output Script:
-pyautogui.click(485.0,341.0)
-pyautogui.click(170.5,174.0)
-pyautogui.write("friend"s name")
-pyautogui.press("enter")

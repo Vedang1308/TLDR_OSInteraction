@@ -1,3 +1,0 @@
-Task: Create a new tab using keyboard
-Output Script:
-pyautogui.hotkey("ctrl", "t")

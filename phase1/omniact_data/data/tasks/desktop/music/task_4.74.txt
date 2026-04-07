@@ -1,3 +1,0 @@
-Task: Select the melody named "Irresponsible"
-Output Script:
-pyautogui.click(2036.5,1081.5)

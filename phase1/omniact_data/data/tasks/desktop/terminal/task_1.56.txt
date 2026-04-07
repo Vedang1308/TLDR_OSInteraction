@@ -1,3 +1,0 @@
-Task: Implement the keyboard shortcut to undo the recent task
-Output Script:
-pyautogui.hotkey("ctrl", "z")

@@ -1,3 +1,0 @@
-Task: Create a new tab by using the add button
-Output Script:
-pyautogui.click(3334.5,29.5)

@@ -1,3 +1,0 @@
-Task: For information on ADHD treatment, kindly click on the specified link.
-Output Script:
-pyautogui.click(801.5,391.0)

@@ -1,3 +1,0 @@
-Task: Arrange for a stay at a hotel.
-Output script:
-pyautogui.click(502.0,227.5)

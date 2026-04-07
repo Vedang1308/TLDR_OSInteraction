@@ -1,3 +1,0 @@
-Task: Select the "More Options" button associated with the "Memoirs of Casanova" book to view further choices.
-Output Script:
-pyautogui.click(1332.0,967.5)

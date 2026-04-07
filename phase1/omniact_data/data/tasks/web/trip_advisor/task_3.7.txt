@@ -1,3 +1,0 @@
-Task: View available flights
-Output Script:
-pyautogui.click(405.5,242.0)

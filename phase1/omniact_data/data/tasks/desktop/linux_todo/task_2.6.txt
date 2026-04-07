@@ -1,3 +1,0 @@
-Task: Find the scheduled
-Output Script:
-pyautogui.click(996.0,50.5)

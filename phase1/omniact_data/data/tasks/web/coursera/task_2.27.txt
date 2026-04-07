@@ -1,3 +1,0 @@
-Task: Enroll into the program
-Output Script:
-pyautogui.click(205.5,597.5)

@@ -1,4 +1,0 @@
-Task: Opt to take part in an ongoing meeting.
-Output Script: 
-pyautogui.click(1129.5,746.5)
-

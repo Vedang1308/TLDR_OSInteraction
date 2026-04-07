@@ -1,3 +1,0 @@
-Task: Navigate to my bookshelf 
-Output script:
-pyautogui.click(412.5,232.5)

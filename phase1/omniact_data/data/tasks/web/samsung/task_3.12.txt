@@ -1,3 +1,0 @@
-Task: Initiate a conversation with an expert by selecting the chat option
-Output Script:
-pyautogui.click(1272.5,305.5)

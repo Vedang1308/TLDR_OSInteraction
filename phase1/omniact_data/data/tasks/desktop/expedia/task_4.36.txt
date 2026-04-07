@@ -1,3 +1,0 @@
-Task: Select the multi-destination flight booking option.
-Output script:
-pyautogui.click(2378.5,131.0)

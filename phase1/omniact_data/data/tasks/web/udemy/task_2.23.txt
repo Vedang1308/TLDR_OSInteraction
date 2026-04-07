@@ -1,4 +1,0 @@
-Task: In the search field, enter the "Progressive Web App" term for courses and hit the enter key
-pyautogui.click(607.5,36.0)
-pyautogui.write("Progressive Web App")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Send a reminder of Chart-topping Music Hits
-Output script:
-pyautogui.click(2300.5,396.5)

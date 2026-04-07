@@ -1,6 +1,0 @@
-Task: Set the location of the event to "Mellon Institute"
-Output script:
-pyautogui.click(962.5,1110.5)
-pyautogui.write("Mellon Institute")
-pyautogui.press("down")
-pyautogui.press("Enter")

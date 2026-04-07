@@ -1,5 +1,0 @@
-Task: "Set the tab size of this document to 4 spaces"
-Output Script:
-pyautogui.click(1624.0,1065.5)
-pyautogui.write("4")
-pyautogui.press("enter")

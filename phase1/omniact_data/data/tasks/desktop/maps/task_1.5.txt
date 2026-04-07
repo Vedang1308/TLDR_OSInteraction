@@ -1,3 +1,0 @@
-Task: View the map in three dimensional mode.
-Output script:
-pyautogui.click(2493.0,36.0)

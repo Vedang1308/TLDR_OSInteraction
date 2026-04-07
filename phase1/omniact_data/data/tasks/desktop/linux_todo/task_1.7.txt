@@ -1,5 +1,0 @@
-Task: Change lecture priority
-Output Script:
-pyautogui.click(1182.5,448.5)
-pyautogui.press("down")
-pyautogui.press("enter")

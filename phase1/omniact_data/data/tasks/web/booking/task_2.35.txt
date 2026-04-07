@@ -1,3 +1,0 @@
-Task: Initiate a search for properties by clicking the bottom button
-Output Script:
-pyautogui.click(791.5,811.0)

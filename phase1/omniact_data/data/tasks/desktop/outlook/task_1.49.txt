@@ -1,3 +1,0 @@
-Task: Switch to calendar view
-Output Script:
-pyautogui.click(32.0,817.5)

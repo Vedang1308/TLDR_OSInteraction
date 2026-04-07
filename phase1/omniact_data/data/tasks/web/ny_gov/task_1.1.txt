@@ -1,3 +1,0 @@
-Task: Redirect to the services page from the top panel
-Output Script:
-pyautogui.click(336.5,46.0)

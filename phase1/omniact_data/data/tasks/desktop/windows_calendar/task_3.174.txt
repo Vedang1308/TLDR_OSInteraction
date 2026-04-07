@@ -1,4 +1,0 @@
-Task: Assign "22 December 2020" as the beginning date of the event.
-Output Script:
-pyautogui.click(419.0,432.0)
-pyautogui.write("22 December 2020")

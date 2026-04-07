@@ -1,3 +1,0 @@
-Task: Implement the exact suggestion from Grammarly
-Output script:
-pyautogui.click(1331.0,444.5)

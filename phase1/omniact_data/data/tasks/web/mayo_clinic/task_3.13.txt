@@ -1,3 +1,0 @@
-Task: Redirect to main page avoiding any clicks on the company logo.
-Output Script:
-pyautogui.click(143.5,155.5)

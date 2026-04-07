@@ -1,3 +1,0 @@
-Task: Disable the early morning wake-up alarm by clicking the toggle on button.
-Output Script:
-pyautogui.click(118.0,428.0)

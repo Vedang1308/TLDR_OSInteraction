@@ -1,5 +1,0 @@
-Task: Add video call type to Facetime.
-Output script:
-pyautogui.click(1846.5,569.0)
-pyautogui.write("Facetime")
-pyautogui.press("enter")

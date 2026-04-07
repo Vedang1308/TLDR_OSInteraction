@@ -1,3 +1,0 @@
-Task: Enable Screen Security
-Output Script:
-pyautogui.click(1750.5,310.0)

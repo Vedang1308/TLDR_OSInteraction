@@ -1,4 +1,0 @@
-Task: Find out the value when 10 is raised to the power of 4
-Output Script:
-pyautogui.click(1820.5,1066.0)
-pyautogui.click(1709.0,971.0)

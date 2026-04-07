@@ -1,3 +1,0 @@
-Task: Investigate the variety of models in the sports shoes category.
-Output Script: 
-pyautogui.click(245.0,721.0)

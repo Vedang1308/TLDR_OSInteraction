@@ -1,3 +1,0 @@
-Task: Navigate to the "departments" section by clicking on the respective tab.
-Output Script:
-pyautogui.click(154.5,436.5)

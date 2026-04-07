@@ -1,3 +1,0 @@
-Task: Go to your father"s chat located in the left menu
-Output Script:
-pyautogui.click(320.0,1416.5)

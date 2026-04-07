@@ -1,3 +1,0 @@
-Task: Display the extended list of Grammarly"s advices
-Output script:
-pyautogui.click(84.0,68.5)

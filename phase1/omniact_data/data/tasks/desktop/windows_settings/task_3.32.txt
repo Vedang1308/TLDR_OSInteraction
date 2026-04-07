@@ -1,3 +1,0 @@
-Task: When battery saver mode is on, activate notification restrictions and minimize background activity
-Output Script:
-pyautogui.click(456.5,515.0)

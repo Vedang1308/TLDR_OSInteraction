@@ -1,3 +1,0 @@
-Task: Turn down the audio
-Output script:
-pyautogui.click(1794.0,973.5)

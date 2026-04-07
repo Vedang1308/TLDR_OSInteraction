@@ -1,4 +1,0 @@
-Task: View courses under the "Entrepreneurship" tab in a new window
-pyautogui.rightClick(202.0,97.0)
-pyautogui.write("open")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Navigate to the TV that comes first in the list with Voice Assist feature and review its information.
-Output Script:
-pyautogui.click(906.0,647.0)

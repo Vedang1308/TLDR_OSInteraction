@@ -1,3 +1,0 @@
-Task: Enlarge the image by one level
-Output Script:
-pyautogui.click(219.0,51.0)

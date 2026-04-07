@@ -1,3 +1,0 @@
-Task: Magnify the photo to better view the attire.
-Output Script: 
-pyautogui.click(833.0,729.0)

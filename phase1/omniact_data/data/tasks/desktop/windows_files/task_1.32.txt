@@ -1,4 +1,0 @@
-Task: Migrate the "template.txt" file to the "downloads" sub-directory using the drag-and-drop action.
-Output Script:
-pyautogui.click(700.0,521.0)
-pyautogui.dragTo(700.0,360.0,"left")

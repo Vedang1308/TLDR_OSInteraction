@@ -1,4 +1,0 @@
-Task: Perform a right-click function on the desktop screen to open menu
-Output Script:
-pyautogui.moveTo(1759.0,742.5)
-pyautogui.rightClick(1759.0,742.5)

@@ -1,3 +1,0 @@
-Task: Play the memories Video
-Output Script:
-pyautogui.click(953.0,226.5)

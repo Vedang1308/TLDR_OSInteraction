@@ -1,3 +1,0 @@
-Task: Initiate the Apple Inc stock
-Output script:
-pyautogui.click(331.0,641.0)

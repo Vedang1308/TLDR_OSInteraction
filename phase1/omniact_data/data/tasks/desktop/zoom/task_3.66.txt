@@ -1,5 +1,0 @@
-Task: Find the contact details for "Indiana Jones" in the phonebook app.
-Output Script:
-pyautogui.click(1471.5,55.0)
-pyautogui.write("Indiana Jones")
-pyautogui.press("enter")

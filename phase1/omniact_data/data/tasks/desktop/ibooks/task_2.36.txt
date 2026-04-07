@@ -1,4 +1,0 @@
-Task: Scroll down to access the writer"s bio details.
-Output Script:
-pyautogui.moveTo(1880.0,1104.0)
-pyautogui.scroll(70)

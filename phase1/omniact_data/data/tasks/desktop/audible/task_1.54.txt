@@ -1,3 +1,0 @@
-Task: Start Ubuntu application store
-Output Script:
-pyautogui.click(37.0,401.5)

@@ -1,3 +1,0 @@
-Task: Select the graphic T-shirts category to view its content.
-Output Script:
-pyautogui.click(386.0,228.0)

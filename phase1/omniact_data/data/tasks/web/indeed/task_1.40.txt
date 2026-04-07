@@ -1,3 +1,0 @@
-Task: Browse event activities on Indeed
-Output Script:
-pyautogui.click(862.5,785.0)

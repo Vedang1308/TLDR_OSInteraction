@@ -1,3 +1,0 @@
-Task: Change to the second terminal tab
-Output Script:
-pyautogui.click(2493.0,29.5)

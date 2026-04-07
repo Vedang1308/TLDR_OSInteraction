@@ -1,3 +1,0 @@
-Task: Switch off the sound
-Output script:
-pyautogui.click(1763.5,975.0)

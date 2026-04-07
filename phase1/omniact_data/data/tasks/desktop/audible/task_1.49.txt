@@ -1,3 +1,0 @@
-Task: Click on the "Collections" navigation tab
-Output Script:
-pyautogui.click(919.5,176.0)

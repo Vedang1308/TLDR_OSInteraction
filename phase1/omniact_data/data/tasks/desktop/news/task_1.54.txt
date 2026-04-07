@@ -1,3 +1,0 @@
-Task: Access the "Business" tab.
-Output script:
-pyautogui.click(221.0,912.5)

@@ -1,3 +1,0 @@
-Task: Open the support page for the application.
-Output script:
-pyautogui.click(2718.5,1599.0)

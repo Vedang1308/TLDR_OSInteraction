@@ -1,3 +1,0 @@
-Task: Review the information in the account
-Output script:
-pyautogui.click(187.0,350.5)

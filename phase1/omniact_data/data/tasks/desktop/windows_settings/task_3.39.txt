@@ -1,3 +1,0 @@
-Task: Update the timeframe for application battery consumption to "1 week"
-Output Script:
-pyautogui.click(588.0,931.0)

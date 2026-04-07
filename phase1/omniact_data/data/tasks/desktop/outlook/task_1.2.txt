@@ -1,4 +1,0 @@
-Task: Forward mail from Expedia.com
-Output Script:
-pyautogui.click(301.5,579.5)
-pyautogui.click(1115.5,70.0)

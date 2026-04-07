@@ -1,3 +1,0 @@
-Task: check more dates for when tickets are available
-Output Script:
-pyautogui.click(968.0,847.0)

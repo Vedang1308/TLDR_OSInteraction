@@ -1,3 +1,0 @@
-Task: Access the settings for screen saver.
-Output Script:
-pyautogui.click(1378.0,302.0)

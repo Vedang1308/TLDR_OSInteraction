@@ -1,3 +1,0 @@
-Task: Go to TripAdvisor"s home page
-Output Script:
-pyautogui.click(246.0,190.0)

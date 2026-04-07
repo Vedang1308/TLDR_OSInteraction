@@ -1,3 +1,0 @@
-Task: Proceed to the learners" section
-Output Script:
-pyautogui.click(470.5,31.5)

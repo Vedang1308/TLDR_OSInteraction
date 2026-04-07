@@ -1,3 +1,0 @@
-Task: Pick out the "Forest" images
-Output Script:
-pyautogui.click(936.0,1533.5)

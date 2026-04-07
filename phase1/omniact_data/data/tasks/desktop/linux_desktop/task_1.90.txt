@@ -1,3 +1,0 @@
-Task: Enhance Screen Illumination
-Output Script:
-pyautogui.click(1871.0,104.0)

@@ -1,3 +1,0 @@
-Task: Provide the existing map location.
-Output script:
-pyautogui.click(2778.0,35.0)

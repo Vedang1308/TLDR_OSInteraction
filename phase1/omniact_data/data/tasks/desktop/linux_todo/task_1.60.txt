@@ -1,5 +1,0 @@
-Task: Add "email client" task
-Output Script:
-pyautogui.click(731.5,805.0)
-pyautogui.write("grocery shopping")
-pyautogui.press("Enter")

@@ -1,5 +1,0 @@
-Task: Add Sydney to world clock
-Output Script:
-pyautogui.click(3309.0,46.5)
-pyautogui.write("Sydney")
-pyautogui.press("enter")

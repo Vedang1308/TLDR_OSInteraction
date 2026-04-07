@@ -1,6 +1,0 @@
-Task: View all men’s clothing by moving the cursor to the men’s menu item, tabbing twice to get to view all clothing, then selecting it
-Output Script:
-pyautogui.moveTo(412, 171.5)
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("enter")

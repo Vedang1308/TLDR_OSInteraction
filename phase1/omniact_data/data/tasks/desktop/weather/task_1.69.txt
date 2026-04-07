@@ -1,3 +1,0 @@
-Task: Check the hourly weather prediction for Milan
-Output Script:
-pyautogui.click(2001.0,647.5)

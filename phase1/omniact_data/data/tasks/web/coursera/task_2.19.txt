@@ -1,3 +1,0 @@
-Task: Sign up for Coursera for free
-Output Script:
-pyautogui.click(1390.0,73.0)

@@ -1,5 +1,0 @@
-Task: Store the G20 news piece.
-Output script:
-pyautogui.click(1718.5,1552.5)
-pyautogui.write("Save")
-pyautogui.press("enter")

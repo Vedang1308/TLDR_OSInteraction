@@ -1,3 +1,0 @@
-Task: Scroll down to see more services
-Output Script:
-pyautogui.scroll(20)

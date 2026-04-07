@@ -1,3 +1,0 @@
-Task: Reach Armani/dolci"s primary page by selecting the logo present at the top left corner.
-Output Script:
-pyautogui.click(145.0,76.0)

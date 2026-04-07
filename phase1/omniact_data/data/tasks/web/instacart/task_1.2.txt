@@ -1,5 +1,0 @@
-Task: Search for "Bananas" 
-Output Script:
-pyautogui.click(302.0,41.0)
-pyautogui.write("Bananas")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: "What steps should I take to join this organization?"
-Output Script: 
-pyautogui.click(864.0,34.0)

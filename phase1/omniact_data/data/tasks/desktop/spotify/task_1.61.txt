@@ -1,4 +1,0 @@
-Task: Navigate to see additional friends 
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

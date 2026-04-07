@@ -1,3 +1,0 @@
-Task: Include your sign in the document.
-Output script:
-pyautogui.click(669.0,184.5)

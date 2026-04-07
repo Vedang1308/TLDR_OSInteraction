@@ -1,3 +1,0 @@
-Task: Scroll to the next picture
-Output script:
-pyautogui.click(1408.0,291.0)

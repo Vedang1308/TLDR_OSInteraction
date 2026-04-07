@@ -1,3 +1,0 @@
-Task: Purchase the book "Secret Keeper" in its totality
-Output Script:
-pyautogui.click(3223.5,1562.0)

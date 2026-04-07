@@ -1,3 +1,0 @@
-Task: Enlarge the Work folder then reduce it again
-Output Script:
-pyautogui.click(384.0,468.0)

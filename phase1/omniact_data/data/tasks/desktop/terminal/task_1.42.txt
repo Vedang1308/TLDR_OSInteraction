@@ -1,3 +1,0 @@
-Task: Launch a new window using hotkeys
-Output Script:
-pyautogui.hotkey("ctrl", "n")

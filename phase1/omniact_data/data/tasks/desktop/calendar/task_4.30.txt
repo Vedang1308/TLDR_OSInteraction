@@ -1,3 +1,0 @@
-Task: Navigate to and select July 16 in the calendar.
-Output script:
-pyautogui.click(1709.0,1031.5)

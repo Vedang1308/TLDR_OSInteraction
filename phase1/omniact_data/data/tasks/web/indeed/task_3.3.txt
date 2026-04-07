@@ -1,3 +1,0 @@
-Task: Find out more about Average salary
-Output Script:
-pyautogui.click(409.0,529.0)

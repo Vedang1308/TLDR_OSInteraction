@@ -1,3 +1,0 @@
-Task: Locate and select the "view more" button for the 13th Integrated Report and 17th Sustainability Report published by Aramex.
-Output Script:
-pyautogui.click(720.0,374.5)

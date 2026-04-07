@@ -1,5 +1,0 @@
-Task: Navigate to the 3 dot icon, click on it, then choose the "Live on YouTube" option. 
-Output Script:
-pyautogui.click(2542.5,1750.0)
-pyautogui.typewrite("Live on YouTube")
-pyautogui.press("enter")

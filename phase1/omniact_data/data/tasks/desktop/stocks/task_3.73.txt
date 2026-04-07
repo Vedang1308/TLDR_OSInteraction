@@ -1,5 +1,0 @@
-Task: Post the news article on LinkedIn.
-Output script:
-pyautogui.click(2828.5,48.0)
-pyautogui.write("LinkedIn")
-pyautogui.press("enter")

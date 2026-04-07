@@ -1,4 +1,0 @@
-Task: Scroll to reveal more popular subjects
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

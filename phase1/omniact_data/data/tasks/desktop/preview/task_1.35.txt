@@ -1,4 +1,0 @@
-Task: Spin the document interface by 180 degrees twice.
-Output script:
-pyautogui.click(2089.5,99.5)
-pyautogui.click(2089.5,99.5)

@@ -1,3 +1,0 @@
-Task: Choose the alternative to dispatch a file to Jack
-Output Script:
-pyautogui.click(468.0,875.5)

@@ -1,4 +1,0 @@
-Task: Change to video mode and initiate video recording
-Output Script:
-pyautogui.click(189.0,953.5)
-pyautogui.click(1036.0,953.5)

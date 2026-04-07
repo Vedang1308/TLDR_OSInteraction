@@ -1,3 +1,0 @@
-Task: Browse through all the effects on offer
-Output Script:
-pyautogui.click(1846.0,953.5)

@@ -1,3 +1,0 @@
-Task: Access my library section
-Output script:
-pyautogui.click(412.5,232.5)

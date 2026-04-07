@@ -1,3 +1,0 @@
-Task: Terminate the reading of "Great expectations" book
-Output Script:
-pyautogui.click(1060.0,143.5)

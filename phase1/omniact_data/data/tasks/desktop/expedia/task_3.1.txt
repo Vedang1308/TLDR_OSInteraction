@@ -1,3 +1,0 @@
-Task: Select the statue of Liberty package.
-Output script:
-pyautogui.click(1443.0,550.0)

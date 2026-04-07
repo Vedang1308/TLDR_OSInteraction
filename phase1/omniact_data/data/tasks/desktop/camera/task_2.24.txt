@@ -1,4 +1,0 @@
-Task: Expand the camera interface to occupy the whole screen
-Output Script:
-pyautogui.click(1769.0,48.5)
-pyautogui.click(1769.5,110.0)

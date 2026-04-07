@@ -1,3 +1,0 @@
-Task: Unselect every applied filter
-Output Script:
-pyautogui.click(315.5,96.0)

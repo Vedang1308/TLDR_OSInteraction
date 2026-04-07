@@ -1,3 +1,0 @@
-Task: Select the inbox option.
-Output script:
-pyautogui.click(199.5,542.5)

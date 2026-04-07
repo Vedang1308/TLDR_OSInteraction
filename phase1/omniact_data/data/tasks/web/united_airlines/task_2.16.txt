@@ -1,4 +1,0 @@
-Task: Navigate downwards to reach the FAQs
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(30)

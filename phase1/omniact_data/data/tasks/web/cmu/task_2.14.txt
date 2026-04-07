@@ -1,3 +1,0 @@
-Task: Locate and navigate to the "Contact Us" section
-Output Script:
-pyautogui.click(1261.0,236.5)

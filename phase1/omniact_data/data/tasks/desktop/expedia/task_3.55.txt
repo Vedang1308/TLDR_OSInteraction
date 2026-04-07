@@ -1,3 +1,0 @@
-Task: Select the "back" option to go to the last visited page.
-Output script:
-pyautogui.click(47.0,36.0)

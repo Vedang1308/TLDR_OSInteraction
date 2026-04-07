@@ -1,3 +1,0 @@
-Task: Navigate to Indeed"s upcoming events
-Output Script:
-pyautogui.click(862.5,785.0)

@@ -1,3 +1,0 @@
-Task: Expand the display to full screen
-Output Script:
-pyautogui.click(1856.0,50.5)

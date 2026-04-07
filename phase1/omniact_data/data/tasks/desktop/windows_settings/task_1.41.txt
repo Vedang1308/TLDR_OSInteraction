@@ -1,5 +1,0 @@
-Task: Execute a search using the string currently stored on the clipboard.
-Output Script:
-pyautogui.click(959.0,289.0)
-pyautogui.hotkey("ctrl", "v")
-pyautogui.press("enter")

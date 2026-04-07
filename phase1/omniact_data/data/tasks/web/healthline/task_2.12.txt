@@ -1,3 +1,0 @@
-Task: Search for information confirming if ADHD is considered a learning disability
-Output Script:
-pyautogui.click(301.5,477.0)

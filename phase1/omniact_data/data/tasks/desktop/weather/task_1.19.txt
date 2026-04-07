@@ -1,3 +1,0 @@
-Task: View sun position for Milan
-Output Script:
-pyautogui.click(2161.5,1286.0)

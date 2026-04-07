@@ -1,7 +1,0 @@
-Task: "Substitute the word "book" with "novel" in the entire document."
-Output Script:
-pyautogui.click(1027.0,490.0)
-pyautogui.write("book")
-pyautogui.click(1027.5,535.0)
-pyautogui.write("novel")
-pyautogui.click(923.5,662.0)

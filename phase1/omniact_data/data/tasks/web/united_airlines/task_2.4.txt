@@ -1,3 +1,0 @@
-Task: Select English United States
-Output script:
-pyautogui.click(977.5,30.5)

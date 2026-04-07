@@ -1,3 +1,0 @@
-Task: "Proceed to the preferences for the open document command button"
-Output Script:
-pyautogui.click(366.5,49.0)

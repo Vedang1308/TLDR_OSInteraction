@@ -1,3 +1,0 @@
-Task: Pick the date 09/18
-Output Script:
-Pyautogui.click(426.5,220.5)

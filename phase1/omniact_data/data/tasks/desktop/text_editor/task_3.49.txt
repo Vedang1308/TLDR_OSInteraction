@@ -1,7 +1,0 @@
-Task: "Use key combinations Ctrl+A to select, Ctrl+C to copy from code_algo paper and Ctrl+V to paste it into an untitled document"
-Output Script:
-pyautogui.click(383.5,158.0)
-pyautogui.hotkey("ctrl","a")
-pyautogui.hotkey("ctrl","c")
-pyautogui.click(158.0,124.5)
-pyautogui.hotkey("ctrl","v")

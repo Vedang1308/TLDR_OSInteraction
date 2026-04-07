@@ -1,3 +1,0 @@
-Task: Understand what folic acid does to our body
-Output Script:
-pyautogui.click(301.0,807.5)

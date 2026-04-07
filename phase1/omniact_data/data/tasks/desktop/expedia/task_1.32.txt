@@ -1,3 +1,0 @@
-Task: Begin chat with the digital aide by clicking on the designated button.
-Output script:
-pyautogui.click(2806.5,1647.0)

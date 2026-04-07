@@ -1,3 +1,0 @@
-Task: Navigate to the "Play" tab.
-Output script:
-pyautogui.click(221.0,516.5)

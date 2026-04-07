@@ -1,3 +1,0 @@
-Task: "Shut down the code_algo file in the orange interface"
-Output Script:
-pyautogui.click(258.0,92.5)

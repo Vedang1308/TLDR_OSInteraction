@@ -1,5 +1,0 @@
-Task: Delete the last folder in the list using right click
-Output Script:
-pyautogui.rightClick(1881.0,469.0)
-pyautogui.write("Move to Bin")
-pyautogui.press("enter")

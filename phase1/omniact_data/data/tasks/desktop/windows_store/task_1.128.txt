@@ -1,3 +1,0 @@
-Task: Launch Adobe Acrobat Reader DC
-Output Script:
-pyautogui.click(1513.5,666.0)

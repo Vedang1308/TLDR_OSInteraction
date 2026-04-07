@@ -1,7 +1,0 @@
-Task: Modify the signature to "John" and underline the text.
-Output Script:
-pyautogui.click(1317.0,631.5)
-pyautogui.hotkey("ctrl", "a")
-pyautogui.write("John")
-pyautogui.hotkey("ctrl", "a")
-pyautogui.click(866.0,124.5)

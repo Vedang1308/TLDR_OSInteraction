@@ -1,3 +1,0 @@
-Task: Perform the action to reverse the most recent operation
-Output Script:
-pyautogui.hotkey("ctrl", "z")

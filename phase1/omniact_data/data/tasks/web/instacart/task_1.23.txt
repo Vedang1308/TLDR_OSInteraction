@@ -1,3 +1,0 @@
-Task: Switch language preference
-Output Script:
-pyautogui.click(88.0,144.0)

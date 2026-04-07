@@ -1,3 +1,0 @@
-Task: Generate a fresh tab using add icon
-Output Script:
-pyautogui.click(3334.5,29.5)

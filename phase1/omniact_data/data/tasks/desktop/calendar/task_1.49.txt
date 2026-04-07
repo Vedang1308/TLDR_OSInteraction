@@ -1,3 +1,0 @@
-Task: Change the calendar mode to "month"
-Output script:
-pyautogui.click(1506.5,37.0)

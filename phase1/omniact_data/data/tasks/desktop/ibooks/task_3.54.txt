@@ -1,5 +1,0 @@
-Task: Perform a search for "unkempt" throughout the book
-Output Script:
-pyautogui.click(3090.0,101.0)
-pyautogui.write("unkempt")
-pyautogui.press("enter")

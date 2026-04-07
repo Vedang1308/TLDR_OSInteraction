@@ -1,3 +1,0 @@
-Task: Access the application settings.
-Output Script:
-pyautogui.click(2256.5,1752.5)

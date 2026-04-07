@@ -1,3 +1,0 @@
-Task: Direct towards the section labelled "Apps"
-Output Script:
-pyautogui.click(46.0,177.0)

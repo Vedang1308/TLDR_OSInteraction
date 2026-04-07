@@ -1,3 +1,0 @@
-Task: Press on the upper right button to navigate to the sign-in screen 
-Output Script:
-pyautogui.click(1248.5,30.0)

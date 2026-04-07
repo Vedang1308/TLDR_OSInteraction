@@ -1,3 +1,0 @@
-Task: Display the markup toolbar.
-Output script:
-pyautogui.click(2162.0,104.0)

@@ -1,5 +1,0 @@
-Task: Enter the "XZ78898*" promotional code
-Output script:
-pyautogui.click(220.5,547.5)
-pyautogui.press("tab")
-pyautogui.write("XZ78898*")

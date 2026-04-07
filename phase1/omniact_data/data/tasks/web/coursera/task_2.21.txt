@@ -1,3 +1,0 @@
-Task: Review all e-learning degree programs
-Output Script:
-pyautogui.click(1069.0,72.0)

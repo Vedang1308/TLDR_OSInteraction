@@ -1,4 +1,0 @@
-Task: Calculate the fourth power of 10
-Output Script:
-pyautogui.click(1820.5,1066.0)
-pyautogui.click(1709.0,971.0)

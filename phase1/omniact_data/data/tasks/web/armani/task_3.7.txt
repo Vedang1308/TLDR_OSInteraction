@@ -1,3 +1,0 @@
-Task: Navigate to the story section by selecting the story option
-Output Script:
-pyautogui.click(369.0,144.0)

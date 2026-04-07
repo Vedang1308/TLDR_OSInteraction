@@ -1,5 +1,0 @@
-Task: Apply underline formatting to the whole text in a mail.
-Output Script:
-pyautogui.click(1310.5,415.5)
-pyautogui.hotkey("ctrl", "a")
-pyautogui.click(868.0,124.0)

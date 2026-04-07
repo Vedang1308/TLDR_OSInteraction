@@ -1,3 +1,0 @@
-Task: Play the next song in the queue
-Output Script:
-pyautogui.click(2931.0,172.5)

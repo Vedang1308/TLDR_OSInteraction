@@ -1,3 +1,0 @@
-Task: To see slim fit T-shirts, please click on that option.
-Output Script:
-pyautogui.click(370.0,630.5)

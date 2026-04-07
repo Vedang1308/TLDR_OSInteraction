@@ -1,3 +1,0 @@
-Task: Navigate to the Xbox Game Bar Keyboard Shortcuts tutorial page
-Output Script:
-pyautogui.click(1726.0,313.0)

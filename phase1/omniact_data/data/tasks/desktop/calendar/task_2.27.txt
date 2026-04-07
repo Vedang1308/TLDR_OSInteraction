@@ -1,3 +1,0 @@
-Task: Hit the plus sign for rapid event insertion.
-Output script:
-pyautogui.click(191.0,35.5)

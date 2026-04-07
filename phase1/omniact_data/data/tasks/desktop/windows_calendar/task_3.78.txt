@@ -1,4 +1,0 @@
-Task: Share the event details with "abc@example.com".
-Output Script:
-pyautogui.click(1547.0,272.5)
-pyautogui.write("abc@example.com")

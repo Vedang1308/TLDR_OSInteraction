@@ -1,3 +1,0 @@
-Task: Renew email list
-Output Script:
-pyautogui.click(443.5,69.5)

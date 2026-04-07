@@ -1,5 +1,0 @@
-Task: Find "The 7 Habits of Highly Effective People" in the database by typing in the search field.
-Output Script:
-pyautogui.click(1365.0,100.5)
-pyautogui.write("the 7 habits of highly effective people")
-pyautogui.press("enter")

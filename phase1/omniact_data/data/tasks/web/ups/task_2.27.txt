@@ -1,4 +1,0 @@
-Task: Navigate up to view the choices of nations or regions.
-Output Script:
-pyautogui.click(720.0,432.5)
-pyautogui.scroll(-15)

@@ -1,5 +1,0 @@
-Task: Select the second option under the "more filters" section.
-Output Script:
-pyautogui.click(341.0,2015.5)
-pyautogui.press("right")
-pyautogui.press("enter")

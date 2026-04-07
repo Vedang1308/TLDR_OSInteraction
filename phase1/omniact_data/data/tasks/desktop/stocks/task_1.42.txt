@@ -1,3 +1,0 @@
-Task: Click on the GE stock to get details.
-Output script:
-pyautogui.click(325.5,1132.5)

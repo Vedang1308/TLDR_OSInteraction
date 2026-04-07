@@ -1,4 +1,0 @@
-Task: Access the calendar for the month of December
-Output script:
-pyautogui.click(2485.5,1509.0)
-pyautogui.click(2485.5,1509.0)

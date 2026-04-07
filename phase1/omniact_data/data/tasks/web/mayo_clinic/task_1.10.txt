@@ -1,3 +1,0 @@
-Task: Provide a donation to Mayo Clinic
-Output Script:
-pyautogui.click(1199.5,49.0)

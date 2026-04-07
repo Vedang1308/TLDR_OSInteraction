@@ -1,5 +1,0 @@
-Task: Browse Romance books from top right dropdown
-Output Script:
-pyautogui.click(3194.0,52.0)
-pyautogui.write("Romance")
-pyautogui.press("enter")

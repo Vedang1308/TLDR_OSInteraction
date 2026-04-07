@@ -1,3 +1,0 @@
-Task: Select the "Other files" option
-Output Script:
-pyautogui.click(1116.5,360.0)

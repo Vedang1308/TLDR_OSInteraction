@@ -1,3 +1,0 @@
-Task: Navigate to the second news story featuring a judge in Georgia.
-Output script:
-pyautogui.click(2184.0,1003.0)

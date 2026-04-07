@@ -1,3 +1,0 @@
-Task: Terminate the menu panel
-Output script:
-pyautogui.click(74.5,70.0)

@@ -1,3 +1,0 @@
-Task: Zoom in the image once
-Output Script:
-pyautogui.click(219.0,51.0)

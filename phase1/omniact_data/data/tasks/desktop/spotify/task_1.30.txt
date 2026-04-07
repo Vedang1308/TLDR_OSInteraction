@@ -1,4 +1,0 @@
-Task: Scroll down to check the future releases of audiobooks
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

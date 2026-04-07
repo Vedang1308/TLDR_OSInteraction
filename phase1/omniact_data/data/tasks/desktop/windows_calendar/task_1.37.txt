@@ -1,3 +1,0 @@
-Task: Change the view to year
-Output Script:
-Pyautogui.click(1548.5,70.0)

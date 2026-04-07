@@ -1,6 +1,0 @@
-Task: Open the "photos" directory and generate a new directory titled "vacation".
-Output Script:
-pyautogui.click(1449.0,262.5)
-pyautogui.hotkey("ctrl","shift","n")
-pyautogui.write("vacation")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Maximize book
-Output Script:
-pyautogui.click(1136.5,196.0)

@@ -1,3 +1,0 @@
-Task: See what models they have in the sports shoes
-Output Script: 
-pyautogui.click(245.0,721.0)

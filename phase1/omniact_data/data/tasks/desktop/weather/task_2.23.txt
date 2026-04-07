@@ -1,4 +1,0 @@
-Task: Navigate to the hourly forecast and move 10 hours forward to determine if it is raining at 1am
-Output Script:
-pyautogui.moveTo(1679.5, 650.5)
-pyautogui.hscroll("10")

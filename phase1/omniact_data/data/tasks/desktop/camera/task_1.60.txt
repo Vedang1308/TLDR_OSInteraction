@@ -1,3 +1,0 @@
-Task: Access the "About" section of the image viewing software
-Output Script:
-pyautogui.click(1762.0,384.0)

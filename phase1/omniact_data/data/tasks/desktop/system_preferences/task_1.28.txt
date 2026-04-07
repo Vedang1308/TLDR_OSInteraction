@@ -1,3 +1,0 @@
-Task: Activate the desktop and screen saver settings feature by clicking on it.
-Output Script:
-pyautogui.click(893.5,582.0)

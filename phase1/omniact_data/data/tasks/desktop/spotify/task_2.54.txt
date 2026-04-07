@@ -1,3 +1,0 @@
-Task: Engage shuffle feature for music list
-Output script:
-pyautogui.click(858.5,958.5)

@@ -1,3 +1,0 @@
-Task: Access "Holly" from the Top Charts list
-Output Script:
-pyautogui.click(2195.0,454.5)

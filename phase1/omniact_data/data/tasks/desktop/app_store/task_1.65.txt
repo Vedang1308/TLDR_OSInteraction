@@ -1,3 +1,0 @@
-Task: Navigate and click on "Work".
-Output script:
-pyautogui.click(220.5,445.5)

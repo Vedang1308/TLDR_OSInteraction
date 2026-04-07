@@ -1,3 +1,0 @@
-Task: "Shut the active files"
-Output Script:
-pyautogui.click(252.0,90.0)

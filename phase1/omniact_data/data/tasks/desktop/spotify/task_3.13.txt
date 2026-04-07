@@ -1,3 +1,0 @@
-Task: Like the song "Never Enough"
-Output script:
-pyautogui.click(249.0,974.0)

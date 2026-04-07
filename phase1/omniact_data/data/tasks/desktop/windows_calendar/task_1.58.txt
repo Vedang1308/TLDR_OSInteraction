@@ -1,3 +1,0 @@
-Task: Check the Gmails associated with the current calendar. 
-Output Script:
-Pyautogui.click(166.5,554.5)

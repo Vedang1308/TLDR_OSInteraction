@@ -1,3 +1,0 @@
-Task: Select the "filters" option to narrow down the search results.
-Output script:
-pyautogui.click(1519.0,1739.5)

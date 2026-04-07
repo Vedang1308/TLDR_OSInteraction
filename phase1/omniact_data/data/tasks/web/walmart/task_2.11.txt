@@ -1,3 +1,0 @@
-Task: Access My Items menu
-Output Script:
-pyautogui.click(1178.0,44.0)

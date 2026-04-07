@@ -1,3 +1,0 @@
-Task: Implement a pyautogui click for the "redact" function.
-Output script:
-pyautogui.click(181.5,183.0)

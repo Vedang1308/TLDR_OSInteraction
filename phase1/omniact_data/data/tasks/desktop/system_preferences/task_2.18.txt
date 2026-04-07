@@ -1,5 +1,0 @@
-Task: Navigate to the theme settings and select the "Dynamic" option.
-Output Script:
-pyautogui.click(1213.0,441.5)
-pyautogui.write("dynamic")
-pyautogui.press("enter")

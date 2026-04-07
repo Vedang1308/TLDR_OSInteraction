@@ -1,5 +1,0 @@
-Task: In the "downloads" directory, mark all files for selection.
-Output Script:
-pyautogui.click(1133.0,262.5)
-pyautogui.click(1133.0,262.5)
-pyautogui.hotkey("ctrl", "a")

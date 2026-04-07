@@ -1,4 +1,0 @@
-Task: "Incorporate a return statement as the final line of text in the code"
-Output Script:
-pyautogui.click(1109.0,606.0)
-pyautogui.write("return")

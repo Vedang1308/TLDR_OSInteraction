@@ -1,3 +1,0 @@
-Task: Highlight this event as critical.
-Output script:
-pyautogui.click(1178.0,1112.0)

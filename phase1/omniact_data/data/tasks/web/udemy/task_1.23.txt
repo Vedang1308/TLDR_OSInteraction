@@ -1,2 +1,0 @@
-Task: Proceed to "root" tab and access the courses available
-pyautogui.click(219.5,112.5)

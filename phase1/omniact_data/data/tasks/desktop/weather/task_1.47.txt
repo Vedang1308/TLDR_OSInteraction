@@ -1,3 +1,0 @@
-Task: Review weather data for Niagara Falls
-Output Script:
-pyautogui.click(317.5,412.0)

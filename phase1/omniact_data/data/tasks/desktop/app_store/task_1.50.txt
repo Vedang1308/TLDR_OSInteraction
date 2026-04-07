@@ -1,3 +1,0 @@
-Task: Navigate to the "Arcade" section.
-Output script:
-pyautogui.click(221.5,310.5)

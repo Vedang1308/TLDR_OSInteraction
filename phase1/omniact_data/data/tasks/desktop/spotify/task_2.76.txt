@@ -1,3 +1,0 @@
-Task: Navigate to the song"s finale
-Output script:
-pyautogui.click(1028.5,957.5)

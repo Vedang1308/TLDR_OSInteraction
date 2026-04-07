@@ -1,3 +1,0 @@
-Task: Get to the "Accounts" settings tab
-Output Script:
-pyautogui.click(620.0,550.5)

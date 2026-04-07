@@ -1,3 +1,0 @@
-Task: Redirect to Team
-Output Script:
-pyautogui.click(189.0,31.5)

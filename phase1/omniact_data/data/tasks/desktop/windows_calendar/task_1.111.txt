@@ -1,3 +1,0 @@
-Task: Navigate to the "Calendar" tab
-Output Script:
-Pyautogui.click(90.0,999.5)

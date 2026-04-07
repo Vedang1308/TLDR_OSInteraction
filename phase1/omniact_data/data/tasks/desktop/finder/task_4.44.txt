@@ -1,3 +1,0 @@
-Task: Reduce the volume to the lowest level
-Output Script:
-pyautogui.click(2828.0,588.5)

@@ -1,3 +1,0 @@
-Task: Research on smartwatches.
-Output Script:
-pyautogui.click(782.5,354.0)

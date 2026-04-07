@@ -1,3 +1,0 @@
-Task: Send the file to export 
-Output script:
-pyautogui.click(190.0,318.5)

@@ -1,3 +1,0 @@
-Task: Check the sent box
-Output script:
-pyautogui.click(202.0,653.5)

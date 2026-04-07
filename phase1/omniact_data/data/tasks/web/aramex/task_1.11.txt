@@ -1,3 +1,0 @@
-Task: Initiate package tracing through the Advanced Tracking option
-Output Script:
-pyautogui.click(580.0,690.5)

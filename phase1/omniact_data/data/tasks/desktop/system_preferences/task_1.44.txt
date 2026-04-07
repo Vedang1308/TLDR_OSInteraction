@@ -1,6 +1,0 @@
-Task: Look for the keyboard preferences in the search area.
-Output Script:
-pyautogui.click(1788.0,192.5)
-pyautogui.write("keyboard")
-pyautogui.press("down")
-pyautogui.press("enter")

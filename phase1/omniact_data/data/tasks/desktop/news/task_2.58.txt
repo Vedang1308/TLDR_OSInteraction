@@ -1,3 +1,0 @@
-Task: Select the settings for the third news article on Tasting Table.
-Output script:
-pyautogui.click(2141.0,1648.5)

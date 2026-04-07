@@ -1,3 +1,0 @@
-Task: Wipe out the selected communication.
-Output script:
-pyautogui.click(1757.5,51.0)

@@ -1,5 +1,0 @@
-Task: Configure event alert to 30 minutes prior
-Output Script:
-Pyautogui.click(1477.0,419.0)
-Pyautogui.press("Down")
-Pyautogui.press("Enter")

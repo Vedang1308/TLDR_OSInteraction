@@ -1,3 +1,0 @@
-Task: Insert to the mail
-Output Script:
-pyautogui.click(902.0,73.5)

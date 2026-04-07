@@ -1,3 +1,0 @@
-Task: Duplicate the highlighted text using keyboard shortcut.
-Output Script:
-pyautogui.hotkey("ctrl", "c")

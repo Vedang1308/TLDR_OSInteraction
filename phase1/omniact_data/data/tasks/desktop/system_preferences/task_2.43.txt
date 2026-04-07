@@ -1,3 +1,0 @@
-Task: Instantiate a new folder.
-Output Script:
-pyautogui.click(728.0,1161.0)

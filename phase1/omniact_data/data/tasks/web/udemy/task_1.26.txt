@@ -1,3 +1,0 @@
-Task: Choose the preview option for the course content by clicking and stop with a spacebar tap
-pyautogui.click(1094.0,199.5)
-pyautogui.press("space")

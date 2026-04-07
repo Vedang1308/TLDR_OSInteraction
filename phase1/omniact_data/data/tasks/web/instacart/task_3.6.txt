@@ -1,3 +1,0 @@
-Task: Visit the Main Menu Page
-Output Script:
-pyautogui.click(36.0,40.0)

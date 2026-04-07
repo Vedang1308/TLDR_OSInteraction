@@ -1,3 +1,0 @@
-Task: Display the entire NY Times Non-Fiction book list
-Output Script:
-pyautogui.click(2811.0,986.5)

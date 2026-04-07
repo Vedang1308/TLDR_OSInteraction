@@ -1,4 +1,0 @@
-Task: Reverse the changes made to the draft and eliminate it
-Output Script:
-pyautogui.click(1450.5,123.0)
-pyautogui.click(1464.5,69.5)

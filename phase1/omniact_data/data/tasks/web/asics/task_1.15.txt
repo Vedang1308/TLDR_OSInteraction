@@ -1,3 +1,0 @@
-Task: Proceed to the main front page
-Output Script:
-pyautogui.click(185.5,116.0)

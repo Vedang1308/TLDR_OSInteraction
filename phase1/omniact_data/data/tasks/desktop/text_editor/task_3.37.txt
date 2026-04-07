@@ -1,7 +1,0 @@
-Task: "Change the term "boolean" to "bool", then store the file"
-Output Script:
-pyautogui.click(383.5,158.0)
-pyautogui.press("backspace")
-pyautogui.press("backspace")
-pyautogui.press("backspace")
-pyautogui.click(1712.0,48.5)

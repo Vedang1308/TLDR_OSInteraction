@@ -1,3 +1,0 @@
-Task: Navigate to the purchase page for the Galaxy A54 5G
-Output Script:
-pyautogui.click(217.5,631.0)

@@ -1,3 +1,0 @@
-Task: Release the present cartographic point.
-Output script:
-pyautogui.click(2778.0,35.0)

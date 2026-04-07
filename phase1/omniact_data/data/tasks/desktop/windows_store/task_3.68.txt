@@ -1,3 +1,0 @@
-Task: Access Applications 
-Output Script:
-pyautogui.click(198.5,321.0)

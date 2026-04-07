@@ -1,3 +1,0 @@
-Task: Assess the Dow Jones shares" status.
-Output script:
-pyautogui.click(338.5,408.0)

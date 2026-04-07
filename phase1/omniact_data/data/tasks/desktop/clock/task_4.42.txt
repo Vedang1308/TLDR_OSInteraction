@@ -1,3 +1,0 @@
-Task: Change the 4pm prompt
-Output Script:
-pyautogui.click(1053.5,314.0)

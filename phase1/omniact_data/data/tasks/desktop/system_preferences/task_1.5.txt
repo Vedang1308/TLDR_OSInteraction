@@ -1,3 +1,0 @@
-Task: Click on desktop and screen saver settings option on the screen.
-Output Script:
-pyautogui.click(893.5,582.0)

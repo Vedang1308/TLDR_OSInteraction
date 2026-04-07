@@ -1,5 +1,0 @@
-Task: Add this note "The dress code is formal and entry pass will be required."
-Output script:
-pyautogui.click(1609.0,813.5)
-pyautogui.write("The dress code is formal and entry pass will be required.")
-pyautogui.press("enter")

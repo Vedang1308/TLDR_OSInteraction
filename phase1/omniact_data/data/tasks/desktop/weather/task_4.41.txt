@@ -1,3 +1,0 @@
-Task: Assess the noon position of the sun in the prompt
-Output Script:
-pyautogui.click(2661.0,750.0)

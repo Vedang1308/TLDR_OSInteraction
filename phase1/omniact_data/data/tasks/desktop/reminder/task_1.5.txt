@@ -1,3 +1,0 @@
-Task: View all the events for today
-Output script:
-pyautogui.click(145.0,259.0)

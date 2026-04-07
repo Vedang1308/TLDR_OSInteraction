@@ -1,3 +1,0 @@
-Task: Search and secure reservations for open cruise voyage spots.
-Output script:
-pyautogui.click(1441.0,380.0)

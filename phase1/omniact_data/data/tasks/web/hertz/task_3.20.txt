@@ -1,3 +1,0 @@
-Task: Proceed to the about page
-Output script:
-pyautogui.click(618.5,79.0)

@@ -1,3 +1,0 @@
-Task: Flag the selected message.
-Output script:
-pyautogui.click(2232.5,49.5)

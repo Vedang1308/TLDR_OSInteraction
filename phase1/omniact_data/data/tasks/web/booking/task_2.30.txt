@@ -1,3 +1,0 @@
-Task: Locate and select the search button for available accommodations
-Output Script:
-pyautogui.click(1210.5,500.0)

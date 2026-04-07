@@ -1,4 +1,0 @@
-Task: Jump to the initial part of the slideshow and pause it.
-Output Script:
-pyautogui.click(85.0,2017.5)
-pyautogui.click(3147.0,2015.5)

@@ -1,4 +1,0 @@
-Task: Go up in the dialog box of your chat with Jack
-Output Script:
-pyautogui.click(1150.5,465.0)
-pyautogui.scroll(10)

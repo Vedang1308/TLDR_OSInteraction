@@ -1,3 +1,0 @@
-Task: Click Restaurants tab to open nearby Restaurants
-Output Script:
-pyautogui.click(370.5,81.0)

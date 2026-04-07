@@ -1,3 +1,0 @@
-Task: Enlarge the view of your screen using keyboard command. 
-Output Script:
-pyautogui.hotkey("ctrl", "+")

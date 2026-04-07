@@ -1,3 +1,0 @@
-Task: Open the mobile tab
-Output Script:
-pyautogui.click(34.0,946.5)

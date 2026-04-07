@@ -1,3 +1,0 @@
-Task: Adjust settings for language and region.
-Output Script:
-pyautogui.click(192.5,885.0)

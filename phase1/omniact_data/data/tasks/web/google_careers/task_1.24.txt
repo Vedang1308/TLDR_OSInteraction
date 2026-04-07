@@ -1,3 +1,0 @@
-Task: Activate the "Sort by" feature.
-Output Script:
-pyautogui.click(331.0,636.0)

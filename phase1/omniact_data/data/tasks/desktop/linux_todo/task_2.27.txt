@@ -1,3 +1,0 @@
-Task: Navigate to the "Scheduled" section
-Output Script:
-pyautogui.click(996.0,50.5)

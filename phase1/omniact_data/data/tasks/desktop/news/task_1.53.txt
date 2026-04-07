@@ -1,3 +1,0 @@
-Task: Select the "Business" option.
-Output script:
-pyautogui.click(221.0,912.5)

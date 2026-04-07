@@ -1,5 +1,0 @@
-Task: Add a new location "office" to your saved places.
-Output script:
-pyautogui.click(290.5,528.5)
-pyautogui.write("office")
-pyautogui.press("enter")

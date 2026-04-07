@@ -1,5 +1,0 @@
-Task: Find the cube root for the digit 27.
-Output Script:
-pyautogui.click(1936.5,1159.5)
-pyautogui.click(1823.0,972.0)
-pyautogui.click(1366.0,1065.0)

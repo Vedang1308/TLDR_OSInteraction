@@ -1,5 +1,0 @@
-Task: Input "Killers of the Flower Moon" in the search bar 
-Output Script:
-pyautogui.click(866, 80)
-pyautogui.write("Killers of the Flower Moon")
-pyautogui.press("enter")

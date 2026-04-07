@@ -1,3 +1,0 @@
-Task: View the hidden image options
-Output Script:
-pyautogui.rightClick()

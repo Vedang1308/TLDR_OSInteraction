@@ -1,3 +1,0 @@
-Task: Expand Jack"s profile
-Output Script:
-pyautogui.click(34.0,69.5)

@@ -1,3 +1,0 @@
-Task: Check weather in Chicago
-Output Script:
-pyautogui.click(323.0,173.0)

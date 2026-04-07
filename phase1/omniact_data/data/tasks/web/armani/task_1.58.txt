@@ -1,3 +1,0 @@
-Task: Navigate to the @ArmaniExchange tab by clicking on it from the top menu.
-Output Script:
-pyautogui.click(981.5,171.5)

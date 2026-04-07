@@ -1,3 +1,0 @@
-Task: Access the trash or recycle bin 
-Output script:
-pyautogui.click(187.0,294.5)

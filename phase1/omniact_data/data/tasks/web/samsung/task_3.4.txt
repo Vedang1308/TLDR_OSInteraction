@@ -1,3 +1,0 @@
-Task: Click on the heart icon to add the product to the wishlist
-Output Script:
-pyautogui.click(1394.5,305.5)

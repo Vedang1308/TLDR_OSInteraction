@@ -1,3 +1,0 @@
-Task: Arrange based on Alcohol Group
-Output Script:
-pyautogui.click(249.0,322.0)

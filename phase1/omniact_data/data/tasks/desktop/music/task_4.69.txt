@@ -1,3 +1,0 @@
-Task: Unfold the extra commands menu for the melody "Give In To You"
-Output Script:
-pyautogui.click(2666.0,972.0)

@@ -1,3 +1,0 @@
-Task: Capture a photograph
-Output Script:
-pyautogui.click(1036.0,953.5)

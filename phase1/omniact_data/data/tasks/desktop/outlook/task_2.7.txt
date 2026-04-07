@@ -1,3 +1,0 @@
-Task: Open Sent Mails
-Output Script:
-pyautogui.click(164.5,586.0)

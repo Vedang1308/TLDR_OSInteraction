@@ -1,6 +1,0 @@
-Task: Implement the second filter on the active slideshow
-Output Script:
-pyautogui.click(341.0,2015.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

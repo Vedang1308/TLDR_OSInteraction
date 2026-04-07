@@ -1,3 +1,0 @@
-Task: see previous notes
-Output Script:
-pyautogui.moveTo(368.0,99.0)

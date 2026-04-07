@@ -1,4 +1,0 @@
-Task: Reorder the files starting with the most recent one
-Output Script:
-pyautogui.click(2719.0,132.5)
-pyautogui.click(2719.0,132.5)

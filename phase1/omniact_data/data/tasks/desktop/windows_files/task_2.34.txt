@@ -1,3 +1,0 @@
-Task: Turn the folder view into listing format
-Output Script:
-pyautogui.click(412.0,101.5)

@@ -1,3 +1,0 @@
-Task: Head over to the Cinema & TV Shows category
-Output Script:
-pyautogui.click(46.5,335.0)

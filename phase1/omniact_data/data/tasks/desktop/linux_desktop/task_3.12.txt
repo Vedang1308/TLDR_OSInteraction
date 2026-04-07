@@ -1,5 +1,0 @@
-Task: Search using Keyboard schortcut for frequents apps
-Output Script:
-pyautogui.hotkey("winleft", "a")
-pyautogui.write("frequent apps")
-pyautogui.press("Enter")

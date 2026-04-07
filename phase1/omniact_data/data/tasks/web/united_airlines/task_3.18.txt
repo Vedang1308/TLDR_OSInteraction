@@ -1,4 +1,0 @@
-Task: Click on the fields to select departure and return dates.
-Output script:
-pyautogui.click(798.5,368.0)
-pyautogui.click(984.0,368.0)

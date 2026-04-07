@@ -1,3 +1,0 @@
-Task: Navigate to "Treat your pup all fall" section
-Output Script:
-pyautogui.click(1139.5,691.0)

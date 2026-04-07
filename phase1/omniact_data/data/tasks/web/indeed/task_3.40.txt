@@ -1,3 +1,0 @@
-Task: Access the extended benefits detail page
-Output Script:
-pyautogui.click(556.5,678.0)

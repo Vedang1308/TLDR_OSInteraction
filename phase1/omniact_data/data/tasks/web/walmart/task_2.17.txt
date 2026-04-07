@@ -1,3 +1,0 @@
-Task: Click on the cart icon in the menu bar to view your cart
-Output Script:
-pyautogui.click(1391.0,44.0)

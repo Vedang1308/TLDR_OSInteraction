@@ -1,3 +1,0 @@
-Task: Proceed with the following music piece
-Output script:
-pyautogui.click(1028.5,957.5)

@@ -1,3 +1,0 @@
-Task: Locate accommodations in your current location
-Output Script:
-pyautogui.click(131.0,242.0)

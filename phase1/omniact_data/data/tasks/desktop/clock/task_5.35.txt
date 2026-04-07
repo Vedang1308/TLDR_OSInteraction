@@ -1,7 +1,0 @@
-Task: Set system clock to display 03:15 AM
-Output Script:
-pyautogui.click(1615.5,816.0)
-pyautogui.write("03")
-pyautogui.click(1743.0,815.5)
-pyautogui.write("15")
-pyautogui.click(1617.5,896.5)

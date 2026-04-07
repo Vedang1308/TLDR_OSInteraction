@@ -1,3 +1,0 @@
-Task: Inspect the sunrise position at 6am using the pop-up
-Output Script:
-pyautogui.click(2512.5,750.5)

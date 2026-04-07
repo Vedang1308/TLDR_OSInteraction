@@ -1,3 +1,0 @@
-Task: Search for stays using the bottom button
-Output Script:
-pyautogui.click(791.5,811.0)

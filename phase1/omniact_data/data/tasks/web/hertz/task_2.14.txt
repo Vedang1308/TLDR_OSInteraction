@@ -1,3 +1,0 @@
-Task: Locate and select the search option.
-Output script:
-pyautogui.click(1236.0,358.5)

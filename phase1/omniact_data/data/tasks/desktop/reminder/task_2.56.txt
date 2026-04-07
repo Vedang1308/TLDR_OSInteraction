@@ -1,5 +1,0 @@
-Task: Insert "my house" as the venue of the event.
-Output script:
-pyautogui.click(962.5,1110.5)
-pyautogui.write("my house")
-pyautogui.press("Enter")

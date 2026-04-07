@@ -1,3 +1,0 @@
-Task: Access the shopping basket section
-Output Script:
-pyautogui.click(1383.0,40.0)

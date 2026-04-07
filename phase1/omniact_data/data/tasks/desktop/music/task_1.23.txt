@@ -1,3 +1,0 @@
-Task: Opt for unveiling more features for KDFC radio
-Output script:
-pyautogui.click(1846.5,1699.0)

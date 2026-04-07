@@ -1,3 +1,0 @@
-Task: Explore more information on Springfield, VA
-Output script:
-pyautogui.click(175.0,735.0)

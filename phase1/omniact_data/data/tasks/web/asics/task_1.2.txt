@@ -1,3 +1,0 @@
-Task: Search for Men"s shoes instead of kid"s
-Output Script:
-pyautogui.click(297.5,116.0)

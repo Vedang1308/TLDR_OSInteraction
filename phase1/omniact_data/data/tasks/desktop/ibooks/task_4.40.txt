@@ -1,3 +1,0 @@
-Task: Initiate the reading mode for "Secret Keeper"
-Output Script:
-pyautogui.doubleClick(1881.5,1571.5)

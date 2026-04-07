@@ -1,3 +1,0 @@
-Task: Exit the active tab
-Output Script:
-pyautogui.click(53.5,102.0)

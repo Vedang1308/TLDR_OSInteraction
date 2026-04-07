@@ -1,7 +1,0 @@
-Task: "Find the word "python" in the document and replace it with "java""
-Output Script:
-pyautogui.click(1027.0,490.0)
-pyautogui.write("python")
-pyautogui.click(1027.5,535.0)
-pyautogui.write("java")
-pyautogui.click(1044.5,664.0)

@@ -1,3 +1,0 @@
-Task: See the women"s models
-Output Script: 
-pyautogui.click(245.0,367.5)

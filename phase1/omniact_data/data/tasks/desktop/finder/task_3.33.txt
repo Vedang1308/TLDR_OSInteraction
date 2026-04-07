@@ -1,5 +1,0 @@
-Task: In the help menu, select the option that comes second.
-Output Script:
-pyautogui.click(857.5,23.0)
-pyautogui.press("down")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Adjust the current view setting to "Year"
-Output Script:
-Pyautogui.click(1548.5,70.0)

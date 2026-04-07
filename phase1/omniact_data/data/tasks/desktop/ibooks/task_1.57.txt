@@ -1,3 +1,0 @@
-Task: View the complete collection of Non-Fiction books listed by NY Times
-Output Script:
-pyautogui.click(2811.0,986.5)

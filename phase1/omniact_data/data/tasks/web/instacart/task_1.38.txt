@@ -1,3 +1,0 @@
-Task: Obtain quick shipment from Target Store
-Output Script:
-pyautogui.click(328.0,651.0)

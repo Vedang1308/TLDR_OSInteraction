@@ -1,3 +1,0 @@
-Task: Navigate to the company profile of FlightAware
-Output Script:
-pyautogui.click(1334.5,105.5)

@@ -1,3 +1,0 @@
-Task: Select the 2nd language for the site using mouse
-Output Script:
-pyautogui.click(1119.0,12.0)

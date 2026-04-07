@@ -1,3 +1,0 @@
-Task: Open the sidebar 
-Output Script:
-Pyautogui.click(31.0,69.5)

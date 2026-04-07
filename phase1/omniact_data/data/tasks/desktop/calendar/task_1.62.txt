@@ -1,3 +1,0 @@
-Task: Interact with the numeral 2 displayed on the interface
-Output script:
-pyautogui.click(2258.5,164.0)

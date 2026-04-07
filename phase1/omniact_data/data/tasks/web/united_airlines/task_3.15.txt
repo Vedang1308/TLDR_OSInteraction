@@ -1,4 +1,0 @@
-Task: Navigate to view the top rated flights to Chicago
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

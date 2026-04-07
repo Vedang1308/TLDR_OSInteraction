@@ -1,3 +1,0 @@
-Task: Modify language setting
-Output Script:
-pyautogui.click(88.0,144.0)

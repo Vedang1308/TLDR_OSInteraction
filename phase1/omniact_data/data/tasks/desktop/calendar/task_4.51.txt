@@ -1,3 +1,0 @@
-Task: Navigate to the July month on the calendar to check the appointments. 
-Output script:
-pyautogui.click(1771.5,974.5)

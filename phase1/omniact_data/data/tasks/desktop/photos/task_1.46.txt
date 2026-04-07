@@ -1,3 +1,0 @@
-Task: Pick the snapshot of Lotus Temple located in Sydney
-Output Script:
-pyautogui.click(2479.0,1135.5)

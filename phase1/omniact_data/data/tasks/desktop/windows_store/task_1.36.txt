@@ -1,3 +1,0 @@
-Task: Open Gaming Tab
-Output Script:
-pyautogui.click(46.5,258.5)

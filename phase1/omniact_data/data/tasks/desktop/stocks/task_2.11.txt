@@ -1,3 +1,0 @@
-Task: View the stock change for the past 3 months.
-Output script:
-pyautogui.click(1381.0,394.0)

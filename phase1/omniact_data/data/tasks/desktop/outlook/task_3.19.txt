@@ -1,3 +1,0 @@
-Task: Start creating a new email.
-Output Script:
-pyautogui.click(165.5,131.0)

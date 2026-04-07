@@ -1,3 +1,0 @@
-Task: Rotate the visual data on your screen 90 degrees to the left by using the rotate anticlockwise button.
-Output Script:
-pyautogui.click(1772.5,310.0)

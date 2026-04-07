@@ -1,5 +1,0 @@
-Task: "Access the document titled textfile.txt"
-Output Script:
-pyautogui.click(308.5,48.0)
-pyautogui.write("textfile.txt")
-pyautogui.press("enter")

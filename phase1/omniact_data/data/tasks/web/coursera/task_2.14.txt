@@ -1,3 +1,0 @@
-Task: Extract details for Winter 2024 Applications
-Output Script:
-pyautogui.click(1192.0,403.0)

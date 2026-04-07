@@ -1,3 +1,0 @@
-Task: Click the start date icon
-Output Script:
-pyautogui.click(419.0,432.0)

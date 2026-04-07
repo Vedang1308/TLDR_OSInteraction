@@ -1,3 +1,0 @@
-Task: View the monthly calendar
-Output Script:
-Pyautogui.click(1436.0,72.5)

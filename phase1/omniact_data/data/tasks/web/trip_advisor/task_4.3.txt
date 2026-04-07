@@ -1,3 +1,0 @@
-Task: Open page to write review
-Output Script:
-pyautogui.click(877.0,761.0)

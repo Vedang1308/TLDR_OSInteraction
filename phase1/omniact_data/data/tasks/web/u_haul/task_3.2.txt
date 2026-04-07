@@ -1,3 +1,0 @@
-Task: "Get containers for moving"
-Output Script: 
-pyautogui.click(495.0,82.0)

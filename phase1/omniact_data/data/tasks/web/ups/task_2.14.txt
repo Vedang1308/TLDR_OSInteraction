@@ -1,3 +1,0 @@
-Task: Deactivate Interactive Step-by-step Instructions
-Output Script:
-pyautogui.click(173.5,306.5)

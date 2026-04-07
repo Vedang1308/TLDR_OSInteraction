@@ -1,3 +1,0 @@
-Task: Observe the current map area. 
-Output script:
-pyautogui.click(2573.0,39.0)

@@ -1,5 +1,0 @@
-Task: Execute the square root operation on the number 64.
-Output Script:
-pyautogui.click(2053.0,1066.0)
-pyautogui.click(1820.5,1066.0)
-pyautogui.click(1255.0,1063.5)

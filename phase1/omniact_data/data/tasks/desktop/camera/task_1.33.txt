@@ -1,5 +1,0 @@
-Task: Navigate to and select the second photo in the image gallery. 
-Output Script:
-pyautogui.click(1769.0,137.0)
-pyautogui.press("down")
-pyautogui.press("enter")

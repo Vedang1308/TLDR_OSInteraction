@@ -1,5 +1,0 @@
-Task: Include the guest with "mark@gmail.com" as their email address.
-Output script:
-pyautogui.click(1609.0,748.0)
-pyautogui.write("mark@gmail.com")
-pyautogui.press("enter")

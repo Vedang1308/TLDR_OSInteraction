@@ -1,3 +1,0 @@
-Task: Pursue a career with Mayo Clinic, start job hunting. 
-Output Script:
-pyautogui.click(1021.0,658.0)

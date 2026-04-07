@@ -1,3 +1,0 @@
-Task: Execute a double click to open the Last Kingdom"s excerpt
-Output Script:
-pyautogui.doubleClick(1880.5,404.5)

@@ -1,3 +1,0 @@
-Task: Proceed to the new user registration section
-Output Script:
-pyautogui.click(1295.0,44.0)

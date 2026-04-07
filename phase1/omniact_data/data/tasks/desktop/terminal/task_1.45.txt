@@ -1,3 +1,0 @@
-Task: Use keyboard shortcut to navigate down on the display screen
-Output Script:
-pyautogui.hotkey("ctrl", "down")

@@ -1,5 +1,0 @@
-Task: Increase the image"s size to three times using the zoom in feature
-Output Script:
-pyautogui.click(219.0,51.0)
-pyautogui.click(219.0,51.0)
-pyautogui.click(219.0,51.0)

@@ -1,3 +1,0 @@
-Task: Enable Microsoft Photos settings options
-Output Script:
-pyautogui.click(1838.5,407.0)

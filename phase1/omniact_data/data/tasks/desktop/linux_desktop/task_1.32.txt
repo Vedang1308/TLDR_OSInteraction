@@ -1,6 +1,0 @@
-Task: Access System Settings
-Output Script:
-pyautogui.moveTo(1856.5,13.5)
-pyautogui.click(1856.5,13.5)
-pyautogui.moveTo(1750.5,340.0)
-pyautogui.click(1750.5,340.0)

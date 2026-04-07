@@ -1,3 +1,0 @@
-Task: Determine the way to the Regent"s path.
-Output script:
-pyautogui.click(1556.0,549.5)

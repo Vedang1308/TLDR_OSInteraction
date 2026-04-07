@@ -1,3 +1,0 @@
-Task: Click to option to set end date
-Output Script:
-pyautogui.click(418.0,500.5)

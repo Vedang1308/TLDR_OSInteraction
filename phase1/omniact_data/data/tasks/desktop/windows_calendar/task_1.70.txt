@@ -1,3 +1,0 @@
-Task: Transition to a "yearly" calendar display
-Output Script:
-Pyautogui.click(1548.5,70.0)

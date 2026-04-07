@@ -1,3 +1,0 @@
-Task: Inspect the schedule for December 11 by clicking on the date.
-Output script:
-pyautogui.click(2491.0,1513.0)

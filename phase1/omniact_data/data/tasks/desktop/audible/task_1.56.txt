@@ -1,5 +1,0 @@
-Task: Look up "The 7 Habits of Highly Effective People" in the library search bar.
-Output Script:
-pyautogui.click(1365.0,100.5)
-pyautogui.write("the 7 habits of highly effective people")
-pyautogui.press("enter")

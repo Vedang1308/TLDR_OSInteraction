@@ -1,4 +1,0 @@
-Task: Find and highlight all "Jorge Castro" entries 
-Output Script:
-pyautogui.click(3090.0,101.0)
-pyautogui.write("Jorge Castro")

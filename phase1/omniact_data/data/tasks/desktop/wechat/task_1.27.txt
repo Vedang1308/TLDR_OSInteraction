@@ -1,5 +1,0 @@
-Task: Locate Jack in the chat conversations
-Output Script:
-pyautogui.click(201.5,44.5)
-pyautogui.write("Jack")
-pyautogui.press("enter")

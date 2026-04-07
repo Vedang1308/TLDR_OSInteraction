@@ -1,3 +1,0 @@
-Task: Start the track "Mere Yaara".
-Output Script:
-pyautogui.click(3061.5,399.0)

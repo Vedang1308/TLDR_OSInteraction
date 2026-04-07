@@ -1,3 +1,0 @@
-Task: Research about the university
-Output Script:
-pyautogui.click(981.5,597.5)

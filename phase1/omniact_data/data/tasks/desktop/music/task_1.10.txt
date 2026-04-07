@@ -1,3 +1,0 @@
-Task: Listen to 106.7 Lite FM
-Output script:
-pyautogui.click(2915.5,1459.0)

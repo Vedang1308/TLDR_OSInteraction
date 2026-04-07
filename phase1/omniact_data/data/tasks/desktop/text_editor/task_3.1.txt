@@ -1,5 +1,0 @@
-Task: "Modify p+=1 to p-=1 on line 14"
-Output Script:
-pyautogui.click(459.0,353.5)
-pyautogui.press("backspace")
-pyautogui.write("-")

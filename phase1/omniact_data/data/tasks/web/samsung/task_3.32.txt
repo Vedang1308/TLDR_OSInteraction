@@ -1,3 +1,0 @@
-Task: Navigate to the shop section using the main menu 
-Output Script:
-pyautogui.click(223.5,40.0)

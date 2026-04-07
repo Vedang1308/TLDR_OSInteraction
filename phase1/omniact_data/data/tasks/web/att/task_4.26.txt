@@ -1,3 +1,0 @@
-Task: Navigate to the "Quick Pay" section
-Output Script:
-pyautogui.click(960.0,134.5)

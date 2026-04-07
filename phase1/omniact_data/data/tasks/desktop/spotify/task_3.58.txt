@@ -1,3 +1,0 @@
-Task: Give a thumbs up to "Never Enough" song
-Output script:
-pyautogui.click(249.0,974.0)

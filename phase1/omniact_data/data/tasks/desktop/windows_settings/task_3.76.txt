@@ -1,3 +1,0 @@
-Task: Click on Home located in the left sidebar
-Output Script:
-pyautogui.click(98.0,91.0)

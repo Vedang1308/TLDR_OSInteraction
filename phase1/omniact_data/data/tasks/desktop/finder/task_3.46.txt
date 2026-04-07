@@ -1,3 +1,0 @@
-Task: Click on the App Store icon, the blue one at the bottom of your screen.
-Output Script:
-pyautogui.click(1490.5,2027.5)

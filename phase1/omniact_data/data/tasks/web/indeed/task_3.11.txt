@@ -1,3 +1,0 @@
-Task: Deselect the work region of "United States"
-Output Script:
-pyautogui.click(910.0,246.0)

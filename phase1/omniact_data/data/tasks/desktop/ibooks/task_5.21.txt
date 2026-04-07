@@ -1,3 +1,0 @@
-Task: Access additional data about "The Secret Power" by clicking the ellipsis.
-Output Script:
-pyautogui.click(1339.0,1731.5)

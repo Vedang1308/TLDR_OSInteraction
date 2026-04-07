@@ -1,3 +1,0 @@
-Task: Initiate the operation of Microsoft Clipchamp
-Output Script:
-pyautogui.click(1587.0,186.5)

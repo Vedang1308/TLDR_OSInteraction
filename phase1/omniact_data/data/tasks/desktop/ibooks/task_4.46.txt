@@ -1,3 +1,0 @@
-Task: Run a double click action on "read_heat_2"
-Output Script:
-pyautogui.doubleClick(1881.5,991.5)

@@ -1,3 +1,0 @@
-Task: Listen to 102.7 Los Angeles
-Output script:
-pyautogui.click(788.5,1698.0)

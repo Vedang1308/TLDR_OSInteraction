@@ -1,3 +1,0 @@
-Task: Find and click on the link labelled "terms & conditions" to inspect them.
-Output script:
-pyautogui.click(158.0,1760.0)

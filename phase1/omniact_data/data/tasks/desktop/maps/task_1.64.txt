@@ -1,3 +1,0 @@
-Task: Activate the compass feature.
-Output script:
-pyautogui.click(2806.0,1727.0)

@@ -1,3 +1,0 @@
-Task: Click on the dot to examine the features of the Starfield game. 
-Output Script:
-pyautogui.click(953.0,704.0)

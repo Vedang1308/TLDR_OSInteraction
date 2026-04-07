@@ -1,3 +1,0 @@
-Task: To see more Top Deals, press the rightward pointing arrow.
-Output Script:
-pyautogui.click(1396.0,359.5)

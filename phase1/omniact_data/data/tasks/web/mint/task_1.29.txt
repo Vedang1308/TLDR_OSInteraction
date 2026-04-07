@@ -1,3 +1,0 @@
-Task: Navigate to the Support Section
-Output Script:
-pyautogui.click(1093.0,89.0)

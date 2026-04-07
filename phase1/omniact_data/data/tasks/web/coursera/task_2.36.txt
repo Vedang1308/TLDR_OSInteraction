@@ -1,3 +1,0 @@
-Task: Navigate to Applications page for Winter 2024
-Output Script:
-pyautogui.click(736.0,131.0)

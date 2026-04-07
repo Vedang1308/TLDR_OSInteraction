@@ -1,3 +1,0 @@
-Task: Increase the photo size for better visibility of the garments.
-Output Script: 
-pyautogui.click(833.0,729.0)

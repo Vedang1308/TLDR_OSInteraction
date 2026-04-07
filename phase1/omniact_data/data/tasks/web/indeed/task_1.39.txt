@@ -1,3 +1,0 @@
-Task: Visit the ongoing events section of Indeed
-Output Script:
-pyautogui.click(862.5,785.0)

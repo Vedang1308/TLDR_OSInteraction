@@ -1,6 +1,0 @@
-Task: Browse down through the website content
-Output Script:
-pyautogui.press("space")
-pyautogui.press("space")
-pyautogui.press("space")
-pyautogui.press("space")

@@ -1,3 +1,0 @@
-Task: Access the annual calendar
-Output Script:
-Pyautogui.click(1546.5,71.0)

@@ -1,3 +1,0 @@
-Task: Inspect the items stored in the shopping cart by clicking the cart symbol
-Output Script:
-pyautogui.click(1361.5,72.0)

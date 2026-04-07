@@ -1,3 +1,0 @@
-Task: Tune into 102.7 LA radio station
-Output script:
-pyautogui.click(788.5,1698.0)

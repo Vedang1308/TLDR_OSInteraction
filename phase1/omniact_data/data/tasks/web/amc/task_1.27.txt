@@ -1,4 +1,0 @@
-Task: Start video player and immediately press pause
-Output Script:
-pyautogui.click(357.5,508.5)
-pyautogui.press("space")

@@ -1,3 +1,0 @@
-Task: Initiate reading of "Dreamland" from Bestseller paid charts
-Output Script:
-pyautogui.click(789.0,843.5)

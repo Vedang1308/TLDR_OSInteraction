@@ -1,3 +1,0 @@
-Task: Open Serras hotel"s information page
-Output Script:
-pyautogui.click(563.0,761.0)

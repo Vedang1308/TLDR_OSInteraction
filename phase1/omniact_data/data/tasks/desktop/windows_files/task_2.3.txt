@@ -1,3 +1,0 @@
-Task: Change the layout of the folder to list view
-Output Script:
-pyautogui.click(412.0,101.5)

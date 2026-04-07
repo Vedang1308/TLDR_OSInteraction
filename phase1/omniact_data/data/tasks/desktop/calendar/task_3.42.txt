@@ -1,4 +1,0 @@
-Task: Set up an event for the Lunar New Year.
-Output script:
-pyautogui.click(2675.5,1666.0)
-pyautogui.click(2675.5,1666.0)

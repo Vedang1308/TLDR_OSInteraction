@@ -1,3 +1,0 @@
-Task: Navigate and observe various health-related subjects 
-Output Script:
-pyautogui.click(1215.0,744.0)

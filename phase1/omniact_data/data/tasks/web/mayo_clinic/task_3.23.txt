@@ -1,3 +1,0 @@
-Task: Access MayoLink site.
-Output Script:
-pyautogui.click(1135.5,32.0)

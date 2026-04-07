@@ -1,3 +1,0 @@
-Task: Open uninstall apps settings from the first column of buttons
-Output Script:
-pyautogui.click(285.5,552.5)

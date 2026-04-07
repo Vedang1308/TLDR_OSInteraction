@@ -1,3 +1,0 @@
-Task: "Launch the menu selections"
-Output Script:
-pyautogui.click(1768.5,48.5)

@@ -1,3 +1,0 @@
-Task: Ignore the suggested revision from Grammarly
-Output script:
-pyautogui.click(1197.0,257.0)

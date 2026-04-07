@@ -1,3 +1,0 @@
-Task: Activate emoji by clicking
-Output Script:
-pyautogui.click(3306.0,2042.5)

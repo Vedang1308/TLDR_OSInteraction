@@ -1,3 +1,0 @@
-Task: Relocate the chosen email into the junk folder.
-Output script:
-pyautogui.click(1850.5,49.5)

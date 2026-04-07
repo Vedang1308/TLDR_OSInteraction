@@ -1,3 +1,0 @@
-Task: "Click on the untitled document button from the sidebar"
-Output Script:
-pyautogui.click(158.0,124.5)

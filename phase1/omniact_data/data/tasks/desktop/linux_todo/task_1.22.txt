@@ -1,3 +1,0 @@
-Task: Mark "gardening" task as completed
-Output Script:
-pyautogui.click(694.5,156.0)

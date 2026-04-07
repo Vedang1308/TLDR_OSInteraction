@@ -1,3 +1,0 @@
-Task: Store the current document quickly using keyboard commands
-Output Script:
-pyautogui.hotkey("ctrl", "s")

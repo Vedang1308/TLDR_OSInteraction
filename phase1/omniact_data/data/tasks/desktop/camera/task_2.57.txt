@@ -1,3 +1,0 @@
-Task: Adjust the display to cover the entire screen
-Output Script:
-pyautogui.click(1856.0,50.5)

@@ -1,3 +1,0 @@
-Task: "Secure a 20-foot vehicle for a 3-BR apartment move"
-Output Script:
-pyautogui.click(1043.0,724.5)

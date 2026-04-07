@@ -1,4 +1,0 @@
-Task: Access the Personal directory before returning to the folder that has been previously opened.
-Output Script:
-pyautogui.click(1883.0,309.0)
-pyautogui.press("backspace")

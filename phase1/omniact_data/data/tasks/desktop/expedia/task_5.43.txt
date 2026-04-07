@@ -1,3 +1,0 @@
-Task: Fetch all spots close to "Times Square".
-Output script:
-pyautogui.click(1442.0,1285.0)

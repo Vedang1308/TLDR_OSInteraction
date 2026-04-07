@@ -1,3 +1,0 @@
-Task: Activate airplay functionality for the music platform.
-Output Script:
-pyautogui.click(3163.0,50.5)

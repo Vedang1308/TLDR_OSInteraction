@@ -1,4 +1,0 @@
-Task: Utilize the item tick boxes to select all the items enclosed in the current folder.
-Output Script:
-pyautogui.click(958.5,75.0)
-pyautogui.hotkey("ctrl", "a")

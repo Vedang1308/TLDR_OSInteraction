@@ -1,5 +1,0 @@
-Task: Retrieve Flight information using Flight number: A1234
-Output Script:
-pyautogui.click(635.0,62.5)
-pyautogui.write("A1234")
-pyautogui.click(846.5,62.5)

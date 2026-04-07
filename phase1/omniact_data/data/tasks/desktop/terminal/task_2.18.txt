@@ -1,5 +1,0 @@
-Task: Divide your screen into two sections using the view option.
-Output Script:
-pyautogui.click(475.5,23.0)
-pyautogui.write("split pane")
-pyautogui.press("enter")

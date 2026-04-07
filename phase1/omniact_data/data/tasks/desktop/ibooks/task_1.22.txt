@@ -1,3 +1,0 @@
-Task: Explore the range of Mystery Books under the "More to Explore" tab.
-Output Script:
-pyautogui.click(741.5,1374.0)

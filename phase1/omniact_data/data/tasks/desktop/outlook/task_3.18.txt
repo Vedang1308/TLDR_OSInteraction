@@ -1,3 +1,0 @@
-Task: Initiate a new email composition.
-Output Script:
-pyautogui.click(165.5,131.0)

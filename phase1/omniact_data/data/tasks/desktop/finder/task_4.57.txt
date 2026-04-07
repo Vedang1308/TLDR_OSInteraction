@@ -1,3 +1,0 @@
-Task: Enable the don"t disturb option
-Output Script:
-pyautogui.click(3194.0,139.5)

@@ -1,3 +1,0 @@
-Task: Open the option menu.
-Output Script:
-pyautogui.click(718.0,600.0)

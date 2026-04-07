@@ -1,3 +1,0 @@
-Task: Open the history of played songs
-Output Script:
-pyautogui.click(3193.0,172.5)

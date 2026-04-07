@@ -1,3 +1,0 @@
-Task: Add content to the email
-Output Script:
-pyautogui.click(902.0,73.5)

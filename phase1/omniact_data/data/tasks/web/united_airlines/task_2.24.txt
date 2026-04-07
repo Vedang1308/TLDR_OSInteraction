@@ -1,3 +1,0 @@
-Task: Proceed to search travel credits
-Output script:
-pyautogui.click(228.0,753.0)

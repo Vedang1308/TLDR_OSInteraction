@@ -1,3 +1,0 @@
-Task: Toggle between loop and loop once
-Output script:
-pyautogui.click(1080.5,957.5)

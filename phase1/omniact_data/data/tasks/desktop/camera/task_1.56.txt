@@ -1,3 +1,0 @@
-Task: Initiate a printing process for the chosen picture
-Output Script:
-pyautogui.click(1765.0,193.0)

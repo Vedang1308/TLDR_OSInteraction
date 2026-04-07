@@ -1,3 +1,0 @@
-Task: Turn on the task set at noon
-Output Script:
-pyautogui.click(534.0,426.5)

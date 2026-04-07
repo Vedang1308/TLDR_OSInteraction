@@ -1,5 +1,0 @@
-Task: Navigate to the parent directory using "cd" command
-Output Script:
-pyautogui.click(1995.0,183.5)
-pyautogui.write("cd ../")
-pyautogui.press("enter")

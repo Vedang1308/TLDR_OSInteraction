@@ -1,4 +1,0 @@
-Task: Copy to clipboard all of the document
-Output script:
-pyautogui.click(191.5,669.0)
-pyautogui.hotkey("ctrl", "c")

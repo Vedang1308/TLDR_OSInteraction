@@ -1,4 +1,0 @@
-Task: Approve Grammarly"s recommended correction for the word "inheritance"
-Output script:
-pyautogui.click(459.0,200.5)
-pyautogui.click(1101.5,256.0)

@@ -1,5 +1,0 @@
-Task: Search for XY Program
-Output Script:
-pyautogui.click(1268.0,19.5)
-pyautogui.write("XY Program")
-pyautogui.press("enter")

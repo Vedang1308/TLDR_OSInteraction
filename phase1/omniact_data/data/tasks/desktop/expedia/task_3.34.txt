@@ -1,3 +1,0 @@
-Task: Use the "back" button to go to the previous webpage.  
-Output script:
-pyautogui.click(47.0,36.0)

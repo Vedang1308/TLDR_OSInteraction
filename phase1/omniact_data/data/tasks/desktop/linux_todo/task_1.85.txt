@@ -1,5 +1,0 @@
-Task: Add "study for exam" task
-Output Script:
-pyautogui.click(731.5,805.0)
-pyautogui.write("yoga class")
-pyautogui.press("Enter")

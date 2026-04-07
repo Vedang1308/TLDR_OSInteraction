@@ -1,3 +1,0 @@
-Task: Use a double-click to zoom in on the grasslands photo
-Output Script:
-pyautogui.doubleClick(2858.0,1535.5)

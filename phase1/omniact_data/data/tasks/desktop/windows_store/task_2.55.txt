@@ -1,3 +1,0 @@
-Task: Choose the 4th application in the gaming category.
-Output Script:
-pyautogui.click(983.0,704.5)

@@ -1,3 +1,0 @@
-Task: Update the email inbox
-Output Script:
-pyautogui.click(599.5,71.0)

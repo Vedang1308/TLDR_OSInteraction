@@ -1,3 +1,0 @@
-Task: Access to Packages area via "bundle & save" button
-Output script:
-pyautogui.click(720.0,590.0)

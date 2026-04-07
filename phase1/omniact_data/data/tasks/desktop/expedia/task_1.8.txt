@@ -1,3 +1,0 @@
-Task: View available car rental options.
-Output script:
-pyautogui.click(2383.0,226.5)

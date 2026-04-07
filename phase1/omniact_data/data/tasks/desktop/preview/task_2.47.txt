@@ -1,3 +1,0 @@
-Task: Access the text panel.
-Output script:
-pyautogui.click(577.5,184.5)

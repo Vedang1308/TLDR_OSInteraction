@@ -1,3 +1,0 @@
-Task: Choose the second image depicting hot air balloons
-Output Script:
-pyautogui.doubleClick(1315.5,539.0)

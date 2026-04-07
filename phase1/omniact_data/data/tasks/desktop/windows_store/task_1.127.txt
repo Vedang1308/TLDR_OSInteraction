@@ -1,3 +1,0 @@
-Task: Run LinkedIn application
-Output Script:
-pyautogui.click(1295.5,667.0)

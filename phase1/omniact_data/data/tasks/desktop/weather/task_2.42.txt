@@ -1,3 +1,0 @@
-Task: Pull up "feels like" weather information for New Delhi
-Output Script:
-pyautogui.click(1843.5,1608.0)

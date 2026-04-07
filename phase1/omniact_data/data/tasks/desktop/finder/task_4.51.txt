@@ -1,3 +1,0 @@
-Task: Halt the ongoing song
-Output Script:
-pyautogui.click(3228.0,717.0)

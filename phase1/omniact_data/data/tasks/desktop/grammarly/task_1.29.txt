@@ -1,3 +1,0 @@
-Task: Check total performance score
-Output script:
-pyautogui.click(1780.5,160.0)

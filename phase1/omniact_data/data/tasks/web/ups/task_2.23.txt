@@ -1,3 +1,0 @@
-Task: Activate the "Ask UPS" function and select "frequently_asked_questions".
-Output Script:
-pyautogui.click(1314.0,882.5)

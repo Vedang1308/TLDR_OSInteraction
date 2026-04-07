@@ -1,5 +1,0 @@
-Task: Attend a conference on a platform using the meeting identification number 123456789.
-Output Script:
-pyautogui.click(1129.5,746.5)
-pyautogui.write("123456789")
-pyautogui.press("enter")

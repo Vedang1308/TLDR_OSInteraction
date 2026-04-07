@@ -1,3 +1,0 @@
-Task: Alert me on Popular Music Hits
-Output script:
-pyautogui.click(2300.5,396.5)

@@ -1,3 +1,0 @@
-Task: Select the number four on the display
-Output script:
-pyautogui.click(2367.5,164.5)

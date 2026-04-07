@@ -1,3 +1,0 @@
-Task: Show entire directory of global radio stations
-Output script:
-pyautogui.click(717.5,1905.5)

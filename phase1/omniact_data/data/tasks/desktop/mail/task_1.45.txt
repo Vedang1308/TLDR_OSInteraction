@@ -1,3 +1,0 @@
-Task: Transfer the highlighted email to the spam box.
-Output script:
-pyautogui.click(1850.5,49.5)

@@ -1,3 +1,0 @@
-Task: Access the Entire Photo Gallery 
-Output Script:
-pyautogui.click(1199.5,695.0)

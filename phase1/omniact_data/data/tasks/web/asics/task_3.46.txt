@@ -1,3 +1,0 @@
-Task: Check if medium size is available in inventory. 
-Output Script: 
-pyautogui.click(1082.5,477.5)

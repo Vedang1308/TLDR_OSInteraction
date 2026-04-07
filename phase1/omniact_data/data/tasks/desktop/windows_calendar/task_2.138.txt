@@ -1,3 +1,0 @@
-Task: Shift to the last month on your calendar view
-Output Script:
-Pyautogui.click(244.0,192.5)

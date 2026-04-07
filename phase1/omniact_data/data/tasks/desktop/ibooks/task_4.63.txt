@@ -1,3 +1,0 @@
-Task: Access more information about the book "Heat 2" by selecting the three dots at the side.
-Output Script:
-pyautogui.click(3263.5,1067.0)

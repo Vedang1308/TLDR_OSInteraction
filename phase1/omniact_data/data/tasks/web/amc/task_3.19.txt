@@ -1,5 +1,0 @@
-Task: Navigate to the following fields after the email input to check for information input. 
-Output Script:
-pyautogui.click(451.0,797.5)
-pyautogui.press("tab")
-pyautogui.press("tab")

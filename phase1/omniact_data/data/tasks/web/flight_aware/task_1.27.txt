@@ -1,8 +1,0 @@
-Task: Perform the task of changing the website"s language to the second option using keyboard controls.
-Output Script:
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("enter")
-pyautogui.press("down")
-pyautogui.press("enter")

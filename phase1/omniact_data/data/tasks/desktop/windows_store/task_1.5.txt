@@ -1,3 +1,0 @@
-Task: Open Tiktok app details
-Output Script:
-pyautogui.click(860.5,666.5)

@@ -1,3 +1,0 @@
-Task: Click on the "Game mode" option located on the left panel to open the settings. 
-Output Script:
-pyautogui.click(199.0,400.0)

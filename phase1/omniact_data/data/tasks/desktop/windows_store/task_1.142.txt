@@ -1,3 +1,0 @@
-Task: Launch Top Free Apps Section
-Output Script:
-pyautogui.click(228.5,88.0)

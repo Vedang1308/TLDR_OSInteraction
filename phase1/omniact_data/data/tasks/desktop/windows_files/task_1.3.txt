@@ -1,6 +1,0 @@
-Task: Copy "template.txt" into the "downloads" folder of this same directory only using keyboard shortcuts
-Output Script:
-pyautogui.click(700.0,521.0)
-pyautogui.hotkey("ctrl","c")
-pyautogui.click(700.0,360.0)
-pyautogui.hotkey("ctrl","v")

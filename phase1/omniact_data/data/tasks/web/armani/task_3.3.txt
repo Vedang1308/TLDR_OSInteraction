@@ -1,3 +1,0 @@
-Task: Redirect to the Armani/dolci homepage by clicking on the logo in the upper left hand corner
-Output Script:
-pyautogui.click(145.0,76.0)

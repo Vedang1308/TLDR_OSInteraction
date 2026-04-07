@@ -1,5 +1,0 @@
-Task: Establish "office" as a new addition to your preset locations.
-Output script:
-pyautogui.click(290.5,528.5)
-pyautogui.write("office")
-pyautogui.press("enter")

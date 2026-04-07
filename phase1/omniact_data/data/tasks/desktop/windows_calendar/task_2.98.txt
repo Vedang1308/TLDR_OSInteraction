@@ -1,3 +1,0 @@
-Task: Navigate to the month before on the calendar
-Output Script:
-Pyautogui.click(244.0,192.5)

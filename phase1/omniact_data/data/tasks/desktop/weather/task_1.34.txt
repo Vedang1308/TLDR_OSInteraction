@@ -1,3 +1,0 @@
-Task: Assess wind situation on map view
-Output Script:
-pyautogui.click(2640.5,809.5)

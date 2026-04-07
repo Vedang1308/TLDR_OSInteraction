@@ -1,3 +1,0 @@
-Task: Check the reviews for the washer
-Output Script:
-pyautogui.click(181.5,305.5)

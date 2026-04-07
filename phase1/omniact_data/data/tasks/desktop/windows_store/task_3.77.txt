@@ -1,3 +1,0 @@
-Task: Access Intel Graphics settings
-Output Script:
-pyautogui.click(1840.0,991.5)

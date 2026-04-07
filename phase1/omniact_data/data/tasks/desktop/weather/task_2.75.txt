@@ -1,3 +1,0 @@
-Task: Determine the UV ratings for Vancouver
-Output Script:
-pyautogui.click(1841.5,1286.0)

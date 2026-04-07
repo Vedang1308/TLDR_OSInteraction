@@ -1,5 +1,0 @@
-Task: Switch the filter menu to first option in the drop down list.
-Output Script:
-pyautogui.click(341.0,2015.5)
-pyautogui.press("down")
-pyautogui.press("enter")

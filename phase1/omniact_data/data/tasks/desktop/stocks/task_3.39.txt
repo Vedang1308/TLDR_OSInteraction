@@ -1,3 +1,0 @@
-Task: Proceed to scroll down for further news updates.
-Output script:
-pyautogui.scroll(-100)

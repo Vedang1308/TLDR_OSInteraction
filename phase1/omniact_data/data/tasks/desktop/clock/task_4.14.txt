@@ -1,3 +1,0 @@
-Task: Toggle on the 12pm task
-Output Script:
-pyautogui.click(534.0,426.5)

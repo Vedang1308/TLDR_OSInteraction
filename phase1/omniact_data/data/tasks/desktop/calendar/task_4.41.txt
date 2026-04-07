@@ -1,3 +1,0 @@
-Task: Select the February month on the calendar to browse its activities.
-Output script:
-pyautogui.click(1085.5,449.5)

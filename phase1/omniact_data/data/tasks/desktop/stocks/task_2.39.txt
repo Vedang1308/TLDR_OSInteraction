@@ -1,3 +1,0 @@
-Task: Scrutinize the past 5 years stock variation.
-Output script:
-pyautogui.click(2350.5,392.5)

@@ -1,3 +1,0 @@
-Task: Check out all the possible effects
-Output Script:
-pyautogui.click(1846.0,953.5)

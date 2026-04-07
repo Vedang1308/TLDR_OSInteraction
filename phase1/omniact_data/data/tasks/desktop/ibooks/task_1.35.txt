@@ -1,5 +1,0 @@
-Task: Use the dropdown on the top right to find and select the Sci-fi book section.
-Output Script:
-pyautogui.click(3194.0,52.0)
-pyautogui.write("Sci-fi")
-pyautogui.press("enter")

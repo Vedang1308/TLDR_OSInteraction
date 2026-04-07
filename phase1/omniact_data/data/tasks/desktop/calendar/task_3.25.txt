@@ -1,4 +1,0 @@
-Task: Perform a double click action for the Groundhog Day event.
-Output script:
-pyautogui.click(2270.5,1413.0)
-pyautogui.click(2270.5,1413.0)

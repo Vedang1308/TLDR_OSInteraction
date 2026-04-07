@@ -1,3 +1,0 @@
-Task: Redirect to FlightAware"s company page
-Output Script:
-pyautogui.click(1334.5,105.5)

@@ -1,3 +1,0 @@
-Task: Select the heart symbol to add the item to your preferred list
-Output Script:
-pyautogui.click(1394.5,305.5)

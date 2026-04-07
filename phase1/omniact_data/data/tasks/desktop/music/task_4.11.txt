@@ -1,3 +1,0 @@
-Task: Open the more options menu for the song "Good Things"
-Output Script:
-pyautogui.click(2665.0,540.0)

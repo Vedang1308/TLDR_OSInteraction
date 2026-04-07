@@ -1,3 +1,0 @@
-Task: Go ahead and include a new calendar.
-Output Script:
-Pyautogui.click(108.0,941.5)

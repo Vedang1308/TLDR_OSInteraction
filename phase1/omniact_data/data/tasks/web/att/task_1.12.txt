@@ -1,6 +1,0 @@
-Task: Access the second feature of the My AT&T portal.
-Output Script:
-pyautogui.click(1324.0,67.0)
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("enter")

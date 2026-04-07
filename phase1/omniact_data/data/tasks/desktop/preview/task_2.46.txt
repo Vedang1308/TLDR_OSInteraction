@@ -1,3 +1,0 @@
-Task: Select the preference to adjust the size of the font in the text.
-Output script:
-pyautogui.click(1208.5,184.0)

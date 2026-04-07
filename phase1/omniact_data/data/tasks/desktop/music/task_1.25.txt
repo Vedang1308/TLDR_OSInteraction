@@ -1,3 +1,0 @@
-Task: Unfold the complete catalog of international radio stations 
-Output script:
-pyautogui.click(717.5,1905.5)

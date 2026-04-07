@@ -1,3 +1,0 @@
-Task: Go to and click the playlist Bollywood Romance
-Output Script:
-pyautogui.click(1639.5,445.0)

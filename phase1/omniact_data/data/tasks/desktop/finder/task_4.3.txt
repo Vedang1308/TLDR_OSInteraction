@@ -1,4 +1,0 @@
-Task: Start playing the song from panel and move to next song
-Output Script:
-pyautogui.click(3228.0,717.0)
-pyautogui.click(3283.5,717.5)

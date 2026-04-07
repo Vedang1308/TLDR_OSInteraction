@@ -1,3 +1,0 @@
-Task: Adjust the calendar setting to display by month
-Output Script:
-Pyautogui.click(1438.5,69.5)

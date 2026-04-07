@@ -1,3 +1,0 @@
-Task: Navigate to the settings of Game Bar
-Output Script:
-pyautogui.click(199.0,282.0)

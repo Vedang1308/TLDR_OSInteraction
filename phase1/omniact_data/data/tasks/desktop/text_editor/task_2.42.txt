@@ -1,3 +1,0 @@
-Task: "Turn off the checked option for wrap around in the find replace bar"
-Output Script:
-pyautogui.click(1127.0,602.5)

@@ -1,3 +1,0 @@
-Task: Navigate to the fourth deal displayed on the monitor
-Output Script:
-pyautogui.click(756.0,770.0)

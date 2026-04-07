@@ -1,3 +1,0 @@
-Task: Use key combination to highlight all files in the current folder.
-Output Script:
-pyautogui.hotkey("ctrl", "a")

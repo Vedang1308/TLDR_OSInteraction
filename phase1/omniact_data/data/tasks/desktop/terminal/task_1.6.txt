@@ -1,3 +1,0 @@
-Task: Copy the selected text using keyboard shortcut
-Output Script:
-pyautogui.hotkey("ctrl", "c")

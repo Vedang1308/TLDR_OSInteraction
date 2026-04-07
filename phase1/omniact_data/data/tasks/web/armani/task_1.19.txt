@@ -1,3 +1,0 @@
-Task: Procure the 4th item by selecting the relative shopping bag icon
-Output Script:
-pyautogui.click(916.0,858.0)

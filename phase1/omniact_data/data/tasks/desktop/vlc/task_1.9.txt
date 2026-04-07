@@ -1,3 +1,0 @@
-Task: Rotate the video clockwise using the rotate clockwise button
-Output Script:
-pyautogui.click(1770.5,282.5)

@@ -1,3 +1,0 @@
-Task: Terminate search bar with the aid of mouse click
-Output Script:
-pyautogui.click(1895.5,97.0)

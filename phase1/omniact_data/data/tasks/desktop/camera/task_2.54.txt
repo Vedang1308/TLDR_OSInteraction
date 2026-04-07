@@ -1,3 +1,0 @@
-Task: Click the minimize button to hide the current screen
-Output Script:
-pyautogui.click(1817.0,50.5)

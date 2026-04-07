@@ -1,3 +1,0 @@
-Task: Utilize the right-click action to open "windows_c_option"
-Output Script:
-pyautogui.rightClick(155.5,670.5)

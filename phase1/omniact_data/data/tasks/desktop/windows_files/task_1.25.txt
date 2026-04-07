@@ -1,3 +1,0 @@
-Task: Refresh the directory to update any changes made
-Output Script:
-pyautogui.click(1524.5,193.5)

@@ -1,5 +1,0 @@
-Task: Modify the writing size to 18pts
-Output script:
-pyautogui.click(2001.0,132.5)
-pyautogui.write("18")
-pyautogui.press("enter")

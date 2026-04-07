@@ -1,3 +1,0 @@
-Task: Choose the brushed navy color for the washer
-Output Script:
-pyautogui.click(975.5,806.0)

@@ -1,4 +1,0 @@
-Task: Capture the current display on the screen
-Output Script:
-pyautogui.hotkey("shift", "ctrl", "5")
-pyautogui.press("enter")

@@ -1,4 +1,0 @@
-Task: Update the second"s value to 59.
-Output Script:
-pyautogui.click(1960.0,980.5)
-pyautogui.write("59")

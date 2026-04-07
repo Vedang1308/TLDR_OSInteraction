@@ -1,3 +1,0 @@
-Task: Redirect to TripAdvisor home page
-Output Script:
-pyautogui.click(246.0,190.0)

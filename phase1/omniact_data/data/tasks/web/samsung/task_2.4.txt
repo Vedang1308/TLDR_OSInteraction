@@ -1,3 +1,0 @@
-Task: Open the SmartThings dropdown from the top menu
-Output Script:
-pyautogui.click(771.0,40.0)

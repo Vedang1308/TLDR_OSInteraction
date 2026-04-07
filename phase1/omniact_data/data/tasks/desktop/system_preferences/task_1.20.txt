@@ -1,3 +1,0 @@
-Task: Move on to the following page in the system preferences window.
-Output Script:
-pyautogui.click(928.0,194.0)

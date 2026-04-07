@@ -1,3 +1,0 @@
-Task: Look up ten-day weather outlook for Milan
-Output Script:
-pyautogui.click(1360.0,1287.5)

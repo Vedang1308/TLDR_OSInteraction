@@ -1,5 +1,0 @@
-Task: Locate and select the "Mark as Spam" function
-Output Script:
-pyautogui.click(1107.0,74.5)
-pyautogui.write("Mark as Spam")
-pyautogui.press("enter")

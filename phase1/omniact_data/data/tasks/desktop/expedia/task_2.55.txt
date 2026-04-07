@@ -1,3 +1,0 @@
-Task: Increment the count of travelers by one in the booking details.
-Output script:
-pyautogui.click(1449.0,499.5)

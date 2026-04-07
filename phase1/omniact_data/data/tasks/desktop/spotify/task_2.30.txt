@@ -1,4 +1,0 @@
-Task: Scroll through the playlist to see the forthcoming songs
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

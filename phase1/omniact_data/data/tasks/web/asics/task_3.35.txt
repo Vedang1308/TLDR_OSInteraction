@@ -1,3 +1,0 @@
-Task: click on the category named "Jackets & Outerwear"  
-Output Script: 
-pyautogui.click(343.5,217.5)

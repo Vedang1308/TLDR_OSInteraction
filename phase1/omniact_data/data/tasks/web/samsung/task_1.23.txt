@@ -1,3 +1,0 @@
-Task: Progress to the next picture exhibition
-Output Script:
-pyautogui.click(751.0,783.0)

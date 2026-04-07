@@ -1,3 +1,0 @@
-Task: Inspect the note related to Goodfellow
-Output script:
-pyautogui.click(961.5,873.5)

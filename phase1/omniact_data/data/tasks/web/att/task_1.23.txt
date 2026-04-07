@@ -1,3 +1,0 @@
-Task: Inspect the Motorola Razr deal.
-Output Script:
-pyautogui.click(190.0,538.0)

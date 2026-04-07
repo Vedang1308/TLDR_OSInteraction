@@ -1,3 +1,0 @@
-Task: Access the Dow Jones stock.
-Output script:
-pyautogui.click(332.5,398.0)

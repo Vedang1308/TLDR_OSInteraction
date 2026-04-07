@@ -1,5 +1,0 @@
-Task: Search for the term "client" in the current document.
-Output script:
-pyautogui.hotkey("ctrl", "f")
-pyautogui.write("client")
-pyautogui.press("enter")

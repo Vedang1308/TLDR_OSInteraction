@@ -1,5 +1,0 @@
-Task: Find the directions to the nearest bus or train station.
-Output script:
-pyautogui.click(1556.0,549.5)
-pyautogui.write("public transportation")
-pyautogui.press("enter")

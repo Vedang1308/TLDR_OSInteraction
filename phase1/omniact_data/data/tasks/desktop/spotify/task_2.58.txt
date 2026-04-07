@@ -1,3 +1,0 @@
-Task: Navigate to the album section
-Output script:
-pyautogui.click(1739.0,423.5)

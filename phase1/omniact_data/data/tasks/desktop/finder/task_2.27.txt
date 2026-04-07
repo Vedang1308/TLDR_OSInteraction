@@ -1,4 +1,0 @@
-Task: Erase the final folder from the list utilizing keyboard keys.
-Output Script:
-pyautogui.click(1881.0,469.0)
-pyautogui.press("backspace")

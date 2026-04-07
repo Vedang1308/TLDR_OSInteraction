@@ -1,3 +1,0 @@
-Task: Launch the press release section on the website
-Output Script:
-pyautogui.moveTo(164.0,508.5)

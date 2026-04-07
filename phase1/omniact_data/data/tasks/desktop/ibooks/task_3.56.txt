@@ -1,4 +1,0 @@
-Task: Save the current page to bookmarks and display all saved bookmarks
-Output Script:
-pyautogui.click(3169.5,101.5)
-pyautogui.click(289.0,100.5)

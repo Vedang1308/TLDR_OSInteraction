@@ -1,3 +1,0 @@
-Task: Change to list view format.
-Output Script:
-pyautogui.click(1971.0,99.0)

@@ -1,3 +1,0 @@
-Task: Add "Ants of Bimbleby Hill" to favourites
-Output Script:
-pyautogui.click(735.0,828.5)

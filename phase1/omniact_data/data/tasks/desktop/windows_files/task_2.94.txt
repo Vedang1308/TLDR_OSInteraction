@@ -1,7 +1,0 @@
-Task: Save "project" file with a new name "project_backup".
-Output Script:
-pyautogui.click(477.5,340.0)
-pyautogui.click(477.5,340.0)
-pyautogui.hotkey("ctrl", "s")
-pyautogui.typewrite("project_backup")
-pyautogui.press("enter")

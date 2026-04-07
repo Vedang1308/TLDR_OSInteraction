@@ -1,3 +1,0 @@
-Task: Unfold Grammarly"s suggestion list
-Output script:
-pyautogui.click(84.0,68.5)

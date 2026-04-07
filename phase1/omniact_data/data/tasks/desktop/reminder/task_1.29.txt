@@ -1,3 +1,0 @@
-Task: Check all the scheduled activities for today
-Output script:
-pyautogui.click(145.0,259.0)

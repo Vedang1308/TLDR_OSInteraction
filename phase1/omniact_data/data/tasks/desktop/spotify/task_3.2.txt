@@ -1,3 +1,0 @@
-Task: Listen to Cutains Up
-Output script:
-pyautogui.click(956.5,563.0)

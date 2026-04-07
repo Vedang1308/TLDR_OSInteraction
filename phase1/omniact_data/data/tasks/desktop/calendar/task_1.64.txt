@@ -1,3 +1,0 @@
-Task: Choose the number 3 from the calendar
-Output script:
-pyautogui.click(2313.0,163.5)

@@ -1,3 +1,0 @@
-Task: Add new task
-Output Script:
-pyautogui.click(731.5,805.0)

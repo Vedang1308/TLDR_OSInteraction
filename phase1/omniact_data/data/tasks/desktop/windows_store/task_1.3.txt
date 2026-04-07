@@ -1,3 +1,0 @@
-Task:   Get "Essential  Apps"
-Output Script:
-pyautogui.click(255.5,736.0)

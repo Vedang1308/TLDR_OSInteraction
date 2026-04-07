@@ -1,4 +1,0 @@
-Task: Configure the working hours to 8
-Output Script:
-pyautogui.click(1615.5,816.0)
-pyautogui.write("08")

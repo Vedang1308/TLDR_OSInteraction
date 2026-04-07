@@ -1,5 +1,0 @@
-Task: Fetch all the merchandise listed for the city of Pittsburgh
-Output Script:
-pyautogui.click(1161.0,40.0)
-pyautogui.write("Pittsburgh")
-pyautogui.press("enter")

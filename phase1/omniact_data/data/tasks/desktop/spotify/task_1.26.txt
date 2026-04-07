@@ -1,3 +1,0 @@
-Task: Unveil the complete audiobook collection
-Output script:
-pyautogui.click(1845.5,487.0)

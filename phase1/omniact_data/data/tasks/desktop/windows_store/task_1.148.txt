@@ -1,3 +1,0 @@
-Task: Access Home on the menu
-Output Script:
-pyautogui.click(44.5,100.5)

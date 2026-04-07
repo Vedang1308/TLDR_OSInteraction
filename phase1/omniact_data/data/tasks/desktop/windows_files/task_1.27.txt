@@ -1,4 +1,0 @@
-Task: Use the search tool in the upper right corner to look for files containing "budget"
-Output Script:
-pyautogui.click(1732.5,196.0)
-pyautogui.write("budget")

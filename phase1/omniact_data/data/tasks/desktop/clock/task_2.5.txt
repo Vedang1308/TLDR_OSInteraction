@@ -1,3 +1,0 @@
-Task: Start Timer by pressing the green button
-Output Script:
-pyautogui.click(1848.0,1970.0)

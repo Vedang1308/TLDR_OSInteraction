@@ -1,3 +1,0 @@
-Task: Build a screenshot gallery from the video that"s playing currently
-Output Script:
-pyautogui.click(1767.5,197.5)

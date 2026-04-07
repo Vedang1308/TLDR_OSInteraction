@@ -1,3 +1,0 @@
-Task: Select "Holly" from Top Charts for reading
-Output Script:
-pyautogui.click(2195.0,454.5)

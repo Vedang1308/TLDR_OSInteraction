@@ -1,3 +1,0 @@
-Task: Access the Battery Configuration
-Output Script:
-pyautogui.click(1751.5,266.0)

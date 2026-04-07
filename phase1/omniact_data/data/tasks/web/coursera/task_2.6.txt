@@ -1,3 +1,0 @@
-Task: Get admission in the course
-Output Script:
-pyautogui.click(205.5,597.5)

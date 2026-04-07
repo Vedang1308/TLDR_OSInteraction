@@ -1,3 +1,0 @@
-Task: Swap to source and destination locations in the direction window.
-Output script:
-pyautogui.click(2781.0,277.0)

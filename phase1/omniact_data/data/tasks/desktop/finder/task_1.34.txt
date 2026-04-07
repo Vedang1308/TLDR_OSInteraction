@@ -1,6 +1,0 @@
-Task: Set up a "photos" folder in the existing "downloads" directory
-Output Script:
-pyautogui.click(468.5,600.5)
-pyautogui.hotkey("ctrl", "shift", "n")
-pyautogui.write("photos")
-pyautogui.press("enter")

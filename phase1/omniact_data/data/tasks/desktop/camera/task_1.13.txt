@@ -1,3 +1,0 @@
-Task: Set the image as wallpaper
-Output Script:
-pyautogui.click(1763.0,254.0)

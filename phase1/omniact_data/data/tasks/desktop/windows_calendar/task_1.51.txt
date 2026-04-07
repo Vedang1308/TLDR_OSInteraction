@@ -1,3 +1,0 @@
-Task: Navigate to the 1st of September 
-Output Script:
-Pyautogui.click(281.5,313.5)

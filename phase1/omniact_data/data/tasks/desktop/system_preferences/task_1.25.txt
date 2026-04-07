@@ -1,3 +1,0 @@
-Task: Look into the settings of online accounts.
-Output Script:
-pyautogui.click(731.5,755.5)

@@ -1,3 +1,0 @@
-Task: Scroll once using the space bar to see what all topics are available
-Output Script:
-pyautogui.press("space")

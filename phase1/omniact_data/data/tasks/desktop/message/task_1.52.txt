@@ -1,5 +1,0 @@
-Task: Find John in contacts and open up his profile
-Output Script:
-pyautogui.click(319.0,129.5)
-pyautogui.write("John")
-pyautogui.press("enter")

@@ -1,7 +1,0 @@
-Task: "Get rates for truck rental with pick up at A and drop off at B"
-Output Script:
-pyautogui.click(317.0,576.5)
-pyautogui.write("A")
-pyautogui.click(627.0,576.5)
-pyautogui.write("B")
-pyautogui.click(1185.0,577.0)

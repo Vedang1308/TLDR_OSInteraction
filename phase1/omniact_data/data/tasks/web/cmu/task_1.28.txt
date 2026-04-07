@@ -1,3 +1,0 @@
-Task: Open "Sports Medicine" category
-Output Script:
-pyautogui.doubleClick(1152.0,155.0)

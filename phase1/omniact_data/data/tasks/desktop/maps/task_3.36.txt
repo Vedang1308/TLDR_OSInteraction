@@ -1,3 +1,0 @@
-Task: Interchange the start and end points in the direction panel. 
-Output script:
-pyautogui.click(2781.0,277.0)

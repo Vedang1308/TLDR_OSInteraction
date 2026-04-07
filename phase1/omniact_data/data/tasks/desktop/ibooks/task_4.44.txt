@@ -1,3 +1,0 @@
-Task: Explore more selections for "Secret Keeper"
-Output Script:
-pyautogui.moveTo(3260.5,1647.0)

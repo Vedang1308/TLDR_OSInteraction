@@ -1,3 +1,0 @@
-Task: Navigate to the sent mail box
-Output script:
-pyautogui.click(202.0,653.5)

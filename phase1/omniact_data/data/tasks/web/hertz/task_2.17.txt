@@ -1,4 +1,0 @@
-Task: Input "Smith" into the surname field.
-Output script:
-pyautogui.click(844.5,365.0)
-pyautogui.write("Chen")

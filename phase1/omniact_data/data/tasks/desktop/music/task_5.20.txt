@@ -1,4 +1,0 @@
-Task: Use the search function to locate the playlist named "stuck on you"
-Output Script:
-pyautogui.click(198.0,154.5)
-pyautogui.write("stuck on you")

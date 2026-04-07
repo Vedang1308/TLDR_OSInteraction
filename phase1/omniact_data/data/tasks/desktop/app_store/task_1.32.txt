@@ -1,3 +1,0 @@
-Task: Open the third software from the first column.
-Output script:
-pyautogui.click(807.5,1741.5)

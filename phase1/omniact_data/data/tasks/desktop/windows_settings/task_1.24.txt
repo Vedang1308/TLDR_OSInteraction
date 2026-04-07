@@ -1,3 +1,0 @@
-Task: Use the "Time & Language" button 
-Output Script:
-pyautogui.click(961.5,556.0)

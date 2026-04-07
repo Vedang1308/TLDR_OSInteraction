@@ -1,3 +1,0 @@
-Task: "Use the orange button on the left panel to shut the document"
-Output Script:
-pyautogui.click(252.0,90.0)

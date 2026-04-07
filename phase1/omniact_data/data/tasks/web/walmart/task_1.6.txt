@@ -1,3 +1,0 @@
-Task: Open the price information modal
-Output Script:
-pyautogui.click(539.0,474.0)

@@ -1,3 +1,0 @@
-Task: Unhide all hidden items
-Output Script:
-pyautogui.click(959.5,129.0)

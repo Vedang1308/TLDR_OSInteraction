@@ -1,5 +1,0 @@
-Task: On the Tasting Table portal, select the third news, click on options and hit "suggest less".
-Output script:
-pyautogui.click(2141.0,1648.5)
-pyautogui.write("suggest less")
-pyautogui.press("Enter")

@@ -1,3 +1,0 @@
-Task: Through the create new tab feature, open a fresh tab
-Output Script:
-pyautogui.click(3333.0,133.0)

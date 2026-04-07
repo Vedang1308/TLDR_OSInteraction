@@ -1,3 +1,0 @@
-Task: Get the file printed
-Output script:
-pyautogui.click(188.5,359.5)

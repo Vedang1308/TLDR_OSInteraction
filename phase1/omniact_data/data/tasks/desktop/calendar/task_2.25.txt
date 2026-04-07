@@ -1,3 +1,0 @@
-Task: Select the plus icon to swiftly add an event.
-Output script:
-pyautogui.click(191.0,35.5)

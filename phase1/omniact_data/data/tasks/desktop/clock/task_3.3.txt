@@ -1,3 +1,0 @@
-Task: Go to alarms
-Output Script:
-pyautogui.click(1586.5,49.5)

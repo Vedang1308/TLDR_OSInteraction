@@ -1,3 +1,0 @@
-Task: Go back to previous setting page by clicking the back arrow icon
-Output Script:
-pyautogui.click(32.0,21.5)

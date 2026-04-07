@@ -1,3 +1,0 @@
-Task: Validate the price range for children"s shoes.
-Output Script:
-pyautogui.click(245.0,620.0)

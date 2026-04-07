@@ -1,3 +1,0 @@
-Task: Fully widen book display
-Output Script:
-pyautogui.click(1136.5,196.0)

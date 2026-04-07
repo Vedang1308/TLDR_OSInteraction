@@ -1,3 +1,0 @@
-Task: Click on Sent Emails 
-Output Script:
-pyautogui.click(164.5,586.0)

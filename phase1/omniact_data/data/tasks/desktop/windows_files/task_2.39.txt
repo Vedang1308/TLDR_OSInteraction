@@ -1,4 +1,0 @@
-Task: Select all text from the document "template.txt" and copy to clipboard.
-Output Script:
-pyautogui.doubleClick(811.5,340.5)
-pyautogui.hotkey("ctrl","a")

@@ -1,5 +1,0 @@
-Task: Using the additional features button, set the "1000 hours" song to play subsequently.
-Output Script:
-pyautogui.click(2665.0,1620.0)
-pyautogui.write("play later")
-pyautogui.press("enter")

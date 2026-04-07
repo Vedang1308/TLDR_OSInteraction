@@ -1,3 +1,0 @@
-Task: Execute two clicks on "show_next_slides" to view additional top 10 courses
-pyautogui.click(1366.0,439.0)
-pyautogui.click(1366.0,439.0)

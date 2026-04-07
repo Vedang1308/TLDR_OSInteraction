@@ -1,6 +1,0 @@
-Task: Get the log base 10 of 100.
-Output Script:
-pyautogui.click(1822.0,1161.0)
-pyautogui.click(1881.0,1255.5)
-pyautogui.click(1881.0,1255.5)
-pyautogui.click(1708.5,1069.0)

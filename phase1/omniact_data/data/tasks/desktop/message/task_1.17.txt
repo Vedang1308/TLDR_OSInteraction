@@ -1,5 +1,0 @@
-Task: Send message to Matt asking "What"s the plan for tonight?"
-Output Script:
-pyautogui.click(321.0,1156.5)
-pyautogui.write("What"s the plan for tonight?")
-pyautogui.press("enter")

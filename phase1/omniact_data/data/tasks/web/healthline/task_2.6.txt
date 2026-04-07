@@ -1,3 +1,0 @@
-Task: What is the treatment of ADHD. Find by clicking the link
-Output Script:
-pyautogui.click(801.5,391.0)

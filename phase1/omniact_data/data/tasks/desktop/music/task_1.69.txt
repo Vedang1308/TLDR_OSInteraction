@@ -1,3 +1,0 @@
-Task: Position mouse over Abstract Radio
-Output script:
-pyautogui.moveTo(1879.5,832.0)

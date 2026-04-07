@@ -1,3 +1,0 @@
-Task: Zoom into the document.
-Output script:
-pyautogui.click(1762.0,100.0)

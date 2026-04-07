@@ -1,7 +1,0 @@
-Task: Utilize the navigation keys to select "Cheese" from a dropdown menu.
-Output Script:
-pyautogui.click(1892.0,49.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

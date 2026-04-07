@@ -1,3 +1,0 @@
-Task: Click the dot to see the fourth gaming app on screen.
-Output Script:
-pyautogui.click(983.0,704.5)

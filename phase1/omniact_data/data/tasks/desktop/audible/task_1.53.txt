@@ -1,3 +1,0 @@
-Task: Launch Ubuntu software center
-Output Script:
-pyautogui.click(37.0,401.5)

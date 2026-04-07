@@ -1,3 +1,0 @@
-Task: Reach the mobile division
-Output Script:
-pyautogui.click(34.0,946.5)

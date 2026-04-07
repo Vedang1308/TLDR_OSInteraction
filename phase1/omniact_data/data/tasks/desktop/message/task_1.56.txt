@@ -1,5 +1,0 @@
-Task: Send a text to Clara expressing "I caught the movie, it was brilliant!"
-Output Script:
-pyautogui.click(319.0,378.5)
-pyautogui.write("I saw the movie, it was great!")
-pyautogui.press("enter")

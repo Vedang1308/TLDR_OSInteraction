@@ -1,3 +1,0 @@
-Task: Approve the provided suggestion
-Output Script:
-pyautogui.click(1070.0,771.0)

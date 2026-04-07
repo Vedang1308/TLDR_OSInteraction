@@ -1,3 +1,0 @@
-Task: Click the link to get more data from Yahoo.
-Output script:
-pyautogui.click(1014.5,1109.0)

@@ -1,3 +1,0 @@
-Task: Select the cloud symbol to navigate to OneDrive account preferences.
-Output Script:
-pyautogui.click(1013.0,135.0)

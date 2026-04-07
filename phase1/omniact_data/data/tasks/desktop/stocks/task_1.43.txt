@@ -1,3 +1,0 @@
-Task: Navigate to the General Electric stock for more information.
-Output script:
-pyautogui.click(325.5,1132.5)

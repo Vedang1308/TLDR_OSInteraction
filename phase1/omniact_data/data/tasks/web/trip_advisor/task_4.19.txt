@@ -1,3 +1,0 @@
-Task: Proceed to the review writing section
-Output Script:
-pyautogui.click(877.0,761.0)

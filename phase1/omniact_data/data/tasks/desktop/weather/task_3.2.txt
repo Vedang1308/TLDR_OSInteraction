@@ -1,7 +1,0 @@
-Task: What is the weather after 5 days by clicking arrow buttons
-Output Script:
-pyautogui.click(2222.0,865.0)
-pyautogui.click(2222.0,865.0)
-pyautogui.click(2222.0,865.0)
-pyautogui.click(2222.0,865.0)
-pyautogui.click(2222.0,865.0)

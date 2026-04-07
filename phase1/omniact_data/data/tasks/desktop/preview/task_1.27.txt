@@ -1,3 +1,0 @@
-Task: Fetch the file"s details.
-Output script:
-pyautogui.click(1614.5,98.5)

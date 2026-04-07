@@ -1,3 +1,0 @@
-Task: Zoom in to the product image
-Output Script:
-pyautogui.click(908.0,334.0)

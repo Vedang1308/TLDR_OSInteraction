@@ -1,3 +1,0 @@
-Task: Favourite the book "Ants of Bimbleby Hill" 
-Output Script:
-pyautogui.click(735.0,828.5)

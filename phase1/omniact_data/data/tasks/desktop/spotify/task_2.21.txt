@@ -1,3 +1,0 @@
-Task: Click button for going for a specific artist
-Output script:
-pyautogui.click(1741.0,374.5)

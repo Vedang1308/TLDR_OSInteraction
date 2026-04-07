@@ -1,3 +1,0 @@
-Task: Navigate and open the Messages App using the icon located at the bottom.
-Output Script:
-pyautogui.click(1294.5,2025.5)

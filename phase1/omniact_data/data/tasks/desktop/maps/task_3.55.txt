@@ -1,3 +1,0 @@
-Task: Proceed to click on the hyperlink labeled "terms & conditions".
-Output script:
-pyautogui.click(158.0,1760.0)

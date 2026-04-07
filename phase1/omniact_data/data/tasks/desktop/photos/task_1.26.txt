@@ -1,4 +1,0 @@
-Task: Navigate to the "Nature" album and magnify the photos using the top navigation bar.
-Output Script:
-pyautogui.click(207.0,925.5)
-pyautogui.write("enlarge_pics")

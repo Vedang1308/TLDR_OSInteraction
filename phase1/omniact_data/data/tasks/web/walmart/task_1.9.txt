@@ -1,6 +1,0 @@
-Task: Select the second choice in the "sort by" option list
-Output Script:
-pyautogui.click(1340.5,216.0)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

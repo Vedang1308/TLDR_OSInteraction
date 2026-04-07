@@ -1,3 +1,0 @@
-Task: Check weather in San Francisco
-Output Script:
-pyautogui.click(316.0,531.0)

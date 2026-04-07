@@ -1,3 +1,0 @@
-Task: Move back to the earlier web page
-Output script:
-pyautogui.click(506.0,90.0)

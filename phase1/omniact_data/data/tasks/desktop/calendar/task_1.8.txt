@@ -1,3 +1,0 @@
-Task: Go to the previous day on the calendar
-Output script:
-pyautogui.click(2660.0,127.0)

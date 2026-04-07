@@ -1,5 +1,0 @@
-Task: Open the "Playrix" window and then go to the "Frequently Asked Questions" section for additional help.
-Output script:
-pyautogui.click(2751.0,1492.5)
-pyautogui.write("About Us")
-pyautogui.press("Enter")

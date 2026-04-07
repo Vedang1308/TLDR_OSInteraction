@@ -1,3 +1,0 @@
-Task: Access Indeed"s primary website
-Output Script:
-pyautogui.click(76.0,36.0)

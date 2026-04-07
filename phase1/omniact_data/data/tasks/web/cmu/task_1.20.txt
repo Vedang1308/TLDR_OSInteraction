@@ -1,3 +1,0 @@
-Task: Initiate the Drop-Down Feature under Facilities
-Output Script:
-pyautogui.click(880.0,94.5)

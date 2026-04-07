@@ -1,3 +1,0 @@
-Task: Opt for changing the color scheme.
-Output Script:
-pyautogui.click(1213.0,441.5)

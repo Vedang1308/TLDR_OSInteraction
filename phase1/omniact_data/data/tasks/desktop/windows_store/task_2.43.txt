@@ -1,3 +1,0 @@
-Task: Extract list of most purchased games
-Output Script:
-pyautogui.click(263.0,752.0)

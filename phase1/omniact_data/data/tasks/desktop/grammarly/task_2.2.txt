@@ -1,3 +1,0 @@
-Task: Import the document
-Output script:
-pyautogui.click(188.5,275.5)

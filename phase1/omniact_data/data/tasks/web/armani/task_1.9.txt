@@ -1,3 +1,0 @@
-Task: Book an appointment by clicking the menu item
-Output Script:
-pyautogui.click(1175.5,171.5)

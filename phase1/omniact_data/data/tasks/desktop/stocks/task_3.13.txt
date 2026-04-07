@@ -1,5 +1,0 @@
-Task: Share the news on Twitter.
-Output script:
-pyautogui.click(2828.5,48.0)
-pyautogui.write("Twitter")
-pyautogui.press("enter")

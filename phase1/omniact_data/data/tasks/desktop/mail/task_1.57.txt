@@ -1,3 +1,0 @@
-Task: Shift the chosen message to the bar.
-Output script:
-pyautogui.click(2612.0,48.0)

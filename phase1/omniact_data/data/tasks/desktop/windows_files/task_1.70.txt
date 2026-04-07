@@ -1,5 +1,0 @@
-Task: Organize the files in "documents" directory in an alphabetical order.
-Output Script:
-pyautogui.click(700.0,360.0)
-pyautogui.click(700.0,360.0)
-pyautogui.click(482.5,240.5)

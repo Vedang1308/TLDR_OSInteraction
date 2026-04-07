@@ -1,4 +1,0 @@
-Task: Check the battery health and close the tab by pressing OK.
-Output Script:
-pyautogui.click(1500.5,1100.0)
-pyautogui.press("enter")

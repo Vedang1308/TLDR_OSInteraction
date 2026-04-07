@@ -1,2 +1,0 @@
-Task: Click on "root" tab and view its course listings 
-pyautogui.click(219.5,112.5)

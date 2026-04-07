@@ -1,5 +1,0 @@
-Task: Delete all files from the "applications" folder only using keyboard shortcuts
-Output Script:
-pyautogui.click(476.5,264.0)
-pyautogui.hotkey("ctrl","a")
-pyautogui.press("delete")

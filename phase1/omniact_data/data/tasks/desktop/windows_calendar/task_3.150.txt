@@ -1,4 +1,0 @@
-Task: Adjust event"s conclusion time to 22:00 hours
-Output Script:
-pyautogui.click(881.5,501.0)
-pyautogui.write("22:00")

@@ -1,3 +1,0 @@
-Task: "Initiate the menu alternatives"
-Output Script:
-pyautogui.click(1768.5,48.5)

@@ -1,4 +1,0 @@
-Task: Launch the next news clip in line.
-Output script:
-pyautogui.click(1773.0,1084.0)
-pyautogui.click(1773.0,1084.0)

@@ -1,4 +1,0 @@
-Task: Initiate the desktop"s context menu with a right click
-Output Script:
-pyautogui.moveTo(1759.0,742.5)
-pyautogui.rightClick(1759.0,742.5)

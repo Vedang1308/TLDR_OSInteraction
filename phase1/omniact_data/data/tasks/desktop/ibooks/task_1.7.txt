@@ -1,3 +1,0 @@
-Task: See the full list of paid books in top charts
-Output Script:
-pyautogui.click(573.5,981.5)

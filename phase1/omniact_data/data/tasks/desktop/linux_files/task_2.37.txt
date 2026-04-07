@@ -1,6 +1,0 @@
-Task: Use PyAutoGUI to rename the file called readme.md to README.md.
-Output Script:
-pyautogui.click(1069.0,617.5)
-pyautogui.hotkey("ctrl", "a")
-pyautogui.typewrite("README.md")
-pyautogui.press("enter")

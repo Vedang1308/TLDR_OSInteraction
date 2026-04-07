@@ -1,3 +1,0 @@
-Task: Start a session for taking group photos.
-Output Script:
-pyautogui.click(2258.0,662.0)

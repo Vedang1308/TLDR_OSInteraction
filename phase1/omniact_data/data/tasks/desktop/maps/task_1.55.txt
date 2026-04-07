@@ -1,5 +1,0 @@
-Task: Include "office" in your list of saved locations.
-Output script:
-pyautogui.click(290.5,528.5)
-pyautogui.write("office")
-pyautogui.press("enter")

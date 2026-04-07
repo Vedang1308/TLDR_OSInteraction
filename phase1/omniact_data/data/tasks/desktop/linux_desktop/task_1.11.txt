@@ -1,3 +1,0 @@
-Task: Open All Applications
-Output Script:
-pyautogui.click(36.0,1046.5)

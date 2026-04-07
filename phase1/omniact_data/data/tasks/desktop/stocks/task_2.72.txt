@@ -1,3 +1,0 @@
-Task: Conduct an overview of the stock movement for the entire available data.
-Output script:
-pyautogui.click(2718.5,395.0)

@@ -1,3 +1,0 @@
-Task: Reserve a slot by choosing its corresponding menu item
-Output Script:
-pyautogui.click(1175.5,171.5)

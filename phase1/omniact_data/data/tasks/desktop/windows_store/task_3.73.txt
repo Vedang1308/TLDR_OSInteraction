@@ -1,3 +1,0 @@
-Task: Start Games
-Output Script:
-pyautogui.click(334.0,322.0)

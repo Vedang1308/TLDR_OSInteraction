@@ -1,3 +1,0 @@
-Task: Initiate the Slack desktop app.
-Output Script:
-pyautogui.click(143.0,26.5)

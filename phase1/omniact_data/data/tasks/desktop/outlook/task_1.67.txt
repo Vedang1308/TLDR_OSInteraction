@@ -1,3 +1,0 @@
-Task: Transfer the existing email to the archive folder
-Output Script:
-pyautogui.click(1295.5,68.5)

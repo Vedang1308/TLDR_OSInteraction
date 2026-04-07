@@ -1,3 +1,0 @@
-Task: Select the "Life of Buddha" book to view its contents.
-Output Script:
-pyautogui.click(2116.5,1960.5)

@@ -1,5 +1,0 @@
-Task: Navigate to "more options" and then add a label.
-Output script:
-pyautogui.click(1970.5,342.5)
-pyautogui.write("add label")
-pyautogui.press("enter")

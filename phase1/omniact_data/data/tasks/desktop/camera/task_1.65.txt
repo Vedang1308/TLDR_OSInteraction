@@ -1,3 +1,0 @@
-Task: Start the menu
-Output Script:
-pyautogui.click(1769.0,137.0)

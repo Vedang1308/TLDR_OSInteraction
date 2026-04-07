@@ -1,4 +1,0 @@
-Task: Navigate to the upcoming audiobooks through scrolling 
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

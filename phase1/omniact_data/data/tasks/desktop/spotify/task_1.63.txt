@@ -1,4 +1,0 @@
-Task: Proceed to view further buddies in the list
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(10)

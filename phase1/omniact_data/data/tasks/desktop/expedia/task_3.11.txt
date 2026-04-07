@@ -1,3 +1,0 @@
-Task: Click on the "empire state building" option to add it to the itinerary.
-Output script:
-pyautogui.click(1448.0,1550.0)

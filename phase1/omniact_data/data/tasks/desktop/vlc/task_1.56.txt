@@ -1,3 +1,0 @@
-Task: Stop the audio by clicking on the mute option
-Output Script:
-pyautogui.click(1888.0,1051.5)

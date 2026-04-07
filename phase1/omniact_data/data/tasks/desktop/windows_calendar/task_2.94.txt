@@ -1,3 +1,0 @@
-Task: Proceed to viewing the weekly agenda
-Output Script:
-Pyautogui.click(1324.5,71.5)

@@ -1,3 +1,0 @@
-Task: Monitor the Latin America Region for job openings
-Output Script:
-pyautogui.click(548.5,336.0)

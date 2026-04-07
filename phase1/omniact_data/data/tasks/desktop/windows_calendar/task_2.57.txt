@@ -1,3 +1,0 @@
-Task: Alter the layout to show "monthly" schedule
-Output Script:
-Pyautogui.click(1436.0,72.5)

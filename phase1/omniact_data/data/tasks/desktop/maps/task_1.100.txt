@@ -1,5 +1,0 @@
-Task: Incorporate a new saved place called "office".
-Output script:
-pyautogui.click(290.5,528.5)
-pyautogui.write("office")
-pyautogui.press("enter")

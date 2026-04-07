@@ -1,3 +1,0 @@
-Task: Choose the photo of a waterfall
-Output Script:
-pyautogui.click(1901.0,1535.5)

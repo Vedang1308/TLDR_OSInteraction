@@ -1,4 +1,0 @@
-Task: Find out the current humidity level in Chicago
-Output Script:
-pyautogui.click(2167.5,1609.0)
-pyautogui.click(323.0,173.0)

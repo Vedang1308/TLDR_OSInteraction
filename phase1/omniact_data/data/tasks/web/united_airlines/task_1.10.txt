@@ -1,5 +1,0 @@
-Task: Scan for Taiwan Airline Tickets
-Output script:
-pyautogui.click(1265.0,799.0)
-pyautogui.write("Tickets to Taiwan")
-pyautogui.click(1001, 774)

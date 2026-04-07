@@ -1,3 +1,0 @@
-Task: Navigate to the page designated for Student and Educator products
-Output Script:
-pyautogui.click(1199.5,226.0)

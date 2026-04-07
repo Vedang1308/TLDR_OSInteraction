@@ -1,3 +1,0 @@
-Task: Check out today"s deal on Best Buy
-Output Script:
-pyautogui.click(172.0,131.0)

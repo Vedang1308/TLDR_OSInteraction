@@ -1,3 +1,0 @@
-Task: Search for locations close to "Broadway".
-Output script:
-pyautogui.click(1442.5,1496.0)

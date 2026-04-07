@@ -1,3 +1,0 @@
-Task: Checkout people"s rating and possibly comments about NETBURNER BALLISTIC FF MT 3 model
-Output Script: 
-pyautogui.click(1160.0,825.0)

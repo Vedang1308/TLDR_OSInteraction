@@ -1,3 +1,0 @@
-Task: Initiate Safari using the fifth blue tab at the panel below
-Output Script:
-pyautogui.click(519.0,2027.5)

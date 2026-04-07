@@ -1,6 +1,0 @@
-Task: Revise the start location to Taipei and switch the end destination to United States
-Output script:
-pyautogui.click(299.0,368.0)
-pyautogui.write("Taipei")
-pyautogui.click(567.0,368.0)
-pyautogui.write("United States")

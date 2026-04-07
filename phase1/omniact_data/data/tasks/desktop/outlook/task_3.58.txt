@@ -1,4 +1,0 @@
-Task: Check the mailbox for "kgeng@andrew.cmu.edu"
-Output Script:
-pyautogui.click(646.5,130.5)
-pyautogui.click(161.5,269.0)

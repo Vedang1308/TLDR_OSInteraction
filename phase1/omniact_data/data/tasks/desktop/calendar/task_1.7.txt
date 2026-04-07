@@ -1,3 +1,0 @@
-Task: Select option 2
-Output script:
-pyautogui.click(108.5,38.5)

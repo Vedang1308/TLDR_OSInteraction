@@ -1,4 +1,0 @@
-Task: Set an appointment for Monday at 10 in the morning.
-Output script:
-pyautogui.click(735.5,395.5)
-pyautogui.click(735.5,395.5)

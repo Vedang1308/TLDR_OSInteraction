@@ -1,3 +1,0 @@
-Task: Get all courses for universities
-Output Script:
-pyautogui.click(347.5,20.0)

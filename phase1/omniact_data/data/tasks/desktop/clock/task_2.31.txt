@@ -1,5 +1,0 @@
-Task: Set audio setting to chimes sound
-Output Script:
-pyautogui.click(1678.5,1196.5)
-pyautogui.write("chimes")
-pyautogui.press("enter")

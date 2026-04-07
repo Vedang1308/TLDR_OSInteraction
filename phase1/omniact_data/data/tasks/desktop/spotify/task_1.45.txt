@@ -1,3 +1,0 @@
-Task: Proceed to the explore premium department
-Output script:
-pyautogui.click(1642.5,90.0)

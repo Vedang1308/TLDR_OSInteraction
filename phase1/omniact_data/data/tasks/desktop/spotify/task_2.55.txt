@@ -1,5 +1,0 @@
-Task: Make a new playlist with the title "post rock"
-Output script:
-pyautogui.click(1468.0,174.5)
-pyautogui.write("post rock")
-pyautogui.press("Enter")

@@ -1,3 +1,0 @@
-Task: Go to the beginning of the current song
-Output script:
-pyautogui.click(669.5,999.5)

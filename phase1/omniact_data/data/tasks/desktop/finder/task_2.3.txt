@@ -1,4 +1,0 @@
-Task: Sort the files by reverse order of date
-Output Script:
-pyautogui.click(2719.0,132.5)
-pyautogui.click(2719.0,132.5)

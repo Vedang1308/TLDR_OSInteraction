@@ -1,3 +1,0 @@
-Task: Select the "memorial tour" option to add it to the itinerary.
-Output script:
-pyautogui.click(1441.5,1053.5)

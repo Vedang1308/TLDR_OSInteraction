@@ -1,3 +1,0 @@
-Task: Terminate the active window
-Output Script:
-pyautogui.click(53.5,102.0)

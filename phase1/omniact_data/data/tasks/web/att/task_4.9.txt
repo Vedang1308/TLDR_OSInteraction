@@ -1,5 +1,0 @@
-Task: View three different ads from the horizontal ad banner
-Output Script:
-pyautogui.click(1183.0,229.0)
-pyautogui.click(1183.0,229.0)
-pyautogui.click(1183.0,229.0)

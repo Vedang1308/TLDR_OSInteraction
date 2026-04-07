@@ -1,3 +1,0 @@
-Task: Look up hotels in this area
-Output Script:
-pyautogui.click(131.0,242.0)

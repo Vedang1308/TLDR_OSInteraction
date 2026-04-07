@@ -1,3 +1,0 @@
-Task: Click on the button in the top right to open sign-in page
-Output Script:
-pyautogui.click(1248.5,30.0)

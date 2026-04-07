@@ -1,6 +1,0 @@
-Task: Configure the system to update the desktop wallpaper each hour.
-Output Script:
-pyautogui.click(1056.0,1165.0)
-pyautogui.click(1514.5,1170.5)
-pyautogui.write("every hour")
-pyautogui.press("enter")

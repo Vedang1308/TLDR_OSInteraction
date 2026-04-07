@@ -1,3 +1,0 @@
-Task: Activate the feature labeled as "News Plus".
-Output script:
-pyautogui.click(217.5,353.0)

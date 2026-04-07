@@ -1,3 +1,0 @@
-Task: Play a slideshow of the photos in the specific folder
-Output Script:
-pyautogui.click(1762.0,284.0)

@@ -1,3 +1,0 @@
-Task: Access the "more details" information of the ongoing event.
-Output Script:
-Pyautogui.click(1581.5,481.5)

@@ -1,5 +1,0 @@
-Task: Query for Machine Learning Engineer job applications
-Output Script:
-pyautogui.click(185.5,156.0)
-pyautogui.write("Apply for Machine Learning Engineer")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Display the calendar in a monthly view.
-Output script:
-pyautogui.click(1502.0,37.0)

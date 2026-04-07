@@ -1,3 +1,0 @@
-Task: Check all locations
-Output Script:
-pyautogui.click(262.5,31.5)

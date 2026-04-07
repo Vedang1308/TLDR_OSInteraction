@@ -1,4 +1,0 @@
-Task: Select a different address for return and choose to get updates for this delivery on the email given above
-Output Script:
-pyautogui.click(996.5,813.5)
-pyautogui.click(366.5,724.5)

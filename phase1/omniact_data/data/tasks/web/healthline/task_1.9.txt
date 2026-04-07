@@ -1,3 +1,0 @@
-Task: Navigate to the homepage by clicking the logo in the upper left corner 
-Output Script:
-pyautogui.click(254.0,35.0)

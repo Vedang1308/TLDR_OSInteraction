@@ -1,4 +1,0 @@
-Task: Navigate upwards to review previous text.
-Output script:
-pyautogui.click(1660.0,954.5)
-pyautogui.scroll(-100)

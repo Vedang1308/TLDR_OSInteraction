@@ -1,3 +1,0 @@
-Task: Navigate to my library
-Output script:
-pyautogui.click(412.5,232.5)

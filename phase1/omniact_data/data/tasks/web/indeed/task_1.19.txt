@@ -1,3 +1,0 @@
-Task: Redirect to User Login Page
-Output Script:
-pyautogui.click(1210.0,35.0)

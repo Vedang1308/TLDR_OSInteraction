@@ -1,3 +1,0 @@
-Task: Validate the live tracking and status information provided by FlightAware
-Output Script:
-pyautogui.click(437.0,778.5)

@@ -1,8 +1,0 @@
-Task: Modify the term "hello" with the final entry from the replaced word log.
-Output Script:
-pyautogui.click(1027.0,490.0)
-pyautogui.write("hello")
-pyautogui.click(1197.5,488.0)
-pyautogui.press("tab")
-pyautogui.press("enter")
-pyautogui.click(1044.5,664.0)

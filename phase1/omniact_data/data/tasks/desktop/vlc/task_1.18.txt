@@ -1,6 +1,0 @@
-Task: Change the subtitle language to second in the drop down
-Output Script:
-pyautogui.click(1771.0,391.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

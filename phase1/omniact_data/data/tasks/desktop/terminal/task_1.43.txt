@@ -1,3 +1,0 @@
-Task: Use keyboard shortcut to initiate a new window
-Output Script:
-pyautogui.hotkey("ctrl", "n")

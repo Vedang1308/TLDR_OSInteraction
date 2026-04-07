@@ -1,3 +1,0 @@
-Task: Close the sidebar in the calendar app
-Output Script:
-Pyautogui.click(31.0,69.5)

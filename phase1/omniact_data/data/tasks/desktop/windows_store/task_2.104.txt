@@ -1,3 +1,0 @@
-Task: Access the Apps module
-Output Script:
-pyautogui.click(46.0,177.0)

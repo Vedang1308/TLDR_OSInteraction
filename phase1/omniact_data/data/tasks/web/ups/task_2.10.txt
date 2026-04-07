@@ -1,4 +1,0 @@
-Task: Use scrolling function to find the country or region.
-Output Script:
-pyautogui.click(720.0,432.5)
-pyautogui.scroll(15)

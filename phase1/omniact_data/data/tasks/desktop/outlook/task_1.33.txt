@@ -1,4 +1,0 @@
-Task: Click on the recent mail from Expedia.com and minimize the sidebar
-Output Script:
-pyautogui.click(301.5,579.5)
-pyautogui.click(31.5,70.5)

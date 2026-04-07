@@ -1,3 +1,0 @@
-Task: Proceed to shopping cart
-Output script:
-pyautogui.click(1228.0,28.5)

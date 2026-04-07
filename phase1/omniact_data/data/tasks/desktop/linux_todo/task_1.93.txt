@@ -1,3 +1,0 @@
-Task: Check off the "laundry" task as done
-Output Script:
-pyautogui.click(695.0,254.5)

@@ -1,3 +1,0 @@
-Task: Navigate to "Elon Musk" on Paid Top Charts
-Output Script:
-pyautogui.click(788.0,652.5)

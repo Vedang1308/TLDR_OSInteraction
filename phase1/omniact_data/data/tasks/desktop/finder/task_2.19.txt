@@ -1,3 +1,0 @@
-Task: Open up the Downloads folder to reveal its items
-Output Script:
-pyautogui.click(383.0,270.0)

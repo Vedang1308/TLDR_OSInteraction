@@ -1,3 +1,0 @@
-Task: Click on the appliances tab to open the appliances section.
-Output Script:
-pyautogui.click(556.5,217.0)

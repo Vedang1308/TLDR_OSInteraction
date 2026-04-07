@@ -1,4 +1,0 @@
-Task: Create the event for 9 am on New Year"s day.
-Output script:
-pyautogui.click(735.5,395.5)
-pyautogui.click(735.5,395.5)

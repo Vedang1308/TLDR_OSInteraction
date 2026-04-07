@@ -1,4 +1,0 @@
-Task: Visit the support information about the camera
-Output Script:
-pyautogui.click(1769.0,48.5)
-pyautogui.click(1766.5,195.0)

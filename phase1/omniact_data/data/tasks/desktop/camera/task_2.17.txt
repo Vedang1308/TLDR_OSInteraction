@@ -1,3 +1,0 @@
-Task: View all captured bursts
-Output Script:
-pyautogui.click(260.0,954.0)

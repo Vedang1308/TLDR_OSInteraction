@@ -1,2 +1,0 @@
-Task: view courses in the root tab category
-pyautogui.click(219.5,112.5)

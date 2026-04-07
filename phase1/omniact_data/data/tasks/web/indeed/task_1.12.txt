@@ -1,5 +1,0 @@
-Task: Find available positions for Machine Learning Engineer
-Output Script:
-pyautogui.click(499.5,160.0)
-pyautogui.write("Machine Learning Engineer")
-pyautogui.press("enter")

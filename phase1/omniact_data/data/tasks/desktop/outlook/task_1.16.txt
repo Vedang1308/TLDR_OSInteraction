@@ -1,3 +1,0 @@
-Task: Forward the current email
-Output Script:
-pyautogui.click(1825.5,186.0)

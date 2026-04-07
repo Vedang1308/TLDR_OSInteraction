@@ -1,3 +1,0 @@
-Task: Proceed to the forthcoming image view
-Output Script:
-pyautogui.click(751.0,783.0)

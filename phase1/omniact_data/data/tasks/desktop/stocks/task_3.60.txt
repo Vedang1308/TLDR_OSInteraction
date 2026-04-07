@@ -1,5 +1,0 @@
-Task: Disseminate recent news update through your Twitter profile.
-Output script:
-pyautogui.click(2828.5,48.0)
-pyautogui.write("Twitter")
-pyautogui.press("enter")

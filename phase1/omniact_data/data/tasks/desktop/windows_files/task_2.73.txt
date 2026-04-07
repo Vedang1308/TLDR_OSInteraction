@@ -1,5 +1,0 @@
-Task: Construct a fresh folder labeled "Assignment"
-Output Script:
-pyautogui.hotkey("ctrl","shift","n")
-pyautogui.write("Assignment")
-pyautogui.press("enter")

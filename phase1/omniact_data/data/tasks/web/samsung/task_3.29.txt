@@ -1,3 +1,0 @@
-Task: Select the brushed navy shade for the washing machine. 
-Output Script:
-pyautogui.click(975.5,806.0)

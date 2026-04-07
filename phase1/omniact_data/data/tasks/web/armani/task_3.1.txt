@@ -1,3 +1,0 @@
-Task: Redirect to the story by clicking on the story menu item
-Output Script:
-pyautogui.click(369.0,144.0)

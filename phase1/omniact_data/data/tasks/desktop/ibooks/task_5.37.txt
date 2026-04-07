@@ -1,3 +1,0 @@
-Task: Initiate the reading process for the book "1811 Dictionary" by pressing "Read" button
-Output Script:
-pyautogui.click(2117.0,616.5)

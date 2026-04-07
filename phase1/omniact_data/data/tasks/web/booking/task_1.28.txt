@@ -1,3 +1,0 @@
-Task: Review the information for the second listing under attraction
-Output Script:
-pyautogui.click(913.5,607.0)

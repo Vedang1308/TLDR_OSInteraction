@@ -1,3 +1,0 @@
-Task: Proceed to best seller games section
-Output Script:
-pyautogui.click(263.0,752.0)

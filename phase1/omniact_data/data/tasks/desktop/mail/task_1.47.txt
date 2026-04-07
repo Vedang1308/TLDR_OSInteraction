@@ -1,3 +1,0 @@
-Task: Shift the picked mail to the spam section.
-Output script:
-pyautogui.click(1850.5,49.5)

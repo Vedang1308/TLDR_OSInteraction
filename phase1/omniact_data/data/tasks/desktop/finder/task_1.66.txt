@@ -1,5 +1,0 @@
-Task: Navigate to the "downloads" folder and scroll to the last file.
-Output Script:
-pyautogui.click(165.0,448.0)
-pyautogui.click(165.0,448.0)
-pyautogui.scroll(-100)

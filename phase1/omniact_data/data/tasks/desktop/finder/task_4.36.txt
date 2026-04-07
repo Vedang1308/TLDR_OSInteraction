@@ -1,3 +1,0 @@
-Task: Switch to a fresh wifi connection
-Output Script:
-pyautogui.click(2903.5,126.5)

@@ -1,3 +1,0 @@
-Task: Reach Tiktok app"s intricate characteristics
-Output Script:
-pyautogui.click(860.5,666.5)

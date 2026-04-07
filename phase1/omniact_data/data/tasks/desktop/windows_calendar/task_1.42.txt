@@ -1,3 +1,0 @@
-Task: Select the 13th of October
-Output Script:
-Pyautogui.click(1320.0,754.0)

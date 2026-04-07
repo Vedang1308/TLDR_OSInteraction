@@ -1,3 +1,0 @@
-Task: Choose the settings for whiteboard.
-Output Script:
-pyautogui.click(2439.5,1748.5)

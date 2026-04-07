@@ -1,3 +1,0 @@
-Task: Choose the ending date for the event
-Output Script:
-pyautogui.click(418.0,500.5)

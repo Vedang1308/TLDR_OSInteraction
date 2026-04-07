@@ -1,3 +1,0 @@
-Task: Loop the song
-Output script:
-pyautogui.click(1080.5,957.5)

@@ -1,4 +1,0 @@
-Task: Scroll down to find the FAQ section
-Output script:
-pyautogui.moveto("Scroll")
-pyautogui.scroll(30)

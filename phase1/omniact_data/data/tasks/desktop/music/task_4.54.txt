@@ -1,3 +1,0 @@
-Task: Select the extended menu for "Good Things" song
-Output Script:
-pyautogui.click(2665.0,540.0)

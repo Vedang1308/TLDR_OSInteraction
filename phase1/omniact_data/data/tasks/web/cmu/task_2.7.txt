@@ -1,3 +1,0 @@
-Task: Go to Financial Aid Page
-Output Script:
-pyautogui.click(366.5,236.5)

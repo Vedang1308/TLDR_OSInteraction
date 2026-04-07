@@ -1,5 +1,0 @@
-Task: Navigate and search "Indiana Jones" in the digital contacts directory.
-Output Script:
-pyautogui.click(1471.5,55.0)
-pyautogui.write("Indiana Jones")
-pyautogui.press("enter")

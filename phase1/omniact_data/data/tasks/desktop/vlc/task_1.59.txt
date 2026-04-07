@@ -1,3 +1,0 @@
-Task: Traverse to the prior page in video configurations
-Output Script:
-pyautogui.click(93.5,49.5)

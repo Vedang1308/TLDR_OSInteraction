@@ -1,3 +1,0 @@
-Task: Navigate to Home Tab 
-Output Script:
-pyautogui.click(44.5,100.5)

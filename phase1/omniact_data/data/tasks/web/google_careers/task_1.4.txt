@@ -1,3 +1,0 @@
-Task: See advanced options
-Output Script:
-pyautogui.click(982.5,639.0)

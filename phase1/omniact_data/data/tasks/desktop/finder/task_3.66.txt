@@ -1,3 +1,0 @@
-Task: Activate the Slack program.
-Output Script:
-pyautogui.click(143.0,26.5)

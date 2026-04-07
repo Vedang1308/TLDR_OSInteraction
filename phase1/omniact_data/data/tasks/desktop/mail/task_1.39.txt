@@ -1,3 +1,0 @@
-Task: Mark the particular message with a flag.
-Output script:
-pyautogui.click(2232.5,49.5)

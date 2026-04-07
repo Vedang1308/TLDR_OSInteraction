@@ -1,3 +1,0 @@
-Task: Accomplish the termination of the existing window using the "close_window" command
-Output Script:
-pyautogui.click(1887.5,17.5)

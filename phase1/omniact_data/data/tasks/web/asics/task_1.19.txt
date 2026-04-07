@@ -1,4 +1,0 @@
-Task: Browse additional children"s athletic footwear
-Output Script:
-pyautogui.press("space")
-pyautogui.scroll(30)

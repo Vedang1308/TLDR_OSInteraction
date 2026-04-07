@@ -1,5 +1,0 @@
-Task: Locate the package in the city of "Somerville"
-Output Script:
-pyautogui.click(364.5,735.5)
-pyautogui.write("Somerville")
-pyautogui.press("enter")

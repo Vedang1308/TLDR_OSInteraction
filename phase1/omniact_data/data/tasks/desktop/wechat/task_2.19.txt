@@ -1,6 +1,0 @@
-Task: Type "Greetings" in the current note and make the text bold
-Output Script:
-pyautogui.click(728.5,585.0)
-pyautogui.write("Hello")
-pyautogui.hotkey("ctrl", "a")
-pyautogui.click(755.5,184.0)

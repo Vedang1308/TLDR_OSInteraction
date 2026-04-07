@@ -1,3 +1,0 @@
-Task: Navigate towards New Delhi on the screen for map view.
-Output Script:
-pyautogui.click(319.5,297.0)

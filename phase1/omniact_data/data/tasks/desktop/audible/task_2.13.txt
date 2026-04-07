@@ -1,4 +1,0 @@
-Task: Change narration speed to previous available speed
-Output Script:
-pyautogui.click(847.0,775.5)
-pyautogui.press("left")

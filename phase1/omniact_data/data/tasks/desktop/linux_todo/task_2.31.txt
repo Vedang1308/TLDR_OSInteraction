@@ -1,3 +1,0 @@
-Task: Shut search bar using click operation
-Output Script:
-pyautogui.click(1895.5,97.0)

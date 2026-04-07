@@ -1,5 +1,0 @@
-Task: Forward the event details through email
-Output Script:
-pyautogui.click(1821.5,69.0)
-pyautogui.write("Mail")
-pyautogui.press("Enter")

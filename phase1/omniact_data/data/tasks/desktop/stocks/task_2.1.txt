@@ -1,3 +1,0 @@
-Task: View the stock change for one month by selecting appropriate option.
-Output script:
-pyautogui.click(1192.5,387.0)

@@ -1,3 +1,0 @@
-Task: Change the folder layout mode to list form
-Output Script:
-pyautogui.click(412.0,101.5)

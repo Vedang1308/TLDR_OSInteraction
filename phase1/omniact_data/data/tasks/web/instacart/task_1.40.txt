@@ -1,3 +1,0 @@
-Task: Request swift dispatch from Target Store
-Output Script:
-pyautogui.click(328.0,651.0)

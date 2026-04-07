@@ -1,3 +1,0 @@
-Task: Navigate two pages back to see all washing machines 
-Output Script:
-pyautogui.click(235.0,106.5)

@@ -1,3 +1,0 @@
-Task: Approve the location by clicking on the thumbs up icon. 
-Output script:
-pyautogui.click(1578.5,670.0)

@@ -1,3 +1,0 @@
-Task: See all the items in cart
-Output Script:
-pyautogui.click(1349.0,95.0)

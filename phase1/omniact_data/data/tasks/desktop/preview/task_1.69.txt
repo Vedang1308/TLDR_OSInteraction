@@ -1,3 +1,0 @@
-Task: Go to the Tools menu.
-Output script:
-pyautogui.click(633.0,26.5)

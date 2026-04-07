@@ -1,3 +1,0 @@
-Task: "Inject today"s date and the current time"
-Output Script:
-pyautogui.click(1767.0,251.5)

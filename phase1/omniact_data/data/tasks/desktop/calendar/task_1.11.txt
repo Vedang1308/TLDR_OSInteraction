@@ -1,3 +1,0 @@
-Task: Select the month view on the calendar
-Output script:
-pyautogui.click(1506.5,37.0)

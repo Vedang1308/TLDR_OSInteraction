@@ -1,3 +1,0 @@
-Task: Open Help menu
-Output Script:
-pyautogui.click(43.5,983.5)

@@ -1,3 +1,0 @@
-Task: "Close the untitled document tab using the orange panel"
-Output Script:
-pyautogui.click(259.0,126.5)

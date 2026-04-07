@@ -1,3 +1,0 @@
-Task: Investigate pressure specifics in Vancouver
-Output Script:
-pyautogui.click(2792.5,1608.0)

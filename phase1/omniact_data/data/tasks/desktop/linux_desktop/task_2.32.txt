@@ -1,3 +1,0 @@
-Task: Show calendar events for the previous month.
-Output Script:
-pyautogui.click(1119.0,166.5)

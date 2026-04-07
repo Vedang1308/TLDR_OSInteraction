@@ -1,3 +1,0 @@
-Task: Navigate to the news related to "Apple Rough Week".
-Output script:
-pyautogui.click(1774.5,1336.0)

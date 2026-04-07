@@ -1,5 +1,0 @@
-Task: Execute a search for the term "libre"
-Output Script:
-pyautogui.click(959, 67)
-pyautogui.write("libre")
-pyautogui.press("Enter")

@@ -1,3 +1,0 @@
-Task: Display the calendar on a day-to-day basis. 
-Output script:
-pyautogui.click(1243.5,35.5)

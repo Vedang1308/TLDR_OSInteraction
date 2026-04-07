@@ -1,5 +1,0 @@
-Task: Initiate pair-up with the room named "ABCDE" on the Zoom platform. 
-Output Script:
-pyautogui.click(2674.0,49.5)
-pyautogui.typewrite("ABCDE")
-pyautogui.press("enter")

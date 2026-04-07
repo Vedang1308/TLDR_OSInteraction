@@ -1,4 +1,0 @@
-Task: Remove the "documents" directory
-Output Script:
-pyautogui.click(809.5,263.0)
-pyautogui.press("shift", "delete")

@@ -1,3 +1,0 @@
-Task: Exit the camera viewing window
-Output Script:
-pyautogui.click(1892.0,49.5)

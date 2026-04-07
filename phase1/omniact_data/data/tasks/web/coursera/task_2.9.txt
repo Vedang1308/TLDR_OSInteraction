@@ -1,3 +1,0 @@
-Task: See Winter 2024 Applications Page
-Output Script:
-pyautogui.click(736.0,131.0)

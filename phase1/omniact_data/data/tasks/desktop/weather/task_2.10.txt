@@ -1,3 +1,0 @@
-Task: View the 10 day forecast Vancouver
-Output Script:
-pyautogui.click(1360.0,1287.5)

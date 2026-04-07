@@ -1,3 +1,0 @@
-Task: Initiate an employment search at Mayo Clinic.
-Output Script:
-pyautogui.click(1021.0,658.0)

@@ -1,3 +1,0 @@
-Task: "What is the procedure to secure employment here?"
-Output Script: 
-pyautogui.click(864.0,34.0)

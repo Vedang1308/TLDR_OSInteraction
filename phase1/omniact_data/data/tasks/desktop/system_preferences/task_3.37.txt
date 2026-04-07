@@ -1,3 +1,0 @@
-Task: Initiate the user guide by selecting the question mark located at the bottom right. 
-Output Script:
-pyautogui.click(1914.0,1100.5)

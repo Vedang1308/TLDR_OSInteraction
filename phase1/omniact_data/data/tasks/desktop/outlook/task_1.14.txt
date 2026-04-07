@@ -1,5 +1,0 @@
-Task: Select the first email and mark it as read
-Output Script:
-pyautogui.rightClick(304.0,212.0)
-pyautogui.write("read")
-pyautogui.press("enter")

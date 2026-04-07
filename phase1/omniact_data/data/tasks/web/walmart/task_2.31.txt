@@ -1,3 +1,0 @@
-Task: Proceed to the shop decor webpage via the shop decor card
-Output Script:
-pyautogui.click(1144.5,272.5)

@@ -1,3 +1,0 @@
-Task: Use "Ask UPS" to navigate to the "frequently_asked_questions" section. 
-Output Script:
-pyautogui.click(1314.0,882.5)

@@ -1,3 +1,0 @@
-Task: Access the web page focused on ID Cards
-Output Script:
-pyautogui.click(584.0,236.5)

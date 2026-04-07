@@ -1,3 +1,0 @@
-Task: Begin adding the first product to your purchase list by clicking on the related shopping cart.
-Output Script:
-pyautogui.click(216.0,858.0)

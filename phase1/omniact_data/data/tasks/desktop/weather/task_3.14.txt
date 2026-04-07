@@ -1,3 +1,0 @@
-Task: View the weather of Chicago the 15th 
-Output Script:
-pyautogui.click(2119.0,807.0)

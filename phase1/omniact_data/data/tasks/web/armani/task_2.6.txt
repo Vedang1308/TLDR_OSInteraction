@@ -1,7 +1,0 @@
-Task: Reach the second choice in the dropdown menu of women category
-Output Script:
-pyautogui.moveTo(341, 171.5)
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("tab")
-pyautogui.press("enter")

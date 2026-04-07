@@ -1,4 +1,0 @@
-Task: Navigate down to view the following book in the list
-Output Script:
-pyautogui.moveTo(995.0,572.5)
-pyautogui.scroll(15)

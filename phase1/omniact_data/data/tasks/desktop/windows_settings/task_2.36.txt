@@ -1,3 +1,0 @@
-Task: Return to the primary screen in settings by tapping on the house-shaped button
-Output Script:
-pyautogui.click(200.5,91.0)

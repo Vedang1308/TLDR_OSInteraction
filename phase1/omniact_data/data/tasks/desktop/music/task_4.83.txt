@@ -1,3 +1,0 @@
-Task: Remove all songs from the queue
-Output Script:
-pyautogui.click(3066.5,2039.5)

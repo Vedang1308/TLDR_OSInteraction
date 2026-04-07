@@ -1,4 +1,0 @@
-Task: Search for "photo editing" in the search bar.
-Output script:
-pyautogui.click(219.5,131.0)
-pyautogui.write("photo editing")

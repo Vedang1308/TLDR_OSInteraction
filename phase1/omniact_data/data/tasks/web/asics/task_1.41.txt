@@ -1,5 +1,0 @@
-Task: In the section for kid"s shoes, adjust the price range so that the maximum price displayed is 300 by scrolling on the price filter until it represents 300.
-Output Script:
-pyautogui.click(245.0,620.0)
-pyautogui.press("tab")
-pyautogui.hscroll(-10)

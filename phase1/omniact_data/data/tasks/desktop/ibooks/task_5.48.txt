@@ -1,3 +1,0 @@
-Task: Access expanded options for the book "Memoirs of Casanova" by clicking on "More Options" button.
-Output Script:
-pyautogui.click(1332.0,967.5)

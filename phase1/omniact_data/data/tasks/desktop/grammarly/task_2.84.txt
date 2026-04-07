@@ -1,5 +1,0 @@
-Task: Locate all instances of the word "client" in the active window.
-Output script:
-pyautogui.hotkey("ctrl", "f")
-pyautogui.write("client")
-pyautogui.press("enter")

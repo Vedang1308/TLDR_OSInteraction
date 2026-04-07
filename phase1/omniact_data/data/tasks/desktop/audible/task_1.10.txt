@@ -1,3 +1,0 @@
-Task: Maximize screen
-Output Script:
-pyautogui.click(1867.0,46.5)

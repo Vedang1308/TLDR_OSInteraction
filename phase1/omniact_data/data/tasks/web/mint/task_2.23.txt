@@ -1,3 +1,0 @@
-Task: View Samsung Galaxy Phone
-Output Script:
-pyautogui.click(881.0,473.0)

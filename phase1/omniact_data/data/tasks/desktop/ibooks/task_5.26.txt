@@ -1,4 +1,0 @@
-Task: Move downward to uncover further books in the series
-Output Script:
-pyautogui.moveTo(1883.0,1145.0)
-pyautogui.scroll(10)

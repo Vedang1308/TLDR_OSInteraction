@@ -1,3 +1,0 @@
-Task: Navigate to the slideshow"s second image
-Output Script:
-pyautogui.click(1106.5,2014.5)

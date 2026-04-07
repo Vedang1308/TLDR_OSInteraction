@@ -1,3 +1,0 @@
-Task: Move forward one month
-Output Script:
-Pyautogui.click(405.5,66.0)

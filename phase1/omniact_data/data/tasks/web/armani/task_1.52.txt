@@ -1,3 +1,0 @@
-Task: Navigate to the tab named "outlet" by clicking on it at the top.
-Output Script:
-pyautogui.click(736.5,171.5)

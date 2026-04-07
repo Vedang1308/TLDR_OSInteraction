@@ -1,3 +1,0 @@
-Task: See details of the current email
-Output Script:
-pyautogui.click(952.5,927.5)

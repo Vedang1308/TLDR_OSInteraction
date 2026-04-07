@@ -1,3 +1,0 @@
-Task: Initiate the creation of a novel list.
-Output Script:
-pyautogui.click(116.5,52.0)

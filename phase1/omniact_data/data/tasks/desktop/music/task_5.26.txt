@@ -1,8 +1,0 @@
-Task: Organize the playlists in reverse order by their titles.
-Output Script:
-pyautogui.click(3288.0,137.5)
-pyautogui.write("title")
-pyautogui.press("enter")
-pyautogui.click(3288.0,137.5)
-pyautogui.write("descending")
-pyautogui.press("enter")

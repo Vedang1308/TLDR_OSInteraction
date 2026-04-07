@@ -1,5 +1,0 @@
-Task: Find the result of 2 raised to 3
-Output Script:
-pyautogui.click(1936.5,1159.5)
-pyautogui.click(1479.5,968.5)
-pyautogui.click(2053.5,1162.0)

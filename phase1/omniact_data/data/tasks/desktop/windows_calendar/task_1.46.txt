@@ -1,3 +1,0 @@
-Task: Select the last day of September
-Output Script:
-Pyautogui.click(1577.5,220.5)

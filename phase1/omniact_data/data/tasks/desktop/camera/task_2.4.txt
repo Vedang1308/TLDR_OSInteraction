@@ -1,4 +1,0 @@
-Task: Switch to video and start capturing video
-Output Script:
-pyautogui.click(189.0,953.5)
-pyautogui.click(1036.0,953.5)

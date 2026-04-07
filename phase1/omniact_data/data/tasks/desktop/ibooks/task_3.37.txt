@@ -1,5 +1,0 @@
-Task: Distribute the existing page via "Facebook"
-Output Script:
-pyautogui.click(2931.0,99.0)
-pyautogui.write("Facebook")
-pyautogui.press("enter")

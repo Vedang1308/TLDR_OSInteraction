@@ -1,3 +1,0 @@
-Task: Activate the information section of the initial TV in the list that includes the Voice Assist feature.
-Output Script:
-pyautogui.click(906.0,647.0)

@@ -1,3 +1,0 @@
-Task: Select the "map" option to view the tour locations.
-Output script:
-pyautogui.click(1371.5,1739.5)

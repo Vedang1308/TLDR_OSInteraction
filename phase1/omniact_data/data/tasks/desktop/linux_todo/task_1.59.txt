@@ -1,5 +1,0 @@
-Task: Set the haircut appointment to tomorrow"s date
-Output Script:
-pyautogui.click(1263.0,648.5)
-pyautogui.press("right")
-pyautogui.press("enter")

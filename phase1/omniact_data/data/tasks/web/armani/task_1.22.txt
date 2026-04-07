@@ -1,3 +1,0 @@
-Task: Navigate to the graphic T-shirts section on the website.
-Output Script:
-pyautogui.click(386.0,228.0)

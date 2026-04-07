@@ -1,4 +1,0 @@
-Task: Explore the details of the movie and then backtrack
-Output Script:
-pyautogui.click(949.5,597.5)
-pyautogui.click(101.5,26.5)

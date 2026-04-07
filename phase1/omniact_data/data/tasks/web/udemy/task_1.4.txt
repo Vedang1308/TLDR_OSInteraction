@@ -1,6 +1,0 @@
-Task: Copy "web development" keyword and paste in search bar to search
-pyautogui.doubleClick(1189.0,772.0)
-pyautogui.hotkey("ctrl", "c")
-pyautogui.click(607.5,36.0)
-pyautogui.hotkey("ctrl", "v")
-pyautogui.click(276.0,36.0)

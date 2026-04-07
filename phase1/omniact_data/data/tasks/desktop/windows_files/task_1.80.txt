@@ -1,3 +1,0 @@
-Task: Shut down the current window with help of "close_window" button
-Output Script:
-pyautogui.click(1887.5,17.5)

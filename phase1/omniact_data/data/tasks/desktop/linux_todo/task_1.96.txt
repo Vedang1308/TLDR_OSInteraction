@@ -1,3 +1,0 @@
-Task: Check off "meal prep" task as done
-Output Script:
-pyautogui.click(694.0,601.0)

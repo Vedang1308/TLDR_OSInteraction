@@ -1,3 +1,0 @@
-Task: Activate Microsoft Store program
-Output Script:
-pyautogui.click(1725.5,797.5)

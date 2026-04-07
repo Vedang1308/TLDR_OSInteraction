@@ -1,3 +1,0 @@
-Task: Review the agenda for October 1st.
-Output script:
-pyautogui.click(1010.5,1458.0)

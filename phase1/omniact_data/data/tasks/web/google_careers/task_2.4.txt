@@ -1,3 +1,0 @@
-Task: Go to North America Region Jobs
-Output Script:
-pyautogui.click(363.5,336.0)

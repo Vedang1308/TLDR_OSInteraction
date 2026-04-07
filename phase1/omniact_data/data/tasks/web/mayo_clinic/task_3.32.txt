@@ -1,3 +1,0 @@
-Task: How can I express dissatisfaction on mayolabs?
-Output Script:
-pyautogui.click(839.5,96.0)

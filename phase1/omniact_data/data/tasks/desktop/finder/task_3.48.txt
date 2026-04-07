@@ -1,3 +1,0 @@
-Task: Deploy the App Store by tapping on the blue icon situated at the bottom.
-Output Script:
-pyautogui.click(1490.5,2027.5)

@@ -1,3 +1,0 @@
-Task: Use keyboard combination to close the open tab
-Output Script:
-pyautogui.hotkey("ctrl", "w")

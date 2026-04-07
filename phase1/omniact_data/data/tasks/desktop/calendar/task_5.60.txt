@@ -1,5 +1,0 @@
-Task: Enter "Video Conferencing" as the meeting type. 
-Output script:
-pyautogui.click(1839.5,516.0)
-pyautogui.write("Team Building")
-pyautogui.press("enter")

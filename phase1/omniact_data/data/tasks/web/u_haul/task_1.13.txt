@@ -1,3 +1,0 @@
-Task: "Can you show me where to find rental information for trucks?"
-Output Script: 
-pyautogui.click(186.5,82.0)

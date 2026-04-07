@@ -1,3 +1,0 @@
-Task: Adjust the resident count in the room
-Output Script:
-pyautogui.click(1003.5,500.0)

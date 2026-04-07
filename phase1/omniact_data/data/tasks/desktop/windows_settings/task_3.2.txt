@@ -1,3 +1,0 @@
-Task: Turn on Limit notifications and background activity when battery saver is on
-Output Script:
-pyautogui.click(456.5,515.0)

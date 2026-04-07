@@ -1,3 +1,0 @@
-Task: Check the deals options in the top left.
-Output Script:
-pyautogui.click(180.5,67.0)

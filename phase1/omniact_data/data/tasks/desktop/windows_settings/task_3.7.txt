@@ -1,3 +1,0 @@
-Task: Give feedback using the options in the right column
-Output Script:
-pyautogui.click(1665.5,179.5)

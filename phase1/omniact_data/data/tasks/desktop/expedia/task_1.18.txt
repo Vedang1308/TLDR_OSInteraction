@@ -1,3 +1,0 @@
-Task: View and book available things to do.
-Output script:
-pyautogui.click(499.0,380.0)

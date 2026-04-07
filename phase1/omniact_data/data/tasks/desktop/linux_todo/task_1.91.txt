@@ -1,3 +1,0 @@
-Task: Confirm the gardening task as done
-Output Script:
-pyautogui.click(694.5,156.0)

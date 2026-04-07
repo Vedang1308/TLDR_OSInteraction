@@ -1,4 +1,0 @@
-Task: open desktop right click menu
-Output Script:
-pyautogui.moveTo(1759.0,742.5)
-pyautogui.rightClick(1759.0,742.5)

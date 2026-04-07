@@ -1,3 +1,0 @@
-Task: Display complete list of worldwide radio stations
-Output script:
-pyautogui.click(717.5,1905.5)

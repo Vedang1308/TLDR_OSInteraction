@@ -1,3 +1,0 @@
-Task: Navigate to the main page by clicking on the aramex logo.
-Output Script:
-pyautogui.click(105.0,40.0)

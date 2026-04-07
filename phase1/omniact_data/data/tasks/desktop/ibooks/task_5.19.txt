@@ -1,3 +1,0 @@
-Task: Select the option for more information on the book "The Secret Power"
-Output Script:
-pyautogui.click(1339.0,1731.5)

@@ -1,3 +1,0 @@
-Task: Select the "change date or location" button to adjust your tour specifics.
-Output script:
-pyautogui.click(1443.5,42.5)

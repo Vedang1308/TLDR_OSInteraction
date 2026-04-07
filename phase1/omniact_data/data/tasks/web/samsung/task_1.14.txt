@@ -1,3 +1,0 @@
-Task: Reveal the dropdown menu from the Mobile tab by hovering the mouse over it
-Output Script:
-pyautogui.moveTo(277.5,40.0)

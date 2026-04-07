@@ -1,5 +1,0 @@
-Task: Navigate to Travel album and view all images by scrolling down.
-Output Script:
-pyautogui.click(210.0,869.0)
-pyautogui.moveTo(1899.0,1178.0)
-pyautogui.scroll(30)

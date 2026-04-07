@@ -1,5 +1,0 @@
-Task: Navigate to the shell options and select the font size
-Output Script:
-pyautogui.click(286.0,24.0)
-pyautogui.write("font size")
-pyautogui.press("enter")

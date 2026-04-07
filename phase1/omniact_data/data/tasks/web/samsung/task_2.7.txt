@@ -1,3 +1,0 @@
-Task: Click on TVs to backtrack two pages
-Output Script:
-pyautogui.click(273.5,106.5)

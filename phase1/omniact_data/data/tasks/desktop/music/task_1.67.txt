@@ -1,3 +1,0 @@
-Task: Send an update for Music Country
-Output script:
-pyautogui.click(3248.0,391.0)

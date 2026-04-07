@@ -1,3 +1,0 @@
-Task: Activate the headline link to read the article on the 11 best medium-firm mattresses of 2022.
-Output Script:
-pyautogui.click(1092.5,622.0)

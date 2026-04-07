@@ -1,3 +1,0 @@
-Task: Obtain the quarter 2 2023 investment guide by clicking on the link within the Resources section
-Output Script:
-pyautogui.click(1192.0,703.0)

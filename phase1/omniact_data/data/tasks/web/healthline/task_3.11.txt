@@ -1,3 +1,0 @@
-Task: Hunt for the reviews highlighted in blue.
-Output Script:
-pyautogui.click(198.5,99.0)

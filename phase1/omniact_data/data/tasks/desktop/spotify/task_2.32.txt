@@ -1,5 +1,0 @@
-Task: Find the playlist I like the most 
-Output script:
-pyautogui.click(1485.0,130.5)
-pyautogui.write("My Favorite Playlist")
-pyautogui.press("Enter")

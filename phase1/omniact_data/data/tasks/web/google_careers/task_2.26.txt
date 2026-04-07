@@ -1,3 +1,0 @@
-Task: Open up the North America job options
-Output Script:
-pyautogui.click(363.5,336.0)

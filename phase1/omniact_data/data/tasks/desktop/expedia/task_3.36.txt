@@ -1,3 +1,0 @@
-Task: Click on the "change date or location" button to update tour information.
-Output script:
-pyautogui.click(1443.5,42.5)

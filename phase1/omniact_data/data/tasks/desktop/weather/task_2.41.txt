@@ -1,3 +1,0 @@
-Task: Access the feels like temperature indicator for New Delhi
-Output Script:
-pyautogui.click(1843.5,1608.0)

@@ -1,3 +1,0 @@
-Task: Advance to the closing part of the playing song
-Output script:
-pyautogui.click(1274.0,1002.0)

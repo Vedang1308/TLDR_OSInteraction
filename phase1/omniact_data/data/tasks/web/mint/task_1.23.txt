@@ -1,3 +1,0 @@
-Task: Inspect the information of Unlimited Data package.
-Output Script:
-pyautogui.click(1200.0,568.0)

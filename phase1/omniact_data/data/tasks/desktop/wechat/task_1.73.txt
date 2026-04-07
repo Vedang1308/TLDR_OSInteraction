@@ -1,7 +1,0 @@
-Task: Access the third conversation listed under the chat section
-Output Script:
-pyautogui.click(33.5,135.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

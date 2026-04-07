@@ -1,5 +1,0 @@
-Task: Query for the event named "Josh birthday"
-Output script:
-pyautogui.click(280.5,130.5)
-pyautogui.write("Josh birthday")
-pyautogui.press("Enter")

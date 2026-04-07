@@ -1,4 +1,0 @@
-Task: Turn the Louvre snapshot around once
-Output Script:
-pyautogui.click(2477.5,538.5)
-pyautogui.click(2645.5,49.5)

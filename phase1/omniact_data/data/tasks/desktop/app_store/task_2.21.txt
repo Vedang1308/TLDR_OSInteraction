@@ -1,5 +1,0 @@
-Task: Select the Share option, then choose to copy the link.
-Output script:
-pyautogui.click(2800.5,50.5)
-pyautogui.write("Copy")
-pyautogui.press("Enter")

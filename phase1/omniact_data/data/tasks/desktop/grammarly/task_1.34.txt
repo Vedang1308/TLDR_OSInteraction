@@ -1,3 +1,0 @@
-Task: Implement the "see_goals" command
-Output script:
-pyautogui.click(1781.0,269.5)

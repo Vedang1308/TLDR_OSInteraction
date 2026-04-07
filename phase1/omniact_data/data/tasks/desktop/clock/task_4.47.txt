@@ -1,3 +1,0 @@
-Task: Modify the event scheduled at 12pm.
-Output Script:
-pyautogui.click(640.5,313.5)

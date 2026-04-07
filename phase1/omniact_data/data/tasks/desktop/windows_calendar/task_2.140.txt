@@ -1,3 +1,0 @@
-Task: Navigate to the upcoming month in the calendar
-Output Script:
-Pyautogui.click(287.0,192.5)

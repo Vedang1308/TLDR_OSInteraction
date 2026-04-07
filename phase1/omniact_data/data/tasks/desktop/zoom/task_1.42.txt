@@ -1,3 +1,0 @@
-Task: Access the notifications by clicking on the bell symbol.
-Output Script:
-pyautogui.click(2752.0,51.0)

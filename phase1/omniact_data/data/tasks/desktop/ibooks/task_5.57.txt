@@ -1,3 +1,0 @@
-Task: Access the book "How to Do It" by clicking on "Read" button.
-Output Script:
-pyautogui.click(1643.5,1960.5)

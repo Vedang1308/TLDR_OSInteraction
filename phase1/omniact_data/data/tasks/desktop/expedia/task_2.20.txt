@@ -1,4 +1,0 @@
-Task: Select and type "New Delhi" in the departure field.
-Output script:
-pyautogui.click(1438.0,208.5)
-pyautogui.write("New Delhi")

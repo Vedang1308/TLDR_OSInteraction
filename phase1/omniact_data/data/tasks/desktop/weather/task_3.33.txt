@@ -1,3 +1,0 @@
-Task: Show the weather conditions in Milan. 
-Output Script:
-pyautogui.click(317.0,899.0)

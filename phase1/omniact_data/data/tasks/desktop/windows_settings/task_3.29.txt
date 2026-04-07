@@ -1,6 +1,0 @@
-Task: Raise the cut-off point for battery saver by two levels
-Output Script:
-pyautogui.click(492.0,635.5)
-pyautogui.press("down")
-pyautogui.press("down")
-pyautogui.press("enter")

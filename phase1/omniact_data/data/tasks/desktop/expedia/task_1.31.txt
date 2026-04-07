@@ -1,3 +1,0 @@
-Task: Start your interaction with the virtual assistant, hit the chat icon.
-Output script:
-pyautogui.click(2806.5,1647.0)

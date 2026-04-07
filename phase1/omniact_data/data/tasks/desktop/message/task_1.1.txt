@@ -1,3 +1,0 @@
-Task: Open Dad"s chat from left panel
-Output Script:
-pyautogui.click(320.0,1416.5)

@@ -1,3 +1,0 @@
-Task: Clear the recent maps searches.
-Output script:
-pyautogui.click(108.0,976.5)

@@ -1,3 +1,0 @@
-Task: Advance to the next item in the video playlist
-Output Script:
-pyautogui.click(196.5,1050.0)

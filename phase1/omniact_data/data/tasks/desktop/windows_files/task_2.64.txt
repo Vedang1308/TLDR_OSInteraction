@@ -1,4 +1,0 @@
-Task: Erase "documents" folder from the system
-Output Script:
-pyautogui.click(809.5,263.0)
-pyautogui.press("shift", "delete")

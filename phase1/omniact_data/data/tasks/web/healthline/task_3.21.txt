@@ -1,5 +1,0 @@
-Task: Look up information on mattresses using the search function
-Output Script:
-pyautogui.click(1250.0,35.0)
-pyautogui.write("mattresses")
-pyautogui.press("enter")

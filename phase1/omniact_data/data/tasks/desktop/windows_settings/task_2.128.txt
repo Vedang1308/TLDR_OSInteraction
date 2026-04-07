@@ -1,3 +1,0 @@
-Task: Navigate to the Xbox Networking options by selecting the button on the left side.
-Output Script:
-pyautogui.click(200.0,460.5)

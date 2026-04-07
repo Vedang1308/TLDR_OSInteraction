@@ -1,3 +1,0 @@
-Task: Navigate and pick the fourth video game app on the screen.
-Output Script:
-pyautogui.click(983.0,704.5)

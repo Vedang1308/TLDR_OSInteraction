@@ -1,3 +1,0 @@
-Task: Display all burst shots
-Output Script:
-pyautogui.click(260.0,954.0)

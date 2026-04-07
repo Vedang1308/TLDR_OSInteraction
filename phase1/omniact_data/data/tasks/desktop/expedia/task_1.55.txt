@@ -1,3 +1,0 @@
-Task: Browse and schedule package bookings.
-Output script:
-pyautogui.click(2380.5,379.5)

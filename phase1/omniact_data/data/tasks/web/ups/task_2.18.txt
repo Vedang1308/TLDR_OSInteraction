@@ -1,3 +1,0 @@
-Task: Validate the shipping preferences
-Output Script:
-pyautogui.click(297.0,302.5)

@@ -1,3 +1,0 @@
-Task: Navigate to the fall selection of chocolates
-Output Script:
-pyautogui.click(807.5,144.0)

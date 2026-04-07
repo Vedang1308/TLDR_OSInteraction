@@ -1,3 +1,0 @@
-Task: Select the shopping cart option from the menu to open the cart
-Output Script:
-pyautogui.click(1391.0,44.0)

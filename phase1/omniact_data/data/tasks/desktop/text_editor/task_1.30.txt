@@ -1,3 +1,0 @@
-Task: "Store the current document"
-Output Script:
-pyautogui.click(1709.0,49.5)

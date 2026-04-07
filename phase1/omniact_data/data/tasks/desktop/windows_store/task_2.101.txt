@@ -1,3 +1,0 @@
-Task: Check out Starfield game features by executing a click operation on the specified location.
-Output Script:
-pyautogui.click(953.0,704.0)

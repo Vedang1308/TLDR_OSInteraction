@@ -1,3 +1,0 @@
-Task: Redo the last action
-Output script:
-pyautogui.hotkey("ctrl", "y")

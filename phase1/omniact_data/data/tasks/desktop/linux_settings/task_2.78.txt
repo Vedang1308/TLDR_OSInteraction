@@ -1,3 +1,0 @@
-Task: Launch package files
-Output Script:
-pyautogui.click(1114.0,404.5)

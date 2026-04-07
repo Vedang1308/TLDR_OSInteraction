@@ -1,3 +1,0 @@
-Task: Choose the plus icon to configure a new alarm
-Output Script:
-pyautogui.click(3306.5,49.5)

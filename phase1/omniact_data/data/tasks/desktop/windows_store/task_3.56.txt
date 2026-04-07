@@ -1,3 +1,0 @@
-Task: "View account details" 
-Output Script:
-pyautogui.click(1664.0,29.5)

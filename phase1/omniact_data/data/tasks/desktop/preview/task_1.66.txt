@@ -1,3 +1,0 @@
-Task: Choose the certain piece of text to accentuate.
-Output script:
-pyautogui.click(1949.0,99.0)

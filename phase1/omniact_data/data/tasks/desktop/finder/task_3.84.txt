@@ -1,3 +1,0 @@
-Task: Launch the Window Options on screen
-Output Script:
-pyautogui.click(739.0,24.5)

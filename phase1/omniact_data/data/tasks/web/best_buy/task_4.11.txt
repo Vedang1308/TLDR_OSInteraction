@@ -1,7 +1,0 @@
-Task: Check the delivery option for the first television on the online store to the area code 15217.
-Output Script:
-pyautogui.click(858.5,807.0)
-pyautogui.press("tab")
-pyautogui.press("enter")
-pyautogui.write("15217")
-pyautogui.press("enter")

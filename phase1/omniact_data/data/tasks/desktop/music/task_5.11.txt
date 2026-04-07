@@ -1,3 +1,0 @@
-Task: Click the playlist for edms
-Output Script:
-pyautogui.click(703.0,1001.0)

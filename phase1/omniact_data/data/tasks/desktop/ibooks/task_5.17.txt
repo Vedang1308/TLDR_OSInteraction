@@ -1,3 +1,0 @@
-Task: Access the ebook "Songs of Kabir" by double clicking.
-Output Script:
-pyautogui.doubleClick(2592.0,617.5)

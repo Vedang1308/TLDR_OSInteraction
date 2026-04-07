@@ -1,5 +1,0 @@
-Task: Set up an event called "Meeting with Alex"
-Output script:
-pyautogui.click(1577.0,507.5)
-pyautogui.write("Meeting with Alex")
-pyautogui.press("enter")

@@ -1,3 +1,0 @@
-Task: Assess available flight schedules
-Output Script:
-pyautogui.click(405.5,242.0)

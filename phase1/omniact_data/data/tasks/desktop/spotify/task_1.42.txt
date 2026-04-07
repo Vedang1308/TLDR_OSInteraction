@@ -1,3 +1,0 @@
-Task: Minimize the sound volume
-Output script:
-pyautogui.click(1791.5,974.0)

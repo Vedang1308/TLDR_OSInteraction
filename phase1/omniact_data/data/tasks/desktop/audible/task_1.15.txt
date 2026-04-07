@@ -1,3 +1,0 @@
-Task: Lower display screen
-Output Script:
-pyautogui.click(1831.5,46.5)

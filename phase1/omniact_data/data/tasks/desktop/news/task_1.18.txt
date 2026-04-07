@@ -1,3 +1,0 @@
-Task: Open the "Climate" section.
-Output script:
-pyautogui.click(221.0,628.5)

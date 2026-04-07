@@ -1,5 +1,0 @@
-Task: Update to the secondary currency choice from the menu.
-Output Script:
-pyautogui.click(956.5,36.0)
-pyautogui.press("down")
-pyautogui.press("down")

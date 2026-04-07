@@ -1,4 +1,0 @@
-Task: Schedule an event at 9 in the morning on New Year"s day.
-Output script:
-pyautogui.click(735.5,395.5)
-pyautogui.click(735.5,395.5)

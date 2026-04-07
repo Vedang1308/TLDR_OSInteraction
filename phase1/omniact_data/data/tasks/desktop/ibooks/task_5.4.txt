@@ -1,4 +1,0 @@
-Task: Scroll down to see more books in the collection
-Output Script:
-pyautogui.moveTo(1883.0,1145.0)
-pyautogui.scroll(10)

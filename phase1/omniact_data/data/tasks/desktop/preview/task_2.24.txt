@@ -1,3 +1,0 @@
-Task: Adjust the thickness of the drawing.
-Output script:
-pyautogui.click(913.5,181.5)

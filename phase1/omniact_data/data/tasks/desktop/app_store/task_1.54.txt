@@ -1,3 +1,0 @@
-Task: Select the "Arcade" category.
-Output script:
-pyautogui.click(221.5,310.5)

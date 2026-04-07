@@ -1,3 +1,0 @@
-Task: Proceed to Optimal Rates
-Output script:
-pyautogui.click(344.0,590.0,)

@@ -1,3 +1,0 @@
-Task: Send the draft mail
-Output Script:
-pyautogui.click(1571.0,70.0)

@@ -1,3 +1,0 @@
-Task: Leave the fullscreen view.
-Output script:
-pyautogui.click(132.0,100.0)

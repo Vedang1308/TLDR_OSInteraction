@@ -1,3 +1,0 @@
-Task: Review sent messages
-Output script:
-pyautogui.click(202.0,653.5)

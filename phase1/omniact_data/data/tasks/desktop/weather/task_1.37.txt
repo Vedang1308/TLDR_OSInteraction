@@ -1,3 +1,0 @@
-Task: Review Vancouver"s weather report
-Output Script:
-pyautogui.click(314.0,653.0)

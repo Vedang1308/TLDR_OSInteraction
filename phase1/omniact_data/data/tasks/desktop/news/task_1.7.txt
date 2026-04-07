@@ -1,3 +1,0 @@
-Task: Click on the "Politics" section.
-Output script:
-pyautogui.click(224.5,1192.5)

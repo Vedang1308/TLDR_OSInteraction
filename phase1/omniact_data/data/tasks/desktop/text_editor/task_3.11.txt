@@ -1,3 +1,0 @@
-Task: "Open the menu options"
-Output Script:
-pyautogui.click(1768.5,48.5)

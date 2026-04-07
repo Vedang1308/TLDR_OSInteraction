@@ -1,5 +1,0 @@
-Task: Navigate to the Films & TV category.
-Output Script:
-pyautogui.click(44.0,253.5)
-pyautogui.press("PGDN")
-pyautogui.press("Enter")

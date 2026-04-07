@@ -1,3 +1,0 @@
-Task: Refresh to the cruises page
-Output Script:
-pyautogui.click(722.0,242.0)

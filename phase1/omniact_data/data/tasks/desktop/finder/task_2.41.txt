@@ -1,3 +1,0 @@
-Task: Rearrange the files by their size starting from the smallest one
-Output Script:
-pyautogui.click(2998.5,132.0)

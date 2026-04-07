@@ -1,4 +1,0 @@
-Task: Find and click on "get" to start the downloading and installment of the application.
-Output script:
-pyautogui.click(891.0,318.5)
-pyautogui.click(891.0,318.5)

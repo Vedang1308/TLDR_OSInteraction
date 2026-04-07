@@ -1,3 +1,0 @@
-Task: Instantly mix the Dan + Shay playlist by hitting the red shuffle control.
-Output Script:
-pyautogui.click(2602.0,231.0)

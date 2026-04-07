@@ -1,4 +1,0 @@
-Task: Clone the content of the readme.md file using keyboard shortcuts
-Output Script:
-pyautogui.click(1069.0,617.5)
-pyautogui.hotkey("ctrl", "c")

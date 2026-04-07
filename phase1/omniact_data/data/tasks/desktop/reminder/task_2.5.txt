@@ -1,3 +1,0 @@
-Task: Flag this new event.
-Output script:
-pyautogui.click(1178.0,1112.0)

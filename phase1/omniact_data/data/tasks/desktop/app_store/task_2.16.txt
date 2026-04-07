@@ -1,5 +1,0 @@
-Task: Click on the "share" button and then select the "Twitter" option to share the application on Twitter.
-Output script:
-pyautogui.click(2800.5,50.5)
-pyautogui.write("Twitter")
-pyautogui.press("Enter")

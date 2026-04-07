@@ -1,6 +1,0 @@
-Task: Update the Desktop folder"s name to "My Desktop"
-Output Script:
-pyautogui.rightClick(1882.0,228.0)
-pyautogui.write("Rename")
-pyautogui.press("enter")
-pyautogui.write("My Desktop")

@@ -1,4 +1,0 @@
-Task: Switch the narrating speed to the successive pace
-Output Script:
-pyautogui.click(847.0,775.5)
-pyautogui.press("right")

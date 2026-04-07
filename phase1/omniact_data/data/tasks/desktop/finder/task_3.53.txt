@@ -1,3 +1,0 @@
-Task: Initiate the Finder Program
-Output Script:
-pyautogui.click(131.0,2029.5)

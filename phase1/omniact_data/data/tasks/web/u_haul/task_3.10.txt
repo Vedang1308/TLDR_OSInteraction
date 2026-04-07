@@ -1,3 +1,0 @@
-Task: "Obtain containers for shift"
-Output Script: 
-pyautogui.click(495.0,82.0)

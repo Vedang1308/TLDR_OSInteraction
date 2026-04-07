@@ -1,3 +1,0 @@
-Task: Access the shopping cart by clicking the bag symbol located at the top right of the webpage
-Output Script:
-pyautogui.click(1385.5,73.5)

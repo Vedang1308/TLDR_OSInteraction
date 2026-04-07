@@ -1,5 +1,0 @@
-Task: Click on the "more" button and then select the "Reviews" option to view user reviews.
-Output script:
-pyautogui.click(2381.5,1602.0)
-pyautogui.write("Reviews")
-pyautogui.press("Enter")

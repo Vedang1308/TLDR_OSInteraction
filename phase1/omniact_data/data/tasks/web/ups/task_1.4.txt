@@ -1,4 +1,0 @@
-Task: Empty the tracking bar
-Output Script:
-pyautogui.doubleclick(590.0,347.0)
-pyautogui.press("backspace")

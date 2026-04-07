@@ -1,3 +1,0 @@
-Task: Launch the recollections video playback
-Output Script:
-pyautogui.click(953.0,226.5)

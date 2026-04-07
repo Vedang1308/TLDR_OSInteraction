@@ -1,6 +1,0 @@
-Task: Add 2 and 7
-Output Script:
-pyautogui.click(1936.5,1159.5)
-pyautogui.click(2169.0,1162.0)
-pyautogui.click(1823.0,972.0)
-pyautogui.click(2169.0,1255.5)

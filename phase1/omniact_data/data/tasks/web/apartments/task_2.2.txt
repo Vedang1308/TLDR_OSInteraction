@@ -1,3 +1,0 @@
-Task: call this property
-Output script:
-pyautogui.click(1154.0,776.0)

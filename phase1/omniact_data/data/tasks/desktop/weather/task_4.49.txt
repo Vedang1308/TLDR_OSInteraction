@@ -1,3 +1,0 @@
-Task: Verify if the sun is present in the 8pm popup.
-Output Script:
-pyautogui.click(2848.5,749.5)

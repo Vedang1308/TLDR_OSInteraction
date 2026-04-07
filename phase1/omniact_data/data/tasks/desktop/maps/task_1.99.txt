@@ -1,5 +1,0 @@
-Task: Implement an additional point "bars" in your guide.
-Output script:
-pyautogui.click(290.5,528.5)
-pyautogui.write("bars")
-pyautogui.press("enter")

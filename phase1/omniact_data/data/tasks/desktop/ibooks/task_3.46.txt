@@ -1,3 +1,0 @@
-Task: Navigate to the "see_notes" location on the screen
-Output Script:
-pyautogui.moveTo(368.0,99.0)

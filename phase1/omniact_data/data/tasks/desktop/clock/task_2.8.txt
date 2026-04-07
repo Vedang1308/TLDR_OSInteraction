@@ -1,4 +1,0 @@
-Task: Increase hours by 1
-Output Script:
-pyautogui.click(1389.0,985.0)
-pyautogui.press("up")

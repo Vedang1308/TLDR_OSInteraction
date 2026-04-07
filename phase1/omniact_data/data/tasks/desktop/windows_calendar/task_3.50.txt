@@ -1,4 +1,0 @@
-Task: Select "Pittsburgh" from the dropdown menu in location settings.
-Output Script:
-Pyautogui.click(655.0,363.5)
-Pyautogui.write("Pittsburgh ")

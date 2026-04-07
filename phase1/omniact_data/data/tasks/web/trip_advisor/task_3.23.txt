@@ -1,3 +1,0 @@
-Task: Find out local experiences and places to visit
-Output Script:
-pyautogui.click(216.5,242.0)

@@ -1,5 +1,0 @@
-Task: Add the alert for 30 minutes before the event.
-Output script:
-pyautogui.click(1600.5,662.0)
-pyautogui.write("30 minutes before")
-pyautogui.press("enter")

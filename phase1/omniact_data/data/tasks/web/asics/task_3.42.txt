@@ -1,3 +1,0 @@
-Task: Login to the system before you finalize your purchase
-Output Script: 
-pyautogui.click(1192.0,76.5)

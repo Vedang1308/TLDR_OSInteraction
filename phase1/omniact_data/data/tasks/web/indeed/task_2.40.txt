@@ -1,3 +1,0 @@
-Task: Head to Earnings Info Section
-Output Script:
-pyautogui.click(485.0,34.0)

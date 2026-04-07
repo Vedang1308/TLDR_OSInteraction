@@ -1,3 +1,0 @@
-Task: Select the date 31
-Output script:
-pyautogui.click(2317.5,309.0)

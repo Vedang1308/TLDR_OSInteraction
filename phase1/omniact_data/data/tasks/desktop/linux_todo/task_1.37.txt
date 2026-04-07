@@ -1,3 +1,0 @@
-Task: Remove completed tasks
-Output Script:
-pyautogui.click(1770.0,112.0)

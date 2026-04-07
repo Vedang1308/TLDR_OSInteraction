@@ -1,3 +1,0 @@
-Task: Retract the side panel of the calendar
-Output Script:
-Pyautogui.click(31.0,69.5)

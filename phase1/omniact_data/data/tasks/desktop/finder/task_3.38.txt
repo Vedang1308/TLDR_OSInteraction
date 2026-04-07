@@ -1,3 +1,0 @@
-Task: Initiate the Terminal software
-Output Script:
-pyautogui.click(2073.0,2029.5)

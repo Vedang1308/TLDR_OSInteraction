@@ -1,3 +1,0 @@
-Task: Update the mailbox
-Output Script:
-pyautogui.click(599.5,69.5)

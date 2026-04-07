@@ -1,3 +1,0 @@
-Task: Commence the group picture taking process.
-Output Script:
-pyautogui.click(2258.0,662.0)

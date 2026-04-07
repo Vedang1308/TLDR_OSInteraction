@@ -1,3 +1,0 @@
-Task: Proceed to the page showcasing fresh produce
-Output Script:
-pyautogui.click(157.0,230.0)

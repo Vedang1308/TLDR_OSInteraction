@@ -1,3 +1,0 @@
-Task: Verify the statistics of Dow Jones stock.
-Output script:
-pyautogui.click(338.5,408.0)

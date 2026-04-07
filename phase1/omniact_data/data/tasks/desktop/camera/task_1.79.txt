@@ -1,3 +1,0 @@
-Task: Execute the command to revoke the last change
-Output Script:
-pyautogui.hotkey("ctrl", "z")

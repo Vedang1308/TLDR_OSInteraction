@@ -1,3 +1,0 @@
-Task: Instantly exit the current window using a keyboard shortcut
-Output Script:
-pyautogui.hotkey("alt", "f4")

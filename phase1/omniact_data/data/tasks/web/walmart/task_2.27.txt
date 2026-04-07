@@ -1,3 +1,0 @@
-Task: Proceed to the page dedicated to Wicked party supplies
-Output Script:
-pyautogui.click(543.0,728.5)

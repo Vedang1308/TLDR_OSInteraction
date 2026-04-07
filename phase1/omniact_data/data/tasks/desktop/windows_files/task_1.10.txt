@@ -1,3 +1,0 @@
-Task: Minimize the window using icon
-Output Script:
-pyautogui.click(584.0,1053.0)

@@ -1,3 +1,0 @@
-Task: Determine the weather at 6 o"clock in the morning
-Output Script:
-pyautogui.click(1869.0,1279.5)

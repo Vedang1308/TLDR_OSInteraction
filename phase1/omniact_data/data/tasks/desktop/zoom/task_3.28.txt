@@ -1,3 +1,0 @@
-Task: Access the timing application in the system.
-Output Script:
-pyautogui.click(466.0,397.0)

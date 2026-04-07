@@ -1,3 +1,0 @@
-Task: Navigate downwards to explore more features
-Output Script:
-pyautogui.scroll(20)

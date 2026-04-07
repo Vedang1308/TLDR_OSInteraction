@@ -1,3 +1,0 @@
-Task: Use the menu to access the appointment scheduling functionality.
-Output Script:
-pyautogui.click(1175.5,171.5)

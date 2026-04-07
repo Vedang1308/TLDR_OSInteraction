@@ -1,3 +1,0 @@
-Task: Look up discounts for tablets
-Output Script:
-pyautogui.click(610.5,354.0)

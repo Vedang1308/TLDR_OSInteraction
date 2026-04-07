@@ -1,4 +1,0 @@
-Task: Navigate to "Places" album and maximize images using the top navigation bar
-Output Script:
-pyautogui.click(215.0,359.5)
-pyautogui.write("enlarge_pics")

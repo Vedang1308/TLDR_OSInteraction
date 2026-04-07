@@ -1,3 +1,0 @@
-Task: Launch Microsoft Store
-Output Script:
-pyautogui.click(1725.5,797.5)

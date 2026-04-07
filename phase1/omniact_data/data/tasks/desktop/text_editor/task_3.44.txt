@@ -1,3 +1,0 @@
-Task: "Access the document named "untitled" from the left side panel"
-Output Script:
-pyautogui.click(158.0,124.5)

@@ -1,3 +1,0 @@
-Task: Purchase the book presently selected
-Output Script:
-pyautogui.click(3272.0,99.5)

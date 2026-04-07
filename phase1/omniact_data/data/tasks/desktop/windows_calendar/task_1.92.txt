@@ -1,3 +1,0 @@
-Task: Jump to the present day on the calendar
-Output Script:
-Pyautogui.click(1109.0,70.5)

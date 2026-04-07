@@ -1,3 +1,0 @@
-Task: Select the Instagram logo in the bottom panel to visit the Aramex Instagram account
-Output Script:
-pyautogui.click(1145.0,681.0)

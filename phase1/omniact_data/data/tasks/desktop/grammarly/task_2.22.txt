@@ -1,4 +1,0 @@
-Task: Click on the new document and start typing "Hi"
-Output script:
-pyautogui.click(188.5,233.5)
-pyautogui.write("Hi")

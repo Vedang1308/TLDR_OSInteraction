@@ -1,3 +1,0 @@
-Task: Reload inbox
-Output Script:
-pyautogui.click(443.5,69.5)

@@ -1,4 +1,0 @@
-Task: Advance the streaming media by one minute (Push the button for 30 seconds forward twice)
-Output Script:
-pyautogui.click(1080.5,700.0)
-pyautogui.click(1080.5,700.0)

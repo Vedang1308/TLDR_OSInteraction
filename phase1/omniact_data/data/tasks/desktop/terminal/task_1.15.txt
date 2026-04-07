@@ -1,3 +1,0 @@
-Task: Open a new tab using keyboard shortcut
-Output Script:
-pyautogui.hotkey("ctrl", "t")

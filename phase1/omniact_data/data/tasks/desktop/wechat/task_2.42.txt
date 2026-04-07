@@ -1,3 +1,0 @@
-Task: Adjust the note window to occupy the entire screen
-Output Script:
-pyautogui.click(1243.5,129.0)

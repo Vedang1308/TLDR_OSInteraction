@@ -1,3 +1,0 @@
-Task: Redirect to the autumn collection of chocolates
-Output Script:
-pyautogui.click(807.5,144.0)

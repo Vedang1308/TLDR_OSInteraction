@@ -1,3 +1,0 @@
-Task: Navigate to the homepage by clicking on the Walmart icon.
-Output Script:
-pyautogui.click(97.0,44.0)

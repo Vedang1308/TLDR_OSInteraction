@@ -1,3 +1,0 @@
-Task: Check the stock fluctuations at 12 pm.
-Output script:
-pyautogui.click(1533.0,688.5)

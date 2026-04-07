@@ -1,3 +1,0 @@
-Task: Enter login credentials before proceeding to purchase  
-Output Script: 
-pyautogui.click(1192.0,76.5)

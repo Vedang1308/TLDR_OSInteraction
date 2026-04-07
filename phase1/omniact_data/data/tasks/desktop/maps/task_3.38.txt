@@ -1,3 +1,0 @@
-Task: Reverse the source and target locations in the navigation window.
-Output script:
-pyautogui.click(2781.0,277.0)

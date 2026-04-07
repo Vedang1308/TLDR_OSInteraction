@@ -1,3 +1,0 @@
-Task: Navigate to the main page by selecting the Samsung logo
-Output Script:
-pyautogui.click(76.0,40.0)
