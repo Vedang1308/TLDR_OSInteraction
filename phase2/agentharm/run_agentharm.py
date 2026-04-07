@@ -1,5 +1,6 @@
 import sys
 import os
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 import torch
 
 # 🚀 PROJECT PATH RESOLUTION: Add the root directory to sys.path
@@ -96,7 +97,7 @@ if retry_log:
         retry_log,
         log_dir=log_dir,
         log_format="json",
-        max_connections=1
+        max_connections=32
     )
 else:
     print("No incomplete logs found. Starting a fresh AgentHARM run...")
@@ -108,7 +109,7 @@ else:
         model=provider_model_str,
         log_dir=log_dir,
         log_format="json",
-        max_connections=1
+        max_connections=32
     )
 
 print(f"\nAgentHARM metrics and execution logs have been securely saved to: {log_dir}")

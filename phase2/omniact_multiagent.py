@@ -1,5 +1,6 @@
 import os
 import sys
+os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # 🚀 PROJECT PATH RESOLUTION: Add the root directory to sys.path
 # This ensures that 'from phase2...' imports work regardless of where the script is invoked.
@@ -187,7 +188,12 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
     total_tasks = len(task_files)
     print(f"[OmniACT] Processing exactly {total_tasks} raw physical examples on {device}...")
     
-    for idx, task_txt_path in enumerate(task_files):
+    import threading
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    
+    file_lock = threading.Lock()
+    
+    def process_task(idx, task_txt_path):
         task_filename = os.path.basename(task_txt_path)
         # e.g. task_1.14.txt -> "1.14" -> screen "1"
         stripped_metrics = task_filename.replace("task_", "").replace(".txt", "")
@@ -198,8 +204,9 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
         task_rel_path = os.path.relpath(task_txt_path, os.path.join(data_dir, "data", "tasks"))
         task_id = task_rel_path.replace(os.sep, "__") # unique key
         
-        if task_id in results:
-            continue # Skip efficiently
+        with file_lock:
+            if task_id in results:
+                return # Skip efficiently
             
         # Reconstruct the image path by swapping /tasks/ for /data/ in the directory string
         img_dir = task_dir.replace(os.sep + "tasks" + os.sep, os.sep + "data" + os.sep)
@@ -218,7 +225,7 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
             
         if not os.path.exists(image_path):
             print(f"  -> WARNING: Missing physical image for {task_id} -> {image_path}. Skipping isolated task.")
-            continue
+            return
             
         from PIL import Image
         image = Image.open(image_path).convert("RGB")
@@ -286,12 +293,22 @@ pyautogui.press("enter")"""
             images=[image],
             task_index=idx
         )
-        results[task_id] = {"instruction": instruction_text[:100], "action": generated_action}
-        with open(checkpoint_file, "w") as f:
-            json.dump(results, f, indent=4)
+        
+        with file_lock:
+            results[task_id] = {"instruction": instruction_text[:100], "action": generated_action}
+            with open(checkpoint_file, "w") as f:
+                json.dump(results, f, indent=4)
             
-
         print(f"   Qwen3 Token: {generated_action.strip()}\n")
+
+    print(f"[OmniACT] Launching concurrency pool (4 workers)...")
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        futures = [executor.submit(process_task, idx, task_txt_path) for idx, task_txt_path in enumerate(task_files)]
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                print(f"Exception generated during worker execution: {e}")
     print(f"\n[OmniACT] Evaluation completely finished! Results securely saved to {checkpoint_file}")
 
 def main():
