@@ -142,7 +142,7 @@ import builtins
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from phase2.agents.omniact_agent import OmniactAgentSystem
+from phase2.agents.omniact_agent_v2 import OmniactAgentSystemV2
 
 def eval_omniact(model_name, device, model, processor, limit=-1):
     print(f"[OmniACT] Evaluating {model_name} against OmniACT dataset...")
@@ -283,8 +283,8 @@ pyautogui.press("enter")"""
             
         print(f"\n[{idx}/{total_tasks}] Task: {task_id}")
         
-        # Instantiate the agent system dynamically (Self-Trust Consensus)
-        agent_system = OmniactAgentSystem(benchmark="omniact", num_samples=5, temperature=0.7)
+        # Instantiate the improved agent system dynamically (Density Consensus V2)
+        agent_system = OmniactAgentSystemV2(benchmark="omniact", num_samples=5, temperature=0.7)
         
         # Execute the high-temp sample loop
         generated_action = agent_system.execute_task(
