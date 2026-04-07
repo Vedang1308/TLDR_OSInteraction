@@ -27,7 +27,10 @@ class OmniactAgentSystemV2:
             return (float(match.group(1)), float(match.group(2)))
         return None
 
-    def execute_task(self, instruction, context, images=None, task_index=0):
+    def execute_task(self, instruction, context, images=None, task_index=0, ui_map=None):
+        if ui_map is None:
+            ui_map = {}
+            
         print(f"\n=== [OmniACT-V2] Starting High-Temp Density Consensus Loop (N={self.num_samples}, T={self.temperature}) for task {task_index} ===")
         
         user_content = []
@@ -53,6 +56,17 @@ class OmniactAgentSystemV2:
                 temperature=self.temperature
             )
             actions.append(action_syntax)
+            
+            # Intercept Set-of-Mark tag structure
+            tag_match = re.search(r"click\((\d+)\)", action_syntax)
+            if tag_match:
+                tag_id = int(tag_match.group(1))
+                if tag_id in ui_map:
+                    cx, cy = ui_map[tag_id]
+                    coord = (float(cx), float(cy))
+                    coords_list.append((coord, action_syntax))
+                    print(f"  -> [Sample {i+1}] (SoM Tag [{tag_id}] Intercepted) {action_syntax.strip().split(maxsplit=1)[0]}...") 
+                    continue
             
             coord = self._extract_coordinates(action_syntax)
             if coord:
@@ -113,8 +127,9 @@ class OmniactAgentSystemV2:
         int_x, int_y = int(round(avg_x)), int(round(avg_y))
         rep_action = best_cluster[0][1]
         
-        # Rigorous integer substitution
-        optimized_action = re.sub(r"click\([\d.]+,\s*[\d.]+\)", f"click({int_x}, {int_y})", rep_action, count=1)
+        # Rigorous integer substitution for both tagged and untagged
+        optimized_action = re.sub(r"click\(\d+\)", f"click({int_x}, {int_y})", rep_action, count=1)
+        optimized_action = re.sub(r"click\([\d.]+,\s*[\d.]+\)", f"click({int_x}, {int_y})", optimized_action, count=1)
         
         print(f"[OmniACT-V2] Selected Cluster 1 (Size: {len(best_cluster)}). Final Action: {optimized_action.strip()}")
         return optimized_action
