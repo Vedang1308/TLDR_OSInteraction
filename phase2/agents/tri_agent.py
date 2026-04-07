@@ -1,5 +1,6 @@
 from phase2.agents.sys_utils import get_hpu_model_singleton, run_qwen_inference
 from phase2.agents.prompts import PROMPT_REGISTRY
+from phase2.agents.memory_agent import MemoryAgent
 
 class TriAgentSystem:
     def __init__(self, benchmark, max_retries=3):
@@ -18,6 +19,7 @@ class TriAgentSystem:
         self.executor_prompt = prompts["executor"]
         self.auditor_prompt = prompts["auditor"]
         self.max_retries = max_retries
+        self.memory_agent = MemoryAgent(benchmark, self.model, self.processor)
 
     def _run_manager(self, instruction, state_log, context=None, images=None, feedback="None"):
         """
@@ -102,6 +104,11 @@ class TriAgentSystem:
         Saves the FIRST attempt as fallback (typically better than later degraded attempts).
         """
         print(f"\n=== STARTING MULTI-AGENT LOOP FOR TASK {task_index} ===")
+        
+        # [MEMORY MOD]: Retrieve Guidance
+        memory_guidance = self.memory_agent.retrieve_and_reason(instruction, images=images)
+        enhanced_context = f"{context}\n\n[Retrieved Memory Guidance]: {memory_guidance}"
+        
         state_log = "Turn 1"
         feedback = "None"
         first_action = None  # Save the first attempt as fallback
@@ -110,10 +117,10 @@ class TriAgentSystem:
             print(f"\n--- ATTEMPT {attempt + 1}/{self.max_retries} ---")
             
             # Step 1: Manager plans the sub-task using full Context
-            sub_task = self._run_manager(instruction, state_log, context=context, images=images, feedback=feedback)
+            sub_task = self._run_manager(instruction, state_log, context=enhanced_context, images=images, feedback=feedback)
             
             # Step 2: Executor generates the raw action using original Instruction and Context
-            action_syntax = self._run_executor(sub_task, instruction=instruction, context=context, images=images)
+            action_syntax = self._run_executor(sub_task, instruction=instruction, context=enhanced_context, images=images)
             
             # Save the first attempt as the best fallback
             if first_action is None:
@@ -126,15 +133,19 @@ class TriAgentSystem:
                 new_feedback = "The action syntax is empty or missing pyautogui commands."
             else:
                 # Step 3: Auditor verifies the action (Goal-Aware in Phase 2B)
-                is_approved, new_feedback = self._run_auditor(action_syntax, instruction=instruction, state_log=state_log, context=context, images=images)
+                is_approved, new_feedback = self._run_auditor(action_syntax, instruction=instruction, state_log=state_log, context=enhanced_context, images=images)
                 
                 if is_approved:
                     print(f"[SYSTEM] Task {task_index} Approved and Committed!")
+                    # [MEMORY MOD]: Structure experience on success
+                    self.memory_agent.create(instruction, state_log, action_syntax, "Action Succeeded & Approved", images=images)
                     return action_syntax
             
             print(f"[SYSTEM] Task {task_index} Rejected. Sending feedback to Manager...")
             feedback = new_feedback
             state_log += f" | Turn {attempt+1} Rejected Action: [{action_syntax.strip()}] Reason: {feedback}"
+            # [MEMORY MOD]: Structure negative trace on rejection
+            self.memory_agent.create(instruction, state_log, action_syntax, f"Rejected: {feedback}", images=images)
                 
         # 🛡️ SECURITY FIX: If all retries fail to pass the Auditor, do NOT fall back to the first action.
         # Falling back to the first action is dangerous as it is often the most harmful attempt.
