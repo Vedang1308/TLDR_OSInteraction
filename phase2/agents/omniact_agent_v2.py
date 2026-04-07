@@ -88,9 +88,11 @@ class OmniactAgentSystemV2:
             
         threshold = 30
         if "2b" in model_name:
-            threshold = 45 
+            threshold = 30 
+        elif "4b" in model_name:
+            threshold = 30 # Optimized sweet-spot for 4B model performance
         elif "8b" in model_name:
-            threshold = 15 
+            threshold = 20 # Loosened 8B threshold slightly from 15 to prevent false cluster splitting
             
         clusters = [] 
         

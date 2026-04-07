@@ -130,14 +130,14 @@ def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, 
         
     top_k = 50 # default
     if "2b" in model_name:
-        temperature = 0.4 # More deterministic for smaller model to prevent severe hallucination
-        top_k = 20
+        temperature = 0.49 # More deterministic for smaller model to prevent severe hallucination
+        top_k = 30
     elif "4b" in model_name:
         temperature = 0.5 # Balanced determinism/diversity for intermediate 4B model
         top_k = 35
     elif "8b" in model_name:
-        temperature = max(temperature, 0.7) # Preserve diversity for large 8B model
-        top_k = 50
+        temperature = max(temperature, 0.55) # Preserve diversity for large 8B model with slightly more focus
+        top_k = 45
 
     with torch.no_grad():
         generated_ids = model.generate(

@@ -1,6 +1,6 @@
 import os
 import sys
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
 # 🚀 PROJECT PATH RESOLUTION: Add the root directory to sys.path
 # This ensures that 'from phase2...' imports work regardless of where the script is invoked.
@@ -233,10 +233,13 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
         # Smart Image Resolution Routing based on architecture size
         max_dim = 1280
         if "8b" in model_name.lower():
-            max_dim = 1920 # HD Preservation for large models
+            max_dim = 1620 # Full HD Preservation for top-tier models
             print(f"  -> [HD Vision] Using expanded {max_dim}x{max_dim} context window.")
+        elif "4b" in model_name.lower():
+            max_dim = 1280 # Slightly higher detail for the high-performing 4B model
+            print(f"  -> [Enhanced Vision] Using high-fidelity {max_dim}x{max_dim} context window.")
         else:
-            max_dim = 1280 # Aggressively cap raw pixel arrays for smaller models
+            max_dim = 1200 # Standard resolution for memory efficiency on smaller models
             
         image.thumbnail((max_dim, max_dim), Image.Resampling.LANCZOS)
         
@@ -305,8 +308,8 @@ pyautogui.press("enter")"""
             
         print(f"   Qwen3 Token: {generated_action.strip()}\n")
 
-    print(f"[OmniACT] Launching concurrency pool (4 workers)...")
-    with ThreadPoolExecutor(max_workers=4) as executor:
+    print(f"[OmniACT] Launching concurrency pool (5 workers)...")
+    with ThreadPoolExecutor(max_workers=25) as executor:
         futures = [executor.submit(process_task, idx, task_txt_path) for idx, task_txt_path in enumerate(task_files)]
         for future in as_completed(futures):
             try:

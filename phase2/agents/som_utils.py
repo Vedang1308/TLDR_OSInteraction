@@ -20,9 +20,9 @@ def generate_som_image(image: Image.Image):
         # Edge detection
         edges = cv2.Canny(gray, 50, 150)
         
-        # Dilate to connect text and UI bounding boxes
-        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (5, 5))
-        dilated = cv2.dilate(edges, kernel, iterations=2)
+        # Dilate to connect text and UI bounding boxes - REDUCED for finer granularity
+        kernel = cv2.getStructuringElement(cv2.MORPH_RECT, (3, 3)) # Smaller kernel for detail
+        dilated = cv2.dilate(edges, kernel, iterations=2) 
         
         # Find contours
         contours, hierarchy = cv2.findContours(dilated, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
@@ -30,8 +30,8 @@ def generate_som_image(image: Image.Image):
         idx = 1
         for c in contours:
             x, y, w, h = cv2.boundingRect(c)
-            # Filter extremely small or extremely large boxes to avoid noise or selecting the entire screen
-            if 15 < w < image.width * 0.9 and 15 < h < image.height * 0.9:
+            # Filter extremely small or extremely large boxes - LOWERED minimums for small icons
+            if 15 < w < image.width * 0.95 and 15 < h < image.height * 0.95:
                 cx, cy = x + w//2, y + h//2
                 ui_map[idx] = (cx, cy)
                 
@@ -43,7 +43,7 @@ def generate_som_image(image: Image.Image):
                 draw.text((x+2, max(0, y-15)), str(idx), fill=(255, 255, 255))
                 
                 idx += 1
-                if idx > 300: # hard limit to prevent excessive clutter
+                if idx > 300: # Slightly increased hard limit
                     break
                     
     except ImportError:
