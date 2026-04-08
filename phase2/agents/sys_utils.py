@@ -101,7 +101,7 @@ def get_hpu_model_singleton():
     else:
         raise RuntimeError("Gaudi singleton model not found in builtins! Run the main script directly.")
 
-def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, temperature=0.7):
+def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, temperature=0.7, force_temperature=False):
     """
     Standardizes inference with safety critera. 
     Implements Token-Isolation to prevent history-based "Safety Poisoning".
@@ -129,15 +129,24 @@ def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, 
         model_name = ""
         
     top_k = 50 # default
+    is_deterministic = (temperature <= 0.01)
+
     if "2b" in model_name:
-        temperature = 0.49 # More deterministic for smaller model to prevent severe hallucination
         top_k = 30
+        if not is_deterministic and not force_temperature:
+            temperature = 0.49 # More deterministic for smaller model to prevent severe hallucination
     elif "4b" in model_name:
-        temperature = 0.5 # Balanced determinism/diversity for intermediate 4B model
         top_k = 35
+        if not is_deterministic and not force_temperature:
+            temperature = 0.5 # Balanced determinism/diversity for intermediate 4B model
     elif "8b" in model_name:
-        temperature = max(temperature, 0.55) # Preserve diversity for large 8B model with slightly more focus
         top_k = 45
+        if not is_deterministic and not force_temperature:
+            temperature = max(temperature, 0.55) # Preserve diversity for large 8B model
+        
+        # Scale up token budget for 8B model to allow for Chain of Thought reasoning
+        if max_tokens <= 256:
+            max_tokens = 512
 
     with torch.no_grad():
         generated_ids = model.generate(

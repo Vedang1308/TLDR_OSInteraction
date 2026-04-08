@@ -17,8 +17,27 @@ class OmniactAgentSystemV2:
         if benchmark not in PROMPT_REGISTRY:
             raise ValueError(f"Unknown benchmark '{benchmark}'.")
             
-        # Using safely framed prompt to avoid AgentHarm-style refusals
-        self.system_prompt = PROMPT_REGISTRY[benchmark].get("omniact_executor_v2", "")
+        try:
+            model_name = getattr(self.model.config, "_name_or_path", "").lower()
+            if not model_name:
+                model_name = getattr(self.model, "name_or_path", "").lower()
+        except Exception:
+            model_name = ""
+            
+        use_prompt = "omniact_executor_v2"
+        if benchmark == "omniact":
+            if "2b" in model_name:
+                use_prompt = "omniact_executor_2b"
+                self.num_samples = 10
+            elif "4b" in model_name:
+                use_prompt = "omniact_executor_4b"
+                self.num_samples = 5
+            elif "8b" in model_name:
+                use_prompt = "omniact_executor_8b"
+                self.num_samples = 3
+                
+        prompts = PROMPT_REGISTRY[benchmark]
+        self.system_prompt = prompts.get(use_prompt, prompts.get("omniact_executor_v2", ""))
 
     def _extract_coordinates(self, script):
         """Regex to pull (x, y) coordinates from PyAutoGUI syntax."""
@@ -53,7 +72,8 @@ class OmniactAgentSystemV2:
                 messages, 
                 images=images, 
                 max_tokens=256, 
-                temperature=self.temperature
+                temperature=self.temperature,
+                force_temperature=True
             )
             actions.append(action_syntax)
             
@@ -88,11 +108,11 @@ class OmniactAgentSystemV2:
             
         threshold = 30
         if "2b" in model_name:
-            threshold = 30 
+            threshold = 45 
         elif "4b" in model_name:
-            threshold = 30 # Optimized sweet-spot for 4B model performance
+            threshold = 25 # Optimized sweet-spot for 4B model performance
         elif "8b" in model_name:
-            threshold = 20 # Loosened 8B threshold slightly from 15 to prevent false cluster splitting
+            threshold = 15 # Tightened 8B threshold to prevent false cluster splitting
             
         clusters = [] 
         

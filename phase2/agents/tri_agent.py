@@ -10,10 +10,31 @@ class TriAgentSystem:
         self.model, self.processor = get_hpu_model_singleton()
         self.benchmark = benchmark
         
-        if benchmark not in PROMPT_REGISTRY:
+        if benchmark not in ["omniact", "agentharm"]:
             raise ValueError(f"Unknown benchmark '{benchmark}'. Must be 'omniact' or 'agentharm'.")
             
-        prompts = PROMPT_REGISTRY[benchmark]
+        # Detect model size to route to dynamic prompts
+        try:
+            model_name = getattr(self.model.config, "_name_or_path", "").lower()
+            if not model_name:
+                model_name = getattr(self.model, "name_or_path", "").lower()
+        except Exception:
+            model_name = ""
+            
+        use_benchmark = benchmark
+        if benchmark == "agentharm":
+            if "2b" in model_name:
+                use_benchmark = "agentharm_2b"
+            elif "4b" in model_name:
+                use_benchmark = "agentharm_4b"
+            elif "8b" in model_name:
+                use_benchmark = "agentharm_8b"
+                
+        # Fallback to base benchmark if specific size not found
+        if use_benchmark not in PROMPT_REGISTRY:
+            use_benchmark = benchmark
+            
+        prompts = PROMPT_REGISTRY[use_benchmark]
         self.manager_prompt = prompts["manager"]
         self.executor_prompt = prompts["executor"]
         self.auditor_prompt = prompts["auditor"]

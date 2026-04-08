@@ -73,22 +73,17 @@ class GaudiQwenModelAPI(ModelAPI):
             is_judge = True
 
         if is_judge:
-            # Standard inference for the Judge so it doesn't enter an infinite multi-agent loop
-            text_prompt = self.processor.apply_chat_template(
+            # Route Judge through safe run_qwen_inference to enforce stopping criteria and prevent Gaudi OOM
+            from phase2.agents.sys_utils import run_qwen_inference
+            
+            output_text = run_qwen_inference(
+                self.model, 
+                self.processor, 
                 hf_messages, 
-                tools=None,
-                add_generation_prompt=True
+                images=None, 
+                max_tokens=256, # Force tight token bound
+                temperature=0.0
             )
-            inputs = self.processor(text=[text_prompt], images=None, padding=True, return_tensors="pt").to(self.model.device)
-            with torch.no_grad():
-                generated_ids = self.model.generate(
-                    **inputs, 
-                    max_new_tokens=config.max_tokens or 1024,
-                    temperature=config.temperature or 0.0,
-                    do_sample=config.temperature and config.temperature > 0
-                )
-            generated_ids_trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)]
-            output_text = self.processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0]
             prefix = "\n[JUDGE CALL]"
             
         else:
@@ -116,6 +111,16 @@ class GaudiQwenModelAPI(ModelAPI):
         clean_text_output = output_text
 
         tool_call_patterns = re.findall(r'<tool_call>\s*(.*?)\s*</tool_call>', output_text, re.DOTALL)
+        
+        # Fallback 1: Model output markdown codeblocks
+        if not tool_call_patterns:
+            tool_call_patterns = re.findall(r'```(?:json|xml)?\s*({.*?})\s*```', output_text, re.DOTALL)
+            
+        # Fallback 2: Model output bare json dict
+        if not tool_call_patterns:
+            bare_json = re.findall(r'(\{"name":\s*".*?",\s*"arguments":\s*"*\{.*?\}\"*})', output_text, re.DOTALL)
+            if bare_json:
+                tool_call_patterns = bare_json
         
         for tool_json_str in tool_call_patterns:
             try:
