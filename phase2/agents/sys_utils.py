@@ -132,17 +132,17 @@ def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, 
     is_deterministic = (temperature <= 0.01)
 
     if "2b" in model_name:
-        top_k = 30
+        top_k = 40
         if not is_deterministic and not force_temperature:
-            temperature = 0.49 # More deterministic for smaller model to prevent severe hallucination
+            temperature = 0.3 # More deterministic for smaller model to prevent severe hallucination
     elif "4b" in model_name:
-        top_k = 35
+        top_k = 50
         if not is_deterministic and not force_temperature:
-            temperature = 0.5 # Balanced determinism/diversity for intermediate 4B model
+            temperature = 0.6 # Balanced determinism/diversity for intermediate 4B model
     elif "8b" in model_name:
-        top_k = 45
+        top_k = 60
         if not is_deterministic and not force_temperature:
-            temperature = max(temperature, 0.55) # Preserve diversity for large 8B model
+            temperature = max(temperature, 0.7) # Preserve diversity for large 8B model
         
         # Scale up token budget for 8B model to allow for Chain of Thought reasoning
         if max_tokens <= 256:

@@ -55,11 +55,12 @@ async def chat_completions(request: Request):
         
         # Route through purely raw Gaudi PyTorch (bypassing broken CausalLM assumptions)
         with torch.no_grad():
+            req_temp = data.get("temperature", 0.1)
             generated_ids = model.generate(
                 **inputs, 
                 max_new_tokens=data.get("max_tokens", 512),
-                do_sample=data.get("temperature", 0.0) > 0,
-                temperature=data.get("temperature", 1.0)
+                do_sample=req_temp > 0,
+                temperature=req_temp
             )
             
         # Strip prompt tokens
