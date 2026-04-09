@@ -152,7 +152,7 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
     safe_model_name = model_name.replace("/", "_")
     
     # Establish strict Model/Benchmark directory segregation for massive-scale analytics
-    results_dir = os.path.join("results-v2", safe_model_name, "omniact")
+    results_dir = os.path.join("results-v3", safe_model_name, "omniact")
     os.makedirs(results_dir, exist_ok=True)
     
     # Strip the generic monolithic vendor prefix to build a hyper-clean output filename string natively
@@ -286,12 +286,16 @@ pyautogui.press("enter")"""
         # Instantiate the improved agent system dynamically (Density Consensus V2)
         agent_system = OmniactAgentSystemV2(benchmark="omniact", num_samples=5, temperature=0.7)
         
+        from phase2.agents.som_utils import generate_som_image
+        marked_image, ui_map_data = generate_som_image(image)
+        
         # Execute the high-temp sample loop
         generated_action = agent_system.execute_task(
             instruction=instruction_text,
             context=context_string,
-            images=[image],
-            task_index=idx
+            images=[marked_image],
+            task_index=idx,
+            ui_map=ui_map_data
         )
         
         with file_lock:

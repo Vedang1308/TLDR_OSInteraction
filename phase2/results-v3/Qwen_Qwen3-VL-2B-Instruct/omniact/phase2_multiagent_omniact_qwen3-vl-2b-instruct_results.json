@@ -1,0 +1,2578 @@
+{
+    "web__samsung__task_1.20.txt": {
+        "instruction": "Proceed to the transaction page for the Galaxy A54 5G",
+        "action": "pyautogui.click(170, 329)"
+    },
+    "web__samsung__task_3.28.txt": {
+        "instruction": "Return two pages to browse all the washers",
+        "action": "pyautogui.scroll(-200)"
+    },
+    "web__samsung__task_3.37.txt": {
+        "instruction": "Slide to the details section of the page for the laundry machine.",
+        "action": "pyautogui.scroll(-100)"
+    },
+    "web__samsung__task_3.9.txt": {
+        "instruction": "Scroll down to the specs section of the page for the washer",
+        "action": "pyautogui.scroll(300)"
+    },
+    "web__samsung__task_2.12.txt": {
+        "instruction": "Navigate to the main page by selecting the Samsung logo",
+        "action": "pyautogui.click(33, 49)"
+    },
+    "web__samsung__task_2.3.txt": {
+        "instruction": "Go back to the home page by clicking on the Samsung icon",
+        "action": "pyautogui.click(33, 57)"
+    },
+    "web__samsung__task_3.15.txt": {
+        "instruction": "Verify the customer feedback for the washer",
+        "action": "pyautogui.click(17, 573)"
+    },
+    "web__samsung__task_2.2.txt": {
+        "instruction": "Open the cart by clicking on the cart icon",
+        "action": "pyautogui.click(945, 38)"
+    },
+    "web__samsung__task_2.13.txt": {
+        "instruction": "To return to the main page, click on the Samsung symbol",
+        "action": "pyautogui.click(33, 42)"
+    },
+    "web__samsung__task_3.3.txt": {
+        "instruction": "Go to the top of the image list and zoom into the first image",
+        "action": "pyautogui.click(19, 556)"
+    },
+    "web__samsung__task_3.26.txt": {
+        "instruction": "Navigate two pages back to see all washing machines",
+        "action": "pyautogui.click(410, 578)"
+    },
+    "web__samsung__task_3.17.txt": {
+        "instruction": "Navigate to the top of the photo library and magnify the first picture",
+        "action": "pyautogui.click(18, 494)"
+    },
+    "web__samsung__task_1.17.txt": {
+        "instruction": "Click on the first item in the Displays dropdown menu",
+        "action": "pyautogui.click(410, 578)"
+    },
+    "web__samsung__task_1.3.txt": {
+        "instruction": "Open the first option in the Displays dropdown",
+        "action": "pyautogui.click(410, 578)"
+    },
+    "web__samsung__task_2.17.txt": {
+        "instruction": "Locate and click SmartThings from the top bar options.",
+        "action": "pyautogui.click(521, 44)"
+    },
+    "web__samsung__task_3.16.txt": {
+        "instruction": "Look over the evaluations for the laundry machine",
+        "action": "pyautogui.click(16, 561)"
+    },
+    "web__samsung__task_2.9.txt": {
+        "instruction": "Navigate to the shopping cart by clicking on its icon",
+        "action": "pyautogui.click(944, 38)"
+    },
+    "web__samsung__task_1.6.txt": {
+        "instruction": "Open the page for products for Students and Educators",
+        "action": "pyautogui.click(836, 179)"
+    },
+    "web__samsung__task_2.1.txt": {
+        "instruction": "Go back two pages by clicking on TVs",
+        "action": "pyautogui.click(994, 492)"
+    },
+    "web__samsung__task_3.39.txt": {
+        "instruction": "Choose the ocean blue color and open the fifth image",
+        "action": "pyautogui.click(18, 684)"
+    },
+    "web__samsung__task_3.38.txt": {
+        "instruction": "Select the crimson red color and click on the second image",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__samsung__task_1.18.txt": {
+        "instruction": "Navigate to the purchase page for the Galaxy A54 5G",
+        "action": "pyautogui.click(170, 329)"
+    },
+    "web__samsung__task_3.31.txt": {
+        "instruction": "Choose the washing machine in the colour brushed navy.",
+        "action": "pyautogui.click(727, 860)"
+    },
+    "web__samsung__task_1.4.txt": {
+        "instruction": "Open the page to buy the Galaxy A54 5G",
+        "action": "pyautogui.click(170, 329)"
+    },
+    "web__samsung__task_1.31.txt": {
+        "instruction": "Return to the homepage of Samsung",
+        "action": "pyautogui.click(36, 41)"
+    },
+    "web__samsung__task_1.29.txt": {
+        "instruction": "Access the appliances page by selecting the appliances icon.",
+        "action": "pyautogui.click(376, 194)"
+    },
+    "web__samsung__task_2.15.txt": {
+        "instruction": "Navigate to and open the SmartThings menu from the header.",
+        "action": "pyautogui.click(518, 45)"
+    },
+    "web__samsung__task_2.20.txt": {
+        "instruction": "Write \"Galaxy\" in the search bar and press enter to proceed.",
+        "action": "pyautogui.click(888, 45)\npyautogui.write(\"Galaxy\")\npyautogui.press(\"enter\")"
+    },
+    "web__samsung__task_1.15.txt": {
+        "instruction": "Select the first choice from the Displays dropdown menu",
+        "action": "pyautogui.click(400, 39)"
+    },
+    "web__samsung__task_1.22.txt": {
+        "instruction": "Navigate to the subsequent visual presentation",
+        "action": "pyautogui.click(170, 329)"
+    },
+    "web__samsung__task_1.8.txt": {
+        "instruction": "Go back to Samsung Home page",
+        "action": "pyautogui.click(34, 36)"
+    },
+    "web__samsung__task_3.1.txt": {
+        "instruction": "Chat with an expert by clicking on the chat button",
+        "action": "pyautogui.click(872, 325)"
+    },
+    "web__samsung__task_1.14.txt": {
+        "instruction": "Reveal the dropdown menu from the Mobile tab by hovering the mouse over it",
+        "action": "pyautogui.click(182, 45)"
+    },
+    "web__samsung__task_1.25.txt": {
+        "instruction": "Open the webpage offering products for Students and Teachers",
+        "action": "pyautogui.click(836, 191)"
+    },
+    "web__samsung__task_2.4.txt": {
+        "instruction": "Open the SmartThings dropdown from the top menu",
+        "action": "pyautogui.click(556, 45)"
+    },
+    "web__samsung__task_1.28.txt": {
+        "instruction": "Navigate to the appliances section by clicking on the corresponding icon.",
+        "action": "pyautogui.click(376, 193)"
+    },
+    "web__samsung__task_1.24.txt": {
+        "instruction": "Navigate to the page designated for Student and Educator products",
+        "action": "pyautogui.click(837, 182)"
+    },
+    "web__samsung__task_3.22.txt": {
+        "instruction": "Press on the heart-shaped icon to mark this product for your wish list",
+        "action": "pyautogui.click(963, 338)"
+    },
+    "web__samsung__task_1.5.txt": {
+        "instruction": "Move to the next image display",
+        "action": "pyautogui.click(499, 849)"
+    },
+    "web__samsung__task_2.8.txt": {
+        "instruction": "Choose the TVs option to go two pages back",
+        "action": "pyautogui.click(996, 487)"
+    },
+    "web__samsung__task_1.9.txt": {
+        "instruction": "Look for Samsung Galaxy S23 Ultra using the search function",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Samsung Galaxy S23 Ultra\")\npyautogui.press(\"enter\")"
+    },
+    "web__samsung__task_1.10.txt": {
+        "instruction": "Input Samsung Galaxy S23 Ultra into the search bar and execute the search.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Samsung Galaxy S23 Ultra\")\npyautogui.press(\"enter\")"
+    },
+    "web__samsung__task_2.11.txt": {
+        "instruction": "To view your shopping cart, click on the cart icon",
+        "action": "pyautogui.click(947, 40)"
+    },
+    "web__samsung__task_3.40.txt": {
+        "instruction": "Pick the emerald green color and click on the first image",
+        "action": "pyautogui.click(19, 817)"
+    },
+    "web__samsung__task_3.34.txt": {
+        "instruction": "Use the top navigation bar to reach the shop menu",
+        "action": "pyautogui.click(163, 48)"
+    },
+    "web__samsung__task_1.1.txt": {
+        "instruction": "Search for Samsung Galaxy S23 Ultra in the search button",
+        "action": "pyautogui.click(96, 50)"
+    },
+    "web__samsung__task_3.32.txt": {
+        "instruction": "Navigate to the shop section using the main menu",
+        "action": "pyautogui.click(167, 51)"
+    },
+    "web__samsung__task_3.21.txt": {
+        "instruction": "Hit the heart button to include this product in your wish list",
+        "action": "pyautogui.click(960, 338)"
+    },
+    "web__samsung__task_2.5.txt": {
+        "instruction": "Search for Galaxy in the search button",
+        "action": "pyautogui.click(36, 49)"
+    },
+    "web__samsung__task_2.7.txt": {
+        "instruction": "Click on TVs to backtrack two pages",
+        "action": "pyautogui.click(1032, 421)"
+    },
+    "web__samsung__task_1.30.txt": {
+        "instruction": "Navigate to Samsung\"s main page",
+        "action": "pyautogui.click(37, 40)"
+    },
+    "web__samsung__task_1.7.txt": {
+        "instruction": "Open the appliances page from the appliances icon",
+        "action": "pyautogui.click(374, 193)"
+    },
+    "web__samsung__task_1.13.txt": {
+        "instruction": "Activate the dropdown menu under Mobile by moving cursor over it",
+        "action": "pyautogui.click(181, 46)"
+    },
+    "web__samsung__task_2.14.txt": {
+        "instruction": "Press the Samsung logo to go back to the home page",
+        "action": "pyautogui.click(33, 44)"
+    },
+    "web__samsung__task_3.7.txt": {
+        "instruction": "Choose the brushed navy color for the washer",
+        "action": "pyautogui.click(500, 800)"
+    },
+    "web__samsung__task_2.10.txt": {
+        "instruction": "Click the icon to access your shopping cart",
+        "action": "pyautogui.click(940, 40)"
+    },
+    "web__samsung__task_3.35.txt": {
+        "instruction": "Navigate to the specifications part on the washing machine\"s webpage.",
+        "action": "pyautogui.click(102, 333)"
+    },
+    "web__samsung__task_1.21.txt": {
+        "instruction": "Proceed to the forthcoming image view",
+        "action": "pyautogui.click(496, 849)"
+    },
+    "web__samsung__task_2.16.txt": {
+        "instruction": "Visit and select the SmartThings option from the main menu.",
+        "action": "pyautogui.click(524, 44)"
+    },
+    "web__samsung__task_3.30.txt": {
+        "instruction": "Pick the washing machine in brushed navy hue.",
+        "action": "pyautogui.click(736, 840)"
+    },
+    "web__samsung__task_2.6.txt": {
+        "instruction": "Navigate two pages backwards by selecting the TVs option",
+        "action": "pyautogui.click(33, 57)"
+    },
+    "web__samsung__task_3.20.txt": {
+        "instruction": "Select the heart symbol to add the item to your preferred list",
+        "action": "pyautogui.click(957, 337)"
+    },
+    "web__samsung__task_1.23.txt": {
+        "instruction": "Progress to the next picture exhibition",
+        "action": "pyautogui.click(498, 844)"
+    },
+    "web__samsung__task_3.12.txt": {
+        "instruction": "Initiate a conversation with an expert by selecting the chat option",
+        "action": "pyautogui.click(873, 331)"
+    },
+    "web__samsung__task_3.29.txt": {
+        "instruction": "Select the brushed navy shade for the washing machine.",
+        "action": "pyautogui.click(730, 836)"
+    },
+    "web__samsung__task_1.26.txt": {
+        "instruction": "Access the section displaying goods for Students and Educators",
+        "action": "pyautogui.click(837, 181)"
+    },
+    "web__samsung__task_3.33.txt": {
+        "instruction": "Access the shopping interface from the primary menu",
+        "action": "pyautogui.click(103, 45)"
+    },
+    "web__samsung__task_3.8.txt": {
+        "instruction": "Open the shop menu from the top menu",
+        "action": "pyautogui.click(162, 46)"
+    },
+    "web__samsung__task_3.6.txt": {
+        "instruction": "Go back two pages to view all washers",
+        "action": "pyautogui.click(44, 38)"
+    },
+    "web__samsung__task_1.32.txt": {
+        "instruction": "Redirect to the starting page of Samsung",
+        "action": "pyautogui.click(37, 41)"
+    },
+    "web__samsung__task_1.2.txt": {
+        "instruction": "Open the Mobile dropdown in the top panel by hovering over the button",
+        "action": "pyautogui.click(183, 44)"
+    },
+    "web__samsung__task_1.19.txt": {
+        "instruction": "Access the buy now option for the Galaxy A54 5G",
+        "action": "pyautogui.click(168, 690)"
+    },
+    "web__samsung__task_2.18.txt": {
+        "instruction": "Input \"Galaxy\" in the search field and submit",
+        "action": "pyautogui.click(34, 50)\npyautogui.write('Galaxy')\npyautogui.press('enter')"
+    },
+    "web__samsung__task_3.2.txt": {
+        "instruction": "Check the reviews for the washer",
+        "action": "pyautogui.click(17, 557)"
+    },
+    "web__samsung__task_3.4.txt": {
+        "instruction": "Click on the heart icon to add the product to the wishlist",
+        "action": "pyautogui.click(955, 335)"
+    },
+    "web__samsung__task_3.19.txt": {
+        "instruction": "Scroll to the top of image gallery and zoom in on the initial picture",
+        "action": "pyautogui.click(18, 558)"
+    },
+    "web__samsung__task_1.27.txt": {
+        "instruction": "Click on the appliances tab to open the appliances section.",
+        "action": "pyautogui.click(375, 44)"
+    },
+    "web__samsung__task_1.16.txt": {
+        "instruction": "Opt for the initial selection in the Displays dropdown list",
+        "action": "pyautogui.click(408, 42)"
+    },
+    "web__samsung__task_3.18.txt": {
+        "instruction": "Go to the beginning of the photo gallery and enlarge the first image",
+        "action": "pyautogui.click(17, 580)"
+    },
+    "web__samsung__task_3.36.txt": {
+        "instruction": "Proceed to the specifications segment of the washer\"s product page.",
+        "action": "pyautogui.click(28, 340)"
+    },
+    "web__samsung__task_1.12.txt": {
+        "instruction": "Hover over the Mobile button in the navigation bar to reveal the dropdown menu",
+        "action": "pyautogui.click(185, 45)"
+    },
+    "web__samsung__task_3.27.txt": {
+        "instruction": "Go two pages prior to view the entire washer selection",
+        "action": "pyautogui.click(410, 578)"
+    },
+    "web__samsung__task_3.11.txt": {
+        "instruction": "Engage in a discussion with a specialist by pressing the chat icon",
+        "action": "pyautogui.click(880, 327)"
+    },
+    "web__samsung__task_3.13.txt": {
+        "instruction": "Begin an expert chat session by hitting the chat button",
+        "action": "pyautogui.click(880, 329)"
+    },
+    "web__booking__task_3.9.txt": {
+        "instruction": "Access the Entire Photo Gallery",
+        "action": "pyautogui.click(845, 770)"
+    },
+    "web__samsung__task_3.10.txt": {
+        "instruction": "Choose the silver steel color and open the third image",
+        "action": "pyautogui.click(778, 781)\npyautogui.click(777, 777)\npyautogui.click(777, 777)"
+    },
+    "web__booking__task_1.6.txt": {
+        "instruction": "change current currency to the second option",
+        "action": "pyautogui.click(672, 43)"
+    },
+    "web__booking__task_2.37.txt": {
+        "instruction": "Find lodging options by clicking the Stays button",
+        "action": "pyautogui.click(139, 93)"
+    },
+    "web__booking__task_2.1.txt": {
+        "instruction": "List my property on booking.com using the button List your property",
+        "action": "pyautogui.click(698, 44)"
+    },
+    "web__booking__task_2.9.txt": {
+        "instruction": "Search for stays using the Stays button on top",
+        "action": "pyautogui.click(136, 93)"
+    },
+    "web__booking__task_2.34.txt": {
+        "instruction": "Use the bottom button to find properties for lodging",
+        "action": "pyautogui.click(542, 894)"
+    },
+    "web__booking__task_3.17.txt": {
+        "instruction": "Verify extra dates for ticket booking availability",
+        "action": "pyautogui.click(704, 912)"
+    },
+    "web__booking__task_3.28.txt": {
+        "instruction": "Request more aid from customer support",
+        "action": "pyautogui.click(221, 60)"
+    },
+    "web__booking__task_3.3.txt": {
+        "instruction": "check more dates for when tickets are available",
+        "action": "pyautogui.click(709, 904)"
+    },
+    "web__samsung__task_2.19.txt": {
+        "instruction": "Navigate to the search section, type Galaxy and hit enter",
+        "action": "pyautogui.click(35, 50)\npyautogui.write(\"Galaxy\")\npyautogui.press(\"enter\")"
+    },
+    "web__booking__task_3.15.txt": {
+        "instruction": "Find out additional days for ticket availability",
+        "action": "pyautogui.click(722, 907)"
+    },
+    "web__booking__task_2.3.txt": {
+        "instruction": "Check the available check in dates using the check in Data button",
+        "action": "pyautogui.click(460, 552)"
+    },
+    "web__booking__task_2.12.txt": {
+        "instruction": "Navigate to booking.com and proceed with property listing by clicking on \"List your property\".",
+        "action": "pyautogui.click(686, 43)"
+    },
+    "web__booking__task_2.24.txt": {
+        "instruction": "Look for available flights by using the \"search for flights\" button.",
+        "action": "pyautogui.click(186, 50)"
+    },
+    "web__booking__task_3.26.txt": {
+        "instruction": "Transition to airplane ticket portal",
+        "action": "pyautogui.click(15, 100)"
+    },
+    "web__booking__task_3.14.txt": {
+        "instruction": "Proceed to the full Reviews section",
+        "action": "pyautogui.click(158, 875)"
+    },
+    "web__booking__task_2.17.txt": {
+        "instruction": "Begin the process of account registration",
+        "action": "pyautogui.click(838, 48)"
+    },
+    "web__booking__task_2.23.txt": {
+        "instruction": "Adjust the resident count in the room",
+        "action": "pyautogui.click(700, 547)"
+    },
+    "web__booking__task_3.16.txt": {
+        "instruction": "Inspect more days for available tickets",
+        "action": "pyautogui.click(731, 917)"
+    },
+    "web__samsung__task_1.11.txt": {
+        "instruction": "Find Samsung Galaxy S23 Ultra by using the search bar and pressing enter.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Samsung Galaxy S23 Ultra\")\npyautogui.press(\"enter\")"
+    },
+    "web__booking__task_3.23.txt": {
+        "instruction": "Go to the combined flight and hotel booking page",
+        "action": "pyautogui.click(15, 100)"
+    },
+    "web__booking__task_2.13.txt": {
+        "instruction": "Forefront your property on booking.com through the \"List your property\" button.",
+        "action": "pyautogui.click(693, 43)"
+    },
+    "web__booking__task_2.29.txt": {
+        "instruction": "Proceed to the flight search options by activating the flights button",
+        "action": "pyautogui.click(222, 93)"
+    },
+    "web__booking__task_2.20.txt": {
+        "instruction": "Access the check in dates by clicking on the check in Data button",
+        "action": "pyautogui.click(446, 554)"
+    },
+    "web__booking__task_3.31.txt": {
+        "instruction": "Set up a new account",
+        "action": "pyautogui.click(842, 56)"
+    },
+    "web__booking__task_1.29.txt": {
+        "instruction": "Inspect the second listing in the attractions category",
+        "action": "pyautogui.click(259, 223)"
+    },
+    "web__booking__task_2.36.txt": {
+        "instruction": "Click on the Stays button located at the top of the page",
+        "action": "pyautogui.click(132, 92)"
+    },
+    "web__booking__task_2.28.txt": {
+        "instruction": "Click on the flights icon for browsing flight options",
+        "action": "pyautogui.click(218, 101)"
+    },
+    "web__booking__task_2.8.txt": {
+        "instruction": "Search for stays using the bottom button",
+        "action": "pyautogui.click(130, 402)"
+    },
+    "web__booking__task_2.15.txt": {
+        "instruction": "Register for a new profile",
+        "action": "pyautogui.click(826, 50)"
+    },
+    "web__booking__task_1.25.txt": {
+        "instruction": "Choose the next currency from the drop-down menu.",
+        "action": "pyautogui.click(675, 45)"
+    },
+    "web__booking__task_1.31.txt": {
+        "instruction": "Use the sign in button at the top to enter credentials",
+        "action": "pyautogui.click(24, 44)"
+    },
+    "web__booking__task_3.1.txt": {
+        "instruction": "View all Photos",
+        "action": "pyautogui.click(844, 767)"
+    },
+    "web__booking__task_2.31.txt": {
+        "instruction": "Execute a search command for property availability",
+        "action": "pyautogui.click(130, 402)"
+    },
+    "web__booking__task_1.24.txt": {
+        "instruction": "Switch to the next currency option from the current one.",
+        "action": "pyautogui.click(22, 42)"
+    },
+    "web__booking__task_1.28.txt": {
+        "instruction": "Review the information for the second listing under attraction",
+        "action": "pyautogui.click(645, 555)"
+    },
+    "web__booking__task_3.25.txt": {
+        "instruction": "Proceed to the flight booking section",
+        "action": "pyautogui.click(244, 102)"
+    },
+    "web__booking__task_1.5.txt": {
+        "instruction": "Sign in to save time using the sign in button",
+        "action": "pyautogui.click(504, 854)"
+    },
+    "web__booking__task_2.4.txt": {
+        "instruction": "Change the number of residents in the room",
+        "action": "pyautogui.click(676, 548)"
+    },
+    "web__booking__task_3.22.txt": {
+        "instruction": "Proceed to the integrated flights and hotels section",
+        "action": "pyautogui.click(260, 102)"
+    },
+    "web__booking__task_1.8.txt": {
+        "instruction": "Sign in using the button on top",
+        "action": "pyautogui.click(856, 45)"
+    },
+    "web__booking__task_2.7.txt": {
+        "instruction": "Search for stays using the criterion selected",
+        "action": "pyautogui.click(133, 408)"
+    },
+    "web__booking__task_2.25.txt": {
+        "instruction": "Use the button labeled \"search for flights\" to find flights.",
+        "action": "pyautogui.click(172, 512)"
+    },
+    "web__booking__task_2.11.txt": {
+        "instruction": "change current currency to the third option",
+        "action": "pyautogui.click(567, 44)"
+    },
+    "web__booking__task_1.22.txt": {
+        "instruction": "Use the sign in button to avoid time-consuming procedures",
+        "action": "pyautogui.click(26, 45)"
+    },
+    "web__booking__task_2.22.txt": {
+        "instruction": "Update the number of inhabitants in the room",
+        "action": "pyautogui.click(721, 546)\npyautogui.click(745, 542)\npyautogui.click(745, 542)"
+    },
+    "web__booking__task_3.32.txt": {
+        "instruction": "Initiate a new account creation",
+        "action": "pyautogui.click(834, 53)"
+    },
+    "web__booking__task_3.21.txt": {
+        "instruction": "Navigate to flights and hotels page",
+        "action": "pyautogui.click(200, 50)"
+    },
+    "web__booking__task_3.10.txt": {
+        "instruction": "Browse all the Images",
+        "action": "pyautogui.click(881, 555)"
+    },
+    "web__booking__task_2.27.txt": {
+        "instruction": "Navigate to the airplane icon to search for flights",
+        "action": "pyautogui.click(410, 578)"
+    },
+    "web__booking__task_3.7.txt": {
+        "instruction": "get more help from customer support",
+        "action": "pyautogui.click(18, 33)"
+    },
+    "web__booking__task_1.7.txt": {
+        "instruction": "View details about the second listing in attractions",
+        "action": "pyautogui.click(120, 332)"
+    },
+    "web__booking__task_3.5.txt": {
+        "instruction": "Search for flights and hotels",
+        "action": "pyautogui.click(15, 102)"
+    },
+    "web__booking__task_2.5.txt": {
+        "instruction": "Search for flights using the search for flights button",
+        "action": "pyautogui.click(162, 50)"
+    },
+    "web__booking__task_1.30.txt": {
+        "instruction": "Access by clicking on the sign in button present at the top",
+        "action": "pyautogui.click(871, 44)"
+    },
+    "web__booking__task_1.21.txt": {
+        "instruction": "Click on the sign in button to access your account quickly",
+        "action": "pyautogui.click(866, 45)"
+    },
+    "web__booking__task_3.30.txt": {
+        "instruction": "Register for a new account",
+        "action": "pyautogui.click(838, 52)"
+    },
+    "web__booking__task_2.10.txt": {
+        "instruction": "login to my account",
+        "action": "pyautogui.click(849, 44)"
+    },
+    "web__booking__task_2.18.txt": {
+        "instruction": "Use the check in Data button to find the possible check in dates",
+        "action": "pyautogui.click(464, 551)"
+    },
+    "web__booking__task_3.20.txt": {
+        "instruction": "Search taxi options for airport transfers",
+        "action": "pyautogui.click(17, 102)"
+    },
+    "web__booking__task_2.2.txt": {
+        "instruction": "Create a new account",
+        "action": "pyautogui.click(840, 50)"
+    },
+    "web__booking__task_2.26.txt": {
+        "instruction": "Find flights by clicking on the \"search for flights\" function.",
+        "action": "pyautogui.click(14, 50)"
+    },
+    "web__booking__task_2.14.txt": {
+        "instruction": "Press on \"List your property\" button to put up your property on booking.com.",
+        "action": "pyautogui.click(697, 46)"
+    },
+    "web__booking__task_2.40.txt": {
+        "instruction": "Enter into my account",
+        "action": "pyautogui.click(849, 49)"
+    },
+    "web__booking__task_2.16.txt": {
+        "instruction": "Initiate new account creation",
+        "action": "pyautogui.click(834, 51)"
+    },
+    "web__booking__task_2.6.txt": {
+        "instruction": "Search for flights using the flights button",
+        "action": "pyautogui.click(223, 107)"
+    },
+    "web__booking__task_3.12.txt": {
+        "instruction": "Navigate to all Reviews section",
+        "action": "pyautogui.click(144, 507)"
+    },
+    "web__booking__task_3.29.txt": {
+        "instruction": "Call for more customer service assistance",
+        "action": "pyautogui.click(200, 50)"
+    },
+    "web__booking__task_2.39.txt": {
+        "instruction": "Access my profile",
+        "action": "pyautogui.click(35, 51)"
+    },
+    "web__booking__task_2.33.txt": {
+        "instruction": "Look for accommodations using the button at the base",
+        "action": "pyautogui.click(130, 402)"
+    },
+    "web__booking__task_1.26.txt": {
+        "instruction": "Update to the secondary currency choice from the menu.",
+        "action": "pyautogui.click(685, 43)"
+    },
+    "web__booking__task_1.23.txt": {
+        "instruction": "Utilize the sign in feature for a quicker account access",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__booking__task_3.6.txt": {
+        "instruction": "Search for flights",
+        "action": "pyautogui.click(14, 16)"
+    },
+    "web__booking__task_2.41.txt": {
+        "instruction": "Proceed to my account login",
+        "action": "pyautogui.click(862, 41)"
+    },
+    "web__booking__task_3.8.txt": {
+        "instruction": "Create a new account",
+        "action": "pyautogui.click(828, 52)"
+    },
+    "web__booking__task_1.32.txt": {
+        "instruction": "Initiate the sign in process by clicking the button on top",
+        "action": "pyautogui.click(851, 48)"
+    },
+    "web__booking__task_2.44.txt": {
+        "instruction": "Select the third currency option from the dropdown menu",
+        "action": "pyautogui.click(500, 34)"
+    },
+    "web__booking__task_3.4.txt": {
+        "instruction": "Search for airport Taxis",
+        "action": "pyautogui.click(18, 100)"
+    },
+    "web__booking__task_3.11.txt": {
+        "instruction": "Navigate to the Picture Archive",
+        "action": "pyautogui.click(441, 158)"
+    },
+    "web__booking__task_3.27.txt": {
+        "instruction": "Seek assistance from customer service",
+        "action": "pyautogui.click(33, 39)"
+    },
+    "web__coursera__task_1.6.txt": {
+        "instruction": "Go to Coursera Home Page",
+        "action": "pyautogui.click(38, 63)"
+    },
+    "web__coursera__task_2.34.txt": {
+        "instruction": "Verify Careers page",
+        "action": "pyautogui.click(581, 661)"
+    },
+    "web__coursera__task_2.37.txt": {
+        "instruction": "View the Application section for Winter 2024",
+        "action": "pyautogui.click(45, 140)"
+    },
+    "web__coursera__task_2.2.txt": {
+        "instruction": "Go to University of Michigan Master\u2019s in Data Science Course",
+        "action": "pyautogui.click(41, 121)"
+    },
+    "web__coursera__task_1.9.txt": {
+        "instruction": "Check Coursera For Government Page",
+        "action": "pyautogui.click(37, 56)"
+    },
+    "web__booking__task_2.38.txt": {
+        "instruction": "Use the Stays button at the top to search accommodations",
+        "action": "pyautogui.click(140, 95)"
+    },
+    "web__booking__task_2.42.txt": {
+        "instruction": "Switch to the third currency listed in the dropdown menu",
+        "action": "pyautogui.click(548, 36)"
+    },
+    "web__coursera__task_2.1.txt": {
+        "instruction": "Request Information about Winter 2024 Applications",
+        "action": "pyautogui.click(788, 385)"
+    },
+    "web__booking__task_2.43.txt": {
+        "instruction": "Replace the current currency with the third one from the options",
+        "action": "pyautogui.click(547, 33)"
+    },
+    "web__booking__task_3.24.txt": {
+        "instruction": "Navigate to flights interface",
+        "action": "pyautogui.click(221, 95)"
+    },
+    "web__booking__task_2.19.txt": {
+        "instruction": "Determine the available check in dates by utilizing the check in Data button",
+        "action": "pyautogui.click(468, 555)"
+    },
+    "web__booking__task_3.18.txt": {
+        "instruction": "Look for airport cab services",
+        "action": "pyautogui.click(25, 101)"
+    },
+    "web__booking__task_2.30.txt": {
+        "instruction": "Locate and select the search button for available accommodations",
+        "action": "pyautogui.click(842, 553)"
+    },
+    "web__booking__task_3.2.txt": {
+        "instruction": "View all Reviews",
+        "action": "pyautogui.click(176, 913)"
+    },
+    "web__booking__task_2.21.txt": {
+        "instruction": "Modify the count of people residing in the room",
+        "action": "pyautogui.click(710, 554)"
+    },
+    "web__booking__task_2.35.txt": {
+        "instruction": "Initiate a search for properties by clicking the bottom button",
+        "action": "pyautogui.click(817, 549)"
+    },
+    "web__booking__task_2.32.txt": {
+        "instruction": "Click on the search option to proceed with stay availability search",
+        "action": "pyautogui.click(843, 553)"
+    },
+    "web__booking__task_1.27.txt": {
+        "instruction": "Check out the details of the second attraction listing",
+        "action": "pyautogui.click(45, 554)"
+    },
+    "web__booking__task_3.13.txt": {
+        "instruction": "Access the complete Reviews page",
+        "action": "pyautogui.click(140, 50)"
+    },
+    "web__booking__task_3.19.txt": {
+        "instruction": "Find taxi services for airports",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"taxi services for airports\")\npyautogui.press(\"enter\")"
+    },
+    "web__coursera__task_2.9.txt": {
+        "instruction": "See Winter 2024 Applications Page",
+        "action": "pyautogui.click(49, 50)"
+    },
+    "web__coursera__task_2.22.txt": {
+        "instruction": "Explore all internet based academic degree options",
+        "action": "pyautogui.click(49, 66)"
+    },
+    "web__coursera__task_2.3.txt": {
+        "instruction": "Join Coursera for free",
+        "action": "pyautogui.click(981, 76)"
+    },
+    "web__coursera__task_1.36.txt": {
+        "instruction": "Launch Coursera\"s Government Page",
+        "action": "pyautogui.click(38, 48)"
+    },
+    "web__coursera__task_1.3.txt": {
+        "instruction": "Search for Machine Learning Course",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Machine Learning\")\npyautogui.press(\"enter\")"
+    },
+    "web__coursera__task_1.34.txt": {
+        "instruction": "Check out University of Pennsylvania\"s particulars",
+        "action": "pyautogui.click(35, 63)"
+    },
+    "web__coursera__task_2.12.txt": {
+        "instruction": "Retrieve details related to 2024 Winter Session Applications",
+        "action": "pyautogui.click(46, 134)"
+    },
+    "web__coursera__task_2.13.txt": {
+        "instruction": "Obtain information about applications for the 2024 Winter Season",
+        "action": "pyautogui.click(46, 135)"
+    },
+    "web__coursera__task_1.20.txt": {
+        "instruction": "Navigate to Duke University\"s Website",
+        "action": "pyautogui.click(288, 50)"
+    },
+    "web__coursera__task_1.33.txt": {
+        "instruction": "Access details of University of Pennsylvania",
+        "action": "pyautogui.click(853, 818)"
+    },
+    "web__coursera__task_2.36.txt": {
+        "instruction": "Navigate to Applications page for Winter 2024",
+        "action": "pyautogui.click(46, 132)"
+    },
+    "web__coursera__task_2.17.txt": {
+        "instruction": "Navigate to the Masters course of Data Science at University of Michigan",
+        "action": "pyautogui.click(41, 144)"
+    },
+    "web__coursera__task_2.15.txt": {
+        "instruction": "Visit Data Science Master\"s program webpage for University of Michigan",
+        "action": "pyautogui.click(41, 192)"
+    },
+    "web__coursera__task_2.29.txt": {
+        "instruction": "Register for the class",
+        "action": "pyautogui.click(44, 109)"
+    },
+    "web__coursera__task_1.4.txt": {
+        "instruction": "Go to Duke University Page",
+        "action": "pyautogui.click(280, 50)"
+    },
+    "web__coursera__task_1.25.txt": {
+        "instruction": "Explore Coursera\"s enterprise offerings on their business page",
+        "action": "pyautogui.click(193, 50)"
+    },
+    "web__coursera__task_2.28.txt": {
+        "instruction": "Apply for the course admission",
+        "action": "pyautogui.click(784, 383)"
+    },
+    "web__coursera__task_1.28.txt": {
+        "instruction": "Launch Coursera\"s primary page",
+        "action": "pyautogui.click(37, 63)"
+    },
+    "web__coursera__task_1.24.txt": {
+        "instruction": "Access Coursera\"s \"for Businesses\" webpage",
+        "action": "pyautogui.click(134, 35)"
+    },
+    "web__coursera__task_1.5.txt": {
+        "instruction": "See Coursera for Business",
+        "action": "pyautogui.click(38, 50)"
+    },
+    "web__coursera__task_1.17.txt": {
+        "instruction": "Look up Machine Learning Course via search",
+        "action": "pyautogui.click(289, 50)\npyautogui.write(\"Machine Learning\")\npyautogui.press(\"enter\")"
+    },
+    "web__coursera__task_2.4.txt": {
+        "instruction": "Check all online degrees",
+        "action": "pyautogui.click(764, 97)"
+    },
+    "web__coursera__task_1.18.txt": {
+        "instruction": "Find a course on Machine Learning",
+        "action": "pyautogui.click(39, 50)\npyautogui.write(\"Machine Learning\")\npyautogui.press(\"enter\")"
+    },
+    "web__coursera__task_1.22.txt": {
+        "instruction": "Access Duke University\"s Homepage",
+        "action": "pyautogui.click(295, 50)"
+    },
+    "web__coursera__task_1.8.txt": {
+        "instruction": "See details of University of Pennsylvania",
+        "action": "pyautogui.click(880, 808)"
+    },
+    "web__coursera__task_2.18.txt": {
+        "instruction": "Register on Coursera at no cost",
+        "action": "pyautogui.click(49, 70)"
+    },
+    "web__coursera__task_2.25.txt": {
+        "instruction": "Find out details about the university",
+        "action": "pyautogui.click(49, 578)"
+    },
+    "web__coursera__task_2.8.txt": {
+        "instruction": "Check Careers page",
+        "action": "pyautogui.click(581, 659)"
+    },
+    "web__coursera__task_1.35.txt": {
+        "instruction": "Navigate to the Government section on Coursera",
+        "action": "pyautogui.click(313, 29)"
+    },
+    "web__coursera__task_1.21.txt": {
+        "instruction": "Proceed to the page of Duke University",
+        "action": "pyautogui.click(277, 50)"
+    },
+    "web__coursera__task_2.5.txt": {
+        "instruction": "Learn more about the university",
+        "action": "pyautogui.click(676, 659)"
+    },
+    "web__coursera__task_2.27.txt": {
+        "instruction": "Enroll into the program",
+        "action": "pyautogui.click(42, 137)"
+    },
+    "web__coursera__task_2.23.txt": {
+        "instruction": "Evaluate all distance education degree courses",
+        "action": "pyautogui.click(46, 49)\npyautogui.click(41, 50)\npyautogui.click(41, 50)"
+    },
+    "web__coursera__task_2.10.txt": {
+        "instruction": "Get all courses for universities",
+        "action": "pyautogui.click(44, 107)\npyautogui.click(44, 104)\npyautogui.click(44, 104)"
+    },
+    "web__coursera__task_2.24.txt": {
+        "instruction": "Gather information about the university",
+        "action": "pyautogui.click(45, 50)\npyautogui.click(41, 50)\npyautogui.click(41, 50)"
+    },
+    "web__coursera__task_2.11.txt": {
+        "instruction": "Search for Cloud Computing Course",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Cloud Computing\")\npyautogui.press(\"enter\")"
+    },
+    "web__coursera__task_1.26.txt": {
+        "instruction": "Navigate to Coursera\"s main page",
+        "action": "pyautogui.click(38, 64)"
+    },
+    "web__coursera__task_2.26.txt": {
+        "instruction": "Research about the university",
+        "action": "pyautogui.click(41, 216)"
+    },
+    "web__coursera__task_2.6.txt": {
+        "instruction": "Get admission in the course",
+        "action": "pyautogui.click(45, 96)"
+    },
+    "web__coursera__task_1.23.txt": {
+        "instruction": "Navigate to Coursera\"s business page",
+        "action": "pyautogui.click(195, 50)\npyautogui.write(\"business\")\npyautogui.press(\"enter\")"
+    },
+    "web__coursera__task_1.27.txt": {
+        "instruction": "Access Coursera\"s homepage",
+        "action": "pyautogui.click(37, 68)"
+    },
+    "web__coursera__task_1.32.txt": {
+        "instruction": "View information about University of Pennsylvania",
+        "action": "pyautogui.click(39, 50)"
+    },
+    "web__coursera__task_2.16.txt": {
+        "instruction": "Access University of Michigan\"s Data Science Master\"s Degree Course page",
+        "action": "pyautogui.click(41, 198)"
+    },
+    "web__coursera__task_2.43.txt": {
+        "instruction": "Find online classes on Cloud Computing",
+        "action": "pyautogui.click(49, 50)"
+    },
+    "web__coursera__task_2.33.txt": {
+        "instruction": "Navigate to Careers section",
+        "action": "pyautogui.click(574, 658)"
+    },
+    "web__coursera__task_2.19.txt": {
+        "instruction": "Sign up for Coursera for free",
+        "action": "pyautogui.click(978, 72)"
+    },
+    "web__coursera__task_1.37.txt": {
+        "instruction": "Access \"For Government\" page on Coursera website",
+        "action": "pyautogui.click(316, 29)"
+    },
+    "web__coursera__task_2.38.txt": {
+        "instruction": "Access Winter 2024 Application information on the page",
+        "action": "pyautogui.click(45, 136)"
+    },
+    "web__coursera__task_2.21.txt": {
+        "instruction": "Review all e-learning degree programs",
+        "action": "pyautogui.click(41, 197)\npyautogui.click(41, 197)\npyautogui.click(41, 197)"
+    },
+    "web__ups__task_1.6.txt": {
+        "instruction": "Search the first popular topic",
+        "action": "pyautogui.click(122, 207)"
+    },
+    "web__coursera__task_2.35.txt": {
+        "instruction": "Open Careers webpage",
+        "action": "pyautogui.click(577, 665)"
+    },
+    "web__ups__task_2.1.txt": {
+        "instruction": "Scroll down to see the options for the country or territory",
+        "action": "pyautogui.scroll(300)"
+    },
+    "web__ups__task_2.2.txt": {
+        "instruction": "Turn off the Guided Steps",
+        "action": "pyautogui.click(127, 328)"
+    },
+    "web__coursera__task_1.19.txt": {
+        "instruction": "Search Machine Learning Course on the platform",
+        "action": "pyautogui.click(295, 50)\npyautogui.write(\"Machine Learning\")\npyautogui.press(\"enter\")"
+    },
+    "web__coursera__task_2.44.txt": {
+        "instruction": "Search for educational programs related to Cloud Computing",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Cloud Computing\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_2.21.txt": {
+        "instruction": "Click on the \"frequently_asked_questions\" link by using the \"Ask UPS\" feature on the website.",
+        "action": "pyautogui.click(909, 975)"
+    },
+    "web__coursera__task_2.40.txt": {
+        "instruction": "Extract all courses available at universities",
+        "action": "pyautogui.click(410, 578)\npyautogui.click(410, 578)\npyautogui.click(410, 578)"
+    },
+    "web__ups__task_3.15.txt": {
+        "instruction": "Modify the system language settings to Spanish.",
+        "action": "pyautogui.click(896, 68)"
+    },
+    "web__ups__task_3.3.txt": {
+        "instruction": "Change the language from English to Spanish",
+        "action": "pyautogui.click(912, 66)"
+    },
+    "web__ups__task_2.9.txt": {
+        "instruction": "Click on the country selection dropdown and navigate to the desired country by scrolling down.",
+        "action": "pyautogui.click(462, 464)"
+    },
+    "web__ups__task_3.17.txt": {
+        "instruction": "Alter the primary language to Spanish from English.",
+        "action": "pyautogui.click(918, 66)"
+    },
+    "web__coursera__task_2.42.txt": {
+        "instruction": "Look for a course on Cloud Computing",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Cloud Computing\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_2.22.txt": {
+        "instruction": "Use \"Ask UPS\" to navigate to the \"frequently_asked_questions\" section.",
+        "action": "pyautogui.click(912, 975)"
+    },
+    "web__ups__task_3.28.txt": {
+        "instruction": "Proceed to Home screen",
+        "action": "pyautogui.click(29, 196)"
+    },
+    "web__coursera__task_2.39.txt": {
+        "instruction": "Retrieve all university course offerings",
+        "action": "pyautogui.click(44, 137)\npyautogui.click(44, 125)\npyautogui.click(44, 125)"
+    },
+    "web__ups__task_3.14.txt": {
+        "instruction": "Switch to Home page on a new tab",
+        "action": "pyautogui.click(104, 202)"
+    },
+    "web__ups__task_2.24.txt": {
+        "instruction": "Navigate to the registration page in a separate window",
+        "action": "pyautogui.click(36, 38)"
+    },
+    "web__coursera__task_2.41.txt": {
+        "instruction": "Fetch complete list of courses from all universities",
+        "action": "pyautogui.click(49, 55)\npyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_3.9.txt": {
+        "instruction": "Locate the package in the city of \"Somerville\"",
+        "action": "pyautogui.click(181, 796)\npyautogui.write('Somerville')\npyautogui.press('enter')"
+    },
+    "web__ups__task_1.20.txt": {
+        "instruction": "Erase the data from the tracking bar",
+        "action": "pyautogui.click(122, 207)"
+    },
+    "web__ups__task_2.12.txt": {
+        "instruction": "Disable the Guided Steps feature",
+        "action": "pyautogui.click(147, 325)"
+    },
+    "web__ups__task_2.23.txt": {
+        "instruction": "Activate the \"Ask UPS\" function and select \"frequently_asked_questions\".",
+        "action": "pyautogui.click(907, 974)"
+    },
+    "web__ups__task_1.9.txt": {
+        "instruction": "Input the Tracking Number \"A123456\" into the tracking search bar and submit the entry.",
+        "action": "pyautogui.click(188, 381)\npyautogui.write('A123456')\npyautogui.press('enter')"
+    },
+    "web__ups__task_3.16.txt": {
+        "instruction": "Switch the interface language from English to Spanish.",
+        "action": "pyautogui.click(919, 66)"
+    },
+    "web__ups__task_2.13.txt": {
+        "instruction": "Switch off the On-screen Guidance",
+        "action": "pyautogui.click(141, 328)"
+    },
+    "web__ups__task_2.29.txt": {
+        "instruction": "Scroll upwards to check out the selection for countries or territories.",
+        "action": "pyautogui.click(488, 454)"
+    },
+    "web__coursera__task_2.20.txt": {
+        "instruction": "Enroll on Coursera without any charges",
+        "action": "pyautogui.click(49, 72)"
+    },
+    "web__ups__task_2.20.txt": {
+        "instruction": "Verify the shipment configurations settings",
+        "action": "pyautogui.click(374, 514)"
+    },
+    "web__ups__task_2.28.txt": {
+        "instruction": "Ascend to explore the list of available countries or territories.",
+        "action": "pyautogui.click(527, 453)"
+    },
+    "web__ups__task_1.29.txt": {
+        "instruction": "Move to the Billing Page on a separate window",
+        "action": "pyautogui.click(344, 275)"
+    },
+    "web__ups__task_1.25.txt": {
+        "instruction": "Find and choose the first most discussed topic.",
+        "action": "pyautogui.click(122, 207)"
+    },
+    "web__ups__task_1.17.txt": {
+        "instruction": "Revise the last character in tracking ID to \"0\" and proceed with search",
+        "action": "pyautogui.click(144, 386)\npyautogui.write(\"1234567890\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_1.18.txt": {
+        "instruction": "Clear the content in the tracking bar",
+        "action": "pyautogui.click(103, 384)"
+    },
+    "web__ups__task_1.4.txt": {
+        "instruction": "Empty the tracking bar",
+        "action": "pyautogui.click(111, 384)"
+    },
+    "web__ups__task_1.24.txt": {
+        "instruction": "Locate and select the top trending topic.",
+        "action": "pyautogui.click(122, 207)"
+    },
+    "web__ups__task_1.28.txt": {
+        "instruction": "Access the Billing Page by opening a new window",
+        "action": "pyautogui.click(345, 274)"
+    },
+    "web__ups__task_2.4.txt": {
+        "instruction": "Check the shipment settings",
+        "action": "pyautogui.click(200, 50)"
+    },
+    "web__ups__task_2.31.txt": {
+        "instruction": "Return to the start page of UPS",
+        "action": "pyautogui.click(46, 55)"
+    },
+    "web__ups__task_1.3.txt": {
+        "instruction": "Change the last character of the tracking number to \"0\" and search",
+        "action": "pyautogui.click(150, 383)\npyautogui.write('1234567890')\npyautogui.press('enter')"
+    },
+    "web__ups__task_1.31.txt": {
+        "instruction": "Delete the last character in the tracking number found in the tracking box",
+        "action": "pyautogui.click(122, 207)\npyautogui.press('backspace')"
+    },
+    "web__ups__task_3.31.txt": {
+        "instruction": "Use the copied Zip Code to find the corresponding package.",
+        "action": "pyautogui.click(255, 186)"
+    },
+    "web__ups__task_2.8.txt": {
+        "instruction": "Go back to the UPS main page",
+        "action": "pyautogui.click(57, 47)"
+    },
+    "web__samsung__task_3.14.txt": {
+        "instruction": "Inspect the consumer responses for the washing machine",
+        "action": "pyautogui.click(30, 448)\npyautogui.click(27, 449)\npyautogui.click(22, 449)\npyautogui.click(27, 449)\npyautogui.click(22, 449)\npyautogui.click(27, 449)\npyautogui.click(22, 449)\npyautogui.click(27, 449)\npyautogui.click(22, 449)\npyautogui.click(27, 449)"
+    },
+    "web__ups__task_1.14.txt": {
+        "instruction": "Need guidance to change shipping info",
+        "action": "pyautogui.click(173, 445)"
+    },
+    "web__ups__task_1.10.txt": {
+        "instruction": "Key in the Tracking Number \"A123456\" in the designated tracking field and hit the enter button.",
+        "action": "pyautogui.click(176, 383)\npyautogui.write('A123456')\npyautogui.press('enter')"
+    },
+    "web__ups__task_3.23.txt": {
+        "instruction": "Retrieve the input from the \"City\" entry box",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_2.25.txt": {
+        "instruction": "Open the Sign Up page in a new browser tab",
+        "action": "pyautogui.click(928, 46)"
+    },
+    "web__coursera__task_2.14.txt": {
+        "instruction": "Extract details for Winter 2024 Applications",
+        "action": "pyautogui.click(45, 139)\npyautogui.click(45, 137)\npyautogui.click(45, 137)"
+    },
+    "web__ups__task_1.5.txt": {
+        "instruction": "Open Quote Page on a new tab and then close the tab",
+        "action": "pyautogui.click(196, 275)"
+    },
+    "web__ups__task_2.7.txt": {
+        "instruction": "Scroll up to see the options for the country or territory",
+        "action": "pyautogui.scroll(100)"
+    },
+    "web__ups__task_1.8.txt": {
+        "instruction": "Remove the last character of the tracking number in the tracking bar",
+        "action": "pyautogui.click(122, 207)\npyautogui.write('tracking number')\npyautogui.press('backspace')"
+    },
+    "web__ups__task_2.11.txt": {
+        "instruction": "Locate the country or territory field and use the scroll option to view more.",
+        "action": "pyautogui.click(375, 452)"
+    },
+    "web__ups__task_3.1.txt": {
+        "instruction": "Search the package given the City \"Somerville\"",
+        "action": "pyautogui.click(197, 50)\npyautogui.write(\"Somerville\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_2.3.txt": {
+        "instruction": "Choose to use a different return address and opt to send updates on this shipment using the email ab",
+        "action": "pyautogui.click(374, 514)\npyautogui.click(374, 514)\npyautogui.click(19)\npyautogui.click(15)\npyautogui.click(19)\npyautogui.click(15)\npyautogui.click(19)\npyautogui.click(15)\npyautogui.click(19)\npyautogui.click(15)\npyautogui.click(19)\npyautogui.click(15)\npyautogui.click(19)\npy"
+    },
+    "web__ups__task_1.22.txt": {
+        "instruction": "Open the quote page in a new tab by right clicking, then proceed to close the tab.",
+        "action": "pyautogui.click(196, 273)\npyautogui.click(198, 273)"
+    },
+    "web__ups__task_1.1.txt": {
+        "instruction": "Search the status given the Tracking Number \"A123456\"",
+        "action": "pyautogui.click(14, 379)\npyautogui.write('A123456')\npyautogui.press('enter')"
+    },
+    "web__ups__task_1.15.txt": {
+        "instruction": "Modify the final digit of the tracking code to \"0\" and initiate search",
+        "action": "pyautogui.click(146, 384)\npyautogui.write('1234567890')\npyautogui.press('enter')"
+    },
+    "web__ups__task_1.7.txt": {
+        "instruction": "Open Billing Page on a new window",
+        "action": "pyautogui.click(346, 272)"
+    },
+    "web__ups__task_2.27.txt": {
+        "instruction": "Navigate up to view the choices of nations or regions.",
+        "action": "pyautogui.click(529, 459)"
+    },
+    "web__ups__task_2.5.txt": {
+        "instruction": "Ask the virtual assistant questions by clicking on \"Ask UPS\"",
+        "action": "pyautogui.click(905, 975)"
+    },
+    "web__ups__task_1.13.txt": {
+        "instruction": "Support necessary for altering delivery information",
+        "action": "pyautogui.click(122, 207)"
+    },
+    "web__ups__task_2.18.txt": {
+        "instruction": "Validate the shipping preferences",
+        "action": "pyautogui.click(374, 514)"
+    },
+    "web__ups__task_3.22.txt": {
+        "instruction": "Duplicate the content from the \"City\" field",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_3.7.txt": {
+        "instruction": "Go to Home page",
+        "action": "pyautogui.click(49, 196)"
+    },
+    "web__ups__task_1.21.txt": {
+        "instruction": "Right click to open the Quote page, then shut the newly opened tab.",
+        "action": "pyautogui.click(196, 275)"
+    },
+    "web__ups__task_2.26.txt": {
+        "instruction": "Launch the Sign Up interface on a different window",
+        "action": "pyautogui.click(34, 41)"
+    },
+    "web__ups__task_2.14.txt": {
+        "instruction": "Deactivate Interactive Step-by-step Instructions",
+        "action": "pyautogui.click(131, 326)"
+    },
+    "web__ups__task_2.10.txt": {
+        "instruction": "Use scrolling function to find the country or region.",
+        "action": "pyautogui.click(382, 448)"
+    },
+    "web__ups__task_1.26.txt": {
+        "instruction": "Navigate and select the most popular topic.",
+        "action": "pyautogui.click(122, 207)"
+    },
+    "web__ups__task_1.30.txt": {
+        "instruction": "Erase the final digit of the tracking code in the tracking field",
+        "action": "pyautogui.click(220, 382)\npyautogui.press('backspace')"
+    },
+    "web__ups__task_3.32.txt": {
+        "instruction": "Enter the copied Zip Code into the search field to trace the package.",
+        "action": "pyautogui.click(206, 50)\npyautogui.write(\"12345\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_3.12.txt": {
+        "instruction": "Navigate to Home page in a different tab",
+        "action": "pyautogui.click(32, 201)"
+    },
+    "web__ups__task_1.19.txt": {
+        "instruction": "Remove all information from the tracking bar",
+        "action": "pyautogui.click(122, 207)"
+    },
+    "web__ups__task_3.29.txt": {
+        "instruction": "Redirect to Home view",
+        "action": "pyautogui.click(46, 197)"
+    },
+    "web__ups__task_2.6.txt": {
+        "instruction": "Go to the Sign up page on a new window",
+        "action": "pyautogui.click(932, 45)"
+    },
+    "web__ups__task_3.10.txt": {
+        "instruction": "Find the package residing in \"Somerville\" city",
+        "action": "pyautogui.click(206, 50)\npyautogui.write(\"Somerville\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_3.21.txt": {
+        "instruction": "Extract the data present in the \"City\" field",
+        "action": "pyautogui.click(224, 794)\npyautogui.write(\"New York\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_3.2.txt": {
+        "instruction": "Open Home page in a new tab",
+        "action": "pyautogui.click(22, 14)"
+    },
+    "web__ups__task_1.2.txt": {
+        "instruction": "Need help changing delivery",
+        "action": "pyautogui.click(146, 445)"
+    },
+    "web__ups__task_3.5.txt": {
+        "instruction": "Copy the value in the City placeholder",
+        "action": "pyautogui.click(224, 796)"
+    },
+    "web__ups__task_1.27.txt": {
+        "instruction": "Navigate to the Billing Page in a new window",
+        "action": "pyautogui.click(343, 273)"
+    },
+    "web__ups__task_1.23.txt": {
+        "instruction": "Right click to open Quote Page on a fresh tab and subsequently close the tab.",
+        "action": "pyautogui.click(198, 275)\npyautogui.click(198, 274)"
+    },
+    "web__ups__task_1.32.txt": {
+        "instruction": "In the tracking area, remove the last character of the tracking ID.",
+        "action": "pyautogui.click(122, 207)\npyautogui.press('backspace')"
+    },
+    "web__ups__task_2.30.txt": {
+        "instruction": "Navigate back to the UPS homepage",
+        "action": "pyautogui.click(56, 57)"
+    },
+    "web__ups__task_3.30.txt": {
+        "instruction": "Locate the package using the pre-copied Zip Code in the search box.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"12345\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_1.12.txt": {
+        "instruction": "Assistance required to modify shipment details",
+        "action": "pyautogui.click(122, 207)"
+    },
+    "web__ups__task_3.8.txt": {
+        "instruction": "Search the package provided with the Zip Code that we have copied before",
+        "action": "pyautogui.click(255, 186)"
+    },
+    "web__ups__task_3.27.txt": {
+        "instruction": "Navigate to main page",
+        "action": "pyautogui.click(35, 190)"
+    },
+    "web__ups__task_3.20.txt": {
+        "instruction": "Retrieve the packet information corresponding to the ZIP \"10243\".",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__ups__task_2.19.txt": {
+        "instruction": "Confirm the shipping configurations",
+        "action": "pyautogui.click(374, 514)"
+    },
+    "web__ups__task_2.32.txt": {
+        "instruction": "Redirect to the primary page of UPS",
+        "action": "pyautogui.click(53, 50)"
+    },
+    "web__ups__task_3.4.txt": {
+        "instruction": "Search the package provided with the Zip Code \"10243\"",
+        "action": "pyautogui.click(255, 186)"
+    },
+    "web__ups__task_3.13.txt": {
+        "instruction": "Access the Home page in a new tab",
+        "action": "pyautogui.click(23, 197)"
+    },
+    "web__u_haul__task_1.9.txt": {
+        "instruction": "\"Is there a veterans discount available?\"",
+        "action": "pyautogui.click(38, 39)"
+    },
+    "web__u_haul__task_1.17.txt": {
+        "instruction": "\"Search for the box prices\"",
+        "action": "pyautogui.click(321, 556)"
+    },
+    "web__u_haul__task_1.3.txt": {
+        "instruction": "\"I want to learn more about trucks I can rent?\"",
+        "action": "pyautogui.click(125, 87)"
+    },
+    "web__u_haul__task_2.1.txt": {
+        "instruction": "\"Get rates for truck rental with pick up at A\"",
+        "action": "pyautogui.click(18, 591)"
+    },
+    "web__u_haul__task_2.3.txt": {
+        "instruction": "\"How do I install a trailer?\"",
+        "action": "pyautogui.click(331, 571)"
+    },
+    "web__ups__task_2.17.txt": {
+        "instruction": "Select a different address for return and choose to get updates for this delivery on the email given",
+        "action": "pyautogui.click(212, 900)\npyautogui.click(212, 801)\npyautogui.click(212, 797)\npyautogui.click(212, 797)\npyautogui.click(212, 797)"
+    },
+    "web__u_haul__task_3.15.txt": {
+        "instruction": "\"Hire a unit for self-storage\"",
+        "action": "pyautogui.click(200, 50)"
+    },
+    "web__u_haul__task_3.3.txt": {
+        "instruction": "\"I need to hire local help for moving\"",
+        "action": "pyautogui.click(836, 671)"
+    },
+    "web__u_haul__task_3.14.txt": {
+        "instruction": "\"Lease a self-storage unit\"",
+        "action": "pyautogui.click(200, 50)"
+    },
+    "web__ups__task_3.11.txt": {
+        "instruction": "Execute a search for the package located in \"Somerville\"",
+        "action": "pyautogui.click(14, 242)\npyautogui.write(\"Somerville\")\npyautogui.press(\"enter\")"
+    },
+    "web__u_haul__task_2.13.txt": {
+        "instruction": "\"How can I set up a trailer for my vehicle?\"",
+        "action": "pyautogui.click(331, 571)"
+    },
+    "web__u_haul__task_1.20.txt": {
+        "instruction": "\"Can you guide me on how to obtain a position in this establishment?\"",
+        "action": "pyautogui.click(597, 33)"
+    },
+    "web__u_haul__task_3.9.txt": {
+        "instruction": "\"Procure packing bins for relocation\"",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"packing bins\")\npyautogui.press(\"enter\")"
+    },
+    "web__u_haul__task_3.16.txt": {
+        "instruction": "\"Procure a self-storage space\"",
+        "action": "pyautogui.click(100, 50)"
+    },
+    "web__ups__task_1.11.txt": {
+        "instruction": "Insert the allocated Tracking Number \"A123456\" into the tracking system and confirm the query by pre",
+        "action": "pyautogui.click(149, 384)\npyautogui.write('A123456')\npyautogui.press('enter')"
+    },
+    "web__u_haul__task_1.10.txt": {
+        "instruction": "\"Do you provide discounts for military veterans?\"",
+        "action": "pyautogui.click(704, 698)"
+    },
+    "web__ups__task_1.16.txt": {
+        "instruction": "Replace end digit of parcel tracking number with \"0\" and search",
+        "action": "pyautogui.click(148, 383)\npyautogui.write(\"1234567890\")\npyautogui.press(\"enter\")"
+    },
+    "web__u_haul__task_1.18.txt": {
+        "instruction": "\"What steps should I take to join this organization?\"",
+        "action": "pyautogui.click(38, 35)"
+    },
+    "web__u_haul__task_1.15.txt": {
+        "instruction": "\"Find the price of boxes\"",
+        "action": "pyautogui.click(321, 556)"
+    },
+    "web__u_haul__task_2.4.txt": {
+        "instruction": "\"Rent a truck for a 3 bedroom apartment\"",
+        "action": "pyautogui.click(331, 571)"
+    },
+    "web__u_haul__task_1.4.txt": {
+        "instruction": "\"How much do boxes cost?\"",
+        "action": "pyautogui.click(410, 578)"
+    },
+    "web__u_haul__task_2.12.txt": {
+        "instruction": "\"Can you guide me through the process of attaching a trailer?\"",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"U-Haul\")\npyautogui.press(\"enter\")"
+    },
+    "web__u_haul__task_3.1.txt": {
+        "instruction": "\"I need to hire local help for moving\"",
+        "action": "pyautogui.click(832, 672)"
+    },
+    "web__u_haul__task_1.5.txt": {
+        "instruction": "\"How do I get a job here?\"",
+        "action": "pyautogui.click(38, 33)"
+    },
+    "web__u_haul__task_1.14.txt": {
+        "instruction": "\"I need to access information about renting trucks. Can you guide me?\"",
+        "action": "pyautogui.click(123, 86)"
+    },
+    "web__u_haul__task_3.10.txt": {
+        "instruction": "\"Obtain containers for shift\"",
+        "action": "pyautogui.click(18, 50)"
+    },
+    "web__u_haul__task_1.7.txt": {
+        "instruction": "\"Obtain fares from origin point A to destination point B\"",
+        "action": "pyautogui.click(321, 556)"
+    },
+    "web__ups__task_3.18.txt": {
+        "instruction": "Look up the package associated with the Postal Code \"10243\".",
+        "action": "pyautogui.click(100, 400)\npyautogui.write(\"10243\")\npyautogui.press(\"enter\")"
+    },
+    "web__u_haul__task_2.7.txt": {
+        "instruction": "\"Retrieve cost for truck rental from A\"",
+        "action": "pyautogui.click(15, 578)"
+    },
+    "web__u_haul__task_3.5.txt": {
+        "instruction": "\"Require assistance with local move\"",
+        "action": "pyautogui.click(18, 499)"
+    },
+    "web__u_haul__task_2.16.txt": {
+        "instruction": "\"Book a truck for moving from a three bedroom flat\"",
+        "action": "pyautogui.click(331, 571)"
+    },
+    "web__u_haul__task_3.7.txt": {
+        "instruction": "\"Looking for local helping hand for moving\"",
+        "action": "pyautogui.click(297, 441)"
+    },
+    "web__u_haul__task_1.13.txt": {
+        "instruction": "\"Can you show me where to find rental information for trucks?\"",
+        "action": "pyautogui.click(124, 87)"
+    },
+    "web__u_haul__task_3.8.txt": {
+        "instruction": "\"Acquire moving boxes\"",
+        "action": "pyautogui.click(297, 441)"
+    },
+    "web__u_haul__task_2.14.txt": {
+        "instruction": "\"What are the steps for I need to follow to affix a trailer to my car?\"",
+        "action": "pyautogui.click(331, 571)"
+    },
+    "web__u_haul__task_3.12.txt": {
+        "instruction": "\"Need to recruit local aid for moving\"",
+        "action": "pyautogui.click(842, 675)"
+    },
+    "web__u_haul__task_3.6.txt": {
+        "instruction": "\"In need of hiring local movers\"",
+        "action": "pyautogui.click(297, 441)"
+    },
+    "web__u_haul__task_1.19.txt": {
+        "instruction": "\"What is the procedure to secure employment here?\"",
+        "action": "pyautogui.click(38, 34)"
+    },
+    "web__u_haul__task_3.2.txt": {
+        "instruction": "\"Get containers for moving\"",
+        "action": "pyautogui.click(297, 441)"
+    },
+    "web__u_haul__task_1.2.txt": {
+        "instruction": "\"Are there any discounts for veterans?\"",
+        "action": "pyautogui.click(38, 46)"
+    },
+    "web__u_haul__task_3.4.txt": {
+        "instruction": "\"Rent a self storage unit\"",
+        "action": "pyautogui.click(200, 50)"
+    },
+    "web__ups__task_3.19.txt": {
+        "instruction": "Find the parcel linked to the Postcode \"10243\".",
+        "action": "pyautogui.click(255, 186)"
+    },
+    "web__ups__task_2.16.txt": {
+        "instruction": "Opt to utilize an alternative return address and choose to receive shipment updates on the provided ",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__u_haul__task_2.8.txt": {
+        "instruction": "\"Find pricing details for hiring a truck from location A\"",
+        "action": "pyautogui.click(194, 590)\npyautogui.click(194, 593)\npyautogui.click(194, 593)"
+    },
+    "web__u_haul__task_3.11.txt": {
+        "instruction": "\"Require local assistance for relocation\"",
+        "action": "pyautogui.click(297, 441)"
+    },
+    "web__u_haul__task_2.6.txt": {
+        "instruction": "\"Fetch truck rental rates for location A\"",
+        "action": "pyautogui.click(331, 571)"
+    },
+    "web__u_haul__task_1.11.txt": {
+        "instruction": "\"Are there special promotions or deals for veterans?\"",
+        "action": "pyautogui.click(25, 636)"
+    },
+    "web__ups__task_2.15.txt": {
+        "instruction": "Change the current return address and opt for email notifications regarding this shipment",
+        "action": "pyautogui.click(14, 626)\npyautogui.click(14, 615)\npyautogui.click(14, 615)"
+    },
+    "web__u_haul__task_1.16.txt": {
+        "instruction": "\"Determine the cost of boxes\"",
+        "action": "pyautogui.click(32, 38)"
+    },
+    "web__u_haul__task_3.13.txt": {
+        "instruction": "\"Looking to employ local hands for shifting\"",
+        "action": "pyautogui.click(838, 672)"
+    },
+    "web__u_haul__task_1.12.txt": {
+        "instruction": "\"I\"m interested in renting trucks, can I get some information?\"",
+        "action": "pyautogui.click(123, 88)"
+    },
+    "web__aramex__task_3.9.txt": {
+        "instruction": "Modify the page\"s language to the second choice in the available list.",
+        "action": "pyautogui.click(914, 25)"
+    },
+    "web__aramex__task_1.6.txt": {
+        "instruction": "Access an account through the Log in option",
+        "action": "pyautogui.click(960, 40)"
+    },
+    "web__aramex__task_1.3.txt": {
+        "instruction": "Click on the know more button to learn about the business promises",
+        "action": "pyautogui.click(148, 372)"
+    },
+    "web__aramex__task_2.2.txt": {
+        "instruction": "Open the page to calculate domestic shipping rates",
+        "action": "pyautogui.click(25, 277)"
+    },
+    "web__aramex__task_1.17.txt": {
+        "instruction": "Reach the principal interface through the aramex icon.",
+        "action": "pyautogui.click(55, 43)"
+    },
+    "web__aramex__task_3.17.txt": {
+        "instruction": "Proceed to the login page by selecting the Log in button in the upper right section of the page",
+        "action": "pyautogui.click(945, 85)"
+    },
+    "web__aramex__task_2.9.txt": {
+        "instruction": "Access the page for domestic shipping costs calculation",
+        "action": "pyautogui.click(29, 276)"
+    },
+    "web__aramex__task_3.15.txt": {
+        "instruction": "Select the Log in button located at the top right of your screen to navigate to the login screen",
+        "action": "pyautogui.click(945, 86)"
+    },
+    "web__aramex__task_2.3.txt": {
+        "instruction": "Go back to the home page by clicking on the button in the lower left panel",
+        "action": "pyautogui.click(105, 702)"
+    },
+    "web__aramex__task_3.3.txt": {
+        "instruction": "Search for careers using the search button",
+        "action": "pyautogui.click(410, 578)"
+    },
+    "web__aramex__task_2.12.txt": {
+        "instruction": "Navigate back to the main page using the button placed at the below left side panel.",
+        "action": "pyautogui.click(111, 748)"
+    },
+    "web__u_haul__task_2.2.txt": {
+        "instruction": "\"Get rates for truck rental with pick up at A and drop off at B\"",
+        "action": "pyautogui.click(18, 586)\npyautogui.click(18, 586)\npyautogui.click(18, 586)"
+    },
+    "web__aramex__task_2.17.txt": {
+        "instruction": "Click the Instagram icon placed at the end of the webpage to open the Aramex Instagram page",
+        "action": "pyautogui.click(795, 739)"
+    },
+    "web__aramex__task_3.16.txt": {
+        "instruction": "Access the login page by clicking on the Log in button positioned in the top right corner",
+        "action": "pyautogui.click(945, 86)"
+    },
+    "web__aramex__task_1.10.txt": {
+        "instruction": "Activate the Advanced Tracking mode for package surveillance",
+        "action": "pyautogui.click(51, 745)"
+    },
+    "web__aramex__task_2.13.txt": {
+        "instruction": "Use the button on the lower left side panel to return to the main page.",
+        "action": "pyautogui.click(102, 746)"
+    },
+    "web__aramex__task_1.15.txt": {
+        "instruction": "Navigate to the main page by clicking on the aramex logo.",
+        "action": "pyautogui.click(54, 43)"
+    },
+    "web__aramex__task_1.4.txt": {
+        "instruction": "Go back to the home page by  clicking on the aramex icon",
+        "action": "pyautogui.click(65, 44)"
+    },
+    "web__aramex__task_2.15.txt": {
+        "instruction": "Navigate to Aramex\"s Instagram profile by clicking the Instagram symbol at the footer of the page",
+        "action": "pyautogui.click(792, 741)"
+    },
+    "web__aramex__task_2.20.txt": {
+        "instruction": "Initiate a click on the terms of use tab found beneath the screen within the guidelines subsection.",
+        "action": "pyautogui.click(342, 775)"
+    },
+    "web__aramex__task_3.14.txt": {
+        "instruction": "Click on the search button, input \"careers\" and press enter to find related results.",
+        "action": "pyautogui.click(41, 578)\npyautogui.write(\"careers\")\npyautogui.press(\"enter\")"
+    },
+    "web__aramex__task_1.1.txt": {
+        "instruction": "Log in to an account using the Log in button",
+        "action": "pyautogui.click(959, 40)"
+    },
+    "web__aramex__task_3.1.txt": {
+        "instruction": "Download the Q2 2023 Investor Presentation by clicking on a button in the Resources menu",
+        "action": "pyautogui.click(788, 773)"
+    },
+    "web__aramex__task_2.4.txt": {
+        "instruction": "Open aramex instagram page by clicking on the instagram icon in the lower panel",
+        "action": "pyautogui.click(790, 739)"
+    },
+    "web__aramex__task_1.14.txt": {
+        "instruction": "Click on the \"know more\" button to find out more about the business commitments.",
+        "action": "pyautogui.click(147, 372)"
+    },
+    "web__u_haul__task_2.9.txt": {
+        "instruction": "\"Retrieve pricing for lorry hire with collection from point A and return to point B\"",
+        "action": "pyautogui.click(186, 512)\npyautogui.click(188, 505)\npyautogui.click(188, 505)"
+    },
+    "web__aramex__task_1.20.txt": {
+        "instruction": "Track a package by entering the shipment tracking number 123456.",
+        "action": "pyautogui.click(111, 665)\npyautogui.click(111, 685)\npyautogui.click(111, 685)"
+    },
+    "web__aramex__task_1.8.txt": {
+        "instruction": "Utilize the Log in button to get access to an account",
+        "action": "pyautogui.click(958, 41)"
+    },
+    "web__aramex__task_2.11.txt": {
+        "instruction": "Proceed to the domestic shipping tariff calculation page",
+        "action": "pyautogui.click(281, 275)"
+    },
+    "web__aramex__task_3.10.txt": {
+        "instruction": "Adjust language setting to the second option in the selection menu.",
+        "action": "pyautogui.click(922, 25)"
+    },
+    "web__aramex__task_1.7.txt": {
+        "instruction": "Select the Log in option to enter an account",
+        "action": "pyautogui.click(959, 40)"
+    },
+    "web__aramex__task_2.5.txt": {
+        "instruction": "Check the terms of use by clicking on a button in the lower panel under the legal section",
+        "action": "pyautogui.click(347, 757)"
+    },
+    "web__aramex__task_3.5.txt": {
+        "instruction": "Click on the view more button for Aramex\u2019s 13th Integrated Report and 17th Sustainability Report",
+        "action": "pyautogui.click(488, 414)"
+    },
+    "web__aramex__task_1.18.txt": {
+        "instruction": "Use the tracking number 123456 to locate a shipment.",
+        "action": "pyautogui.click(12, 596)\npyautogui.write('123456')\npyautogui.press('enter')"
+    },
+    "web__aramex__task_1.13.txt": {
+        "instruction": "Press the \"know more\" button to gain more insight about the business pledges.",
+        "action": "pyautogui.click(146, 371)"
+    },
+    "web__aramex__task_3.7.txt": {
+        "instruction": "Click on the button in the Resources menu to download the 2nd Quarter 2023 Investor\"s Report",
+        "action": "pyautogui.click(782, 769)"
+    },
+    "web__aramex__task_1.5.txt": {
+        "instruction": "Search for a shipment by using the tracking number 123456",
+        "action": "pyautogui.click(108, 630)\npyautogui.write('123456')\npyautogui.press('enter')"
+    },
+    "web__aramex__task_2.18.txt": {
+        "instruction": "Click on the \"terms of use\" option in the law-related section situated at the bottom of the page.",
+        "action": "pyautogui.click(350, 772)"
+    },
+    "web__aramex__task_2.14.txt": {
+        "instruction": "Retrieve the home page by using the bottom left side panel button.",
+        "action": "pyautogui.click(13, 776)"
+    },
+    "web__aramex__task_3.20.txt": {
+        "instruction": "Locate and select the \"view more\" button for the 13th Integrated Report and 17th Sustainability Repo",
+        "action": "pyautogui.click(497, 414)"
+    },
+    "web__aramex__task_2.10.txt": {
+        "instruction": "Navigate to the domestic dispatch cost computation page",
+        "action": "pyautogui.click(292, 278)"
+    },
+    "web__aramex__task_2.16.txt": {
+        "instruction": "Select the Instagram logo in the bottom panel to visit the Aramex Instagram account",
+        "action": "pyautogui.click(788, 738)"
+    },
+    "web__aramex__task_3.8.txt": {
+        "instruction": "Access the 2023 Q2 Investment Presentation through the button inside the Resource tab",
+        "action": "pyautogui.click(780, 768)"
+    },
+    "web__aramex__task_3.4.txt": {
+        "instruction": "Click on the Log in button in the top right panel to redirect to the log in page",
+        "action": "pyautogui.click(944, 86)"
+    },
+    "web__aramex__task_3.6.txt": {
+        "instruction": "Obtain the quarter 2 2023 investment guide by clicking on the link within the Resources section",
+        "action": "pyautogui.click(770, 771)"
+    },
+    "web__aramex__task_3.2.txt": {
+        "instruction": "Change the language of the page to the second option in the drop down menu",
+        "action": "pyautogui.click(912, 24)"
+    },
+    "web__aramex__task_1.16.txt": {
+        "instruction": "Return to the start page by selecting the aramex symbol.",
+        "action": "pyautogui.click(59, 41)"
+    },
+    "web__aramex__task_3.19.txt": {
+        "instruction": "Access and click on the extended view for Aramex\"s 13th Integrated Report and 17th Sustainability Re",
+        "action": "pyautogui.click(25, 318)"
+    },
+    "web__u_haul__task_2.17.txt": {
+        "instruction": "\"Secure a 20-foot vehicle for a 3-BR apartment move\"",
+        "action": "pyautogui.click(331, 571)  \npyautogui.click(15)  \npyautogui.click(16)  \npyautogui.click(17)  \npyautogui.click(18)  \npyautogui.click(19)  \npyautogui.click(20)  \npyautogui.click(21)  \npyautogui.click(22)  \npyautogui.click(23)  \npyautogui.click(24)  \npyautogui.click(25)  \npyautogui.click(26)  \npyautogui.click(27)  \npyautogui.click(28)  \npyautogui.click(29)  \npyautogui.click(30)  \npyautogui.click(31)  \npyautogui.click(32)  \npyautogui.click(33)  \npyautogui.click(34)  \npyautogui.click(35)  \npyautogui.click(36)  \npyautogui.click(37)  \npyautogui.click(38)  \npyautogui.click(39)  \npyautogui.click(40)  \npyautogui.click(41)  \npyautogui.click"
+    },
+    "web__aramex__task_2.19.txt": {
+        "instruction": "Select and view the terms of use by pressing the button found below in the legal information area.",
+        "action": "pyautogui.click(348, 788)"
+    },
+    "web__aramex__task_3.11.txt": {
+        "instruction": "Redirect to the second language from the drop-down list on the page.",
+        "action": "pyautogui.click(919, 26)"
+    },
+    "web__aramex__task_3.18.txt": {
+        "instruction": "Navigate and click on the \"view more\" option for the 13th Integrated Report and 17th Sustainability ",
+        "action": "pyautogui.click(483, 414)"
+    },
+    "web__u_haul__task_1.8.txt": {
+        "instruction": "\"Fetch the cost for pick-up at point A and drop-off at point B\"",
+        "action": "pyautogui.click(321, 556)"
+    },
+    "web__aramex__task_1.19.txt": {
+        "instruction": "Input the tracking id 123456 in the search bar to find the shipment details.",
+        "action": "pyautogui.click(114, 682)\npyautogui.write('123456')\npyautogui.press('enter')"
+    },
+    "web__instacart__task_3.38.txt": {
+        "instruction": "Go to the main page of Instacart",
+        "action": "pyautogui.click(193, 47)"
+    },
+    "web__aramex__task_3.12.txt": {
+        "instruction": "Locate and click on the search icon and type in \"careers\" before hitting enter.",
+        "action": "pyautogui.click(988, 48)  # Search icon is at the top right corner\npyautogui.write(\"careers\")\npyautogui.press(\"enter\")"
+    },
+    "web__aramex__task_2.7.txt": {
+        "instruction": "Compute the shipping rates for sending a document from United States to India using a script.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"United States\")\npyautogui.press(\"enter\")\npyautogui.click(200, 50)\npyautogui.write(\"India\")\npyautogui.press(\"enter\")\npyautogui.click(200, 50)"
+    },
+    "web__instacart__task_3.43.txt": {
+        "instruction": "Access the shopping basket section",
+        "action": "pyautogui.click(976, 39)"
+    },
+    "web__aramex__task_1.12.txt": {
+        "instruction": "Navigate to the knowledge page by clicking the \"know more\" button.",
+        "action": "pyautogui.click(147, 373)"
+    },
+    "web__u_haul__task_2.15.txt": {
+        "instruction": "\"Hire a 20ft truck for relocating a 3-bedroom apartment\"",
+        "action": "pyautogui.click(14, 1000)\npyautogui.click(14, 1000)\npyautogui.click(14, 1000)"
+    },
+    "web__u_haul__task_1.1.txt": {
+        "instruction": "\"Get rates for pick up at A and drop off at B\"",
+        "action": "pyautogui.click(148, 239)\npyautogui.click(140, 305)\npyautogui.click(140, 370)"
+    },
+    "web__instacart__task_3.9.txt": {
+        "instruction": "Navigate to Instacart Home page",
+        "action": "pyautogui.click(14, 50)"
+    },
+    "web__instacart__task_1.9.txt": {
+        "instruction": "Check the Rite Aid Pharmacy page for medicines",
+        "action": "pyautogui.click(739, 847)"
+    },
+    "web__instacart__task_2.2.txt": {
+        "instruction": "See all the items in cart",
+        "action": "pyautogui.click(934, 99)"
+    },
+    "web__u_haul__task_2.10.txt": {
+        "instruction": "\"Find pricing details for truck leasing starting at location A and ending at B\"",
+        "action": "pyautogui.click(18, 589)\npyautogui.click(18, 578)\npyautogui.click(18, 578)"
+    },
+    "web__instacart__task_1.6.txt": {
+        "instruction": "Look for a Table Lamp",
+        "action": "pyautogui.click(50, 48)"
+    },
+    "web__instacart__task_1.3.txt": {
+        "instruction": "Show all stores in Pittsburgh",
+        "action": "pyautogui.click(500, 929)"
+    },
+    "web__instacart__task_2.21.txt": {
+        "instruction": "Move to the Categories Section",
+        "action": "pyautogui.click(109, 385)"
+    },
+    "web__instacart__task_3.39.txt": {
+        "instruction": "Redirect to the homepage of Instacart",
+        "action": "pyautogui.click(105, 44)"
+    },
+    "web__instacart__task_2.34.txt": {
+        "instruction": "Proceed to the reorder page",
+        "action": "pyautogui.click(53, 49)"
+    },
+    "web__instacart__task_2.1.txt": {
+        "instruction": "Select a particular store location",
+        "action": "pyautogui.click(59, 32)"
+    },
+    "web__aramex__task_3.13.txt": {
+        "instruction": "Use the search button to find possible \"careers\" by typing it in and pressing enter.",
+        "action": "pyautogui.click(410, 578)\npyautogui.write(\"careers\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_2.9.txt": {
+        "instruction": "Navigate to order again page",
+        "action": "pyautogui.click(306, 103)"
+    },
+    "web__instacart__task_3.15.txt": {
+        "instruction": "Organize by Alcohol Type",
+        "action": "pyautogui.click(178, 355)"
+    },
+    "web__instacart__task_2.3.txt": {
+        "instruction": "Visit Giant Eagle Home Page",
+        "action": "pyautogui.click(56, 44)"
+    },
+    "web__instacart__task_3.3.txt": {
+        "instruction": "Show me all product coming in School Supplies",
+        "action": "pyautogui.click(375, 358)"
+    },
+    "web__u_haul__task_1.6.txt": {
+        "instruction": "\"Retrieve pricing for collecting from Location A and delivering to Location B\"",
+        "action": "pyautogui.click(186, 242)\npyautogui.click(177, 284)\npyautogui.click(177, 331)\npyautogui.click(177, 378)\npyautogui.click(177, 425)\npyautogui.click(177, 472)\npyautogui.click(177, 519)\npyautogui.click(177, 566)\npyautogui.click(177, 613)\npyautogui.click(177, 660)\npyautogui.click(177, 707)\npyautogui.click(177, 754)\npyautogui.click(177, 799)\npyautogui.click(177, 846)\npyautogui.click(177, 893)\npyautogui.click(177, 940)\npyautogui.click(177, 987)\npyautogui.click(177, 1034)\npyautogui"
+    },
+    "web__aramex__task_2.8.txt": {
+        "instruction": "Automate the process to find out the cost to ship a document from the United States to India.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_1.40.txt": {
+        "instruction": "Request swift dispatch from Target Store",
+        "action": "pyautogui.click(14, 50)"
+    },
+    "web__instacart__task_2.22.txt": {
+        "instruction": "Access my account",
+        "action": "pyautogui.click(942, 40)"
+    },
+    "web__u_haul__task_2.11.txt": {
+        "instruction": "\"Obtain cost details for renting a truck with pick-up at location A and drop off at location B\"",
+        "action": "pyautogui.click(186, 596)\npyautogui.click(387, 596)\npyautogui.click(188, 596)\npyautogui.click(387, 596)\npyautogui.click(188, 596)\npyautogui.click(387, 596)\npyautogui.click(188, 596)\npyautogui.click(387, 596)\npyautogui.click(188, 596)\npyautogui.click(387,"
+    },
+    "web__instacart__task_3.37.txt": {
+        "instruction": "Transport me to the authentication page",
+        "action": "pyautogui.click(895, 43)"
+    },
+    "web__instacart__task_3.17.txt": {
+        "instruction": "Search for Diet Coke Can on screen",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Diet Coke Can\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_3.28.txt": {
+        "instruction": "Access the webpage dedicated to Floral, Party & Gifts.",
+        "action": "pyautogui.click(299, 360)"
+    },
+    "web__instacart__task_1.34.txt": {
+        "instruction": "Go to Costco Store online",
+        "action": "pyautogui.click(467, 583)"
+    },
+    "web__instacart__task_2.24.txt": {
+        "instruction": "Enter into my user interface",
+        "action": "pyautogui.click(51, 50)"
+    },
+    "web__instacart__task_1.33.txt": {
+        "instruction": "Proceed to Costco Store site",
+        "action": "pyautogui.click(469, 587)"
+    },
+    "web__instacart__task_3.14.txt": {
+        "instruction": "Arrange based on Alcohol Group",
+        "action": "pyautogui.click(163, 355)"
+    },
+    "web__instacart__task_2.12.txt": {
+        "instruction": "Pick a unique store locale from the options",
+        "action": "pyautogui.click(58, 40)"
+    },
+    "web__instacart__task_3.51.txt": {
+        "instruction": "Show me all items available for purchase in Pittsburgh",
+        "action": "pyautogui.click(61, 50)\npyautogui.write(\"Pittsburgh\")\npyautogui.press(\"enter\")"
+    },
+    "web__aramex__task_2.6.txt": {
+        "instruction": "Use automation to calculate the cost to send documents from the United States to India.",
+        "action": "pyautogui.click(244, 315)\npyautogui.click(244, 315)\npyautogui.click(244, 315)"
+    },
+    "web__instacart__task_2.23.txt": {
+        "instruction": "Log into my account profile",
+        "action": "pyautogui.click(946, 33)"
+    },
+    "web__instacart__task_3.52.txt": {
+        "instruction": "Fetch all the merchandise listed for the city of Pittsburgh",
+        "action": "pyautogui.click(59, 50)\npyautogui.write(\"Pittsburgh\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_1.20.txt": {
+        "instruction": "Proceed to Instacart\"s main page",
+        "action": "pyautogui.click(100, 45)"
+    },
+    "web__instacart__task_1.36.txt": {
+        "instruction": "Visit the medicine section of Rite Aid Pharmacy\"s website",
+        "action": "pyautogui.click(732, 832)"
+    },
+    "web__instacart__task_2.17.txt": {
+        "instruction": "Open Giant Eagle\"s Official Website",
+        "action": "pyautogui.click(56, 40)"
+    },
+    "web__instacart__task_3.26.txt": {
+        "instruction": "Navigate to the page for Floral, Party & Gifts.",
+        "action": "pyautogui.click(308, 360)"
+    },
+    "web__instacart__task_3.16.txt": {
+        "instruction": "Classification under Alcohol Section",
+        "action": "pyautogui.click(174, 356)"
+    },
+    "web__instacart__task_2.13.txt": {
+        "instruction": "Verify the products in the shopping cart",
+        "action": "pyautogui.click(940, 101)"
+    },
+    "web__instacart__task_3.23.txt": {
+        "instruction": "Display all qualifying products for discount with Cinnamon Toast Breakfast",
+        "action": "pyautogui.click(116, 738)"
+    },
+    "web__instacart__task_2.29.txt": {
+        "instruction": "Proceed to the page showcasing fresh produce",
+        "action": "pyautogui.click(112, 232)"
+    },
+    "web__instacart__task_1.10.txt": {
+        "instruction": "Get fast delivery from Target Store",
+        "action": "pyautogui.click(154, 713)"
+    },
+    "web__instacart__task_2.20.txt": {
+        "instruction": "Proceed to the Categories Section",
+        "action": "pyautogui.click(34, 374)"
+    },
+    "web__instacart__task_3.31.txt": {
+        "instruction": "Access the application\"s start screen",
+        "action": "pyautogui.click(62, 50)"
+    },
+    "web__instacart__task_2.28.txt": {
+        "instruction": "Navigate to the section displaying fruits and vegetables",
+        "action": "pyautogui.click(42, 35)"
+    },
+    "web__instacart__task_2.36.txt": {
+        "instruction": "Advance to the repeat purchase page",
+        "action": "pyautogui.click(977, 595)"
+    },
+    "web__instacart__task_2.15.txt": {
+        "instruction": "View all products added to the shopping cart",
+        "action": "pyautogui.click(930, 104)"
+    },
+    "web__instacart__task_1.18.txt": {
+        "instruction": "Visualize all shopping outlets in Pittsburgh",
+        "action": "pyautogui.click(500, 500)"
+    },
+    "web__instacart__task_3.46.txt": {
+        "instruction": "Look for stores that provide rapid shipment of Hand Sanitizers.",
+        "action": "pyautogui.click(59, 50)"
+    },
+    "web__instacart__task_3.45.txt": {
+        "instruction": "Find retailers providing speedy delivery services for Hand Sanitizers.",
+        "action": "pyautogui.click(100, 50)"
+    },
+    "web__instacart__task_1.4.txt": {
+        "instruction": "Navigate to Instacart Home Page",
+        "action": "pyautogui.click(105, 44)"
+    },
+    "web__instacart__task_1.25.txt": {
+        "instruction": "Adjust the language option",
+        "action": "pyautogui.click(48, 151)"
+    },
+    "web__instacart__task_3.50.txt": {
+        "instruction": "Display all available products in the city of Pittsburgh",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Pittsburgh\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_3.1.txt": {
+        "instruction": "Sort by Alcohol Category",
+        "action": "pyautogui.click(168, 357)"
+    },
+    "web__instacart__task_1.24.txt": {
+        "instruction": "Modify language setting",
+        "action": "pyautogui.click(52, 145)"
+    },
+    "web__instacart__task_1.1.txt": {
+        "instruction": "Log in to my Instacart account",
+        "action": "pyautogui.click(890, 44)"
+    },
+    "web__instacart__task_1.5.txt": {
+        "instruction": "Change choice of Language",
+        "action": "pyautogui.click(48, 150)"
+    },
+    "web__instacart__task_3.49.txt": {
+        "instruction": "Find products using the 15217 zipcode",
+        "action": "pyautogui.click(684, 50)"
+    },
+    "web__instacart__task_2.4.txt": {
+        "instruction": "Head to the Categories Section",
+        "action": "pyautogui.click(54, 100)"
+    },
+    "web__instacart__task_2.31.txt": {
+        "instruction": "Go to the Deli Section",
+        "action": "pyautogui.click(903, 244)"
+    },
+    "web__instacart__task_2.8.txt": {
+        "instruction": "Visit the Deli Category Page",
+        "action": "pyautogui.click(47, 204)"
+    },
+    "web__instacart__task_1.39.txt": {
+        "instruction": "Enable expedited shipping from Target Store",
+        "action": "pyautogui.click(14, 703)"
+    },
+    "web__instacart__task_3.25.txt": {
+        "instruction": "Identify all goods eligible for discount in conjunction with Cinnamon Toast Breakfast",
+        "action": "pyautogui.click(114, 743)"
+    },
+    "web__instacart__task_1.15.txt": {
+        "instruction": "Conduct a search for \"Bananas\"",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Bananas\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_2.11.txt": {
+        "instruction": "Click on a particular store location in the list",
+        "action": "pyautogui.click(58, 39)"
+    },
+    "web__instacart__task_1.22.txt": {
+        "instruction": "Direct the cursor to Instacart\"s front page",
+        "action": "pyautogui.click(103, 47)"
+    },
+    "web__instacart__task_3.22.txt": {
+        "instruction": "Bring up all School Supplies products.",
+        "action": "pyautogui.click(378, 358)"
+    },
+    "web__instacart__task_1.8.txt": {
+        "instruction": "Redirect  to Costco Store",
+        "action": "pyautogui.click(454, 589)"
+    },
+    "web__instacart__task_3.40.txt": {
+        "instruction": "Proceed to Instacart\"s default page",
+        "action": "pyautogui.click(187, 50)"
+    },
+    "web__instacart__task_1.28.txt": {
+        "instruction": "Input \"Table Lamp\" into the search field and submit.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Table Lamp\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_3.34.txt": {
+        "instruction": "Browse the deals of popular products only",
+        "action": "pyautogui.click(111, 361)"
+    },
+    "web__instacart__task_2.7.txt": {
+        "instruction": "Go to the produce categroy page",
+        "action": "pyautogui.click(117, 227)"
+    },
+    "web__instacart__task_3.21.txt": {
+        "instruction": "Display all products listed in the School Supplies category.",
+        "action": "pyautogui.click(375, 358)"
+    },
+    "web__instacart__task_1.38.txt": {
+        "instruction": "Obtain quick shipment from Target Store",
+        "action": "pyautogui.click(100, 684)"
+    },
+    "web__instacart__task_3.10.txt": {
+        "instruction": "Go to my shopping cart page",
+        "action": "pyautogui.click(980, 39)"
+    },
+    "web__instacart__task_1.14.txt": {
+        "instruction": "Lookup for \"Bananas\"",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Bananas\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_3.32.txt": {
+        "instruction": "Sort the deals based on product popularity",
+        "action": "pyautogui.click(109, 360)"
+    },
+    "web__instacart__task_2.5.txt": {
+        "instruction": "Sign into my user profile",
+        "action": "pyautogui.click(942, 37)"
+    },
+    "web__instacart__task_3.35.txt": {
+        "instruction": "Redirect me to the sign in page",
+        "action": "pyautogui.click(898, 43)"
+    },
+    "web__aramex__task_1.9.txt": {
+        "instruction": "Use the Advanced Tracking feature to monitor a parcel",
+        "action": "pyautogui.click(324, 229)\npyautogui.click(10)\npyautogui.click(9)\npyautogui.click(7)\npyautogui.click(5)\npyautogui.click(4)\npyautogui.click(3)\npyautogui.click(11)\npyautogui.click(10)\npyautogui.click(9)\npyautogui.click(7)\npyautogui.click(5)\npyautogui.click(4)\npyautogui.click(3)\npyautogui.click(11)\npyautogui.click(10)\npyautogui.click(9)\npyautogui.click(7)\npyautogui.click(5)\npyautogui.click(4)\npyautogui.click(3)\npyautogui.click(11)\npyautogui.click(10)\npyautogui.click(9)\npyautogui.click(7)\npyautogui.click(5)\npyautogui.click(4)\npyautogui.click(3)\npyautogui.click(11)\npyautogui.click(10)\npyautogui.click(9)\npyautogui.click(7)"
+    },
+    "web__instacart__task_1.35.txt": {
+        "instruction": "Navigate to the Rite Aid Pharmacy webpage to look for medicines",
+        "action": "pyautogui.click(718, 830)"
+    },
+    "web__instacart__task_1.13.txt": {
+        "instruction": "Proceed to my Instacart account logging in page",
+        "action": "pyautogui.click(903, 45)"
+    },
+    "web__instacart__task_3.5.txt": {
+        "instruction": "Take me to Floral, Party & Gift Page",
+        "action": "pyautogui.click(314, 359)"
+    },
+    "web__instacart__task_3.30.txt": {
+        "instruction": "Proceed to the primary navigation screen",
+        "action": "pyautogui.click(66, 46)"
+    },
+    "web__instacart__task_1.21.txt": {
+        "instruction": "Move to the homepage of Instacart",
+        "action": "pyautogui.click(106, 44)"
+    },
+    "web__instacart__task_2.25.txt": {
+        "instruction": "Look up for Brown Bread in the search bar",
+        "action": "pyautogui.click(439, 99)\npyautogui.write('Brown Bread')\npyautogui.press('enter')"
+    },
+    "web__instacart__task_2.18.txt": {
+        "instruction": "Access Home Page of Giant Eagle.",
+        "action": "pyautogui.click(111, 47)"
+    },
+    "web__aramex__task_1.11.txt": {
+        "instruction": "Initiate package tracing through the Advanced Tracking option",
+        "action": "pyautogui.click(12, 582)\npyautogui.click(11, 585)\npyautogui.click(10, 585)\npyautogui.click(9, 585)\npyautogui.click(8, 585)\npyautogui.click(7, 585)\npyautogui.click(6, 585)\npyautogui.click(5, 585)\npyautogui.click(4, 585)\npyautogui.click(3, 585)\npyautogui.click(2, 585)\npyautogui.click(1, 585)\npyautogui.click(1, 585)\npyautogui.click(1, 585)"
+    },
+    "web__instacart__task_3.7.txt": {
+        "instruction": "Refine search on the page displaying popular product deals",
+        "action": "pyautogui.click(153, 50)"
+    },
+    "web__instacart__task_3.41.txt": {
+        "instruction": "Navigate to my basket page",
+        "action": "pyautogui.click(973, 40)"
+    },
+    "web__instacart__task_2.10.txt": {
+        "instruction": "Choose a specific store location",
+        "action": "pyautogui.click(59, 31)"
+    },
+    "web__instacart__task_2.14.txt": {
+        "instruction": "Check the items stored in the cart",
+        "action": "pyautogui.click(937, 100)"
+    },
+    "web__instacart__task_2.26.txt": {
+        "instruction": "Locate Brown Bread in the search",
+        "action": "pyautogui.click(304, 389)"
+    },
+    "web__instacart__task_1.23.txt": {
+        "instruction": "Switch language preference",
+        "action": "pyautogui.click(49, 148)"
+    },
+    "web__instacart__task_2.16.txt": {
+        "instruction": "Navigate to Giant Eagle Main Website",
+        "action": "pyautogui.click(55, 45)"
+    },
+    "web__instacart__task_3.20.txt": {
+        "instruction": "Find all items categorized under School Supplies.",
+        "action": "pyautogui.click(377, 359)"
+    },
+    "web__instacart__task_2.27.txt": {
+        "instruction": "Conduct a Brown Bread search",
+        "action": "pyautogui.click(501, 101)\npyautogui.write(\"Brown Bread\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_3.29.txt": {
+        "instruction": "Navigate to the homepage of the application",
+        "action": "pyautogui.click(64, 50)"
+    },
+    "web__instacart__task_3.44.txt": {
+        "instruction": "Search for shops that offer quick shipping for Hand Sanitizers.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Hand Sanitizers\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_2.6.txt": {
+        "instruction": "Search for Brown Bread",
+        "action": "pyautogui.click(468, 101)"
+    },
+    "web__instacart__task_3.33.txt": {
+        "instruction": "Apply filter to show only top product deals",
+        "action": "pyautogui.click(782, 616)"
+    },
+    "web__instacart__task_3.42.txt": {
+        "instruction": "Proceed to my cart page",
+        "action": "pyautogui.click(964, 44)"
+    },
+    "web__instacart__task_3.6.txt": {
+        "instruction": "Visit the Main Menu Page",
+        "action": "pyautogui.click(61, 44)"
+    },
+    "web__instacart__task_1.19.txt": {
+        "instruction": "Reveal all Pittsburgh-based stores",
+        "action": "pyautogui.click(499, 928)"
+    },
+    "web__instacart__task_3.8.txt": {
+        "instruction": "Take me to the login page",
+        "action": "pyautogui.click(896, 42)"
+    },
+    "web__instacart__task_1.32.txt": {
+        "instruction": "Navigate to the Costco Store webpage",
+        "action": "pyautogui.click(457, 594)"
+    },
+    "web__instacart__task_2.33.txt": {
+        "instruction": "Access the Deli Category Page",
+        "action": "pyautogui.click(910, 240)"
+    },
+    "web__instacart__task_3.4.txt": {
+        "instruction": "Get  all eligible items for discount offer with Cinnamon Toast Breakfast",
+        "action": "pyautogui.click(110, 760)"
+    },
+    "web__instacart__task_3.12.txt": {
+        "instruction": "Search for products based on a zipcode 15217",
+        "action": "pyautogui.click(276, 49)\npyautogui.write('15217')\npyautogui.press('enter')"
+    },
+    "web__instacart__task_2.30.txt": {
+        "instruction": "Access the webpage highlighting crops and farm products",
+        "action": "pyautogui.click(51, 104)"
+    },
+    "web__instacart__task_3.2.txt": {
+        "instruction": "Look for Diet Coke Can",
+        "action": "pyautogui.click(54, 290)"
+    },
+    "web__instacart__task_3.47.txt": {
+        "instruction": "Look for items using the postal code 15217",
+        "action": "pyautogui.click(62, 50)"
+    },
+    "web__instacart__task_1.26.txt": {
+        "instruction": "Search for a Table Lamp on website.",
+        "action": "pyautogui.click(50, 48)\npyautogui.write(\"Table Lamp\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_3.24.txt": {
+        "instruction": "Find all items that can receive discount when purchased with Cinnamon Toast Breakfast",
+        "action": "pyautogui.click(782, 616)"
+    },
+    "web__instacart__task_1.37.txt": {
+        "instruction": "Go to the Rite Aid Pharmacy website for checking medication inventory",
+        "action": "pyautogui.click(735, 829)"
+    },
+    "web__instacart__task_2.19.txt": {
+        "instruction": "Navigate to the Categories Section",
+        "action": "pyautogui.click(54, 100)"
+    },
+    "web__instacart__task_1.11.txt": {
+        "instruction": "Access my Instacart account",
+        "action": "pyautogui.click(915, 43)"
+    },
+    "web__instacart__task_3.27.txt": {
+        "instruction": "Proceed to the Floral, Party & Gift collections page.",
+        "action": "pyautogui.click(287, 360)"
+    },
+    "web__aramex__task_2.1.txt": {
+        "instruction": "Calculate the price to send a document from United States to India with weight in Kg by filling thes",
+        "action": "pyautogui.click(14, 48)\npyautogui.write('United States')\npyautogui.press('enter')\npyautogui.click(23, 50)\npyautogui.write('India')\npyautogui.press('enter')\npyautogui.click(20, 50)\npyautogui.write('1')\npyautogui.press('enter')\npyautogui.click(21, 50)\npyautogui.write('Document(s)')\npyautogui.press('enter')\npyautogui.click(22, 50)\npyautogui.write('0')\npyautogui.press('enter')\npyautogui.click(19, 50)\npyautogui.press('enter')"
+    },
+    "web__instacart__task_1.2.txt": {
+        "instruction": "Search for \"Bananas\"",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Bananas\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_3.36.txt": {
+        "instruction": "Navigate me to the account access page",
+        "action": "pyautogui.click(898, 43)"
+    },
+    "web__instacart__task_3.48.txt": {
+        "instruction": "Utilize the 15217 postal code to locate products",
+        "action": "pyautogui.click(787, 50)"
+    },
+    "web__instacart__task_2.32.txt": {
+        "instruction": "Navigate to the Deli Category",
+        "action": "pyautogui.click(907, 241)"
+    },
+    "web__instacart__task_1.27.txt": {
+        "instruction": "Find a Table Lamp using search bar.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Table Lamp\")\npyautogui.press(\"enter\")"
+    },
+    "web__instacart__task_1.12.txt": {
+        "instruction": "Sign into my Instacart account",
+        "action": "pyautogui.click(911, 43)"
+    },
+    "web__instacart__task_2.35.txt": {
+        "instruction": "Move to the duplicate order page",
+        "action": "pyautogui.click(50, 46)"
+    },
+    "web__instacart__task_1.17.txt": {
+        "instruction": "Display every retail location in Pittsburgh",
+        "action": "pyautogui.click(500, 400)"
+    },
+    "web__instacart__task_3.19.txt": {
+        "instruction": "Execute Search for item: Diet Coke Can",
+        "action": "pyautogui.click(283, 50)\npyautogui.write(\"Diet Coke Can\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_2.2.txt": {
+        "instruction": "Check Flight Aware live flight delay and cancellation statistics for Monday",
+        "action": "pyautogui.click(178, 223)"
+    },
+    "web__instacart__task_3.11.txt": {
+        "instruction": "Find if there are any stores with fast delivery for Hand Sanitizers",
+        "action": "pyautogui.click(50, 363)"
+    },
+    "web__instacart__task_1.16.txt": {
+        "instruction": "Initiate a find operation for \"Bananas\"",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"Bananas\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_1.9.txt": {
+        "instruction": "Click Sign Up",
+        "action": "pyautogui.click(804, 66)"
+    },
+    "web__instacart__task_3.13.txt": {
+        "instruction": "Give me all products for Pittsburgh",
+        "action": "pyautogui.click(63, 44)"
+    },
+    "web__flight_aware__task_2.21.txt": {
+        "instruction": "Navigate to \"forgot flight number\" option",
+        "action": "pyautogui.click(649, 70)"
+    },
+    "web__flight_aware__task_1.6.txt": {
+        "instruction": "Select the 2nd language for the site using keyboard",
+        "action": "pyautogui.press('ctrl', 'shift', 'l')"
+    },
+    "web__flight_aware__task_3.17.txt": {
+        "instruction": "Initiate the live chat feature on the FlightAware site",
+        "action": "pyautogui.click(936, 68)"
+    },
+    "web__flight_aware__task_2.1.txt": {
+        "instruction": "Check Flight Aware live flight delay and cancellation statistics for today",
+        "action": "pyautogui.click(50, 191)"
+    },
+    "web__instacart__task_3.18.txt": {
+        "instruction": "Perform Search for \"Diet Coke Can\"",
+        "action": "pyautogui.click(278, 50)\npyautogui.write(\"Diet Coke Can\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_3.9.txt": {
+        "instruction": "Verify the real-time status of FlightAware\"s tracking data",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"FlightAware\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_2.22.txt": {
+        "instruction": "Access the \"forgot flight number\" support",
+        "action": "pyautogui.click(641, 68)"
+    },
+    "web__flight_aware__task_3.15.txt": {
+        "instruction": "Activate the chat window on FlightAware",
+        "action": "pyautogui.click(934, 67)"
+    },
+    "web__flight_aware__task_3.3.txt": {
+        "instruction": "Open FlightAware\"s chat window",
+        "action": "pyautogui.click(934, 68)"
+    },
+    "web__flight_aware__task_2.24.txt": {
+        "instruction": "Register for an account on FlightAware",
+        "action": "pyautogui.click(65, 50)"
+    },
+    "web__flight_aware__task_1.34.txt": {
+        "instruction": "Initiate Registration Process",
+        "action": "pyautogui.click(808, 67)"
+    },
+    "web__flight_aware__task_3.28.txt": {
+        "instruction": "Look for details on position-only flight",
+        "action": "pyautogui.click(184, 804)"
+    },
+    "web__flight_aware__task_2.23.txt": {
+        "instruction": "Proceed to the \"forgot flight number\" help section",
+        "action": "pyautogui.click(664, 72)"
+    },
+    "web__flight_aware__task_3.16.txt": {
+        "instruction": "Launch FlightAware\"s customer service chat box",
+        "action": "pyautogui.click(934, 68)"
+    },
+    "web__flight_aware__task_1.20.txt": {
+        "instruction": "Choose the second option from the language dropdown menu using the mouse",
+        "action": "pyautogui.click(822, 32)"
+    },
+    "web__flight_aware__task_1.36.txt": {
+        "instruction": "Start the Sign Up Procedure",
+        "action": "pyautogui.click(806, 66)"
+    },
+    "web__flight_aware__task_2.29.txt": {
+        "instruction": "Access the flight status page",
+        "action": "pyautogui.click(64, 70)"
+    },
+    "web__flight_aware__task_1.33.txt": {
+        "instruction": "Locate Private Plane by its unique tail number: 1234.",
+        "action": "pyautogui.click(14, 46)"
+    },
+    "web__flight_aware__task_1.3.txt": {
+        "instruction": "Search Flight by Route using keyboard to switch between textboxes, with Origin as",
+        "action": "pyautogui.click(372, 340)\npyautogui.write('Origin')\npyautogui.press('enter')"
+    },
+    "web__flight_aware__task_3.23.txt": {
+        "instruction": "Find out the update interval for FlightAware\"s data.",
+        "action": "pyautogui.click(202, 281)"
+    },
+    "web__flight_aware__task_2.28.txt": {
+        "instruction": "Proceed to the flight tracking section",
+        "action": "pyautogui.click(576, 103)"
+    },
+    "web__flight_aware__task_1.4.txt": {
+        "instruction": "Select the 2nd language for the site using mouse",
+        "action": "pyautogui.click(834, 19)"
+    },
+    "web__flight_aware__task_1.28.txt": {
+        "instruction": "Click the second suggestion in the search options",
+        "action": "pyautogui.click(350, 718)"
+    },
+    "web__flight_aware__task_3.1.txt": {
+        "instruction": "Check how live is FlightAware\"s tracking and status data",
+        "action": "pyautogui.click(274, 275)"
+    },
+    "web__flight_aware__task_1.22.txt": {
+        "instruction": "Press the \"down\" arrow key once using pyautogui.",
+        "action": "pyautogui.press('down')"
+    },
+    "web__flight_aware__task_1.29.txt": {
+        "instruction": "Navigate and choose the second recommendation from the search",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_2.31.txt": {
+        "instruction": "Proceed to FlightAware\"s business page",
+        "action": "pyautogui.click(61, 100)"
+    },
+    "web__flight_aware__task_1.24.txt": {
+        "instruction": "Use pyautogui to perform a sequence of key presses - \"down\", then \"enter\".",
+        "action": "pyautogui.press('down')\npyautogui.press('enter')"
+    },
+    "web__flight_aware__task_1.5.txt": {
+        "instruction": "Press the \"down\" and \"enter\" arrow key once using pyautogui.",
+        "action": "pyautogui.press('down')\npyautogui.press('enter')"
+    },
+    "web__flight_aware__task_3.31.txt": {
+        "instruction": "In the search bar, look up a flight route from Pittsburgh to JFK airport.",
+        "action": "pyautogui.click(453, 66)\npyautogui.write(\"Pittsburgh to JFK\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_2.8.txt": {
+        "instruction": "Redirect to FlightAware\"s company page",
+        "action": "pyautogui.click(951, 100)"
+    },
+    "web__flight_aware__task_1.10.txt": {
+        "instruction": "Look up Flight with Flight number: A1234",
+        "action": "pyautogui.click(13, 48)\npyautogui.write('A1234')\npyautogui.press('enter')"
+    },
+    "web__flight_aware__task_1.31.txt": {
+        "instruction": "Look up for the Private Aircraft with tail number: 1234.",
+        "action": "pyautogui.click(10, 50)\npyautogui.write(\"1234\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_3.22.txt": {
+        "instruction": "Ascertain how frequently FlightAware refreshes their data.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"FlightAware\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_2.25.txt": {
+        "instruction": "Join FlightAware by creating a new account",
+        "action": "pyautogui.click(66, 19)"
+    },
+    "web__flight_aware__task_1.1.txt": {
+        "instruction": "Search Flight by Flight number: A1234",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"A1234\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_2.7.txt": {
+        "instruction": "Redirect to the flight tracking page",
+        "action": "pyautogui.click(572, 102)"
+    },
+    "web__flight_aware__task_2.27.txt": {
+        "instruction": "Navigate to the page for tracking flights",
+        "action": "pyautogui.click(578, 102)"
+    },
+    "web__flight_aware__task_2.5.txt": {
+        "instruction": "Go to Forgot flight number",
+        "action": "pyautogui.click(647, 68)"
+    },
+    "web__flight_aware__task_1.35.txt": {
+        "instruction": "Begin New User Registration",
+        "action": "pyautogui.click(802, 68)"
+    },
+    "web__flight_aware__task_1.30.txt": {
+        "instruction": "Go to the second choice in the search dropdown menu",
+        "action": "pyautogui.click(102, 714)"
+    },
+    "web__flight_aware__task_3.21.txt": {
+        "instruction": "Determine the frequency of data updates on FlightAware.",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"FlightAware\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_1.8.txt": {
+        "instruction": "Search for Private Flight (tail number: 1234)",
+        "action": "pyautogui.click(10, 50)\npyautogui.write(\"1234\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_1.17.txt": {
+        "instruction": "Using keyboard inputs, locate flights with a departure from Pittsburgh and arrival at JFK by typing ",
+        "action": "pyautogui.click(239, 713)\npyautogui.write(\"Pittsburgh\")\npyautogui.press(\"enter\")\npyautogui.click(450, 714)\npyautogui.write(\"JFK\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_1.7.txt": {
+        "instruction": "Select the 2nd option for the search",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"OmniACT\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_3.10.txt": {
+        "instruction": "Assess the immediacy of FlightAware\"s flight tracking and status data",
+        "action": "pyautogui.click(200, 50)\npyautogui.write(\"FlightAware\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_3.7.txt": {
+        "instruction": "Check what is a position-only flight",
+        "action": "pyautogui.click(154, 804)"
+    },
+    "web__aramex__task_1.2.txt": {
+        "instruction": "Track a package using Advanced Tracking button",
+        "action": "pyautogui.click(12, 579)\npyautogui.click(10, 578)\npyautogui.click(8, 578)\npyautogui.click(6, 578)\npyautogui.click(4, 578)\npyautogui.click(2, 578)\npyautogui.click(1, 578)\npyautogui.click(3, 578)\npyautogui.click(5, 578)\npyautogui.click(7, 578)\npyautogui.click(9, 578)\npyautogui.click(11, 578)\npyautogui.click(13, 578)\npyautogui.click(15, 578)\npyautogui.click(17, 578)\npyautogui.click(19, 578)\npyautogui.click(21, 578)\npyautogui.click(23, 578)\npyautogui.click(25, 578)\npyautogui.click(27, 578)\npyautogui.click("
+    },
+    "web__flight_aware__task_1.23.txt": {
+        "instruction": "Input an \"enter\" key press command via pyautogui.",
+        "action": "pyautogui.press('enter')"
+    },
+    "web__flight_aware__task_3.5.txt": {
+        "instruction": "Check how often FlightAware\"s data gets updated or refreshed",
+        "action": "pyautogui.click(224, 277)"
+    },
+    "web__flight_aware__task_3.32.txt": {
+        "instruction": "Use the main search function to find flights with a route starting in Pittsburgh and ending at JFK A",
+        "action": "pyautogui.click(444, 67)\npyautogui.write(\"Pittsburgh to JFK\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_1.21.txt": {
+        "instruction": "Use mouse to pick the second language from the dropdown menu",
+        "action": "pyautogui.click(817, 26)"
+    },
+    "web__flight_aware__task_3.20.txt": {
+        "instruction": "Access FlightAware\"s customer service number",
+        "action": "pyautogui.click(846, 65)"
+    },
+    "web__flight_aware__task_2.6.txt": {
+        "instruction": "Sign up for FlightAware",
+        "action": "pyautogui.click(924, 65)"
+    },
+    "web__flight_aware__task_2.26.txt": {
+        "instruction": "Enroll for FlightAware by signing up for an account",
+        "action": "pyautogui.click(930, 66)"
+    },
+    "web__flight_aware__task_3.12.txt": {
+        "instruction": "Change the website language to Italian using keyboard commands.",
+        "action": "pyautogui.press('ctrl', 'shift', 'i')"
+    },
+    "web__flight_aware__task_1.18.txt": {
+        "instruction": "Navigate to the flight search interface and use keyboard strokes to enter \"Pittsburgh\" in the depart",
+        "action": "pyautogui.click(112, 45)\npyautogui.write(\"Pittsburgh\")\npyautogui.press(\"enter\")\npyautogui.click(125, 40)\npyautogui.write(\"JFK\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_1.25.txt": {
+        "instruction": "Navigate to the site\"s language options and select the second language listed using keyboard command",
+        "action": "pyautogui.click(1118, 20)  # Click on the language dropdown menu\npyautogui.press('down')  # Press the down arrow to move to the second language option\npyautogui.press('enter')  # Press enter to select the second language"
+    },
+    "web__flight_aware__task_1.26.txt": {
+        "instruction": "Utilize keyboard inputs to select the second listed language option on the webpage.",
+        "action": "pyautogui.click(100, 45)"
+    },
+    "web__flight_aware__task_1.19.txt": {
+        "instruction": "Select the second language option on the webpage using your mouse",
+        "action": "pyautogui.click(808, 28)"
+    },
+    "web__flight_aware__task_1.14.txt": {
+        "instruction": "Search for a flight by inputting Pittsburgh as the Origin and JFK as the Destination.",
+        "action": "pyautogui.click(10, 50)\npyautogui.write(\"Pittsburgh\")\npyautogui.press(\"enter\")\npyautogui.click(10, 50)\npyautogui.write(\"JFK\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_1.15.txt": {
+        "instruction": "Use the mouse actions for switching between textboxes to find flights leaving from Pittsburgh to JFK",
+        "action": "pyautogui.click(132, 716)\npyautogui.click(397, 716)\npyautogui.write(\"Pittsburgh\")\npyautogui.press(\"enter\")\npyautogui.click(441, 716)\npyautogui.write(\"JFK\")\npyautogui.press(\"enter\")"
+    },
+    "web__flight_aware__task_3.4.txt": {
+        "instruction": "Redirect to FlightAware\"s contact number",
+        "action": "pyautogui.click(847, 64)"
+    },
+    "web__flight_aware__task_3.2.txt": {
+        "instruction": "Select Italian as the language for the site using keyboard",
+        "action": "pyautogui.press('ctrl', 'shift', 'a')"
+    },
+    "web__flight_aware__task_1.27.txt": {
+        "instruction": "Perform the task of changing the website\"s language to the second option using keyboard controls.",
+        "action": "pyautogui.press('ctrl', 'shift', 'l')"
+    },
+    "web__flight_aware__task_3.14.txt": {
+        "instruction": "Set the language preference of the site to Italian utilizing keyboard strokes.",
+        "action": "pyautogui.press('ctrl')\npyautogui.press('grave')\npyautogui.press('enter')"
+    },
+    "web__flight_aware__task_3.19.txt": {
+        "instruction": "Proceed to FlightAware\"s contact information",
+        "action": "pyautogui.click(890, 68)"
+    },
+    "web__flight_aware__task_2.30.txt": {
+        "instruction": "Navigate to the company profile of FlightAware",
+        "action": "pyautogui.click(937, 103)"
+    },
+    "web__flight_aware__task_3.18.txt": {
+        "instruction": "Navigate to the contact number of FlightAware",
+        "action": "pyautogui.click(842, 64)"
+    },
+    "web__flight_aware__task_3.8.txt": {
+        "instruction": "Search Flight by Route, with Origin as Pittsburgh and Destination as JFK using the top",
+        "action": "pyautogui.click(457, 67)"
+    },
+    "web__flight_aware__task_3.27.txt": {
+        "instruction": "Find information about position-only flight",
+        "action": "pyautogui.click(14, 478)"
+    },
+    "web__flight_aware__task_2.32.txt": {
+        "instruction": "Go to the FlightAware corporate web page",
+        "action": "pyautogui.click(66, 61)"
+    }
+}
