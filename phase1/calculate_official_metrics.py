@@ -251,7 +251,7 @@ def main():
             metrics = process_result_file(f_path, args.data_dir)
             if metrics:
                 model_name = os.path.basename(os.path.dirname(os.path.dirname(f_path)))
-                if model_name == "results": model_name = os.path.basename(os.path.dirname(f_path))
+                if model_name in ["results", "results-v2"]: model_name = os.path.basename(os.path.dirname(f_path))
                 print(f"{model_name:<40} | {metrics['ss_mean']:<10.4f} | {metrics['as_eq6']:<10.2f} | {metrics['match_rate']:<10.2f} | {metrics['count']:<10}")
         print("-" * 95)
 

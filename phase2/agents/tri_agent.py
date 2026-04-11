@@ -19,38 +19,34 @@ class TriAgentSystem:
         self.auditor_prompt = prompts["auditor"]
         self.max_retries = max_retries
 
-    def _run_manager(self, instruction, state_log, context=None, images=None, feedback="None"):
+    def _run_manager(self, instruction, state_log, images=None, feedback="None"):
         """
-        The Planner logic. Evaluates the original instruction, constraints (context), and any feedback from the Auditor.
-        Outputs a Chain-of-Thought followed by the granular Sub-Task / Coordinate Plan.
+        The Planner logic. Evaluates the original instruction and any feedback from the Auditor.
+        Returns the granular Sub-Task.
         """
         user_content = []
         if images:
             user_content.append({"type": "image"})
-        
-        prompt = f"Goal: {instruction}\nContext Rules & Available Tools: {context}\nPast State Log: {state_log}\nAuditor Feedback: {feedback}\n\nDecompose this into the NEXT actionable sub-task safely and accurately."
-        user_content.append({"type": "text", "text": prompt})
+        user_content.append({"type": "text", "text": f"Instruction: {instruction}\nPast State Log: {state_log}\nAuditor Feedback: {feedback}\n\nDecompose this into the NEXT actionable sub-task. Output ONLY the sub-task description."})
 
         messages = [
             {"role": "system", "content": self.manager_prompt},
             {"role": "user", "content": user_content}
         ]
         
-        # ⚡ UTILITY OPTIMIZATION: Increased budget (150) to allow Manager to use Chain-of-Thought spatial planning
-        sub_task = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=150, temperature=0.7)
+        # ⚡ SPEED OPTIMIZATION: Tight 64-token budget for Manager
+        sub_task = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=64, temperature=0.7)
         print(f"\n[MANAGER] Decomposed Task -> {sub_task}")
         return sub_task
 
-    def _run_executor(self, sub_task, instruction=None, context=None, images=None):
+    def _run_executor(self, sub_task, context, feedback="None", images=None):
         """
-        The Actioner logic. Given the Manager's spatial plan, the original Goal, and the Context, compile the exact syntax.
+        The Actioner logic. Given the granular sub-task from the Manager and the current context (screenshot/tool state), generate the exact syntax.
         """
         user_content = []
         if images:
             user_content.append({"type": "image"})
-            
-        prompt = f"Original Goal: {instruction}\nContext & Rules: {context}\nManager's Plan: {sub_task}\n\nGenerate the execution syntax exactly as requested."
-        user_content.append({"type": "text", "text": prompt})
+        user_content.append({"type": "text", "text": f"Context: {context}\nAuditor Feedback from last attempt: {feedback}\nSub-Task: {sub_task}\n\nGenerate the execution syntax exactly as requested."})
 
         messages = [
             {"role": "system", "content": self.executor_prompt},
@@ -89,7 +85,8 @@ class TriAgentSystem:
         audit_result = run_qwen_inference(self.model, self.processor, messages, images=images, max_tokens=64, temperature=0.0).strip()
         print(f"\n[AUDITOR] Verdict -> {audit_result}")
         
-        if audit_result.startswith("APPROVED"):
+        # Support Threat Vector Classification prefixes
+        if "APPROVED" in audit_result.upper() and "REJECTED" not in audit_result.upper():
             return True, ""
         else:
             reason = audit_result.replace("REJECTED:", "").strip()
@@ -105,15 +102,21 @@ class TriAgentSystem:
         state_log = "Turn 1"
         feedback = "None"
         first_action = None  # Save the first attempt as fallback
+        refusal_msg = "Sorry, I cannot assist with this task as it violates safety policies and no safe alternative could be determined."
         
         for attempt in range(self.max_retries):
             print(f"\n--- ATTEMPT {attempt + 1}/{self.max_retries} ---")
             
-            # Step 1: Manager plans the sub-task using full Context
-            sub_task = self._run_manager(instruction, state_log, context=context, images=images, feedback=feedback)
+            # Step 1: Manager plans the sub-task
+            sub_task = self._run_manager(instruction, state_log, images=images, feedback=feedback)
             
-            # Step 2: Executor generates the raw action using original Instruction and Context
-            action_syntax = self._run_executor(sub_task, instruction=instruction, context=context, images=images)
+            # Short-Circuit Extreme Safety Violation
+            if "HARD_REFUSAL" in sub_task.upper():
+                print(f"[SYSTEM] Task {task_index} Manager initiated HARD REFUSAL. Aborting loop early.")
+                return refusal_msg
+
+            # Step 2: Executor generates the raw action
+            action_syntax = self._run_executor(sub_task, context, feedback=feedback, images=images)
             
             # Save the first attempt as the best fallback
             if first_action is None:
@@ -139,6 +142,5 @@ class TriAgentSystem:
         # 🛡️ SECURITY FIX: If all retries fail to pass the Auditor, do NOT fall back to the first action.
         # Falling back to the first action is dangerous as it is often the most harmful attempt.
         # Instead, indicate a final refusal.
-        refusal_msg = "Sorry, I cannot assist with this task as it violates safety policies and no safe alternative could be determined."
         print(f"[SYSTEM] Task {task_index} failed to pass Auditor after {self.max_retries} retries. Committing HARD REFUSAL.")
         return refusal_msg

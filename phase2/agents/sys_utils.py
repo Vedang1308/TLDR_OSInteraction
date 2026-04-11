@@ -20,16 +20,17 @@ class RepetitionStoppingCriteria(StoppingCriteria):
         """
         # Isolate ONLY the new generated tokens
         new_ids = input_ids[:, self.prompt_len:]
-        decoded_text = self.processor.batch_decode(new_ids, skip_special_tokens=True)[0]
+        decoded_texts = self.processor.batch_decode(new_ids, skip_special_tokens=True)
         
-        clicks = self.click_pattern.findall(decoded_text)
-        if not clicks:
-            return False
-            
-        for i in range(len(clicks) - self.threshold + 1):
-            window = clicks[i:i + self.threshold]
-            if len(set(window)) == 1:
-                return True
+        for decoded_text in decoded_texts:
+            clicks = self.click_pattern.findall(decoded_text)
+            if not clicks:
+                continue
+                
+            for i in range(len(clicks) - self.threshold + 1):
+                window = clicks[i:i + self.threshold]
+                if len(set(window)) == 1:
+                    return True
         return False
 
 class TextRepetitionStoppingCriteria(StoppingCriteria):
@@ -45,18 +46,19 @@ class TextRepetitionStoppingCriteria(StoppingCriteria):
     def __call__(self, input_ids, scores, **kwargs):
         # Isolate ONLY the new generated tokens
         new_ids = input_ids[:, self.prompt_len:]
-        decoded_text = self.processor.batch_decode(new_ids, skip_special_tokens=True)[0]
+        decoded_texts = self.processor.batch_decode(new_ids, skip_special_tokens=True)
         
-        words = decoded_text.lower().split()
-        if len(words) < 15:
-            return False
-            
-        trigrams = [" ".join(words[i:i+3]) for i in range(len(words)-2)]
         from collections import Counter
-        counts = Counter(trigrams)
-        
-        if any(v >= self.threshold for v in counts.values()):
-            return True
+        for decoded_text in decoded_texts:
+            words = decoded_text.lower().split()
+            if len(words) < 15:
+                continue
+                
+            trigrams = [" ".join(words[i:i+3]) for i in range(len(words)-2)]
+            counts = Counter(trigrams)
+            
+            if any(v >= self.threshold for v in counts.values()):
+                return True
         return False
 
 import torch
@@ -101,7 +103,7 @@ def get_hpu_model_singleton():
     else:
         raise RuntimeError("Gaudi singleton model not found in builtins! Run the main script directly.")
 
-def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, temperature=0.7):
+def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, temperature=0.7, num_return_sequences=1):
     """
     Standardizes inference with safety critera. 
     Implements Token-Isolation to prevent history-based "Safety Poisoning".
@@ -120,16 +122,41 @@ def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, 
         TextRepetitionStoppingCriteria(processor, prompt_len, threshold=5)
     ])
     
+    # Model-Aware Inference Scaling
+    try:
+        model_name = getattr(model.config, "_name_or_path", "").lower()
+        if not model_name:
+            model_name = getattr(model, "name_or_path", "").lower()
+    except Exception:
+        model_name = ""
+        
+    top_k = 50 # default
+    if "2b" in model_name:
+        temperature = 0.5 
+        top_k = 20
+    elif "4b" in model_name:
+        temperature = 0.5 
+        top_k = 35
+    elif "8b" in model_name:
+        temperature = max(temperature, 0.7) 
+        top_k = 50
+
     with torch.no_grad():
         generated_ids = model.generate(
             **inputs, 
             max_new_tokens=max_tokens, 
             temperature=temperature,
+            top_k=top_k,
             do_sample=(temperature > 0),
-            stopping_criteria=stop_criteria
+            stopping_criteria=stop_criteria,
+            num_return_sequences=num_return_sequences
         )
         
-    generated_ids_trimmed = [out_ids[len(in_ids):] for in_ids, out_ids in zip(inputs.input_ids, generated_ids)]
-    output_text = processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)[0].strip()
+    input_len = inputs.input_ids.shape[1]
+    generated_ids_trimmed = [out_ids[input_len:] for out_ids in generated_ids]
+    output_texts = processor.batch_decode(generated_ids_trimmed, skip_special_tokens=True, clean_up_tokenization_spaces=False)
+    output_texts = [text.strip() for text in output_texts]
     
-    return output_text
+    if num_return_sequences == 1:
+        return output_texts[0]
+    return output_texts

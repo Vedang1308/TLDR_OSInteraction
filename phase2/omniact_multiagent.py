@@ -1,5 +1,6 @@
 import os
 import sys
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # 🚀 PROJECT PATH RESOLUTION: Add the root directory to sys.path
 # This ensures that 'from phase2...' imports work regardless of where the script is invoked.
@@ -141,7 +142,7 @@ import builtins
 import sys
 import os
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from phase2.agents.tri_agent import TriAgentSystem
+from phase2.agents.omniact_agent_v2 import OmniactAgentSystemV2
 
 def eval_omniact(model_name, device, model, processor, limit=-1):
     print(f"[OmniACT] Evaluating {model_name} against OmniACT dataset...")
@@ -151,7 +152,7 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
     safe_model_name = model_name.replace("/", "_")
     
     # Establish strict Model/Benchmark directory segregation for massive-scale analytics
-    results_dir = os.path.join("results", safe_model_name, "omniact")
+    results_dir = os.path.join("results-final", safe_model_name, "omniact")
     os.makedirs(results_dir, exist_ok=True)
     
     # Strip the generic monolithic vendor prefix to build a hyper-clean output filename string natively
@@ -187,7 +188,12 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
     total_tasks = len(task_files)
     print(f"[OmniACT] Processing exactly {total_tasks} raw physical examples on {device}...")
     
-    for idx, task_txt_path in enumerate(task_files):
+    import threading
+    from concurrent.futures import ThreadPoolExecutor, as_completed
+    
+    file_lock = threading.Lock()
+    
+    def process_task(idx, task_txt_path):
         task_filename = os.path.basename(task_txt_path)
         # e.g. task_1.14.txt -> "1.14" -> screen "1"
         stripped_metrics = task_filename.replace("task_", "").replace(".txt", "")
@@ -198,8 +204,9 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
         task_rel_path = os.path.relpath(task_txt_path, os.path.join(data_dir, "data", "tasks"))
         task_id = task_rel_path.replace(os.sep, "__") # unique key
         
-        if task_id in results:
-            continue # Skip efficiently
+        with file_lock:
+            if task_id in results:
+                return # Skip efficiently
             
         # Reconstruct the image path by swapping /tasks/ for /data/ in the directory string
         img_dir = task_dir.replace(os.sep + "tasks" + os.sep, os.sep + "data" + os.sep)
@@ -218,12 +225,20 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
             
         if not os.path.exists(image_path):
             print(f"  -> WARNING: Missing physical image for {task_id} -> {image_path}. Skipping isolated task.")
-            continue
+            return
             
         from PIL import Image
         image = Image.open(image_path).convert("RGB")
-        # Aggressively cap raw pixel arrays to prevent exploding attention matrix memory on huge dataset images
-        image.thumbnail((1280, 1280), Image.Resampling.LANCZOS)
+        
+        # Smart Image Resolution Routing based on architecture size
+        max_dim = 1280
+        if "8b" in model_name.lower():
+            max_dim = 1920 # HD Preservation for large models
+            print(f"  -> [HD Vision] Using expanded {max_dim}x{max_dim} context window.")
+        else:
+            max_dim = 1280 # Aggressively cap raw pixel arrays for smaller models
+            
+        image.thumbnail((max_dim, max_dim), Image.Resampling.LANCZOS)
         
         # 0. UI Metadata Grounding REMOVED for Phase 1 Baseline (Pure Vision-to-Action)
         grounding_text = ""
@@ -268,22 +283,32 @@ pyautogui.press("enter")"""
             
         print(f"\n[{idx}/{total_tasks}] Task: {task_id}")
         
-        # Instantiate the agent system dynamically
-        agent_system = TriAgentSystem(benchmark="omniact", max_retries=3)
+        # Instantiate the improved agent system dynamically (Density Consensus V2)
+        agent_system = OmniactAgentSystemV2(benchmark="omniact", num_samples=5, temperature=0.7)
         
-        # Execute the multi-agent loop
+        # Execute the high-temp sample loop
         generated_action = agent_system.execute_task(
             instruction=instruction_text,
             context=context_string,
             images=[image],
             task_index=idx
         )
-        results[task_id] = {"instruction": instruction_text[:100], "action": generated_action}
-        with open(checkpoint_file, "w") as f:
-            json.dump(results, f, indent=4)
+        
+        with file_lock:
+            results[task_id] = {"instruction": instruction_text[:100], "action": generated_action}
+            with open(checkpoint_file, "w") as f:
+                json.dump(results, f, indent=4)
             
-
         print(f"   Qwen3 Token: {generated_action.strip()}\n")
+
+    print(f"[OmniACT] Launching concurrency pool (4 workers)...")
+    with ThreadPoolExecutor(max_workers=15) as executor:
+        futures = [executor.submit(process_task, idx, task_txt_path) for idx, task_txt_path in enumerate(task_files)]
+        for future in as_completed(futures):
+            try:
+                future.result()
+            except Exception as e:
+                print(f"Exception generated during worker execution: {e}")
     print(f"\n[OmniACT] Evaluation completely finished! Results securely saved to {checkpoint_file}")
 
 def main():
