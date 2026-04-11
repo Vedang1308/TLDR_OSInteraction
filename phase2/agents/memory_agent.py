@@ -83,7 +83,10 @@ class MemoryAgent:
         prompt = (f"Current Goal: {instruction}\nRetrieved Past Memories:\n- {raw_memory_context}\n\n"
                   f"Synthesize this into a short, exact directive.")
                   
-        user_content = [{"type": "text", "text": prompt}]
+        user_content = []
+        if images:
+             user_content.append({"type": "image"})
+        user_content.append({"type": "text", "text": prompt})
         messages = [
              {"role": "system", "content": self.reasoning_prompt},
              {"role": "user", "content": user_content}
