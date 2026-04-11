@@ -20,14 +20,10 @@ class OmniactAgentSystemV2:
         # Using safely framed prompt to avoid AgentHarm-style refusals
         self.system_prompt = PROMPT_REGISTRY[benchmark].get("omniact_executor_v2", "")
 
-    def _extract_coordinates(self, script):
-        """Regex to pull (x, y) coordinates from PyAutoGUI syntax."""
-        match = re.search(r"click\(([\d.]+),\s*([\d.]+)\)", script)
-        if match:
-            return (float(match.group(1)), float(match.group(2)))
-        return None
-
-    def execute_task(self, instruction, context, images=None, task_index=0):
+    def execute_task(self, instruction, context, images=None, task_index=0, ui_map=None):
+        if ui_map is None:
+            ui_map = {}
+            
         print(f"\n=== [OmniACT-V2] Starting High-Temp Density Consensus Loop (N={self.num_samples}, T={self.temperature}) for task {task_index} ===")
         
         user_content = []
@@ -40,52 +36,89 @@ class OmniactAgentSystemV2:
             {"role": "user", "content": user_content}
         ]
         
-        actions = []
-        coords_list = []
+        # Run batched inference to eliminate sequential latency
+        actions = run_qwen_inference(
+            self.model, 
+            self.processor, 
+            messages, 
+            images=images, 
+            max_tokens=256, 
+            temperature=self.temperature,
+            num_return_sequences=self.num_samples
+        )
         
-        for i in range(self.num_samples):
-            action_syntax = run_qwen_inference(
-                self.model, 
-                self.processor, 
-                messages, 
-                images=images, 
-                max_tokens=256, 
-                temperature=self.temperature
-            )
-            actions.append(action_syntax)
+        if self.num_samples == 1:
+            actions = [actions]
             
-            coord = self._extract_coordinates(action_syntax)
-            if coord:
-                coords_list.append((coord, action_syntax))
+        parsed_samples = []
+        for i, action_syntax in enumerate(actions):
+            # Parse Set-of-Mark tags
+            tag_matches = list(re.finditer(r"(click|doubleClick|rightClick|moveTo|dragTo)\((\d+)\)", action_syntax))
+            # Parse raw spatial coordinates
+            raw_matches = list(re.finditer(r"(click|doubleClick|rightClick|moveTo|dragTo)\(([\d.]+),\s*([\d.]+)\)", action_syntax))
+            
+            # Print for debugging
+            preview = action_syntax.strip().split(maxsplit=1)[0] if action_syntax.strip() else "Empty"
+            print(f"  -> [Sample {i+1}] {preview}...")
+            
+            for match in tag_matches:
+                verb = match.group(1)
+                tag_id = int(match.group(2))
+                if tag_id in ui_map:
+                    cx, cy = ui_map[tag_id]
+                    parsed_samples.append({
+                        'coord': (float(cx), float(cy)),
+                        'action': action_syntax,
+                        'syntax_to_replace': match.group(0),
+                        'verb': verb,
+                        'is_som': True
+                    })
+                    print(f"    -> Intercepted valid SoM Tag [{tag_id}] for {verb}")
+                    
+            for match in raw_matches:
+                verb = match.group(1)
+                x = float(match.group(2))
+                y = float(match.group(3))
+                parsed_samples.append({
+                    'coord': (x, y),
+                    'action': action_syntax,
+                    'syntax_to_replace': match.group(0),
+                    'verb': verb,
+                    'is_som': False
+                })
+
+        valid_som_tags = [s for s in parsed_samples if s['is_som']]
+        if valid_som_tags:
+            # Short-circuit density clustering: prioritize correct SoM mode
+            tag_counts = {}
+            for s in valid_som_tags:
+                tag_counts[s['syntax_to_replace']] = tag_counts.get(s['syntax_to_replace'], 0) + 1
                 
-            print(f"  -> [Sample {i+1}] {action_syntax.strip().split(maxsplit=1)[0]}...") 
+            best_tag_syntax = max(tag_counts, key=tag_counts.get)
+            best_sample = next(s for s in valid_som_tags if s['syntax_to_replace'] == best_tag_syntax)
             
-        if not coords_list:
-            print("[OmniACT-V2] No valid clicks generated. Returning best-effort text output.")
+            int_x, int_y = int(round(best_sample['coord'][0])), int(round(best_sample['coord'][1]))
+            verb = best_sample['verb']
+            optimized_action = best_sample['action'].replace(best_tag_syntax, f"{verb}({int_x}, {int_y})", 1)
+            
+            print(f"[OmniACT-V2] Consensus selected precise SoM tag '{best_tag_syntax}'. Final Action: {optimized_action.strip()}")
+            return optimized_action
+            
+        raw_samples = [s for s in parsed_samples if not s['is_som']]
+        if not raw_samples:
+            print("[OmniACT-V2] No valid spatial actions found. Returning best-effort text output.")
             return actions[0] if actions else ""
             
-        # Hardware-Aware Spatial Clustering 
-        try:
-            model_name = getattr(self.model.config, "_name_or_path", "").lower()
-            if not model_name:
-                model_name = getattr(self.model, "name_or_path", "").lower()
-        except Exception:
-            model_name = ""
-            
-        threshold = 30
-        if "2b" in model_name:
-            threshold = 45 
-        elif "8b" in model_name:
-            threshold = 15 
-            
+        # Unified Distance Thresholding
+        threshold = 30.0
         clusters = [] 
         
-        for item in coords_list:
-            coord, action = item
+        for item in raw_samples:
+            coord = item['coord']
             added = False
             for cluster in clusters:
-                center_x = sum(c[0][0] for c in cluster) / len(cluster)
-                center_y = sum(c[0][1] for c in cluster) / len(cluster)
+                center_x = sum(c['coord'][0] for c in cluster) / len(cluster)
+                center_y = sum(c['coord'][1] for c in cluster) / len(cluster)
                 
                 dist = math.sqrt((coord[0] - center_x)**2 + (coord[1] - center_y)**2)
                 if dist <= threshold:
@@ -99,22 +132,23 @@ class OmniactAgentSystemV2:
         def cluster_variance(cluster):
             if len(cluster) == 1:
                 return 0.0
-            cx = sum(c[0][0] for c in cluster) / len(cluster)
-            cy = sum(c[0][1] for c in cluster) / len(cluster)
-            return sum((c[0][0] - cx)**2 + (c[0][1] - cy)**2 for c in cluster) / len(cluster)
+            cx = sum(c['coord'][0] for c in cluster) / len(cluster)
+            cy = sum(c['coord'][1] for c in cluster) / len(cluster)
+            return sum((c['coord'][0] - cx)**2 + (c['coord'][1] - cy)**2 for c in cluster) / len(cluster)
 
         clusters.sort(key=lambda c: (len(c), -cluster_variance(c)), reverse=True)
         
         best_cluster = clusters[0]
-        avg_x = sum(c[0][0] for c in best_cluster) / len(best_cluster)
-        avg_y = sum(c[0][1] for c in best_cluster) / len(best_cluster)
+        avg_x = sum(c['coord'][0] for c in best_cluster) / len(best_cluster)
+        avg_y = sum(c['coord'][1] for c in best_cluster) / len(best_cluster)
         
         # Cast to int to perfectly map to official parsers and avoid float regressions
         int_x, int_y = int(round(avg_x)), int(round(avg_y))
-        rep_action = best_cluster[0][1]
+        rep_action = best_cluster[0]['action']
+        syntax_to_replace = best_cluster[0]['syntax_to_replace']
+        verb = best_cluster[0]['verb']
         
-        # Rigorous integer substitution
-        optimized_action = re.sub(r"click\([\d.]+,\s*[\d.]+\)", f"click({int_x}, {int_y})", rep_action, count=1)
+        optimized_action = rep_action.replace(syntax_to_replace, f"{verb}({int_x}, {int_y})", 1)
         
         print(f"[OmniACT-V2] Selected Cluster 1 (Size: {len(best_cluster)}). Final Action: {optimized_action.strip()}")
         return optimized_action

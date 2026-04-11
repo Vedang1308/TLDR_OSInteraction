@@ -76,11 +76,11 @@ class OmniactAgentSystem:
             
         threshold = 30 # default
         if "2b" in model_name:
-            threshold = 45 # High variance, needs wider net
+            threshold = 30 
         elif "4b" in model_name:
-            threshold = 30 # Moderate precision
+            threshold = 30 
         elif "8b" in model_name:
-            threshold = 15 # High precision, enforcing strict lock
+            threshold = 15 
             
         clusters = [] 
         

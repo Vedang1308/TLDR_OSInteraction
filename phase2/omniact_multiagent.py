@@ -1,6 +1,6 @@
 import os
 import sys
-os.environ["CUDA_VISIBLE_DEVICES"] = "1"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 
 # 🚀 PROJECT PATH RESOLUTION: Add the root directory to sys.path
 # This ensures that 'from phase2...' imports work regardless of where the script is invoked.
@@ -152,7 +152,7 @@ def eval_omniact(model_name, device, model, processor, limit=-1):
     safe_model_name = model_name.replace("/", "_")
     
     # Establish strict Model/Benchmark directory segregation for massive-scale analytics
-    results_dir = os.path.join("results-v2", safe_model_name, "omniact")
+    results_dir = os.path.join("results-final", safe_model_name, "omniact")
     os.makedirs(results_dir, exist_ok=True)
     
     # Strip the generic monolithic vendor prefix to build a hyper-clean output filename string natively
@@ -302,7 +302,7 @@ pyautogui.press("enter")"""
         print(f"   Qwen3 Token: {generated_action.strip()}\n")
 
     print(f"[OmniACT] Launching concurrency pool (4 workers)...")
-    with ThreadPoolExecutor(max_workers=4) as executor:
+    with ThreadPoolExecutor(max_workers=15) as executor:
         futures = [executor.submit(process_task, idx, task_txt_path) for idx, task_txt_path in enumerate(task_files)]
         for future in as_completed(futures):
             try:
