@@ -1,0 +1,5 @@
+Task: View more details about temperature on 12th
+Output Script:
+pyautogui.click(1844.0,808.0)
+pyautogui.moveto("scroll_temperature_details")
+pyautogui.scroll(10)

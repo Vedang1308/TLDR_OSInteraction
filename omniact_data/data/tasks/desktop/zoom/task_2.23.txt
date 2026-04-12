@@ -1,0 +1,3 @@
+Task: Open the participant options.
+Output Script:
+pyautogui.click(802.5,1744.5)

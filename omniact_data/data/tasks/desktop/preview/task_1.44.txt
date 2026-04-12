@@ -1,0 +1,5 @@
+Task: Initiate a new file.
+Output script:
+pyautogui.click(276.0,24.0)
+pyautogui.write("new")
+pyautogui.press("Enter")

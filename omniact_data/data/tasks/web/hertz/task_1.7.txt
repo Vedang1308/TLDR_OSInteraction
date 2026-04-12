@@ -1,0 +1,4 @@
+Task: Redirects to Orlando international airport site
+Output script:
+pyautogui.press("space")
+pyautogui.click(797.5,887.5)

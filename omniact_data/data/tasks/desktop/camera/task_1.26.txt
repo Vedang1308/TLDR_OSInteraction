@@ -1,0 +1,3 @@
+Task: Shrink the image by one level
+Output Script:
+pyautogui.click(95.5,50.0)

@@ -1,0 +1,3 @@
+Task: Initiate the Zoom Program
+Output Script:
+pyautogui.click(1877.0,2026.5)

@@ -1,0 +1,5 @@
+Task: Search Machine Learning Course on the platform
+Output Script:
+pyautogui.click(458.0,72.0)
+pyautogui.write("Machine Learning Course")
+pyautogui.press("enter")

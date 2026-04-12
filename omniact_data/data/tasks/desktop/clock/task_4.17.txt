@@ -1,0 +1,3 @@
+Task: Deactivate the 8am alarm by clicking the toggle button.
+Output Script:
+pyautogui.click(118.0,428.0)

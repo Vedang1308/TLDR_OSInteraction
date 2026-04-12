@@ -1,0 +1,3 @@
+Task: Execute the action to view extra features for "10000 hours" track.
+Output Script:
+pyautogui.click(2665.0,1620.0)

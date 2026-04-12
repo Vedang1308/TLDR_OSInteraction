@@ -1,0 +1,5 @@
+Task: Insert the location "Central Park".
+Output script:
+pyautogui.click(1578.5,576.0)
+pyautogui.write("Central Park")
+pyautogui.press("enter")

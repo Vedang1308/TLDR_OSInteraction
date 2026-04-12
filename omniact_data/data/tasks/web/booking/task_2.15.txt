@@ -1,0 +1,3 @@
+Task: Register for a new profile
+Output Script:
+pyautogui.click(1141.5,36.0)

@@ -1,0 +1,3 @@
+Task: Use the top navigation bar to reach the shop menu
+Output Script:
+pyautogui.click(223.5,40.0)

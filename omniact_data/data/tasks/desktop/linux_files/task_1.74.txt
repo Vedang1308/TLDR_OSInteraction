@@ -1,0 +1,3 @@
+Task: Navigate to the "Starred" section
+Output Script:
+pyautogui.click(167.5,134.5)

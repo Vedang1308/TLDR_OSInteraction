@@ -1,0 +1,4 @@
+Task: Navigate to movie information and return to previous page
+Output Script:
+pyautogui.click(949.5,597.5)
+pyautogui.click(101.5,26.5)

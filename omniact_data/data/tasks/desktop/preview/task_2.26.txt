@@ -1,0 +1,4 @@
+Task: Drag the mouse cursor from the beginning to the end of the page to select all content.
+Output script:
+pyautogui.moveTo(1438.5,230.5)
+pyautogui.dragTo(1439.5,398.0,"left")

@@ -1,0 +1,3 @@
+Task: Proceed to the domestic shipping tariff calculation page
+Output Script:
+pyautogui.click(448.5,245.0)

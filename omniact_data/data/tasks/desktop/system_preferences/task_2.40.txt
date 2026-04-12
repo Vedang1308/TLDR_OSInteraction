@@ -1,0 +1,3 @@
+Task: Navigate to the user"s guide.
+Output Script:
+pyautogui.click(1886.5,1206.5)

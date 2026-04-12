@@ -1,0 +1,3 @@
+Task: Navigate to the email section
+Output Script:
+Pyautogui.click(31.0,999.5)

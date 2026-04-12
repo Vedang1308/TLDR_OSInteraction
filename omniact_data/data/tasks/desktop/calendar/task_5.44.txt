@@ -1,0 +1,5 @@
+Task: Incorporate the guest with the email id "bob@gmail.com".
+Output script:
+pyautogui.click(1609.0,748.0)
+pyautogui.write("bob@gmail.com")
+pyautogui.press("enter")

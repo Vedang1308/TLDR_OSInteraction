@@ -1,0 +1,6 @@
+Task: Conduct a search within a 50-mile radius of Pittsburgh
+Output script:
+pyautogui.click(715.5,388.0)
+pyautogui.press("up")
+pyautogui.press("enter")
+pyautogui.click(927.5,416.0)

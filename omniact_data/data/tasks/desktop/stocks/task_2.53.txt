@@ -1,0 +1,3 @@
+Task: Assess the stock shift over the previous three months.
+Output script:
+pyautogui.click(1381.0,394.0)

@@ -1,0 +1,7 @@
+Task: "Initiate the third record in expanded documents section"
+Output Script:
+pyautogui.click(170.5,48.5)
+pyautogui.press("tab")
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

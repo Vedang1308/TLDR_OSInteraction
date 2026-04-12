@@ -1,0 +1,5 @@
+Task: Magnify the image to three times its current size
+Output Script:
+pyautogui.click(219.0,51.0)
+pyautogui.click(219.0,51.0)
+pyautogui.click(219.0,51.0)

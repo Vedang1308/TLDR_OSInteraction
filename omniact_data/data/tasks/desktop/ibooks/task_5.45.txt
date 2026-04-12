@@ -1,0 +1,3 @@
+Task: Launch the "Merchant of Venice" book by choosing the "Read" button.
+Output Script:
+pyautogui.click(2114.0,1377.5)

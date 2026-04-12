@@ -1,0 +1,3 @@
+Task: Proceed to the Storage settings by clicking on the left side menu.
+Output Script:
+pyautogui.click(203.0,645.0)

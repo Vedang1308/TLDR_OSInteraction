@@ -1,0 +1,3 @@
+Task: Proceed to the flight booking section
+Output Script:
+pyautogui.click(319.5,90.0)

@@ -1,0 +1,5 @@
+Task: Navigate through the "recents" folder items
+Output Script:
+pyautogui.click(168.5,227.0)
+pyautogui.click(168.5,227.0)
+pyautogui.scroll(100)

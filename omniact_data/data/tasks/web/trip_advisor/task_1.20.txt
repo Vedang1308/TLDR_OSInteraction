@@ -1,0 +1,6 @@
+Task: Commence the process of photo sharing.
+Output Script:
+pyautogui.click(766.0,30.0)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

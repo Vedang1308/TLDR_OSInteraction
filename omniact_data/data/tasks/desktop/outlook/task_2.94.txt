@@ -1,0 +1,5 @@
+Task: Replace the current email recipient with "xyz@example.com"
+Output Script:
+pyautogui.click(1328.0,236.0)
+pyautogui.hotkey("ctrl", "a")
+pyautogui.write("xyz@example.com")

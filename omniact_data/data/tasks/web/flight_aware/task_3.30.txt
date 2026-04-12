@@ -1,0 +1,13 @@
+Task: Navigate to the search bar, enter "Route", then specify Pittsburgh as the origin and JFK as the destination.
+search bar
+Output Script:
+pyautogui.click(560.5,63.5)
+pyautogui.write("Route")
+pyautogui.press("enter")
+pyautogui.press("tab")
+pyautogui.write("Pittsburgh")
+pyautogui.press("enter")
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.write("JFK")
+pyautogui.press("enter")

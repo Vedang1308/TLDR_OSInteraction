@@ -1,0 +1,3 @@
+Task: Modify display settings to show the week view.
+Output Script:
+Pyautogui.click(1329.0,70.0)

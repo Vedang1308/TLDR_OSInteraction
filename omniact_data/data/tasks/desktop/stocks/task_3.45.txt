@@ -1,0 +1,5 @@
+Task: Implement automation script to post news on social media.
+Output script:
+pyautogui.click(2828.5,48.0)
+pyautogui.write("Facebook")
+pyautogui.press("enter")

@@ -1,0 +1,4 @@
+Task: Choose the options for no charge cancellation and locations appropriate for family.
+Output script:
+pyautogui.click(1435.5,545.5)
+pyautogui.click(1439.5,702.5)

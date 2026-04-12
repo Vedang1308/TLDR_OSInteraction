@@ -1,0 +1,4 @@
+Task: Halt the stopwatch followed by a restart.
+Output Script:
+pyautogui.click(1847.0,1969.0)
+pyautogui.click(1847.0,1969.0)

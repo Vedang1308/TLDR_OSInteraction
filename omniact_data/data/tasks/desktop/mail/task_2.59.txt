@@ -1,0 +1,5 @@
+Task: Set "mark@gmail.com" as the intended recipient of the correspondence.
+Output script:
+pyautogui.click(2206.0,194.0)
+pyautogui.write("mark@gmail.com")
+pyautogui.press("enter")

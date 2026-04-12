@@ -1,0 +1,4 @@
+Task: Zoom in on the map by using the scroll function.
+Output script:
+pyautogui.moveTo(1702.5,933.5)
+pyautogui.scroll(50)

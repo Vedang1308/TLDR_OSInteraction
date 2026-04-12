@@ -1,0 +1,3 @@
+Task: Access the additional options for the track titled "10000 hours".
+Output Script:
+pyautogui.click(2665.0,1620.0)

@@ -1,0 +1,3 @@
+Task: Choose the "Travel" part of the website.
+Output script:
+pyautogui.click(225.5,1362.0)

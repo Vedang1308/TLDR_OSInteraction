@@ -1,0 +1,6 @@
+Task: "Access and open the second file in the expanded documents panel"
+Output Script:
+pyautogui.click(170.5,48.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

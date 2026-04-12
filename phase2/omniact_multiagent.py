@@ -302,7 +302,7 @@ pyautogui.press("enter")"""
         print(f"   Qwen3 Token: {generated_action.strip()}\n")
 
     print(f"[OmniACT] Launching concurrency pool (4 workers)...")
-    with ThreadPoolExecutor(max_workers=15) as executor:
+    with ThreadPoolExecutor(max_workers=8) as executor:
         futures = [executor.submit(process_task, idx, task_txt_path) for idx, task_txt_path in enumerate(task_files)]
         for future in as_completed(futures):
             try:

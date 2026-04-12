@@ -1,0 +1,7 @@
+Task: Set up a shortcut "Win+M" for enabling/disabling the microphone.
+Output Script:
+pyautogui.moveTo(702.5,1017.0)
+pyautogui.scroll(10)
+pyautogui.click(702.5,1017.0)
+pyautogui.write("Win+M")
+pyautogui.press("enter")

@@ -1,0 +1,4 @@
+Task: Get rid of the last directory from the displayed list using keyboard functions.
+Output Script:
+pyautogui.click(1881.0,469.0)
+pyautogui.press("backspace")

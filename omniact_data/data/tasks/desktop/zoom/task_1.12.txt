@@ -1,0 +1,3 @@
+Task: Open the whiteboard options.
+Output Script:
+pyautogui.click(1810.0,55.0)

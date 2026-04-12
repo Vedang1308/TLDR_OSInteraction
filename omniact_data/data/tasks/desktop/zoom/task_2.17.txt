@@ -1,0 +1,3 @@
+Task: Open the application options.
+Output Script:
+pyautogui.click(2256.5,1752.5)

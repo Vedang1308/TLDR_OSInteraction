@@ -1,0 +1,3 @@
+Task: Access the "Travel" domain.
+Output script:
+pyautogui.click(225.5,1362.0)

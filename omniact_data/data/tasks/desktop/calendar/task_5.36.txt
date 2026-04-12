@@ -1,0 +1,5 @@
+Task: Specify the event as "Meeting".
+Output script:
+pyautogui.click(1839.5,516.0)
+pyautogui.write("Meeting")
+pyautogui.press("enter")

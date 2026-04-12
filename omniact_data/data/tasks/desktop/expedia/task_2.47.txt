@@ -1,0 +1,3 @@
+Task: Select the bundled offer of plane tickets and hotel reservations.
+Output script:
+pyautogui.click(92.0,105.0)

@@ -1,0 +1,3 @@
+Task: Navigate to the second post on the Tasting Table platform.
+Output script:
+pyautogui.click(1390.5,1360.5)

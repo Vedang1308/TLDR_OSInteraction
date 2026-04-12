@@ -1,0 +1,4 @@
+Task: Opt for places allowing free cancellation and are family friendly.
+Output script:
+pyautogui.click(1435.5,545.5)
+pyautogui.click(1439.5,702.5)

@@ -1,0 +1,9 @@
+Task: Go to the "photos" section and select the early five photos.
+Output Script:
+pyautogui.click(1449.0,262.5)
+pyautogui.click(1449.0,262.5)
+pyautogui.press("right")
+pyautogui.hotkey("shift","right")
+pyautogui.hotkey("shift","right")
+pyautogui.hotkey("shift","right")
+pyautogui.hotkey("shift","right")

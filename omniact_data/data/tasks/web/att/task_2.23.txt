@@ -1,0 +1,5 @@
+Task: Opt for the topmost option mentioned in the My-AT&T selection dropdown.
+Output Script:
+pyautogui.click(1324.0,67.0)
+pyautogui.press("tab")
+pyautogui.press("enter")

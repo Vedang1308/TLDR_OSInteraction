@@ -1,0 +1,3 @@
+Task: Check the settings to change default printer.
+Output Script:
+pyautogui.click(888.0,1160.5)

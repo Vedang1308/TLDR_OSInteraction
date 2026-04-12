@@ -1,0 +1,3 @@
+Task: Exhibit your screen content to those in your call.
+Output Script:
+pyautogui.click(1131.0,1091.5)

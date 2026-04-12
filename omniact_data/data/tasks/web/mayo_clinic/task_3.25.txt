@@ -1,0 +1,3 @@
+Task: Review the range of tests on offer at Mayoclinic Labs
+Output Script:
+pyautogui.click(120.5,96.0)

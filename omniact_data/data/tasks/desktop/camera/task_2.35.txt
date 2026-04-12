@@ -1,0 +1,3 @@
+Task: Change capture mode to Burst style.
+Output Script:
+pyautogui.click(260.0,954.0)

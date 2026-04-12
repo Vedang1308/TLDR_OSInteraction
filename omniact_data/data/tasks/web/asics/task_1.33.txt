@@ -1,0 +1,3 @@
+Task: Examine the items that have been added to the shopping trolley so far
+Output Script:
+pyautogui.click(1288.5,116.0)

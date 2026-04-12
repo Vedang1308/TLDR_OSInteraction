@@ -1,0 +1,302 @@
+{
+    "example_0": {
+        "top_left": [
+            203,
+            221
+        ],
+        "bottom_right": [
+            296,
+            235
+        ],
+        "valid": 1,
+        "label": "redirect"
+    },
+    "example_1": {
+        "top_left": [
+            389,
+            139
+        ],
+        "bottom_right": [
+            435,
+            204
+        ],
+        "valid": 1,
+        "label": "MAN_Product_Page"
+    },
+    "example_2": {
+        "top_left": [
+            67,
+            221
+        ],
+        "bottom_right": [
+            131,
+            235
+        ],
+        "valid": 1,
+        "label": "Armoni .com"
+    },
+    "example_3": {
+        "top_left": [
+            533,
+            139
+        ],
+        "bottom_right": [
+            545,
+            204
+        ],
+        "valid": 1,
+        "label": "search icon"
+    },
+    "example_4": {
+        "top_left": [
+            1191,
+            636
+        ],
+        "bottom_right": [
+            1268,
+            662
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_5": {
+        "top_left": [
+            1138,
+            684
+        ],
+        "bottom_right": [
+            1139,
+            686
+        ],
+        "valid": 1,
+        "label": "select_photo"
+    },
+    "example_6": {
+        "top_left": [
+            1060,
+            45
+        ],
+        "bottom_right": [
+            1240,
+            75
+        ],
+        "valid": 1,
+        "label": "mangifying glass icon that corresponds to search bar."
+    },
+    "example_7": {
+        "top_left": [
+            305,
+            139
+        ],
+        "bottom_right": [
+            377,
+            204
+        ],
+        "valid": 1,
+        "label": "Woman"
+    },
+    "example_8": {
+        "top_left": [
+            341,
+            221
+        ],
+        "bottom_right": [
+            429,
+            235
+        ],
+        "valid": 1,
+        "label": "Redirect_Graphic_T-Shirts"
+    },
+    "example_9": {
+        "top_left": [
+            1253,
+            256
+        ],
+        "bottom_right": [
+            1268,
+            271
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_10": {
+        "top_left": [
+            1384,
+            40
+        ],
+        "bottom_right": [
+            1416,
+            80
+        ],
+        "valid": 1,
+        "label": "button to go to the shopping cart page."
+    },
+    "example_11": {
+        "top_left": [
+            447,
+            139
+        ],
+        "bottom_right": [
+            545,
+            204
+        ],
+        "valid": 1,
+        "label": "Redirects to Style Tips"
+    },
+    "example_12": {
+        "top_left": [
+            1030,
+            684
+        ],
+        "bottom_right": [
+            1031,
+            686
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_13": {
+        "top_left": [
+            62,
+            40
+        ],
+        "bottom_right": [
+            159,
+            80
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_14": {
+        "top_left": [
+            851,
+            563
+        ],
+        "bottom_right": [
+            852,
+            564
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_15": {
+        "top_left": [
+            1296,
+            40
+        ],
+        "bottom_right": [
+            1328,
+            80
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_16": {
+        "top_left": [
+            281,
+            139
+        ],
+        "bottom_right": [
+            293,
+            204
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_17": {
+        "top_left": [
+            1252,
+            40
+        ],
+        "bottom_right": [
+            1284,
+            80
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_18": {
+        "top_left": [
+            922,
+            684
+        ],
+        "bottom_right": [
+            923,
+            686
+        ],
+        "valid": 1,
+        "label": "enlarge_image_1"
+    },
+    "example_19": {
+        "top_left": [
+            923,
+            563
+        ],
+        "bottom_right": [
+            924,
+            564
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_20": {
+        "top_left": [
+            852,
+            767
+        ],
+        "bottom_right": [
+            1268,
+            811
+        ],
+        "valid": 1,
+        "label": "add_to_shopping_bag_button"
+    },
+    "example_21": {
+        "top_left": [
+            226,
+            591
+        ],
+        "bottom_right": [
+            233,
+            605
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_22": {
+        "top_left": [
+            1084,
+            684
+        ],
+        "bottom_right": [
+            1085,
+            686
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_23": {
+        "top_left": [
+            365,
+            139
+        ],
+        "bottom_right": [
+            377,
+            204
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_24": {
+        "top_left": [
+            24,
+            221
+        ],
+        "bottom_right": [
+            56,
+            235
+        ],
+        "valid": 1,
+        "label": "redirect_to_home_page"
+    }
+}

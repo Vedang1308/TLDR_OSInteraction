@@ -1,0 +1,3 @@
+Task: To start reading "1811 Dictionary", click the "Read" button
+Output Script:
+pyautogui.click(2117.0,616.5)

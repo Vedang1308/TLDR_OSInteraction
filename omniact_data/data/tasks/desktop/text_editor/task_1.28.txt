@@ -1,0 +1,3 @@
+Task: "Draw attention to misspelled words"
+Output Script:
+pyautogui.click(1768.0,192.5)

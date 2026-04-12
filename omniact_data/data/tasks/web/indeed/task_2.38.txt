@@ -1,0 +1,3 @@
+Task: Navigate to Wage Information tab
+Output Script:
+pyautogui.click(485.0,34.0)

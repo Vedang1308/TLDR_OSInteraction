@@ -1,0 +1,6 @@
+Task: Find out the current temperature in "Paris France"
+Output Script:
+pyautogui.click(3156.0,49.0)
+pyautogui.write("Paris France")
+pyautogui.press("down")
+pyautogui.press("enter")

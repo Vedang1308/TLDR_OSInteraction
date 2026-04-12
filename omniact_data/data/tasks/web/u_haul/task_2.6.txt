@@ -1,0 +1,5 @@
+Task: "Fetch truck rental rates for location A"
+Output Script: 
+pyautogui.click(317.0,576.5)
+pyautogui.write("A")
+pyautogui.click(1185.0,577.0)

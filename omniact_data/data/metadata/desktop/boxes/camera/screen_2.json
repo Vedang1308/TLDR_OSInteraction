@@ -1,0 +1,156 @@
+{
+    "example_0": {
+        "top_left": [
+            1751,
+            32
+        ],
+        "bottom_right": [
+            1787,
+            65
+        ],
+        "label": "close_menu"
+    },
+    "example_1": {
+        "top_left": [
+            1799,
+            34
+        ],
+        "bottom_right": [
+            1835,
+            67
+        ],
+        "label": "minimize_screen"
+    },
+    "example_2": {
+        "top_left": [
+            1838,
+            34
+        ],
+        "bottom_right": [
+            1874,
+            67
+        ],
+        "label": "maximize_screen"
+    },
+    "example_3": {
+        "top_left": [
+            1874,
+            33
+        ],
+        "bottom_right": [
+            1910,
+            66
+        ],
+        "label": "close_screen"
+    },
+    "example_4": {
+        "top_left": [
+            1699,
+            98
+        ],
+        "bottom_right": [
+            1840,
+            122
+        ],
+        "label": "fullscreen"
+    },
+    "example_5": {
+        "top_left": [
+            1698,
+            125
+        ],
+        "bottom_right": [
+            1839,
+            149
+        ],
+        "label": "preferences"
+    },
+    "example_6": {
+        "top_left": [
+            1698,
+            156
+        ],
+        "bottom_right": [
+            1839,
+            180
+        ],
+        "label": "keyboard_shortcuts"
+    },
+    "example_7": {
+        "top_left": [
+            1696,
+            183
+        ],
+        "bottom_right": [
+            1837,
+            207
+        ],
+        "label": "help"
+    },
+    "example_8": {
+        "top_left": [
+            1699,
+            208
+        ],
+        "bottom_right": [
+            1840,
+            232
+        ],
+        "label": "about_cheese"
+    },
+    "example_9": {
+        "top_left": [
+            967,
+            940
+        ],
+        "bottom_right": [
+            1105,
+            967
+        ],
+        "label": "click_photo"
+    },
+    "example_10": {
+        "top_left": [
+            152,
+            937
+        ],
+        "bottom_right": [
+            226,
+            970
+        ],
+        "label": "see_all_videos"
+    },
+    "example_11": {
+        "top_left": [
+            225,
+            938
+        ],
+        "bottom_right": [
+            295,
+            970
+        ],
+        "label": "see_all_bursts"
+    },
+    "example_12": {
+        "top_left": [
+            1813,
+            937
+        ],
+        "bottom_right": [
+            1879,
+            970
+        ],
+        "label": "see_all_effects"
+    },
+    "example_13": {
+        "top_left": [
+            95,
+            1
+        ],
+        "bottom_right": [
+            199,
+            24
+        ],
+        "label": "camera_options"
+    }
+}

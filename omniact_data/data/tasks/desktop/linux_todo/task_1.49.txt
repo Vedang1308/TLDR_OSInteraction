@@ -1,0 +1,5 @@
+Task: Alter the background hue to the second choice in the drop-down list
+Output Script:
+pyautogui.click(1722.0,51.0)
+pyautogui.press("down")
+pyautogui.press("enter")

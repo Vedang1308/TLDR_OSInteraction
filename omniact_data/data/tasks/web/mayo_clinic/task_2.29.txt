@@ -1,0 +1,3 @@
+Task: Without entering any input, revivify the page Drugs and Supplements.
+Output Script:
+pyautogui.click(435.5,148.0)

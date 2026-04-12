@@ -1,0 +1,3 @@
+Task: Correct the article used before "patients"
+Output script:
+pyautogui.click(1331.0,901.5)

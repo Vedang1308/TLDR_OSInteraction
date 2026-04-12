@@ -1,0 +1,4 @@
+Task: Choose the silver steel color and open the third image
+Output Script:
+pyautogui.click(1145.0,806.0)
+pyautogui.click(76.5,761.5)

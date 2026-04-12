@@ -1,0 +1,3 @@
+Task: Opt to continuously keep the display on.
+Output Script:
+pyautogui.click(1858.0,342.5)

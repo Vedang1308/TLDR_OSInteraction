@@ -1,0 +1,3 @@
+Task: Initiate Gaming Interface
+Output Script:
+pyautogui.click(46.5,258.5)

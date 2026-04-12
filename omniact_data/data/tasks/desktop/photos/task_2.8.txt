@@ -1,0 +1,5 @@
+Task: Change the filter to first in the drop down
+Output Script:
+pyautogui.click(341.0,2015.5)
+pyautogui.press("down")
+pyautogui.press("enter")

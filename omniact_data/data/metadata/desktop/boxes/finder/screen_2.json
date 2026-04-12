@@ -1,0 +1,178 @@
+{
+    "example_0": {
+        "top_left": [
+            367,
+            174
+        ],
+        "bottom_right": [
+            401,
+            206
+        ],
+        "label": "expand_backup"
+    },
+    "example_1": {
+        "top_left": [
+            366,
+            214
+        ],
+        "bottom_right": [
+            400,
+            246
+        ],
+        "label": "expand_desktop"
+    },
+    "example_2": {
+        "top_left": [
+            366,
+            254
+        ],
+        "bottom_right": [
+            400,
+            286
+        ],
+        "label": "expand_downloads"
+    },
+    "example_3": {
+        "top_left": [
+            366,
+            293
+        ],
+        "bottom_right": [
+            400,
+            325
+        ],
+        "label": "expand_personal"
+    },
+    "example_4": {
+        "top_left": [
+            365,
+            372
+        ],
+        "bottom_right": [
+            399,
+            404
+        ],
+        "label": "expand_projects"
+    },
+    "example_5": {
+        "top_left": [
+            367,
+            452
+        ],
+        "bottom_right": [
+            401,
+            484
+        ],
+        "label": "expand_work"
+    },
+    "example_6": {
+        "top_left": [
+            442,
+            165
+        ],
+        "bottom_right": [
+            3326,
+            209
+        ],
+        "label": "open_backup"
+    },
+    "example_7": {
+        "top_left": [
+            353,
+            106
+        ],
+        "bottom_right": [
+            2540,
+            158
+        ],
+        "label": "sort_name"
+    },
+    "example_8": {
+        "top_left": [
+            2537,
+            104
+        ],
+        "bottom_right": [
+            2901,
+            161
+        ],
+        "label": "sort_date"
+    },
+    "example_9": {
+        "top_left": [
+            2901,
+            103
+        ],
+        "bottom_right": [
+            3096,
+            161
+        ],
+        "label": "sort_size"
+    },
+    "example_10": {
+        "top_left": [
+            3098,
+            103
+        ],
+        "bottom_right": [
+            3332,
+            158
+        ],
+        "label": "sort_kind"
+    },
+    "example_11": {
+        "top_left": [
+            440,
+            206
+        ],
+        "bottom_right": [
+            3324,
+            250
+        ],
+        "label": "open_desktop"
+    },
+    "example_12": {
+        "top_left": [
+            441,
+            246
+        ],
+        "bottom_right": [
+            3325,
+            290
+        ],
+        "label": "open_downloads"
+    },
+    "example_13": {
+        "top_left": [
+            441,
+            287
+        ],
+        "bottom_right": [
+            3325,
+            331
+        ],
+        "label": "open_personal"
+    },
+    "example_14": {
+        "top_left": [
+            441,
+            367
+        ],
+        "bottom_right": [
+            3325,
+            411
+        ],
+        "label": "open_projects"
+    },
+    "example_15": {
+        "top_left": [
+            439,
+            447
+        ],
+        "bottom_right": [
+            3323,
+            491
+        ],
+        "label": "open_work"
+    }
+}

@@ -1,0 +1,5 @@
+Task: Send the file through the Messages app.
+Output script:
+pyautogui.click(1839.0,101.5)
+pyautogui.write("message")
+pyautogui.press("Enter")

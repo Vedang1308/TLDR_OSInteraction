@@ -1,0 +1,3 @@
+Task: Review the products added to the cart
+Output Script:
+pyautogui.click(1288.5,116.0)

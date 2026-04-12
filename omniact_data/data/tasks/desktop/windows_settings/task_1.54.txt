@@ -1,0 +1,3 @@
+Task: Access settings and restore suggested settings for web browsing
+Output Script:
+pyautogui.click(1612.0,144.0)

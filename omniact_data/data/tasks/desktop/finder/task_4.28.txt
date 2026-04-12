@@ -1,0 +1,4 @@
+Task: Activate the song on screen and proceed to the next music track.
+Output Script:
+pyautogui.click(3228.0,717.0)
+pyautogui.click(3283.5,717.5)

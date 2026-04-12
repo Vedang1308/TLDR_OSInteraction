@@ -1,0 +1,3 @@
+Task: Assess the change in stock value for the previous year.
+Output script:
+pyautogui.click(1964.5,390.0)

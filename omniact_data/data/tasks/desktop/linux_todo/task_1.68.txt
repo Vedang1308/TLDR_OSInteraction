@@ -1,0 +1,7 @@
+Task: Modify the date for "meeting professor" to the following month.
+Output Script:
+pyautogui.click(1272.5,107.0)
+pyautogui.press("right")
+pyautogui.press("right")
+pyautogui.press("right")
+pyautogui.press("enter")

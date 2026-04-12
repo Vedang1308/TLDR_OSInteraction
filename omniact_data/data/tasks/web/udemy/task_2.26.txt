@@ -1,0 +1,2 @@
+Task: Return to the homepage of Udemy
+pyautogui.click(69.0,36.0)

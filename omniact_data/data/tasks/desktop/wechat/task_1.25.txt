@@ -1,0 +1,5 @@
+Task: Type "Hello" in the text area for Jack and hit submit.
+Output Script:
+pyautogui.click(1147.5,961.5)
+pyautogui.write("Hello")
+pyautogui.press("enter")

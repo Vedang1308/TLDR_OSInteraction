@@ -1,0 +1,3 @@
+Task: Access the home page of system preference.
+Output Script:
+pyautogui.click(1008.0,194.5)

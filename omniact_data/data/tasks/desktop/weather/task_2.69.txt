@@ -1,0 +1,3 @@
+Task: Examine Chicago"s weather forecast
+Output Script:
+pyautogui.click(323.0,173.0)

@@ -1,0 +1,3 @@
+Task: View the stock change for the year-to-date.
+Output script:
+pyautogui.click(1771.5,385.5)

@@ -1,0 +1,365 @@
+{
+    "example_0": {
+        "top_left": [
+            20,
+            104
+        ],
+        "bottom_right": [
+            419,
+            158
+        ],
+        "label": "search bar"
+    },
+    "example_1": {
+        "top_left": [
+            19,
+            203
+        ],
+        "bottom_right": [
+            426,
+            266
+        ],
+        "label": "discover"
+    },
+    "example_2": {
+        "top_left": [
+            18,
+            283
+        ],
+        "bottom_right": [
+            425,
+            338
+        ],
+        "label": "Arcade"
+    },
+    "example_3": {
+        "top_left": [
+            19,
+            354
+        ],
+        "bottom_right": [
+            423,
+            406
+        ],
+        "label": "Create"
+    },
+    "example_4": {
+        "top_left": [
+            20,
+            417
+        ],
+        "bottom_right": [
+            421,
+            474
+        ],
+        "label": "Work"
+    },
+    "example_5": {
+        "top_left": [
+            20,
+            490
+        ],
+        "bottom_right": [
+            422,
+            543
+        ],
+        "label": "Play"
+    },
+    "example_6": {
+        "top_left": [
+            20,
+            566
+        ],
+        "bottom_right": [
+            421,
+            621
+        ],
+        "label": "Develop"
+    },
+    "example_7": {
+        "top_left": [
+            20,
+            634
+        ],
+        "bottom_right": [
+            419,
+            689
+        ],
+        "label": "Categories"
+    },
+    "example_8": {
+        "top_left": [
+            20,
+            705
+        ],
+        "bottom_right": [
+            420,
+            766
+        ],
+        "label": "Updates"
+    },
+    "example_9": {
+        "top_left": [
+            512,
+            1402
+        ],
+        "bottom_right": [
+            1110,
+            1523
+        ],
+        "label": "Lies of P"
+    },
+    "example_10": {
+        "top_left": [
+            512,
+            1552
+        ],
+        "bottom_right": [
+            1108,
+            1660
+        ],
+        "label": "DaVinci Resolve"
+    },
+    "example_11": {
+        "top_left": [
+            1113,
+            1405
+        ],
+        "bottom_right": [
+            1255,
+            1522
+        ],
+        "label": "lies of p - 59.99"
+    },
+    "example_12": {
+        "top_left": [
+            1110,
+            1550
+        ],
+        "bottom_right": [
+            1250,
+            1662
+        ],
+        "label": "DaVinci Resolve - get"
+    },
+    "example_13": {
+        "top_left": [
+            512,
+            1695
+        ],
+        "bottom_right": [
+            1103,
+            1788
+        ],
+        "label": "Pixelmator Pro"
+    },
+    "example_14": {
+        "top_left": [
+            1102,
+            1695
+        ],
+        "bottom_right": [
+            1255,
+            1790
+        ],
+        "label": "Pixelmator Pro - 34.99"
+    },
+    "example_15": {
+        "top_left": [
+            1295,
+            1412
+        ],
+        "bottom_right": [
+            1868,
+            1523
+        ],
+        "label": "Mercury Weather"
+    },
+    "example_16": {
+        "top_left": [
+            1868,
+            1413
+        ],
+        "bottom_right": [
+            2045,
+            1525
+        ],
+        "label": "Mercury Weather - get"
+    },
+    "example_17": {
+        "top_left": [
+            1295,
+            1552
+        ],
+        "bottom_right": [
+            1870,
+            1652
+        ],
+        "label": "Observatory"
+    },
+    "example_18": {
+        "top_left": [
+            1872,
+            1550
+        ],
+        "bottom_right": [
+            2047,
+            1653
+        ],
+        "label": "Observatory - 79.99"
+    },
+    "example_19": {
+        "top_left": [
+            1295,
+            1693
+        ],
+        "bottom_right": [
+            1875,
+            1790
+        ],
+        "label": "Things 3"
+    },
+    "example_20": {
+        "top_left": [
+            1875,
+            1693
+        ],
+        "bottom_right": [
+            2047,
+            1788
+        ],
+        "label": "Things 3 - 49.99"
+    },
+    "example_21": {
+        "top_left": [
+            2065,
+            1413
+        ],
+        "bottom_right": [
+            2623,
+            1522
+        ],
+        "label": "Cashculator - personal finance"
+    },
+    "example_22": {
+        "top_left": [
+            2062,
+            1548
+        ],
+        "bottom_right": [
+            2620,
+            1660
+        ],
+        "label": "township"
+    },
+    "example_23": {
+        "top_left": [
+            2637,
+            1547
+        ],
+        "bottom_right": [
+            2808,
+            1663
+        ],
+        "label": "township - get"
+    },
+    "example_24": {
+        "top_left": [
+            2643,
+            1415
+        ],
+        "bottom_right": [
+            2807,
+            1525
+        ],
+        "label": "cashculator - personal finance - get"
+    },
+    "example_25": {
+        "top_left": [
+            2065,
+            1693
+        ],
+        "bottom_right": [
+            2623,
+            1790
+        ],
+        "label": "Spark Mail - AI Email & Inbox"
+    },
+    "example_26": {
+        "top_left": [
+            2637,
+            1695
+        ],
+        "bottom_right": [
+            2808,
+            1795
+        ],
+        "label": "Spark Mail - AI Email & Inbox - get"
+    },
+    "example_27": {
+        "top_left": [
+            2690,
+            1343
+        ],
+        "bottom_right": [
+            2800,
+            1385
+        ],
+        "label": "See All"
+    },
+    "example_28": {
+        "top_left": [
+            520,
+            773
+        ],
+        "bottom_right": [
+            1636,
+            1240
+        ],
+        "label": "Manage money like a pro"
+    },
+    "example_29": {
+        "top_left": [
+            1676,
+            770
+        ],
+        "bottom_right": [
+            2793,
+            1236
+        ],
+        "label": "Aliens Attack in Elex II"
+    },
+    "example_30": {
+        "top_left": [
+            520,
+            1
+        ],
+        "bottom_right": [
+            2806,
+            730
+        ],
+        "label": "Microsoft 365"
+    },
+    "example_31": {
+        "top_left": [
+            2800,
+            1
+        ],
+        "bottom_right": [
+            2880,
+            733
+        ],
+        "label": "move right"
+    },
+    "example_32": {
+        "top_left": [
+            446,
+            3
+        ],
+        "bottom_right": [
+            2880,
+            1800
+        ],
+        "label": "scroll"
+    }
+}

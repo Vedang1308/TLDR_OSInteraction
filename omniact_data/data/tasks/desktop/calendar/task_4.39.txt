@@ -1,0 +1,4 @@
+Task: Increase the visibility of the April month on the calendar.
+Output script:
+pyautogui.click(2478.5,441.0)
+pyautogui.click(2478.5,441.0)

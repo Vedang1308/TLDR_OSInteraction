@@ -1,0 +1,4 @@
+Task: Set the time as 3 hours.
+Output Script:
+pyautogui.click(1389.0,985.0)
+pyautogui.write("03")

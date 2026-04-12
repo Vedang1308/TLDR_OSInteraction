@@ -1,0 +1,3 @@
+Task: Navigate to "Science" category.
+Output script:
+pyautogui.click(224.5,1250.0)

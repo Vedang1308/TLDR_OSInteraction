@@ -1,0 +1,3 @@
+Task: Activate Audible 
+Output Script:
+pyautogui.click(193.0,294.5)

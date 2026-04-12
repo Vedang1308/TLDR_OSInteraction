@@ -1,0 +1,3 @@
+Task: Examine prevailing wage data
+Output Script:
+pyautogui.click(409.0,529.0)

@@ -1,0 +1,3 @@
+Task: Disable the Guided Steps feature
+Output Script:
+pyautogui.click(173.5,306.5)

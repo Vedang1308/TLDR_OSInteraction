@@ -1,0 +1,7 @@
+Task: "Access the third file in the expanded documents panel"
+Output Script:
+pyautogui.click(170.5,48.5)
+pyautogui.press("tab")
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Initiate the Walt Disney stock view.
+Output script:
+pyautogui.click(322.5,1014.5)

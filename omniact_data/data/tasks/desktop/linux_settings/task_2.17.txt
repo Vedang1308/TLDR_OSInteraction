@@ -1,0 +1,3 @@
+Task: Open notification center
+Output Script:
+pyautogui.click(1377.0,186.0)

@@ -1,0 +1,4 @@
+Task: Scroll to see which songs are coming soon
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

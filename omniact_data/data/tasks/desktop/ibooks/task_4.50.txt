@@ -1,0 +1,4 @@
+Task: Check out more choices available under "Heat 2"
+Output Script:
+pyautogui.moveTo(3263.5,1067.0)
+pyautogui.scroll(5)

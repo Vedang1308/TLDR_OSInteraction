@@ -1,0 +1,3 @@
+Task: Explore reviews about corporate entities.
+Output Script:
+pyautogui.click(363.5,34.0)

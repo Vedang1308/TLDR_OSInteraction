@@ -1,0 +1,5 @@
+Task: Insert "Facetime" as an option in the video call function.
+Output script:
+pyautogui.click(1846.5,569.0)
+pyautogui.write("Facetime")
+pyautogui.press("enter")

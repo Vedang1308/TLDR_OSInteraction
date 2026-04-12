@@ -1,0 +1,3 @@
+Task: Initiate the action to retrieve extended datasets from Yahoo Finance.
+Output script:
+pyautogui.click(1014.5,1109.0)

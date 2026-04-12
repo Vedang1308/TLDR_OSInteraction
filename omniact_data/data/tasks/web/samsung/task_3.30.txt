@@ -1,0 +1,3 @@
+Task: Pick the washing machine in brushed navy hue.
+Output Script:
+pyautogui.click(975.5,806.0)

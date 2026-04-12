@@ -1,0 +1,3 @@
+Task: Initiate AI Hub through a click command
+Output Script:
+pyautogui.click(47.0,412.0)

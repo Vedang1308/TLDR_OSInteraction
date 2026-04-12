@@ -1,0 +1,3 @@
+Task: Organize the playlist based on the count of plays
+Output script:
+pyautogui.click(1198.0,425.5)

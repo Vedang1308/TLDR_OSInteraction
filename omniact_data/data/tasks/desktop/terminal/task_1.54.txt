@@ -1,0 +1,3 @@
+Task: Reverse the previous operation using keyboard shortcut
+Output Script:
+pyautogui.hotkey("ctrl", "z")

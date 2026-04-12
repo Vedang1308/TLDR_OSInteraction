@@ -1,0 +1,5 @@
+Task: View color in aquamarine, choose Medium size, move to following images.
+Output Script: 
+pyautogui.click(1039.0,386.0)
+pyautogui.click(1082.5,477.5)
+pyautogui.click(846.0,516.0)

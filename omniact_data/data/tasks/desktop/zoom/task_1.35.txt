@@ -1,0 +1,5 @@
+Task: Input "John Doe" into the top left search field and hit enter.
+Output Script:
+pyautogui.click(166.0,51.0)
+pyautogui.write("John Doe")
+pyautogui.press("enter")

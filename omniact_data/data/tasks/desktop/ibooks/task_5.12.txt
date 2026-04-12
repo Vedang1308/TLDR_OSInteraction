@@ -1,0 +1,3 @@
+Task: Click on the "Read" button for the book "Pocket Dictionary" to start reading it
+Output Script:
+pyautogui.click(2592.0,1376.5)

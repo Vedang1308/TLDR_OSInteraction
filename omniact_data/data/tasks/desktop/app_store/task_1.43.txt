@@ -1,0 +1,3 @@
+Task: Access the "Develop" function through a click.
+Output script:
+pyautogui.click(220.5,593.5)

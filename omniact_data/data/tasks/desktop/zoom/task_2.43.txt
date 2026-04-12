@@ -1,0 +1,3 @@
+Task: Access the emoticon options.
+Output Script:
+pyautogui.click(2085.0,1734.5)

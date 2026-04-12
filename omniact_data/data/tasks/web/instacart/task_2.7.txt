@@ -1,0 +1,3 @@
+Task: Go to the produce categroy page
+Output Script:
+pyautogui.click(157.0,230.0)

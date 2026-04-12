@@ -1,0 +1,5 @@
+Task: Modify the job destination to New York
+Output Script:
+pyautogui.click(862.5,160.0)
+pyautogui.write("New York")
+pyautogui.click(1098.0,160.0)

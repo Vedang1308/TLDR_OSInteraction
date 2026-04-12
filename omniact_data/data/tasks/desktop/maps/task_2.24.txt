@@ -1,0 +1,3 @@
+Task: Give a positive rating to the location.
+Output script:
+pyautogui.click(1578.5,670.0)

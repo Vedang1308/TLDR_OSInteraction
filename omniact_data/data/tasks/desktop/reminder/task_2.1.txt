@@ -1,0 +1,5 @@
+Task: Add event name as "class recitation".
+Output script:
+pyautogui.click(1735.0,989.5)
+pyautogui.write("class recitation")
+pyautogui.press("Enter")

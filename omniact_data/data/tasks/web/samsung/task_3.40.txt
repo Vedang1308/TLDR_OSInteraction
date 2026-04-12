@@ -1,0 +1,4 @@
+Task: Pick the emerald green color and click on the first image
+Output Script:
+pyautogui.click(1145.0,806.0)
+pyautogui.click(76.5,761.5)

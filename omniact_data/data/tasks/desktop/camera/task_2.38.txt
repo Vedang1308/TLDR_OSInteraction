@@ -1,0 +1,4 @@
+Task: Bring up the Cheese-related data
+Output Script:
+pyautogui.click(1892.0,49.5)
+pyautogui.click(1769.5,220.0)

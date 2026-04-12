@@ -1,0 +1,3 @@
+Task: Navigate to Menu Window
+Output Script:
+pyautogui.click(1292.0,32.0)

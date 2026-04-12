@@ -1,0 +1,5 @@
+Task: Start a call by clicking on the menu located at the top right corner. 
+Output script:
+pyautogui.click(1970.5,342.5)
+pyautogui.write("call")
+pyautogui.press("enter")

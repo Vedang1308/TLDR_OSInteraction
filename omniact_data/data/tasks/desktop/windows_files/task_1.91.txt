@@ -1,0 +1,3 @@
+Task: Click on the "more_layouts" option
+Output Script:
+pyautogui.click(648.5,125.5)

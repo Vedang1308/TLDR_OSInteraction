@@ -1,0 +1,3 @@
+Task: Initiate the action to organize a trip at a later time.
+Output script:
+pyautogui.click(2696.0,376.5)

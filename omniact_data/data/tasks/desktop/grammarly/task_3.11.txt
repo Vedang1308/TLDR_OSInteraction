@@ -1,0 +1,4 @@
+Task: Scroll down to view more notes
+Output script:
+pyautogui.click(1135.5,589.0)
+pyautogui.scroll(30)

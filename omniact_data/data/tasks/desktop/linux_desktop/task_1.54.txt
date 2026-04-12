@@ -1,0 +1,3 @@
+Task: Start Help platform
+Output Script:
+pyautogui.click(37.0,472.5)

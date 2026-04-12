@@ -1,0 +1,4 @@
+Task: Opt to utilize an alternative return address and choose to receive shipment updates on the provided email
+Output Script:
+pyautogui.click(996.5,813.5)
+pyautogui.click(366.5,724.5)

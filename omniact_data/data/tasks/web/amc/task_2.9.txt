@@ -1,0 +1,4 @@
+Task: Type in the new date, "Sun, Oct 22", into the calendar
+Output Script:
+pyautogui.click(543.5,78.5)
+pyautogui.write("Sun, Oct 22")

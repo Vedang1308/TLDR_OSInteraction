@@ -1,0 +1,211 @@
+{
+    "example_0": {
+        "top_left": [
+            490,
+            131
+        ],
+        "bottom_right": [
+            1879,
+            443
+        ],
+        "label": "sponsered_el_jefe"
+    },
+    "example_1": {
+        "top_left": [
+            1554,
+            70
+        ],
+        "bottom_right": [
+            1731,
+            110
+        ],
+        "label": "explore_premium"
+    },
+    "example_2": {
+        "top_left": [
+            1745,
+            72
+        ],
+        "bottom_right": [
+            1778,
+            108
+        ],
+        "label": "notification"
+    },
+    "example_3": {
+        "top_left": [
+            1787,
+            69
+        ],
+        "bottom_right": [
+            1832,
+            111
+        ],
+        "label": "friends"
+    },
+    "example_4": {
+        "top_left": [
+            1843,
+            70
+        ],
+        "bottom_right": [
+            1881,
+            113
+        ],
+        "label": "my_account"
+    },
+    "example_5": {
+        "top_left": [
+            79,
+            129
+        ],
+        "bottom_right": [
+            437,
+            178
+        ],
+        "label": "search"
+    },
+    "example_6": {
+        "top_left": [
+            386,
+            205
+        ],
+        "bottom_right": [
+            439,
+            260
+        ],
+        "label": "goto_my_library"
+    },
+    "example_7": {
+        "top_left": [
+            332,
+            200
+        ],
+        "bottom_right": [
+            386,
+            263
+        ],
+        "label": "add_to_my_library"
+    },
+    "example_8": {
+        "top_left": [
+            319,
+            329
+        ],
+        "bottom_right": [
+            434,
+            373
+        ],
+        "label": "close_recents"
+    },
+    "example_9": {
+        "top_left": [
+            8,
+            384
+        ],
+        "bottom_right": [
+            449,
+            460
+        ],
+        "label": "open_playlist"
+    },
+    "example_10": {
+        "top_left": [
+            1798,
+            469
+        ],
+        "bottom_right": [
+            1893,
+            505
+        ],
+        "label": "show_all_audiobooks"
+    },
+    "example_11": {
+        "top_left": [
+            489,
+            532
+        ],
+        "bottom_right": [
+            745,
+            899
+        ],
+        "label": "audiobook_silent_patient"
+    },
+    "example_12": {
+        "top_left": [
+            770,
+            532
+        ],
+        "bottom_right": [
+            1026,
+            899
+        ],
+        "label": "audiobook_atomic_habits"
+    },
+    "example_13": {
+        "top_left": [
+            1060,
+            533
+        ],
+        "bottom_right": [
+            1316,
+            900
+        ],
+        "label": "audiobook_good_omens"
+    },
+    "example_14": {
+        "top_left": [
+            1349,
+            534
+        ],
+        "bottom_right": [
+            1605,
+            901
+        ],
+        "label": "audiobook_dutch_house"
+    },
+    "example_15": {
+        "top_left": [
+            1628,
+            534
+        ],
+        "bottom_right": [
+            1884,
+            901
+        ],
+        "label": "audiobook_spare"
+    },
+    "example_16": {
+        "top_left": [
+            1784,
+            966
+        ],
+        "bottom_right": [
+            1799,
+            982
+        ],
+        "label": "volume_low"
+    },
+    "example_17": {
+        "top_left": [
+            492,
+            69
+        ],
+        "bottom_right": [
+            532,
+            113
+        ],
+        "label": "navigate_back"
+    },
+    "example_18": {
+        "top_left": [
+            464,
+            53
+        ],
+        "bottom_right": [
+            1913,
+            922
+        ],
+        "label": "scroll_music"
+    }
+}

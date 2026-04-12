@@ -1,0 +1,3 @@
+Task: Bring in the necessary document
+Output script:
+pyautogui.click(511.0,404.5)

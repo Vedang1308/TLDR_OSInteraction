@@ -1,0 +1,3 @@
+Task: Check the terms of use by clicking on a button in the lower panel under the legal section
+Output Script:
+pyautogui.click(512.5,709.0)

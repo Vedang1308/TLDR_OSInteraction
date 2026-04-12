@@ -1,0 +1,3 @@
+Task: Inspect the current Offers in the Flash Deals.
+Output Script:
+pyautogui.click(897.0,728.5)

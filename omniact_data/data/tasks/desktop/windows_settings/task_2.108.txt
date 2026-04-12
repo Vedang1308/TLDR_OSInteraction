@@ -1,0 +1,3 @@
+Task: Select the "Find a Setting" function
+Output Script:
+pyautogui.click(199.5,150.5)

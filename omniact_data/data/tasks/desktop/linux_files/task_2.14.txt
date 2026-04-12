@@ -1,0 +1,3 @@
+Task: Remove the sidebar using keyboard and mouse
+Output Script:
+pyautogui.click(1768.0,289.5)

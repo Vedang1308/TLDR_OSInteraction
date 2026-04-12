@@ -1,0 +1,3 @@
+Task: See the weather report in New Delhi
+Output Script:
+pyautogui.click(319.5,297.0)

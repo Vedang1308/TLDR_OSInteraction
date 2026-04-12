@@ -1,0 +1,3 @@
+Task: Access Sports Selection Menu
+Output Script:
+pyautogui.click(304.5,94.5)

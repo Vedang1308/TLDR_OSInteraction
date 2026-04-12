@@ -1,0 +1,3 @@
+Task: Switch off the option to dim batter while on battery power.
+Output Script:
+pyautogui.click(1294.5,460.0)

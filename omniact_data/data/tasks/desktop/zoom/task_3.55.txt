@@ -1,0 +1,3 @@
+Task: Start the whiteboard app
+Output Script:
+pyautogui.click(1805.0,55.0)

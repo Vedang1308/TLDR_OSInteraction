@@ -1,0 +1,3 @@
+Task: Look at the settings for folders.
+Output Script:
+pyautogui.click(882.5,757.0)

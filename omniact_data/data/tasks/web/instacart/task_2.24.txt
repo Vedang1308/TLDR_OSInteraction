@@ -1,0 +1,3 @@
+Task: Enter into my user interface
+Output Script:
+pyautogui.click(1363.0,27.5)

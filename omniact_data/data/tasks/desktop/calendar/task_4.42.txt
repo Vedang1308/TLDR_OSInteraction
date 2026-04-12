@@ -1,0 +1,3 @@
+Task: Navigate to the February section of the calendar to check scheduled tasks.
+Output script:
+pyautogui.click(1085.5,449.5)

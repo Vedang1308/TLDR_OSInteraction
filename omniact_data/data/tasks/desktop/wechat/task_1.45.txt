@@ -1,0 +1,3 @@
+Task: Secure the conversation with Jack at top
+Output Script:
+pyautogui.click(1776.5,16.5)

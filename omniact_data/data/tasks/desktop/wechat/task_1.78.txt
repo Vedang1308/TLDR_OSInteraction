@@ -1,0 +1,3 @@
+Task: Click on the option to transfer a document to Jack
+Output Script:
+pyautogui.click(468.0,875.5)

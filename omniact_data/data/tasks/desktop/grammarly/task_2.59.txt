@@ -1,0 +1,3 @@
+Task: Display the full score information
+Output script:
+pyautogui.click(1780.0,160.0)

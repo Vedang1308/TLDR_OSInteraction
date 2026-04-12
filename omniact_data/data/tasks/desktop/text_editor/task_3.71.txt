@@ -1,0 +1,3 @@
+Task: "End the untitled file tab via orange dashboard"
+Output Script:
+pyautogui.click(259.0,126.5)

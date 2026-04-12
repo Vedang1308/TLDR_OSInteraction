@@ -1,0 +1,3 @@
+Task: Review the available charger color options.
+Output Script:
+pyautogui.click(1173.0,696.0)

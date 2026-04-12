@@ -1,0 +1,3 @@
+Task: Decrease Volume
+Output Script:
+pyautogui.click(1662.0,74.0)

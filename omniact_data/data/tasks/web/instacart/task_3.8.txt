@@ -1,0 +1,3 @@
+Task: Take me to the login page
+Output Script:
+pyautogui.click(1291.5,40.0)

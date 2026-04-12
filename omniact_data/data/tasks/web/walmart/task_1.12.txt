@@ -1,0 +1,5 @@
+Task: Find study tables 
+Output Script:
+pyautogui.click(1050.0,44.0)
+pyautogui.write("study table")
+pyautogui.press("enter")

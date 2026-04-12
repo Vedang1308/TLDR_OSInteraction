@@ -1,0 +1,6 @@
+Task: Navigate to the "expand_Brand" menu and pick the top option.
+Output Script:
+pyautogui.click(154.5,560.5)
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")

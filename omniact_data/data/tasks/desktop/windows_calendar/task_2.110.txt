@@ -1,0 +1,3 @@
+Task: Open the daily agenda 
+Output Script:
+Pyautogui.click(1221.5,71.0)

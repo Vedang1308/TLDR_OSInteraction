@@ -1,0 +1,3 @@
+Task: Click on the iPhone 15 news.
+Output script:
+pyautogui.click(2435.5,1328.5)

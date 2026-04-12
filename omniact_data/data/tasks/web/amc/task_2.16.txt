@@ -1,0 +1,4 @@
+Task: Find Critics Score
+Output Script:
+pyautogui.hotkey("ctrl", "f")
+pyautogui.write("Critics Score")

@@ -1,0 +1,3 @@
+Task: Terminate the session in the editor
+Output script:
+pyautogui.click(194.0,1007.5)

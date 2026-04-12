@@ -1,0 +1,3 @@
+Task: Analyze the movement of stocks for the past quarter.
+Output script:
+pyautogui.click(1381.0,394.0)

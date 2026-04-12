@@ -1,0 +1,3 @@
+Task: Check for the flight, hotel and car combined package
+Output script:
+pyautogui.click(622.0,107.5)

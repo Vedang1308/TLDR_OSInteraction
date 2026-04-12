@@ -1,0 +1,5 @@
+Task: Verify the status of the most recent order
+Output Script:
+pyautogui.click(1226.0,131.0)
+pyautogui.press("tab")
+pyautogui.press("enter")

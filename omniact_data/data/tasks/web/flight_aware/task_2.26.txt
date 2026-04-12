@@ -1,0 +1,3 @@
+Task: Enroll for FlightAware by signing up for an account
+Output Script:
+pyautogui.click(1324.0,62.0)

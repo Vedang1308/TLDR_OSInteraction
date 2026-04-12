@@ -1,0 +1,3 @@
+Task: Use Grammarly"s suggested correction for proper subject-verb correlation
+Output script:
+pyautogui.click(1330.0,630.5)

@@ -1,0 +1,3 @@
+Task: End all running files with mouse and keyboard
+Output Script:
+pyautogui.click(35.5,199.5)

@@ -1,0 +1,5 @@
+Task: Search for the "IBM" stock in the bar on top left.
+Output script:
+pyautogui.click(329.5,149.5)
+pyautogui.write("IBM")
+pyautogui.press("enter")

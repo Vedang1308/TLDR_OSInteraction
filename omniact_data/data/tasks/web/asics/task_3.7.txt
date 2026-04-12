@@ -1,0 +1,6 @@
+Task:  see aquamarine color and select size M and see next pictures, but couldn"t find anything interesting so close the window
+Output Script:
+pyautogui.click(1039.0,386.0)
+pyautogui.click(1082.5,477.5)
+pyautogui.click(846.0,516.0)
+pyautogui.hotkey("ctrl", "w")

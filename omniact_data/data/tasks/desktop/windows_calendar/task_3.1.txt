@@ -1,0 +1,7 @@
+Task: Create an event called "listen to music "with music emoji
+Output Script:
+Pyautogui.click(175.0,277.0)
+Pyautogui.press("Tab")
+Pyautogui.press("Enter")
+Pyautogui.click(691.5,277.0)
+Pyautogui.write("listen to music ")

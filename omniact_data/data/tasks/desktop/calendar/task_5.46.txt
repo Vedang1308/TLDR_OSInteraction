@@ -1,0 +1,5 @@
+Task: Insert the notice "Please bring your laptops for the presentation".
+Output script:
+pyautogui.click(1609.0,813.5)
+pyautogui.write("Please bring your laptops for the presentation")
+pyautogui.press("enter")

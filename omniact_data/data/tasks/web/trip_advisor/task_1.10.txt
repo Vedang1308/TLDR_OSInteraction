@@ -1,0 +1,5 @@
+Task: Input the word "Paris" into the search box and initiate the search.
+Output Script:
+pyautogui.click(540.0,228.0)
+pyautogui.write("Paris")
+pyautogui.click(1062.0,297.0)

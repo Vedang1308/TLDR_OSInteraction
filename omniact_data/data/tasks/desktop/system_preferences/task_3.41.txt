@@ -1,0 +1,5 @@
+Task: Use the search tool to find "power adapter".
+Output Script:
+pyautogui.click(1783.5,193.0)
+pyautogui.write("power adapter")
+pyautogui.press("enter")

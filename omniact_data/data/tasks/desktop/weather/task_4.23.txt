@@ -1,0 +1,3 @@
+Task: Provide a detailed explanation about "feels like" temperature
+Output Script:
+pyautogui.doubleClick(1843.5,1608.0)

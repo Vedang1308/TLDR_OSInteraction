@@ -1,0 +1,86 @@
+{
+    "example_0": {
+        "top_left": [
+            339,
+            124
+        ],
+        "bottom_right": [
+            399,
+            164
+        ],
+        "valid": 1,
+        "label": "redirect_to_Story"
+    },
+    "example_1": {
+        "top_left": [
+            911,
+            124
+        ],
+        "bottom_right": [
+            1064,
+            164
+        ],
+        "valid": 1,
+        "label": "redirect_collections Archive"
+    },
+    "example_2": {
+        "top_left": [
+            1378,
+            65
+        ],
+        "bottom_right": [
+            1393,
+            82
+        ],
+        "valid": 1,
+        "label": "Redirect_cart Link"
+    },
+    "example_3": {
+        "top_left": [
+            734,
+            124
+        ],
+        "bottom_right": [
+            881,
+            164
+        ],
+        "valid": 1,
+        "label": "redirect_to_autumn_collection_page"
+    },
+    "example_4": {
+        "top_left": [
+            79,
+            169
+        ],
+        "bottom_right": [
+            132,
+            182
+        ],
+        "valid": 1,
+        "label": "redirect_chocolate"
+    },
+    "example_5": {
+        "top_left": [
+            20,
+            169
+        ],
+        "bottom_right": [
+            52,
+            182
+        ],
+        "valid": 1,
+        "label": "homepage_redirect"
+    },
+    "example_6": {
+        "top_left": [
+            0,
+            40
+        ],
+        "bottom_right": [
+            290,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_armani/dolci"
+    }
+}

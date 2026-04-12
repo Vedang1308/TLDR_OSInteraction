@@ -1,0 +1,4 @@
+Task: Choose the "select hotel pickup" and "more than 100" options for selection. 
+Output script:
+pyautogui.click(1441.5,809.5)
+pyautogui.click(1440.0,1152.0)

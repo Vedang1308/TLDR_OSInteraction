@@ -1,0 +1,3 @@
+Task: Visit my own library
+Output script:
+pyautogui.click(412.5,232.5)

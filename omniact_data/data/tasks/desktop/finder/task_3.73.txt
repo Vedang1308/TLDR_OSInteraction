@@ -1,0 +1,3 @@
+Task: Click on the View Options menu
+Output Script:
+pyautogui.click(419.0,24.5)

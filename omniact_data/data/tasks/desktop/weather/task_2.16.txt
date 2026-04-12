@@ -1,0 +1,3 @@
+Task: Select New Delhi to view its map
+Output Script:
+pyautogui.click(319.5,297.0)

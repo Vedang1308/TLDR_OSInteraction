@@ -1,0 +1,5 @@
+Task: Set "my house" as the location for the event.
+Output script:
+pyautogui.click(962.5,1110.5)
+pyautogui.write("my house")
+pyautogui.press("Enter")

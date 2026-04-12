@@ -1,0 +1,3 @@
+Task: "Exit the code_algo document from the orange control panel"
+Output Script:
+pyautogui.click(258.0,92.5)

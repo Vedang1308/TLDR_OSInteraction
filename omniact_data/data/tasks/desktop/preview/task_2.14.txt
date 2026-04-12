@@ -1,0 +1,3 @@
+Task: Choose the sketch tool from the screen display. 
+Output script:
+pyautogui.click(260.0,183.0)

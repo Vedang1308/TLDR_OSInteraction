@@ -1,0 +1,3 @@
+Task: Add the event for tomorrow.
+Output script:
+pyautogui.click(612.0,828.5)

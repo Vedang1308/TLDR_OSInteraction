@@ -1,0 +1,3 @@
+Task: Display the calendar using the day format.
+Output script:
+pyautogui.click(1243.5,35.5)

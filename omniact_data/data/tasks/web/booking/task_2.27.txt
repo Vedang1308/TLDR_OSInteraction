@@ -1,0 +1,3 @@
+Task: Navigate to the airplane icon to search for flights
+Output Script:
+pyautogui.click(319.5,90.0)

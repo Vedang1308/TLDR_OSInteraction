@@ -1,0 +1,3 @@
+Task: Highlight selected text.
+Output script:
+pyautogui.click(1949.0,99.0)

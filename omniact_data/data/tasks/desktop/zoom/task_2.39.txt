@@ -1,0 +1,3 @@
+Task: Activate the video by hitting the icon at the lower-left corner.
+Output Script:
+pyautogui.click(268.5,1747.5)

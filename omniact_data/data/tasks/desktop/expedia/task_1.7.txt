@@ -1,0 +1,5 @@
+Task: Search for a Paris destination.
+Output script:
+pyautogui.click(1049.5,1761.0)
+pyautogui.typewrite("Paris")
+pyautogui.press("enter")

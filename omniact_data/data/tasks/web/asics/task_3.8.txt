@@ -1,0 +1,3 @@
+Task: return to the previous page where it list all the products
+Output Script: 
+pyautogui.click(343.5,217.5)

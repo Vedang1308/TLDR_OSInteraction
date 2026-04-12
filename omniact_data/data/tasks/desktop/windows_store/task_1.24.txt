@@ -1,0 +1,3 @@
+Task: Open AI Hub
+Output Script:
+pyautogui.click(47.0,412.0)

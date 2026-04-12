@@ -1,0 +1,3 @@
+Task: Move towards United Club"s Website
+Output script:
+pyautogui.click(838.0,886.0)

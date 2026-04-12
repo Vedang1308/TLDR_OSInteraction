@@ -1,0 +1,3 @@
+Task: "Open document options"
+Output Script:
+pyautogui.click(363.0,49.0)

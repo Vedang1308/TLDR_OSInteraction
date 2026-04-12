@@ -1,0 +1,3 @@
+Task: Implement the shutting down of the current interface by clicking the "close_window" option
+Output Script:
+pyautogui.click(1887.5,17.5)

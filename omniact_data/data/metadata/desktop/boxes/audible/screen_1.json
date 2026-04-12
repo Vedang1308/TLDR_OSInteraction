@@ -1,0 +1,277 @@
+{
+    "example_0": {
+        "top_left": [
+            591,
+            230
+        ],
+        "bottom_right": [
+            676,
+            260
+        ],
+        "label": "finished_titles"
+    },
+    "example_1": {
+        "top_left": [
+            689,
+            230
+        ],
+        "bottom_right": [
+            789,
+            259
+        ],
+        "label": "finished_titles"
+    },
+    "example_2": {
+        "top_left": [
+            552,
+            154
+        ],
+        "bottom_right": [
+            664,
+            199
+        ],
+        "label": "audiobooks_tab"
+    },
+    "example_3": {
+        "top_left": [
+            664,
+            154
+        ],
+        "bottom_right": [
+            770,
+            199
+        ],
+        "label": "podcasts_tab"
+    },
+    "example_4": {
+        "top_left": [
+            770,
+            153
+        ],
+        "bottom_right": [
+            862,
+            200
+        ],
+        "label": "wishlist_tab"
+    },
+    "example_5": {
+        "top_left": [
+            862,
+            151
+        ],
+        "bottom_right": [
+            977,
+            201
+        ],
+        "label": "collections_tab"
+    },
+    "example_6": {
+        "top_left": [
+            977,
+            150
+        ],
+        "bottom_right": [
+            1070,
+            202
+        ],
+        "label": "authors_tab"
+    },
+    "example_7": {
+        "top_left": [
+            1265,
+            81
+        ],
+        "bottom_right": [
+            1465,
+            120
+        ],
+        "label": "search_library"
+    },
+    "example_8": {
+        "top_left": [
+            95,
+            3
+        ],
+        "bottom_right": [
+            211,
+            26
+        ],
+        "label": "audible_library"
+    },
+    "example_9": {
+        "top_left": [
+            1813,
+            27
+        ],
+        "bottom_right": [
+            1850,
+            66
+        ],
+        "label": "minimize_window"
+    },
+    "example_10": {
+        "top_left": [
+            1851,
+            27
+        ],
+        "bottom_right": [
+            1883,
+            66
+        ],
+        "label": "maximize_window"
+    },
+    "example_11": {
+        "top_left": [
+            1885,
+            27
+        ],
+        "bottom_right": [
+            1917,
+            66
+        ],
+        "label": "close_window"
+    },
+    "example_12": {
+        "top_left": [
+            4,
+            373
+        ],
+        "bottom_right": [
+            70,
+            430
+        ],
+        "label": "ubuntu_store"
+    },
+    "example_13": {
+        "top_left": [
+            668,
+            526
+        ],
+        "bottom_right": [
+            798,
+            559
+        ],
+        "label": "add_to_favorites_sweet_spot"
+    },
+    "example_14": {
+        "top_left": [
+            670,
+            812
+        ],
+        "bottom_right": [
+            800,
+            845
+        ],
+        "label": "add_to_favorites_ants_of_bimbleby"
+    },
+    "example_15": {
+        "top_left": [
+            798,
+            525
+        ],
+        "bottom_right": [
+            889,
+            560
+        ],
+        "label": "add_to_list_sweet_spot"
+    },
+    "example_16": {
+        "top_left": [
+            799,
+            813
+        ],
+        "bottom_right": [
+            890,
+            848
+        ],
+        "label": "add_to_list_ants_of_bimbleby"
+    },
+    "example_17": {
+        "top_left": [
+            890,
+            526
+        ],
+        "bottom_right": [
+            1031,
+            559
+        ],
+        "label": "mark_finished_sweet_spot"
+    },
+    "example_18": {
+        "top_left": [
+            889,
+            814
+        ],
+        "bottom_right": [
+            1031,
+            848
+        ],
+        "label": "mark_complete_ants_of_bimbleby"
+    },
+    "example_19": {
+        "top_left": [
+            1389,
+            230
+        ],
+        "bottom_right": [
+            1495,
+            254
+        ],
+        "label": "sort_by_tab"
+    },
+    "example_20": {
+        "top_left": [
+            1365,
+            365
+        ],
+        "bottom_right": [
+            1508,
+            394
+        ],
+        "label": "listen_now_sweet_spot"
+    },
+    "example_21": {
+        "top_left": [
+            1365,
+            651
+        ],
+        "bottom_right": [
+            1508,
+            680
+        ],
+        "label": "listen_now_ants_of_bimbleby"
+    },
+    "example_22": {
+        "top_left": [
+            1367,
+            935
+        ],
+        "bottom_right": [
+            1510,
+            964
+        ],
+        "label": "listen_now_three_steps"
+    },
+    "example_23": {
+        "top_left": [
+            2,
+            1017
+        ],
+        "bottom_right": [
+            70,
+            1079
+        ],
+        "label": "open_all_applications"
+    },
+    "example_24": {
+        "top_left": [
+            71,
+            65
+        ],
+        "bottom_right": [
+            1919,
+            1080
+        ],
+        "label": "scroll_books_list"
+    }
+}

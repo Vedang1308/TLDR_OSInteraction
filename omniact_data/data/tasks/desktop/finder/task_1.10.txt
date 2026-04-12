@@ -1,0 +1,4 @@
+Task: Open the "documents" folder and select all files
+Output Script:
+pyautogui.click(166.5,390.0)
+pyautogui.hotkey("ctrl", "a")

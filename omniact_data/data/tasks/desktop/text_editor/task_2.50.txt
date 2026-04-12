@@ -1,0 +1,7 @@
+Task: "Alter the text by replacing "apple" with "orange" throughout the document"
+Output Script:
+pyautogui.click(1027.0,490.0)
+pyautogui.write("apple")
+pyautogui.click(1027.5,535.0)
+pyautogui.write("orange")
+pyautogui.click(923.5,662.0)

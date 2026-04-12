@@ -1,0 +1,3 @@
+Task: Disable the sound using the mute button
+Output Script:
+pyautogui.click(1888.0,1051.5)

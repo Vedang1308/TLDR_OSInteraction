@@ -1,0 +1,3 @@
+Task: Navigate to the schedule options.
+Output Script:
+pyautogui.click(787.0,930.0)

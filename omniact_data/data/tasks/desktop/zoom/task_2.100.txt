@@ -1,0 +1,3 @@
+Task: Access the participant settings.
+Output Script:
+pyautogui.click(802.5,1744.5)

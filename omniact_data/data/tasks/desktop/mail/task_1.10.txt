@@ -1,0 +1,3 @@
+Task: Archive the selected messages.
+Output script:
+pyautogui.click(1664.5,52.5)

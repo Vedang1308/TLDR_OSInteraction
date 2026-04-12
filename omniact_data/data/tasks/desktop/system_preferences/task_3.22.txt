@@ -1,0 +1,3 @@
+Task: Deactivate the setting that dims the screen when on battery power.
+Output Script:
+pyautogui.click(1294.5,460.0)

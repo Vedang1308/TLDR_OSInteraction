@@ -1,0 +1,5 @@
+Task: Generate a clone of the existing file manual.txt in the same directory via mouse click and keyboard control commands.
+Output Script:
+pyautogui.click(1069.0,571.5)
+pyautogui.hotkey("ctrl", "c")
+pyautogui.hotkey("ctrl", "v")

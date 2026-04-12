@@ -1,0 +1,4 @@
+Task: Include the audiobook "Silent Patient" in your digital collection
+Output script:
+pyautogui.click(617.0,715.5)
+pyautogui.click(359.0,231.5)

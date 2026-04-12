@@ -1,0 +1,3 @@
+Task: Shut down the friend activity window
+Output script:
+pyautogui.click(1872.0,88.5)

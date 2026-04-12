@@ -1,0 +1,3 @@
+Task: Click the "System" button 
+Output Script:
+pyautogui.click(285.5,429.5)

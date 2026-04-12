@@ -1,0 +1,5 @@
+Task: Include the individual having the email "alice@gmail.com" to the list of invitees.
+Output script:
+pyautogui.click(1609.0,748.0)
+pyautogui.write("Meeting with Alex")
+pyautogui.press("enter")

@@ -1,0 +1,7 @@
+Task: Verify if the top listed television is deliverable to the postal code 15217.
+Output Script:
+pyautogui.click(858.5,807.0)
+pyautogui.press("tab")
+pyautogui.press("enter")
+pyautogui.write("15217")
+pyautogui.press("enter")

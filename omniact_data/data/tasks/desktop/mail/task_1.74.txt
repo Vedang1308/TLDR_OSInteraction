@@ -1,0 +1,3 @@
+Task: Choose to see the mails that have been sent.
+Output script:
+pyautogui.click(204.5,291.5)

@@ -1,0 +1,6 @@
+Task: Access hardware settings through search bar.
+Output Script:
+pyautogui.click(1788.0,192.5)
+pyautogui.write("hardware")
+pyautogui.press("down")
+pyautogui.press("enter")

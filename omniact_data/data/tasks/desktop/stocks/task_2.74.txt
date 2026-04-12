@@ -1,0 +1,3 @@
+Task: Press on the "3 dots" for further actions.
+Output script:
+pyautogui.click(2710.5,1512.0)

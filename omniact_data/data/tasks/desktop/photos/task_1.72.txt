@@ -1,0 +1,4 @@
+Task: In the "Recents" album, zoom in on the photos using the top menu. 
+Output Script:
+pyautogui.click(215.0,413.5)
+pyautogui.write("enlarge_pics")

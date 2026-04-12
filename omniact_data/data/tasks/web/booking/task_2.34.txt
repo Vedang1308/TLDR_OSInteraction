@@ -1,0 +1,3 @@
+Task: Use the bottom button to find properties for lodging
+Output Script:
+pyautogui.click(791.5,811.0)

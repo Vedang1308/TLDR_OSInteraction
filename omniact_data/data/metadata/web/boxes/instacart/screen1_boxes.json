@@ -1,0 +1,218 @@
+{
+    "example_0": {
+        "top_left": [
+            536,
+            486
+        ],
+        "bottom_right": [
+            904,
+            596
+        ],
+        "valid": 1,
+        "label": "redirects_to_costco"
+    },
+    "example_1": {
+        "top_left": [
+            144,
+            596
+        ],
+        "bottom_right": [
+            512,
+            706
+        ],
+        "valid": 1,
+        "label": "redirect_to_target:fast delivery_page"
+    },
+    "example_2": {
+        "top_left": [
+            928,
+            376
+        ],
+        "bottom_right": [
+            1296,
+            486
+        ],
+        "valid": 1,
+        "label": "choose_store_location"
+    },
+    "example_3": {
+        "top_left": [
+            928,
+            706
+        ],
+        "bottom_right": [
+            1296,
+            816
+        ],
+        "valid": 1,
+        "label": "redirect_to_rite_aid_pharmacy_store"
+    },
+    "example_4": {
+        "top_left": [
+            536,
+            706
+        ],
+        "bottom_right": [
+            904,
+            816
+        ],
+        "valid": 1,
+        "label": "redirect_to_Community_Supermarket"
+    },
+    "example_5": {
+        "top_left": [
+            1216,
+            20
+        ],
+        "bottom_right": [
+            1280,
+            58
+        ],
+        "valid": 1,
+        "label": "user_log_in"
+    },
+    "example_6": {
+        "top_left": [
+            72,
+            36
+        ],
+        "bottom_right": [
+            222,
+            52
+        ],
+        "valid": 1,
+        "label": "instacart_home_page"
+    },
+    "example_7": {
+        "top_left": [
+            928,
+            596
+        ],
+        "bottom_right": [
+            1296,
+            706
+        ],
+        "valid": 1,
+        "label": "redirect_to_Shop_'n_Save"
+    },
+    "example_8": {
+        "top_left": [
+            290,
+            27
+        ],
+        "bottom_right": [
+            314,
+            55
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_9": {
+        "top_left": [
+            928,
+            486
+        ],
+        "bottom_right": [
+            1296,
+            596
+        ],
+        "valid": 1,
+        "label": "Choose_Target_Store"
+    },
+    "example_10": {
+        "top_left": [
+            536,
+            376
+        ],
+        "bottom_right": [
+            904,
+            486
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_11": {
+        "top_left": [
+            144,
+            376
+        ],
+        "bottom_right": [
+            512,
+            486
+        ],
+        "valid": 1,
+        "label": "Giant_Eagle_store_selection"
+    },
+    "example_12": {
+        "top_left": [
+            678,
+            836
+        ],
+        "bottom_right": [
+            762,
+            860
+        ],
+        "valid": 1,
+        "label": "show_all_store_options"
+    },
+    "example_13": {
+        "top_left": [
+            144,
+            486
+        ],
+        "bottom_right": [
+            512,
+            596
+        ],
+        "valid": 1,
+        "label": "Aldi_Express__button"
+    },
+    "example_14": {
+        "top_left": [
+            144,
+            706
+        ],
+        "bottom_right": [
+            512,
+            816
+        ],
+        "valid": 1,
+        "label": "redirect_to_walgreens"
+    },
+    "example_15": {
+        "top_left": [
+            536,
+            596
+        ],
+        "bottom_right": [
+            904,
+            706
+        ],
+        "valid": 1,
+        "label": "select_store_cvs"
+    },
+    "example_16": {
+        "top_left": [
+            1302,
+            20
+        ],
+        "bottom_right": [
+            1400,
+            58
+        ],
+        "valid": 1,
+        "label": "redirect_to_sign_up"
+    },
+    "example_17": {
+        "top_left": [
+            80,
+            136
+        ],
+        "bottom_right": [
+            96,
+            152
+        ],
+        "valid": 1,
+        "label": "dropdown_selection_language"
+    }
+}

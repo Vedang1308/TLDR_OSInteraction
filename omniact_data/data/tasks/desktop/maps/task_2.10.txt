@@ -1,0 +1,5 @@
+Task: Get directions to the nearest public transportation station.
+Output script:
+pyautogui.click(1556.0,549.5)
+pyautogui.write("public transportation")
+pyautogui.press("enter")

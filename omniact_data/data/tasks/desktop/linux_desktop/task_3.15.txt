@@ -1,0 +1,5 @@
+Task: search for "Movies"
+Output Script:
+pyautogui.click(959, 67)
+pyautogui.write("Movies")
+pyautogui.press("Enter")

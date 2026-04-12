@@ -1,0 +1,3 @@
+Task: Trigger the Walt Disney stock page.
+Output script:
+pyautogui.click(322.5,1014.5)

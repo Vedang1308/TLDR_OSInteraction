@@ -1,0 +1,3 @@
+Task: Conceal temperature data of other cities
+Output Script:
+pyautogui.click(701.0,49.0)

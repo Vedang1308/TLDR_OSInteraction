@@ -1,0 +1,3 @@
+Task: "Check spelling of the document"
+Output Script:
+pyautogui.click(1767.0,143.5)

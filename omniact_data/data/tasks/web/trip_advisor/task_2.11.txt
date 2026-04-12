@@ -1,0 +1,4 @@
+Task: Proceed to the popular destinations category and view the first entry.
+Output Script:
+pyautogui.moveto("scroll_to_fine_dining_description")
+pyautogui.scroll(+150)

@@ -1,0 +1,3 @@
+Task: Access the page for submitting your opinions
+Output Script:
+pyautogui.click(1672.5,542.5)

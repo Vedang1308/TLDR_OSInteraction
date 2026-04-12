@@ -1,0 +1,4 @@
+Task: Scroll to see which titles are finished
+Output Script:
+pyautogui.moveTo(1881.5,1116.0)
+pyautogui.scroll(-30)

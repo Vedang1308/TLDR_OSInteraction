@@ -1,0 +1,3 @@
+Task: Choose the combined option of flight and hotel booking.
+Output script:
+pyautogui.click(92.0,105.0)

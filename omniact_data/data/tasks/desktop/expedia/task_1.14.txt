@@ -1,0 +1,3 @@
+Task: View and book available cruises.
+Output script:
+pyautogui.click(1441.0,380.0)

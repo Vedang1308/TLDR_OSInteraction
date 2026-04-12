@@ -1,0 +1,3 @@
+Task: Initiate Firefox Software
+Output Script:
+pyautogui.click(35.0,61.5)

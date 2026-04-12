@@ -1,0 +1,3 @@
+Task: Reduce the magnification level of the opened file
+Output script:
+pyautogui.hotkey("ctrl", "-")

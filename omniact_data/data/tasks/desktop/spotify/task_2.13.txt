@@ -1,0 +1,3 @@
+Task: Go to the album
+Output script:
+pyautogui.click(1739.0,423.5)

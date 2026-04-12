@@ -1,0 +1,3 @@
+Task: Enlarge book to full screen
+Output Script:
+pyautogui.click(1136.5,196.0)

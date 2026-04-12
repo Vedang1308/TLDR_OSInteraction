@@ -1,0 +1,3 @@
+Task: Chat with an expert by clicking on the chat button
+Output Script:
+pyautogui.click(1272.5,305.5)

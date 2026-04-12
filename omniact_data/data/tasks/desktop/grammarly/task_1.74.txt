@@ -1,0 +1,3 @@
+Task: Show more of Grammarly"s recommendations
+Output script:
+pyautogui.click(84.0,68.5)

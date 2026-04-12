@@ -1,0 +1,3 @@
+Task: Navigate to Coursera"s business page
+Output Script:
+pyautogui.click(214.5,20.0)

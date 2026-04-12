@@ -1,0 +1,5 @@
+Task: Locate the term "Sales Tax" in a document
+Output Script:
+pyautogui.hotKey("ctrl", "f")
+pyautogui.write("Sales Tax")
+pyautogui.press("enter")

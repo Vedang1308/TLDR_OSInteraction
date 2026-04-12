@@ -1,0 +1,4 @@
+Task: Navigate to the top-rated luxury hotel section.
+Output Script:
+pyautogui.moveto("scroll_to_fine_dining_description")
+pyautogui.scroll(+150)

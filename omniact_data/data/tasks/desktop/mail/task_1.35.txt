@@ -1,0 +1,3 @@
+Task: Single out the unseen messages.
+Output script:
+pyautogui.click(1132.5,51.0)

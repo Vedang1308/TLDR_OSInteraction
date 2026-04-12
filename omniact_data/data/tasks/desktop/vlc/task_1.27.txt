@@ -1,0 +1,3 @@
+Task: Move the video"s playback position ahead by 60 seconds using keyboard
+Output Script:
+pyautogui.press("right")

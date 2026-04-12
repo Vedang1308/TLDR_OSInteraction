@@ -1,0 +1,3 @@
+Task: Select the "Give feedback" option via pyautogui
+Output Script:
+pyautogui.click(1665.5,179.5)

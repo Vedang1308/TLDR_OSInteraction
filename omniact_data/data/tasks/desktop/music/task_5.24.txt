@@ -1,0 +1,3 @@
+Task: Inspect recently played music tracks
+Output Script:
+pyautogui.click(195.5,453.0)

@@ -1,0 +1,79 @@
+{
+    "example_0": {
+        "top_left": [
+            820,
+            285
+        ],
+        "bottom_right": [
+            962,
+            352
+        ],
+        "label": "get"
+    },
+    "example_1": {
+        "top_left": [
+            2781,
+            30
+        ],
+        "bottom_right": [
+            2820,
+            71
+        ],
+        "label": "share"
+    },
+    "example_2": {
+        "top_left": [
+            2337,
+            1583
+        ],
+        "bottom_right": [
+            2426,
+            1621
+        ],
+        "label": "more"
+    },
+    "example_3": {
+        "top_left": [
+            2687,
+            1727
+        ],
+        "bottom_right": [
+            2806,
+            1785
+        ],
+        "label": "See All"
+    },
+    "example_4": {
+        "top_left": [
+            2690,
+            1469
+        ],
+        "bottom_right": [
+            2812,
+            1516
+        ],
+        "label": "Playrix"
+    },
+    "example_5": {
+        "top_left": [
+            2620,
+            1524
+        ],
+        "bottom_right": [
+            2817,
+            1571
+        ],
+        "label": "Website"
+    },
+    "example_6": {
+        "top_left": [
+            2620,
+            1574
+        ],
+        "bottom_right": [
+            2817,
+            1624
+        ],
+        "label": "Support"
+    }
+}

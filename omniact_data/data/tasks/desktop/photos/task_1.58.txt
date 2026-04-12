@@ -1,0 +1,4 @@
+Task: Execute one rotation of the image of Lotus Temple in Sydney
+Output Script:
+pyautogui.click(2479.0,1135.5)
+pyautogui.click(2645.5,49.5)

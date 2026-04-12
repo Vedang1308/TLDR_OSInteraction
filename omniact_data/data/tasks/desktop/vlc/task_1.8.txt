@@ -1,0 +1,3 @@
+Task: Zoom in on the video using the zoom in button
+Output Script:
+pyautogui.click(1769.5,256.0)

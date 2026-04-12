@@ -1,0 +1,3 @@
+Task: "Examine other choices aside from straightforward text"
+Output Script:
+pyautogui.click(1513.5,1066.0)

@@ -1,0 +1,4 @@
+Task: Initiate Adobe Photoshop program
+Output Script:
+pyautogui.moveTo(1078.0,665.0)
+pyautogui.press("enter")

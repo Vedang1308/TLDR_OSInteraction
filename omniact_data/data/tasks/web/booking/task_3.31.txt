@@ -1,0 +1,3 @@
+Task: Set up a new account 
+Output Script:
+pyautogui.click(1143.5,36.0)

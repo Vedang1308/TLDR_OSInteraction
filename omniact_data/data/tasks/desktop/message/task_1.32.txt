@@ -1,0 +1,3 @@
+Task: Trigger more options for the text string "Yeah, what"s the cost?" with a right-click.
+Output Script:
+pyautogui.rightClick(3171.5,1340.0)

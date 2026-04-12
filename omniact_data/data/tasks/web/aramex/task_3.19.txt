@@ -1,0 +1,3 @@
+Task: Access and click on the extended view for Aramex"s 13th Integrated Report and 17th Sustainability Report.
+Output Script:
+pyautogui.click(720.0,374.5)

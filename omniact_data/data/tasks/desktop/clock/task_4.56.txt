@@ -1,0 +1,3 @@
+Task: Enable the task scheduled for 12pm
+Output Script:
+pyautogui.click(534.0,426.5)

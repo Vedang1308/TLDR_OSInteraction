@@ -1,0 +1,3 @@
+Task: Navigate downwards to access more possibilities.
+Output script:
+pyautogui.scroll(-100)

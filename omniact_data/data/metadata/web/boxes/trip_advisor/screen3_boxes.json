@@ -1,0 +1,170 @@
+{
+    "example_0": {
+        "top_left": [
+            164,
+            221
+        ],
+        "bottom_right": [
+            269,
+            263
+        ],
+        "valid": 1,
+        "label": "show_things_to_do"
+    },
+    "example_1": {
+        "top_left": [
+            686,
+            221
+        ],
+        "bottom_right": [
+            758,
+            263
+        ],
+        "valid": 1,
+        "label": "redirect_cruises"
+    },
+    "example_2": {
+        "top_left": [
+            372,
+            221
+        ],
+        "bottom_right": [
+            439,
+            263
+        ],
+        "valid": 1,
+        "label": "redirect_to_flight_page"
+    },
+    "example_3": {
+        "top_left": [
+            269,
+            221
+        ],
+        "bottom_right": [
+            372,
+            263
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_4": {
+        "top_left": [
+            1209,
+            170
+        ],
+        "bottom_right": [
+            1288,
+            210
+        ],
+        "valid": 1,
+        "label": "go_to_sign_up_page"
+    },
+    "example_5": {
+        "top_left": [
+            98,
+            221
+        ],
+        "bottom_right": [
+            164,
+            263
+        ],
+        "valid": 1,
+        "label": "redirect_to_hotel_listing"
+    },
+    "example_6": {
+        "top_left": [
+            926,
+            170
+        ],
+        "bottom_right": [
+            1020,
+            210
+        ],
+        "valid": 1,
+        "label": "write_review"
+    },
+    "example_7": {
+        "top_left": [
+            758,
+            221
+        ],
+        "bottom_right": [
+            858,
+            263
+        ],
+        "valid": 1,
+        "label": "redirect_to_rental_cars"
+    },
+    "example_8": {
+        "top_left": [
+            382,
+            172
+        ],
+        "bottom_right": [
+            402,
+            208
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_9": {
+        "top_left": [
+            439,
+            221
+        ],
+        "bottom_right": [
+            574,
+            263
+        ],
+        "valid": 1,
+        "label": "redirect_to_vacation_rentals"
+    },
+    "example_10": {
+        "top_left": [
+            152,
+            170
+        ],
+        "bottom_right": [
+            340,
+            210
+        ],
+        "valid": 1,
+        "label": "Redirect to TripAdvisor homepage"
+    },
+    "example_11": {
+        "top_left": [
+            574,
+            221
+        ],
+        "bottom_right": [
+            686,
+            263
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_12": {
+        "top_left": [
+            1115,
+            170
+        ],
+        "bottom_right": [
+            1201,
+            210
+        ],
+        "valid": 1,
+        "label": "go_to_alerts"
+    },
+    "example_13": {
+        "top_left": [
+            1028,
+            170
+        ],
+        "bottom_right": [
+            1107,
+            210
+        ],
+        "valid": 1,
+        "label": "go_to_trips_favorites"
+    }
+}

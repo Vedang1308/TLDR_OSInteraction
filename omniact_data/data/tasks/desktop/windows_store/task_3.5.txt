@@ -1,0 +1,3 @@
+Task: See Sort & Filter options
+Output Script: 
+pyautogui.click(1792.5,315.0)

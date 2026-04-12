@@ -1,0 +1,3 @@
+Task: Select the second last pic in the last row
+Output Script:
+pyautogui.click(2480.5,1749.5)

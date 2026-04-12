@@ -1,0 +1,3 @@
+Task: Access the context menu on the screen
+Output Script:
+pyautogui.rightClick()

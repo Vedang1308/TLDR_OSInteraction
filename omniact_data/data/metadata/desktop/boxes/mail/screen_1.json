@@ -1,0 +1,288 @@
+{
+    "example_0": {
+        "top_left": [
+            1112,
+            30
+        ],
+        "bottom_right": [
+            1153,
+            72
+        ],
+        "label": "filter messages icon"
+    },
+    "example_1": {
+        "top_left": [
+            1245,
+            19
+        ],
+        "bottom_right": [
+            1301,
+            80
+        ],
+        "label": "get new messages in all accounts"
+    },
+    "example_2": {
+        "top_left": [
+            1359,
+            25
+        ],
+        "bottom_right": [
+            1415,
+            86
+        ],
+        "label": "create new message"
+    },
+    "example_3": {
+        "top_left": [
+            1631,
+            22
+        ],
+        "bottom_right": [
+            1698,
+            83
+        ],
+        "label": "archive selected messages"
+    },
+    "example_4": {
+        "top_left": [
+            1731,
+            22
+        ],
+        "bottom_right": [
+            1784,
+            80
+        ],
+        "label": "delete message"
+    },
+    "example_5": {
+        "top_left": [
+            1820,
+            16
+        ],
+        "bottom_right": [
+            1881,
+            83
+        ],
+        "label": "move selected message to junk"
+    },
+    "example_6": {
+        "top_left": [
+            1920,
+            25
+        ],
+        "bottom_right": [
+            1987,
+            86
+        ],
+        "label": "reply to the sender"
+    },
+    "example_7": {
+        "top_left": [
+            2023,
+            22
+        ],
+        "bottom_right": [
+            2084,
+            91
+        ],
+        "label": "reply all"
+    },
+    "example_8": {
+        "top_left": [
+            2115,
+            22
+        ],
+        "bottom_right": [
+            2167,
+            91
+        ],
+        "label": "forward messages"
+    },
+    "example_9": {
+        "top_left": [
+            2203,
+            16
+        ],
+        "bottom_right": [
+            2262,
+            83
+        ],
+        "label": "flag message"
+    },
+    "example_10": {
+        "top_left": [
+            2270,
+            19
+        ],
+        "bottom_right": [
+            2309,
+            88
+        ],
+        "label": "change flag color"
+    },
+    "example_11": {
+        "top_left": [
+            2342,
+            16
+        ],
+        "bottom_right": [
+            2417,
+            86
+        ],
+        "label": "mute conversation"
+    },
+    "example_12": {
+        "top_left": [
+            2437,
+            16
+        ],
+        "bottom_right": [
+            2787,
+            80
+        ],
+        "label": "move to bar"
+    },
+    "example_13": {
+        "top_left": [
+            2806,
+            22
+        ],
+        "bottom_right": [
+            2848,
+            80
+        ],
+        "label": "search icon"
+    },
+    "example_14": {
+        "top_left": [
+            437,
+            133
+        ],
+        "bottom_right": [
+            1184,
+            288
+        ],
+        "label": "security alert mail"
+    },
+    "example_15": {
+        "top_left": [
+            26,
+            147
+        ],
+        "bottom_right": [
+            378,
+            200
+        ],
+        "label": "inbox"
+    },
+    "example_16": {
+        "top_left": [
+            26,
+            202
+        ],
+        "bottom_right": [
+            381,
+            261
+        ],
+        "label": "drafts"
+    },
+    "example_17": {
+        "top_left": [
+            28,
+            261
+        ],
+        "bottom_right": [
+            381,
+            322
+        ],
+        "label": "sent mails"
+    },
+    "example_18": {
+        "top_left": [
+            31,
+            452
+        ],
+        "bottom_right": [
+            362,
+            508
+        ],
+        "label": "important mail"
+    },
+    "example_19": {
+        "top_left": [
+            34,
+            513
+        ],
+        "bottom_right": [
+            365,
+            572
+        ],
+        "label": "inbox"
+    },
+    "example_20": {
+        "top_left": [
+            23,
+            566
+        ],
+        "bottom_right": [
+            370,
+            625
+        ],
+        "label": "drafts"
+    },
+    "example_21": {
+        "top_left": [
+            28,
+            627
+        ],
+        "bottom_right": [
+            376,
+            680
+        ],
+        "label": "sent"
+    },
+    "example_22": {
+        "top_left": [
+            26,
+            680
+        ],
+        "bottom_right": [
+            378,
+            736
+        ],
+        "label": "junk"
+    },
+    "example_23": {
+        "top_left": [
+            23,
+            738
+        ],
+        "bottom_right": [
+            376,
+            791
+        ],
+        "label": "trash"
+    },
+    "example_24": {
+        "top_left": [
+            26,
+            797
+        ],
+        "bottom_right": [
+            387,
+            852
+        ],
+        "label": "archived messages"
+    },
+    "example_25": {
+        "top_left": [
+            437,
+            290
+        ],
+        "bottom_right": [
+            1178,
+            451
+        ],
+        "label": "google community team email"
+    }
+}

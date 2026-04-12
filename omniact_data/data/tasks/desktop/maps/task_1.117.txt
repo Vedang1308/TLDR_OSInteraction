@@ -1,0 +1,3 @@
+Task: Insert an amended professional space.
+Output script:
+pyautogui.click(289.5,432.5)

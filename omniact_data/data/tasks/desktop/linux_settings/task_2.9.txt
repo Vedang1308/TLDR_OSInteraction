@@ -1,0 +1,3 @@
+Task: Open AisleRiot Solitaire
+Output Script:
+pyautogui.click(192.5,196.5)

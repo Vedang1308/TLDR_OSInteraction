@@ -1,0 +1,3 @@
+Task: Move to the bottom of the webpage
+Output script:
+pyautogui.click(1908.0,932.0)

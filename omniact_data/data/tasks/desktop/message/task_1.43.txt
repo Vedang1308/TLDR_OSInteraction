@@ -1,0 +1,3 @@
+Task: Begin a video call on Facetime
+Output Script:
+pyautogui.click(3227.5,52.0)

@@ -1,0 +1,3 @@
+Task: Initiate a click on the terms of use tab found beneath the screen within the guidelines subsection.
+Output Script:
+pyautogui.click(512.5,709.0)

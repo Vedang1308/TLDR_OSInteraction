@@ -1,0 +1,3 @@
+Task: View all mails
+Output Script:
+pyautogui.click(496.0,132.5)

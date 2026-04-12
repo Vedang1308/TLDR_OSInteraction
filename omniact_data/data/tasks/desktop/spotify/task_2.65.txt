@@ -1,0 +1,3 @@
+Task: Circulate the musical piece 
+Output script:
+pyautogui.click(1738.0,524.5)

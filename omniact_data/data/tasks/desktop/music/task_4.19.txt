@@ -1,0 +1,3 @@
+Task: Click on the song "One Direction"
+Output Script:
+pyautogui.click(2037.5,1295.5)

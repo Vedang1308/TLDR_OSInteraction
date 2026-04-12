@@ -1,0 +1,3 @@
+Task: "Launch a fresh tab"
+Output Script:
+pyautogui.click(407.5,49.0)

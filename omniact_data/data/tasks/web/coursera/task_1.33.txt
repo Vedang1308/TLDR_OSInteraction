@@ -1,0 +1,3 @@
+Task: Access details of University of Pennsylvania
+Output Script:
+pyautogui.click(1210.0,739.5)

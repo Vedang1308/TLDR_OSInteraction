@@ -1,0 +1,3 @@
+Task: Navigate to the final section of the current music track
+Output script:
+pyautogui.click(1274.0,1002.0)

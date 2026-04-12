@@ -1,0 +1,3 @@
+Task: Begin a group image capturing session.
+Output Script:
+pyautogui.click(2258.0,662.0)

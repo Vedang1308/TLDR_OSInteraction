@@ -1,0 +1,5 @@
+Task: Search for mail from Expedia.com
+Output Script:
+pyautogui.click(250.0,69.0)
+pyautogui.write("Expedia.com")
+pyautogui.press("enter")

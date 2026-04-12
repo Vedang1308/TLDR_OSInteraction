@@ -1,0 +1,4 @@
+Task: Proceed to the next set of stories by scrolling down.
+Output script:
+pyautogui.moveTo(1660.0,954.5)
+pyautogui.scroll(-30)

@@ -1,0 +1,3 @@
+Task: Check the stock change for the past day.
+Output script:
+pyautogui.click(810.5,389.5)

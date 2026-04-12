@@ -1,0 +1,3 @@
+Task: Select transportation mode to driving.
+Output script:
+pyautogui.click(2515.5,164.0)

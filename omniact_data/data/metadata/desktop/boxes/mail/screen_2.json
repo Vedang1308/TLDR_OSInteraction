@@ -1,0 +1,222 @@
+{
+    "example_0": {
+        "top_left": [
+            1501,
+            22
+        ],
+        "bottom_right": [
+            1559,
+            77
+        ],
+        "label": "send message"
+    },
+    "example_1": {
+        "top_left": [
+            2248,
+            22
+        ],
+        "bottom_right": [
+            2317,
+            83
+        ],
+        "label": "reply to sender of selected message"
+    },
+    "example_2": {
+        "top_left": [
+            2351,
+            22
+        ],
+        "bottom_right": [
+            2420,
+            91
+        ],
+        "label": "attach files"
+    },
+    "example_3": {
+        "top_left": [
+            2456,
+            19
+        ],
+        "bottom_right": [
+            2528,
+            91
+        ],
+        "label": "include attachment from original mail"
+    },
+    "example_4": {
+        "top_left": [
+            2551,
+            19
+        ],
+        "bottom_right": [
+            2642,
+            88
+        ],
+        "label": "show / hide format bar"
+    },
+    "example_5": {
+        "top_left": [
+            2681,
+            19
+        ],
+        "bottom_right": [
+            2734,
+            83
+        ],
+        "label": "emoji/ symbols"
+    },
+    "example_6": {
+        "top_left": [
+            2770,
+            22
+        ],
+        "bottom_right": [
+            2828,
+            86
+        ],
+        "label": "show/ hide photo browser"
+    },
+    "example_7": {
+        "top_left": [
+            2834,
+            19
+        ],
+        "bottom_right": [
+            2862,
+            94
+        ],
+        "label": "photo browser options"
+    },
+    "example_8": {
+        "top_left": [
+            1592,
+            175
+        ],
+        "bottom_right": [
+            2820,
+            213
+        ],
+        "label": "sender email bar"
+    },
+    "example_9": {
+        "top_left": [
+            1592,
+            230
+        ],
+        "bottom_right": [
+            2817,
+            277
+        ],
+        "label": "cc email bar"
+    },
+    "example_10": {
+        "top_left": [
+            1620,
+            302
+        ],
+        "bottom_right": [
+            2820,
+            350
+        ],
+        "label": "subject bar"
+    },
+    "example_11": {
+        "top_left": [
+            1503,
+            386
+        ],
+        "bottom_right": [
+            2842,
+            1761
+        ],
+        "label": "write content"
+    },
+    "example_12": {
+        "top_left": [
+            1590,
+            22
+        ],
+        "bottom_right": [
+            1640,
+            86
+        ],
+        "label": "select visible header fields"
+    },
+    "example_13": {
+        "top_left": [
+            1645,
+            22
+        ],
+        "bottom_right": [
+            1673,
+            86
+        ],
+        "label": "visible header fields options"
+    },
+    "example_14": {
+        "top_left": [
+            1278,
+            22
+        ],
+        "bottom_right": [
+            1331,
+            91
+        ],
+        "label": "reply selected email"
+    },
+    "example_15": {
+        "top_left": [
+            2180,
+            118
+        ],
+        "bottom_right": [
+            2205,
+            143
+        ],
+        "label": "bold"
+    },
+    "example_16": {
+        "top_left": [
+            2220,
+            119
+        ],
+        "bottom_right": [
+            2244,
+            144
+        ],
+        "label": "italics"
+    },
+    "example_17": {
+        "top_left": [
+            2255,
+            120
+        ],
+        "bottom_right": [
+            2283,
+            146
+        ],
+        "label": "underline"
+    },
+    "example_18": {
+        "top_left": [
+            2296,
+            122
+        ],
+        "bottom_right": [
+            2319,
+            144
+        ],
+        "label": "strike"
+    },
+    "example_19": {
+        "top_left": [
+            1961,
+            116
+        ],
+        "bottom_right": [
+            2041,
+            149
+        ],
+        "label": "size"
+    }
+}

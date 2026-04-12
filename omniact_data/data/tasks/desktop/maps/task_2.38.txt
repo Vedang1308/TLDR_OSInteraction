@@ -1,0 +1,3 @@
+Task: Initiate the process of adding images by pressing the "add photos" button.
+Output script:
+pyautogui.click(1705.0,1211.5)

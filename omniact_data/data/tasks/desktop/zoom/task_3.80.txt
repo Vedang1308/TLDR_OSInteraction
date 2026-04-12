@@ -1,0 +1,3 @@
+Task: Navigate to the activity center.
+Output Script:
+pyautogui.click(2749.5,51.0)

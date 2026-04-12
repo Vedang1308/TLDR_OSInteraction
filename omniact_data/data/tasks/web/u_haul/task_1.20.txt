@@ -1,0 +1,3 @@
+Task: "Can you guide me on how to obtain a position in this establishment?"
+Output Script: 
+pyautogui.click(864.0,34.0)

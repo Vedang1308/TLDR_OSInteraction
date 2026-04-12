@@ -1,0 +1,3 @@
+Task: Change the positions of origin and destination in the direction field.
+Output script:
+pyautogui.click(2781.0,277.0)

@@ -1,0 +1,3 @@
+Task: Go for the second appointment in today"s list.
+Output script:
+pyautogui.click(612.0,485.5)

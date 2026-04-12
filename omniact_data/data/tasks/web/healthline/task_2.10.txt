@@ -1,0 +1,3 @@
+Task: Discover information about ADHD classifications and corresponding symptoms in adults and children
+Output Script:
+pyautogui.click(590.0,882.0)

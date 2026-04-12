@@ -1,0 +1,5 @@
+Task: Open the "first option in the menu using keyboard
+Output Script:
+pyautogui.click(1769.5,50.0)
+pyautogui.press("down")
+pyautogui.press("enter")

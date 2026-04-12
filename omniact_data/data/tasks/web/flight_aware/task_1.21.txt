@@ -1,0 +1,3 @@
+Task: Use mouse to pick the second language from the dropdown menu
+Output Script:
+pyautogui.click(1119.0,12.0)

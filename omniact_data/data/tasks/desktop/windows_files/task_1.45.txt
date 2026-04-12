@@ -1,0 +1,3 @@
+Task: Display all choices for the template.txt folder
+Output Script:
+pyautogui.rightClick(700.0,521.0)

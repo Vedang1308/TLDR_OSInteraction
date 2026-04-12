@@ -1,0 +1,5 @@
+Task: Input "Annual Conference" into the event category. 
+Output script:
+pyautogui.click(1839.5,516.0)
+pyautogui.write("Team Building")
+pyautogui.press("enter")

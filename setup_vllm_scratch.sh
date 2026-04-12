@@ -3,6 +3,10 @@
 
 echo "Configuring environment paths to use /scratch/$USER..."
 
+module load mamba/latest
+module load cuda-12.1.1-gcc-12.1.0
+module load cudnn/9.17.1-cuda12
+
 # 1. Define Scratch Targets
 SCRATCH_DIR="/scratch/$USER"
 ENV_DIR="$SCRATCH_DIR/phase2-conda-env"

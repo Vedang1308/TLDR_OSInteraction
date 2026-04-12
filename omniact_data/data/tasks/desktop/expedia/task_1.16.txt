@@ -1,0 +1,3 @@
+Task: Check for any new notifications.
+Output script:
+pyautogui.click(2065.5,1761.0)

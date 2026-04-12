@@ -1,0 +1,3 @@
+Task: Enable the sound by unmuting.
+Output Script:
+pyautogui.click(95.5,1744.0)

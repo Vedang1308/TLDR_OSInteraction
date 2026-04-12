@@ -1,0 +1,3 @@
+Task: "Launch document preferences"
+Output Script:
+pyautogui.click(363.0,49.0)

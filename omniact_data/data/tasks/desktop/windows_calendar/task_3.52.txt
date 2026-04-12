@@ -1,0 +1,4 @@
+Task: Input "schedule team meeting" as the event title 
+Output Script:
+Pyautogui.click(655.0,573.0)
+Pyautogui.write("connect to hifi")

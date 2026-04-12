@@ -1,0 +1,3 @@
+Task: Collate the window via the designated icon
+Output Script:
+pyautogui.click(584.0,1053.0)

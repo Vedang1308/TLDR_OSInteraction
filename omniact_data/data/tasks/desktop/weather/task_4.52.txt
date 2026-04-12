@@ -1,0 +1,3 @@
+Task: Check additional information on rainfall
+Output Script:
+pyautogui.click(2158.5,1286.0)

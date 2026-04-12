@@ -1,0 +1,110 @@
+{
+    "example_0": {
+        "top_left": [
+            1184,
+            14
+        ],
+        "bottom_right": [
+            1235,
+            32
+        ],
+        "valid": 1,
+        "label": "redirect_to_Sign_Up"
+    },
+    "example_1": {
+        "top_left": [
+            1059,
+            14
+        ],
+        "bottom_right": [
+            1184,
+            32
+        ],
+        "valid": 1,
+        "label": "redirect_to_manage_rentals"
+    },
+    "example_2": {
+        "top_left": [
+            1255,
+            14
+        ],
+        "bottom_right": [
+            1299,
+            32
+        ],
+        "valid": 1,
+        "label": "Redirects to Sign In page."
+    },
+    "example_3": {
+        "top_left": [
+            119,
+            14
+        ],
+        "bottom_right": [
+            185,
+            32
+        ],
+        "valid": 1,
+        "label": "select_english_language"
+    },
+    "example_4": {
+        "top_left": [
+            1002,
+            327
+        ],
+        "bottom_right": [
+            1126,
+            383
+        ],
+        "valid": 1,
+        "label": "search_button"
+    },
+    "example_5": {
+        "top_left": [
+            0,
+            0
+        ],
+        "bottom_right": [
+            109,
+            46
+        ],
+        "valid": 1,
+        "label": "menu_drop-down"
+    },
+    "example_6": {
+        "top_left": [
+            610,
+            2
+        ],
+        "bottom_right": [
+            830,
+            44
+        ],
+        "valid": 1,
+        "label": "redirect_to_home_page"
+    },
+    "example_7": {
+        "top_left": [
+            314,
+            327
+        ],
+        "bottom_right": [
+            996,
+            383
+        ],
+        "valid": 1,
+        "label": "Search bar"
+    },
+    "example_8": {
+        "top_left": [
+            1313,
+            0
+        ],
+        "bottom_right": [
+            1440,
+            46
+        ],
+        "valid": 1,
+        "label": "redirect_to_Add_a_Property"
+    }
+}

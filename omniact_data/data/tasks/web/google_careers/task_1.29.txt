@@ -1,0 +1,3 @@
+Task: Proceed to the central menu screen
+Output Script:
+pyautogui.click(1292.0,32.0)

@@ -1,0 +1,4 @@
+Task: Organize a reminder for 1 pm on next Tuesday.
+Output script:
+pyautogui.click(1125.5,1163.5)
+pyautogui.click(1125.5,1163.5)

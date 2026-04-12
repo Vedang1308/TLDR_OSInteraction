@@ -1,0 +1,5 @@
+Task: Conduct a localized search for the "report" file in the current folder.
+Output Script:
+pyautogui.click(3014.0,103.0)
+pyautogui.write("report")
+pyautogui.press("enter")

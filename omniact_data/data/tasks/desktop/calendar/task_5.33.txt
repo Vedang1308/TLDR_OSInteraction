@@ -1,0 +1,5 @@
+Task: Set a notification to ring 30 minutes prior to the event.
+Output script:
+pyautogui.click(1600.5,662.0)
+pyautogui.write("30 minutes before")
+pyautogui.press("enter")

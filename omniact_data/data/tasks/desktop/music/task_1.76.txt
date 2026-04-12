@@ -1,0 +1,3 @@
+Task: Activate Abstract Radio 
+Output script:
+pyautogui.click(2274.5,1147.5)

@@ -1,0 +1,3 @@
+Task: Start a fresh email
+Output Script:
+pyautogui.click(31.0,127.0)

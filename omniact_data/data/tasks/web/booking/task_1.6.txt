@@ -1,0 +1,5 @@
+Task: change current currency to the second option
+Output Script:
+pyautogui.click(956.5,36.0)
+pyautogui.press("down")
+pyautogui.press("down")

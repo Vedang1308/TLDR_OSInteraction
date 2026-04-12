@@ -1,0 +1,4 @@
+Task: Employ the scroll function to increase the map"s zoom level.
+Output script:
+pyautogui.moveTo(1702.5,933.5)
+pyautogui.scroll(50)

@@ -1,0 +1,3 @@
+Task: Stabilize Jack"s dialogue on top
+Output Script:
+pyautogui.click(1776.5,16.5)

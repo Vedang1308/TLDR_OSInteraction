@@ -1,0 +1,3 @@
+Task: Use keyboard shortcuts to store the picture
+Output Script:
+pyautogui.hotkey("ctrl", "s")

@@ -1,0 +1,3 @@
+Task: Click on the slim fit T-shirts category to view these items.
+Output Script:
+pyautogui.click(370.0,630.5)

@@ -1,0 +1,8 @@
+Task: Search for Private Flight (tail number: 1234)
+Output Script:
+pyautogui.click(474.0,63.5)
+pyautogui.write("Private flight")
+pyautogui.press("enter")
+pyautogui.click(635.0,62.5)
+pyautogui.write("1234")
+pyautogui.click(846.5,62.5)

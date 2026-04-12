@@ -1,0 +1,5 @@
+Task: Change font style to Arial
+Output Script:
+pyautogui.click(1236.5,124.0)
+pyautogui.write("Arial")
+pyautogui.press("enter")

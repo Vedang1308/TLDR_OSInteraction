@@ -1,0 +1,3 @@
+Task: Tune in to Hot 97 
+Output script:
+pyautogui.click(1500.5,1461.0)

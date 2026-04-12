@@ -1,0 +1,3 @@
+Task: Execute the last undo command
+Output script:
+pyautogui.hotkey("ctrl", "z")

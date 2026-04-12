@@ -1,0 +1,156 @@
+{
+    "example_0": {
+        "top_left": [
+            873,
+            473
+        ],
+        "bottom_right": [
+            1181,
+            507
+        ],
+        "label": "find_type_bar"
+    },
+    "example_1": {
+        "top_left": [
+            873,
+            520
+        ],
+        "bottom_right": [
+            1182,
+            550
+        ],
+        "label": "replace_type_bar"
+    },
+    "example_2": {
+        "top_left": [
+            1181,
+            473
+        ],
+        "bottom_right": [
+            1214,
+            503
+        ],
+        "label": "find_history"
+    },
+    "example_3": {
+        "top_left": [
+            1182,
+            520
+        ],
+        "bottom_right": [
+            1215,
+            550
+        ],
+        "label": "replace_history"
+    },
+    "example_4": {
+        "top_left": [
+            873,
+            563
+        ],
+        "bottom_right": [
+            984,
+            588
+        ],
+        "label": "match_case"
+    },
+    "example_5": {
+        "top_left": [
+            872,
+            590
+        ],
+        "bottom_right": [
+            1060,
+            614
+        ],
+        "label": "match_entire_word"
+    },
+    "example_6": {
+        "top_left": [
+            872,
+            614
+        ],
+        "bottom_right": [
+            1040,
+            640
+        ],
+        "label": "regex"
+    },
+    "example_7": {
+        "top_left": [
+            1067,
+            590
+        ],
+        "bottom_right": [
+            1187,
+            615
+        ],
+        "label": "wrap_around"
+    },
+    "example_8": {
+        "top_left": [
+            1063,
+            563
+        ],
+        "bottom_right": [
+            1219,
+            591
+        ],
+        "label": "search_backwards"
+    },
+    "example_9": {
+        "top_left": [
+            866,
+            646
+        ],
+        "bottom_right": [
+            981,
+            678
+        ],
+        "label": "replace_all"
+    },
+    "example_10": {
+        "top_left": [
+            987,
+            647
+        ],
+        "bottom_right": [
+            1102,
+            681
+        ],
+        "label": "replace_this_only"
+    },
+    "example_11": {
+        "top_left": [
+            1108,
+            647
+        ],
+        "bottom_right": [
+            1220,
+            679
+        ],
+        "label": "find_only"
+    },
+    "example_12": {
+        "top_left": [
+            1190,
+            420
+        ],
+        "bottom_right": [
+            1220,
+            452
+        ],
+        "label": "close_find_replace"
+    },
+    "example_13": {
+        "top_left": [
+            2,
+            508
+        ],
+        "bottom_right": [
+            70,
+            566
+        ],
+        "label": "minimize_text_editor"
+    }
+}

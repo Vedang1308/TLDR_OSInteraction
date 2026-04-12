@@ -1,0 +1,4 @@
+Task: Traverse down the list of songs in the playlist 
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

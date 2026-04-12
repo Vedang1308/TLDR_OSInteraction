@@ -1,0 +1,4 @@
+Task: Select "wonderful" and "local expert picks" options.
+Output script:
+pyautogui.click(1435.5,308.5)
+pyautogui.click(1438.0,646.5)

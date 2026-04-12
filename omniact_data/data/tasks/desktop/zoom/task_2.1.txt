@@ -1,0 +1,3 @@
+Task: Unmute the audio.
+Output Script:
+pyautogui.click(95.5,1744.0)

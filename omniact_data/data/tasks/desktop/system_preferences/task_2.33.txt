@@ -1,0 +1,3 @@
+Task: Choose a colored background.
+Output Script:
+pyautogui.click(877.5,682.5)

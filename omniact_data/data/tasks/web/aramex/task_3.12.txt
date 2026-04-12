@@ -1,0 +1,5 @@
+Task: Locate and click on the search icon and type in "careers" before hitting enter.
+Output Script:
+pyautogui.click(1408.0,20.0)
+pyautogui.write("careers")
+pyautogui.press("enter")

@@ -1,0 +1,5 @@
+Task: Get rid of the designated directory
+Output Script:
+pyautogui.moveTo(135.5,71.0)
+pyautogui.click(135.5,71.0)
+pyautogui.press("delete")

@@ -1,0 +1,4 @@
+Task: Scroll down to view user reviews about the book
+Output Script:
+pyautogui.moveTo(1880.0,1104.0)
+pyautogui.scroll(30)

@@ -1,0 +1,290 @@
+{
+    "example_0": {
+        "top_left": [
+            0,
+            471
+        ],
+        "bottom_right": [
+            42,
+            513
+        ],
+        "valid": 1,
+        "label": "Share_on_Pinterest"
+    },
+    "example_1": {
+        "top_left": [
+            0,
+            345
+        ],
+        "bottom_right": [
+            42,
+            387
+        ],
+        "valid": 1,
+        "label": "redirect_to_facebook"
+    },
+    "example_2": {
+        "top_left": [
+            170,
+            22
+        ],
+        "bottom_right": [
+            338,
+            48
+        ],
+        "valid": 1,
+        "label": "access premium content"
+    },
+    "example_3": {
+        "top_left": [
+            703,
+            1
+        ],
+        "bottom_right": [
+            804,
+            69
+        ],
+        "valid": 1,
+        "label": "redirect_to_plan_link"
+    },
+    "example_4": {
+        "top_left": [
+            459,
+            380
+        ],
+        "bottom_right": [
+            740,
+            402
+        ],
+        "valid": 1,
+        "label": "Redriect_ADHD diagnosis and testing link"
+    },
+    "example_5": {
+        "top_left": [
+            313,
+            873
+        ],
+        "bottom_right": [
+            867,
+            891
+        ],
+        "valid": 1,
+        "label": "redirect_to_learn_about_types_of_ADHD_and_symptoms"
+    },
+    "example_6": {
+        "top_left": [
+            1121,
+            26
+        ],
+        "bottom_right": [
+            1205,
+            44
+        ],
+        "valid": 1,
+        "label": "subscribe_redirect"
+    },
+    "example_7": {
+        "top_left": [
+            457,
+            422
+        ],
+        "bottom_right": [
+            642,
+            445
+        ],
+        "valid": 1,
+        "label": " redirecting to ADHD in children page."
+    },
+    "example_8": {
+        "top_left": [
+            0,
+            429
+        ],
+        "bottom_right": [
+            42,
+            471
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            363,
+            380
+        ],
+        "bottom_right": [
+            459,
+            402
+        ],
+        "valid": 1,
+        "label": "go_to_causes"
+    },
+    "example_10": {
+        "top_left": [
+            1230,
+            27
+        ],
+        "bottom_right": [
+            1270,
+            43
+        ],
+        "valid": 1,
+        "label": "mangifying glass icon that corresponds to search bar."
+    },
+    "example_11": {
+        "top_left": [
+            363,
+            1
+        ],
+        "bottom_right": [
+            569,
+            69
+        ],
+        "valid": 1,
+        "label": "Health_conditions_dropdown_menu"
+    },
+    "example_12": {
+        "top_left": [
+            0,
+            387
+        ],
+        "bottom_right": [
+            42,
+            429
+        ],
+        "valid": 1,
+        "label": "redirect_twitter"
+    },
+    "example_13": {
+        "top_left": [
+            448,
+            466
+        ],
+        "bottom_right": [
+            677,
+            488
+        ],
+        "valid": 1,
+        "label": " redirecting to ADHD and deppression"
+    },
+    "example_14": {
+        "top_left": [
+            155,
+            508
+        ],
+        "bottom_right": [
+            256,
+            531
+        ],
+        "valid": 1,
+        "label": "Outlook_tab"
+    },
+    "example_15": {
+        "top_left": [
+            740,
+            380
+        ],
+        "bottom_right": [
+            863,
+            402
+        ],
+        "valid": 1,
+        "label": "Redirect_Treatment link"
+    },
+    "example_16": {
+        "top_left": [
+            155,
+            380
+        ],
+        "bottom_right": [
+            279,
+            402
+        ],
+        "valid": 1,
+        "label": "symptoms_redirect"
+    },
+    "example_17": {
+        "top_left": [
+            318,
+            422
+        ],
+        "bottom_right": [
+            457,
+            445
+        ],
+        "valid": 1,
+        "label": "go_to_adult_adhd"
+    },
+    "example_18": {
+        "top_left": [
+            279,
+            380
+        ],
+        "bottom_right": [
+            363,
+            402
+        ],
+        "valid": 1,
+        "label": " redirecting to Types"
+    },
+    "example_19": {
+        "top_left": [
+            677,
+            466
+        ],
+        "bottom_right": [
+            840,
+            488
+        ],
+        "valid": 1,
+        "label": "redirect_to_tips for coping"
+    },
+    "example_20": {
+        "top_left": [
+            155,
+            422
+        ],
+        "bottom_right": [
+            318,
+            445
+        ],
+        "valid": 1,
+        "label": "displays to ADD_vs._ADHD information"
+    },
+    "example_21": {
+        "top_left": [
+            569,
+            1
+        ],
+        "bottom_right": [
+            703,
+            69
+        ],
+        "valid": 1,
+        "label": "discover"
+    },
+    "example_22": {
+        "top_left": [
+            155,
+            466
+        ],
+        "bottom_right": [
+            448,
+            488
+        ],
+        "valid": 1,
+        "label": "redirect_Is_ADHD_a_learning_disability?"
+    },
+    "example_23": {
+        "top_left": [
+            804,
+            1
+        ],
+        "bottom_right": [
+            935,
+            69
+        ],
+        "valid": 1,
+        "label": " redirecting to Connect link page."
+    }
+}

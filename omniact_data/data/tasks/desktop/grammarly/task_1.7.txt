@@ -1,0 +1,4 @@
+Task: Change word font to italics
+Output script:
+pyautogui.click(459.0,200.5)
+pyautogui.click(204.5,1010.5)

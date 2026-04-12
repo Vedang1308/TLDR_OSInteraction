@@ -1,0 +1,4 @@
+Task: Implement two clicks on the "Previous Day" button to access the day before yesterday"s date
+Output Script:
+Pyautogui.click(356.0,66.5)
+Pyautogui.click(356.0,66.5)

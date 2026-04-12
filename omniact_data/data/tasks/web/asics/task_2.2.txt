@@ -1,0 +1,3 @@
+Task: See what sports shoes they sell
+Output Script: 
+pyautogui.click(190.0,217.5)

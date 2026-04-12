@@ -1,0 +1,5 @@
+Task: Choose the second picture from the list in image folder.
+Output Script:
+pyautogui.click(1769.0,137.0)
+pyautogui.press("down")
+pyautogui.press("enter")

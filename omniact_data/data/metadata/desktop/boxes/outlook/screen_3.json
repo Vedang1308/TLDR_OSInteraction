@@ -1,0 +1,200 @@
+{
+    "example_0": {
+        "top_left": [
+            783,
+            217
+        ],
+        "bottom_right": [
+            1770,
+            254
+        ],
+        "label": "recipient"
+    },
+    "example_1": {
+        "top_left": [
+            747,
+            267
+        ],
+        "bottom_right": [
+            1775,
+            306
+        ],
+        "label": "Subject"
+    },
+    "example_2": {
+        "top_left": [
+            1412,
+            50
+        ],
+        "bottom_right": [
+            1512,
+            86
+        ],
+        "label": "Discard email"
+    },
+    "example_3": {
+        "top_left": [
+            1530,
+            50
+        ],
+        "bottom_right": [
+            1615,
+            86
+        ],
+        "label": "Send email"
+    },
+    "example_4": {
+        "top_left": [
+            746,
+            101
+        ],
+        "bottom_right": [
+            791,
+            147
+        ],
+        "label": "Bold"
+    },
+    "example_5": {
+        "top_left": [
+            798,
+            100
+        ],
+        "bottom_right": [
+            838,
+            150
+        ],
+        "label": "Italic"
+    },
+    "example_6": {
+        "top_left": [
+            841,
+            100
+        ],
+        "bottom_right": [
+            891,
+            149
+        ],
+        "label": "Underline"
+    },
+    "example_7": {
+        "top_left": [
+            743,
+            321
+        ],
+        "bottom_right": [
+            1891,
+            942
+        ],
+        "label": "mail body"
+    },
+    "example_8": {
+        "top_left": [
+            351,
+            50
+        ],
+        "bottom_right": [
+            569,
+            91
+        ],
+        "label": "search"
+    },
+    "example_9": {
+        "top_left": [
+            580,
+            49
+        ],
+        "bottom_right": [
+            619,
+            90
+        ],
+        "label": "refresh"
+    },
+    "example_10": {
+        "top_left": [
+            613,
+            111
+        ],
+        "bottom_right": [
+            680,
+            150
+        ],
+        "label": "view mails"
+    },
+    "example_11": {
+        "top_left": [
+            5,
+            240
+        ],
+        "bottom_right": [
+            318,
+            298
+        ],
+        "label": "account kgeng@andrew.cmu.edu"
+    },
+    "example_12": {
+        "top_left": [
+            10,
+            307
+        ],
+        "bottom_right": [
+            318,
+            375
+        ],
+        "label": "account joe07779@gmail.com"
+    },
+    "example_13": {
+        "top_left": [
+            754,
+            54
+        ],
+        "bottom_right": [
+            833,
+            86
+        ],
+        "label": "Format"
+    },
+    "example_14": {
+        "top_left": [
+            868,
+            58
+        ],
+        "bottom_right": [
+            936,
+            89
+        ],
+        "label": "Insert"
+    },
+    "example_15": {
+        "top_left": [
+            965,
+            58
+        ],
+        "bottom_right": [
+            1033,
+            90
+        ],
+        "label": "Draw"
+    },
+    "example_16": {
+        "top_left": [
+            1068,
+            57
+        ],
+        "bottom_right": [
+            1146,
+            92
+        ],
+        "label": "Options"
+    },
+    "example_17": {
+        "top_left": [
+            14,
+            104
+        ],
+        "bottom_right": [
+            317,
+            158
+        ],
+        "label": "New email"
+    }
+}

@@ -1,0 +1,3 @@
+Task: Verify the unique benefits they have in offer
+Output Script:
+pyautogui.click(720.0,28.5)

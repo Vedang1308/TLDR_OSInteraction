@@ -1,0 +1,3 @@
+Task: Open Best Buy Credit Cards page
+Output Script:
+pyautogui.click(463.5,391.0)

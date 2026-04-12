@@ -1,0 +1,4 @@
+Task: Execute Photoshop software
+Output Script:
+pyautogui.moveTo(1078.0,665.0)
+pyautogui.press("enter")

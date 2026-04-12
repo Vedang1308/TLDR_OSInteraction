@@ -1,0 +1,3 @@
+Task: Verify the live delay and cancellation statistics for flights on Monday via Flight Aware
+Output Script:
+pyautogui.click(304.5,206.0)

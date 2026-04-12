@@ -1,0 +1,3 @@
+Task: Retrieve the properties of the actively running video
+Output Script:
+pyautogui.click(1771.0,485.0)

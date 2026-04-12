@@ -1,0 +1,3 @@
+Task: Initiate the Graphics Settings by tapping on the associated button present on the right panel
+Output Script:
+pyautogui.click(1679.5,174.5)

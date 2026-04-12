@@ -1,0 +1,4 @@
+Task: Perform a select all and copy operation for the content on Mayo Clinic"s website.
+Output Script:
+pyautogui.hotkey("ctrl","a")
+pyautogui.hotkey("ctrl","c")

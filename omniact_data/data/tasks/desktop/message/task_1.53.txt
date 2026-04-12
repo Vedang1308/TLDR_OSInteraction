@@ -1,0 +1,5 @@
+Task: Access chat with contact John using search feature
+Output Script:
+pyautogui.click(319.0,129.5)
+pyautogui.write("John")
+pyautogui.press("enter")

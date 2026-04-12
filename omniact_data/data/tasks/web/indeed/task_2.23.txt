@@ -1,0 +1,3 @@
+Task: Verify the necessary qualifications for the "Administrative Assistant" role
+Output Script:
+pyautogui.click(1037.5,841.0)

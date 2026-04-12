@@ -1,0 +1,494 @@
+{
+    "example_0": {
+        "top_left": [
+            627,
+            88
+        ],
+        "bottom_right": [
+            733,
+            144
+        ],
+        "valid": 1,
+        "label": "road_tested_button"
+    },
+    "example_1": {
+        "top_left": [
+            1017,
+            100
+        ],
+        "bottom_right": [
+            1247,
+            130
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_2": {
+        "top_left": [
+            404,
+            88
+        ],
+        "bottom_right": [
+            461,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_kids_options"
+    },
+    "example_3": {
+        "top_left": [
+            130,
+            343
+        ],
+        "bottom_right": [
+            360,
+            392
+        ],
+        "valid": 1,
+        "label": "filter_by_gender"
+    },
+    "example_4": {
+        "top_left": [
+            130,
+            595
+        ],
+        "bottom_right": [
+            360,
+            645
+        ],
+        "valid": 1,
+        "label": "expand_price_click_plus_sign"
+    },
+    "example_5": {
+        "top_left": [
+            269,
+            88
+        ],
+        "bottom_right": [
+            326,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_Men_page"
+    },
+    "example_6": {
+        "top_left": [
+            461,
+            88
+        ],
+        "bottom_right": [
+            532,
+            144
+        ],
+        "valid": 1,
+        "label": "view_sports_options"
+    },
+    "example_7": {
+        "top_left": [
+            130,
+            696
+        ],
+        "bottom_right": [
+            360,
+            746
+        ],
+        "valid": 1,
+        "label": "filter_by_model"
+    },
+    "example_8": {
+        "top_left": [
+            710,
+            505
+        ],
+        "bottom_right": [
+            1010,
+            865
+        ],
+        "valid": 1,
+        "label": "redirect_to_GEL_ROCKET_11_page"
+    },
+    "example_9": {
+        "top_left": [
+            812,
+            68
+        ],
+        "bottom_right": [
+            852,
+            85
+        ],
+        "valid": 1,
+        "label": "redirect_to_returns_page"
+    },
+    "example_10": {
+        "top_left": [
+            1020,
+            823
+        ],
+        "bottom_right": [
+            1300,
+            827
+        ],
+        "valid": 1,
+        "label": "redirect_to_ratings_star_symbol"
+    },
+    "example_11": {
+        "top_left": [
+            130,
+            545
+        ],
+        "bottom_right": [
+            360,
+            594
+        ],
+        "valid": 1,
+        "label": "redirects_to_colors_page"
+    },
+    "example_12": {
+        "top_left": [
+            1393,
+            798
+        ],
+        "bottom_right": [
+            1438,
+            845
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_13": {
+        "top_left": [
+            420,
+            823
+        ],
+        "bottom_right": [
+            700,
+            827
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_14": {
+        "top_left": [
+            130,
+            393
+        ],
+        "bottom_right": [
+            360,
+            443
+        ],
+        "valid": 1,
+        "label": "view_categories"
+    },
+    "example_15": {
+        "top_left": [
+            806,
+            175
+        ],
+        "bottom_right": [
+            878,
+            193
+        ],
+        "valid": 1,
+        "label": "load_shopping_options"
+    },
+    "example_16": {
+        "top_left": [
+            1213,
+            98
+        ],
+        "bottom_right": [
+            1242,
+            132
+        ],
+        "valid": 1,
+        "label": "search_button"
+    },
+    "example_17": {
+        "top_left": [
+            326,
+            88
+        ],
+        "bottom_right": [
+            404,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_options_for_women"
+    },
+    "example_18": {
+        "top_left": [
+            733,
+            88
+        ],
+        "bottom_right": [
+            791,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_blog_page"
+    },
+    "example_19": {
+        "top_left": [
+            130,
+            86
+        ],
+        "bottom_right": [
+            241,
+            146
+        ],
+        "valid": 1,
+        "label": "redirect_to_home_page_logo_icon"
+    },
+    "example_20": {
+        "top_left": [
+            372,
+            11
+        ],
+        "bottom_right": [
+            1068,
+            46
+        ],
+        "valid": 1,
+        "label": "redirect_to_login_page"
+    },
+    "example_21": {
+        "top_left": [
+            1232,
+            68
+        ],
+        "bottom_right": [
+            1310,
+            85
+        ],
+        "valid": 1,
+        "label": "referral_link"
+    },
+    "example_22": {
+        "top_left": [
+            130,
+            646
+        ],
+        "bottom_right": [
+            360,
+            695
+        ],
+        "valid": 1,
+        "label": "expand_goal_click_plus_sign"
+    },
+    "example_23": {
+        "top_left": [
+            130,
+            494
+        ],
+        "bottom_right": [
+            360,
+            544
+        ],
+        "valid": 1,
+        "label": "filter_by_width"
+    },
+    "example_24": {
+        "top_left": [
+            212,
+            211
+        ],
+        "bottom_right": [
+            266,
+            224
+        ],
+        "valid": 1,
+        "label": "redirect_to_Volley_Ball"
+    },
+    "example_25": {
+        "top_left": [
+            1176,
+            68
+        ],
+        "bottom_right": [
+            1208,
+            85
+        ],
+        "valid": 1,
+        "label": "log_in_button"
+    },
+    "example_26": {
+        "top_left": [
+            720,
+            823
+        ],
+        "bottom_right": [
+            1000,
+            827
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_27": {
+        "top_left": [
+            791,
+            88
+        ],
+        "bottom_right": [
+            847,
+            144
+        ],
+        "valid": 1,
+        "label": "redirects_to_sales_page"
+    },
+    "example_28": {
+        "top_left": [
+            971,
+            68
+        ],
+        "bottom_right": [
+            1048,
+            85
+        ],
+        "valid": 1,
+        "label": "redirect_to_Get_On_The_List"
+    },
+    "example_29": {
+        "top_left": [
+            130,
+            211
+        ],
+        "bottom_right": [
+            167,
+            224
+        ],
+        "valid": 1,
+        "label": "redirect to home page"
+    },
+    "example_30": {
+        "top_left": [
+            170,
+            211
+        ],
+        "bottom_right": [
+            210,
+            224
+        ],
+        "valid": 1,
+        "label": "view_sports_options"
+    },
+    "example_31": {
+        "top_left": [
+            532,
+            88
+        ],
+        "bottom_right": [
+            627,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_Sportstyle"
+    },
+    "example_32": {
+        "top_left": [
+            1010,
+            505
+        ],
+        "bottom_right": [
+            1310,
+            865
+        ],
+        "valid": 1,
+        "label": "redirect_to_NETBURNER_BALLISTIC_FF_MT_3_page"
+    },
+    "example_33": {
+        "top_left": [
+            876,
+            68
+        ],
+        "bottom_right": [
+            947,
+            85
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_34": {
+        "top_left": [
+            1277,
+            106
+        ],
+        "bottom_right": [
+            1300,
+            126
+        ],
+        "valid": 1,
+        "label": "shopping_cart_icon"
+    },
+    "example_35": {
+        "top_left": [
+            1200,
+            416
+        ],
+        "bottom_right": [
+            1299,
+            454
+        ],
+        "valid": 1,
+        "label": "sort_by_newest"
+    },
+    "example_36": {
+        "top_left": [
+            130,
+            292
+        ],
+        "bottom_right": [
+            360,
+            342
+        ],
+        "valid": 1,
+        "label": "dropdown_size_filter"
+    },
+    "example_37": {
+        "top_left": [
+            130,
+            444
+        ],
+        "bottom_right": [
+            360,
+            493
+        ],
+        "valid": 1,
+        "label": "filter_by_Product_Type"
+    },
+    "example_38": {
+        "top_left": [
+            847,
+            88
+        ],
+        "bottom_right": [
+            907,
+            144
+        ],
+        "valid": 1,
+        "label": "redirects_to_gifts"
+    },
+    "example_39": {
+        "top_left": [
+            1072,
+            68
+        ],
+        "bottom_right": [
+            1152,
+            85
+        ],
+        "valid": 1,
+        "label": "redirect_to_join_onebasics"
+    },
+    "example_40": {
+        "top_left": [
+            410,
+            505
+        ],
+        "bottom_right": [
+            710,
+            865
+        ],
+        "valid": 1,
+        "label": "select_product"
+    }
+}

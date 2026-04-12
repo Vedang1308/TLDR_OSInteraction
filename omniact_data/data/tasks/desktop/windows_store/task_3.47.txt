@@ -1,0 +1,3 @@
+Task: Navigate to Home Screen
+Output Script:
+pyautogui.click(46.0,99.0)

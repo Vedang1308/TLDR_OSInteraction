@@ -1,0 +1,4 @@
+Task: Increase the number of travellers by 2.
+Output script:
+pyautogui.click(1449.0,499.5)
+pyautogui.click(1449.0,499.5)

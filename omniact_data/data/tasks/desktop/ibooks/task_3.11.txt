@@ -1,0 +1,5 @@
+Task: Change the font size to 14
+Output Script:
+pyautogui.click(3011.0,103.0)
+pyautogui.write("14")
+pyautogui.press("enter")

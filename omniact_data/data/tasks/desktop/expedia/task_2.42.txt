@@ -1,0 +1,3 @@
+Task: Choose the bundle option for a hotel stay and car rental.
+Output script:
+pyautogui.click(428.0,106.5)

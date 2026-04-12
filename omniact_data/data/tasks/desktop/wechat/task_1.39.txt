@@ -1,0 +1,3 @@
+Task: See additional conversation features
+Output Script:
+pyautogui.click(1898.5,48.0)

@@ -1,0 +1,6 @@
+Task: Use the keyboard keys to select the second option from the menu that is accessed by a mouse click.
+Output Script:
+pyautogui.click(1769.5,50.0)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

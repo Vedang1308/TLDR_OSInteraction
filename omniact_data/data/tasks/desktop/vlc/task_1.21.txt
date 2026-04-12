@@ -1,0 +1,3 @@
+Task: Capture the display of the currently opened VLC media player
+Output Script:
+pyautogui.click(1767.5,169.5)

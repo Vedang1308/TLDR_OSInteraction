@@ -1,0 +1,3 @@
+Task: Toggle to the new outlook
+Output Script:
+Pyautogui.click(1697.5,70.0)

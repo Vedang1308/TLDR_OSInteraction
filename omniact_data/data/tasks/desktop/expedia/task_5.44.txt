@@ -1,0 +1,3 @@
+Task: Show locations within proximity of "Central Park".
+Output script:
+pyautogui.click(1442.5,1338.0)

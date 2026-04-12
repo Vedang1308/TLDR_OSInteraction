@@ -1,0 +1,4 @@
+Task: Open the image in full screen mode
+Output Script:
+pyautogui.click(1768.0,113.0)
+pyautogui.hotkey("ctrl", "f")

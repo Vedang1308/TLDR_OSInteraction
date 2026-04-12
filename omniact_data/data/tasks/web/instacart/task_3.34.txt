@@ -1,0 +1,3 @@
+Task: Browse the deals of popular products only
+Output Script:
+pyautogui.click(158.0,322.0)

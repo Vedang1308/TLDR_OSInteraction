@@ -1,0 +1,3 @@
+Task: Expand book view to maximum
+Output Script:
+pyautogui.click(1136.5,196.0)

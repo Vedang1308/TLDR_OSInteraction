@@ -1,0 +1,3 @@
+Task: Access the notification panel
+Output Script:
+pyautogui.click(1377.0,186.0)

@@ -1,0 +1,3 @@
+Task: Initiate the Edit Options function
+Output Script:
+pyautogui.click(327.0,24.5)

@@ -1,0 +1,4 @@
+Task: Open the "template.txt" file and copy all its content to the clipboard.
+Output Script:
+pyautogui.doubleClick(811.5,340.5)
+pyautogui.hotkey("ctrl","a")

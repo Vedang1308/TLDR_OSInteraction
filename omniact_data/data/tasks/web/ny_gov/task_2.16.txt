@@ -1,0 +1,3 @@
+Task: Discover additional services by selecting the "Explore Services" option
+Output Script:
+pyautogui.click(720.0,362.0)

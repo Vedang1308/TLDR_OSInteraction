@@ -1,0 +1,7 @@
+Task: "Obtain cost details for renting a truck with pick-up at location A and drop off at location B"
+Output Script:
+pyautogui.click(317.0,576.5)
+pyautogui.write("A")
+pyautogui.click(627.0,576.5)
+pyautogui.write("B")
+pyautogui.click(1185.0,577.0)

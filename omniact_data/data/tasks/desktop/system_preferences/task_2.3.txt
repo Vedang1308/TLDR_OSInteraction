@@ -1,0 +1,3 @@
+Task: Go to screen saver tab of the settings.
+Output Script:
+pyautogui.click(1378.0,302.0)

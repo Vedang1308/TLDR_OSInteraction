@@ -1,0 +1,5 @@
+Task: Find all emails from the sender "UPS"
+Output script:
+pyautogui.click(2827.0,51.0)
+pyautogui.write("UPS")
+pyautogui.press("enter")

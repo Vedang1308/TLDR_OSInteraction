@@ -1,0 +1,5 @@
+Task: Grab and copy all blue text from "drizzle" through to "manzana".
+Output Script:
+pyautogui.moveTo(2572.0,1139.0)
+pyautogui.dragTo(1153.5,1865.0, button = "left")
+pyautogui.hotkey("ctrl", "c")

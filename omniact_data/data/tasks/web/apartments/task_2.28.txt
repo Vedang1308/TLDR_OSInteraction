@@ -1,0 +1,4 @@
+Task: Explore the customer"s appraisal section.
+Output script:
+pyautogui.click(224.0,731.5)
+pyautogui.scroll(30)

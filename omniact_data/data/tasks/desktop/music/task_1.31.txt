@@ -1,0 +1,4 @@
+Task: Explore various radio channels via scrolling.
+Output script:
+pyautogui.moveTo(1881.5,1028.0)
+pyautogui.scroll(30)

@@ -1,0 +1,4 @@
+Task: Drag from 9 am slot to 1 pm slot to schedule an event.
+Output script:
+pyautogui.click(1096.0,385.0)
+pyautogui.dragTo(1083.0,892.5"left")

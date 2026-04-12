@@ -1,0 +1,3 @@
+Task: Click on the image with three mattresses to open up the corresponding article
+Output Script:
+pyautogui.click(242.5,820.5)

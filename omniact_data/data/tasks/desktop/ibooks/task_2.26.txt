@@ -1,0 +1,3 @@
+Task: Place the desired book in your wishlist
+Output Script:
+pyautogui.click(1268.0,824.0)

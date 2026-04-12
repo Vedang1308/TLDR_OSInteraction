@@ -1,0 +1,3 @@
+Task: Navigate to "More to Explore" section and select Kids books
+Output Script:
+pyautogui.click(1312.5,1377.0)

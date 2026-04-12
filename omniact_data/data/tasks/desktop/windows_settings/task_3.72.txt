@@ -1,0 +1,3 @@
+Task: Access the Battery options from the left side menu
+Output Script:
+pyautogui.click(202.5,585.5)

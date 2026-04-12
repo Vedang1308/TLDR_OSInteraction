@@ -1,0 +1,3 @@
+Task: Change the view to day
+Output Script:
+Pyautogui.click(1218.5,71.0)

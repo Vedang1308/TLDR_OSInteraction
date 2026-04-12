@@ -1,0 +1,167 @@
+{
+    "example_0": {
+        "top_left": [
+            41,
+            160
+        ],
+        "bottom_right": [
+            963,
+            295
+        ],
+        "label": "hotel stays"
+    },
+    "example_1": {
+        "top_left": [
+            978,
+            158
+        ],
+        "bottom_right": [
+            1906,
+            297
+        ],
+        "label": "flight"
+    },
+    "example_2": {
+        "top_left": [
+            1919,
+            159
+        ],
+        "bottom_right": [
+            2847,
+            294
+        ],
+        "label": "cars"
+    },
+    "example_3": {
+        "top_left": [
+            34,
+            312
+        ],
+        "bottom_right": [
+            964,
+            448
+        ],
+        "label": "things to do"
+    },
+    "example_4": {
+        "top_left": [
+            979,
+            313
+        ],
+        "bottom_right": [
+            1903,
+            447
+        ],
+        "label": "cruises"
+    },
+    "example_5": {
+        "top_left": [
+            1917,
+            311
+        ],
+        "bottom_right": [
+            2844,
+            448
+        ],
+        "label": "packages"
+    },
+    "example_6": {
+        "top_left": [
+            33,
+            503
+        ],
+        "bottom_right": [
+            2853,
+            623
+        ],
+        "label": "chatGPT"
+    },
+    "example_7": {
+        "top_left": [
+            2576,
+            670
+        ],
+        "bottom_right": [
+            2830,
+            720
+        ],
+        "label": "one key cash"
+    },
+    "example_8": {
+        "top_left": [
+            145,
+            1735
+        ],
+        "bottom_right": [
+            791,
+            1780
+        ],
+        "label": "home"
+    },
+    "example_9": {
+        "top_left": [
+            807,
+            1738
+        ],
+        "bottom_right": [
+            1292,
+            1784
+        ],
+        "label": "search"
+    },
+    "example_10": {
+        "top_left": [
+            1301,
+            1737
+        ],
+        "bottom_right": [
+            1771,
+            1784
+        ],
+        "label": "trips"
+    },
+    "example_11": {
+        "top_left": [
+            1786,
+            1738
+        ],
+        "bottom_right": [
+            2345,
+            1784
+        ],
+        "label": "notification"
+    },
+    "example_12": {
+        "top_left": [
+            2360,
+            1739
+        ],
+        "bottom_right": [
+            2859,
+            1786
+        ],
+        "label": "account"
+    },
+    "example_13": {
+        "top_left": [
+            2772,
+            1620
+        ],
+        "bottom_right": [
+            2841,
+            1674
+        ],
+        "label": "chat"
+    },
+    "example_14": {
+        "top_left": [
+            40,
+            837
+        ],
+        "bottom_right": [
+            2840,
+            1718
+        ],
+        "label": "explore stays"
+    }
+}

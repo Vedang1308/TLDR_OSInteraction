@@ -1,0 +1,4 @@
+Task: "Close the search and replace box and minimize the document"
+Output Script:
+pyautogui.click(1205.0,436.0)
+pyautogui.click(36.0,537.0)

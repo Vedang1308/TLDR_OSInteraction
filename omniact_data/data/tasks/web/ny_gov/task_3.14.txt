@@ -1,0 +1,5 @@
+Task: Select the second item from the About dropdown menu.
+Output Script:
+pyautogui.click(937.5,131.0)
+pyautogui.press("tab")
+pyautogui.press("enter")

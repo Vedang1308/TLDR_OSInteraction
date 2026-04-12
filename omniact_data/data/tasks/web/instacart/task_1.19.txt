@@ -1,0 +1,3 @@
+Task: Reveal all Pittsburgh-based stores
+Output Script:
+pyautogui.click(720.0,848.0)

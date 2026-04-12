@@ -1,0 +1,3 @@
+Task: "How do I install a trailer?"
+Output Script:
+pyautogui.click(1161.5,82.0)

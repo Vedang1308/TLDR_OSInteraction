@@ -1,0 +1,3 @@
+Task: Explore different phone packages
+Output Script:
+pyautogui.click(720.0,134.5)

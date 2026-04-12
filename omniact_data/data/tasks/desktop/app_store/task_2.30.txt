@@ -1,0 +1,3 @@
+Task: Click on "See All" to get a full view of available choices.
+Output script:
+pyautogui.click(2746.5,1756.0)

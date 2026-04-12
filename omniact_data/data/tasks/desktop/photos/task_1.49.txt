@@ -1,0 +1,3 @@
+Task: Select the image before the last one in the final row
+Output Script:
+pyautogui.click(2480.5,1749.5)

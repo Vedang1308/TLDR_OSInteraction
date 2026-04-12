@@ -1,0 +1,18 @@
+{
+    "1": "expand_backup",
+    "2": "expand_desktop",
+    "3": "expand_downloads",
+    "4": "expand_personal",
+    "5": "expand_projects",
+    "6": "expand_work",
+    "7": "open_backup",
+    "8": "sort_name",
+    "9": "sort_date",
+    "10": "sort_size",
+    "11": "sort_kind",
+    "12": "open_desktop",
+    "13": "open_downloads",
+    "14": "open_personal",
+    "15": "open_projects",
+    "16": "open_work"
+}

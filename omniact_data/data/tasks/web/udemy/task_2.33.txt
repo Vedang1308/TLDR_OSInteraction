@@ -1,0 +1,2 @@
+Task: Move to the "Communications" section under Business courses
+pyautogui.click(335.0,97.0)

@@ -1,0 +1,3 @@
+Task: "Access the document named code_algo using the tab bar"
+Output Script:
+pyautogui.click(645.5,92.5)

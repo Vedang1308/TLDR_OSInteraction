@@ -1,0 +1,3 @@
+Task: Scrutinize the stock price variation for the past 24 months.
+Output script:
+pyautogui.click(2153.5,391.5)

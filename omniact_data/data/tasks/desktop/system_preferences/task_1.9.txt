@@ -1,0 +1,3 @@
+Task: Check the trackpad settings.
+Output Script:
+pyautogui.click(1715.0,964.5)

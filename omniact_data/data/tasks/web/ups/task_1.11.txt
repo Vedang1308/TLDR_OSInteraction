@@ -1,0 +1,5 @@
+Task: Insert the allocated Tracking Number "A123456" into the tracking system and confirm the query by pressing enter.
+Output Script:
+pyautogui.click(590.0,347.0)
+pyautogui.write("A123456")
+pyautogui.press("enter")

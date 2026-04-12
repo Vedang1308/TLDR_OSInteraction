@@ -1,0 +1,3 @@
+Task: Return two pages to browse all the washers
+Output Script:
+pyautogui.click(235.0,106.5)

@@ -1,0 +1,4 @@
+Task: Make a duplicate of the folder named "backup".
+Output Script:
+pyautogui.click(1138.5,602.5)
+pyautogui.hotkey("ctrl", "c")

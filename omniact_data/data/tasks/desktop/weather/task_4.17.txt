@@ -1,0 +1,3 @@
+Task: Confirm the sun"s position at 8pm from the popup
+Output Script:
+pyautogui.click(2848.5,749.5)

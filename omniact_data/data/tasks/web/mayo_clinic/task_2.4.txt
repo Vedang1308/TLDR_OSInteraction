@@ -1,0 +1,3 @@
+Task: I want to work here – look for a job at Mayo Clinic.
+Output Script:
+pyautogui.click(1021.0,658.0)

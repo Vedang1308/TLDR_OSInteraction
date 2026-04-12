@@ -1,0 +1,3 @@
+Task: Open the "Health" tab.
+Output script:
+pyautogui.click(225.5,1136.0)

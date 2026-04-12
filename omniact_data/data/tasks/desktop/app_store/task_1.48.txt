@@ -1,0 +1,4 @@
+Task: Initiate the setup procedure for the "DaVinci Resolve" software.
+Output script:
+pyautogui.click(1180.0,1606.0)
+pyautogui.click(1180.0,1606.0)

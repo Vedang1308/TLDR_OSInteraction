@@ -1,0 +1,3 @@
+Task: Opt for a package deal of airfare and accommodation.
+Output script:
+pyautogui.click(92.0,105.0)

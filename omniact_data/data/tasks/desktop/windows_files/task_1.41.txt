@@ -1,0 +1,3 @@
+Task: Select the "back" button in the top left navigation bar to move up one directory.
+Output Script:
+pyautogui.click(22.5,197.5)

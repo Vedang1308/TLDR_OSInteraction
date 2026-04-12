@@ -1,0 +1,5 @@
+Task: Insert the guest with email "alice@gmail.com" in the invitee list
+Output script:
+pyautogui.click(1609.0,748.0)
+pyautogui.write("Meeting with Alex")
+pyautogui.press("enter")

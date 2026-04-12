@@ -1,0 +1,3 @@
+Task: Navigate to Grammarly"s subsequent recommendation
+Output script:
+pyautogui.click(1590.5,256.5)

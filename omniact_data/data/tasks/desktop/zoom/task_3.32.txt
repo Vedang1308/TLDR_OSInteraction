@@ -1,0 +1,3 @@
+Task: Implement task to click on "sort app" in opposite direction.
+Output Script:
+pyautogui.click(269.0,287.0)

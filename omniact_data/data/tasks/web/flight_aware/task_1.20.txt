@@ -1,0 +1,3 @@
+Task: Choose the second option from the language dropdown menu using the mouse
+Output Script:
+pyautogui.click(1119.0,12.0)

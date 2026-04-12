@@ -1,0 +1,3 @@
+Task: Silence the sound
+Output Script:
+pyautogui.click(2828.0,588.5)

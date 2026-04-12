@@ -1,0 +1,5 @@
+Task: Set "Big Ben" as the location to reach.
+Output script:
+pyautogui.click(2574.0,300.0)
+pyautogui.write("Big Ben")
+pyautogui.press("Enter")

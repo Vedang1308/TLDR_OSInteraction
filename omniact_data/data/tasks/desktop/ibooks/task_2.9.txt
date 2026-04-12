@@ -1,0 +1,4 @@
+Task: Scroll down to read the author"s bio
+Output Script:
+pyautogui.moveTo(1880.0,1104.0)
+pyautogui.scroll(70)

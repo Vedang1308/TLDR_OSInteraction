@@ -1,0 +1,3 @@
+Task: Access the shopping interface from the primary menu 
+Output Script:
+pyautogui.click(223.5,40.0)

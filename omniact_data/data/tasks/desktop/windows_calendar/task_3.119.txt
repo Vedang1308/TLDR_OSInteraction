@@ -1,0 +1,4 @@
+Task: Schedule the event for "22 November 2024"
+Output Script:
+pyautogui.click(419.0,432.0)
+pyautogui.write("22 November 2024")

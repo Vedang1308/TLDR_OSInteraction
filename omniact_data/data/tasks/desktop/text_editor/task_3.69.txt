@@ -1,0 +1,3 @@
+Task: "Terminate the untitled document through the orange panel"
+Output Script:
+pyautogui.click(259.0,126.5)

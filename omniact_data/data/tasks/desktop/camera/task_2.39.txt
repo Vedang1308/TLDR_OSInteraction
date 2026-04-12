@@ -1,0 +1,4 @@
+Task: Initiate Cheese details on screen
+Output Script:
+pyautogui.click(1892.0,49.5)
+pyautogui.click(1769.5,220.0)

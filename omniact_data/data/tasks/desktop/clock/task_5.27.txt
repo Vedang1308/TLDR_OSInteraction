@@ -1,0 +1,4 @@
+Task: Set alarm to reoccur on Saturdays and Sundays
+Output Script:
+pyautogui.click(1891.5,1011.0)
+pyautogui.click(1579.5,1010.0)

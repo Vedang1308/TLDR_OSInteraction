@@ -1,0 +1,3 @@
+Task: Determine if they carry size medium in stock.
+Output Script: 
+pyautogui.click(1082.5,477.5)

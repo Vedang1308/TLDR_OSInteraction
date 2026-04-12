@@ -1,0 +1,4 @@
+Task: Move through the page to find the most sought-after flights going to Chicago
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

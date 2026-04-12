@@ -1,0 +1,3 @@
+Task: Add one more passenger to the journey.
+Output script:
+pyautogui.click(1449.0,499.5)

@@ -1,0 +1,3 @@
+Task: Select the number 2 on the screen 
+Output script:
+pyautogui.click(2258.5,164.0)

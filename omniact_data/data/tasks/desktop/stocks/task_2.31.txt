@@ -1,0 +1,4 @@
+Task: Navigate to the 12pm data point and drag to 2pm on the graph.
+Output script:
+pyautogui.moveTo(1533.0,688.5)
+pyautogui.dragTo(2088.0,663.5, button="left")

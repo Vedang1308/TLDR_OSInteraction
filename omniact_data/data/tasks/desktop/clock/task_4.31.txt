@@ -1,0 +1,3 @@
+Task: Update the 8pm alarm arrangement
+Output Script:
+pyautogui.click(1473.0,315.0)

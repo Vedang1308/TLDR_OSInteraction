@@ -1,0 +1,3 @@
+Task: Add to cart (1st item) by clicking on corresponding shopping bag
+Output Script:
+pyautogui.click(216.0,858.0)

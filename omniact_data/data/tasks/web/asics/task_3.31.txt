@@ -1,0 +1,6 @@
+Task: Review the aquamarine color option and select medium size, scroll through additional images but then close the window if no items of interest are found.
+Output Script:
+pyautogui.click(1039.0,386.0)
+pyautogui.click(1082.5,477.5)
+pyautogui.click(846.0,516.0)
+pyautogui.hotkey("ctrl", "w")

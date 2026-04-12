@@ -1,0 +1,3 @@
+Task: View the weather in Niagara Falls
+Output Script:
+pyautogui.click(317.5,412.0)

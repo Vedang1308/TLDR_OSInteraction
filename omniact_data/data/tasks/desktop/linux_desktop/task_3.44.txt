@@ -1,0 +1,5 @@
+Task: Find the "translate" program in the applications
+Output Script:
+pyautogui.click(959.0,67.0)
+pyautogui.write("translate")
+pyautogui.press("Enter")

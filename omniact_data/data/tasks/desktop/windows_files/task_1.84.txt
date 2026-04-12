@@ -1,0 +1,4 @@
+Task: Choose all files in the present directory using the check boxes next to them.
+Output Script:
+pyautogui.click(958.5,75.0)
+pyautogui.hotkey("ctrl", "a")

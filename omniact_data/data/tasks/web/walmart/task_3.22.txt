@@ -1,0 +1,3 @@
+Task: Evaluate the seller"s profile information
+Output Script:
+pyautogui.click(1087.0,834.0)

@@ -1,0 +1,3 @@
+Task: Proceed in a downward direction to uncover additional news stories.
+Output script:
+pyautogui.scroll(-100)

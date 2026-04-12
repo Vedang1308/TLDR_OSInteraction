@@ -1,0 +1,3 @@
+Task: Network with others through the calendar functionality
+Output Script:
+Pyautogui.click(151.0,1000.0)

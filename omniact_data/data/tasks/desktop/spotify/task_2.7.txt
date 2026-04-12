@@ -1,0 +1,3 @@
+Task: Close the ad
+Output script:
+pyautogui.click(1855.0,738.0)

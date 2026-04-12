@@ -1,0 +1,3 @@
+Task: Navigate to order again page
+Output Script:
+pyautogui.click(452.5,97.5)

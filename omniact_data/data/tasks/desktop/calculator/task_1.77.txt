@@ -1,0 +1,5 @@
+Task: Find the cosine of an angle measuring 60 degrees
+Output Script:
+pyautogui.click(2053.0,1066.0)
+pyautogui.click(1881.0,1255.5)
+pyautogui.click(1365.0,1159.5)

@@ -1,0 +1,3 @@
+Task: Pick the option to set up the start time for your Mac.
+Output Script:
+pyautogui.click(787.0,930.0)

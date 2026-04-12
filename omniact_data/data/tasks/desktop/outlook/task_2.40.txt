@@ -1,0 +1,3 @@
+Task: Dispatch the pre-written email
+Output Script:
+pyautogui.click(1571.0,70.0)

@@ -1,0 +1,3 @@
+Task: Incorporate the existing product to "My Items"
+Output Script:
+pyautogui.click(908.0,290.0)

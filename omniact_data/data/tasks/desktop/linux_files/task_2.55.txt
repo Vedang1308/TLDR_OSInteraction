@@ -1,0 +1,3 @@
+Task: Use mouse pointer to navigate to the "Help" menu
+Output Script:
+pyautogui.click(1768.0,384.5)

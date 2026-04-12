@@ -1,0 +1,3 @@
+Task: Check the most recent employment trends in Indeed
+Output Script:
+pyautogui.click(720.0,395.0)

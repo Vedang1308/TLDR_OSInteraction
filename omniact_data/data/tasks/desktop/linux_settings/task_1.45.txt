@@ -1,0 +1,3 @@
+Task: Set audio level to maximum
+Output Script:
+pyautogui.click(1309.5,388.0)

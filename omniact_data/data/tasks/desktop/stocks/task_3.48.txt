@@ -1,0 +1,4 @@
+Task: Initiate the following video in the news category.
+Output script:
+pyautogui.click(1773.0,1084.0)
+pyautogui.click(1773.0,1084.0)

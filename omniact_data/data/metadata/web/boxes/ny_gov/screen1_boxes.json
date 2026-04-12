@@ -1,0 +1,134 @@
+{
+    "example_0": {
+        "top_left": [
+            1364,
+            38
+        ],
+        "bottom_right": [
+            1364,
+            65
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_1": {
+        "top_left": [
+            603,
+            638
+        ],
+        "bottom_right": [
+            813,
+            788
+        ],
+        "valid": 1,
+        "label": "redirect_to_licenses_page"
+    },
+    "example_2": {
+        "top_left": [
+            0,
+            0
+        ],
+        "bottom_right": [
+            1,
+            1
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_3": {
+        "top_left": [
+            10,
+            10
+        ],
+        "bottom_right": [
+            248,
+            80
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_4": {
+        "top_left": [
+            865,
+            638
+        ],
+        "bottom_right": [
+            1075,
+            788
+        ],
+        "valid": 1,
+        "label": "redirect_to_pay_parking_ticket_page"
+    },
+    "example_5": {
+        "top_left": [
+            1128,
+            638
+        ],
+        "bottom_right": [
+            1338,
+            788
+        ],
+        "valid": 1,
+        "label": "redirect_to_Find_A_Job"
+    },
+    "example_6": {
+        "top_left": [
+            408,
+            26
+        ],
+        "bottom_right": [
+            477,
+            66
+        ],
+        "valid": 1,
+        "label": "redirect_to_news_page"
+    },
+    "example_7": {
+        "top_left": [
+            501,
+            26
+        ],
+        "bottom_right": [
+            630,
+            66
+        ],
+        "valid": 1,
+        "label": "redirect_to_government_page"
+    },
+    "example_8": {
+        "top_left": [
+            289,
+            26
+        ],
+        "bottom_right": [
+            384,
+            66
+        ],
+        "valid": 1,
+        "label": "redirect_to_services"
+    },
+    "example_9": {
+        "top_left": [
+            105,
+            500
+        ],
+        "bottom_right": [
+            223,
+            517
+        ],
+        "valid": 1,
+        "label": "redirect_to_Press_Release"
+    },
+    "example_10": {
+        "top_left": [
+            340,
+            638
+        ],
+        "bottom_right": [
+            550,
+            788
+        ],
+        "valid": 1,
+        "label": "apply_for_snap"
+    }
+}

@@ -1,0 +1,182 @@
+{
+    "example_0": {
+        "top_left": [
+            1238,
+            24
+        ],
+        "bottom_right": [
+            1288,
+            40
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_1": {
+        "top_left": [
+            517,
+            156
+        ],
+        "bottom_right": [
+            639,
+            180
+        ],
+        "valid": 1,
+        "label": "search_receipts"
+    },
+    "example_2": {
+        "top_left": [
+            178,
+            368
+        ],
+        "bottom_right": [
+            190,
+            381
+        ],
+        "valid": 1,
+        "label": "button_icon"
+    },
+    "example_3": {
+        "top_left": [
+            898,
+            22
+        ],
+        "bottom_right": [
+            1057,
+            39
+        ],
+        "valid": 1,
+        "label": "select_English_United_States"
+    },
+    "example_4": {
+        "top_left": [
+            178,
+            603
+        ],
+        "bottom_right": [
+            338,
+            659
+        ],
+        "valid": 1,
+        "label": "search_confirmation"
+    },
+    "example_5": {
+        "top_left": [
+            152,
+            35
+        ],
+        "bottom_right": [
+            366,
+            57
+        ],
+        "valid": 1,
+        "label": "redirect to United home page"
+    },
+    "example_6": {
+        "top_left": [
+            1081,
+            22
+        ],
+        "bottom_right": [
+            1143,
+            38
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_7": {
+        "top_left": [
+            1249,
+            59
+        ],
+        "bottom_right": [
+            1288,
+            83
+        ],
+        "valid": 1,
+        "label": "help_button"
+    },
+    "example_8": {
+        "top_left": [
+            178,
+            517
+        ],
+        "bottom_right": [
+            626,
+            563
+        ],
+        "valid": 1,
+        "label": "customer_last_name"
+    },
+    "example_9": {
+        "top_left": [
+            1168,
+            20
+        ],
+        "bottom_right": [
+            1238,
+            40
+        ],
+        "valid": 1,
+        "label": "redirect_to_Sign_In_Page"
+    },
+    "example_10": {
+        "top_left": [
+            178,
+            408
+        ],
+        "bottom_right": [
+            626,
+            454
+        ],
+        "valid": 1,
+        "label": "text_box_confirmation_number"
+    },
+    "example_11": {
+        "top_left": [
+            152,
+            741
+        ],
+        "bottom_right": [
+            304,
+            765
+        ],
+        "valid": 1,
+        "label": "redirect_to_search_travel_credits"
+    },
+    "example_12": {
+        "top_left": [
+            1241,
+            99
+        ],
+        "bottom_right": [
+            1257,
+            115
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_13": {
+        "top_left": [
+            249,
+            454
+        ],
+        "bottom_right": [
+            281,
+            477
+        ],
+        "valid": 1,
+        "label": "help_icon"
+    },
+    "example_14": {
+        "top_left": [
+            391,
+            368
+        ],
+        "bottom_right": [
+            404,
+            381
+        ],
+        "valid": 1,
+        "label": "button_icon"
+    }
+}

@@ -1,0 +1,3 @@
+Task: Choose the second news item listed under Tasting Table"s "More" section.
+Output script:
+pyautogui.click(1390.5,1360.5)

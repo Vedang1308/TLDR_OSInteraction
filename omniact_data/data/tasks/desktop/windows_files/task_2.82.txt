@@ -1,0 +1,9 @@
+Task: Locate the "photos" folder and mark the first five images.
+Output Script:
+pyautogui.click(1449.0,262.5)
+pyautogui.click(1449.0,262.5)
+pyautogui.press("right")
+pyautogui.hotkey("shift","right")
+pyautogui.hotkey("shift","right")
+pyautogui.hotkey("shift","right")
+pyautogui.hotkey("shift","right")

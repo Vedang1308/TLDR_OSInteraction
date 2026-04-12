@@ -1,0 +1,3 @@
+Task: Advance to the following photo
+Output script:
+pyautogui.click(1408.0,291.0)

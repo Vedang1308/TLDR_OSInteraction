@@ -1,0 +1,3 @@
+Task: Initiate Windows update procedure by clicking the button placed at the bottom right corner
+Output Script:
+pyautogui.click(1221.5,139.0)

@@ -1,0 +1,5 @@
+Task: Browse Adult books from top right dropdown
+Output Script:
+pyautogui.click(3194.0,52.0)
+pyautogui.write("Adult")
+pyautogui.press("enter")

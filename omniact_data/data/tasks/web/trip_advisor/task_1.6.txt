@@ -1,0 +1,3 @@
+Task: Select the button on the upper right to access the login page 
+Output Script:
+pyautogui.click(1248.5,30.0)

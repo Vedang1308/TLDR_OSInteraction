@@ -1,0 +1,5 @@
+Task: Find the stock listed under "Adobe" using the search bar on the top left.
+Output script:
+pyautogui.click(329.5,149.5)
+pyautogui.write("Adobe")
+pyautogui.press("enter")

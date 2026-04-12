@@ -1,0 +1,3 @@
+Task: Click on the yellow button to minimize the Screen
+Output Script:
+pyautogui.click(136.5,103.0)

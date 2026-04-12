@@ -1,0 +1,7 @@
+Task: Find local lodging options
+Output Script:
+pyautogui.click(392.0,30.0)
+pyautogui.write("accom")
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

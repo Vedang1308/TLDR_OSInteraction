@@ -1,0 +1,5 @@
+Task: Modify musical tone to "piano"
+Output Script:
+pyautogui.click(1678.5,1196.5)
+pyautogui.write("piano")
+pyautogui.press("enter")

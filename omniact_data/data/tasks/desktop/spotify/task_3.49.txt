@@ -1,0 +1,3 @@
+Task: Arrange the songs in the playlist according to their title
+Output script:
+pyautogui.click(774.0,425.5)

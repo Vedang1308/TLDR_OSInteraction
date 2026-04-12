@@ -1,0 +1,3 @@
+Task: Look for firms that are currently hiring
+Output Script:
+pyautogui.click(388.5,785.0)

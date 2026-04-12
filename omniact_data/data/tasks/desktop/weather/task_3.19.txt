@@ -1,0 +1,3 @@
+Task: For obtaining the 13th"s weather information, hit the date button.
+Output Script:
+pyautogui.click(1937.0,808.0)

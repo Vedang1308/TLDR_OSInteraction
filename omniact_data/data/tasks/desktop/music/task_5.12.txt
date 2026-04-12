@@ -1,0 +1,3 @@
+Task: Checl the playlist English Slow
+Output Script:
+pyautogui.click(1172.0,1003.0)

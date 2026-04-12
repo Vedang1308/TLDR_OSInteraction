@@ -1,0 +1,4 @@
+Task: Arrange the files in descending order based on date
+Output Script:
+pyautogui.click(2719.0,132.5)
+pyautogui.click(2719.0,132.5)

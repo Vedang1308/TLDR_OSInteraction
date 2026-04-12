@@ -1,0 +1,3 @@
+Task: Order the list of individuals for an event by their family name
+Output Script:
+pyautogui.click(1453.0,337.0)

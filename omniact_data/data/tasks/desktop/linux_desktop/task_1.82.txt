@@ -1,0 +1,3 @@
+Task: Access Bluetooth Configuration
+Output Script:
+pyautogui.click(1752.5,234.0)

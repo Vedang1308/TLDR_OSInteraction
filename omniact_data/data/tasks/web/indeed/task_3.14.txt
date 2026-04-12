@@ -1,0 +1,3 @@
+Task: Show disapproval for the recommended job
+Output Script:
+pyautogui.click(1198.0,771.0)

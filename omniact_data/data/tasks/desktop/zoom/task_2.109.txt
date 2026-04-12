@@ -1,0 +1,3 @@
+Task: Access the settings for audio.
+Output Script:
+pyautogui.click(156.0,1741.0)

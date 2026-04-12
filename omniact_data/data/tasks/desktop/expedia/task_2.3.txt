@@ -1,0 +1,3 @@
+Task: Choose the options to change the number of travellers.
+Output script:
+pyautogui.click(1449.0,499.5)

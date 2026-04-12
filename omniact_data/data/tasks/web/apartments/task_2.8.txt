@@ -1,0 +1,5 @@
+Task: Compose a message saying "hello" and press send
+Output script:
+pyautogui.click(1154.5,726.0)
+pyautogui.write("hello")
+pyautogui.press("enter")

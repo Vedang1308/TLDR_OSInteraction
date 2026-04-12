@@ -1,0 +1,5 @@
+Task: Add three tables to the cart
+Output Script:
+pyautogui.click(368.5,847.0)
+pyautogui.press("enter")
+pyautogui.press("enter")

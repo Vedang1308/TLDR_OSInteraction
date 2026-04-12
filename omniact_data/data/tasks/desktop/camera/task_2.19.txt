@@ -1,0 +1,3 @@
+Task: Open fullscreen view
+Output Script:
+pyautogui.click(1769.5,110.0)

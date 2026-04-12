@@ -1,0 +1,7 @@
+Task: Change the existing search 
+Output Script:
+pyautogui.click(960.5,28.0)
+pyautogui.write("abc")
+pyutogui.hotkey("ctrl","a")
+pyautogui,write("def")
+pyautogui.press("enter")

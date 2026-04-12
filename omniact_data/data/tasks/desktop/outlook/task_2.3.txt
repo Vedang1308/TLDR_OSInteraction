@@ -1,0 +1,4 @@
+Task: Undo the changes to the draft and discard it
+Output Script:
+pyautogui.click(1450.5,123.0)
+pyautogui.click(1464.5,69.5)

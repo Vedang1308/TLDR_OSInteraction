@@ -1,0 +1,4 @@
+Task: Activate the very first folder on the given list
+Output Script:
+pyautogui.click(1884.0,187.0)
+pyautogui.click(1884.0,187.0)

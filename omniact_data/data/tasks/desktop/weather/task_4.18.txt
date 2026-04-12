@@ -1,0 +1,3 @@
+Task: Determine the placement of the sun at 8pm using the popup
+Output Script:
+pyautogui.click(2848.5,749.5)

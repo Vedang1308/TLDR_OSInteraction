@@ -1,0 +1,5 @@
+Task: Utilize keyboard commands to find apps frequently used
+Output Script:
+pyautogui.hotkey("winleft", "a")
+pyautogui.write("frequent apps")
+pyautogui.press("Enter")

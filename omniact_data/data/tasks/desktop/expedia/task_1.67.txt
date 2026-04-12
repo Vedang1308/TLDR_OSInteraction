@@ -1,0 +1,3 @@
+Task: Examine any updates in the notification icon.
+Output script:
+pyautogui.click(2065.5,1761.0)

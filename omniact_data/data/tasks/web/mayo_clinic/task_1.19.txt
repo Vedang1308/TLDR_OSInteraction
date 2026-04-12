@@ -1,0 +1,3 @@
+Task: Conduct a study on the changes observed at Mayo Clinic
+Output Script:
+pyautogui.click(142.5,642.0)

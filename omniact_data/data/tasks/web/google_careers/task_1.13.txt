@@ -1,0 +1,5 @@
+Task: Look up for the "Software Intern" job positions
+Output Script:
+pyautogui.click(185.5,156.0)
+pyautogui.write("Software Intern")
+pyautogui.press("enter")

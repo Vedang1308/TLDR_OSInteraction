@@ -1,0 +1,24 @@
+{
+    "example_0": {
+        "top_left": [
+            2442,
+            215
+        ],
+        "bottom_right": [
+            2765,
+            273
+        ],
+        "label": "add to watchlist"
+    },
+    "example_1": {
+        "top_left": [
+            23,
+            118
+        ],
+        "bottom_right": [
+            637,
+            173
+        ],
+        "label": "search stock"
+    }
+}

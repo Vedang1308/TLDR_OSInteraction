@@ -1,0 +1,3 @@
+Task: Incorporate a fresh calendar in your profile.
+Output Script:
+pyautogui.click(1857.5,1085.5)

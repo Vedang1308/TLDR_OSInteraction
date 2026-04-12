@@ -1,0 +1,3 @@
+Task: Navigate back to main site without using the website logo.
+Output Script:
+pyautogui.click(143.5,155.5)

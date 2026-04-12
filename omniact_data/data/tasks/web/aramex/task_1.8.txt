@@ -1,0 +1,3 @@
+Task: Utilize the Log in button to get access to an account
+Output Script:
+pyautogui.click(1362.0,38.5)

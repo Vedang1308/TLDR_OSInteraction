@@ -1,0 +1,3 @@
+Task: Access the parent directory of the current video file.
+Output Script:
+pyautogui.click(1765.5,110.5)

@@ -1,0 +1,4 @@
+Task: Set the alarm title to "Morning Jog"
+Output Script:
+pyautogui.click(1737.5,1124.0)
+pyautogui.write("Morning Jog")

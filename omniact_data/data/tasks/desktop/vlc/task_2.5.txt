@@ -1,0 +1,4 @@
+Task: Open the "Preferences" i.e. the first field under Options
+Output Script:
+pyautogui.click(1767.0,48.0)
+pyautogui.press("enter")

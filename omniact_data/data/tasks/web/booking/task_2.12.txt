@@ -1,0 +1,3 @@
+Task: Navigate to booking.com and proceed with property listing by clicking on "List your property". 
+Output Script:
+pyautogui.click(1016.0,36.0)

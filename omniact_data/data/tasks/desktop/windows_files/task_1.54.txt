@@ -1,0 +1,3 @@
+Task: Shrink the window using the icon
+Output Script:
+pyautogui.click(584.0,1053.0)

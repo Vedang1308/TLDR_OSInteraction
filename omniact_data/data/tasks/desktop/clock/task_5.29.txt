@@ -1,0 +1,4 @@
+Task: Activate alarm repetition for the two weekend days
+Output Script:
+pyautogui.click(1891.5,1011.0)
+pyautogui.click(1579.5,1010.0)

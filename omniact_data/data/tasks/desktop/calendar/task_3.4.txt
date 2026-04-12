@@ -1,0 +1,3 @@
+Task: Go to the next month of the calendar.
+Output script:
+pyautogui.click(2835.0,127.5)

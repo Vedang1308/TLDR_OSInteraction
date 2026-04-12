@@ -1,0 +1,3 @@
+Task: Analyze San Francisco"s current weather conditions
+Output Script:
+pyautogui.click(316.0,531.0)

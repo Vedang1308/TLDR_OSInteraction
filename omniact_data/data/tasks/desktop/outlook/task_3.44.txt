@@ -1,0 +1,3 @@
+Task: Switch the text to bold
+Output Script:
+pyautogui.click(768.5,124.0)

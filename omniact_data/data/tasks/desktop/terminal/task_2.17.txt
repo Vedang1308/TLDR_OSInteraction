@@ -1,0 +1,3 @@
+Task: Use the green button to switch off full screen view.
+Output Script:
+pyautogui.click(108.0,75.5)

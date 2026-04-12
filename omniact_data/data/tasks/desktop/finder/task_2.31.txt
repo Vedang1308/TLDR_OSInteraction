@@ -1,0 +1,5 @@
+Task: Through the right click function, remove the last directory in the sequence. 
+Output Script:
+pyautogui.rightClick(1881.0,469.0)
+pyautogui.write("Move to Bin")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Post this on your Pinterest page
+Output Script:
+pyautogui.click(21.0,492.0)

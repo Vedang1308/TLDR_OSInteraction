@@ -1,0 +1,5 @@
+Task: Change sound to "bells"
+Output Script:
+pyautogui.click(1678.5,1196.5)
+pyautogui.write("bells")
+pyautogui.press("enter")

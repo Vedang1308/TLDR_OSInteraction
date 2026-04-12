@@ -1,0 +1,12 @@
+Task: Search Flight by Route using keyboard to switch between textboxes, with Origin as
+Pittsburgh and Destination as JFK
+Output Script:
+pyautogui.click(600.0,655.0)
+pyautogui.write("Pittsburgh")
+pyautogui.press("enter")
+pyautogui.press("Tab")
+pyautogui.press("Tab")
+pyautogui.write("JFK")
+pyautogui.press("enter")
+pyautogui.press("tab")
+pyautogui.press("enter")

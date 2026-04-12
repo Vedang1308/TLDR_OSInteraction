@@ -1,0 +1,3 @@
+Task: Click on the second to last photo in the last line
+Output Script:
+pyautogui.click(2480.5,1749.5)

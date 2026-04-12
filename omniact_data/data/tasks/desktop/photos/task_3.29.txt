@@ -1,0 +1,4 @@
+Task: Traverse to the webpage footer
+Output Script:
+pyautogui.moveTo(1899.0,1178.0)
+pyautogui.scroll(100)

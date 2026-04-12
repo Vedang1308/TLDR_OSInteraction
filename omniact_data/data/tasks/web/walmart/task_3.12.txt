@@ -1,0 +1,6 @@
+Task: Browse through various images of the product
+Output Script:
+pyautogui.click(904.0,574.0)
+pyautogui.press("enter")
+pyautogui.press("enter")
+pyautogui.press("enter")

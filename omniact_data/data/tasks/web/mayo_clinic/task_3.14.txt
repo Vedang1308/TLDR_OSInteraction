@@ -1,0 +1,3 @@
+Task: Head back to the starting page without using the brand emblem.
+Output Script:
+pyautogui.click(143.5,155.5)

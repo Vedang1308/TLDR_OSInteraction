@@ -1,0 +1,6 @@
+Task: Write "Hello" in the appearing section of the screen and bold it
+Output Script:
+pyautogui.click(728.5,585.0)
+pyautogui.write("Hello")
+pyautogui.hotkey("ctrl", "a")
+pyautogui.click(709.5,184.0)

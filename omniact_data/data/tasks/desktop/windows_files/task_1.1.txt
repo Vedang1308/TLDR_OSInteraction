@@ -1,0 +1,4 @@
+Task: Search for "budget" related files with top right search option
+Output Script:
+pyautogui.click(1732.5,196.0)
+pyautogui.write("budget")

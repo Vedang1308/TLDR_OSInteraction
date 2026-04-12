@@ -1,0 +1,4 @@
+Task: Scroll upwards to check out the selection for countries or territories.
+Output Script:
+pyautogui.click(720.0,432.5)
+pyautogui.scroll(-15)

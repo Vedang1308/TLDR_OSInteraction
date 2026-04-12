@@ -1,0 +1,178 @@
+{
+    "example_0": {
+        "top_left": [
+            740,
+            659
+        ],
+        "bottom_right": [
+            915,
+            840
+        ],
+        "label": "new meeting"
+    },
+    "example_1": {
+        "top_left": [
+            1042,
+            656
+        ],
+        "bottom_right": [
+            1217,
+            837
+        ],
+        "label": "join a meeting"
+    },
+    "example_2": {
+        "top_left": [
+            742,
+            1004
+        ],
+        "bottom_right": [
+            915,
+            1179
+        ],
+        "label": "schedule a meeting"
+    },
+    "example_3": {
+        "top_left": [
+            1045,
+            1004
+        ],
+        "bottom_right": [
+            1217,
+            1179
+        ],
+        "label": "share screen"
+    },
+    "example_4": {
+        "top_left": [
+            2817,
+            131
+        ],
+        "bottom_right": [
+            2853,
+            162
+        ],
+        "label": "setting"
+    },
+    "example_5": {
+        "top_left": [
+            2728,
+            29
+        ],
+        "bottom_right": [
+            2776,
+            73
+        ],
+        "label": "notification"
+    },
+    "example_6": {
+        "top_left": [
+            2656,
+            23
+        ],
+        "bottom_right": [
+            2698,
+            73
+        ],
+        "label": "pair with zoom-room"
+    },
+    "example_7": {
+        "top_left": [
+            1606,
+            12
+        ],
+        "bottom_right": [
+            1676,
+            90
+        ],
+        "label": "apps"
+    },
+    "example_8": {
+        "top_left": [
+            1423,
+            12
+        ],
+        "bottom_right": [
+            1517,
+            90
+        ],
+        "label": "contacts"
+    },
+    "example_9": {
+        "top_left": [
+            1267,
+            15
+        ],
+        "bottom_right": [
+            1340,
+            87
+        ],
+        "label": "meeting"
+    },
+    "example_10": {
+        "top_left": [
+            1737,
+            1056
+        ],
+        "bottom_right": [
+            1978,
+            1115
+        ],
+        "label": "add calendar"
+    },
+    "example_11": {
+        "top_left": [
+            2728,
+            20
+        ],
+        "bottom_right": [
+            2770,
+            79
+        ],
+        "label": "open activity center"
+    },
+    "example_12": {
+        "top_left": [
+            2795,
+            18
+        ],
+        "bottom_right": [
+            2851,
+            76
+        ],
+        "label": "account"
+    },
+    "example_13": {
+        "top_left": [
+            31,
+            23
+        ],
+        "bottom_right": [
+            301,
+            79
+        ],
+        "label": "search bar"
+    },
+    "example_14": {
+        "top_left": [
+            1103,
+            18
+        ],
+        "bottom_right": [
+            1181,
+            84
+        ],
+        "label": "home option"
+    },
+    "example_15": {
+        "top_left": [
+            1742,
+            15
+        ],
+        "bottom_right": [
+            1878,
+            95
+        ],
+        "label": "whiteboard options"
+    }
+}

@@ -1,0 +1,3 @@
+Task: Implement a zoom out operation in the active window
+Output script:
+pyautogui.hotkey("ctrl", "-")

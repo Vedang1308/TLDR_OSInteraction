@@ -1,0 +1,3 @@
+Task: Select the comprehensive package including flight booking, hotel reservation, and car rental.
+Output script:
+pyautogui.click(622.0,107.5)

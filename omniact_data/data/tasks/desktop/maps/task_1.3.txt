@@ -1,0 +1,5 @@
+Task: Create new guide by name "tour London".
+Output script:
+pyautogui.click(108.0,976.5)
+pyautogui.write("tour London")
+pyautogui.press("enter")

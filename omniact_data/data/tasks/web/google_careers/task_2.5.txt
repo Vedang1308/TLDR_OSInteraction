@@ -1,0 +1,3 @@
+Task: Check Africa and Middle East Location
+Output Script:
+pyautogui.click(1057.0,336.0)

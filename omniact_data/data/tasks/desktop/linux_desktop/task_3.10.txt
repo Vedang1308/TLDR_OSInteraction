@@ -1,0 +1,5 @@
+Task: Search for "translale" application
+Output Script:
+pyautogui.click(959.0,67.0)
+pyautogui.write("translate")
+pyautogui.press("Enter")

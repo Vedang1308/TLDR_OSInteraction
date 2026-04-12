@@ -1,0 +1,5 @@
+Task: Implement new features on Columbus Day interface.
+Output Script:
+Pyautogui.click(397.5,730.5)
+Pyautogui.press("Tab")
+Pyautogui.press("Enter")

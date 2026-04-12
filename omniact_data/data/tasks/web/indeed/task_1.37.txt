@@ -1,0 +1,3 @@
+Task: Access the terms of use page
+Output Script:
+pyautogui.click(777.0,866.0)

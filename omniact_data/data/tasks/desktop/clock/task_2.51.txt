@@ -1,0 +1,4 @@
+Task: Adjust the hour setting to 12
+Output Script:
+pyautogui.click(1389.0,985.0)
+pyautogui.write("12")

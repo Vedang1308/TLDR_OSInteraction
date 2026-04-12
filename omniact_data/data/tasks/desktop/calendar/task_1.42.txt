@@ -1,0 +1,3 @@
+Task: Advance to the following day on the schedule
+Output script:
+pyautogui.click(2833.0,128.0)

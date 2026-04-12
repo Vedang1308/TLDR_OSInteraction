@@ -1,0 +1,7 @@
+Task: Use the arrow button to advance to the weather report for 5 days in the future.
+Output Script:
+pyautogui.click(2222.0,865.0)
+pyautogui.click(2222.0,865.0)
+pyautogui.click(2222.0,865.0)
+pyautogui.click(2222.0,865.0)
+pyautogui.click(2222.0,865.0)

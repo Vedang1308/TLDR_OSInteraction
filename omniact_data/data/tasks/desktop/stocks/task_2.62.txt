@@ -1,0 +1,3 @@
+Task: Observe the annual stock variation year-to-date.
+Output script:
+pyautogui.click(1771.5,385.5)

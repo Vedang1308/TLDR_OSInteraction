@@ -1,0 +1,3 @@
+Task: Navigate and select "terms & conditions" link to view document.
+Output script:
+pyautogui.click(158.0,1760.0)

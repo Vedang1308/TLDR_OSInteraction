@@ -1,0 +1,5 @@
+Task: Compute the sine of an angle of 45 degrees
+Output Script:
+pyautogui.click(1820.5,1066.0)
+pyautogui.click(1938.0,1065.0)
+pyautogui.click(1254.5,1158.5)

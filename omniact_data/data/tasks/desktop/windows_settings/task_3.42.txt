@@ -1,0 +1,3 @@
+Task: Uncheck lower brightness level in battery saver mode
+Output Script:
+pyautogui.click(442.5,709.0)

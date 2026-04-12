@@ -1,0 +1,4 @@
+Task: Navigate to online store and proceed to associated Facebook page 
+Output Script:
+pyautogui.click(1244.5,94.5)
+pyautogui.click(1138.0,32.0)

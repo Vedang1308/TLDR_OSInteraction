@@ -1,0 +1,3 @@
+Task: Need help changing delivery
+Output Script:
+pyautogui.click(389.5,404.0)

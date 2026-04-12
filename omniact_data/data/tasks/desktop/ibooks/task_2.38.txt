@@ -1,0 +1,4 @@
+Task: Navigate down to view the book"s table of contents
+Output Script:
+pyautogui.moveTo(1880.0,1104.0)
+pyautogui.scroll(90)

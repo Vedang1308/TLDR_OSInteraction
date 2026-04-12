@@ -1,0 +1,5 @@
+Task: Use search application to find "Editor"
+Output Script:
+pyautogui.click(959, 67)
+pyautogui.write("Editor")
+pyautogui.press("Enter")

@@ -1,0 +1,3 @@
+Task: Verify the availability of size M. 
+Output Script: 
+pyautogui.click(1082.5,477.5)

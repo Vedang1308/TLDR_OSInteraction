@@ -1,0 +1,5 @@
+Task: Redirect to the second language from the drop-down list on the page.
+Output Script:
+pyautogui.click(1315.5,20.0)
+pyautogui.press("down")
+pyautogui.press("enter")

@@ -1,0 +1,8 @@
+Task: Select the 2nd language for the site using keyboard
+Output Script:
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")
+pyautogui.press("down")
+pyautogui.press("enter")

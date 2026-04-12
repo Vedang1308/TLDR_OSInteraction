@@ -1,0 +1,5 @@
+Task: Search for "Lily Rose" in the contacts app.
+Output Script:
+pyautogui.click(1471.5,55.0)
+pyautogui.write("Lily Rose")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Select the Graphic T-shirts option from menu to proceed to that page.
+Output Script:
+pyautogui.click(386.0,228.0)

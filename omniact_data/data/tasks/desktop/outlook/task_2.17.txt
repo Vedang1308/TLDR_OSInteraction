@@ -1,0 +1,3 @@
+Task: Open the Drafts folder
+Output Script:
+pyautogui.click(165.0,530.5)

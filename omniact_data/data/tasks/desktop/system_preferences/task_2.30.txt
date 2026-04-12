@@ -1,0 +1,3 @@
+Task: Access the option panel. 
+Output Script:
+pyautogui.click(718.0,600.0)

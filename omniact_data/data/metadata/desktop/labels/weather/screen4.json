@@ -1,0 +1,16 @@
+{
+    "1": "add_city",
+    "2": "cancel_search",
+    "3": "sun_6am",
+    "4": "sun_12pm",
+    "5": "sun_8pm",
+    "6": "scroll_sun_info",
+    "7": "wind",
+    "8": "precipitation",
+    "9": "uv_index",
+    "10": "sun_position",
+    "11": "feels_like_temperature",
+    "12": "humidity",
+    "13": "hourly_forecast",
+    "14": "10_day_forecast"
+}

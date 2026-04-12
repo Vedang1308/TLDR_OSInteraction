@@ -1,0 +1,4 @@
+Task: Enlarge the April month"s calendar for better readability.
+Output script:
+pyautogui.click(2478.5,441.0)
+pyautogui.click(2478.5,441.0)

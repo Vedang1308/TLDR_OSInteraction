@@ -1,0 +1,4 @@
+Task: Glide left-to-right to load the subsequent page
+Output Script:
+pyautogui.moveTo(1681.5,1128.0)
+pyautogui.hscroll("10")

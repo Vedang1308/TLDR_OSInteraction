@@ -1,0 +1,5 @@
+Task: Search for "angry" in the book
+Output Script:
+pyautogui.click(3090.0,101.0)
+pyautogui.write("angry")
+pyautogui.press("enter")

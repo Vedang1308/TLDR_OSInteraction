@@ -1,0 +1,3 @@
+Task: Use Grammarly"s suggested revision for "the purpose of"
+Output script:
+pyautogui.click(1101.5,256.0)

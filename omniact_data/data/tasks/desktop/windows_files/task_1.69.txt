@@ -1,0 +1,5 @@
+Task: Arrange the files by name in "documents" folder.
+Output Script:
+pyautogui.click(700.0,360.0)
+pyautogui.click(700.0,360.0)
+pyautogui.click(482.5,240.5)

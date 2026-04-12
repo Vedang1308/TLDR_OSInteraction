@@ -1,0 +1,3 @@
+Task: Activate the roundtrip flight choice.
+Output script:
+pyautogui.click(498.0,128.5)

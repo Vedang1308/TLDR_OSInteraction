@@ -1,0 +1,4 @@
+Task: Shift to manage rentals interface
+Output script:
+pyautogui.click(1121.5,23.0)
+pyautogui.scroll(30)

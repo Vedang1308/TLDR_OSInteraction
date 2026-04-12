@@ -1,0 +1,3 @@
+Task: Reveal hidden files with keyboard shortcut
+Output Script:
+pyautogui.hotkey("ctrl", "h")

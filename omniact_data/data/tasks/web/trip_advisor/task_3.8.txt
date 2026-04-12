@@ -1,0 +1,3 @@
+Task: Open sign in page
+Output Script:
+pyautogui.click(1248.5,190.0)

@@ -1,0 +1,5 @@
+Task: Input "Singapore" in the "to" field.
+Output script:
+pyautogui.click(1438.5,304.5)
+pyautogui.write("Singapore")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Use the button labeled "search for flights" to find flights.
+Output Script:
+pyautogui.click(255.0,811.0)

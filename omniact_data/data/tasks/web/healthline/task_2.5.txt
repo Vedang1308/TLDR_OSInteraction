@@ -1,0 +1,3 @@
+Task: Checkout the presence of this company on twitter
+Output Script:
+pyautogui.click(21.0,408.0)

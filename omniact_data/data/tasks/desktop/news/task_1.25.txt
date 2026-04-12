@@ -1,0 +1,5 @@
+Task: Conduct an online search for news related to "Covid 2020".
+Output script:
+pyautogui.click(220.5,154.5)
+pyautogui.write("Covid 2020")
+pyautogui.press("Enter")

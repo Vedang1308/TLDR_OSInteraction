@@ -1,0 +1,3 @@
+Task: Access the calendar to pick your flight"s leave date.
+Output script:
+pyautogui.click(1438.0,402.0)

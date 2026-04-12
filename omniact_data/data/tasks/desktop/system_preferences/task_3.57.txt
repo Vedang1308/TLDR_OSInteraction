@@ -1,0 +1,3 @@
+Task: Launch the usage history section.
+Output Script:
+pyautogui.click(787.0,737.0)

@@ -1,0 +1,4 @@
+Task: Go to the top of the image list and zoom into the first image
+Output Script:
+pyautogui.click(76.5,499.0)
+pyautogui.moveTo(76.5,574.0)

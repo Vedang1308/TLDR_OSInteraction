@@ -1,0 +1,3 @@
+Task: Execute phone link opening
+Output Script:
+pyautogui.click(1724.5,892.0)

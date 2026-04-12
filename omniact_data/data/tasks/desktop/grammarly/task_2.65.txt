@@ -1,0 +1,3 @@
+Task: Adjust the preferences in the editor
+Output script:
+pyautogui.click(188.5,722.5)

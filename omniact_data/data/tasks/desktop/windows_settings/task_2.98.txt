@@ -1,0 +1,3 @@
+Task: Navigate to the Home page in settings through the house-shaped icon.
+Output Script:
+pyautogui.click(200.5,91.0)

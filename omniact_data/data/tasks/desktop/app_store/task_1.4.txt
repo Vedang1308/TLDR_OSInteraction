@@ -1,0 +1,4 @@
+Task: Scroll by 50 to see other applications.
+Output script:
+pyautogui.click(1663.0,901.5)
+pyautogui.scroll(50)

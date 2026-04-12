@@ -1,0 +1,3 @@
+Task: Select all graphic T-shirts by selecting the graphic t-shirt menu item
+Output Script:
+pyautogui.click(385.0,228.0)

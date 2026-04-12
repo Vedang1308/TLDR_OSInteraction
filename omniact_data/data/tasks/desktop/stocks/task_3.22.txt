@@ -1,0 +1,3 @@
+Task: Select the option to preserve the article.
+Output script:
+pyautogui.click(787.0,57.5)

@@ -1,0 +1,3 @@
+Task: Proceed to screen sharing options.
+Output Script:
+pyautogui.click(1167.0,1733.5)

@@ -1,0 +1,3 @@
+Task: Implement a command for redoing previously executed action
+Output script:
+pyautogui.hotkey("ctrl", "y")

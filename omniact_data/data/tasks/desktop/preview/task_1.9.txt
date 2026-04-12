@@ -1,0 +1,5 @@
+Task: Change the color of the document to red.
+Output script:
+pyautogui.click(2011.5,100.0)
+pyautogui.write("red")
+pyautogui.press("Enter")

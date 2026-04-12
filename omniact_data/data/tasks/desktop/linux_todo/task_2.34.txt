@@ -1,0 +1,3 @@
+Task: Exit the currently active search field using keyboard
+Output Script:
+pyautogui.press("esc")

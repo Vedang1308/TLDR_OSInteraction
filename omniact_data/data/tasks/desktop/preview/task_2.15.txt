@@ -1,0 +1,3 @@
+Task: Navigate to and select the sketch option visible on your monitor. 
+Output script:
+pyautogui.click(260.0,183.0)

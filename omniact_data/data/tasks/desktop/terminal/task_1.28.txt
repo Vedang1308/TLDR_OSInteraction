@@ -1,0 +1,4 @@
+Task: Use hotkeys to paste the previously copied content into the targeted text box.
+Output Script:
+pyautogui.click(1996.0,212.0)
+pyautogui.hotkey("ctrl", "v")

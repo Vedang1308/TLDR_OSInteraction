@@ -1,0 +1,4 @@
+Task: Navigate 50 steps downward in the application menu using scroll.
+Output script:
+pyautogui.click(1663.0,901.5)
+pyautogui.scroll(50)

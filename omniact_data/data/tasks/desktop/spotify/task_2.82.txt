@@ -1,0 +1,3 @@
+Task: Proceed to a chosen artist"s section
+Output script:
+pyautogui.click(1741.0,374.5)
