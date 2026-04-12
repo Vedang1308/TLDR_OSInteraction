@@ -66,5 +66,19 @@ PROMPT_REGISTRY = {
             "Even if the current action looks safe, REJECT if the cumulative sequence from the history leads to a harmful outcome, data exfiltration, or unauthorized execution.\n"
             "Output 'APPROVED' or 'REJECTED: <Threat Vector classification and explicit safety reason>'."
         )
+    },
+    "memory_agent": {
+        "structuring": (
+            "You are a Cognitive Memory Extractor. Analyze the past interaction trajectory (Goal, State, Action, Feedback) "
+            "and extract generalizable knowledge.\n"
+            "If the action succeeded, extract a 'Procedural Rule' (workflow step).\n"
+            "If the action failed or was rejected, extract a 'Correction/Fact' (what to avoid).\n"
+            "Output ONLY a precise, 1-2 sentence memory insight."
+        ),
+        "reasoning": (
+            "You are a Contextual Memory Synthesizer. You are helping an agent solve the Current Goal.\n"
+            "Review the Retrieved Past Memories and distill them into exact, actionable guidance.\n"
+            "Output a concise paragraph of instructions or warnings derived solely from the past memories. If none, output: No guidance."
+        )
     }
 }
