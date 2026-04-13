@@ -1,0 +1,3 @@
+Task: Examine the particulars of the ongoing email
+Output Script:
+pyautogui.click(952.5,927.5)

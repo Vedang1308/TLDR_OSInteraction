@@ -1,0 +1,255 @@
+{
+    "example_0": {
+        "top_left": [
+            485,
+            192
+        ],
+        "bottom_right": [
+            924,
+            698
+        ],
+        "label": "playlist_arijit"
+    },
+    "example_1": {
+        "top_left": [
+            951,
+            193
+        ],
+        "bottom_right": [
+            1390,
+            699
+        ],
+        "label": "playlist_atif"
+    },
+    "example_2": {
+        "top_left": [
+            3246,
+            106
+        ],
+        "bottom_right": [
+            3330,
+            169
+        ],
+        "label": "sort_by"
+    },
+    "example_3": {
+        "top_left": [
+            3164,
+            108
+        ],
+        "bottom_right": [
+            3243,
+            171
+        ],
+        "label": "search"
+    },
+    "example_4": {
+        "top_left": [
+            11,
+            719
+        ],
+        "bottom_right": [
+            380,
+            766
+        ],
+        "label": "itunes_store"
+    },
+    "example_5": {
+        "top_left": [
+            1,
+            429
+        ],
+        "bottom_right": [
+            390,
+            477
+        ],
+        "label": "recently_added"
+    },
+    "example_6": {
+        "top_left": [
+            1,
+            477
+        ],
+        "bottom_right": [
+            393,
+            535
+        ],
+        "label": "artists"
+    },
+    "example_7": {
+        "top_left": [
+            3,
+            537
+        ],
+        "bottom_right": [
+            396,
+            587
+        ],
+        "label": "album"
+    },
+    "example_8": {
+        "top_left": [
+            6,
+            591
+        ],
+        "bottom_right": [
+            393,
+            641
+        ],
+        "label": "songs"
+    },
+    "example_9": {
+        "top_left": [
+            1,
+            244
+        ],
+        "bottom_right": [
+            403,
+            299
+        ],
+        "label": "listen_now"
+    },
+    "example_10": {
+        "top_left": [
+            3,
+            303
+        ],
+        "bottom_right": [
+            396,
+            364
+        ],
+        "label": "radio"
+    },
+    "example_11": {
+        "top_left": [
+            22,
+            127
+        ],
+        "bottom_right": [
+            374,
+            182
+        ],
+        "label": "search_playlist"
+    },
+    "example_12": {
+        "top_left": [
+            1420,
+            190
+        ],
+        "bottom_right": [
+            1859,
+            700
+        ],
+        "label": "playlist_bollywood_romance"
+    },
+    "example_13": {
+        "top_left": [
+            1887,
+            188
+        ],
+        "bottom_right": [
+            2343,
+            706
+        ],
+        "label": "playlist_calvin_harris"
+    },
+    "example_14": {
+        "top_left": [
+            2363,
+            189
+        ],
+        "bottom_right": [
+            2819,
+            707
+        ],
+        "label": "playlist_chill_mix"
+    },
+    "example_15": {
+        "top_left": [
+            2837,
+            189
+        ],
+        "bottom_right": [
+            3293,
+            707
+        ],
+        "label": "playlist_deep"
+    },
+    "example_16": {
+        "top_left": [
+            475,
+            742
+        ],
+        "bottom_right": [
+            931,
+            1260
+        ],
+        "label": "playlist_edm"
+    },
+    "example_17": {
+        "top_left": [
+            944,
+            744
+        ],
+        "bottom_right": [
+            1400,
+            1262
+        ],
+        "label": "playlist_english_slow"
+    },
+    "example_18": {
+        "top_left": [
+            1419,
+            744
+        ],
+        "bottom_right": [
+            1875,
+            1262
+        ],
+        "label": "playlist_hindi"
+    },
+    "example_19": {
+        "top_left": [
+            409,
+            108
+        ],
+        "bottom_right": [
+            3360,
+            2100
+        ],
+        "label": "scroll_playlist"
+    },
+    "example_20": {
+        "top_left": [
+            953,
+            1324
+        ],
+        "bottom_right": [
+            1401,
+            1848
+        ],
+        "label": "playlist_piano_chill"
+    },
+    "example_21": {
+        "top_left": [
+            1888,
+            1316
+        ],
+        "bottom_right": [
+            2346,
+            1842
+        ],
+        "label": "playlist_post_malone"
+    },
+    "example_22": {
+        "top_left": [
+            2824,
+            1308
+        ],
+        "bottom_right": [
+            3317,
+            1845
+        ],
+        "label": "playlist_punjabi"
+    }
+}

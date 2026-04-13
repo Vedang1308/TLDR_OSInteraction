@@ -1,0 +1,5 @@
+Task: Conduct a word search for "client".
+Output script:
+pyautogui.hotkey("ctrl", "f")
+pyautogui.write("client")
+pyautogui.press("enter")

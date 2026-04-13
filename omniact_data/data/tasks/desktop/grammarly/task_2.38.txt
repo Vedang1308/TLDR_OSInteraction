@@ -1,0 +1,3 @@
+Task: Modify the system"s language preference
+Output script:
+pyautogui.click(195.5,925.0)

@@ -1,0 +1,3 @@
+Task: Incorporate a new office location.
+Output script:
+pyautogui.click(289.5,432.5)

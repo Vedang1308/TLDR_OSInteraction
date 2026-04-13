@@ -1,0 +1,3 @@
+Task: Make the font bold.
+Output script:
+pyautogui.click(2192.5,130.5)

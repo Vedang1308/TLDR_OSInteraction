@@ -1,0 +1,3 @@
+Task: "I"m interested in renting trucks, can I get some information?"
+Output Script: 
+pyautogui.click(186.5,82.0)

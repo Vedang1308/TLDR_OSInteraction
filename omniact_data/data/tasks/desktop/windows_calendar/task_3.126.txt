@@ -1,0 +1,4 @@
+Task: Establish "31 December 2021" as the commencement date
+Output Script:
+pyautogui.click(419.0,432.0)
+pyautogui.write("31 December 2021")

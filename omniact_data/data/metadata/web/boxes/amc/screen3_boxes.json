@@ -1,0 +1,74 @@
+{
+    "example_0": {
+        "top_left": [
+            90,
+            784
+        ],
+        "bottom_right": [
+            812,
+            811
+        ],
+        "valid": 1,
+        "label": "email_field"
+    },
+    "example_1": {
+        "top_left": [
+            364,
+            486
+        ],
+        "bottom_right": [
+            477,
+            532
+        ],
+        "valid": 1,
+        "label": "redirect_to_sign_in"
+    },
+    "example_2": {
+        "top_left": [
+            911,
+            264
+        ],
+        "bottom_right": [
+            1074,
+            311
+        ],
+        "valid": 1,
+        "label": "redirect_to_Return_to_Site"
+    },
+    "example_3": {
+        "top_left": [
+            364,
+            569
+        ],
+        "bottom_right": [
+            588,
+            610
+        ],
+        "valid": 1,
+        "label": "redirect_to_register_page"
+    },
+    "example_4": {
+        "top_left": [
+            493,
+            486
+        ],
+        "bottom_right": [
+            626,
+            532
+        ],
+        "valid": 1,
+        "label": "redirect_to_join_now_page"
+    },
+    "example_5": {
+        "top_left": [
+            1234,
+            842
+        ],
+        "bottom_right": [
+            1350,
+            885
+        ],
+        "valid": 1,
+        "label": "purchase_button"
+    }
+}

@@ -1,0 +1,3 @@
+Task: Hit the "3 dots" to access more settings.
+Output script:
+pyautogui.click(2710.5,1512.0)

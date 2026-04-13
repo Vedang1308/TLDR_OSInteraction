@@ -1,0 +1,5 @@
+Task: Look up for XY Program
+Output Script:
+pyautogui.click(1264.0,32.0)
+pyautogui.write("XY Program")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Navigate to the details of the ongoing video
+Output Script:
+pyautogui.click(1771.0,485.0)

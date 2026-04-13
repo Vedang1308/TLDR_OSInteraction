@@ -1,0 +1,3 @@
+Task: Read the sample of "Last Kingdom"
+Output Script:
+pyautogui.doubleClick(1880.5,404.5)

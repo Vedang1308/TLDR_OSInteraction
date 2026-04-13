@@ -1,0 +1,3 @@
+Task: Magnify the content of the document.
+Output script:
+pyautogui.click(1762.0,100.0)

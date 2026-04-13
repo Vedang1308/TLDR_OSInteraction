@@ -1,0 +1,3 @@
+Task: "Investigate alternatives to simple text format"
+Output Script:
+pyautogui.click(1513.5,1066.0)

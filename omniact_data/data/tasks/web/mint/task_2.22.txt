@@ -1,0 +1,3 @@
+Task: Examine the features of Apple iPhone 15 Pro Max phone.
+Output Script:
+pyautogui.click(1140.0,760.0)

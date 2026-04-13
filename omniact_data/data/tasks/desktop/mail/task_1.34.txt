@@ -1,0 +1,3 @@
+Task: Apply filter to separate unread messages. 
+Output script:
+pyautogui.click(1132.5,51.0)

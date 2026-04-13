@@ -1,0 +1,3 @@
+Task: Navigate to flights interface
+Output Script:
+pyautogui.click(319.5,90.0)

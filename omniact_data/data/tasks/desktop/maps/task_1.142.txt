@@ -1,0 +1,5 @@
+Task: Input "bars" under the "add guide" section.
+Output script:
+pyautogui.click(290.5,528.5)
+pyautogui.write("bars")
+pyautogui.press("enter")

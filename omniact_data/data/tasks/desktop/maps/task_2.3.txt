@@ -1,0 +1,3 @@
+Task: Rate the place with thumbs up.
+Output script:
+pyautogui.click(1578.5,670.0)

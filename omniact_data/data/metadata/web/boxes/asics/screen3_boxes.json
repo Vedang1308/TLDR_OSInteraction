@@ -1,0 +1,602 @@
+{
+    "example_0": {
+        "top_left": [
+            160,
+            211
+        ],
+        "bottom_right": [
+            205,
+            224
+        ],
+        "valid": 1,
+        "label": "redirect_to_Women"
+    },
+    "example_1": {
+        "top_left": [
+            508,
+            771
+        ],
+        "bottom_right": [
+            586,
+            851
+        ],
+        "valid": 1,
+        "label": "view a feature"
+    },
+    "example_2": {
+        "top_left": [
+            1176,
+            68
+        ],
+        "bottom_right": [
+            1208,
+            85
+        ],
+        "valid": 1,
+        "label": "redirect_to_login"
+    },
+    "example_3": {
+        "top_left": [
+            1213,
+            98
+        ],
+        "bottom_right": [
+            1242,
+            132
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_4": {
+        "top_left": [
+            1017,
+            100
+        ],
+        "bottom_right": [
+            1247,
+            130
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_5": {
+        "top_left": [
+            269,
+            88
+        ],
+        "bottom_right": [
+            326,
+            144
+        ],
+        "valid": 1,
+        "label": "Men_redirect"
+    },
+    "example_6": {
+        "top_left": [
+            826,
+            496
+        ],
+        "bottom_right": [
+            866,
+            536
+        ],
+        "valid": 1,
+        "label": "loads_next_image"
+    },
+    "example_7": {
+        "top_left": [
+            598,
+            771
+        ],
+        "bottom_right": [
+            676,
+            851
+        ],
+        "valid": 1,
+        "label": "view_image"
+    },
+    "example_8": {
+        "top_left": [
+            208,
+            211
+        ],
+        "bottom_right": [
+            289,
+            224
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            955,
+            717
+        ],
+        "bottom_right": [
+            1030,
+            737
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_10": {
+        "top_left": [
+            959,
+            544
+        ],
+        "bottom_right": [
+            984,
+            581
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_11": {
+        "top_left": [
+            1249,
+            458
+        ],
+        "bottom_right": [
+            1304,
+            497
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_12": {
+        "top_left": [
+            372,
+            11
+        ],
+        "bottom_right": [
+            1068,
+            46
+        ],
+        "valid": 1,
+        "label": "redirect_signin"
+    },
+    "example_13": {
+        "top_left": [
+            292,
+            211
+        ],
+        "bottom_right": [
+            395,
+            224
+        ],
+        "valid": 1,
+        "label": "select_Jackets_&_Outerwear"
+    },
+    "example_14": {
+        "top_left": [
+            941,
+            839
+        ],
+        "bottom_right": [
+            1032,
+            858
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_15": {
+        "top_left": [
+            806,
+            175
+        ],
+        "bottom_right": [
+            878,
+            193
+        ],
+        "valid": 1,
+        "label": "redirect_to_shop_now"
+    },
+    "example_16": {
+        "top_left": [
+            1232,
+            68
+        ],
+        "bottom_right": [
+            1310,
+            85
+        ],
+        "valid": 1,
+        "label": "redirect_to_Refer_and_Save"
+    },
+    "example_17": {
+        "top_left": [
+            955,
+            653
+        ],
+        "bottom_right": [
+            1029,
+            673
+        ],
+        "valid": 1,
+        "label": "redirect_to_sign_up"
+    },
+    "example_18": {
+        "top_left": [
+            686,
+            771
+        ],
+        "bottom_right": [
+            764,
+            851
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_19": {
+        "top_left": [
+            791,
+            88
+        ],
+        "bottom_right": [
+            847,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_sale"
+    },
+    "example_20": {
+        "top_left": [
+            1277,
+            106
+        ],
+        "bottom_right": [
+            1300,
+            126
+        ],
+        "valid": 1,
+        "label": "cart_icon"
+    },
+    "example_21": {
+        "top_left": [
+            812,
+            708
+        ],
+        "bottom_right": [
+            854,
+            750
+        ],
+        "valid": 1,
+        "label": "resizes_image"
+    },
+    "example_22": {
+        "top_left": [
+            627,
+            88
+        ],
+        "bottom_right": [
+            733,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_Road_Tested"
+    },
+    "example_23": {
+        "top_left": [
+            130,
+            86
+        ],
+        "bottom_right": [
+            241,
+            146
+        ],
+        "valid": 1,
+        "label": "redirect_to_homepage"
+    },
+    "example_24": {
+        "top_left": [
+            1001,
+            355
+        ],
+        "bottom_right": [
+            1077,
+            417
+        ],
+        "valid": 1,
+        "label": "color_change_icon"
+    },
+    "example_25": {
+        "top_left": [
+            1055,
+            458
+        ],
+        "bottom_right": [
+            1110,
+            497
+        ],
+        "valid": 1,
+        "label": "filter_by_M_size"
+    },
+    "example_26": {
+        "top_left": [
+            1072,
+            68
+        ],
+        "bottom_right": [
+            1152,
+            85
+        ],
+        "valid": 1,
+        "label": "redirect_joinasics"
+    },
+    "example_27": {
+        "top_left": [
+            1184,
+            458
+        ],
+        "bottom_right": [
+            1239,
+            497
+        ],
+        "valid": 1,
+        "label": " redirecting to size guide."
+    },
+    "example_28": {
+        "top_left": [
+            876,
+            68
+        ],
+        "bottom_right": [
+            947,
+            85
+        ],
+        "valid": 1,
+        "label": "redirect_to_store_locations"
+    },
+    "example_29": {
+        "top_left": [
+            1120,
+            458
+        ],
+        "bottom_right": [
+            1175,
+            497
+        ],
+        "valid": 1,
+        "label": "Large_size_button"
+    },
+    "example_30": {
+        "top_left": [
+            955,
+            614
+        ],
+        "bottom_right": [
+            1001,
+            633
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_31": {
+        "top_left": [
+            1242,
+            427
+        ],
+        "bottom_right": [
+            1305,
+            447
+        ],
+        "valid": 1,
+        "label": "redirects_to_size_guide"
+    },
+    "example_32": {
+        "top_left": [
+            925,
+            355
+        ],
+        "bottom_right": [
+            1001,
+            417
+        ],
+        "valid": 1,
+        "label": "color_option_button"
+    },
+    "example_33": {
+        "top_left": [
+            330,
+            771
+        ],
+        "bottom_right": [
+            408,
+            851
+        ],
+        "valid": 1,
+        "label": "show_product_view"
+    },
+    "example_34": {
+        "top_left": [
+            120,
+            211
+        ],
+        "bottom_right": [
+            157,
+            224
+        ],
+        "valid": 1,
+        "label": "home_button"
+    },
+    "example_35": {
+        "top_left": [
+            971,
+            68
+        ],
+        "bottom_right": [
+            1048,
+            85
+        ],
+        "valid": 1,
+        "label": "join_list_link"
+    },
+    "example_36": {
+        "top_left": [
+            991,
+            458
+        ],
+        "bottom_right": [
+            1046,
+            497
+        ],
+        "valid": 1,
+        "label": "small_size_button"
+    },
+    "example_37": {
+        "top_left": [
+            776,
+            771
+        ],
+        "bottom_right": [
+            854,
+            851
+        ],
+        "valid": 1,
+        "label": "enlarge_item_picture_8"
+    },
+    "example_38": {
+        "top_left": [
+            404,
+            88
+        ],
+        "bottom_right": [
+            461,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_kids_page"
+    },
+    "example_39": {
+        "top_left": [
+            847,
+            88
+        ],
+        "bottom_right": [
+            907,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_gifts"
+    },
+    "example_40": {
+        "top_left": [
+            926,
+            458
+        ],
+        "bottom_right": [
+            981,
+            497
+        ],
+        "valid": 1,
+        "label": "size_xs"
+    },
+    "example_41": {
+        "top_left": [
+            812,
+            68
+        ],
+        "bottom_right": [
+            852,
+            85
+        ],
+        "valid": 1,
+        "label": "redirect_to_Returns"
+    },
+    "example_42": {
+        "top_left": [
+            140,
+            496
+        ],
+        "bottom_right": [
+            180,
+            536
+        ],
+        "valid": 1,
+        "label": "previous_image_button"
+    },
+    "example_43": {
+        "top_left": [
+            955,
+            678
+        ],
+        "bottom_right": [
+            1009,
+            697
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_44": {
+        "top_left": [
+            420,
+            771
+        ],
+        "bottom_right": [
+            498,
+            851
+        ],
+        "valid": 1,
+        "label": "product_view_thumbnail"
+    },
+    "example_45": {
+        "top_left": [
+            1029,
+            543
+        ],
+        "bottom_right": [
+            1305,
+            583
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_46": {
+        "top_left": [
+            993,
+            544
+        ],
+        "bottom_right": [
+            1013,
+            581
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_47": {
+        "top_left": [
+            461,
+            88
+        ],
+        "bottom_right": [
+            532,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_sports_options"
+    },
+    "example_48": {
+        "top_left": [
+            1393,
+            798
+        ],
+        "bottom_right": [
+            1438,
+            845
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_49": {
+        "top_left": [
+            733,
+            88
+        ],
+        "bottom_right": [
+            791,
+            144
+        ],
+        "valid": 1,
+        "label": "redirect_to_Blog"
+    }
+}

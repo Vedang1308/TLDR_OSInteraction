@@ -1,0 +1,3 @@
+Task: Establish a pairing with a Zoom Room from your device.
+Output Script:
+pyautogui.click(2677.0,48.0)

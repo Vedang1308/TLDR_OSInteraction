@@ -1,0 +1,7 @@
+Task: Lower the minute count by 5 units
+Output Script:
+pyautogui.click(1669.0,986.0)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("down")

@@ -1,0 +1,3 @@
+Task: Click on the button to terminate the application
+Output Script:
+pyautogui.click(1895.0,21.0)

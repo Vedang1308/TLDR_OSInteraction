@@ -1,0 +1,3 @@
+Task: View the reviews for Samsung Crystal UHD TV
+Output Script:
+pyautogui.click(1236.0,868.0)

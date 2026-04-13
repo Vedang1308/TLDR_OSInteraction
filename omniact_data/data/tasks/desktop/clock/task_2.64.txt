@@ -1,0 +1,13 @@
+Task: Raise the seconds count by 10 units
+Output Script:
+pyautogui.click(1960.0,980.5)
+pyautogui.press("up")
+pyautogui.press("up")
+pyautogui.press("up")
+pyautogui.press("up")
+pyautogui.press("up")
+pyautogui.press("up")
+pyautogui.press("up")
+pyautogui.press("up")
+pyautogui.press("up")
+pyautogui.press("up")

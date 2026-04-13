@@ -1,0 +1,3 @@
+Task: Proceed with email delivery
+Output Script:
+pyautogui.click(1572.5,68.0)

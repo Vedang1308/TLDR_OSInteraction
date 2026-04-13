@@ -1,0 +1,3 @@
+Task: Return to the previous screen by clicking the "back" button.
+Output script:
+pyautogui.click(47.0,36.0)

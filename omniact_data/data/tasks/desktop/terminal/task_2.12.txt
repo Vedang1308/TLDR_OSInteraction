@@ -1,0 +1,4 @@
+Task: Navigate to settings through the help options tab
+Output Script:
+pyautogui.click(714.0,24.5)
+pyautogui.write("settings")

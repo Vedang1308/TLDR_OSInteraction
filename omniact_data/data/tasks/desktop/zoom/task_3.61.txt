@@ -1,0 +1,5 @@
+Task: In the contacts app, carry out a search for "Interviee".
+Output Script:
+pyautogui.click(1471.5,55.0)
+pyautogui.write("Interviee")
+pyautogui.press("enter")

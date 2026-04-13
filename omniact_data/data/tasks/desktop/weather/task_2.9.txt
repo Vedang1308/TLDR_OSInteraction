@@ -1,0 +1,3 @@
+Task: Hide the list of cities on the left panel
+Output Script:
+pyautogui.click(701.0,49.0)

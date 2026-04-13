@@ -1,0 +1,3 @@
+Task: Check for windows updates using the bottom right button on the page
+Output Script:
+pyautogui.click(1221.5,139.0)

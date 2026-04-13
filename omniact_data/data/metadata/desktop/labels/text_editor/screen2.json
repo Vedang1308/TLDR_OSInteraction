@@ -1,0 +1,16 @@
+{
+    "1": "find_type_bar",
+    "2": "replace_type_bar",
+    "3": "find_history",
+    "4": "replace_history",
+    "5": "match_case",
+    "6": "match_entire_word",
+    "7": "regex",
+    "8": "wrap_around",
+    "9": "search_backwards",
+    "10": "replace_all",
+    "11": "replace_this_only",
+    "12": "find_only",
+    "13": "close_find_replace",
+    "14": "minimize_text_editor"
+}

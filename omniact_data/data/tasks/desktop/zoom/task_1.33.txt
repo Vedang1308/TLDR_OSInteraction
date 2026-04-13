@@ -1,0 +1,3 @@
+Task: On the top panel, find and click on the contacts symbol.
+Output script:
+pyautogui.click(1470.0,51.0)

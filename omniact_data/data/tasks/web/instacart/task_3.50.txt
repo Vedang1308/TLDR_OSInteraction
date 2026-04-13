@@ -1,0 +1,5 @@
+Task: Display all available products in the city of Pittsburgh
+Output Script:
+pyautogui.click(1161.0,40.0)
+pyautogui.write("Pittsburgh")
+pyautogui.press("enter")

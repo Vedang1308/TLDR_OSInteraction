@@ -1,0 +1,3 @@
+Task: Fix an appointment by navigating to its option in the menu
+Output Script:
+pyautogui.click(1175.5,171.5)

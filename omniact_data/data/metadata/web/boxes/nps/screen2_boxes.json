@@ -1,0 +1,218 @@
+{
+    "example_0": {
+        "top_left": [
+            916,
+            853
+        ],
+        "bottom_right": [
+            917,
+            854
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_1": {
+        "top_left": [
+            916,
+            743
+        ],
+        "bottom_right": [
+            920,
+            763
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_2": {
+        "top_left": [
+            916,
+            863
+        ],
+        "bottom_right": [
+            920,
+            883
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_3": {
+        "top_left": [
+            916,
+            723
+        ],
+        "bottom_right": [
+            920,
+            743
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_4": {
+        "top_left": [
+            916,
+            723
+        ],
+        "bottom_right": [
+            917,
+            724
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_5": {
+        "top_left": [
+            1282,
+            0
+        ],
+        "bottom_right": [
+            1380,
+            55
+        ],
+        "valid": 1,
+        "label": "menu_button"
+    },
+    "example_6": {
+        "top_left": [
+            478,
+            684
+        ],
+        "bottom_right": [
+            1360,
+            726
+        ],
+        "valid": 1,
+        "label": "pulldown_option_for_all"
+    },
+    "example_7": {
+        "top_left": [
+            916,
+            873
+        ],
+        "bottom_right": [
+            920,
+            893
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_8": {
+        "top_left": [
+            916,
+            823
+        ],
+        "bottom_right": [
+            920,
+            843
+        ],
+        "valid": 1,
+        "label": "filter_by_all_states"
+    },
+    "example_9": {
+        "top_left": [
+            916,
+            763
+        ],
+        "bottom_right": [
+            920,
+            783
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_10": {
+        "top_left": [
+            916,
+            843
+        ],
+        "bottom_right": [
+            920,
+            863
+        ],
+        "valid": 1,
+        "label": "filter_state"
+    },
+    "example_11": {
+        "top_left": [
+            60,
+            0
+        ],
+        "bottom_right": [
+            287,
+            55
+        ],
+        "valid": 1,
+        "label": "redirect_to_National_Park_Service_Page"
+    },
+    "example_12": {
+        "top_left": [
+            478,
+            549
+        ],
+        "bottom_right": [
+            1360,
+            591
+        ],
+        "valid": 1,
+        "label": "search_filters_bar"
+    },
+    "example_13": {
+        "top_left": [
+            916,
+            853
+        ],
+        "bottom_right": [
+            920,
+            873
+        ],
+        "valid": 1,
+        "label": "expand_all"
+    },
+    "example_14": {
+        "top_left": [
+            478,
+            814
+        ],
+        "bottom_right": [
+            1360,
+            856
+        ],
+        "valid": 1,
+        "label": "filter_by_state"
+    },
+    "example_15": {
+        "top_left": [
+            1184,
+            0
+        ],
+        "bottom_right": [
+            1282,
+            55
+        ],
+        "valid": 1,
+        "label": "redirect_to_Search"
+    },
+    "example_16": {
+        "top_left": [
+            916,
+            803
+        ],
+        "bottom_right": [
+            920,
+            823
+        ],
+        "valid": 1,
+        "label": "expand_all"
+    },
+    "example_17": {
+        "top_left": [
+            916,
+            783
+        ],
+        "bottom_right": [
+            920,
+            803
+        ],
+        "valid": 0,
+        "label": "NA"
+    }
+}

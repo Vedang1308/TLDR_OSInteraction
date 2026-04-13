@@ -1,0 +1,206 @@
+{
+    "example_0": {
+        "top_left": [
+            529,
+            68
+        ],
+        "bottom_right": [
+            661,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_car_rentals_page"
+    },
+    "example_1": {
+        "top_left": [
+            903,
+            829
+        ],
+        "bottom_right": [
+            1033,
+            865
+        ],
+        "valid": 1,
+        "label": "Show more dates"
+    },
+    "example_2": {
+        "top_left": [
+            267,
+            68
+        ],
+        "bottom_right": [
+            372,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_Flights_Page"
+    },
+    "example_3": {
+        "top_left": [
+            166,
+            68
+        ],
+        "bottom_right": [
+            263,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_stays"
+    },
+    "example_4": {
+        "top_left": [
+            182,
+            24
+        ],
+        "bottom_right": [
+            326,
+            48
+        ],
+        "valid": 1,
+        "label": "redirect_to_home_page"
+    },
+    "example_5": {
+        "top_left": [
+            222,
+            823
+        ],
+        "bottom_right": [
+            871,
+            843
+        ],
+        "valid": 1,
+        "label": "redirect_to_See_all_reviews"
+    },
+    "example_6": {
+        "top_left": [
+            665,
+            68
+        ],
+        "bottom_right": [
+            798,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_attractions"
+    },
+    "example_7": {
+        "top_left": [
+            1105,
+            18
+        ],
+        "bottom_right": [
+            1182,
+            54
+        ],
+        "valid": 1,
+        "label": "redirect_to_Register_page"
+    },
+    "example_8": {
+        "top_left": [
+            802,
+            68
+        ],
+        "bottom_right": [
+            943,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_Airport_Taxis"
+    },
+    "example_9": {
+        "top_left": [
+            928,
+            12
+        ],
+        "bottom_right": [
+            985,
+            60
+        ],
+        "valid": 1,
+        "label": "currency_usd"
+    },
+    "example_10": {
+        "top_left": [
+            993,
+            12
+        ],
+        "bottom_right": [
+            1041,
+            60
+        ],
+        "valid": 1,
+        "label": "United_States_country_icon"
+    },
+    "example_11": {
+        "top_left": [
+            376,
+            68
+        ],
+        "bottom_right": [
+            525,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_flight+hotel_page"
+    },
+    "example_12": {
+        "top_left": [
+            182,
+            140
+        ],
+        "bottom_right": [
+            215,
+            158
+        ],
+        "valid": 1,
+        "label": "redirect_to_home"
+    },
+    "example_13": {
+        "top_left": [
+            237,
+            140
+        ],
+        "bottom_right": [
+            299,
+            158
+        ],
+        "valid": 1,
+        "label": "redirects to Attractions"
+    },
+    "example_14": {
+        "top_left": [
+            1190,
+            18
+        ],
+        "bottom_right": [
+            1258,
+            54
+        ],
+        "valid": 1,
+        "label": "redirect_to_Sign_in"
+    },
+    "example_15": {
+        "top_left": [
+            1117,
+            677
+        ],
+        "bottom_right": [
+            1282,
+            713
+        ],
+        "valid": 1,
+        "label": "redirect_to_photos_page"
+    },
+    "example_16": {
+        "top_left": [
+            1049,
+            12
+        ],
+        "bottom_right": [
+            1097,
+            60
+        ],
+        "valid": 1,
+        "label": "get_Customer_Serivce_help"
+    }
+}

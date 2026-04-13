@@ -1,0 +1,3 @@
+Task: Press on the day labeled as 3
+Output script:
+pyautogui.click(2313.0,163.5)

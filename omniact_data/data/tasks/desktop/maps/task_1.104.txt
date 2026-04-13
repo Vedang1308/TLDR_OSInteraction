@@ -1,0 +1,3 @@
+Task: Increase the map"s magnification.
+Output script:
+pyautogui.click(2708.0,1750.0)

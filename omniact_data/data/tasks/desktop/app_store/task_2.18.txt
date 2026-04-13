@@ -1,0 +1,3 @@
+Task: Launch the web platform for the application.
+Output script:
+pyautogui.click(2718.5,1547.5)

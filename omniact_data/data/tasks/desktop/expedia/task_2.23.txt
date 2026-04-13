@@ -1,0 +1,3 @@
+Task: Initiate date picking operation from flight calendar.
+Output script:
+pyautogui.click(1438.0,402.0)

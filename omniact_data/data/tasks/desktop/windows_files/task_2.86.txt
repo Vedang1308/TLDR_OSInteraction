@@ -1,0 +1,3 @@
+Task: Collapse all currently working windows
+Output Script:
+pyautogui.hotkey("win", "d")

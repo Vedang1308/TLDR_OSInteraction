@@ -1,0 +1,3 @@
+Task: Save current note to cloud storage
+Output Script:
+pyautogui.click(1171.5,183.0)

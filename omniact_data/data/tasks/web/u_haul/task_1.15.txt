@@ -1,0 +1,3 @@
+Task: "Find the price of boxes"
+Output Script: 
+pyautogui.click(385.0,605.0)

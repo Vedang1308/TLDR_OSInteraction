@@ -1,0 +1,3 @@
+Task: Examine the midday stance of the sun in the popup
+Output Script:
+pyautogui.click(2661.0,750.0)

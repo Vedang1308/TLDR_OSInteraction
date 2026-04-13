@@ -1,0 +1,3 @@
+Task: Retrieve information about ADHD types and signs in both children and adults
+Output Script:
+pyautogui.click(590.0,882.0)

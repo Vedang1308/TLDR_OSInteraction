@@ -1,0 +1,5 @@
+Task: Utilize the 15217 postal code to locate products
+Output Script:
+pyautogui.click(1161.0,40.0)
+pyautogui.write("15217")
+pyautogui.press("enter")

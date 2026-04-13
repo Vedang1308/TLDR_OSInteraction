@@ -1,0 +1,3 @@
+Task: Log into my account profile
+Output Script:
+pyautogui.click(1363.0,27.5)

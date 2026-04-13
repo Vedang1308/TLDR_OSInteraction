@@ -1,0 +1,3 @@
+Task: Open the note for the hiring manager
+Output script:
+pyautogui.click(1186.5,295.5)

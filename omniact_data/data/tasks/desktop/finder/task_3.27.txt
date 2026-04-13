@@ -1,0 +1,4 @@
+Task: Execute a screen capture of the present desktop view
+Output Script:
+pyautogui.hotkey("shift", "ctrl", "5")
+pyautogui.press("enter")

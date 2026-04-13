@@ -1,0 +1,3 @@
+Task: Cover up other cities" temperature list
+Output Script:
+pyautogui.click(701.0,49.0)

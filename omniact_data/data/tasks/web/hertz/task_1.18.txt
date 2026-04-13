@@ -1,0 +1,5 @@
+Task: Apply the "XZ78898*" discount code.
+Output script:
+pyautogui.click(220.5,547.5)
+pyautogui.press("tab")
+pyautogui.write("XZ78898*")

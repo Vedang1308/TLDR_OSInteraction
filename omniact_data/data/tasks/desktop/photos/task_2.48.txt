@@ -1,0 +1,3 @@
+Task: Access the premiere image in the picture presentation
+Output Script:
+pyautogui.click(1047.0,2013.5)

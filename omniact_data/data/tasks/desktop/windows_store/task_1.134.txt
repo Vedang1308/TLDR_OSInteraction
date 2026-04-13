@@ -1,0 +1,3 @@
+Task: Access the Library function 
+Output Script:
+pyautogui.click(43.5,906.0)

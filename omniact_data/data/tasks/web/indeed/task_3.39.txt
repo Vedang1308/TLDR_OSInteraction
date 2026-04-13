@@ -1,0 +1,3 @@
+Task: Proceed to the More Benefits section
+Output Script:
+pyautogui.click(556.5,678.0)

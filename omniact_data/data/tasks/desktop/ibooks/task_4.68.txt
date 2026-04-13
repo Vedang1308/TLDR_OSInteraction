@@ -1,0 +1,3 @@
+Task: Display content of "Last Kingdom" by double clicking it
+Output Script:
+pyautogui.doubleClick(1880.5,404.5)

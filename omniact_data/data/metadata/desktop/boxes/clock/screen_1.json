@@ -1,0 +1,24 @@
+{
+    "example_0": {
+        "top_left": [
+            1356,
+            1945
+        ],
+        "bottom_right": [
+            1653,
+            1998
+        ],
+        "label": "lap_or_reset"
+    },
+    "example_1": {
+        "top_left": [
+            1701,
+            1943
+        ],
+        "bottom_right": [
+            1993,
+            1995
+        ],
+        "label": "start_or_stop"
+    }
+}

@@ -1,0 +1,5 @@
+Task: Change background color to second first option in dropdown
+Output Script:
+pyautogui.click(1722.0,51.0)
+pyautogui.press("down")
+pyautogui.press("enter")

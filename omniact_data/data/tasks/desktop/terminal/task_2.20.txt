@@ -1,0 +1,5 @@
+Task: Enable split pane option under view settings to split your screen.
+Output Script:
+pyautogui.click(475.5,23.0)
+pyautogui.write("split pane")
+pyautogui.press("enter")

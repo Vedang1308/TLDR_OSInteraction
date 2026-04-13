@@ -1,0 +1,5 @@
+Task: Put Facetime as a medium for video calling.
+Output script:
+pyautogui.click(1846.5,569.0)
+pyautogui.write("Facetime")
+pyautogui.press("enter")

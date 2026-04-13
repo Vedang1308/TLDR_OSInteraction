@@ -1,0 +1,3 @@
+Task: Look for sleep-related write-ups
+Output Script:
+pyautogui.click(463.5,99.0)

@@ -1,0 +1,4 @@
+Task: Access the "Memories" album and use the top bar to zoom in on the photos
+Output Script:
+pyautogui.click(213.0,246.5)
+pyautogui.write("enlarge_pics")

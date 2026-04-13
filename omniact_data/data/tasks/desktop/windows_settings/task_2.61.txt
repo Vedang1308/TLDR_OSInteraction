@@ -1,0 +1,7 @@
+Task: Configure the keyboard combination "Win+M" to control the microphone"s on/off feature.
+Output Script:
+pyautogui.moveTo(702.5,1017.0)
+pyautogui.scroll(10)
+pyautogui.click(702.5,1017.0)
+pyautogui.write("Win+M")
+pyautogui.press("enter")

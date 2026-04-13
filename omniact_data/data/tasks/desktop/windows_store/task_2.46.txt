@@ -1,0 +1,5 @@
+Task: Access the media section under Films & TV.
+Output Script:
+pyautogui.click(44.0,253.5)
+pyautogui.press("PGDN")
+pyautogui.press("Enter")

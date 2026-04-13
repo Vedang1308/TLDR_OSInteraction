@@ -1,0 +1,230 @@
+{
+    "example_0": {
+        "top_left": [
+            248,
+            24
+        ],
+        "bottom_right": [
+            307,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_mobile"
+    },
+    "example_1": {
+        "top_left": [
+            16,
+            24
+        ],
+        "bottom_right": [
+            136,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect to Samsung home page"
+    },
+    "example_2": {
+        "top_left": [
+            200,
+            24
+        ],
+        "bottom_right": [
+            247,
+            56
+        ],
+        "valid": 1,
+        "label": "go_to_shop_page"
+    },
+    "example_3": {
+        "top_left": [
+            12,
+            96
+        ],
+        "bottom_right": [
+            54,
+            117
+        ],
+        "valid": 1,
+        "label": "redirect_to_Home_Page"
+    },
+    "example_4": {
+        "top_left": [
+            1098,
+            24
+        ],
+        "bottom_right": [
+            1164,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_Support"
+    },
+    "example_5": {
+        "top_left": [
+            392,
+            24
+        ],
+        "bottom_right": [
+            477,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_appliances"
+    },
+    "example_6": {
+        "top_left": [
+            308,
+            24
+        ],
+        "bottom_right": [
+            391,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_tv&audio"
+    },
+    "example_7": {
+        "top_left": [
+            262,
+            96
+        ],
+        "bottom_right": [
+            285,
+            117
+        ],
+        "valid": 1,
+        "label": "redirect_Tvs"
+    },
+    "example_8": {
+        "top_left": [
+            723,
+            24
+        ],
+        "bottom_right": [
+            819,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_smartthings_page"
+    },
+    "example_9": {
+        "top_left": [
+            1165,
+            24
+        ],
+        "bottom_right": [
+            1259,
+            56
+        ],
+        "valid": 1,
+        "label": "redirects_for_business"
+    },
+    "example_10": {
+        "top_left": [
+            633,
+            24
+        ],
+        "bottom_right": [
+            722,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_accessories_page"
+    },
+    "example_11": {
+        "top_left": [
+            680,
+            246
+        ],
+        "bottom_right": [
+            760,
+            259
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_12": {
+        "top_left": [
+            1336,
+            20
+        ],
+        "bottom_right": [
+            1376,
+            60
+        ],
+        "valid": 1,
+        "label": "redirect_to_shopping_cart"
+    },
+    "example_13": {
+        "top_left": [
+            1288,
+            20
+        ],
+        "bottom_right": [
+            1328,
+            60
+        ],
+        "valid": 1,
+        "label": "search_button"
+    },
+    "example_14": {
+        "top_left": [
+            68,
+            96
+        ],
+        "bottom_right": [
+            248,
+            117
+        ],
+        "valid": 1,
+        "label": "television_home_theater_redirect"
+    },
+    "example_15": {
+        "top_left": [
+            564,
+            24
+        ],
+        "bottom_right": [
+            632,
+            56
+        ],
+        "valid": 1,
+        "label": "redirects to Displays"
+    },
+    "example_16": {
+        "top_left": [
+            478,
+            24
+        ],
+        "bottom_right": [
+            563,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_computing"
+    },
+    "example_17": {
+        "top_left": [
+            1033,
+            24
+        ],
+        "bottom_right": [
+            1096,
+            56
+        ],
+        "valid": 1,
+        "label": "Redirect_to_Explore"
+    },
+    "example_18": {
+        "top_left": [
+            299,
+            96
+        ],
+        "bottom_right": [
+            345,
+            117
+        ],
+        "valid": 1,
+        "label": "redirect_to_All_TVs"
+    }
+}

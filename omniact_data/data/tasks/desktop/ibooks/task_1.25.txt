@@ -1,0 +1,3 @@
+Task: Access full list of free books within the top charts 
+Output Script:
+pyautogui.click(1286.5,985.5)

@@ -1,0 +1,3 @@
+Task: Open the options for Intel Graphics
+Output Script:
+pyautogui.click(1840.0,991.5)

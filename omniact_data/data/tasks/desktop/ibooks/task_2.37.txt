@@ -1,0 +1,4 @@
+Task: Lower the page to view the biography of the author.
+Output Script:
+pyautogui.moveTo(1880.0,1104.0)
+pyautogui.scroll(70)

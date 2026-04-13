@@ -1,0 +1,4 @@
+Task: Proceed with the installation of the Mercury Weather program.
+Output script:
+pyautogui.click(1956.5,1469.0)
+pyautogui.click(1956.5,1469.0)

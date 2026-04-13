@@ -1,0 +1,3 @@
+Task: Execute double click function on "search_store_locations" tab
+Output Script:
+pyautogui.doubleClick(1222.0,15.0)

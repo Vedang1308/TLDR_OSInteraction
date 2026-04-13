@@ -1,0 +1,3 @@
+Task: Build a new folder using merely the keyboard keys
+Output Script:
+pyautogui.hotkey("ctrl", "shift", "n")

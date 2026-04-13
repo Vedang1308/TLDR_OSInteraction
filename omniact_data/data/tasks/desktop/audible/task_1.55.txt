@@ -1,0 +1,3 @@
+Task: Initiate Ubuntu market-place
+Output Script:
+pyautogui.click(37.0,401.5)

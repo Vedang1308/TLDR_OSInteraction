@@ -1,0 +1,3 @@
+Task: Open the Window Options menu
+Output Script:
+pyautogui.click(739.0,24.5)

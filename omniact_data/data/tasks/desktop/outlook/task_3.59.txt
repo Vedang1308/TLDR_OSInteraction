@@ -1,0 +1,3 @@
+Task: Click on the "Insert" button to add an image
+Output Script:
+pyautogui.click(902.0,73.5)

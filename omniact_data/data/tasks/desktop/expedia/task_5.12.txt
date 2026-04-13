@@ -1,0 +1,3 @@
+Task: Filter places near "Broadway".
+Output script:
+pyautogui.click(1442.5,1496.0)

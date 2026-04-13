@@ -1,0 +1,3 @@
+Task: Sort by Alcohol Category
+Output Script:
+pyautogui.click(249.0,322.0)

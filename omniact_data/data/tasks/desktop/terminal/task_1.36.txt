@@ -1,0 +1,3 @@
+Task: Highlight all the text present in the document using a keyboard shortcut.
+Output Script:
+pyautogui.hotkey("ctrl", "a")

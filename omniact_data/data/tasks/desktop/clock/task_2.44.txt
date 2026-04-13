@@ -1,0 +1,4 @@
+Task: Raise the hours field by a single count
+Output Script:
+pyautogui.click(1389.0,985.0)
+pyautogui.press("up")

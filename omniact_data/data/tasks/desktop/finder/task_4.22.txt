@@ -1,0 +1,3 @@
+Task: Decrease the illumination of the screen
+Output Script:
+pyautogui.click(2830.0,443.5)

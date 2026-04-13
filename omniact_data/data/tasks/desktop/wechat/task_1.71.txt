@@ -1,0 +1,5 @@
+Task: Navigate and open the first file in the files segment.
+Output Script:
+pyautogui.click(33.5,288.5)
+pyautogui.press("down")
+pyautogui.press("enter")

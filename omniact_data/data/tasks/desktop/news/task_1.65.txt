@@ -1,0 +1,3 @@
+Task: Access the section labeled "Food".
+Output script:
+pyautogui.click(223.5,1082.5)

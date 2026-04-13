@@ -1,0 +1,3 @@
+Task: Check the yearly performance of stocks.
+Output script:
+pyautogui.click(1771.5,385.5)

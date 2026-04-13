@@ -1,0 +1,5 @@
+Task: Type a line in current note saying - "I want to buy apple tomorrow" and make it a checkbox item
+Output Script:
+pyautogui.click(728.5,585.0)
+pyautogui.write("I want to buy apple tomorrow ")
+pyautogui.click(1037.5,182.0)

@@ -1,0 +1,3 @@
+Task: Decrease the image size once
+Output Script:
+pyautogui.click(95.5,50.0)

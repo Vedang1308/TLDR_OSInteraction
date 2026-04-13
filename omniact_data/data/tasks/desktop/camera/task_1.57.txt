@@ -1,0 +1,3 @@
+Task: Apply the selected image as desktop background
+Output Script:
+pyautogui.click(1763.0,254.0)

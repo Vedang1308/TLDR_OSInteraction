@@ -1,0 +1,7 @@
+Task: "Obtain fares from origin point A to destination point B"
+Output Script: 
+pyautogui.click(373.0,225.5)
+pyautogui.write("A")
+pyautogui.click(373.0,309.0)
+pyautogui.write("B")
+pyautogui.click(448.5,362.0)

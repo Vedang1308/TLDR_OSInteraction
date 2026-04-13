@@ -1,0 +1,3 @@
+Task: Select all files in the directory using keyboard
+Output Script:
+pyautogui.hotkey("ctrl", "a")

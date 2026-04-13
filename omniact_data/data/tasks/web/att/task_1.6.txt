@@ -1,0 +1,3 @@
+Task: Check the deal for motorola razr
+Output Script:
+pyautogui.click(190.0,538.0)

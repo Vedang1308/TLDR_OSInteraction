@@ -1,0 +1,3 @@
+Task: Format text to italic
+Output Script:
+pyautogui.click(818.0,125.0)

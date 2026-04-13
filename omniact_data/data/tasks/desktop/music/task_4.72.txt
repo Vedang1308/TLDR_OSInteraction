@@ -1,0 +1,3 @@
+Task: Begin the music "Nadiyon Paar"
+Output Script:
+pyautogui.click(3053.5,1718.5)

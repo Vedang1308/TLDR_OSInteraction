@@ -1,0 +1,6 @@
+Task: Duplicate the "template.txt" from its current location to the "downloads" folder of the same directory utilizing hotkeys.
+Output Script:
+pyautogui.click(700.0,521.0)
+pyautogui.hotkey("ctrl","c")
+pyautogui.click(700.0,360.0)
+pyautogui.hotkey("ctrl","v")

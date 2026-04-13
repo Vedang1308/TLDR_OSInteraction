@@ -1,0 +1,4 @@
+Task: Start playing the current chart-topping hits
+Output script:
+pyautogui.moveTo(938.0,833.5)
+pyautogui.click(1333.5,1146.5)

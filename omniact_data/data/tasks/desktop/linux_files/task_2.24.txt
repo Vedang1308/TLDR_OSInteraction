@@ -1,0 +1,3 @@
+Task: Generate a new directory employing keyboard shortcuts only
+Output Script:
+pyautogui.hotkey("ctrl", "shift", "n")

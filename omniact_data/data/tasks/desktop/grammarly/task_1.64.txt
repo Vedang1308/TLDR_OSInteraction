@@ -1,0 +1,3 @@
+Task: Delete the word "clearly" from the dataset
+Output script:
+pyautogui.click(1331.0,718.5)

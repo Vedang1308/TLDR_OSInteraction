@@ -1,0 +1,5 @@
+Task: Locate Expedia.com"s emails in your inbox
+Output Script:
+pyautogui.click(250.0,69.0)
+pyautogui.write("Expedia.com")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Use pyautogui to perform a sequence of key presses - "down", then "enter".
+Output Script:
+pyautogui.press("enter")

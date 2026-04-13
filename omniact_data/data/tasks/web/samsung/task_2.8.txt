@@ -1,0 +1,3 @@
+Task: Choose the TVs option to go two pages back
+Output Script:
+pyautogui.click(273.5,106.5)

@@ -1,0 +1,3 @@
+Task: Delve deeper into the published book"s description
+Output Script:
+pyautogui.click(2535.0,1504.5)

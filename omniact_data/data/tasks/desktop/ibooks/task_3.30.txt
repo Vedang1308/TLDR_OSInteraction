@@ -1,0 +1,5 @@
+Task: Right-click on "manzana" and use the context menu to find its translation.
+Output Script:
+pyautogui.rightClick(1153.5,1865.0)
+pyautogui.write("look up")
+pyautogui.press("enter")

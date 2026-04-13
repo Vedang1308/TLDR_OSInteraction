@@ -1,0 +1,3 @@
+Task: Implement Grammarly"s suggestion for accurate subject-verb agreement
+Output script:
+pyautogui.click(1330.0,630.5)

@@ -1,0 +1,15 @@
+{
+    "1": "wifi_on_off",
+    "2": "bluetooth",
+    "3": "airdrop",
+    "4": "stage_manager",
+    "5": "screen_mirroring",
+    "6": "brightness_low",
+    "7": "brightness_high",
+    "8": "volume_low",
+    "9": "volume_high",
+    "10": "airdrop",
+    "11": "play_music",
+    "12": "skip_to_next_song",
+    "13": "do_not_disturb"
+}

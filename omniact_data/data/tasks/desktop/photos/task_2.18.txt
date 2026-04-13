@@ -1,0 +1,3 @@
+Task: Change to tile layout view
+Output Script:
+pyautogui.click(3276.0,2016.5)

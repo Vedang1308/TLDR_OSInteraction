@@ -1,0 +1,3 @@
+Task: Buy Apple Music Subscription
+Output script:
+pyautogui.click(3124.5,2025.0)

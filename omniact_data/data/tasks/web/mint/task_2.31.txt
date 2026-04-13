@@ -1,0 +1,3 @@
+Task: Obtain info on Samsung Galaxy Z Flip 5 5G
+Output Script:
+pyautogui.click(622.0,835.0)

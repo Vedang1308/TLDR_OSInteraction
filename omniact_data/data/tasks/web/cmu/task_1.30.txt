@@ -1,0 +1,3 @@
+Task: Activate Sports Menu 
+Output Script:
+pyautogui.click(304.5,94.5)

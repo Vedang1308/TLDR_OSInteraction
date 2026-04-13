@@ -1,0 +1,3 @@
+Task: Obtain the wind metrics in Vancouver
+Output Script:
+pyautogui.click(2480.5,1288.0)

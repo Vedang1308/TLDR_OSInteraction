@@ -1,0 +1,4 @@
+Task: Open the December calendar
+Output script:
+pyautogui.click(2485.5,1509.0)
+pyautogui.click(2485.5,1509.0)

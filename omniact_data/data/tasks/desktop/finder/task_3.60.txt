@@ -1,0 +1,3 @@
+Task: Launch the Mail App by clicking its icon
+Output Script:
+pyautogui.click(711.0,2025.5)

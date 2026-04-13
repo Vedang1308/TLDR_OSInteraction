@@ -1,0 +1,5 @@
+Task: Look for a video tagged with the word "beach" in its title.
+Output Script:
+pyautogui.click(996.0,95.5)
+pyautogui.write("beach")
+pyautogui.press("enter")

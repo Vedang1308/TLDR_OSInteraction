@@ -1,0 +1,3 @@
+Task: Modify the time frame to display year
+Output Script:
+Pyautogui.click(1548.5,70.0)

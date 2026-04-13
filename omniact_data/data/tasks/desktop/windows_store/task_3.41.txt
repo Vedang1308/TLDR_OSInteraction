@@ -1,0 +1,7 @@
+Task: Click on the search bar and enter "abc". Select all the text and replace it with "def". Finally, press Enter.
+Output Script:
+pyautogui.click(960.5,28.0)
+pyautogui.write("abc")
+pyutogui.hotkey("ctrl","a")
+pyautogui,write("def")
+pyautogui.press("enter")

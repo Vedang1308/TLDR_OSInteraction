@@ -1,0 +1,3 @@
+Task: Go to the video settings.
+Output Script:
+pyautogui.click(332.5,1741.0)

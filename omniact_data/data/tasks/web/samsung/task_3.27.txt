@@ -1,0 +1,3 @@
+Task: Go two pages prior to view the entire washer selection 
+Output Script:
+pyautogui.click(235.0,106.5)

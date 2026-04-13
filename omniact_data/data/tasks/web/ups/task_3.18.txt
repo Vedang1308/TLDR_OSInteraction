@@ -1,0 +1,5 @@
+Task: Look up the package associated with the Postal Code "10243".
+Output Script:
+pyautogui.click(361.5,813.5)
+pyautogui.write("10243")
+pyautogui.press("enter")

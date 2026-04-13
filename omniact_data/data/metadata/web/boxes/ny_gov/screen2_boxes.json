@@ -1,0 +1,134 @@
+{
+    "example_0": {
+        "top_left": [
+            1364,
+            38
+        ],
+        "bottom_right": [
+            1364,
+            65
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_1": {
+        "top_left": [
+            732,
+            719
+        ],
+        "bottom_right": [
+            1066,
+            864
+        ],
+        "valid": 1,
+        "label": "redirect_to_Education_Service"
+    },
+    "example_2": {
+        "top_left": [
+            1090,
+            719
+        ],
+        "bottom_right": [
+            1424,
+            864
+        ],
+        "valid": 1,
+        "label": "redirect_to_Employment"
+    },
+    "example_3": {
+        "top_left": [
+            408,
+            26
+        ],
+        "bottom_right": [
+            477,
+            66
+        ],
+        "valid": 1,
+        "label": "redirect to News page"
+    },
+    "example_4": {
+        "top_left": [
+            10,
+            10
+        ],
+        "bottom_right": [
+            248,
+            80
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_5": {
+        "top_left": [
+            501,
+            26
+        ],
+        "bottom_right": [
+            630,
+            66
+        ],
+        "valid": 1,
+        "label": "redirect_to_government_page"
+    },
+    "example_6": {
+        "top_left": [
+            16,
+            719
+        ],
+        "bottom_right": [
+            350,
+            864
+        ],
+        "valid": 1,
+        "label": "redirect_to_business_page"
+    },
+    "example_7": {
+        "top_left": [
+            570,
+            337
+        ],
+        "bottom_right": [
+            870,
+            387
+        ],
+        "valid": 1,
+        "label": "redirect_to_Explore_Services_page"
+    },
+    "example_8": {
+        "top_left": [
+            374,
+            719
+        ],
+        "bottom_right": [
+            708,
+            864
+        ],
+        "valid": 1,
+        "label": "redirect_to_culture&recreation"
+    },
+    "example_9": {
+        "top_left": [
+            289,
+            26
+        ],
+        "bottom_right": [
+            384,
+            66
+        ],
+        "valid": 1,
+        "label": "redirect_to_Services"
+    },
+    "example_10": {
+        "top_left": [
+            0,
+            0
+        ],
+        "bottom_right": [
+            1,
+            1
+        ],
+        "valid": 0,
+        "label": "NA"
+    }
+}

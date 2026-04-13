@@ -1,0 +1,3 @@
+Task: Refresh or reload the page without keying anything.
+Output Script:
+pyautogui.click(435.5,148.0)

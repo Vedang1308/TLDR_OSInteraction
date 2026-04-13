@@ -1,0 +1,3 @@
+Task: Set the status of "haircut" task to completed
+Output Script:
+pyautogui.click(692.5,649.0)

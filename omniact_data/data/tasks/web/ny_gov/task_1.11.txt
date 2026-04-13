@@ -1,0 +1,3 @@
+Task: Access the press release content on the online platform
+Output Script:
+pyautogui.moveTo(164.0,508.5)

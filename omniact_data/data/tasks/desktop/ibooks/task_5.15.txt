@@ -1,0 +1,3 @@
+Task: Click on the "More Options" button for the book "Indian Heroes" to see additional options
+Output Script:
+pyautogui.click(1810.0,1732.5)

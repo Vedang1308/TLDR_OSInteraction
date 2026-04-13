@@ -1,0 +1,3 @@
+Task: Verify the items in your shopping cart by clicking on the cart button
+Output Script:
+pyautogui.click(1361.5,72.0)

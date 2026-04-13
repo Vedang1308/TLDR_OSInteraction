@@ -1,0 +1,3 @@
+Task: Launch Text Editor
+Output Script:
+pyautogui.click(36.0,403.5)

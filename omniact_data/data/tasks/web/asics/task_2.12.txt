@@ -1,0 +1,3 @@
+Task: Check the variety of sports shoes available
+Output Script: 
+pyautogui.click(190.0,217.5)

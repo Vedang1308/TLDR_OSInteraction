@@ -1,0 +1,5 @@
+Task: Search for an event using the search bar.
+Output script:
+pyautogui.click(280.5,130.5)
+pyautogui.write("Team meeting")
+pyautogui.press("Enter")

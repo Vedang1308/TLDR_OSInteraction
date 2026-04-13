@@ -1,0 +1,5 @@
+Task: Find Samsung Galaxy S23 Ultra by using the search bar and pressing enter.
+Output Script:
+pyautogui.click(1308.0,40.0)
+pyautogui.write("Samsung Galaxy S23 Ultra")
+pyautogui.press("enter")

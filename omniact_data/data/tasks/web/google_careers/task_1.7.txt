@@ -1,0 +1,3 @@
+Task: Go to Main  Menu
+Output Script:
+pyautogui.click(1292.0,32.0)

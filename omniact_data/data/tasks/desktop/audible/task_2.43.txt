@@ -1,0 +1,3 @@
+Task: Navigate to the book"s first page
+Output Script:
+pyautogui.click(842.0,700.5)

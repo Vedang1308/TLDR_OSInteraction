@@ -1,0 +1,3 @@
+Task: Navigate to phone tariff options
+Output Script:
+pyautogui.click(720.0,134.5)

@@ -1,0 +1,3 @@
+Task: Initiate MayoClinic"s policy page
+Output Script:
+pyautogui.click(939.5,658.0)

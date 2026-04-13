@@ -1,0 +1,3 @@
+Task: Cease the current window.
+Output script:
+pyautogui.click(948.5,176.5)

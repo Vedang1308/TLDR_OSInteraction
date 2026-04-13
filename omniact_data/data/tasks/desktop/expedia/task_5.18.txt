@@ -1,0 +1,3 @@
+Task: Display only places with more than 4 stars rating.
+Output script:
+pyautogui.click(1436.5,362.0)

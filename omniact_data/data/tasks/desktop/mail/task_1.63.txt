@@ -1,0 +1,3 @@
+Task: Execute the action to fetch new messages for all accounts.
+Output script:
+pyautogui.click(1273.0,49.5)

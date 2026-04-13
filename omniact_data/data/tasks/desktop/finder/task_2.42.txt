@@ -1,0 +1,3 @@
+Task: Unfold the Work directory and then fold it back
+Output Script:
+pyautogui.click(384.0,468.0)

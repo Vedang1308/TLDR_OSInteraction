@@ -1,0 +1,4 @@
+Task: Go to the album "Places" and enlarge pictures using top bar
+Output Script:
+pyautogui.click(215.0,359.5)
+pyautogui.write("enlarge_pics")

@@ -1,0 +1,3 @@
+Task: Review the stock performance over the last half-year.
+Output script:
+pyautogui.click(1579.5,388.0)

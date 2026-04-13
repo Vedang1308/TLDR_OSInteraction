@@ -1,0 +1,4 @@
+Task: Continue the timing on the stopwatch and then set a lap.
+Output Script:
+pyautogui.click(1847.0,1969.0)
+pyautogui.click(1504.5,1971.5)

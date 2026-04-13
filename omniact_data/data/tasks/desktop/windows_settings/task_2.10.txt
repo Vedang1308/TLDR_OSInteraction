@@ -1,0 +1,6 @@
+Task: Clear the "Take Screenshot" shortcut
+Output Script:
+pyautogui.click(703.5,672.0)
+pyautogui.hotkey("ctrl","a")
+pyautogui.press("delete")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Go to my shopping cart page
+Output Script:
+pyautogui.click(1383.0,40.0)

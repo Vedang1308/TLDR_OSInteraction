@@ -1,0 +1,3 @@
+Task: Choose the "home" option to revert to the main page.
+Output Script:
+pyautogui.click(1142.0,51.0)

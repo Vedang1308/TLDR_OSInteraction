@@ -1,0 +1,5 @@
+Task: Access Bluetooth configurations by typing in the search bar.
+Output Script:
+pyautogui.click(191.5,293.5)
+pyautogui.write("Bluetooth")
+pyautogui.press("enter")

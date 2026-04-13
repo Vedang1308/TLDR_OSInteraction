@@ -1,0 +1,3 @@
+Task: Select the option to schedule a future trip.
+Output script:
+pyautogui.click(2696.0,376.5)

@@ -1,0 +1,5 @@
+Task: "Perform a document scan for the word "cat" and mark its every appearance"
+Output Script:
+pyautogui.click(1027.0,490.0)
+pyautogui.write("cat")
+pyautogui.click(1164.0,663.0)

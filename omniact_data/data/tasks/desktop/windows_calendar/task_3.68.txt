@@ -1,0 +1,3 @@
+Task: Execute event preservation through the save function
+Output Script:
+Pyautogui.click(182.5,124.0)

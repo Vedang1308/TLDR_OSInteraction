@@ -1,0 +1,2 @@
+Task: Validate coupon
+pyautogui.click(1189.0,772.0)

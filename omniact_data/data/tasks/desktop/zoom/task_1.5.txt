@@ -1,0 +1,3 @@
+Task: Click on the applications icon at the top.
+Output Script:
+pyautogui.click(1641.0,51.0)

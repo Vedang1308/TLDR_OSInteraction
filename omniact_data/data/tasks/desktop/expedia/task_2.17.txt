@@ -1,0 +1,3 @@
+Task: Open the calendar to select a specific departure date.
+Output script:
+pyautogui.click(1438.0,402.0)

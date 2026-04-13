@@ -1,0 +1,3 @@
+Task: Modify calendar setting to a "yearly" overview
+Output Script:
+Pyautogui.click(1548.5,70.0)

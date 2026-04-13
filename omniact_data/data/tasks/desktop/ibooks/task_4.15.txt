@@ -1,0 +1,3 @@
+Task: Buy the complete version of "Last Kingdom"
+Output Script:
+pyautogui.click(3224.5,407.0)

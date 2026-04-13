@@ -1,0 +1,5 @@
+Task: Click the "start location" box and type in "New York City", then confirm by pressing enter.
+Output script:
+pyautogui.click(2574.5,255.5)
+pyautogui.write("New York City")
+pyautogui.press("Enter")

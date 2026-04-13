@@ -1,0 +1,3 @@
+Task: Navigate to MayoClinic"s privacy guidelines
+Output Script:
+pyautogui.click(939.5,658.0)

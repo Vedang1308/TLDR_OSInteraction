@@ -1,0 +1,5 @@
+Task: Find all mails that are sent by Amazon in the mailbox
+Output Script:
+pyautogui.click(460.5,71.0)
+pyautogui.write("Amazon")
+pyautogui.press("enter")

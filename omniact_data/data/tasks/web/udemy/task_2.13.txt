@@ -1,0 +1,3 @@
+Task: Click twice on "show_next_slides" to display the next 10 most popular courses
+pyautogui.click(1366.0,439.0)
+pyautogui.click(1366.0,439.0)

@@ -1,0 +1,3 @@
+Task: Choose the "optimized battery charging" feature.
+Output Script:
+pyautogui.click(1175.5,564.5)

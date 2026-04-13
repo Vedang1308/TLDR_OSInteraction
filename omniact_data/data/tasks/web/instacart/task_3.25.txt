@@ -1,0 +1,3 @@
+Task: Identify all goods eligible for discount in conjunction with Cinnamon Toast Breakfast
+Output Script:
+pyautogui.click(209.5,784.0)

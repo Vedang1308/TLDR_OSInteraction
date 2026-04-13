@@ -1,0 +1,4 @@
+Task: Navigate down to check reader responses of the book 
+Output Script:
+pyautogui.moveTo(1880.0,1104.0)
+pyautogui.scroll(30)

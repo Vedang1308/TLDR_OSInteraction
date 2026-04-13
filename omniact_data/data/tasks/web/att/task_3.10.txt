@@ -1,0 +1,3 @@
+Task: Seek out the prepaid subscription options. 
+Output Script:
+pyautogui.click(481.0,67.0)

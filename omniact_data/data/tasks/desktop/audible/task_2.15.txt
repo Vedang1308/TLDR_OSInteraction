@@ -1,0 +1,5 @@
+Task: Go to the previous available option in more options
+Output Script:
+pyautogui.click(1199.0,236.5)
+pyautogui.press("up")
+pyautogui.press("enter")

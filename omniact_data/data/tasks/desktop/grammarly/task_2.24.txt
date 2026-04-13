@@ -1,0 +1,4 @@
+Task: Initiate the new document and insert the content "Hi"
+Output script:
+pyautogui.click(188.5,233.5)
+pyautogui.write("Hi")

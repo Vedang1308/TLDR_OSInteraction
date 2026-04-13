@@ -1,0 +1,3 @@
+Task: "Start a fresh document"
+Output Script:
+pyautogui.click(404.5,48.0)

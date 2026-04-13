@@ -1,0 +1,3 @@
+Task: "Do you provide discounts for military veterans?"
+Output Script: 
+pyautogui.click(1055.0,605.0)

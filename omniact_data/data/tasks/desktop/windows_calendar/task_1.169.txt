@@ -1,0 +1,3 @@
+Task: Establish connections with peers via the calendar tool
+Output Script:
+Pyautogui.click(151.0,1000.0)

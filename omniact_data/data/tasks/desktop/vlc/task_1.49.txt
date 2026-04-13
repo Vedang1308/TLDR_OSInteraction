@@ -1,0 +1,3 @@
+Task: Make use of the rotate anticlockwise button to turn your video in a counterclockwise motion.
+Output Script:
+pyautogui.click(1772.5,310.0)

@@ -1,0 +1,2 @@
+Task: Access all Business "Communications" courses
+pyautogui.click(335.0,97.0)

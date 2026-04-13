@@ -1,0 +1,7 @@
+Task: Interact with the search bar by typing "abc", then select everything by pressing "ctrl+a", replace the text with "def" and submit your query.
+Output Script:
+pyautogui.click(960.5,28.0)
+pyautogui.write("abc")
+pyutogui.hotkey("ctrl","a")
+pyautogui,write("def")
+pyautogui.press("enter")

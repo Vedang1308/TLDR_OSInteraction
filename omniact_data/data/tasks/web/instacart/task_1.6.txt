@@ -1,0 +1,5 @@
+Task: Look for a Table Lamp 
+Output Script:
+pyautogui.click(302.0,41.0)
+pyautogui.write("Table Lamp")
+pyautogui.press("enter")

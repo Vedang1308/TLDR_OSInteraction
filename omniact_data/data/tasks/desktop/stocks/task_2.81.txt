@@ -1,0 +1,3 @@
+Task: Verify the stock adjustments for 12 o"clock noon.
+Output script:
+pyautogui.click(1533.0,688.5)

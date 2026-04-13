@@ -1,0 +1,5 @@
+Task: Select "Romance" from the dropdown on the top right corner.
+Output Script:
+pyautogui.click(3194.0,52.0)
+pyautogui.write("Romance")
+pyautogui.press("enter")

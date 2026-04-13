@@ -1,0 +1,3 @@
+Task: Initiate Dublab broadcast
+Output script:
+pyautogui.click(2210.5,1697.0)

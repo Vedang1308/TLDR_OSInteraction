@@ -1,0 +1,3 @@
+Task: Give a thumbs up to the playlist
+Output script:
+pyautogui.click(610.0,338.5,)

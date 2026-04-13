@@ -1,0 +1,3 @@
+Task: Navigate to the Games area
+Output Script:
+pyautogui.click(44.0,253.5)

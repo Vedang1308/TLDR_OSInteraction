@@ -1,0 +1,3 @@
+Task: Open the "Categories" page.
+Output script:
+pyautogui.click(219.5,661.5)

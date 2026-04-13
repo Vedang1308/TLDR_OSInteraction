@@ -1,0 +1,3 @@
+Task: Pick a hue-themed wallpaper.
+Output Script:
+pyautogui.click(877.5,682.5)

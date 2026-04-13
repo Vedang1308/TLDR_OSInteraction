@@ -1,0 +1,3 @@
+Task: Navigate to the preceding month
+Output Script:
+Pyautogui.click(354.5,67.0)

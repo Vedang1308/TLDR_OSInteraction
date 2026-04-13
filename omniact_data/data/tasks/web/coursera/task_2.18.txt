@@ -1,0 +1,3 @@
+Task: Register on Coursera at no cost
+Output Script:
+pyautogui.click(1390.0,73.0)

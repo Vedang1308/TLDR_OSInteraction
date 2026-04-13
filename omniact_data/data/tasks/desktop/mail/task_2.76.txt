@@ -1,0 +1,6 @@
+Task: Set the font to bold and adjust the size to 17.
+Output script:
+pyautogui.click(2192.5,130.5)
+pyautogui.click(2001.0,132.5)
+pyautogui.write("17")
+pyautogui.press("enter")

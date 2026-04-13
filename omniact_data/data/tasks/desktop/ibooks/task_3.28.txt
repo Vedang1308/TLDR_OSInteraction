@@ -1,0 +1,5 @@
+Task: Perform a right click operation on the word "manzana" to find its meaning.
+Output Script:
+pyautogui.rightClick(1153.5,1865.0)
+pyautogui.write("look up")
+pyautogui.press("enter")

@@ -1,0 +1,4 @@
+Task: Declare "The Sweet Spot" as complete and ensure its listing under finished tab.
+Output Script:
+pyautogui.click(960.5,542.5)
+pyautogui.click(739.0,244.5)

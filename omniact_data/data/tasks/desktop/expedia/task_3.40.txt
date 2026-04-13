@@ -1,0 +1,3 @@
+Task: To view packages related to New York, click on "citypass newyork".
+Output script:
+pyautogui.click(1448.0,323.5)

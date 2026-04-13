@@ -1,0 +1,3 @@
+Task: "Hit the save icon to preserve the edits made in the document"
+Output Script:
+pyautogui.click(1712.0,48.5)

@@ -1,0 +1,167 @@
+{
+    "example_0": {
+        "top_left": [
+            298,
+            469
+        ],
+        "bottom_right": [
+            1920,
+            743
+        ],
+        "label": "write_in_end"
+    },
+    "example_1": {
+        "top_left": [
+            378,
+            147
+        ],
+        "bottom_right": [
+            389,
+            169
+        ],
+        "label": "line_3_after_boolean"
+    },
+    "example_2": {
+        "top_left": [
+            272,
+            75
+        ],
+        "bottom_right": [
+            1019,
+            110
+        ],
+        "label": "code_algo_tab"
+    },
+    "example_3": {
+        "top_left": [
+            1054,
+            72
+        ],
+        "bottom_right": [
+            1869,
+            110
+        ],
+        "label": "unititled_doc_tab"
+    },
+    "example_4": {
+        "top_left": [
+            1019,
+            75
+        ],
+        "bottom_right": [
+            1054,
+            111
+        ],
+        "label": "close_code_algo_tab"
+    },
+    "example_5": {
+        "top_left": [
+            1870,
+            74
+        ],
+        "bottom_right": [
+            1911,
+            109
+        ],
+        "label": "close_untitled_doc_tab"
+    },
+    "example_6": {
+        "top_left": [
+            1681,
+            31
+        ],
+        "bottom_right": [
+            1743,
+            66
+        ],
+        "label": "save_document"
+    },
+    "example_7": {
+        "top_left": [
+            1751,
+            32
+        ],
+        "bottom_right": [
+            1786,
+            65
+        ],
+        "label": "menu"
+    },
+    "example_8": {
+        "top_left": [
+            390,
+            34
+        ],
+        "bottom_right": [
+            425,
+            64
+        ],
+        "label": "new_tab"
+    },
+    "example_9": {
+        "top_left": [
+            278,
+            32
+        ],
+        "bottom_right": [
+            348,
+            67
+        ],
+        "label": "open_document"
+    },
+    "example_10": {
+        "top_left": [
+            349,
+            34
+        ],
+        "bottom_right": [
+            384,
+            64
+        ],
+        "label": "open_document_options"
+    },
+    "example_11": {
+        "top_left": [
+            70,
+            108
+        ],
+        "bottom_right": [
+            246,
+            141
+        ],
+        "label": "untitled_doc_button"
+    },
+    "example_12": {
+        "top_left": [
+            246,
+            110
+        ],
+        "bottom_right": [
+            272,
+            143
+        ],
+        "label": "close_untitled_doc_button"
+    },
+    "example_13": {
+        "top_left": [
+            245,
+            76
+        ],
+        "bottom_right": [
+            271,
+            109
+        ],
+        "label": "close_code_algo_button"
+    },
+    "example_14": {
+        "top_left": [
+            454,
+            344
+        ],
+        "bottom_right": [
+            464,
+            363
+        ],
+        "label": "line_14_plus"
+    }
+}

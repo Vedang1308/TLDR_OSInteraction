@@ -1,0 +1,4 @@
+Task: Click on the country selection dropdown and navigate to the desired country by scrolling down.
+Output Script:
+pyautogui.click(720.0,432.5)
+pyautogui.scroll(15)

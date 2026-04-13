@@ -1,0 +1,3 @@
+Task: Click on the button in the Resources menu to download the 2nd Quarter 2023 Investor"s Report
+Output Script:
+pyautogui.click(1192.0,703.0)

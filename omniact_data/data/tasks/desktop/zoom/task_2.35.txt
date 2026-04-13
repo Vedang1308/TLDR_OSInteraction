@@ -1,0 +1,3 @@
+Task: Switch on the audio by unmuting.
+Output Script:
+pyautogui.click(95.5,1744.0)

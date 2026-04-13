@@ -1,0 +1,3 @@
+Task: Navigate to the edm track list 
+Output Script:
+pyautogui.click(703.0,1001.0)

@@ -1,0 +1,7 @@
+Task: Search the "Used Car Dealers Near You" question
+Output script:
+pyautogui.click(691.0,79.0)
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.write("Used Car Dealers Near You")
+pyautogui.press("enter")

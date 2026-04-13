@@ -1,0 +1,3 @@
+Task: Check how often FlightAware"s data gets updated or refreshed
+Output Script:
+pyautogui.click(372.0,269.5)

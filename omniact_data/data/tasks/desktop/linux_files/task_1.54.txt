@@ -1,0 +1,3 @@
+Task: Expand the current window to its maximum size
+Output Script:
+pyautogui.click(1855.5,50.5)

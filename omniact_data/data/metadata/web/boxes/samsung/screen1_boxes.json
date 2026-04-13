@@ -1,0 +1,362 @@
+{
+    "example_0": {
+        "top_left": [
+            715,
+            779
+        ],
+        "bottom_right": [
+            723,
+            787
+        ],
+        "valid": 1,
+        "label": "select_third_slide"
+    },
+    "example_1": {
+        "top_left": [
+            200,
+            24
+        ],
+        "bottom_right": [
+            247,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_shop_page"
+    },
+    "example_2": {
+        "top_left": [
+            699,
+            779
+        ],
+        "bottom_right": [
+            707,
+            787
+        ],
+        "valid": 1,
+        "label": "select_second_slide"
+    },
+    "example_3": {
+        "top_left": [
+            680,
+            246
+        ],
+        "bottom_right": [
+            760,
+            259
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_4": {
+        "top_left": [
+            16,
+            24
+        ],
+        "bottom_right": [
+            136,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_Samsung_Home_Page"
+    },
+    "example_5": {
+        "top_left": [
+            633,
+            24
+        ],
+        "bottom_right": [
+            722,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect to Accessories page"
+    },
+    "example_6": {
+        "top_left": [
+            392,
+            24
+        ],
+        "bottom_right": [
+            477,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_Appliances"
+    },
+    "example_7": {
+        "top_left": [
+            252,
+            208
+        ],
+        "bottom_right": [
+            291,
+            226
+        ],
+        "valid": 1,
+        "label": "redirect_to_phones"
+    },
+    "example_8": {
+        "top_left": [
+            1098,
+            24
+        ],
+        "bottom_right": [
+            1164,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_Support"
+    },
+    "example_9": {
+        "top_left": [
+            731,
+            779
+        ],
+        "bottom_right": [
+            739,
+            787
+        ],
+        "valid": 1,
+        "label": "select_last_slide"
+    },
+    "example_10": {
+        "top_left": [
+            723,
+            24
+        ],
+        "bottom_right": [
+            819,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_SmartThings"
+    },
+    "example_11": {
+        "top_left": [
+            478,
+            24
+        ],
+        "bottom_right": [
+            563,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_computing"
+    },
+    "example_12": {
+        "top_left": [
+            652,
+            208
+        ],
+        "bottom_right": [
+            733,
+            244
+        ],
+        "valid": 1,
+        "label": "redirect_to_watches_and_audio_page"
+    },
+    "example_13": {
+        "top_left": [
+            1033,
+            24
+        ],
+        "bottom_right": [
+            1096,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_explore"
+    },
+    "example_14": {
+        "top_left": [
+            1148,
+            208
+        ],
+        "bottom_right": [
+            1251,
+            244
+        ],
+        "valid": 1,
+        "label": "redirect_to_students&educators"
+    },
+    "example_15": {
+        "top_left": [
+            564,
+            24
+        ],
+        "bottom_right": [
+            632,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_Displays"
+    },
+    "example_16": {
+        "top_left": [
+            747,
+            779
+        ],
+        "bottom_right": [
+            755,
+            787
+        ],
+        "valid": 1,
+        "label": "next_image_display"
+    },
+    "example_17": {
+        "top_left": [
+            368,
+            208
+        ],
+        "bottom_right": [
+            460,
+            244
+        ],
+        "valid": 1,
+        "label": "redirect_to_TV&Home_Theater"
+    },
+    "example_18": {
+        "top_left": [
+            66,
+            208
+        ],
+        "bottom_right": [
+            114,
+            226
+        ],
+        "valid": 1,
+        "label": "redirect_to_featured_options"
+    },
+    "example_19": {
+        "top_left": [
+            958,
+            208
+        ],
+        "bottom_right": [
+            1084,
+            244
+        ],
+        "valid": 1,
+        "label": "redirect to Monitors, Memory & Storage page"
+    },
+    "example_20": {
+        "top_left": [
+            1336,
+            20
+        ],
+        "bottom_right": [
+            1376,
+            60
+        ],
+        "valid": 1,
+        "label": "shopping_cart_icon"
+    },
+    "example_21": {
+        "top_left": [
+            1288,
+            20
+        ],
+        "bottom_right": [
+            1328,
+            60
+        ],
+        "valid": 1,
+        "label": "search_button"
+    },
+    "example_22": {
+        "top_left": [
+            794,
+            208
+        ],
+        "bottom_right": [
+            894,
+            244
+        ],
+        "valid": 1,
+        "label": "redirect_to_tablets_&_computing"
+    },
+    "example_23": {
+        "top_left": [
+            248,
+            24
+        ],
+        "bottom_right": [
+            307,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_to_Mobile"
+    },
+    "example_24": {
+        "top_left": [
+            527,
+            208
+        ],
+        "bottom_right": [
+            586,
+            226
+        ],
+        "valid": 1,
+        "label": "redirect_to_appliances"
+    },
+    "example_25": {
+        "top_left": [
+            1319,
+            208
+        ],
+        "bottom_right": [
+            1378,
+            226
+        ],
+        "valid": 1,
+        "label": "redirect_to_businesses_page"
+    },
+    "example_26": {
+        "top_left": [
+            1165,
+            24
+        ],
+        "bottom_right": [
+            1259,
+            56
+        ],
+        "valid": 1,
+        "label": " redirecting to for bussiness"
+    },
+    "example_27": {
+        "top_left": [
+            683,
+            779
+        ],
+        "bottom_right": [
+            691,
+            787
+        ],
+        "valid": 1,
+        "label": "search _bar"
+    },
+    "example_28": {
+        "top_left": [
+            130,
+            610
+        ],
+        "bottom_right": [
+            305,
+            652
+        ],
+        "valid": 1,
+        "label": "Buy_Now_button"
+    },
+    "example_29": {
+        "top_left": [
+            308,
+            24
+        ],
+        "bottom_right": [
+            391,
+            56
+        ],
+        "valid": 1,
+        "label": "redirect_TVAudio"
+    }
+}

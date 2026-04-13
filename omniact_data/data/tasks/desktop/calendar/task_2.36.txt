@@ -1,0 +1,4 @@
+Task: Add an appointment on Tuesday, 2 pm.
+Output script:
+pyautogui.click(1125.5,1163.5)
+pyautogui.click(1125.5,1163.5)

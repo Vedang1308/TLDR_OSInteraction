@@ -1,0 +1,266 @@
+{
+    "example_0": {
+        "top_left": [
+            615,
+            27
+        ],
+        "bottom_right": [
+            788,
+            77
+        ],
+        "valid": 1,
+        "label": "dropdown_menu_research_and_education_at_mayo_clinic"
+    },
+    "example_1": {
+        "top_left": [
+            1052,
+            822
+        ],
+        "bottom_right": [
+            1108,
+            878
+        ],
+        "valid": 1,
+        "label": "Letter_\"F\"_redirect"
+    },
+    "example_2": {
+        "top_left": [
+            796,
+            822
+        ],
+        "bottom_right": [
+            852,
+            878
+        ],
+        "valid": 1,
+        "label": "\" the button, representing 'B,' which is for finding diseases & conditions by first letter.\""
+    },
+    "example_3": {
+        "top_left": [
+            1175,
+            37
+        ],
+        "bottom_right": [
+            1224,
+            61
+        ],
+        "valid": 1,
+        "label": "redirect_donate"
+    },
+    "example_4": {
+        "top_left": [
+            453,
+            27
+        ],
+        "bottom_right": [
+            567,
+            77
+        ],
+        "valid": 1,
+        "label": " redirecting to For Medical Professionals Page"
+    },
+    "example_5": {
+        "top_left": [
+            333,
+            27
+        ],
+        "bottom_right": [
+            405,
+            77
+        ],
+        "valid": 1,
+        "label": "Redirect_Healthy Librry page"
+    },
+    "example_6": {
+        "top_left": [
+            1359,
+            819
+        ],
+        "bottom_right": [
+            1440,
+            900
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_7": {
+        "top_left": [
+            182,
+            27
+        ],
+        "bottom_right": [
+            285,
+            77
+        ],
+        "valid": 1,
+        "label": "overlaps the drop down menu button to display Care at Mayo Clinic list."
+    },
+    "example_8": {
+        "top_left": [
+            72,
+            628
+        ],
+        "bottom_right": [
+            213,
+            656
+        ],
+        "valid": 1,
+        "label": "click_to_find_out_more"
+    },
+    "example_9": {
+        "top_left": [
+            1007,
+            37
+        ],
+        "bottom_right": [
+            1151,
+            61
+        ],
+        "valid": 1,
+        "label": "Request_appointment_redirect"
+    },
+    "example_10": {
+        "top_left": [
+            988,
+            822
+        ],
+        "bottom_right": [
+            1044,
+            878
+        ],
+        "valid": 1,
+        "label": "filter_by_letter_E"
+    },
+    "example_11": {
+        "top_left": [
+            237,
+            618
+        ],
+        "bottom_right": [
+            525,
+            666
+        ],
+        "valid": 1,
+        "label": "redirect_to_request_an_appointment"
+    },
+    "example_12": {
+        "top_left": [
+            860,
+            822
+        ],
+        "bottom_right": [
+            916,
+            878
+        ],
+        "valid": 1,
+        "label": "find_disease_by_letter_c"
+    },
+    "example_13": {
+        "top_left": [
+            1180,
+            822
+        ],
+        "bottom_right": [
+            1236,
+            878
+        ],
+        "valid": 1,
+        "label": "letter_\"h\"_redirect"
+    },
+    "example_14": {
+        "top_left": [
+            924,
+            822
+        ],
+        "bottom_right": [
+            980,
+            878
+        ],
+        "valid": 1,
+        "label": "filter_by_letter_D"
+    },
+    "example_15": {
+        "top_left": [
+            1248,
+            37
+        ],
+        "bottom_right": [
+            1320,
+            61
+        ],
+        "valid": 1,
+        "label": "Login_link"
+    },
+    "example_16": {
+        "top_left": [
+            1244,
+            822
+        ],
+        "bottom_right": [
+            1300,
+            878
+        ],
+        "valid": 1,
+        "label": "redirect by letter"
+    },
+    "example_17": {
+        "top_left": [
+            1116,
+            822
+        ],
+        "bottom_right": [
+            1172,
+            878
+        ],
+        "valid": 1,
+        "label": "filter_by_letter_G"
+    },
+    "example_18": {
+        "top_left": [
+            732,
+            822
+        ],
+        "bottom_right": [
+            788,
+            878
+        ],
+        "valid": 1,
+        "label": "search by letter"
+    },
+    "example_19": {
+        "top_left": [
+            1360,
+            137
+        ],
+        "bottom_right": [
+            1408,
+            185
+        ],
+        "valid": 1,
+        "label": "Play_media"
+    },
+    "example_20": {
+        "top_left": [
+            1344,
+            37
+        ],
+        "bottom_right": [
+            1368,
+            67
+        ],
+        "valid": 1,
+        "label": "Search_Icon"
+    },
+    "example_21": {
+        "top_left": [
+            72,
+            24
+        ],
+        "bottom_right": [
+            128,
+            80
+        ],
+        "valid": 1,
+        "label": "redirect_mayoclinic"
+    }
+}

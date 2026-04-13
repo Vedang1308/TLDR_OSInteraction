@@ -1,0 +1,3 @@
+Task: Open the control panel for the third article from Tasting Table.
+Output script:
+pyautogui.click(2141.0,1648.5)

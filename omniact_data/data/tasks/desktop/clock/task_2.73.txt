@@ -1,0 +1,4 @@
+Task: Set time in hours section as 00 
+Output Script:
+pyautogui.click(1389.0,985.0)
+pyautogui.write("00")

@@ -1,0 +1,3 @@
+Task: "I need to hire local help for moving"
+Output Script: 
+pyautogui.click(1127.0,183.5)

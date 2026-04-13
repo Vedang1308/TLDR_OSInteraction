@@ -1,0 +1,6 @@
+Task: Select the text starting with "manslob" and ending at "drizzle" for highlighting.
+Output Script:
+pyautogui.moveTo(2713.0,495.0)
+pyautogui.dragTo(2572.0,1139.0, "left")
+pyautogui.press("down")
+pyautogui.press("enter")

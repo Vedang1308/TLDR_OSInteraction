@@ -1,0 +1,3 @@
+Task: Include new contacts
+Output script:
+pyautogui.click(1828.0,88.5)

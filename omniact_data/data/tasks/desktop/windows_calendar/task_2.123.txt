@@ -1,0 +1,3 @@
+Task: Access the present day on the calendar
+Output Script:
+Pyautogui.click(1106.5,72.0)

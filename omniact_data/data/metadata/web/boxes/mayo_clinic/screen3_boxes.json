@@ -1,0 +1,218 @@
+{
+    "example_0": {
+        "top_left": [
+            209,
+            630
+        ],
+        "bottom_right": [
+            318,
+            654
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_1": {
+        "top_left": [
+            0,
+            0
+        ],
+        "bottom_right": [
+            1440,
+            0
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_2": {
+        "top_left": [
+            241,
+            64
+        ],
+        "bottom_right": [
+            480,
+            128
+        ],
+        "valid": 1,
+        "label": "Redirects to Ordering and Results"
+    },
+    "example_3": {
+        "top_left": [
+            209,
+            682
+        ],
+        "bottom_right": [
+            313,
+            706
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_4": {
+        "top_left": [
+            1,
+            64
+        ],
+        "bottom_right": [
+            240,
+            128
+        ],
+        "valid": 1,
+        "label": "redirecting to TEST CATALOG Link page."
+    },
+    "example_5": {
+        "top_left": [
+            209,
+            838
+        ],
+        "bottom_right": [
+            313,
+            863
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_6": {
+        "top_left": [
+            1200,
+            64
+        ],
+        "bottom_right": [
+            1319,
+            128
+        ],
+        "valid": 1,
+        "label": "Redirect_to_contact_page"
+    },
+    "example_7": {
+        "top_left": [
+            1229,
+            0
+        ],
+        "bottom_right": [
+            1318,
+            64
+        ],
+        "valid": 1,
+        "label": "Resgister"
+    },
+    "example_8": {
+        "top_left": [
+            82,
+            148
+        ],
+        "bottom_right": [
+            205,
+            163
+        ],
+        "valid": 1,
+        "label": " redirecting to Mayo clinic Laboratories page."
+    },
+    "example_9": {
+        "top_left": [
+            720,
+            64
+        ],
+        "bottom_right": [
+            959,
+            128
+        ],
+        "valid": 1,
+        "label": " redirecting to Customer service page"
+    },
+    "example_10": {
+        "top_left": [
+            481,
+            64
+        ],
+        "bottom_right": [
+            720,
+            128
+        ],
+        "valid": 1,
+        "label": "specimen_handling_redirect"
+    },
+    "example_11": {
+        "top_left": [
+            1076,
+            0
+        ],
+        "bottom_right": [
+            1195,
+            64
+        ],
+        "valid": 1,
+        "label": " redirecting to Mayo Link page."
+    },
+    "example_12": {
+        "top_left": [
+            209,
+            734
+        ],
+        "bottom_right": [
+            318,
+            758
+        ],
+        "valid": 1,
+        "label": "redirect_to_Patient_Spotlight"
+    },
+    "example_13": {
+        "top_left": [
+            930,
+            0
+        ],
+        "bottom_right": [
+            1065,
+            64
+        ],
+        "valid": 1,
+        "label": "redirect_to_mayoaccess"
+    },
+    "example_14": {
+        "top_left": [
+            24,
+            14
+        ],
+        "bottom_right": [
+            435,
+            50
+        ],
+        "valid": 1,
+        "label": "hompage_Mayoclinic"
+    },
+    "example_15": {
+        "top_left": [
+            209,
+            786
+        ],
+        "bottom_right": [
+            318,
+            810
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_16": {
+        "top_left": [
+            1320,
+            64
+        ],
+        "bottom_right": [
+            1439,
+            128
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_17": {
+        "top_left": [
+            960,
+            64
+        ],
+        "bottom_right": [
+            1199,
+            128
+        ],
+        "valid": 1,
+        "label": "education_insights_redirect"
+    }
+}

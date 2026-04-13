@@ -1,0 +1,5 @@
+Task: Find and open the "Lock screen settings" from the search bar.
+Output Script:
+pyautogui.click(959.0,289.0)
+pyautogui.write("Lock screen settings")
+pyautogui.press("enter")

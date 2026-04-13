@@ -1,0 +1,3 @@
+Task: Activate the timer by pressing the start or pause button.
+Output Script:
+pyautogui.click(1848.0,1970.0)

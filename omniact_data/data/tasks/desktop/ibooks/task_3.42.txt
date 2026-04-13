@@ -1,0 +1,4 @@
+Task: Scroll downwards to view the upcoming chapter
+Output Script:
+pyautogui.moveTo(208.5,100.5)
+pyautogui.scroll("10")

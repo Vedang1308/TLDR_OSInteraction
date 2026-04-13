@@ -1,0 +1,3 @@
+Task: Change the privacy choices
+Output Script:
+pyautogui.click(217.0,866.0)

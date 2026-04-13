@@ -1,0 +1,3 @@
+Task: Launch Spotify Application
+Output Script:
+pyautogui.click(417.0,344.0)

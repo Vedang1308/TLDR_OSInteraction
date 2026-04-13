@@ -1,0 +1,5 @@
+Task: Implement hotkeys to search commonly used applications
+Output Script:
+pyautogui.hotkey("winleft", "a")
+pyautogui.write("frequent apps")
+pyautogui.press("Enter")

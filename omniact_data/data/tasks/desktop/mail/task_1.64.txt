@@ -1,0 +1,3 @@
+Task: Run the command to update all accounts with new messages.
+Output script:
+pyautogui.click(1273.0,49.5)

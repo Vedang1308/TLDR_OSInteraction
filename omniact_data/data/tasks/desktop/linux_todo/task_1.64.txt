@@ -1,0 +1,3 @@
+Task: Indicate completion of "lecture"
+Output Script:
+pyautogui.click(694.5,305.0)

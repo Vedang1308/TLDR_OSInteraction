@@ -1,0 +1,3 @@
+Task: Go to student page
+Output Script:
+pyautogui.click(470.5,31.5)

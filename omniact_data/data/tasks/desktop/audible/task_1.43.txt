@@ -1,0 +1,3 @@
+Task: Proceed to authors page
+Output Script:
+pyautogui.click(1023.5,176.0)

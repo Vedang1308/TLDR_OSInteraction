@@ -1,0 +1,3 @@
+Task: Open the "Arcade" page.
+Output script:
+pyautogui.click(221.5,310.5)

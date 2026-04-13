@@ -1,0 +1,3 @@
+Task: Access the "Shared with you" function.
+Output script:
+pyautogui.click(217.0,408.5)

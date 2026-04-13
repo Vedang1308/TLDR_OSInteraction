@@ -1,0 +1,3 @@
+Task: Lower the system volume to zero
+Output Script:
+pyautogui.click(2828.0,588.5)

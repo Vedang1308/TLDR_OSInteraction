@@ -1,0 +1,3 @@
+Task: See the full list of audiobooks
+Output script:
+pyautogui.click(1845.5,487.0)

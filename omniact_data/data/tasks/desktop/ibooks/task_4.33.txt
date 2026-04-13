@@ -1,0 +1,3 @@
+Task: Access detailed information about the book "Last Kingdom" by selecting the three dots
+Output Script:
+pyautogui.click(3262.5,487.0)

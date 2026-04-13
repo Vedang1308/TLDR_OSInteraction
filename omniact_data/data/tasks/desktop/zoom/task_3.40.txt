@@ -1,0 +1,5 @@
+Task: Find "Indiana Jones" using the search function in contacts app.
+Output Script:
+pyautogui.click(1471.5,55.0)
+pyautogui.write("Indiana Jones")
+pyautogui.press("enter")

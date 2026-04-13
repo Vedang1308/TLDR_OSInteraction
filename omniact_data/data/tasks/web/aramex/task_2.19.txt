@@ -1,0 +1,3 @@
+Task: Select and view the terms of use by pressing the button found below in the legal information area. 
+Output Script:
+pyautogui.click(512.5,709.0)

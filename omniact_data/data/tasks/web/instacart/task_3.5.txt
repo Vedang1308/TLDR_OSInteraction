@@ -1,0 +1,3 @@
+Task: Take me to Floral, Party & Gift Page
+Output Script:
+pyautogui.click(380.5,322.0)

@@ -1,0 +1,3 @@
+Task: Redirect your page to "Sports & Outdoors" section
+Output Script:
+pyautogui.click(81.0,158.0)

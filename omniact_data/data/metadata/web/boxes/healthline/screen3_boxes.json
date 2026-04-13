@@ -1,0 +1,362 @@
+{
+    "example_0": {
+        "top_left": [
+            170,
+            88
+        ],
+        "bottom_right": [
+            227,
+            110
+        ],
+        "valid": 1,
+        "label": "REVIWES LINK"
+    },
+    "example_1": {
+        "top_left": [
+            830,
+            86
+        ],
+        "bottom_right": [
+            857,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_to_cbd"
+    },
+    "example_2": {
+        "top_left": [
+            750,
+            592
+        ],
+        "bottom_right": [
+            895,
+            701
+        ],
+        "valid": 1,
+        "label": "article_link"
+    },
+    "example_3": {
+        "top_left": [
+            335,
+            836
+        ],
+        "bottom_right": [
+            690,
+            880
+        ],
+        "valid": 1,
+        "label": "Article_link"
+    },
+    "example_4": {
+        "top_left": [
+            268,
+            86
+        ],
+        "bottom_right": [
+            421,
+            112
+        ],
+        "valid": 1,
+        "label": "vitamins_supplements"
+    },
+    "example_5": {
+        "top_left": [
+            170,
+            22
+        ],
+        "bottom_right": [
+            338,
+            48
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_6": {
+        "top_left": [
+            1121,
+            26
+        ],
+        "bottom_right": [
+            1205,
+            44
+        ],
+        "valid": 1,
+        "label": "redirect_to_Subscribe"
+    },
+    "example_7": {
+        "top_left": [
+            915,
+            592
+        ],
+        "bottom_right": [
+            1270,
+            652
+        ],
+        "valid": 1,
+        "label": "redirct_icon_11_best_mattresses_headline"
+    },
+    "example_8": {
+        "top_left": [
+            915,
+            836
+        ],
+        "bottom_right": [
+            1270,
+            880
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            700,
+            86
+        ],
+        "bottom_right": [
+            805,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_at_home_testing"
+    },
+    "example_10": {
+        "top_left": [
+            170,
+            592
+        ],
+        "bottom_right": [
+            315,
+            701
+        ],
+        "valid": 1,
+        "label": "article_link"
+    },
+    "example_11": {
+        "top_left": [
+            446,
+            86
+        ],
+        "bottom_right": [
+            481,
+            112
+        ],
+        "valid": 1,
+        "label": "Redirect_Sleep products page"
+    },
+    "example_12": {
+        "top_left": [
+            335,
+            662
+        ],
+        "bottom_right": [
+            690,
+            706
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_13": {
+        "top_left": [
+            703,
+            1
+        ],
+        "bottom_right": [
+            804,
+            69
+        ],
+        "valid": 1,
+        "label": " redirecting to plan page"
+    },
+    "example_14": {
+        "top_left": [
+            506,
+            86
+        ],
+        "bottom_right": [
+            595,
+            112
+        ],
+        "valid": 1,
+        "label": "mental_health_redirect"
+    },
+    "example_15": {
+        "top_left": [
+            363,
+            1
+        ],
+        "bottom_right": [
+            569,
+            69
+        ],
+        "valid": 1,
+        "label": "redirect_to_health_conditions_page"
+    },
+    "example_16": {
+        "top_left": [
+            750,
+            766
+        ],
+        "bottom_right": [
+            895,
+            875
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_17": {
+        "top_left": [
+            648,
+            167
+        ],
+        "bottom_right": [
+            792,
+            182
+        ],
+        "valid": 1,
+        "label": " redirecting to healthline reviews Link page."
+    },
+    "example_18": {
+        "top_left": [
+            620,
+            86
+        ],
+        "bottom_right": [
+            675,
+            112
+        ],
+        "valid": 1,
+        "label": "redirect_Nutrition"
+    },
+    "example_19": {
+        "top_left": [
+            170,
+            766
+        ],
+        "bottom_right": [
+            315,
+            875
+        ],
+        "valid": 1,
+        "label": "Article_link_three_mattress"
+    },
+    "example_20": {
+        "top_left": [
+            882,
+            86
+        ],
+        "bottom_right": [
+            965,
+            112
+        ],
+        "valid": 1,
+        "label": "redirct_Men'shealth"
+    },
+    "example_21": {
+        "top_left": [
+            569,
+            1
+        ],
+        "bottom_right": [
+            703,
+            69
+        ],
+        "valid": 1,
+        "label": " redirecting to Discover Page"
+    },
+    "example_22": {
+        "top_left": [
+            990,
+            86
+        ],
+        "bottom_right": [
+            1094,
+            112
+        ],
+        "valid": 1,
+        "label": " redirecting to Women's Health"
+    },
+    "example_23": {
+        "top_left": [
+            915,
+            662
+        ],
+        "bottom_right": [
+            1270,
+            706
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_24": {
+        "top_left": [
+            335,
+            766
+        ],
+        "bottom_right": [
+            690,
+            826
+        ],
+        "valid": 1,
+        "label": "redirect_to_the_11_best_mattresses_for_lower_back_pain_in_2023"
+    },
+    "example_25": {
+        "top_left": [
+            915,
+            766
+        ],
+        "bottom_right": [
+            1270,
+            826
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_26": {
+        "top_left": [
+            345,
+            168
+        ],
+        "bottom_right": [
+            1095,
+            179
+        ],
+        "valid": 1,
+        "label": "goes back to the healthline reviews page."
+    },
+    "example_27": {
+        "top_left": [
+            1230,
+            27
+        ],
+        "bottom_right": [
+            1270,
+            43
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_28": {
+        "top_left": [
+            335,
+            592
+        ],
+        "bottom_right": [
+            690,
+            652
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_29": {
+        "top_left": [
+            804,
+            1
+        ],
+        "bottom_right": [
+            935,
+            69
+        ],
+        "valid": 1,
+        "label": "Connect_dropdown_menu"
+    }
+}

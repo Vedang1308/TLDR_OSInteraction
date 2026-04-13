@@ -1,0 +1,134 @@
+{
+    "example_0": {
+        "top_left": [
+            208,
+            310
+        ],
+        "bottom_right": [
+            290,
+            334
+        ],
+        "valid": 1,
+        "label": "filter_by_Alchohol"
+    },
+    "example_1": {
+        "top_left": [
+            300,
+            28
+        ],
+        "bottom_right": [
+            324,
+            56
+        ],
+        "valid": 1,
+        "label": "search_bar_query"
+    },
+    "example_2": {
+        "top_left": [
+            471,
+            310
+        ],
+        "bottom_right": [
+            615,
+            334
+        ],
+        "valid": 1,
+        "label": "filter_by_School_Supplies"
+    },
+    "example_3": {
+        "top_left": [
+            112,
+            758
+        ],
+        "bottom_right": [
+            307,
+            810
+        ],
+        "valid": 1,
+        "label": "show_eligible_items"
+    },
+    "example_4": {
+        "top_left": [
+            298,
+            310
+        ],
+        "bottom_right": [
+            463,
+            334
+        ],
+        "valid": 1,
+        "label": "redirect_to_product_page"
+    },
+    "example_5": {
+        "top_left": [
+            20,
+            24
+        ],
+        "bottom_right": [
+            52,
+            56
+        ],
+        "valid": 1,
+        "label": "menu_button"
+    },
+    "example_6": {
+        "top_left": [
+            116,
+            310
+        ],
+        "bottom_right": [
+            200,
+            334
+        ],
+        "valid": 1,
+        "label": "filter_by_popular_product_deals"
+    },
+    "example_7": {
+        "top_left": [
+            1245,
+            16
+        ],
+        "bottom_right": [
+            1338,
+            64
+        ],
+        "valid": 1,
+        "label": "log_in_button"
+    },
+    "example_8": {
+        "top_left": [
+            68,
+            12
+        ],
+        "bottom_right": [
+            264,
+            68
+        ],
+        "valid": 1,
+        "label": "redirect_to_instacart_homepage"
+    },
+    "example_9": {
+        "top_left": [
+            1101,
+            12
+        ],
+        "bottom_right": [
+            1221,
+            68
+        ],
+        "valid": 1,
+        "label": "search_zipcode"
+    },
+    "example_10": {
+        "top_left": [
+            1350,
+            20
+        ],
+        "bottom_right": [
+            1416,
+            60
+        ],
+        "valid": 1,
+        "label": "Redirect_to_Shopping_Cart"
+    }
+}

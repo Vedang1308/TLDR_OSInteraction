@@ -1,0 +1,5 @@
+Task: Input the place "Gates Hillman Center" into the location field
+Output script:
+pyautogui.click(1578.5,576.0)
+pyautogui.write("Gates Hillman Center")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Generate a note for Nari Prof Singh
+Output script:
+pyautogui.click(736.5,583.5)

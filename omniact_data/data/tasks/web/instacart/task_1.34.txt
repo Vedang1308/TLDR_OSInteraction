@@ -1,0 +1,3 @@
+Task: Go to Costco Store online
+Output Script:
+pyautogui.click(720.0,541.0)

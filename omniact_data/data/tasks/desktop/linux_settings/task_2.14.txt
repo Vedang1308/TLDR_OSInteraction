@@ -1,0 +1,3 @@
+Task: Reduce window size
+Output Script:
+pyautogui.click(1856.5,52.0)

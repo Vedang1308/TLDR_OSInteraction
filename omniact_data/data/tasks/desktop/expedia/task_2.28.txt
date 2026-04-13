@@ -1,0 +1,3 @@
+Task: Check for the available combined deal for flight, hotel and car
+Output script:
+pyautogui.click(622.0,107.5)

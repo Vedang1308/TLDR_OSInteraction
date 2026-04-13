@@ -1,0 +1,2 @@
+Task: View all courses created by the author who created the current course
+pyautogui.click(294.5,328.0)

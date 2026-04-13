@@ -1,0 +1,3 @@
+Task: Enable battery indicator in system bar.
+Output Script:
+pyautogui.click(1207.5,682.0)

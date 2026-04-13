@@ -1,0 +1,3 @@
+Task: Check the deals on tablets
+Output Script:
+pyautogui.click(610.5,354.0)

@@ -1,0 +1,5 @@
+Task: Type and enter "Boeing Company" in the top left search bar. 
+Output script:
+pyautogui.click(329.5,149.5)
+pyautogui.write("Boeing Company")
+pyautogui.press("enter")

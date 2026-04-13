@@ -1,0 +1,6 @@
+Task: Click on the Health Library tag, then tab twice to highlight the second option and press enter to select it.
+Output Script:
+pyautogui.click(369.0,52.0)
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")

@@ -1,0 +1,4 @@
+Task: Locate the "get" button and proceed to download and install the application.
+Output script:
+pyautogui.click(891.0,318.5)
+pyautogui.click(891.0,318.5)

@@ -1,0 +1,3 @@
+Task: Track down the blue-colored reviews
+Output Script:
+pyautogui.click(198.5,99.0)

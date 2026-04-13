@@ -1,0 +1,3 @@
+Task: Go to Coursera Home Page
+Output Script:
+pyautogui.click(87.5,72.0)

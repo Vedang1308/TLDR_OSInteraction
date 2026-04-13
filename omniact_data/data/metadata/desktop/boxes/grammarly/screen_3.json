@@ -1,0 +1,211 @@
+{
+    "example_0": {
+        "top_left": [
+            2,
+            267
+        ],
+        "bottom_right": [
+            372,
+            322
+        ],
+        "label": "trash"
+    },
+    "example_1": {
+        "top_left": [
+            425,
+            216
+        ],
+        "bottom_right": [
+            598,
+            375
+        ],
+        "label": "new_document"
+    },
+    "example_2": {
+        "top_left": [
+            423,
+            378
+        ],
+        "bottom_right": [
+            599,
+            431
+        ],
+        "label": "import_document"
+    },
+    "example_3": {
+        "top_left": [
+            649,
+            216
+        ],
+        "bottom_right": [
+            823,
+            372
+        ],
+        "label": "note_better_demonstrate"
+    },
+    "example_4": {
+        "top_left": [
+            1100,
+            219
+        ],
+        "bottom_right": [
+            1273,
+            372
+        ],
+        "label": "note_hiring_manager"
+    },
+    "example_5": {
+        "top_left": [
+            932,
+            372
+        ],
+        "bottom_right": [
+            993,
+            429
+        ],
+        "label": "download_james_rachels"
+    },
+    "example_6": {
+        "top_left": [
+            993,
+            372
+        ],
+        "bottom_right": [
+            1049,
+            429
+        ],
+        "label": "delete_james_rachels"
+    },
+    "example_7": {
+        "top_left": [
+            873,
+            216
+        ],
+        "bottom_right": [
+            1049,
+            373
+        ],
+        "label": "note_james_rachels"
+    },
+    "example_8": {
+        "top_left": [
+            426,
+            97
+        ],
+        "bottom_right": [
+            1684,
+            134
+        ],
+        "label": "search_note"
+    },
+    "example_9": {
+        "top_left": [
+            2,
+            323
+        ],
+        "bottom_right": [
+            372,
+            378
+        ],
+        "label": "account"
+    },
+    "example_10": {
+        "top_left": [
+            2,
+            381
+        ],
+        "bottom_right": [
+            372,
+            436
+        ],
+        "label": "premium"
+    },
+    "example_11": {
+        "top_left": [
+            1326,
+            217
+        ],
+        "bottom_right": [
+            1499,
+            370
+        ],
+        "label": "note_maintain_daily_earlier_first_note"
+    },
+    "example_12": {
+        "top_left": [
+            650,
+            507
+        ],
+        "bottom_right": [
+            823,
+            660
+        ],
+        "label": "note_nari_prof_singh"
+    },
+    "example_13": {
+        "top_left": [
+            875,
+            797
+        ],
+        "bottom_right": [
+            1048,
+            950
+        ],
+        "label": "note_goodfellow"
+    },
+    "example_14": {
+        "top_left": [
+            1550,
+            797
+        ],
+        "bottom_right": [
+            1723,
+            950
+        ],
+        "label": "note_cgan_45"
+    },
+    "example_15": {
+        "top_left": [
+            1325,
+            507
+        ],
+        "bottom_right": [
+            1498,
+            660
+        ],
+        "label": "note_cgan_36"
+    },
+    "example_16": {
+        "top_left": [
+            376,
+            152
+        ],
+        "bottom_right": [
+            1895,
+            1026
+        ],
+        "label": "scroll_notes"
+    },
+    "example_17": {
+        "top_left": [
+            1901,
+            1016
+        ],
+        "bottom_right": [
+            1920,
+            1034
+        ],
+        "label": "scroll_down_button"
+    },
+    "example_18": {
+        "top_left": [
+            1896,
+            847
+        ],
+        "bottom_right": [
+            1920,
+            1017
+        ],
+        "label": "scroll_bottom_direct"
+    }
+}

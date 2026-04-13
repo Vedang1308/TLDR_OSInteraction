@@ -1,0 +1,3 @@
+Task: Acquire full edition of "Secret Keeper" book
+Output Script:
+pyautogui.click(3223.5,1562.0)

@@ -1,0 +1,3 @@
+Task: Inspect Flight Aware for today"s live details on flight delays and cancellations
+Output Script:
+pyautogui.click(614.5,206.0)

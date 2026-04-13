@@ -1,0 +1,3 @@
+Task: Navigate to and select the booking feature to set an appointment.
+Output Script:
+pyautogui.click(1175.5,171.5)

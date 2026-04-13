@@ -1,0 +1,3 @@
+Task: Navigate to locate the nearest store.
+Output Script:
+pyautogui.click(1222.0,15.0)

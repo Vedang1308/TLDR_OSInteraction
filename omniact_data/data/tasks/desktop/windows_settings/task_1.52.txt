@@ -1,0 +1,3 @@
+Task: Navigate to settings and reset browser options to recommended 
+Output Script:
+pyautogui.click(1612.0,144.0)

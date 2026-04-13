@@ -1,0 +1,3 @@
+Task: Access the main page of Best Buy by selecting the top left symbol. 
+Output Script:
+pyautogui.click(74.0,69.0)

@@ -1,0 +1,3 @@
+Task: Preserve the photograph utilizing keyboard commands
+Output Script:
+pyautogui.hotkey("ctrl", "s")

@@ -1,0 +1,5 @@
+Task: Add "complete history report" task
+Output Script:
+pyautogui.click(731.5,805.0)
+pyautogui.write("math homework")
+pyautogui.press("Enter")

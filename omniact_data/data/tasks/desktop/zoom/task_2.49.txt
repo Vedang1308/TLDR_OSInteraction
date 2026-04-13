@@ -1,0 +1,3 @@
+Task: Navigate to the chat function options.
+Output Script:
+pyautogui.click(978.5,1744.0)

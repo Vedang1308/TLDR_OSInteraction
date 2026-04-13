@@ -1,0 +1,8 @@
+Task: Navigate to the site"s language options and select the second language listed using keyboard commands.
+Output Script:
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")
+pyautogui.press("down")
+pyautogui.press("enter")

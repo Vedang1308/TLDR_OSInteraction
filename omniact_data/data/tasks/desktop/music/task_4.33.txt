@@ -1,0 +1,3 @@
+Task: Start playing the music titled irresponsible
+Output Script:
+pyautogui.doubleClick(2036.5,1081.5)

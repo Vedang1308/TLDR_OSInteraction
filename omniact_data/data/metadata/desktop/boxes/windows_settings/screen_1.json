@@ -1,0 +1,244 @@
+{
+    "example_0": {
+        "top_left": [
+            134,
+            378
+        ],
+        "bottom_right": [
+            437,
+            481
+        ],
+        "label": "System"
+    },
+    "example_1": {
+        "top_left": [
+            134,
+            503
+        ],
+        "bottom_right": [
+            437,
+            602
+        ],
+        "label": "Apps"
+    },
+    "example_2": {
+        "top_left": [
+            132,
+            636
+        ],
+        "bottom_right": [
+            437,
+            725
+        ],
+        "label": "Search"
+    },
+    "example_3": {
+        "top_left": [
+            474,
+            377
+        ],
+        "bottom_right": [
+            764,
+            482
+        ],
+        "label": "Devices"
+    },
+    "example_4": {
+        "top_left": [
+            474,
+            504
+        ],
+        "bottom_right": [
+            766,
+            597
+        ],
+        "label": "Accounts"
+    },
+    "example_5": {
+        "top_left": [
+            474,
+            636
+        ],
+        "bottom_right": [
+            772,
+            723
+        ],
+        "label": "Privacy"
+    },
+    "example_6": {
+        "top_left": [
+            806,
+            377
+        ],
+        "bottom_right": [
+            1119,
+            482
+        ],
+        "label": "Phone"
+    },
+    "example_7": {
+        "top_left": [
+            805,
+            505
+        ],
+        "bottom_right": [
+            1118,
+            607
+        ],
+        "label": "Time & Language"
+    },
+    "example_8": {
+        "top_left": [
+            805,
+            635
+        ],
+        "bottom_right": [
+            1118,
+            736
+        ],
+        "label": "Update & Security"
+    },
+    "example_9": {
+        "top_left": [
+            1154,
+            377
+        ],
+        "bottom_right": [
+            1449,
+            481
+        ],
+        "label": "Network & Internet"
+    },
+    "example_10": {
+        "top_left": [
+            1153,
+            506
+        ],
+        "bottom_right": [
+            1447,
+            609
+        ],
+        "label": "Gaming"
+    },
+    "example_11": {
+        "top_left": [
+            1480,
+            377
+        ],
+        "bottom_right": [
+            1784,
+            483
+        ],
+        "label": "Personalization"
+    },
+    "example_12": {
+        "top_left": [
+            1479,
+            507
+        ],
+        "bottom_right": [
+            1785,
+            609
+        ],
+        "label": "Ease of Access"
+    },
+    "example_13": {
+        "top_left": [
+            751,
+            272
+        ],
+        "bottom_right": [
+            1167,
+            306
+        ],
+        "label": "Find a setting"
+    },
+    "example_14": {
+        "top_left": [
+            351,
+            165
+        ],
+        "bottom_right": [
+            413,
+            191
+        ],
+        "label": "sign in local account"
+    },
+    "example_15": {
+        "top_left": [
+            940,
+            68
+        ],
+        "bottom_right": [
+            1086,
+            202
+        ],
+        "label": "Manage one drive"
+    },
+    "example_16": {
+        "top_left": [
+            1129,
+            67
+        ],
+        "bottom_right": [
+            1314,
+            211
+        ],
+        "label": "Windows Update"
+    },
+    "example_17": {
+        "top_left": [
+            1337,
+            69
+        ],
+        "bottom_right": [
+            1479,
+            213
+        ],
+        "label": "Rewards"
+    },
+    "example_18": {
+        "top_left": [
+            1526,
+            68
+        ],
+        "bottom_right": [
+            1698,
+            220
+        ],
+        "label": "Web Browsing"
+    },
+    "example_19": {
+        "top_left": [
+            1871,
+            7
+        ],
+        "bottom_right": [
+            1919,
+            35
+        ],
+        "label": "Close application"
+    },
+    "example_20": {
+        "top_left": [
+            1754,
+            7
+        ],
+        "bottom_right": [
+            1802,
+            34
+        ],
+        "label": "Minimize application"
+    },
+    "example_21": {
+        "top_left": [
+            1811,
+            7
+        ],
+        "bottom_right": [
+            1869,
+            34
+        ],
+        "label": "Exit full screen"
+    }
+}

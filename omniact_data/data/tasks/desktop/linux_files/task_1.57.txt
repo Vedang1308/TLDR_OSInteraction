@@ -1,0 +1,3 @@
+Task: Finalize and close the current window
+Output Script:
+pyautogui.click(1894.5,51.5)

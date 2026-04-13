@@ -1,0 +1,3 @@
+Task: Navigate to the top site area and access exclusive member deals
+Output Script:
+pyautogui.click(720.0,16.5)

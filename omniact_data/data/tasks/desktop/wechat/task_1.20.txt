@@ -1,0 +1,3 @@
+Task: Select option to send a file to Jack
+Output Script:
+pyautogui.click(468.0,875.5)

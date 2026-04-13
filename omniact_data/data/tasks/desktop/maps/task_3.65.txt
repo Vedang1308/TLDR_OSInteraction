@@ -1,0 +1,5 @@
+Task: Configure the final stop as London.
+Output script:
+pyautogui.click(2574.0,300.0)
+pyautogui.write("London")
+pyautogui.press("Enter")

@@ -1,0 +1,8 @@
+Task: Determine what is 5% of 20
+Output Script:
+pyautogui.click(1938.0,1065.0)
+pyautogui.click(2054.0,879.5)
+pyautogui.click(2169.5,968.5)
+pyautogui.click(1936.5,1159.5)
+pyautogui.click(1881.0,1255.5)
+pyautogui.click(2169.0,1255.5)

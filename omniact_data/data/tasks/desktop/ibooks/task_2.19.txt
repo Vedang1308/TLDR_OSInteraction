@@ -1,0 +1,4 @@
+Task: Move horizontally towards the right to view additional books
+Output Script:
+pyautogui.moveTo(1881.5,1050.5)
+pyautogui.hscroll(20)

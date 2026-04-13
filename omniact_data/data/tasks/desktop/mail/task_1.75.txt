@@ -1,0 +1,3 @@
+Task: Select the mail marked as important.
+Output script:
+pyautogui.click(196.5,480.0)

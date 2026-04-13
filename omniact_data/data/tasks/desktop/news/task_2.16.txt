@@ -1,0 +1,3 @@
+Task: Express negative sentiment for the narrative.
+Output script:
+pyautogui.click(2757.5,54.0)

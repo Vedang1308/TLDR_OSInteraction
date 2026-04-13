@@ -1,0 +1,4 @@
+Task: Duplicate the entire content of the document to the clipboard
+Output script:
+pyautogui.click(191.5,669.0)
+pyautogui.hotkey("ctrl", "c")

@@ -1,0 +1,3 @@
+Task: Keep the open document
+Output script:
+pyautogui.hotkey("ctrl", "s")

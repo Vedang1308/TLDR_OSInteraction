@@ -1,0 +1,4 @@
+Task: Locate the country or territory field and use the scroll option to view more.
+Output Script:
+pyautogui.click(720.0,432.5)
+pyautogui.scroll(15)

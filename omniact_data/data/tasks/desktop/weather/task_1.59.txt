@@ -1,0 +1,3 @@
+Task: Verify the status of wind
+Output Script:
+pyautogui.click(2480.5,1288.0)

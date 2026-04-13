@@ -1,0 +1,3 @@
+Task: Mark "Ants of Bimbleby Hill" as favourite
+Output Script:
+pyautogui.click(735.0,828.5)

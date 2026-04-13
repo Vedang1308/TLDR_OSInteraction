@@ -1,0 +1,5 @@
+Task: Begin fresh chat with user named Chris.
+Output Script:
+pyautogui.click(582.5,49.0)
+pyautogui.write("Chris")
+pyautogui.press("enter")

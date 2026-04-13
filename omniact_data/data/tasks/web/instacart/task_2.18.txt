@@ -1,0 +1,3 @@
+Task: Access Home Page of Giant Eagle.
+Output Script:
+pyautogui.click(94.0,95.0)

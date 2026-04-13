@@ -1,0 +1,3 @@
+Task: Boost the audio to its highest level
+Output Script:
+pyautogui.click(3208.0,587.5)

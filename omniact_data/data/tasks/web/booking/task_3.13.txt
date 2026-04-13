@@ -1,0 +1,3 @@
+Task: Access the complete Reviews page
+Output Script:
+pyautogui.click(546.5,833.0)

@@ -1,0 +1,6 @@
+Task: Backtrack the video by sixty seconds using keyboard commands
+Output Script:
+pyautogui.press("left")
+pyautogui.press("left")
+pyautogui.press("left")
+pyautogui.press("left")

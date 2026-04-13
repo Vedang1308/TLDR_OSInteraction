@@ -1,0 +1,5 @@
+Task: Add location of the event as "Carnegie Mellon University".
+Output script:
+pyautogui.click(962.5,1110.5)
+pyautogui.write("Carnegie Mellon University")
+pyautogui.press("Enter")

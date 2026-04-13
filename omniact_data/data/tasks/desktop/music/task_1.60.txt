@@ -1,0 +1,3 @@
+Task: Set a reminder for the track "Music 1"
+Output script:
+pyautogui.click(1356.0,394.0)

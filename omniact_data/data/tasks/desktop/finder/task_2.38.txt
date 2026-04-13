@@ -1,0 +1,4 @@
+Task: Open the folder listed first on the screen.
+Output Script:
+pyautogui.click(1884.0,187.0)
+pyautogui.click(1884.0,187.0)

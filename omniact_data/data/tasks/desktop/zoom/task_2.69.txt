@@ -1,0 +1,3 @@
+Task: Launch the sound configurations.
+Output Script:
+pyautogui.click(156.0,1741.0)

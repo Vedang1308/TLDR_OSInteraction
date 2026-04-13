@@ -1,0 +1,5 @@
+Task: Search for mattresses using the search bar
+Output Script:
+pyautogui.click(1250.0,35.0)
+pyautogui.write("mattresses")
+pyautogui.press("enter")

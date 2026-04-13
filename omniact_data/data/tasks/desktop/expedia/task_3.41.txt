@@ -1,0 +1,3 @@
+Task: Visit the "citypass newyork" section to browse through various packages.
+Output script:
+pyautogui.click(1448.0,323.5)

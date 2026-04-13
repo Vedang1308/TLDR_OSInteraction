@@ -1,0 +1,5 @@
+Task: Try to sign into the page
+Output Script:
+pyautogui.click(420.5,509.0)
+pyautogui.write("andrew@andrew.cmu.edu")
+pyautogui.press("enter")

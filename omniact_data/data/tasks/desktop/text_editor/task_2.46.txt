@@ -1,0 +1,8 @@
+Task: In the existing text, substitute "hello" with the most recently altered word.
+Output Script:
+pyautogui.click(1027.0,490.0)
+pyautogui.write("hello")
+pyautogui.click(1197.5,488.0)
+pyautogui.press("tab")
+pyautogui.press("enter")
+pyautogui.click(1044.5,664.0)

@@ -1,0 +1,3 @@
+Task: Insert a notification for an event
+Output Script:
+pyautogui.click(789.0,125.5)

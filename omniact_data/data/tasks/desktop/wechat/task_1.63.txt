@@ -1,0 +1,3 @@
+Task: Dispatch the captured screenshot to Jack
+Output Script:
+pyautogui.click(510.0,874.5)

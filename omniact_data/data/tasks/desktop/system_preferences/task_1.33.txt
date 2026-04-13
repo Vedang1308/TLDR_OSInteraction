@@ -1,0 +1,3 @@
+Task: Navigate the adjustments needed to switch the principal printer.
+Output Script:
+pyautogui.click(888.0,1160.5)

@@ -1,0 +1,3 @@
+Task: Run the KFI AM streaming
+Output script:
+pyautogui.click(2919.5,1700.0)

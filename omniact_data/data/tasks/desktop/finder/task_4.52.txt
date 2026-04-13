@@ -1,0 +1,3 @@
+Task: Cease the currently playing audio
+Output Script:
+pyautogui.click(3228.0,717.0)

@@ -1,0 +1,3 @@
+Task: Click option to plan trip ahead.
+Output script:
+pyautogui.click(2696.0,376.5)

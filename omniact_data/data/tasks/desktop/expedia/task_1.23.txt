@@ -1,0 +1,3 @@
+Task: Look into the flight information.
+Output script:
+pyautogui.click(1442.0,227.5)

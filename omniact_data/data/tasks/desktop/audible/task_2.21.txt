@@ -1,0 +1,3 @@
+Task: Direct to the half-way mark of the book
+Output Script:
+pyautogui.click(993.0,625.5)

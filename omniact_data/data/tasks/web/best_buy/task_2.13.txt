@@ -1,0 +1,3 @@
+Task: Go to the Today"s featured deals area and click on the top deal.
+Output Script:
+pyautogui.click(203.5,714.5)

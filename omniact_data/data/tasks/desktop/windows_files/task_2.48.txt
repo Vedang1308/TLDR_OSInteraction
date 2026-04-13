@@ -1,0 +1,3 @@
+Task: Access the "programs" directory.
+Output Script:
+pyautogui.rightClick(1763.0,262.5)

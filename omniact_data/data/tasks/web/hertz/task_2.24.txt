@@ -1,0 +1,3 @@
+Task: Move down on the screen
+Output script:
+pyautogui.press("space")

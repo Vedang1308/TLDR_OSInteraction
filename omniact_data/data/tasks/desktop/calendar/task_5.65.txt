@@ -1,0 +1,5 @@
+Task: Input the new location "Beach Resort".
+Output script:
+pyautogui.click(1578.5,576.0)
+pyautogui.write("Beach Resort")
+pyautogui.press("enter")

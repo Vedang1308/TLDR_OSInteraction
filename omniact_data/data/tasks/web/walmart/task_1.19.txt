@@ -1,0 +1,6 @@
+Task: In the "expand_Brand" dropdown, select the foremost brand.
+Output Script:
+pyautogui.click(154.5,560.5)
+pyautogui.press("tab")
+pyautogui.press("tab")
+pyautogui.press("enter")

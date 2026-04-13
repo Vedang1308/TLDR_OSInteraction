@@ -1,0 +1,3 @@
+Task: Open the description of Voice Assist for the first TV in the list
+Output Script:
+pyautogui.click(906.0,647.0)

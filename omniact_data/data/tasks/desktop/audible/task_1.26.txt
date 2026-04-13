@@ -1,0 +1,5 @@
+Task: Close the active window 
+Output Script:
+pyautogui.click(1365.0,100.5)
+pyautogui.write("sapiens")
+pyautogui.press("enter")

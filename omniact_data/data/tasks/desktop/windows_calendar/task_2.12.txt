@@ -1,0 +1,3 @@
+Task: View the daily calendar
+Output Script:
+Pyautogui.click(1221.5,71.0)

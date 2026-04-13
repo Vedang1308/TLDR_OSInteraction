@@ -1,0 +1,326 @@
+{
+    "example_0": {
+        "top_left": [
+            290,
+            42
+        ],
+        "bottom_right": [
+            342,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_internet"
+    },
+    "example_1": {
+        "top_left": [
+            163,
+            42
+        ],
+        "bottom_right": [
+            198,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_deals"
+    },
+    "example_2": {
+        "top_left": [
+            123,
+            514
+        ],
+        "bottom_right": [
+            257,
+            562
+        ],
+        "valid": 1,
+        "label": "redirect_to_Shop_Now"
+    },
+    "example_3": {
+        "top_left": [
+            525,
+            42
+        ],
+        "bottom_right": [
+            581,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_to_business_page"
+    },
+    "example_4": {
+        "top_left": [
+            780,
+            108
+        ],
+        "bottom_right": [
+            900,
+            161
+        ],
+        "valid": 1,
+        "label": "redirect_to_internet_page"
+    },
+    "example_5": {
+        "top_left": [
+            1202,
+            42
+        ],
+        "bottom_right": [
+            1255,
+            92
+        ],
+        "valid": 1,
+        "label": "Redirect to support"
+    },
+    "example_6": {
+        "top_left": [
+            900,
+            108
+        ],
+        "bottom_right": [
+            1020,
+            161
+        ],
+        "valid": 1,
+        "label": "redirects to prepaid"
+    },
+    "example_7": {
+        "top_left": [
+            1288,
+            42
+        ],
+        "bottom_right": [
+            1360,
+            92
+        ],
+        "valid": 1,
+        "label": "Redirect to My AT&T"
+    },
+    "example_8": {
+        "top_left": [
+            724,
+            762
+        ],
+        "bottom_right": [
+            740,
+            778
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            700,
+            762
+        ],
+        "bottom_right": [
+            716,
+            778
+        ],
+        "valid": 1,
+        "label": "Show prior picture"
+    },
+    "example_10": {
+        "top_left": [
+            984,
+            457
+        ],
+        "bottom_right": [
+            1073,
+            473
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_11": {
+        "top_left": [
+            1147,
+            42
+        ],
+        "bottom_right": [
+            1171,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_to_shopping_cart"
+    },
+    "example_12": {
+        "top_left": [
+            333,
+            474
+        ],
+        "bottom_right": [
+            422,
+            490
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_13": {
+        "top_left": [
+            984,
+            497
+        ],
+        "bottom_right": [
+            1119,
+            545
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_14": {
+        "top_left": [
+            1066,
+            52
+        ],
+        "bottom_right": [
+            1110,
+            82
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_15": {
+        "top_left": [
+            300,
+            108
+        ],
+        "bottom_right": [
+            420,
+            161
+        ],
+        "valid": 1,
+        "label": "redirect_deals"
+    },
+    "example_16": {
+        "top_left": [
+            676,
+            762
+        ],
+        "bottom_right": [
+            692,
+            778
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_17": {
+        "top_left": [
+            1020,
+            108
+        ],
+        "bottom_right": [
+            1140,
+            161
+        ],
+        "valid": 1,
+        "label": "redirect_bundles"
+    },
+    "example_18": {
+        "top_left": [
+            540,
+            108
+        ],
+        "bottom_right": [
+            660,
+            161
+        ],
+        "valid": 1,
+        "label": "Wireless link"
+    },
+    "example_19": {
+        "top_left": [
+            1178,
+            6
+        ],
+        "bottom_right": [
+            1266,
+            24
+        ],
+        "valid": 1,
+        "label": "search_for_store"
+    },
+    "example_20": {
+        "top_left": [
+            748,
+            762
+        ],
+        "bottom_right": [
+            764,
+            778
+        ],
+        "valid": 1,
+        "label": "scroll_to_third_photo"
+    },
+    "example_21": {
+        "top_left": [
+            420,
+            108
+        ],
+        "bottom_right": [
+            540,
+            161
+        ],
+        "valid": 1,
+        "label": "Redirect_Phones&Devices"
+    },
+    "example_22": {
+        "top_left": [
+            457,
+            42
+        ],
+        "bottom_right": [
+            505,
+            92
+        ],
+        "valid": 1,
+        "label": "Redirect to Prepaid products page"
+    },
+    "example_23": {
+        "top_left": [
+            218,
+            42
+        ],
+        "bottom_right": [
+            270,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_to_Wireless"
+    },
+    "example_24": {
+        "top_left": [
+            660,
+            108
+        ],
+        "bottom_right": [
+            780,
+            161
+        ],
+        "valid": 1,
+        "label": "redirect_phone_plans"
+    },
+    "example_25": {
+        "top_left": [
+            1278,
+            7
+        ],
+        "bottom_right": [
+            1358,
+            23
+        ],
+        "valid": 1,
+        "label": "enable_language_espanol"
+    },
+    "example_26": {
+        "top_left": [
+            362,
+            42
+        ],
+        "bottom_right": [
+            437,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_to_accessories_page"
+    }
+}

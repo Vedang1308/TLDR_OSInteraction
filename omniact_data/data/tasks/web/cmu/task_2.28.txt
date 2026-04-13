@@ -1,0 +1,3 @@
+Task: Proceed to the Scholarship and Grants Webpage
+Output Script:
+pyautogui.click(366.5,236.5)

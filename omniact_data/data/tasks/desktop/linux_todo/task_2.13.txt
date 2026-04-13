@@ -1,0 +1,3 @@
+Task: Change to list format
+Output Script:
+pyautogui.click(1642.5,50.0)

@@ -1,0 +1,4 @@
+Task: Arrange the playlist in the order of most played to least played. 
+Output script:
+pyautogui.click(1198.0,425.5)
+pyautogui.click(1198.0,425.5)

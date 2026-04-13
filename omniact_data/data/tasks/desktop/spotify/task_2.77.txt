@@ -1,0 +1,3 @@
+Task: Proceed to the song completion
+Output script:
+pyautogui.click(1028.5,957.5)

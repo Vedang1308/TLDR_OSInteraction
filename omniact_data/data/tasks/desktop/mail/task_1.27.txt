@@ -1,0 +1,3 @@
+Task: Access the initial email in the inbox
+Output script:
+pyautogui.click(810.5,210.5)

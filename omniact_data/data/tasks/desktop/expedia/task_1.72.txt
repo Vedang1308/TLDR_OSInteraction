@@ -1,0 +1,3 @@
+Task: Browse and reserve activities available.
+Output script:
+pyautogui.click(499.0,380.0)

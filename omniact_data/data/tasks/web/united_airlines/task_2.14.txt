@@ -1,0 +1,4 @@
+Task: Navigate to the frequently asked questions section
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(30)

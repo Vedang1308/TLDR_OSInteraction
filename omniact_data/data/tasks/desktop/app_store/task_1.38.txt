@@ -1,0 +1,3 @@
+Task: Navigate to the "Discover" section.
+Output script:
+pyautogui.click(222.5,234.5)

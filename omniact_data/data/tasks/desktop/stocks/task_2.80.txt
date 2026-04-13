@@ -1,0 +1,3 @@
+Task: See the stock variation at midday.
+Output script:
+pyautogui.click(1533.0,688.5)

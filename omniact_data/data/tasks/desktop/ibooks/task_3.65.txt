@@ -1,0 +1,5 @@
+Task: Use the search function to find "angry" in the document
+Output Script:
+pyautogui.click(3090.0,101.0)
+pyautogui.write("angry")
+pyautogui.press("enter")

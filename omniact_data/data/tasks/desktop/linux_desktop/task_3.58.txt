@@ -1,0 +1,5 @@
+Task: Locate "Google" on your computer
+Output Script:
+pyautogui.click(959, 67)
+pyautogui.write("Google")
+pyautogui.press("Enter")

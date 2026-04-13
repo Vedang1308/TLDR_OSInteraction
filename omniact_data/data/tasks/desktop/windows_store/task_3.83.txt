@@ -1,0 +1,3 @@
+Task: Activate options in Microsoft Store
+Output Script:
+pyautogui.click(1839.0,798.0)

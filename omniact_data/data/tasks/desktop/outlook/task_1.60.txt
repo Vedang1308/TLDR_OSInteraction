@@ -1,0 +1,3 @@
+Task: Access system settings
+Output Script:
+pyautogui.click(29.5,1002.0)

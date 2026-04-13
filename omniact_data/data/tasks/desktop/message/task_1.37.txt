@@ -1,0 +1,5 @@
+Task: Send an audio note to Thomas saying "Hey, how"s it going?".
+Output Script:
+pyautogui.click(3218.0,2041.0)
+pyautogui.write("Hey, how"s it going?")
+pyautogui.press("enter")

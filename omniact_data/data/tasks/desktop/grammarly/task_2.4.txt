@@ -1,0 +1,3 @@
+Task: Export the document
+Output script:
+pyautogui.click(190.0,318.5)

@@ -1,0 +1,4 @@
+Task: Mark the current webpage for later reference and open the bookmark list
+Output Script:
+pyautogui.click(3169.5,101.5)
+pyautogui.click(289.0,100.5)

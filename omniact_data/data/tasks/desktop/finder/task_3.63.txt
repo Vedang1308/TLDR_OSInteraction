@@ -1,0 +1,3 @@
+Task: Start up the Reminders App
+Output Script:
+pyautogui.click(1102.0,2026.5)

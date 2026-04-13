@@ -1,0 +1,3 @@
+Task: Open the "Music" tab
+Output Script:
+pyautogui.click(169.5,324.5)

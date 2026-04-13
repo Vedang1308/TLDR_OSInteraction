@@ -1,0 +1,3 @@
+Task: Navigate to the terms and conditions page
+Output Script:
+pyautogui.click(777.0,866.0)

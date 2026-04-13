@@ -1,0 +1,5 @@
+Task: Use the search bar to retrieve files
+Output Script:
+pyautogui.click(193.5,102.5)
+pyautogui.write("files")
+pyautogui.press("enter")

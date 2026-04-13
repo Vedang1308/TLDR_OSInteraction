@@ -1,0 +1,3 @@
+Task: Implement the mouse click action on the image that"s beyond the window
+Output Script:
+pyautogui.click(1725.5,50.5)

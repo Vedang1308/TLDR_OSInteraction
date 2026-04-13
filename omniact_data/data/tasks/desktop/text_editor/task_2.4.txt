@@ -1,0 +1,6 @@
+Task: "Find the word "shakespeare" in the document with the same case"
+Output Script:
+pyautogui.click(1027.0,490.0)
+pyautogui.write("shakespeare")
+pyautogui.click(928.5,575.5)
+pyautogui.click(1164.0,663.0)

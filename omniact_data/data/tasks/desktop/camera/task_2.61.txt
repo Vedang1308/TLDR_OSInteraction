@@ -1,0 +1,4 @@
+Task: Access keyboard shortcuts list
+Output Script:
+pyautogui.click(1769.0,48.5)
+pyautogui.click(1768.5,168.0)

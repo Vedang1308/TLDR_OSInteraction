@@ -1,0 +1,3 @@
+Task: Make the details of the document larger for viewing.
+Output script:
+pyautogui.click(1762.0,100.0)

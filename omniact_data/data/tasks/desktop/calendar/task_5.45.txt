@@ -1,0 +1,5 @@
+Task: Include a reminder to attendees to carry their laptops for the meeting presentation.
+Output script:
+pyautogui.click(1609.0,813.5)
+pyautogui.write("Please bring your laptops for the presentation")
+pyautogui.press("enter")

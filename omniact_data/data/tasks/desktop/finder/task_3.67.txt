@@ -1,0 +1,3 @@
+Task: Access the File Options menu
+Output Script:
+pyautogui.click(240.5,25.5)

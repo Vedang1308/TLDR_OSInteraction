@@ -1,0 +1,3 @@
+Task: Verify the offer for Motorola Razr.
+Output Script:
+pyautogui.click(190.0,538.0)

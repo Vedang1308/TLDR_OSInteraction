@@ -1,0 +1,3 @@
+Task: Navigate to your profile settings by clicking the account symbol.
+Output Script:
+pyautogui.click(2823.0,47.0)

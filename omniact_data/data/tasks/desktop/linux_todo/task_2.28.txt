@@ -1,0 +1,3 @@
+Task: Begin the process of producing a fresh list.
+Output Script:
+pyautogui.click(116.5,52.0)

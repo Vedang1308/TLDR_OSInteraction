@@ -1,0 +1,5 @@
+Task: Enter the departure as "Bangalore".
+Output script:
+pyautogui.click(1438.0,208.5)
+pyautogui.write("Bangalore")
+pyautogui.press("enter")

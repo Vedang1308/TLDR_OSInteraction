@@ -1,0 +1,5 @@
+Task: Revise the laundry date to the previous day.
+Output Script:
+pyautogui.click(1259.0,254.0)
+pyautogui.press("left")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Navigate and set the event"s finish date
+Output Script:
+pyautogui.click(418.0,500.5)

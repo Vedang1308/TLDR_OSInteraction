@@ -1,0 +1,4 @@
+Task: Erase the job role "Project Manager" and commence search.
+Output Script:
+pyautogui.click(562.0,246.0)
+pyautogui.click(983.0,246.0)

@@ -1,0 +1,3 @@
+Task: Reserve a hotel room.
+Output script:
+pyautogui.click(502.0,227.5)

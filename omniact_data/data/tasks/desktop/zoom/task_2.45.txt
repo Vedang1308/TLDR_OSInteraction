@@ -1,0 +1,3 @@
+Task: Launch the emoji selection panel.
+Output Script:
+pyautogui.click(2085.0,1734.5)

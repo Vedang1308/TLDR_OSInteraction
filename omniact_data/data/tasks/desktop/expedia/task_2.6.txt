@@ -1,0 +1,5 @@
+Task: Enter the destination as "London".
+Output script:
+pyautogui.click(1438.5,304.5)
+pyautogui.write("London")
+pyautogui.press("enter")

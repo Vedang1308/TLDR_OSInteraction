@@ -1,0 +1,3 @@
+Task: Click Serras hotel listing to view details
+Output Script:
+pyautogui.click(563.0,761.0)

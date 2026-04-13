@@ -1,0 +1,244 @@
+{
+    "example_0": {
+        "top_left": [
+            1088,
+            637
+        ],
+        "bottom_right": [
+            1301,
+            690
+        ],
+        "label": "play_playlist"
+    },
+    "example_1": {
+        "top_left": [
+            1319,
+            635
+        ],
+        "bottom_right": [
+            1524,
+            687
+        ],
+        "label": "shuffle_playlist"
+    },
+    "example_2": {
+        "top_left": [
+            1982,
+            546
+        ],
+        "bottom_right": [
+            2056,
+            575
+        ],
+        "label": "more_info_playlist"
+    },
+    "example_3": {
+        "top_left": [
+            3156,
+            640
+        ],
+        "bottom_right": [
+            3206,
+            690
+        ],
+        "label": "download_all_songs"
+    },
+    "example_4": {
+        "top_left": [
+            498,
+            869
+        ],
+        "bottom_right": [
+            585,
+            945
+        ],
+        "label": "song_first_light"
+    },
+    "example_5": {
+        "top_left": [
+            493,
+            979
+        ],
+        "bottom_right": [
+            579,
+            1058
+        ],
+        "label": "song_circulate"
+    },
+    "example_6": {
+        "top_left": [
+            593,
+            866
+        ],
+        "bottom_right": [
+            3188,
+            958
+        ],
+        "label": "song_first_light_description"
+    },
+    "example_7": {
+        "top_left": [
+            594,
+            974
+        ],
+        "bottom_right": [
+            3189,
+            1066
+        ],
+        "label": "song_circulate_description"
+    },
+    "example_8": {
+        "top_left": [
+            498,
+            1530
+        ],
+        "bottom_right": [
+            584,
+            1609
+        ],
+        "label": "song_smyrna"
+    },
+    "example_9": {
+        "top_left": [
+            587,
+            1527
+        ],
+        "bottom_right": [
+            3182,
+            1619
+        ],
+        "label": "song_smyrna_description"
+    },
+    "example_10": {
+        "top_left": [
+            406,
+            850
+        ],
+        "bottom_right": [
+            3360,
+            2100
+        ],
+        "label": "scroll_songs_list"
+    },
+    "example_11": {
+        "top_left": [
+            1,
+            1058
+        ],
+        "bottom_right": [
+            390,
+            1108
+        ],
+        "label": "playlist_calvin_harris"
+    },
+    "example_12": {
+        "top_left": [
+            1,
+            1228
+        ],
+        "bottom_right": [
+            390,
+            1278
+        ],
+        "label": "playlist_edm"
+    },
+    "example_13": {
+        "top_left": [
+            1,
+            1559
+        ],
+        "bottom_right": [
+            390,
+            1609
+        ],
+        "label": "playlist_old"
+    },
+    "example_14": {
+        "top_left": [
+            1,
+            1508
+        ],
+        "bottom_right": [
+            390,
+            1558
+        ],
+        "label": "playlist_kk_essentials"
+    },
+    "example_15": {
+        "top_left": [
+            788,
+            4
+        ],
+        "bottom_right": [
+            856,
+            101
+        ],
+        "label": "play_current_song"
+    },
+    "example_16": {
+        "top_left": [
+            720,
+            4
+        ],
+        "bottom_right": [
+            788,
+            101
+        ],
+        "label": "play_previous_song"
+    },
+    "example_17": {
+        "top_left": [
+            858,
+            4
+        ],
+        "bottom_right": [
+            926,
+            101
+        ],
+        "label": "play_next_song"
+    },
+    "example_18": {
+        "top_left": [
+            930,
+            1
+        ],
+        "bottom_right": [
+            993,
+            108
+        ],
+        "label": "loop_song"
+    },
+    "example_19": {
+        "top_left": [
+            656,
+            3
+        ],
+        "bottom_right": [
+            722,
+            100
+        ],
+        "label": "shuffle_queue"
+    },
+    "example_20": {
+        "top_left": [
+            1,
+            1956
+        ],
+        "bottom_right": [
+            390,
+            2008
+        ],
+        "label": "playlist_rnb"
+    },
+    "example_21": {
+        "top_left": [
+            2711,
+            29
+        ],
+        "bottom_right": [
+            2856,
+            74
+        ],
+        "label": "volume"
+    }
+}

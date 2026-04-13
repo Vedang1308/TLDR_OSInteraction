@@ -1,0 +1,302 @@
+{
+    "example_0": {
+        "top_left": [
+            1323,
+            54
+        ],
+        "bottom_right": [
+            1400,
+            84
+        ],
+        "valid": 1,
+        "label": "Cart_Icon"
+    },
+    "example_1": {
+        "top_left": [
+            1202,
+            623
+        ],
+        "bottom_right": [
+            1322,
+            665
+        ],
+        "valid": 1,
+        "label": "Xbox_Series_selection"
+    },
+    "example_2": {
+        "top_left": [
+            136,
+            206
+        ],
+        "bottom_right": [
+            253,
+            222
+        ],
+        "valid": 1,
+        "label": " redirecting to TV&Home Theater"
+    },
+    "example_3": {
+        "top_left": [
+            812,
+            623
+        ],
+        "bottom_right": [
+            932,
+            665
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_4": {
+        "top_left": [
+            1105,
+            701
+        ],
+        "bottom_right": [
+            1225,
+            744
+        ],
+        "valid": 1,
+        "label": "50inch_selection"
+    },
+    "example_5": {
+        "top_left": [
+            971,
+            853
+        ],
+        "bottom_right": [
+            1079,
+            864
+        ],
+        "valid": 1,
+        "label": "Redirect_Terms & Conditions link"
+    },
+    "example_6": {
+        "top_left": [
+            295,
+            135
+        ],
+        "bottom_right": [
+            406,
+            151
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_7": {
+        "top_left": [
+            40,
+            49
+        ],
+        "bottom_right": [
+            108,
+            89
+        ],
+        "valid": 1,
+        "label": " redirecting to best buy page."
+    },
+    "example_8": {
+        "top_left": [
+            40,
+            135
+        ],
+        "bottom_right": [
+            181,
+            151
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_9": {
+        "top_left": [
+            1122,
+            487
+        ],
+        "bottom_right": [
+            1203,
+            502
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_10": {
+        "top_left": [
+            64,
+            206
+        ],
+        "bottom_right": [
+            116,
+            222
+        ],
+        "valid": 1,
+        "label": "redirect_to_best_buy_homepage"
+    },
+    "example_11": {
+        "top_left": [
+            40,
+            119
+        ],
+        "bottom_right": [
+            98,
+            135
+        ],
+        "valid": 1,
+        "label": "Top_deals_redirect"
+    },
+    "example_12": {
+        "top_left": [
+            73,
+            431
+        ],
+        "bottom_right": [
+            143,
+            501
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_13": {
+        "top_left": [
+            1106,
+            50
+        ],
+        "bottom_right": [
+            1277,
+            87
+        ],
+        "valid": 1,
+        "label": "store locator redirect."
+    },
+    "example_14": {
+        "top_left": [
+            73,
+            271
+        ],
+        "bottom_right": [
+            143,
+            341
+        ],
+        "valid": 1,
+        "label": "display_image"
+    },
+    "example_15": {
+        "top_left": [
+            290,
+            49
+        ],
+        "bottom_right": [
+            807,
+            89
+        ],
+        "valid": 1,
+        "label": "search_bar"
+    },
+    "example_16": {
+        "top_left": [
+            73,
+            511
+        ],
+        "bottom_right": [
+            143,
+            581
+        ],
+        "valid": 1,
+        "label": "enlarge_picture_4"
+    },
+    "example_17": {
+        "top_left": [
+            1336,
+            623
+        ],
+        "bottom_right": [
+            1368,
+            666
+        ],
+        "valid": 1,
+        "label": "Help_search_Box"
+    },
+    "example_18": {
+        "top_left": [
+            73,
+            751
+        ],
+        "bottom_right": [
+            143,
+            821
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_19": {
+        "top_left": [
+            1180,
+            838
+        ],
+        "bottom_right": [
+            1271,
+            849
+        ],
+        "valid": 1,
+        "label": "Change_the view of the product"
+    },
+    "example_20": {
+        "top_left": [
+            1235,
+            701
+        ],
+        "bottom_right": [
+            1355,
+            744
+        ],
+        "valid": 1,
+        "label": "view_55_inch_size"
+    },
+    "example_21": {
+        "top_left": [
+            273,
+            206
+        ],
+        "bottom_right": [
+            295,
+            222
+        ],
+        "valid": 1,
+        "label": "Redirect to TVs"
+    },
+    "example_22": {
+        "top_left": [
+            73,
+            591
+        ],
+        "bottom_right": [
+            143,
+            661
+        ],
+        "valid": 1,
+        "label": "select_+5more_images"
+    },
+    "example_23": {
+        "top_left": [
+            971,
+            518
+        ],
+        "bottom_right": [
+            1232,
+            534
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_24": {
+        "top_left": [
+            971,
+            550
+        ],
+        "bottom_right": [
+            1121,
+            566
+        ],
+        "valid": 1,
+        "label": "Open-box_selection"
+    }
+}

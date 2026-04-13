@@ -1,0 +1,4 @@
+Task: View additional apps in the battery consumption breakdown.
+Output Script:
+pyautogui.moveTo(442.5,709.0)
+pyautogui.scroll(20)

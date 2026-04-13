@@ -1,0 +1,3 @@
+Task: Turn on the radio
+Output Script:
+pyautogui.click(199.5,333.5)

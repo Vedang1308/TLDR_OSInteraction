@@ -1,0 +1,3 @@
+Task: Access locations page
+Output Script:
+pyautogui.click(262.5,31.5)

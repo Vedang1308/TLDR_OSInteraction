@@ -1,0 +1,3 @@
+Task: Open friends list
+Output script:
+pyautogui.click(1809.5,90.0)

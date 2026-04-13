@@ -1,0 +1,4 @@
+Task: Reach shopping site and access linked Facebook profile 
+Output Script:
+pyautogui.click(1244.5,94.5)
+pyautogui.click(1138.0,32.0)

@@ -1,0 +1,3 @@
+Task: Select the option for Restaurants to view proximity dining options
+Output Script:
+pyautogui.click(370.5,81.0)

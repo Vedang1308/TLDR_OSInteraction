@@ -1,0 +1,3 @@
+Task: Navigate to the health insurance news article.
+Output script:
+pyautogui.click(2274.5,1015.0)

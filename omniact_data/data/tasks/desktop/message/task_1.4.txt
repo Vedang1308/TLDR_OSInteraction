@@ -1,0 +1,3 @@
+Task: Click to view more options for message "Yeah, what"s the cost?"
+Output Script:
+pyautogui.rightClick(3171.5,1340.0)

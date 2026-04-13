@@ -1,0 +1,3 @@
+Task: Access the webpage highlighting crops and farm products
+Output Script:
+pyautogui.click(157.0,230.0)

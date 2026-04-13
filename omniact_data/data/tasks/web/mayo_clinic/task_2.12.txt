@@ -1,0 +1,5 @@
+Task: Navigate to the "for medical professionals" page on the mayoclinic website and select the first available option. 
+Output Script:
+pyautogui.click(510.0,52.0)
+pyautogui.press("tab")
+pyautogui.press("enter")

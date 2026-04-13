@@ -1,0 +1,3 @@
+Task: Select the heart on the lower left of the first image to like it.
+Output Script:
+pyautogui.click(484.0,1020.0)

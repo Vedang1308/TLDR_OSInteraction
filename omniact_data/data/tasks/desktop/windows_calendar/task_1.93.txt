@@ -1,0 +1,3 @@
+Task: Switch the display to a daily view
+Output Script:
+Pyautogui.click(1218.5,71.0)

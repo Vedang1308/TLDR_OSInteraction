@@ -1,0 +1,3 @@
+Task: Set the selected photo as your computer background
+Output Script:
+pyautogui.click(1763.0,254.0)

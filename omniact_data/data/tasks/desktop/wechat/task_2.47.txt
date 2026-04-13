@@ -1,0 +1,6 @@
+Task: In the active notepad, input the word "Hello" and apply the underline formatting option.
+Output Script:
+pyautogui.click(728.5,585.0)
+pyautogui.write("Hello")
+pyautogui.hotkey("ctrl", "a")
+pyautogui.click(801.5,183.0)

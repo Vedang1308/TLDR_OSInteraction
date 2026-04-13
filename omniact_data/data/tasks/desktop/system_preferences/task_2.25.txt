@@ -1,0 +1,6 @@
+Task: Arrange for the desktop background to be updated hourly.
+Output Script:
+pyautogui.click(1056.0,1165.0)
+pyautogui.click(1514.5,1170.5)
+pyautogui.write("every hour")
+pyautogui.press("enter")

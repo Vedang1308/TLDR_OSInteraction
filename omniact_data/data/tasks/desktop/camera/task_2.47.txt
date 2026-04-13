@@ -1,0 +1,3 @@
+Task: Investigate other functionalities in Cheese camera
+Output Script:
+pyautogui.click(147.0,12.5)

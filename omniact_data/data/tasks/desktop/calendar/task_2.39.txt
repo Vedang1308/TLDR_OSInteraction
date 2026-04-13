@@ -1,0 +1,4 @@
+Task: Set a reminder for Wednesday at 12 pm.
+Output script:
+pyautogui.click(1518.5,791.5)
+pyautogui.click(1518.5,791.5)

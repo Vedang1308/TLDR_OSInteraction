@@ -1,0 +1,3 @@
+Task: Set the goals
+Output script:
+pyautogui.click(1781.0,269.5)

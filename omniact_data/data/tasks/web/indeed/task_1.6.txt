@@ -1,0 +1,3 @@
+Task: Find the trending list on Indeed
+Output Script:
+pyautogui.click(720.0,395.0)

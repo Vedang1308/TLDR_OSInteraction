@@ -1,0 +1,3 @@
+Task: Examine the six month stock fluctuation.
+Output script:
+pyautogui.click(1579.5,388.0)

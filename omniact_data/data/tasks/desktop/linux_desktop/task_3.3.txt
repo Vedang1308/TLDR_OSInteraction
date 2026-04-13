@@ -1,0 +1,4 @@
+Task: Keyboard open go to frequents
+Output Script:
+pyautogui.hotkey("winleft", "a")
+pyautogui.click(898.5,1032.0)

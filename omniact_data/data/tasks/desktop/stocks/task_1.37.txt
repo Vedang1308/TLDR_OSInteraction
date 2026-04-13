@@ -1,0 +1,3 @@
+Task: Find more details about the Starbucks Corporation"s stock by selecting it. 
+Output script:
+pyautogui.click(328.5,1506.0)

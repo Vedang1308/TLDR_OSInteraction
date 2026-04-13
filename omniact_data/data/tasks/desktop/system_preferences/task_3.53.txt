@@ -1,0 +1,3 @@
+Task: Reduce the size of the open screen.
+Output Script:
+pyautogui.click(728.5,194.0)

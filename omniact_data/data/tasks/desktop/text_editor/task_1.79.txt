@@ -1,0 +1,6 @@
+Task: "In the more documents panel, go down to and open the second document"
+Output Script:
+pyautogui.click(170.5,48.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

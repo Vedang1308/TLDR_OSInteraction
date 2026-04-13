@@ -1,0 +1,5 @@
+Task: Flag "client presentation" as significant.
+Output Script:
+pyautogui.click(1321.5,206.0)
+pyautogui.press("down")
+pyautogui.press("enter")

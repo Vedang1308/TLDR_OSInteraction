@@ -1,0 +1,3 @@
+Task: Support necessary for altering delivery information
+Output Script:
+pyautogui.click(389.5,404.0)

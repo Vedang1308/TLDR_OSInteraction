@@ -1,0 +1,3 @@
+Task: Select course information and add to purchase basket
+pyautogui.click(247.5,755.0)
+pyautogui.click(1094.0,395.0)

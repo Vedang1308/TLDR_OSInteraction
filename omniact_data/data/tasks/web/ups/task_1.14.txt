@@ -1,0 +1,3 @@
+Task: Need guidance to change shipping info
+Output Script:
+pyautogui.click(389.5,404.0)

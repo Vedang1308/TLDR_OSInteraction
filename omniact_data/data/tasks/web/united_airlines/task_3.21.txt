@@ -1,0 +1,3 @@
+Task: Navigate to Lowest Prices
+Output script:
+pyautogui.click(344.0,590.0,)

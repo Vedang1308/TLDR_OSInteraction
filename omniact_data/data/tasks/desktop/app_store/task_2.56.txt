@@ -1,0 +1,5 @@
+Task: Navigate to "Playrix" and then select the "Contact Us" section for customer support. 
+Output script:
+pyautogui.click(2751.0,1492.5)
+pyautogui.write("About Us")
+pyautogui.press("Enter")

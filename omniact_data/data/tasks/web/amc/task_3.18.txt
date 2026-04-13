@@ -1,0 +1,5 @@
+Task: Check if there are additional fields to fill in after the email field.
+Output Script:
+pyautogui.click(451.0,797.5)
+pyautogui.press("tab")
+pyautogui.press("tab")

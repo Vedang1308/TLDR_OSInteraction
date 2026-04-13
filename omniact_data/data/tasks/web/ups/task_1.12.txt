@@ -1,0 +1,3 @@
+Task: Assistance required to modify shipment details
+Output Script:
+pyautogui.click(389.5,404.0)

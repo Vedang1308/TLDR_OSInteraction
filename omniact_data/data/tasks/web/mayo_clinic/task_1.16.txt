@@ -1,0 +1,4 @@
+Task: Drag the "request appointment" button and drop it on the "Donate" field. 
+Output Script:
+pyautogui.moveTo(1079.0,49.0)
+pyautogui.dragTo(1199.5,49.0,"left")

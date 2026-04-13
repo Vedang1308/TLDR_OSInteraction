@@ -1,0 +1,3 @@
+Task: Launch the Assistance page
+Output Script:
+pyautogui.click(1672.0,497.0)

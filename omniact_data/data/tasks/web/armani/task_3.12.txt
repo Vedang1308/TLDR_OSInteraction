@@ -1,0 +1,3 @@
+Task: Move towards the autumnal batch of chocolates
+Output Script:
+pyautogui.click(807.5,144.0)

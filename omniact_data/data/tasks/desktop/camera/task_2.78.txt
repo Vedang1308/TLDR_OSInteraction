@@ -1,0 +1,3 @@
+Task: Switch to a view that takes up the entire screen
+Output Script:
+pyautogui.click(1769.5,110.0)

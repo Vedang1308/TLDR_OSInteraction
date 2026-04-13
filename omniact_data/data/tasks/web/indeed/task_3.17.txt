@@ -1,0 +1,3 @@
+Task: Conduct a research on median pay statistics
+Output Script:
+pyautogui.click(409.0,529.0)

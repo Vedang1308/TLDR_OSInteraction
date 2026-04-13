@@ -1,0 +1,3 @@
+Task: Evaluate all distance education degree courses
+Output Script:
+pyautogui.click(1069.0,72.0)

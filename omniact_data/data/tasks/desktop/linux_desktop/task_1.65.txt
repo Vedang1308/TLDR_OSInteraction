@@ -1,0 +1,3 @@
+Task: Navigate to the "Files" Section
+Output Script:
+pyautogui.click(34.5,197.5)

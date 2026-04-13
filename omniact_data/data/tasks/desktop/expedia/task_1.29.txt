@@ -1,0 +1,4 @@
+Task: Visit and browse popular stay options.
+Output script:
+pyautogui.moveTo(1440.0,1277.5)
+pyautogui.hscroll(30)

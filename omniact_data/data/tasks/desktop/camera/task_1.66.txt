@@ -1,0 +1,5 @@
+Task: Change the file name and save the image.
+Output Script:
+pyautogui.click(1765.0,228.0)
+pyautogui.write("new_image_name")
+pyautogui.press("enter")

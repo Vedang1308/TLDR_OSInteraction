@@ -1,0 +1,486 @@
+{
+    "example_0": {
+        "top_left": [
+            662,
+            91
+        ],
+        "bottom_right": [
+            678,
+            121
+        ],
+        "label": "drag meeting professor"
+    },
+    "example_1": {
+        "top_left": [
+            684,
+            93
+        ],
+        "bottom_right": [
+            707,
+            121
+        ],
+        "label": "checkbox meeting professor"
+    },
+    "example_2": {
+        "top_left": [
+            1242,
+            94
+        ],
+        "bottom_right": [
+            1303,
+            120
+        ],
+        "label": "meeting professor date"
+    },
+    "example_3": {
+        "top_left": [
+            1311,
+            94
+        ],
+        "bottom_right": [
+            1334,
+            120
+        ],
+        "label": "meeting professor options"
+    },
+    "example_4": {
+        "top_left": [
+            661,
+            140
+        ],
+        "bottom_right": [
+            679,
+            170
+        ],
+        "label": "drag gardening"
+    },
+    "example_5": {
+        "top_left": [
+            682,
+            142
+        ],
+        "bottom_right": [
+            707,
+            170
+        ],
+        "label": "checkbox gardening"
+    },
+    "example_6": {
+        "top_left": [
+            1217,
+            143
+        ],
+        "bottom_right": [
+            1302,
+            170
+        ],
+        "label": "gardening date"
+    },
+    "example_7": {
+        "top_left": [
+            1305,
+            143
+        ],
+        "bottom_right": [
+            1334,
+            170
+        ],
+        "label": "gardening options"
+    },
+    "example_8": {
+        "top_left": [
+            660,
+            188
+        ],
+        "bottom_right": [
+            680,
+            219
+        ],
+        "label": "drag client presentation"
+    },
+    "example_9": {
+        "top_left": [
+            683,
+            188
+        ],
+        "bottom_right": [
+            707,
+            223
+        ],
+        "label": "client presentation checkbox"
+    },
+    "example_10": {
+        "top_left": [
+            1215,
+            194
+        ],
+        "bottom_right": [
+            1306,
+            218
+        ],
+        "label": "client presentation date"
+    },
+    "example_11": {
+        "top_left": [
+            1306,
+            193
+        ],
+        "bottom_right": [
+            1337,
+            219
+        ],
+        "label": "client presentation more options"
+    },
+    "example_12": {
+        "top_left": [
+            661,
+            238
+        ],
+        "bottom_right": [
+            679,
+            270
+        ],
+        "label": "drag laundry"
+    },
+    "example_13": {
+        "top_left": [
+            684,
+            239
+        ],
+        "bottom_right": [
+            706,
+            270
+        ],
+        "label": "laundry checkbox"
+    },
+    "example_14": {
+        "top_left": [
+            1213,
+            239
+        ],
+        "bottom_right": [
+            1305,
+            269
+        ],
+        "label": "laundry date"
+    },
+    "example_15": {
+        "top_left": [
+            1307,
+            238
+        ],
+        "bottom_right": [
+            1338,
+            271
+        ],
+        "label": "laundry options"
+    },
+    "example_16": {
+        "top_left": [
+            659,
+            290
+        ],
+        "bottom_right": [
+            679,
+            318
+        ],
+        "label": "drag lecture"
+    },
+    "example_17": {
+        "top_left": [
+            682,
+            290
+        ],
+        "bottom_right": [
+            707,
+            320
+        ],
+        "label": "lecture checkbox"
+    },
+    "example_18": {
+        "top_left": [
+            1213,
+            288
+        ],
+        "bottom_right": [
+            1305,
+            319
+        ],
+        "label": "lecture date"
+    },
+    "example_19": {
+        "top_left": [
+            1306,
+            290
+        ],
+        "bottom_right": [
+            1336,
+            320
+        ],
+        "label": "close lecture options"
+    },
+    "example_20": {
+        "top_left": [
+            668,
+            358
+        ],
+        "bottom_right": [
+            1021,
+            560
+        ],
+        "label": "write lecture event notes"
+    },
+    "example_21": {
+        "top_left": [
+            1034,
+            357
+        ],
+        "bottom_right": [
+            1106,
+            389
+        ],
+        "label": "set lecture date today"
+    },
+    "example_22": {
+        "top_left": [
+            1106,
+            357
+        ],
+        "bottom_right": [
+            1208,
+            391
+        ],
+        "label": "set lecture date tomorrow"
+    },
+    "example_23": {
+        "top_left": [
+            1207,
+            357
+        ],
+        "bottom_right": [
+            1330,
+            391
+        ],
+        "label": "select lecture date"
+    },
+    "example_24": {
+        "top_left": [
+            1034,
+            431
+        ],
+        "bottom_right": [
+            1331,
+            466
+        ],
+        "label": "select lecture priority"
+    },
+    "example_25": {
+        "top_left": [
+            1253,
+            526
+        ],
+        "bottom_right": [
+            1332,
+            559
+        ],
+        "label": "delete lecture"
+    },
+    "example_26": {
+        "top_left": [
+            661,
+            586
+        ],
+        "bottom_right": [
+            679,
+            614
+        ],
+        "label": "drag meal prep"
+    },
+    "example_27": {
+        "top_left": [
+            681,
+            586
+        ],
+        "bottom_right": [
+            707,
+            616
+        ],
+        "label": "meal prep checkbox"
+    },
+    "example_28": {
+        "top_left": [
+            1219,
+            585
+        ],
+        "bottom_right": [
+            1306,
+            612
+        ],
+        "label": "meal prep date"
+    },
+    "example_29": {
+        "top_left": [
+            1306,
+            584
+        ],
+        "bottom_right": [
+            1340,
+            614
+        ],
+        "label": "meal prep options"
+    },
+    "example_30": {
+        "top_left": [
+            1218,
+            632
+        ],
+        "bottom_right": [
+            1308,
+            665
+        ],
+        "label": "haircut date"
+    },
+    "example_31": {
+        "top_left": [
+            1309,
+            632
+        ],
+        "bottom_right": [
+            1337,
+            666
+        ],
+        "label": "haircut options"
+    },
+    "example_32": {
+        "top_left": [
+            660,
+            633
+        ],
+        "bottom_right": [
+            680,
+            665
+        ],
+        "label": "drag haircut"
+    },
+    "example_33": {
+        "top_left": [
+            679,
+            634
+        ],
+        "bottom_right": [
+            706,
+            664
+        ],
+        "label": "haircut checkbox"
+    },
+    "example_34": {
+        "top_left": [
+            658,
+            682
+        ],
+        "bottom_right": [
+            679,
+            714
+        ],
+        "label": "drag take pet to vet"
+    },
+    "example_35": {
+        "top_left": [
+            683,
+            683
+        ],
+        "bottom_right": [
+            707,
+            715
+        ],
+        "label": "take pet to vet checkbox"
+    },
+    "example_36": {
+        "top_left": [
+            1308,
+            685
+        ],
+        "bottom_right": [
+            1336,
+            714
+        ],
+        "label": "take pet to vet options"
+    },
+    "example_37": {
+        "top_left": [
+            1307,
+            732
+        ],
+        "bottom_right": [
+            1338,
+            765
+        ],
+        "label": "baseball game options"
+    },
+    "example_38": {
+        "top_left": [
+            657,
+            734
+        ],
+        "bottom_right": [
+            681,
+            764
+        ],
+        "label": "drag baseball game"
+    },
+    "example_39": {
+        "top_left": [
+            680,
+            736
+        ],
+        "bottom_right": [
+            708,
+            765
+        ],
+        "label": "checkbox baseball game options"
+    },
+    "example_40": {
+        "top_left": [
+            655,
+            788
+        ],
+        "bottom_right": [
+            808,
+            822
+        ],
+        "label": "new task"
+    },
+    "example_41": {
+        "top_left": [
+            1690,
+            99
+        ],
+        "bottom_right": [
+            1850,
+            125
+        ],
+        "label": "clear completed task"
+    },
+    "example_42": {
+        "top_left": [
+            1703,
+            38
+        ],
+        "bottom_right": [
+            1741,
+            64
+        ],
+        "label": "change background color option"
+    },
+    "example_43": {
+        "top_left": [
+            75,
+            36
+        ],
+        "bottom_right": [
+            115,
+            67
+        ],
+        "label": "previous page"
+    }
+}

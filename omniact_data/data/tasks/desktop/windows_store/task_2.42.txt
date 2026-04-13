@@ -1,0 +1,3 @@
+Task: Retrieve top performing games
+Output Script:
+pyautogui.click(263.0,752.0)

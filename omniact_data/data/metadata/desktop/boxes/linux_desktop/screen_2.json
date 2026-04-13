@@ -1,0 +1,79 @@
+{
+    "example_0": {
+        "top_left": [
+            626,
+            108
+        ],
+        "bottom_right": [
+            1045,
+            178
+        ],
+        "label": "calendar_event_lecture"
+    },
+    "example_1": {
+        "top_left": [
+            617,
+            426
+        ],
+        "bottom_right": [
+            787,
+            464
+        ],
+        "label": "do_not_disturb"
+    },
+    "example_2": {
+        "top_left": [
+            961,
+            431
+        ],
+        "bottom_right": [
+            1046,
+            461
+        ],
+        "label": "clear_event"
+    },
+    "example_3": {
+        "top_left": [
+            1104,
+            375
+        ],
+        "bottom_right": [
+            1142,
+            410
+        ],
+        "label": "calendar_24th"
+    },
+    "example_4": {
+        "top_left": [
+            1142,
+            375
+        ],
+        "bottom_right": [
+            1180,
+            410
+        ],
+        "label": "calendar_25th"
+    },
+    "example_5": {
+        "top_left": [
+            1099,
+            149
+        ],
+        "bottom_right": [
+            1139,
+            184
+        ],
+        "label": "last_month"
+    },
+    "example_6": {
+        "top_left": [
+            1333,
+            148
+        ],
+        "bottom_right": [
+            1373,
+            183
+        ],
+        "label": "next_month"
+    }
+}

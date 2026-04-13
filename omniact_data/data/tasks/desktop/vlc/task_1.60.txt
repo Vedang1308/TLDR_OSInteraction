@@ -1,0 +1,3 @@
+Task: Navigate to the upcoming video in the list
+Output Script:
+pyautogui.click(196.5,1050.0)

@@ -1,0 +1,3 @@
+Task: View Tags
+Output Script:
+pyautogui.click(225.5,277.5)

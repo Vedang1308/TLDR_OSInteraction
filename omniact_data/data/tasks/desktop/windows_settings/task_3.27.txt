@@ -1,0 +1,6 @@
+Task: Elevate the battery saver threshold by two units
+Output Script:
+pyautogui.click(492.0,635.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

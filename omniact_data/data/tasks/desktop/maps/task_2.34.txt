@@ -1,0 +1,3 @@
+Task: Display your disapproval for the destination by hitting on the thumbs down symbol.
+Output script:
+pyautogui.click(1612.5,671.0)

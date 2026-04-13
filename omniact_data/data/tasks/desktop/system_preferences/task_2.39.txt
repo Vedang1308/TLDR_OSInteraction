@@ -1,0 +1,3 @@
+Task: Access the user manual.
+Output Script:
+pyautogui.click(1886.5,1206.5)

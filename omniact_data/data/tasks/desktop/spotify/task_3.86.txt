@@ -1,0 +1,4 @@
+Task: Rearrange the songs in the order of highest to lowest number of plays.
+Output script:
+pyautogui.click(1198.0,425.5)
+pyautogui.click(1198.0,425.5)

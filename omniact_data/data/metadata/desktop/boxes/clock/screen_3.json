@@ -1,0 +1,68 @@
+{
+    "example_0": {
+        "top_left": [
+            3280,
+            16
+        ],
+        "bottom_right": [
+            3338,
+            77
+        ],
+        "label": "add"
+    },
+    "example_1": {
+        "top_left": [
+            1330,
+            22
+        ],
+        "bottom_right": [
+            1493,
+            77
+        ],
+        "label": "world_clock"
+    },
+    "example_2": {
+        "top_left": [
+            1493,
+            22
+        ],
+        "bottom_right": [
+            1680,
+            77
+        ],
+        "label": "alarm"
+    },
+    "example_3": {
+        "top_left": [
+            1685,
+            24
+        ],
+        "bottom_right": [
+            1861,
+            77
+        ],
+        "label": "stopwatch"
+    },
+    "example_4": {
+        "top_left": [
+            1864,
+            22
+        ],
+        "bottom_right": [
+            2032,
+            74
+        ],
+        "label": "timer"
+    },
+    "example_5": {
+        "top_left": [
+            1146,
+            452
+        ],
+        "bottom_right": [
+            2114,
+            501
+        ],
+        "label": "search_country"
+    }
+}

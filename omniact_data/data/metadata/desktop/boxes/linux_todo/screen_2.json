@@ -1,0 +1,134 @@
+{
+    "example_0": {
+        "top_left": [
+            828,
+            83
+        ],
+        "bottom_right": [
+            1161,
+            112
+        ],
+        "label": "search bar"
+    },
+    "example_1": {
+        "top_left": [
+            814,
+            34
+        ],
+        "bottom_right": [
+            934,
+            65
+        ],
+        "label": "Lists"
+    },
+    "example_2": {
+        "top_left": [
+            935,
+            35
+        ],
+        "bottom_right": [
+            1057,
+            66
+        ],
+        "label": "Scheduled"
+    },
+    "example_3": {
+        "top_left": [
+            1058,
+            34
+        ],
+        "bottom_right": [
+            1178,
+            66
+        ],
+        "label": "Today"
+    },
+    "example_4": {
+        "top_left": [
+            135,
+            144
+        ],
+        "bottom_right": [
+            331,
+            341
+        ],
+        "label": "backpacking trip tasks"
+    },
+    "example_5": {
+        "top_left": [
+            392,
+            145
+        ],
+        "bottom_right": [
+            586,
+            340
+        ],
+        "label": "conference checklist task"
+    },
+    "example_6": {
+        "top_left": [
+            644,
+            144
+        ],
+        "bottom_right": [
+            838,
+            341
+        ],
+        "label": "grocery task"
+    },
+    "example_7": {
+        "top_left": [
+            900,
+            144
+        ],
+        "bottom_right": [
+            1094,
+            340
+        ],
+        "label": "personal task"
+    },
+    "example_8": {
+        "top_left": [
+            1670,
+            34
+        ],
+        "bottom_right": [
+            1701,
+            67
+        ],
+        "label": "done"
+    },
+    "example_9": {
+        "top_left": [
+            1626,
+            35
+        ],
+        "bottom_right": [
+            1659,
+            65
+        ],
+        "label": "view as list"
+    },
+    "example_10": {
+        "top_left": [
+            78,
+            36
+        ],
+        "bottom_right": [
+            155,
+            68
+        ],
+        "label": "create new list"
+    },
+    "example_11": {
+        "top_left": [
+            1881,
+            81
+        ],
+        "bottom_right": [
+            1910,
+            113
+        ],
+        "label": "close panel"
+    }
+}

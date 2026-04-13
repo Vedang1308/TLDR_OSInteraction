@@ -1,0 +1,4 @@
+Task: Inspect the status of the battery life and confirm by clicking OK. 
+Output Script:
+pyautogui.click(1500.5,1100.0)
+pyautogui.press("enter")

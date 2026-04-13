@@ -1,0 +1,3 @@
+Task: Initiate double click action to open the backup directory.
+Output Script:
+pyautogui.doubleClick(1884.0,187.0)

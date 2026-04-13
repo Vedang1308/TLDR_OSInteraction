@@ -1,0 +1,3 @@
+Task: Preserve the existing work on your file by using a keyboard combination
+Output Script:
+pyautogui.hotkey("ctrl", "s")

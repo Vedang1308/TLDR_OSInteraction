@@ -1,0 +1,4 @@
+Task: Update the closing time of the activity to 10 in the night
+Output Script:
+pyautogui.click(881.5,501.0)
+pyautogui.write("22:00")

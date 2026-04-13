@@ -1,0 +1,3 @@
+Task: Enlarge to big icons
+Output Script:
+pyautogui.click(410.0,78.5)

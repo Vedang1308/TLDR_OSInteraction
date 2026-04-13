@@ -1,0 +1,4 @@
+Task: Set the current hour mode to 12 hours
+Output Script:
+pyautogui.click(1389.0,985.0)
+pyautogui.write("12")

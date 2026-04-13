@@ -1,0 +1,3 @@
+Task: Delve into the specifics of humidity
+Output Script:
+pyautogui.doubleClick(2167.5,1609.0)

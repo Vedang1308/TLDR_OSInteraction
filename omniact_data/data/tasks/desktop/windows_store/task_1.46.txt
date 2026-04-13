@@ -1,0 +1,3 @@
+Task: Navigate through and choose "See all essential apps" option
+Output Script:
+pyautogui.click(255.5,736.0)

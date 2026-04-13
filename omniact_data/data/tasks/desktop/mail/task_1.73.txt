@@ -1,0 +1,3 @@
+Task: Opt to examine the sent emails.
+Output script:
+pyautogui.click(204.5,291.5)

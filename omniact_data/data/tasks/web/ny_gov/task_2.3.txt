@@ -1,0 +1,3 @@
+Task: Open the culture and recreation services from the lower panel
+Output Script:
+pyautogui.click(541.0,791.5)

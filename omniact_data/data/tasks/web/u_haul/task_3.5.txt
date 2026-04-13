@@ -1,0 +1,3 @@
+Task: "Require assistance with local move"
+Output Script: 
+pyautogui.click(1127.0,183.5)

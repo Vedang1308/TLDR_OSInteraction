@@ -1,0 +1,3 @@
+Task: Determine the color assortment for shoes in the children"s segment.
+Output Script:
+pyautogui.click(245.0,569.5)

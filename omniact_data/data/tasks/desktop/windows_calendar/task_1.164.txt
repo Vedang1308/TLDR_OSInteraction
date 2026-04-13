@@ -1,0 +1,3 @@
+Task: Move to the mail section by clicking on it
+Output Script:
+Pyautogui.click(31.0,999.5)

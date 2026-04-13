@@ -1,0 +1,3 @@
+Task: Select the text to emphasize.
+Output script:
+pyautogui.click(1949.0,99.0)

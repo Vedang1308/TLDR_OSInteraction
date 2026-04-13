@@ -1,0 +1,3 @@
+Task: Start Timer by pressing the spacebar
+Output Script:
+pyautogui.press("space")

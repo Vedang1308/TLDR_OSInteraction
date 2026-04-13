@@ -1,0 +1,5 @@
+Task: Enhance the sidebar by adding a fresh location labelled as "Assignments".
+Output Script:
+pyautogui.click(167.0,483.0)
+pyautogui.write("Assignments")
+pyautogui.press("enter")

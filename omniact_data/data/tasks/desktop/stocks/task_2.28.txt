@@ -1,0 +1,5 @@
+Task: Find the "Bank of America" stock using a search bar. 
+Output script:
+pyautogui.click(333.0,146.5)
+pyautogui.write("Bank of America")
+pyautogui.press("enter")

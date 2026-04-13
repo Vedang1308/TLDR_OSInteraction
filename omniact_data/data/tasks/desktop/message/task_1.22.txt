@@ -1,0 +1,3 @@
+Task: Navigate to the chat with Dad located on the left sidebar
+Output Script:
+pyautogui.click(320.0,1416.5)

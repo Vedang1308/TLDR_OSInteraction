@@ -1,0 +1,3 @@
+Task: Update the system clock to a new time.
+Output Script:
+pyautogui.click(1221.0,1157.5)

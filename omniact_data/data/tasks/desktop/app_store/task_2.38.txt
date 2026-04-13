@@ -1,0 +1,3 @@
+Task: Move down to see additional choices.
+Output script:
+pyautogui.scroll(-100)

@@ -1,0 +1,3 @@
+Task: Access your profile settings.
+Output script:
+pyautogui.click(2841.0,37.0)

@@ -1,0 +1,6 @@
+Task: Boost the operational level for the battery saver by two steps
+Output Script:
+pyautogui.click(492.0,635.5)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("enter")

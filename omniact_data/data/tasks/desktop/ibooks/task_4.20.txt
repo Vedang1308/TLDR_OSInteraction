@@ -1,0 +1,3 @@
+Task: For more details about "Heat 2", click the three dots next to it
+Output Script:
+pyautogui.click(3263.5,1067.0)

@@ -1,0 +1,4 @@
+Task: Double click to create an event on the ground hog day.
+Output script:
+pyautogui.click(2270.5,1413.0)
+pyautogui.click(2270.5,1413.0)

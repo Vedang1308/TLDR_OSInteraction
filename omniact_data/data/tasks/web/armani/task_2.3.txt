@@ -1,0 +1,3 @@
+Task: Check shopping bag by clicking bag icon in upper right hand corner
+Output Script:
+pyautogui.click(1400.0,60.0)

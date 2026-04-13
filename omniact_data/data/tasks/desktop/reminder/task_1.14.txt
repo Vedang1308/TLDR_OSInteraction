@@ -1,0 +1,5 @@
+Task: Search for event related to meetings
+Output script:
+pyautogui.click(280.5,130.5)
+pyautogui.write("meetings")
+pyautogui.press("Enter")

@@ -1,0 +1,218 @@
+{
+    "example_0": {
+        "top_left": [
+            938,
+            467
+        ],
+        "bottom_right": [
+            1091,
+            514
+        ],
+        "valid": 1,
+        "label": "search_button"
+    },
+    "example_1": {
+        "top_left": [
+            467,
+            154
+        ],
+        "bottom_right": [
+            517,
+            170
+        ],
+        "valid": 1,
+        "label": "Shows search results for Orlando"
+    },
+    "example_2": {
+        "top_left": [
+            576,
+            468
+        ],
+        "bottom_right": [
+            727,
+            515
+        ],
+        "valid": 1,
+        "label": "input drop-off date"
+    },
+    "example_3": {
+        "top_left": [
+            214,
+            541
+        ],
+        "bottom_right": [
+            227,
+            554
+        ],
+        "valid": 1,
+        "label": "check_box"
+    },
+    "example_4": {
+        "top_left": [
+            138,
+            154
+        ],
+        "bottom_right": [
+            175,
+            170
+        ],
+        "valid": 1,
+        "label": "redirects to home page"
+    },
+    "example_5": {
+        "top_left": [
+            696,
+            824
+        ],
+        "bottom_right": [
+            741,
+            841
+        ],
+        "valid": 1,
+        "label": "redirects_to_Florida_section"
+    },
+    "example_6": {
+        "top_left": [
+            704,
+            879
+        ],
+        "bottom_right": [
+            891,
+            896
+        ],
+        "valid": 1,
+        "label": "redirect_to_orlando_international_airport_site"
+    },
+    "example_7": {
+        "top_left": [
+            407,
+            154
+        ],
+        "bottom_right": [
+            449,
+            170
+        ],
+        "valid": 1,
+        "label": "redirect_florida"
+    },
+    "example_8": {
+        "top_left": [
+            925,
+            879
+        ],
+        "bottom_right": [
+            1025,
+            896
+        ],
+        "valid": 1,
+        "label": "redirect_to_SanfordAirport_page"
+    },
+    "example_9": {
+        "top_left": [
+            213,
+            468
+        ],
+        "bottom_right": [
+            364,
+            515
+        ],
+        "valid": 1,
+        "label": "pick_up_date_calendar"
+    },
+    "example_10": {
+        "top_left": [
+            576,
+            406
+        ],
+        "bottom_right": [
+            908,
+            453
+        ],
+        "valid": 1,
+        "label": "search_drop-off_locations"
+    },
+    "example_11": {
+        "top_left": [
+            1220,
+            406
+        ],
+        "bottom_right": [
+            1242,
+            428
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_12": {
+        "top_left": [
+            758,
+            469
+        ],
+        "bottom_right": [
+            907,
+            514
+        ],
+        "valid": 1,
+        "label": "drop_off_time_button"
+    },
+    "example_13": {
+        "top_left": [
+            213,
+            406
+        ],
+        "bottom_right": [
+            546,
+            453
+        ],
+        "valid": 1,
+        "label": "Search_locations"
+    },
+    "example_14": {
+        "top_left": [
+            111,
+            23
+        ],
+        "bottom_right": [
+            261,
+            78
+        ],
+        "valid": 1,
+        "label": "redirect_to_Hertz_home_page"
+    },
+    "example_15": {
+        "top_left": [
+            395,
+            469
+        ],
+        "bottom_right": [
+            545,
+            514
+        ],
+        "valid": 1,
+        "label": "input_pickup_time"
+    },
+    "example_16": {
+        "top_left": [
+            193,
+            154
+        ],
+        "bottom_right": [
+            260,
+            170
+        ],
+        "valid": 1,
+        "label": "redirect_to_Car_Rental"
+    },
+    "example_17": {
+        "top_left": [
+            277,
+            154
+        ],
+        "bottom_right": [
+            389,
+            170
+        ],
+        "valid": 1,
+        "label": "country_location"
+    }
+}

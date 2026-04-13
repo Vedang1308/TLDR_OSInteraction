@@ -1,0 +1,3 @@
+Task: Select the language bar option
+Output script:
+pyautogui.click(933.5,29.5)

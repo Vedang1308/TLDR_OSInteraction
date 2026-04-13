@@ -1,0 +1,321 @@
+{
+    "example_0": {
+        "top_left": [
+            2998,
+            1992
+        ],
+        "bottom_right": [
+            3251,
+            2058
+        ],
+        "label": "buy_subscription"
+    },
+    "example_1": {
+        "top_left": [
+            467,
+            1287
+        ],
+        "bottom_right": [
+            848,
+            1356
+        ],
+        "label": "expand_local_broadcasters"
+    },
+    "example_2": {
+        "top_left": [
+            464,
+            1358
+        ],
+        "bottom_right": [
+            1109,
+            1556
+        ],
+        "label": "listen_npr_news"
+    },
+    "example_3": {
+        "top_left": [
+            1178,
+            1362
+        ],
+        "bottom_right": [
+            1823,
+            1560
+        ],
+        "label": "listen_hot_97"
+    },
+    "example_4": {
+        "top_left": [
+            1887,
+            1362
+        ],
+        "bottom_right": [
+            2532,
+            1560
+        ],
+        "label": "listen_93.5_kday"
+    },
+    "example_5": {
+        "top_left": [
+            2593,
+            1360
+        ],
+        "bottom_right": [
+            3238,
+            1558
+        ],
+        "label": "listen_106.7_lite_fm"
+    },
+    "example_6": {
+        "top_left": [
+            1888,
+            1598
+        ],
+        "bottom_right": [
+            2533,
+            1796
+        ],
+        "label": "listen_dublab"
+    },
+    "example_7": {
+        "top_left": [
+            2597,
+            1601
+        ],
+        "bottom_right": [
+            3242,
+            1799
+        ],
+        "label": "listen_kfi_am"
+    },
+    "example_8": {
+        "top_left": [
+            466,
+            1599
+        ],
+        "bottom_right": [
+            1111,
+            1797
+        ],
+        "label": "listen_102.7_los_angeles"
+    },
+    "example_9": {
+        "top_left": [
+            1179,
+            1598
+        ],
+        "bottom_right": [
+            1824,
+            1796
+        ],
+        "label": "listen_kdfc"
+    },
+    "example_10": {
+        "top_left": [
+            474,
+            1874
+        ],
+        "bottom_right": [
+            961,
+            1937
+        ],
+        "label": "expand_international"
+    },
+    "example_11": {
+        "top_left": [
+            1330,
+            364
+        ],
+        "bottom_right": [
+            1382,
+            424
+        ],
+        "label": "remind_music_1"
+    },
+    "example_12": {
+        "top_left": [
+            2273,
+            366
+        ],
+        "bottom_right": [
+            2328,
+            427
+        ],
+        "label": "remind_music_hits"
+    },
+    "example_13": {
+        "top_left": [
+            3222,
+            366
+        ],
+        "bottom_right": [
+            3274,
+            416
+        ],
+        "label": "remind_music_country"
+    },
+    "example_14": {
+        "top_left": [
+            488,
+            461
+        ],
+        "bottom_right": [
+            1388,
+            1206
+        ],
+        "label": "hover_todays_hits"
+    },
+    "example_15": {
+        "top_left": [
+            1427,
+            464
+        ],
+        "bottom_right": [
+            2332,
+            1200
+        ],
+        "label": "hover_abstract_radio"
+    },
+    "example_16": {
+        "top_left": [
+            2377,
+            464
+        ],
+        "bottom_right": [
+            3277,
+            1208
+        ],
+        "label": "hover_tailgating"
+    },
+    "example_17": {
+        "top_left": [
+            1298,
+            1108
+        ],
+        "bottom_right": [
+            1369,
+            1185
+        ],
+        "label": "play_todays_hit"
+    },
+    "example_18": {
+        "top_left": [
+            2239,
+            1109
+        ],
+        "bottom_right": [
+            2310,
+            1186
+        ],
+        "label": "play_abstract_radio"
+    },
+    "example_19": {
+        "top_left": [
+            3187,
+            1112
+        ],
+        "bottom_right": [
+            3258,
+            1189
+        ],
+        "label": "play_tailgating"
+    },
+    "example_20": {
+        "top_left": [
+            403,
+            106
+        ],
+        "bottom_right": [
+            3360,
+            1950
+        ],
+        "label": "scroll_radio"
+    },
+    "example_21": {
+        "top_left": [
+            1114,
+            1427
+        ],
+        "bottom_right": [
+            1161,
+            1495
+        ],
+        "label": "info_npr_news"
+    },
+    "example_22": {
+        "top_left": [
+            1111,
+            1666
+        ],
+        "bottom_right": [
+            1161,
+            1732
+        ],
+        "label": "info_102.7_los_angeles"
+    },
+    "example_23": {
+        "top_left": [
+            1824,
+            1429
+        ],
+        "bottom_right": [
+            1869,
+            1495
+        ],
+        "label": "info_hot_97"
+    },
+    "example_24": {
+        "top_left": [
+            1824,
+            1666
+        ],
+        "bottom_right": [
+            1869,
+            1732
+        ],
+        "label": "info_kdfc"
+    },
+    "example_25": {
+        "top_left": [
+            2532,
+            1427
+        ],
+        "bottom_right": [
+            2577,
+            1498
+        ],
+        "label": "info_93.5_kday"
+    },
+    "example_26": {
+        "top_left": [
+            2535,
+            1656
+        ],
+        "bottom_right": [
+            2577,
+            1729
+        ],
+        "label": "info_dublab"
+    },
+    "example_27": {
+        "top_left": [
+            3240,
+            1437
+        ],
+        "bottom_right": [
+            3290,
+            1492
+        ],
+        "label": "info_106.7_lite_fm"
+    },
+    "example_28": {
+        "top_left": [
+            3240,
+            1671
+        ],
+        "bottom_right": [
+            3293,
+            1727
+        ],
+        "label": "info_kfi_am"
+    }
+}

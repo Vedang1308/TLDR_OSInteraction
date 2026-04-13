@@ -1,0 +1,3 @@
+Task: Pick the combined option for a car rental and flight. 
+Output script:
+pyautogui.click(261.0,106.5)

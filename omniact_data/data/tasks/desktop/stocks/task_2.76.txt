@@ -1,0 +1,3 @@
+Task: Inspect the variation in stock for the previous day.
+Output script:
+pyautogui.click(810.5,389.5)

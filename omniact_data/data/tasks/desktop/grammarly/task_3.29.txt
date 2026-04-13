@@ -1,0 +1,3 @@
+Task: Open the trash bin on screen
+Output script:
+pyautogui.click(187.0,294.5)

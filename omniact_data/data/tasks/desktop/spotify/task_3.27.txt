@@ -1,0 +1,3 @@
+Task: Activate the play button for Cutains Up
+Output script:
+pyautogui.click(956.5,563.0)

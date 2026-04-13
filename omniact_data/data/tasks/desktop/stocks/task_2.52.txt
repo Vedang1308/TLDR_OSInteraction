@@ -1,0 +1,3 @@
+Task: Check the stock fluctuation for the last quarter.
+Output script:
+pyautogui.click(1381.0,394.0)

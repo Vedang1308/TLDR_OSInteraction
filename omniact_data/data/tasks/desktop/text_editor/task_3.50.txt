@@ -1,0 +1,7 @@
+Task: "Execute the operation of copying everything from code_algo and pasting it in an untitled file using the shortcuts Ctrl+A for selecting the whole content, Ctrl+C for copying it then Ctrl+V for pasting it"
+Output Script:
+pyautogui.click(383.5,158.0)
+pyautogui.hotkey("ctrl","a")
+pyautogui.hotkey("ctrl","c")
+pyautogui.click(158.0,124.5)
+pyautogui.hotkey("ctrl","v")

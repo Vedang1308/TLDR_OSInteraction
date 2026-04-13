@@ -1,0 +1,3 @@
+Task: Go to Forgot flight number
+Output Script:
+pyautogui.click(966.5,62.0)

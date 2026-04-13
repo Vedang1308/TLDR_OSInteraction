@@ -1,0 +1,5 @@
+Task: Choose "Golden Bridge" as the target destination.
+Output script:
+pyautogui.click(2574.0,300.0)
+pyautogui.write("Golden Bridge")
+pyautogui.press("Enter")

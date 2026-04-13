@@ -1,0 +1,3 @@
+Task: Initiate the new conversation feature
+Output Script:
+pyautogui.click(349.0,45.0)

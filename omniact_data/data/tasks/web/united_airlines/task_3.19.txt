@@ -1,0 +1,4 @@
+Task: Choose the desired departure and return travel dates.
+Output script:
+pyautogui.click(798.5,368.0)
+pyautogui.click(984.0,368.0)

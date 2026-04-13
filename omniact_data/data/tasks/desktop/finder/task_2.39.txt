@@ -1,0 +1,3 @@
+Task: Arrange the files from smallest to largest size
+Output Script:
+pyautogui.click(2998.5,132.0)

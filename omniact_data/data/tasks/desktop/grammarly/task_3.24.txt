@@ -1,0 +1,3 @@
+Task: Initiate the export of the "James Rachels" file
+Output script:
+pyautogui.click(962.5,400.5)

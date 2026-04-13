@@ -1,0 +1,3 @@
+Task: Rate the tale unfavorably.
+Output script:
+pyautogui.click(2757.5,54.0)

@@ -1,0 +1,3 @@
+Task: Show all the updates from the notification center 
+Output Script:
+pyautogui.click(1883.5,1055.5)

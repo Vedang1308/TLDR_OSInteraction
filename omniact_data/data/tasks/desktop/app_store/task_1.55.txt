@@ -1,0 +1,3 @@
+Task: Activate the "Create" button. 
+Output script:
+pyautogui.click(221.0,380.0)

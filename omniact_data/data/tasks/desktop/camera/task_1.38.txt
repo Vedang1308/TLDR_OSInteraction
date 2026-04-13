@@ -1,0 +1,3 @@
+Task: Invoke the secondary mouse operation
+Output Script:
+pyautogui.rightClick()

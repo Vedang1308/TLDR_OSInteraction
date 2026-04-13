@@ -1,0 +1,5 @@
+Task: Click on the "email" slot and insert your email as "johndoe@gmail.com".
+Output script:
+pyautogui.click(2574.5,255.5)
+pyautogui.write("Los Angeles")
+pyautogui.press("Enter")

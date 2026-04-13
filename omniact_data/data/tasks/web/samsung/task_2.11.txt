@@ -1,0 +1,3 @@
+Task: To view your shopping cart, click on the cart icon
+Output Script:
+pyautogui.click(1356.0,40.0)

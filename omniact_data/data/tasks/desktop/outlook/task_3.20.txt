@@ -1,0 +1,4 @@
+Task: Fill in the search bar with "Python programming"
+Output Script:
+pyautogui.click(1261.0,286.5)
+pyautogui.write("Sample Email")

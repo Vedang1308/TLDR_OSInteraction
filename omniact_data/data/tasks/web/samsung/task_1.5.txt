@@ -1,0 +1,3 @@
+Task: Move to the next image display
+Output Script:
+pyautogui.click(751.0,783.0)

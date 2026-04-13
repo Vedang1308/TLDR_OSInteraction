@@ -1,0 +1,3 @@
+Task: Select the orange new meeting icon.
+Output Script:
+pyautogui.click(827.5,749.5)

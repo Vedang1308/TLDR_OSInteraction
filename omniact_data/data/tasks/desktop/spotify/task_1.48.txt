@@ -1,0 +1,3 @@
+Task: Execute opening of notification bar
+Output script:
+pyautogui.click(1761.5,90.0)

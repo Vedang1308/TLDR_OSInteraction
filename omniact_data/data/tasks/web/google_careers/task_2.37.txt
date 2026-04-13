@@ -1,0 +1,3 @@
+Task: Navigate to the "Your Career" section
+Output Script:
+pyautogui.click(1206.5,32.0)

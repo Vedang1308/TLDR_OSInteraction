@@ -1,0 +1,7 @@
+Task: Generate a conference meeting labeled as "Annual Business Review" with business emoji
+Output Script:
+Pyautogui.click(175.0,277.0)
+Pyautogui.press("Tab")
+Pyautogui.press("Enter")
+Pyautogui.click(691.5,277.0)
+Pyautogui.write("listen to music ")

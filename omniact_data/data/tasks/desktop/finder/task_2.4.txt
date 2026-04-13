@@ -1,0 +1,4 @@
+Task: Delete the last folder in the list using keyboard
+Output Script:
+pyautogui.click(1881.0,469.0)
+pyautogui.press("backspace")

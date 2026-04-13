@@ -1,0 +1,3 @@
+Task: "Add up-to-the-minute date and time"
+Output Script:
+pyautogui.click(1767.0,251.5)

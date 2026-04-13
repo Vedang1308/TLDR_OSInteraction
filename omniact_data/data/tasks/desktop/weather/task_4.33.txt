@@ -1,0 +1,3 @@
+Task: Determine the velocity of wind in Rio de Janeiro
+Output Script:
+pyautogui.click(1841.5,1287.0)

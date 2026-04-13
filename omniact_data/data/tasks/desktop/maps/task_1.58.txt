@@ -1,0 +1,3 @@
+Task: Enlarge the map view.
+Output script:
+pyautogui.click(2708.0,1750.0)

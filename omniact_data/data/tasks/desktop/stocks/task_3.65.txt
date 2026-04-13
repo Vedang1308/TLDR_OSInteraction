@@ -1,0 +1,3 @@
+Task: Set aside the news report for further perusal. 
+Output script:
+pyautogui.click(787.0,57.5)

@@ -1,0 +1,3 @@
+Task: Abort the in-progress event
+Output Script:
+Pyautogui.click(1766.5,176.5)

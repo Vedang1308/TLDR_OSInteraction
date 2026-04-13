@@ -1,0 +1,3 @@
+Task: Access the "Devices" configuration
+Output Script:
+pyautogui.click(619.0,429.5)

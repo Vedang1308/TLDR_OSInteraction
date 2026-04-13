@@ -1,0 +1,5 @@
+Task: Modify the priority of a lecture
+Output Script:
+pyautogui.click(1182.5,448.5)
+pyautogui.press("down")
+pyautogui.press("enter")

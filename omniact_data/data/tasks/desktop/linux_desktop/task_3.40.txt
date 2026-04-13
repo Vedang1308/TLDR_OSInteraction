@@ -1,0 +1,3 @@
+Task: Engage the Calendar application
+Output Script:
+pyautogui.click(1476.5,244.5)

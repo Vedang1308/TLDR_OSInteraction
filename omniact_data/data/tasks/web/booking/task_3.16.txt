@@ -1,0 +1,3 @@
+Task: Inspect more days for available tickets
+Output Script:
+pyautogui.click(968.0,847.0)

@@ -1,0 +1,3 @@
+Task: Access my account
+Output Script:
+pyautogui.click(1363.0,27.5)

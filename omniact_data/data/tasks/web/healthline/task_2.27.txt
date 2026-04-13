@@ -1,0 +1,3 @@
+Task: Look up strategies for dealing with ADHD
+Output Script:
+pyautogui.click(758.5,477.0)

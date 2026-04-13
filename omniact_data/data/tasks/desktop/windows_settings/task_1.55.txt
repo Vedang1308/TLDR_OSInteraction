@@ -1,0 +1,3 @@
+Task: Activate the button located in the end row to modify microphone settings.
+Output Script:
+pyautogui.click(623.0,679.5)

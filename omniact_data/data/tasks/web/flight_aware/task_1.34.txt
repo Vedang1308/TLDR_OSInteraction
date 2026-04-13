@@ -1,0 +1,3 @@
+Task: Initiate Registration Process
+Output Script:
+pyautogui.click(1161.0,62.0)

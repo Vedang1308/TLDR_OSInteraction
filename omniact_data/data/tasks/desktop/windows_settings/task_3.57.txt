@@ -1,0 +1,3 @@
+Task: Access the display configurations
+Output Script:
+pyautogui.click(202.5,280.5)

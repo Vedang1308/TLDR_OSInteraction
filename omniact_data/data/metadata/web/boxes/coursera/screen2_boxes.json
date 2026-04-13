@@ -1,0 +1,290 @@
+{
+    "example_0": {
+        "top_left": [
+            980,
+            379
+        ],
+        "bottom_right": [
+            1404,
+            427
+        ],
+        "valid": 1,
+        "label": "request_info"
+    },
+    "example_1": {
+        "top_left": [
+            142,
+            186
+        ],
+        "bottom_right": [
+            232,
+            205
+        ],
+        "valid": 1,
+        "label": "Data_science_redirect"
+    },
+    "example_2": {
+        "top_left": [
+            1346,
+            54
+        ],
+        "bottom_right": [
+            1434,
+            92
+        ],
+        "valid": 1,
+        "label": "redirect_to_join"
+    },
+    "example_3": {
+        "top_left": [
+            995,
+            50
+        ],
+        "bottom_right": [
+            1143,
+            94
+        ],
+        "valid": 1,
+        "label": " redirecting to online degree spage."
+    },
+    "example_4": {
+        "top_left": [
+            909,
+            588
+        ],
+        "bottom_right": [
+            1054,
+            607
+        ],
+        "valid": 1,
+        "label": "About the University"
+    },
+    "example_5": {
+        "top_left": [
+            162,
+            588
+        ],
+        "bottom_right": [
+            249,
+            607
+        ],
+        "valid": 1,
+        "label": "redirect_to_admissions"
+    },
+    "example_6": {
+        "top_left": [
+            297,
+            588
+        ],
+        "bottom_right": [
+            379,
+            607
+        ],
+        "valid": 1,
+        "label": "redirect_academics"
+    },
+    "example_7": {
+        "top_left": [
+            427,
+            588
+        ],
+        "bottom_right": [
+            564,
+            607
+        ],
+        "valid": 1,
+        "label": "I's a link to information about \"Tuition & Financing\"."
+    },
+    "example_8": {
+        "top_left": [
+            798,
+            588
+        ],
+        "bottom_right": [
+            861,
+            607
+        ],
+        "valid": 1,
+        "label": "careers_redirect"
+    },
+    "example_9": {
+        "top_left": [
+            601,
+            121
+        ],
+        "bottom_right": [
+            871,
+            141
+        ],
+        "valid": 1,
+        "label": "redirect_announcment_Winter_2024"
+    },
+    "example_10": {
+        "top_left": [
+            288,
+            0
+        ],
+        "bottom_right": [
+            407,
+            40
+        ],
+        "valid": 1,
+        "label": "for_universities_redirect"
+    },
+    "example_11": {
+        "top_left": [
+            36,
+            588
+        ],
+        "bottom_right": [
+            114,
+            607
+        ],
+        "valid": 1,
+        "label": "Redirect_Overview"
+    },
+    "example_12": {
+        "top_left": [
+            275,
+            52
+        ],
+        "bottom_right": [
+            575,
+            92
+        ],
+        "valid": 1,
+        "label": "text_box_for_search"
+    },
+    "example_13": {
+        "top_left": [
+            612,
+            588
+        ],
+        "bottom_right": [
+            750,
+            607
+        ],
+        "valid": 1,
+        "label": "search_box"
+    },
+    "example_14": {
+        "top_left": [
+            423,
+            0
+        ],
+        "bottom_right": [
+            555,
+            40
+        ],
+        "valid": 1,
+        "label": "redirect icon"
+    },
+    "example_15": {
+        "top_left": [
+            1289,
+            60
+        ],
+        "bottom_right": [
+            1344,
+            84
+        ],
+        "valid": 1,
+        "label": " redirecting to login page."
+    },
+    "example_16": {
+        "top_left": [
+            1143,
+            60
+        ],
+        "bottom_right": [
+            1289,
+            85
+        ],
+        "valid": 1,
+        "label": " redirecting to Find Your New Career page"
+    },
+    "example_17": {
+        "top_left": [
+            12,
+            186
+        ],
+        "bottom_right": [
+            118,
+            205
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_18": {
+        "top_left": [
+            980,
+            323
+        ],
+        "bottom_right": [
+            1404,
+            371
+        ],
+        "valid": 1,
+        "label": "apply_button"
+    },
+    "example_19": {
+        "top_left": [
+            24,
+            0
+        ],
+        "bottom_right": [
+            141,
+            40
+        ],
+        "valid": 1,
+        "label": "redirect_to_for_individuals"
+    },
+    "example_20": {
+        "top_left": [
+            157,
+            0
+        ],
+        "bottom_right": [
+            272,
+            40
+        ],
+        "valid": 1,
+        "label": "redirect_ForBusinesses"
+    },
+    "example_21": {
+        "top_left": [
+            256,
+            186
+        ],
+        "bottom_right": [
+            472,
+            205
+        ],
+        "valid": 1,
+        "label": "master_degree_redirect"
+    },
+    "example_22": {
+        "top_left": [
+            175,
+            55
+        ],
+        "bottom_right": [
+            267,
+            91
+        ],
+        "valid": 1,
+        "label": "drop_down_explore"
+    },
+    "example_23": {
+        "top_left": [
+            24,
+            56
+        ],
+        "bottom_right": [
+            151,
+            88
+        ],
+        "valid": 0,
+        "label": "NA"
+    }
+}

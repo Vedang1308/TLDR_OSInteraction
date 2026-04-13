@@ -1,0 +1,5 @@
+Task: Hit the button marked "get", after that pick "In-App Purchases" to examine the possible in-app purchases.
+Output script:
+pyautogui.click(891.0,318.5)
+pyautogui.write("In-App Purchases")
+pyautogui.press("Enter")

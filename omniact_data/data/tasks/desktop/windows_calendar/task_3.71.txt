@@ -1,0 +1,3 @@
+Task: Click on delete button to remove event
+Output Script:
+Pyautogui.click(281.0,124.0)

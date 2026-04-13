@@ -1,0 +1,4 @@
+Task: Open a fresh memo and insert a straightforward horizontal rule.
+Output Script:
+pyautogui.click(222.0,103.0)
+pyautogui.click(991.5,182.0)

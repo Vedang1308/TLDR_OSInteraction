@@ -1,0 +1,3 @@
+Task: Click on the "Entertainment" section.
+Output script:
+pyautogui.click(222.0,970.5)

@@ -1,0 +1,3 @@
+Task: Click on the search option to proceed with stay availability search
+Output Script:
+pyautogui.click(1210.5,500.0)

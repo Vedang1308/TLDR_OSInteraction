@@ -1,0 +1,3 @@
+Task: Browse Mystery Books from "More to Explore" section
+Output Script:
+pyautogui.click(741.5,1374.0)

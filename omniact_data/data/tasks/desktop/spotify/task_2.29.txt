@@ -1,0 +1,4 @@
+Task: Look ahead to see the songs that will be played next by scrolling
+Output script:
+pyautogui.moveto("Scroll")
+pyautogui.scroll(10)

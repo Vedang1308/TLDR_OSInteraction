@@ -1,0 +1,266 @@
+{
+    "example_0": {
+        "top_left": [
+            1288,
+            5
+        ],
+        "bottom_right": [
+            1325,
+            31
+        ],
+        "valid": 1,
+        "label": "search_icon"
+    },
+    "example_1": {
+        "top_left": [
+            235,
+            543
+        ],
+        "bottom_right": [
+            461,
+            566
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_2": {
+        "top_left": [
+            115,
+            145
+        ],
+        "bottom_right": [
+            444,
+            177
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_3": {
+        "top_left": [
+            519,
+            228
+        ],
+        "bottom_right": [
+            649,
+            245
+        ],
+        "valid": 1,
+        "label": "redirect_ID_cards"
+    },
+    "example_4": {
+        "top_left": [
+            1197,
+            228
+        ],
+        "bottom_right": [
+            1325,
+            245
+        ],
+        "valid": 1,
+        "label": "redirect_to_Contact_Us"
+    },
+    "example_5": {
+        "top_left": [
+            115,
+            80
+        ],
+        "bottom_right": [
+            301,
+            134
+        ],
+        "valid": 1,
+        "label": "the_hub_text"
+    },
+    "example_6": {
+        "top_left": [
+            115,
+            283
+        ],
+        "bottom_right": [
+            308,
+            302
+        ],
+        "valid": 1,
+        "label": "redirect_to_division_of_environment_services_the_hub"
+    },
+    "example_7": {
+        "top_left": [
+            1061,
+            850
+        ],
+        "bottom_right": [
+            1139,
+            872
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_8": {
+        "top_left": [
+            911,
+            228
+        ],
+        "bottom_right": [
+            1185,
+            245
+        ],
+        "valid": 1,
+        "label": "Redirects to Department & Faculty Services,"
+    },
+    "example_9": {
+        "top_left": [
+            116,
+            228
+        ],
+        "bottom_right": [
+            214,
+            245
+        ],
+        "valid": 1,
+        "label": "redirect_to_about_page"
+    },
+    "example_10": {
+        "top_left": [
+            946,
+            47
+        ],
+        "bottom_right": [
+            1325,
+            205
+        ],
+        "valid": 1,
+        "label": "redirect_to_main_page"
+    },
+    "example_11": {
+        "top_left": [
+            327,
+            283
+        ],
+        "bottom_right": [
+            381,
+            302
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_12": {
+        "top_left": [
+            226,
+            228
+        ],
+        "bottom_right": [
+            507,
+            245
+        ],
+        "valid": 1,
+        "label": "Financial_aid_redirect"
+    },
+    "example_13": {
+        "top_left": [
+            968,
+            798
+        ],
+        "bottom_right": [
+            1293,
+            845
+        ],
+        "valid": 1,
+        "label": "Option_learn_more"
+    },
+    "example_14": {
+        "top_left": [
+            661,
+            228
+        ],
+        "bottom_right": [
+            899,
+            245
+        ],
+        "valid": 1,
+        "label": "redirect_to_university_registrar_office"
+    },
+    "example_15": {
+        "top_left": [
+            336,
+            728
+        ],
+        "bottom_right": [
+            418,
+            752
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_16": {
+        "top_left": [
+            968,
+            745
+        ],
+        "bottom_right": [
+            1261,
+            793
+        ],
+        "valid": 1,
+        "label": "link to Two-Factor Authentication page"
+    },
+    "example_17": {
+        "top_left": [
+            183,
+            770
+        ],
+        "bottom_right": [
+            390,
+            794
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_18": {
+        "top_left": [
+            115,
+            6
+        ],
+        "bottom_right": [
+            432,
+            37
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_19": {
+        "top_left": [
+            1100,
+            798
+        ],
+        "bottom_right": [
+            1213,
+            819
+        ],
+        "valid": 0,
+        "label": "NA"
+    },
+    "example_20": {
+        "top_left": [
+            1254,
+            0
+        ],
+        "bottom_right": [
+            1282,
+            39
+        ],
+        "valid": 1,
+        "label": "search_text_box"
+    },
+    "example_21": {
+        "top_left": [
+            946,
+            373
+        ],
+        "bottom_right": [
+            1325,
+            496
+        ],
+        "valid": 1,
+        "label": "redirect_to_login"
+    }
+}

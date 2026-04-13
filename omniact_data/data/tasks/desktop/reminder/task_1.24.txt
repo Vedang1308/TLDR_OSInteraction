@@ -1,0 +1,3 @@
+Task: Inspect the flagged elements within the reminder.
+Output script:
+pyautogui.click(413.0,395.5)

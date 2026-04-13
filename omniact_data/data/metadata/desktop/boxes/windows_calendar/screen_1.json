@@ -1,0 +1,332 @@
+{
+    "example_0": {
+        "top_left": [
+            16,
+            112
+        ],
+        "bottom_right": [
+            185,
+            147
+        ],
+        "label": "new event"
+    },
+    "example_1": {
+        "top_left": [
+            15,
+            55
+        ],
+        "bottom_right": [
+            47,
+            84
+        ],
+        "label": "open sidebar"
+    },
+    "example_2": {
+        "top_left": [
+            228,
+            172
+        ],
+        "bottom_right": [
+            263,
+            206
+        ],
+        "label": "previous month"
+    },
+    "example_3": {
+        "top_left": [
+            263,
+            171
+        ],
+        "bottom_right": [
+            303,
+            205
+        ],
+        "label": "next month"
+    },
+    "example_4": {
+        "top_left": [
+            16,
+            538
+        ],
+        "bottom_right": [
+            317,
+            571
+        ],
+        "label": "Gmail"
+    },
+    "example_5": {
+        "top_left": [
+            16,
+            600
+        ],
+        "bottom_right": [
+            319,
+            630
+        ],
+        "label": "Microsoft account"
+    },
+    "example_6": {
+        "top_left": [
+            335,
+            49
+        ],
+        "bottom_right": [
+            374,
+            85
+        ],
+        "label": "previous month"
+    },
+    "example_7": {
+        "top_left": [
+            388,
+            48
+        ],
+        "bottom_right": [
+            423,
+            84
+        ],
+        "label": "next month"
+    },
+    "example_8": {
+        "top_left": [
+            1064,
+            52
+        ],
+        "bottom_right": [
+            1154,
+            89
+        ],
+        "label": "Today"
+    },
+    "example_9": {
+        "top_left": [
+            1173,
+            53
+        ],
+        "bottom_right": [
+            1264,
+            89
+        ],
+        "label": "Day"
+    },
+    "example_10": {
+        "top_left": [
+            1281,
+            52
+        ],
+        "bottom_right": [
+            1377,
+            88
+        ],
+        "label": "Week"
+    },
+    "example_11": {
+        "top_left": [
+            1390,
+            52
+        ],
+        "bottom_right": [
+            1487,
+            87
+        ],
+        "label": "Month"
+    },
+    "example_12": {
+        "top_left": [
+            1501,
+            52
+        ],
+        "bottom_right": [
+            1596,
+            88
+        ],
+        "label": "Year"
+    },
+    "example_13": {
+        "top_left": [
+            1602,
+            53
+        ],
+        "bottom_right": [
+            1643,
+            88
+        ],
+        "label": "date selection options"
+    },
+    "example_14": {
+        "top_left": [
+            1670,
+            49
+        ],
+        "bottom_right": [
+            1727,
+            91
+        ],
+        "label": "new outlook toggle"
+    },
+    "example_15": {
+        "top_left": [
+            331,
+            141
+        ],
+        "bottom_right": [
+            522,
+            300
+        ],
+        "label": "09/18"
+    },
+    "example_16": {
+        "top_left": [
+            524,
+            142
+        ],
+        "bottom_right": [
+            734,
+            304
+        ],
+        "label": "09/19"
+    },
+    "example_17": {
+        "top_left": [
+            743,
+            144
+        ],
+        "bottom_right": [
+            959,
+            306
+        ],
+        "label": "09/20"
+    },
+    "example_18": {
+        "top_left": [
+            968,
+            144
+        ],
+        "bottom_right": [
+            1184,
+            305
+        ],
+        "label": "09/21"
+    },
+    "example_19": {
+        "top_left": [
+            262,
+            292
+        ],
+        "bottom_right": [
+            301,
+            335
+        ],
+        "label": "09/01"
+    },
+    "example_20": {
+        "top_left": [
+            109,
+            386
+        ],
+        "bottom_right": [
+            139,
+            417
+        ],
+        "label": "09/11"
+    },
+    "example_21": {
+        "top_left": [
+            1465,
+            139
+        ],
+        "bottom_right": [
+            1690,
+            302
+        ],
+        "label": "09/30"
+    },
+    "example_22": {
+        "top_left": [
+            340,
+            719
+        ],
+        "bottom_right": [
+            455,
+            742
+        ],
+        "label": "Columbus Day"
+    },
+    "example_23": {
+        "top_left": [
+            342,
+            752
+        ],
+        "bottom_right": [
+            529,
+            778
+        ],
+        "label": "Indigenious People's Day"
+    },
+    "example_24": {
+        "top_left": [
+            1189,
+            676
+        ],
+        "bottom_right": [
+            1451,
+            832
+        ],
+        "label": "10/13"
+    },
+    "example_25": {
+        "top_left": [
+            4,
+            923
+        ],
+        "bottom_right": [
+            212,
+            960
+        ],
+        "label": "Add calendars"
+    },
+    "example_26": {
+        "top_left": [
+            3,
+            972
+        ],
+        "bottom_right": [
+            59,
+            1027
+        ],
+        "label": "mail"
+    },
+    "example_27": {
+        "top_left": [
+            60,
+            971
+        ],
+        "bottom_right": [
+            120,
+            1028
+        ],
+        "label": "Calendar"
+    },
+    "example_28": {
+        "top_left": [
+            120,
+            971
+        ],
+        "bottom_right": [
+            182,
+            1029
+        ],
+        "label": "Connect with others"
+    },
+    "example_29": {
+        "top_left": [
+            273,
+            975
+        ],
+        "bottom_right": [
+            329,
+            1029
+        ],
+        "label": "Settings"
+    }
+}

@@ -1,0 +1,4 @@
+Task: Set up an event for January 18th.
+Output script:
+pyautogui.click(1854.5,887.0)
+pyautogui.click(1854.5,887.0)

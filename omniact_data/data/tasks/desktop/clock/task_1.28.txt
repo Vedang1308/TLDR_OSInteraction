@@ -1,0 +1,3 @@
+Task: Begin the stopwatch timing
+Output Script:
+pyautogui.click(1847.0,1969.0)

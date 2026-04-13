@@ -1,0 +1,5 @@
+Task: Select chimes under audio output options
+Output Script:
+pyautogui.click(1678.5,1196.5)
+pyautogui.write("chimes")
+pyautogui.press("enter")

@@ -1,0 +1,4 @@
+Task: Duplicate the readme.md file through keyboard actions
+Output Script:
+pyautogui.click(1069.0,617.5)
+pyautogui.hotkey("ctrl", "c")

@@ -1,0 +1,4 @@
+Task: Increase the view size of the May calendar. 
+Output script:
+pyautogui.click(391.0,975.5)
+pyautogui.click(391.0,975.5)

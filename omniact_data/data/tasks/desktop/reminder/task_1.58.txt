@@ -1,0 +1,5 @@
+Task: Conduct a system search for data pertaining to "meetings"
+Output script:
+pyautogui.click(280.5,130.5)
+pyautogui.write("meetings")
+pyautogui.press("Enter")

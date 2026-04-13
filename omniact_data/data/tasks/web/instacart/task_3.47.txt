@@ -1,0 +1,5 @@
+Task: Look for items using the postal code 15217
+Output Script:
+pyautogui.click(1161.0,40.0)
+pyautogui.write("15217")
+pyautogui.press("enter")

@@ -1,0 +1,5 @@
+Task: Switch to Home page on a new tab
+Output Script:
+pyautogui.rightClick(87.0,179.5)
+pyautogui.press("down")
+pyautogui.press("enter")

@@ -1,0 +1,3 @@
+Task: Transform calendar plan to "Week"
+Output Script:
+Pyautogui.click(1329.0,70.0)

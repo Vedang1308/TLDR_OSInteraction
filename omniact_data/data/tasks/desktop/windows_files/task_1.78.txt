@@ -1,0 +1,3 @@
+Task: Terminate the open window by clicking on "close_window" button
+Output Script:
+pyautogui.click(1887.5,17.5)

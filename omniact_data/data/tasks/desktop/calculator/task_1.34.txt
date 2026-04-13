@@ -1,0 +1,3 @@
+Task: Select "AC" to wipe off all inputs
+Output Script:
+pyautogui.click(1823.0,878.0)

@@ -1,0 +1,3 @@
+Task: Deactivate dimmed screen feature during battery saver mode
+Output Script:
+pyautogui.click(442.5,709.0)

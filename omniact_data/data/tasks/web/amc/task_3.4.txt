@@ -1,0 +1,5 @@
+Task: See if there is more information to enter
+Output Script:
+pyautogui.click(451.0,797.5)
+pyautogui.press("tab")
+pyautogui.press("tab")

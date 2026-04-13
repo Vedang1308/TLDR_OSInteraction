@@ -1,0 +1,5 @@
+Task: Hit the "Website" button and then find and select "FAQ" to check frequently asked queries.
+Output script:
+pyautogui.click(2718.5,1547.5)
+pyautogui.write("FAQ")
+pyautogui.press("Enter")

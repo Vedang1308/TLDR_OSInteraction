@@ -1,0 +1,5 @@
+Task: Right-click Options and choose the first selection.
+Output Script:
+pyautogui.rightClick(1107.5,72.0)
+pyautogui.press("down")
+pyautogui.press("enter")

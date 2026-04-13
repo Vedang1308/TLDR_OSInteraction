@@ -1,0 +1,3 @@
+Task: Search for articles related to sleep
+Output Script:
+pyautogui.click(463.5,99.0)

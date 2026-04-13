@@ -1,0 +1,3 @@
+Task: Change account to kgeng@andrew.cmu.edu
+Output Script:
+pyautogui.click(166.0,269.5)

@@ -1,0 +1,6 @@
+Task: Launch start menu, navigate to search bar, enter "a", do a triple scroll action.
+Output Script:
+pyautogui.hotkey("winleft", "s")
+pyautogui.click(959.0,67.0)
+pyautogui.write("a")
+pyautogui.scroll(3)

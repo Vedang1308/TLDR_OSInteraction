@@ -1,0 +1,3 @@
+Task: Navigate to the desktop.
+Output Script:
+pyautogui.click(1200.5,302.0)

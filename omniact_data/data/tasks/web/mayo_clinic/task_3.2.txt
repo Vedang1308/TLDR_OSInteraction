@@ -1,0 +1,3 @@
+Task: Go to the homepage, but without deferring to the logo
+Output Script:
+pyautogui.click(143.5,155.5)

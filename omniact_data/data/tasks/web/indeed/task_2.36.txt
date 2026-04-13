@@ -1,0 +1,3 @@
+Task: Display extended information about "Warehouse Associate"
+Output Script:
+pyautogui.click(512.0,538.5)

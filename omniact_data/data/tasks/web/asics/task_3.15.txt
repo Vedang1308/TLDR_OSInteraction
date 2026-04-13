@@ -1,0 +1,3 @@
+Task: Zoom in the picture for a detailed examination of the clothes.
+Output Script: 
+pyautogui.click(833.0,729.0)

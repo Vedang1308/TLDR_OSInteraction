@@ -1,0 +1,3 @@
+Task: Opt for the "bus tour" to be included in the travel plan.
+Output script:
+pyautogui.click(1449.5,805.0)

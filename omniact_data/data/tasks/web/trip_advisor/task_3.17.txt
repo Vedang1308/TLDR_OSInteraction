@@ -1,0 +1,3 @@
+Task: Navigate to the webpage to post a review
+Output Script:
+pyautogui.click(973.0,190.0)

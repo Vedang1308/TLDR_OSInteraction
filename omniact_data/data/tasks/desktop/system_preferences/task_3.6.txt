@@ -1,0 +1,3 @@
+Task: open user-guide by clicking on the question-mark bottom right.
+Output Script:
+pyautogui.click(1914.0,1100.5)

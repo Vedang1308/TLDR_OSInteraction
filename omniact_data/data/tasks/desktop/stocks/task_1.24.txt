@@ -1,0 +1,5 @@
+Task: Click on the search bar on the top left and type "Aurora" stock.
+Output script:
+pyautogui.click(329.5,149.5)
+pyautogui.write("Aurora")
+pyautogui.press("enter")

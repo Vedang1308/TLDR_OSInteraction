@@ -1,0 +1,5 @@
+Task: Specify "London" in the search box to designate as the end destination.
+Output script:
+pyautogui.click(1438.5,304.5)
+pyautogui.write("London")
+pyautogui.press("enter")

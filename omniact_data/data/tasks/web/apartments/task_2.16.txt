@@ -1,0 +1,3 @@
+Task: Transition to the preceding image
+Output script:
+pyautogui.click(32.0,291.0)

@@ -1,0 +1,5 @@
+Task: see fourth image in the line
+Output Script: 
+pyautogui.click(846.0,516.0)
+pyautogui.click(846.0,516.0)
+pyautogui.click(846.0,516.0)

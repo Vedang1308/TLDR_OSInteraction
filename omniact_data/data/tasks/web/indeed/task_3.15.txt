@@ -1,0 +1,3 @@
+Task: Mark the job suggestion as not preferred
+Output Script:
+pyautogui.click(1198.0,771.0)

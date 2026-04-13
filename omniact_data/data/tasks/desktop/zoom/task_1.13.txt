@@ -1,0 +1,3 @@
+Task: Click on the account icon to access your account settings.
+Output Script:
+pyautogui.click(2823.0,47.0)

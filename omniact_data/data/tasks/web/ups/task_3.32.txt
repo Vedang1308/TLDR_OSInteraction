@@ -1,0 +1,5 @@
+Task: Enter the copied Zip Code into the search field to trace the package.
+Output Script:
+pyautogui.click(361.5,813.5)
+pyautogui.hotkey("ctrl", "v")
+pyautogui.press("enter")

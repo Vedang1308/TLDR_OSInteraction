@@ -1,0 +1,3 @@
+Task: Cancel ongoing search function via keyboard
+Output Script:
+pyautogui.press("esc")

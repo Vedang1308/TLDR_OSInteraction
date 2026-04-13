@@ -1,0 +1,3 @@
+Task: Click on the top left logo to go back to the homepage
+Output Script:
+pyautogui.click(254.0,35.0)

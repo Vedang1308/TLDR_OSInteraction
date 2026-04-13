@@ -1,0 +1,3 @@
+Task: Discard ongoing email
+Output Script:
+pyautogui.click(1462.0,68.0)

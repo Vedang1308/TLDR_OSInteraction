@@ -1,0 +1,3 @@
+Task: Add a new home location.
+Output script:
+pyautogui.click(290.0,353.0)

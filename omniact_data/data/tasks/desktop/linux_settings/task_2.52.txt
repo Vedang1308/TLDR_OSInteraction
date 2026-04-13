@@ -1,0 +1,3 @@
+Task: Condense the ongoing window to its icon size
+Output Script:
+pyautogui.click(1819.0,51.0)

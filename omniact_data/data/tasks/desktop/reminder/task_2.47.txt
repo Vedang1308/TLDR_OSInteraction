@@ -1,0 +1,5 @@
+Task: Input "Zoom meeting" into the location field.
+Output script:
+pyautogui.click(962.5,1110.5)
+pyautogui.write("Zoom meeting")
+pyautogui.press("Enter")

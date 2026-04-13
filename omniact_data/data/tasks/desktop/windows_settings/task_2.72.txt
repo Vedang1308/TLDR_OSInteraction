@@ -1,0 +1,3 @@
+Task: Locate and open the "Find a setting" page 
+Output Script:
+pyautogui.click(199.5,150.5)

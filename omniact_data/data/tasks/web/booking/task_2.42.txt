@@ -1,0 +1,6 @@
+Task: Switch to the third currency listed in the dropdown menu
+Output Script:
+pyautogui.click(789.5,36.0)
+pyautogui.press("down")
+pyautogui.press("down")
+pyautogui.press("down")
