@@ -64,6 +64,12 @@ class TextRepetitionStoppingCriteria(StoppingCriteria):
 import torch
 import os
 import subprocess
+import threading
+
+# 🔒 GPU SEMAPHORE: Serializes model.generate() calls across threads.
+# Workers run in parallel for I/O (image loading, disk reads) but serialize at GPU inference.
+# Adjust limit= to allow batched parallel inference if your GPU has sufficient VRAM.
+_GPU_SEMAPHORE = threading.Semaphore(1)
 
 def detect_device():
     """Dynamically detects HPU (Gaudi), CUDA (Nvidia), or CPU."""
@@ -141,16 +147,17 @@ def run_qwen_inference(model, processor, messages, images=None, max_tokens=128, 
         temperature = max(temperature, 0.7) 
         top_k = 50
 
-    with torch.no_grad():
-        generated_ids = model.generate(
-            **inputs, 
-            max_new_tokens=max_tokens, 
-            temperature=temperature,
-            top_k=top_k,
-            do_sample=(temperature > 0),
-            stopping_criteria=stop_criteria,
-            num_return_sequences=num_return_sequences
-        )
+    with _GPU_SEMAPHORE:  # Serialize GPU calls across concurrent threads
+        with torch.no_grad():
+            generated_ids = model.generate(
+                **inputs, 
+                max_new_tokens=max_tokens, 
+                temperature=temperature,
+                top_k=top_k,
+                do_sample=(temperature > 0),
+                stopping_criteria=stop_criteria,
+                num_return_sequences=num_return_sequences
+            )
         
     input_len = inputs.input_ids.shape[1]
     generated_ids_trimmed = [out_ids[input_len:] for out_ids in generated_ids]

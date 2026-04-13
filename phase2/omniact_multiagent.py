@@ -300,9 +300,16 @@ pyautogui.press("enter")"""
                 json.dump(results, f, indent=4)
             
         print(f"   Qwen3 Token: {generated_action.strip()}\n")
+        
+        # ⚡ MEMORY MANAGEMENT: Flush fragmented CUDA allocations after each task
+        import torch
+        if torch.cuda.is_available():
+            torch.cuda.empty_cache()
 
-    print(f"[OmniACT] Launching concurrency pool (4 workers)...")
-    with ThreadPoolExecutor(max_workers=15) as executor:
+    # 🛡️ GPU SAFETY: Workers run I/O in parallel, but GPU inference is serialized via _GPU_SEMAPHORE in sys_utils.
+    # Adjust max_workers to tune I/O parallelism. GPU calls are always serialized regardless.
+    print(f"[OmniACT] Launching concurrent execution (4 I/O workers, 1 GPU slot)...")
+    with ThreadPoolExecutor(max_workers=4) as executor:
         futures = [executor.submit(process_task, idx, task_txt_path) for idx, task_txt_path in enumerate(task_files)]
         for future in as_completed(futures):
             try:
