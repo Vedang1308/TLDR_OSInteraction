@@ -2,6 +2,7 @@ import re
 import math
 from phase2.agents.sys_utils import get_hpu_model_singleton, run_qwen_inference
 from phase2.agents.prompts import PROMPT_REGISTRY
+from phase2.agents.memory_agent import MemoryAgent
 
 class OmniactAgentSystemV2:
     def __init__(self, benchmark="omniact", num_samples=5, temperature=0.7):
@@ -17,8 +18,12 @@ class OmniactAgentSystemV2:
         if benchmark not in PROMPT_REGISTRY:
             raise ValueError(f"Unknown benchmark '{benchmark}'.")
             
+        prompts = PROMPT_REGISTRY[benchmark]
         # Using safely framed prompt to avoid AgentHarm-style refusals
-        self.system_prompt = PROMPT_REGISTRY[benchmark].get("omniact_executor_v2", "")
+        self.system_prompt = prompts.get("omniact_executor_v2", "")
+        
+        # [MEMORY MOD]: Instantiate the Memory Agent for episodic recall
+        self.memory_agent = MemoryAgent(benchmark, self.model, self.processor)
 
     def execute_task(self, instruction, context, images=None, task_index=0, ui_map=None):
         if ui_map is None:
@@ -26,10 +31,14 @@ class OmniactAgentSystemV2:
             
         print(f"\n=== [OmniACT-V2] Starting High-Temp Density Consensus Loop (N={self.num_samples}, T={self.temperature}) for task {task_index} ===")
         
+        # [MEMORY MOD]: Retrieve guidance from past experiences before inference
+        memory_guidance = self.memory_agent.retrieve_and_reason(instruction, images=images)
+        enhanced_context = f"{context}\n\n[Memory Guidance from past tasks]: {memory_guidance}"
+        
         user_content = []
         if images:
              user_content.append({"type": "image"})
-        user_content.append({"type": "text", "text": f"Instruction: {instruction}\nContext: {context}\n\nExecute the instruction."})
+        user_content.append({"type": "text", "text": f"Instruction: {instruction}\nContext: {enhanced_context}\n\nExecute the instruction."})
 
         messages = [
             {"role": "system", "content": self.system_prompt},
@@ -102,12 +111,16 @@ class OmniactAgentSystemV2:
             optimized_action = best_sample['action'].replace(best_tag_syntax, f"{verb}({int_x}, {int_y})", 1)
             
             print(f"[OmniACT-V2] Consensus selected precise SoM tag '{best_tag_syntax}'. Final Action: {optimized_action.strip()}")
+            # [MEMORY MOD]: Store SoM consensus result
+            self.memory_agent.create(instruction, "V2-SoM", optimized_action, "SoM Consensus Selected", images=images)
             return optimized_action
             
         raw_samples = [s for s in parsed_samples if not s['is_som']]
         if not raw_samples:
             print("[OmniACT-V2] No valid spatial actions found. Returning best-effort text output.")
-            return actions[0] if actions else ""
+            best_effort = actions[0] if actions else ""
+            self.memory_agent.create(instruction, "V2-NoAction", best_effort, "No spatial actions parsed", images=images)
+            return best_effort
             
         # Unified Distance Thresholding
         threshold = 30.0
@@ -151,4 +164,6 @@ class OmniactAgentSystemV2:
         optimized_action = rep_action.replace(syntax_to_replace, f"{verb}({int_x}, {int_y})", 1)
         
         print(f"[OmniACT-V2] Selected Cluster 1 (Size: {len(best_cluster)}). Final Action: {optimized_action.strip()}")
+        # [MEMORY MOD]: Store density-consensus result
+        self.memory_agent.create(instruction, f"V2-Cluster(size={len(best_cluster)})", optimized_action, "Density Consensus Selected", images=images)
         return optimized_action
