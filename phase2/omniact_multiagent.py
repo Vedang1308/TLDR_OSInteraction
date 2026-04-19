@@ -97,18 +97,18 @@ def load_vlm_model(model_name, device):
             # Standard CUDA loading
             try:
                 from transformers import AutoModelForImageTextToText
-                model = AutoModelForImageTextToText.from_pretrained(model_name, config=config, device_map="auto", trust_remote_code=True)
+                model = AutoModelForImageTextToText.from_pretrained(model_name, config=config, device_map="auto", torch_dtype="auto", offload_folder=os.environ.get("SCRATCH", "/scratch/sgoli125") + "/hf_offload", trust_remote_code=True)
             except Exception:
                 try:
                     from transformers import AutoModelForVision2Seq
-                    model = AutoModelForVision2Seq.from_pretrained(model_name, config=config, device_map="auto", trust_remote_code=True)
+                    model = AutoModelForVision2Seq.from_pretrained(model_name, config=config, device_map="auto", torch_dtype="auto", offload_folder=os.environ.get("SCRATCH", "/scratch/sgoli125") + "/hf_offload", trust_remote_code=True)
                 except Exception:
                     try:
                         from transformers import AutoModelForCausalLM
-                        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, device_map="auto", trust_remote_code=True)
+                        model = AutoModelForCausalLM.from_pretrained(model_name, config=config, device_map="auto", torch_dtype="auto", offload_folder=os.environ.get("SCRATCH", "/scratch/sgoli125") + "/hf_offload", trust_remote_code=True)
                     except Exception:
                         from transformers import AutoModel
-                        model = AutoModel.from_pretrained(model_name, config=config, device_map="auto", trust_remote_code=True)
+                        model = AutoModel.from_pretrained(model_name, config=config, device_map="auto", torch_dtype="auto", offload_folder=os.environ.get("SCRATCH", "/scratch/sgoli125") + "/hf_offload", trust_remote_code=True)
             print("Successfully loaded model on Nvidia GPU.")
             return model, processor
             
