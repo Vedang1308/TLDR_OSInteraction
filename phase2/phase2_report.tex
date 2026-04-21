@@ -211,11 +211,11 @@ All the code, results, and evaluation logs for this project can be found at the 
 
 \section{Individual Contributions}
 \begin{enumerate}[label=\textbf{\arabic*.}]
-    \item \textbf{Vedang:} Led the foundational architecture, design, and multi-agent implementation for Phase 2. Orchestrated the initial Manager-Executor-Auditor (Tri-Agent) pipeline structure. Diagnosed the critical ``Information Gap'' issue during Iteration 1 that caused poor task accuracy. Developed and deployed the Iteration 2 fixes, making sure agents shared properly mapped API rules and introducing the Step-by-Step Visual Planning prompts. Managed all hardware deployments (Intel Gaudi and NVIDIA A100) across the first two testing rounds and authored the reports detailing our progress.
-    \item \textbf{Vidya:} Spearheaded Iteration 3, which successfully pushed our results past the Phase 1 limits. Conceptualized, coded, and deployed the ``Multiple Guesses'' system for OmniACT, proving that making 5 guesses and averaging the clusters would stop the system from missing buttons. Furthermore, she fortified AgentHARM's defense by creating the ``Categorizing Risks'' auditing logic and the immediate stop triggers. Her fixes directly generated the final high-accuracy and high-safety metrics that finished the project.
-    \item \textbf{Harshith:} Managed the large-scale data analysis and result verification process. He systematically reviewed thousands of evaluation JSON outputs to categorize failure modes and ensured that the final metrics reported in the official comparison tables were statistically sound and accurate.
-    \item \textbf{Shravan:} Directed the benchmarking and environment setup on the SOL cluster. He worked extensively on the cross-platform compatibility layers that allowed our multi-agent code to scale seamlessly between Intel Gaudi HPUs and Nvidia A100 GPUs, resolving several parallel execution bottlenecks.
-    \item \textbf{Gouri:} Led the testing and error isolation efforts for the safety auditor. She conducted adversarial testing on the AgentHARM scenarios to find specific multi-step prompts that evaded first-pass checks, which was critical for refining our threat vector classification logic.
+    \item \textbf{Vedang}: Built the initial 3-agent system and the first two versions of the project. He fixed the "information gap" that was causing low accuracy and wrote the major project reports. He also managed the hardware setup on the SOL cluster.
+    \item \textbf{Vidya}: Created the third version of the project, including the "Multiple Guesses" system for better clicking accuracy. She also added the risk categories and stop-rules to make the safety checker much stronger.
+    \item \textbf{Harshith}: Reviewed all the experimental results and data logs. He helped identify why the models were failing and made sure the final numbers in our report were correct.
+    \item \textbf{Shravan}: Helped set up the software environment on the SOL cluster. He ensured the code worked correctly on both the Intel Gaudi and Nvidia A100 processors.
+    \item \textbf{Gouri}: Tested the safety of the system using tricky prompts. Her work helped find weaknesses in the early versions and improve the final safety rules.
 \end{enumerate}
 
 \end{document}
