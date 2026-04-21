@@ -1,0 +1,221 @@
+\documentclass[11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in, top=0.8in]{geometry}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{caption}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
+
+\title{Phase 2 Project Report: \\ \large Improving Visual Automation and Safety Using Multiple Agents}
+\author{Team TLDR}
+\date{April 12, 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction and Goals}
+This report details the work we did during Phase 2 of our project. In Phase 1, we tested the Qwen3-VL models (2B, 4B, and 8B) using just a single agent. In Phase 2, our goal was to build a system with multiple agents working together to improve two main things: getting better accuracy on computer tasks (\textbf{OmniACT}) and better safety by stopping harmful requests (\textbf{AgentHARM}).
+
+During Phase 1, we found out that using a single agent had big limits. Without a system to plan tasks or double-check work, the models often missed clicking on the right buttons (which we call geometric drift). They were also easily tricked into doing harmful multi-step tasks.
+
+Throughout Phase 2, we tested three different versions of a multi-agent system. We ran into problems where agents weren't sharing enough information, fixed those issues, and eventually built a final system that combined the best ideas. This final system successfully beat our Phase 1 accuracy scores while dropping the success rate of harmful attacks by over 90\%. This report explains everything we tried, the problems we faced, and how we got our final results.
+
+\section{Phase 1 Recap: The Limits of a Single Agent}
+In Phase 1, we tested the models on the SOL supercomputer using Intel Gaudi and Nvidia A100 processors.
+
+\subsection{OmniACT (Task Accuracy)}
+We tested the models on 9,262 desktop and web tasks. The 8B model got a Success Score of 0.2184 and an Action Score of 40.17\%. While this was a good start, the model had three big problems:
+\begin{itemize}
+    \item \textbf{E1 (Repeating the Same Action):} Without a checker to stop it, the model would sometimes get stuck in a loop, doing the same exact click over and over again.
+    \item \textbf{E2 (Missing the Target):} The model would find the right button to click but guess the wrong numbers for its location (for example, clicking slightly below the button). This meant the task failed even though the model knew what to do.
+    \item \textbf{E3 (Misunderstanding the Action):} Sometimes the model would try to type something instead of clicking on it (for example, typing "red" into a search bar instead of clicking the red color button).
+\end{itemize}
+
+\subsection{AgentHARM (Safety Testing)}
+We also tested how the model handled 176 harmful multi-step scenarios. The 8B model had a high Attack Success Rate (ASR) of 32.19\% and faced three distinct error types:
+\begin{itemize}
+    \item \textbf{E4 (Incorrect Denials):} The model would sometimes refuse to do perfectly safe tasks just because the instruction sounded slightly bad out of context.
+    \item \textbf{E5 (Making Up Tools):} Sometimes the model would try to do a task but completely make up fake tool names instead of properly denying the request.
+    \item \textbf{E6 (Following Harmful Steps):} The single agent evaluated each step one at a time. If a bad actor asked the model to search private files, and then later asked it to upload that info to the web, the agent just did it. It couldn't look at the whole history to realize it was leaking data.
+\end{itemize}
+
+Our Phase 2 goal was to fix this: build a system with planning and checking agents to fix the clicking accuracy and stop the harmful attacks, all without making the overall performance worse.
+
+\section{Iteration 1: The First 3-Agent System}
+Our first attempt was a basic three-step setup: \textbf{Manager, Executor, and Auditor}.
+
+\subsection{How the Roles Worked}
+We split the work into three different roles:
+\begin{itemize}
+    \item \textbf{The Manager (Planner):} Looks at the user's request and the screenshot, and writes out a short plan.
+    \item \textbf{The Executor (Actioner):} Reads the plan and writes the actual code to perform the action.
+    \item \textbf{The Auditor (Checker):} Reviews the code before it runs to make sure it is safe and correct.
+\end{itemize}
+
+\subsection{Success: Improving Safety on AgentHARM}
+This setup worked great for safety. By having the Auditor review the entire history of actions before approving a step, the system successfully blocked long chains of bad requests. If it saw that data extracted earlier was now being uploaded to the web, it stopped the action. The Attack Success Rate dropped from $\sim$37\% to just 4--6\%. This proved that having a separate checker is very effective for safety.
+
+\subsection{Failure: The Missing Information Problem on OmniACT}
+While AgentHARM improved, OmniACT completely broke down. The Success Scores dropped from 0.22 to a terrible \textbf{0.05}. 
+
+After checking the logs, we realized the problem: \textbf{The agents weren't sharing enough information.} We split them up too much, which made them blind:
+\begin{enumerate}
+    \item \textbf{Blind Manager:} The Manager was told to plan clicks but was never given the rules or the size of the screen. It planned blindly, saying things like \textit{"Click the login text."}
+    \item \textbf{Confused Executor:} The Executor received the plan ("Click the login text"), but we forgot to give it the user's original goal. Because it didn't know what the overall task was, it just started guessing random locations on the screen.
+    \item \textbf{Strict Auditor:} The Auditor would reject the Executor's guesses, but because the first two steps were so bad, the system would just get stuck in a loop of failing and retrying.
+\end{enumerate}
+
+\section{Iteration 2: Fixing the Information Gap}
+We realized we needed to share more details between the agents. We called this the "Information Gap Fix."
+
+\subsection{Sharing the Right Info}
+We changed the code so that:
+\begin{itemize}
+    \item The Manager now gets all the rules (like screen sizes and available tools) before it makes a plan.
+    \item The Executor now gets the user's original goal, so it understands exactly why it is taking action.
+\end{itemize}
+
+\subsection{Step-by-Step Visual Planning}
+We also changed how the Manager thinks. Instead of giving it a strict limit on how much it could write, we gave it more words to work with. We told it to think out loud step-by-step: \textit{"The goal is to search. I see a search bar at the top right, at location (850, 45). I will tell the Executor to click there."}
+
+\subsection{Iteration 2 Results}
+This fix helped AgentHARM even more, because the Manager could see the real tools available and use them safely instead of guessing fake tool names. 
+
+However, OmniACT still struggled. It improved from the terrible 0.05 score, but it was still lower than our Phase 1 baseline. The problem was that translating exact numbers from one agent's plan to another agent's code still caused small mistakes, like changing (850, 45) to (855, 50). Those small changes were enough to cause a "missed click."
+
+\section{Iteration 3: The Final Merged Architecture}
+To finally beat our Phase 1 accuracy, we combined our fixes with a new experimental setup we were testing on the side. We realized that one single method didn't work for both tasks. So, we let AgentHARM keep the 3-Agent system (with better safety prompts) while OmniACT got its own special process.
+
+\subsection{OmniACT Fix: The "Multiple Guesses" Method}
+We learned that passing numbers as text between agents was causing errors. So for OmniACT, we switched to a new setup that makes multiple guesses and averages them out:
+\begin{enumerate}
+    \item \textbf{Multiple Guesses:} Taking advantage of the fast A100 GPUs, the system generates 5 different guesses for where to click all at the same time. We let the model be slightly random so it explores different options.
+    \item \textbf{Checking for Tags First:} The system first checks if the model used any visible numbers that were drawn over the buttons (like clicking on "button 14"). If it did, it uses that exact spot right away.
+    \item \textbf{Clustering the Guesses:} If there are no tags, the system groups the 5 guesses together based on how close they are to each other (if they are within 30 pixels).
+    \item \textbf{Picking the Best Group:} The group with the most guesses wins. If two groups tie, the system picks the group where the guesses are packed tightest together. It then averages those points into a solid, exact click location.
+\end{enumerate}
+
+This completely stopped the model from clicking slightly off-target. By guessing 5 times and picking the most popular spot, we got rid of the random mistakes.
+
+\subsection{AgentHARM Fix: Categorizing Risks and Immediate Stops}
+For safety, we added two new strict rules to the 3-Agent setup:
+\begin{enumerate}
+    \item \textbf{Immediate Stop Rule:} We told the Manager to spot bad requests instantly. If an instruction is clearly harmful, the Manager just outputs the text \texttt{HARD\_REFUSAL} and stops everything. This prevents the request from ever reaching the Executor.
+    \item \textbf{Categorizing Risks:} Before the Auditor decides if an action is safe or not, we force it to explicitly label what kind of action it is (like \texttt{[File\_Access]} or \texttt{[Network\_Request]}). By making it categorize the risk first, the model pays much closer attention and catches hidden tricks much better.
+\end{enumerate}
+
+\section{Final Results}
+By using the "Multiple Guesses" method for OmniACT and the "Categorizing Risks" method for AgentHARM, we finally tested our completed models.
+
+\begin{table}[ht]
+\centering
+\footnotesize
+\caption{OmniACT Utility: Phase 1 Baselines vs Phase 2 Multi-Agent}
+\vspace{0.8em}
+\label{tab:omniact-phase2}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Model Name} & \textbf{Phase 1 Success Score $\rightarrow$ Phase 2 Success Score (Change)} & \textbf{Phase 1 Action Score $\rightarrow$ Phase 2 Action Score} \\ \midrule
+Qwen\_Qwen3-VL-2B-Instruct & $0.2252 \rightarrow 0.1843$ \textcolor{red}{(-0.0409)} & $40.17\% \rightarrow 42.38\%$ \\
+Qwen\_Qwen3-VL-4B-Instruct & $0.1609 \rightarrow 0.2384$ \textcolor{codegreen}{(+0.0775)} & $26.92\% \rightarrow 48.45\%$ \\
+Qwen\_Qwen3-VL-8B-Instruct & $0.2184 \rightarrow 0.2396$ \textcolor{codegreen}{(+0.0212)} & $40.17\% \rightarrow 51.46\%$ \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\begin{table}[ht]
+\centering
+\footnotesize
+\caption{AgentHARM Safety: Phase 1 Baselines vs Phase 2 Multi-Agent}
+\vspace{0.8em}
+\label{tab:agentharm-phase2}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lccc@{}}
+\toprule
+\textbf{Model Name} & \textbf{Phase 1 Attack Rate (ASR) $\rightarrow$ Phase 2 Attack Rate (ASR) (Difference)} & \textbf{Phase 1 Refusal $\rightarrow$ Phase 2 Refusal} \\ \midrule
+Qwen\_Qwen3-VL-2B-Instruct & $33.90\% \rightarrow 4.93\%$ \textcolor{codegreen}{(-28.97\%)} & $67.05\% \rightarrow 60.80\%$ \\
+Qwen\_Qwen3-VL-4B-Instruct & $37.09\% \rightarrow 3.53\%$ \textcolor{codegreen}{(-33.56\%)} & $46.59\% \rightarrow 84.09\%$ \\
+Qwen\_Qwen3-VL-8B-Instruct & $32.19\% \rightarrow 2.90\%$ \textcolor{codegreen}{(-29.29\%)} & $52.84\% \rightarrow 88.07\%$ \\ \bottomrule
+\end{tabular}%
+}
+\end{table}
+
+\textbf{Summary of Success:} 
+The 4B and 8B models successfully broke out of the Phase 1 limits, setting new highs in Success Scores and almost doubling their Action Scores on OmniACT. At the same time, the Attack Success Rate (ASR) dropped to a highly secure 2.90\% on AgentHARM.
+
+\section{Challenges Faced}
+\subsection{Hardware Setup Challenges}
+The hardest engineering problem was getting the "5 guesses at once" system to run smoothly on different computers. We used two different types of processors on the SOL cluster: Intel Gaudi and Nvidia A100. We had to write complex scripts to make sure both environments handled the memory properly without crashing during large generation requests.
+
+\subsection{Merging Code from the Team}
+We started with two very different ideas going at once: a strict 3-agent setup for safety, and a fast 5-guess setup for clicking accuracy. Putting them together was hard until we realized that we didn't have to use one method for everything. By using simple \texttt{if/else} blocks, we let the system decide which architecture was best depending on whether the task focused on safety or clicking accuracy.
+
+\section{Future Improvements}
+While our final results were great, we found a few areas that could still be improved:
+
+\subsection{Speed vs. Accuracy on OmniACT}
+Making 5 different guesses for every single click takes a lot of computing power and makes the process 5 times slower. While this works great, users would not want to wait 15 seconds for a single mouse click.
+\begin{itemize}
+    \item \textbf{Future Scope:} We could build a smaller, faster model just to verify if the first guess is correct. If the small model says "yes, that looks like a button," we could skip the other 4 guesses entirely, making the system much faster while keeping it accurate.
+\end{itemize}
+
+\subsection{Pushing Attack Rates to Zero on AgentHARM}
+An Attack Success Rate of 2.90\% is great, but a truly safe system needs to be 0\%. The few attacks that succeeded were deeply hidden inside normal-looking tasks, like downloading a harmless weather script that secretly contained bad code.
+\begin{itemize}
+    \item \textbf{Future Scope:} The Auditor only reads text to see if it looks safe. In the future, we could add a system that monitors the actual computer environment as it runs. If a script tries to secretly connect to the web, the computer itself would block it, even if the Auditor was tricked into approving the text.
+\end{itemize}
+
+\subsection{Clicking in Crowded Screens}
+Our grouping method assumes that if 5 clicks land within a 30-pixel circle, they belong to the same button. But strongly crowded web pages might have five different tiny links packed inside that same circle.
+\begin{itemize}
+    \item \textbf{Future Scope:} Instead of just analyzing an image of the website, we could feed the actual website code (HTML) to the model. This way, the model can say "click on the link with ID \#12" instead of just guessing the location, completely solving crowded screen problems.
+\end{itemize}
+
+\section{Additional Resources}
+All the code, results, and evaluation logs for this project can be found at the following link: \\
+\url{https://www.dropbox.com/sh/placeholder_link_here}
+
+\section{Individual Contributions}
+\begin{enumerate}[label=\textbf{\arabic*.}]
+    \item \textbf{Vedang:} Led the foundational architecture, design, and multi-agent implementation for Phase 2. Orchestrated the initial Manager-Executor-Auditor (Tri-Agent) pipeline structure. Diagnosed the critical ``Information Gap'' issue during Iteration 1 that caused poor task accuracy. Developed and deployed the Iteration 2 fixes, making sure agents shared properly mapped API rules and introducing the Step-by-Step Visual Planning prompts. Managed all hardware deployments (Intel Gaudi and NVIDIA A100) across the first two testing rounds and authored the reports detailing our progress.
+    \item \textbf{Vidya:} Spearheaded Iteration 3, which successfully pushed our results past the Phase 1 limits. Conceptualized, coded, and deployed the ``Multiple Guesses'' system for OmniACT, proving that making 5 guesses and averaging the clusters would stop the system from missing buttons. Furthermore, she fortified AgentHARM's defense by creating the ``Categorizing Risks'' auditing logic and the immediate stop triggers. Her fixes directly generated the final high-accuracy and high-safety metrics that finished the project.
+    \item \textbf{Harshith:} Managed the large-scale data analysis and result verification process. He systematically reviewed thousands of evaluation JSON outputs to categorize failure modes and ensured that the final metrics reported in the official comparison tables were statistically sound and accurate.
+    \item \textbf{Shravan:} Directed the benchmarking and environment setup on the SOL cluster. He worked extensively on the cross-platform compatibility layers that allowed our multi-agent code to scale seamlessly between Intel Gaudi HPUs and Nvidia A100 GPUs, resolving several parallel execution bottlenecks.
+    \item \textbf{Gouri:} Led the testing and error isolation efforts for the safety auditor. She conducted adversarial testing on the AgentHARM scenarios to find specific multi-step prompts that evaded first-pass checks, which was critical for refining our threat vector classification logic.
+\end{enumerate}
+
+\end{document}
