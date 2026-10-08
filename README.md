@@ -52,7 +52,7 @@ By migrating to the specialized Multi-Agent setup in Phase 2, we achieved signif
 
 ## Contributors (Team TLDR)
 1. **Vedang**: Architecture design, infrastructure setup (SOL), Gaudi provider implementation, report authorship.
-2. **Vidya**: Phase 2 iterations, "Multiple Guesses" method, risk categorization, safety stop-rules.
+2. **Vidya**: Phase 2 iterations, architecture design revisions, "Multiple Guesses" method, risk categorization, safety stop-rules.
 3. **Harshith**: Failure analysis, experimental result evaluation, and quantitative reporting.
 4. **Shravan**: Environment setup, hardware cross-compatibility (Gaudi + A100), OSWorld deployment.
 5. **Gouri**: Safety testing via adversarial prompts, vulnerability identification.
